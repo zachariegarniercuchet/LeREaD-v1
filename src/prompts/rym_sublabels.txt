@@ -1,0 +1,156 @@
+
+###Types of Sub-Labels  
+
+ 
+
+####<title>   
+
+Name of the legislative text, decision, or publication (full or shortened form, including aliases, abbreviations, and other contextual naming). 
+
+ 
+
+Examples: 
+
+-Bell Canada v. Canada (Attorney General)  
+
+-Dunsmuir v. New Brunswick 
+
+-Standards of Review in Administrative Law 
+
+-Statelessness in Canadian Context: A Discussion Paper 
+
+-Immigration and Refugee Protection Act 
+
+-Constitution Act, 1867 
+
+-Ontario Human Rights Code 
+
+-Charter (when used a contextual alias in the document)  
+
+-CCQ (when used as a contextual abbreviation in the document)  
+
+-Dunsmuir (when use as a contextual alias for Dunsmuir v. New Brunswick in the document)  
+
+-The Act (when used as contextual naming of a specific legislation referenced in the document)  
+
+ 
+
+--- 
+
+ 
+
+####<citation>   
+
+Citation details for legislation or decisions (year, reporter, chapter, court, etc.).  
+
+ 
+
+For decisions, each neutral or reporter citation must be wrapped in its own <citation> sub- label. 
+
+ 
+
+Examples: 
+
+-2019 SCC 66- 
+
+-R.S.C. 1985, c. C-29- 
+
+- [1999] O.J. No. 2467 (QL)  
+
+-505 U.S. 833 (1992) 
+
+-S.O. 196162, c. 93 
+
+-R.S.O. 1960, c. 71 
+
+ 
+
+--- 
+
+ 
+
+#### <authors>   
+
+Author(s) of secondary sources. Include all listed authors within a single <authors> sub-label. 
+
+ 
+
+Examples: 
+
+-J.L. Baudouin 
+
+-CohenEliya, Moshe, and Iddo Porat 
+
+-C. Massé, J. Baker, C. Bastien et al.  
+
+-Dicey 
+
+ 
+
+#### <source>   
+
+ 
+
+Publication details for secondary sources (journal, publisher, year, volume, etc.). 
+
+ 
+
+Examples: 
+
+- (8th ed. 2014 
+
+- (1983), 43 R. du B. 277 
+
+-10th ed. (1959)  
+
+-Barreau du Québec, vol. 243, Développements récents en droit des assurances (2006), 121 
+
+-38 McGill L.J. 147 
+
+ 
+
+####<fragment> 
+
+ 
+
+Specific pinpoint reference to a portion of the legal source.  
+
+ 
+
+Each fragment must be wrapped in its own <fragment> sub- label. 
+
+ 
+
+Examples: 
+
+-section 7 
+
+- s. 7(1)(a)  
+
+- article 1457 
+
+-Part II 
+
+- Schedule I 
+
+-ss. 3–5 
+
+-article 17 et seq 
+
+-para 25 
+
+-paras 26–30 
+
+-p. 353 
+
+-at para 42 
+
+-pp. 225–227 
+
+-no. 125 
+
+-§ 32 
+
+ 
+
+--- 
