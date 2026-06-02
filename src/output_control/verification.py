@@ -3,8 +3,13 @@ Verification utilities for validating LLM-generated annotated text.
 These functions check the validity of processed chunks without modifying them.
 """
 
-from .html_utils import is_auto_label_tag
-from .htmlLabel import HTMLLabel
+import sys
+from pathlib import Path
+
+from config import LABEL_SCHEME, STRUCTURAL_LABELS
+
+from src.html_utils import is_auto_label_tag
+from src.htmlLabel import HTMLLabel
 
 import json
 from typing import Dict, List, Tuple, Optional
@@ -12,40 +17,7 @@ from bs4 import BeautifulSoup
 
 
 # Label scheme definition based on label schemes.html
-LABEL_SCHEME = {
-    "legislation": {
-        "attributes": ["docid", "uri"],  
-        "required": False
-    },
-    "decision": {
-        "attributes": ["docid", "uri"],  
-        "required": False
-    },
-    "secondary sources": {
-        "attributes": ["docid", "uri"],
-        "required": False
-    },
-    "title": {
-        "attributes": ["titletype"], 
-        "required": False
-    },
-    "citation": {
-        "attributes": [],
-        "required": False
-    },
-    "source": {
-        "attributes": [],
-        "required": False
-    },
-    "authors": {
-        "attributes": [],   
-        "required": False
-    },
-    "fragment": {
-        "attributes": ["fragmentid", 'non_standard'],
-        "required": False
-    }
-}
+
 
 
 class VerificationResult:
@@ -64,10 +36,45 @@ class VerificationResult:
         if self.passed:
             return "VerificationResult(passed=True)"
         return f"VerificationResult(passed=False, error='{self.error_type}', details='{self.details}')"
+    
 
 
-def check_hallucination(original_tokens: list, processed_tokens: list, 
-                       normalize: bool = True, keep_manual_label: bool = True) -> VerificationResult:
+def _find_token_differences(tokens1: list, tokens2: list, context: int = 5) -> str:
+    """
+    Find where two token lists differ and return a description.
+    
+    Args:
+        tokens1: First token list
+        tokens2: Second token list
+        context: Number of tokens to show before/after difference
+    
+    Returns:
+        String describing the difference location
+    """
+    min_len = min(len(tokens1), len(tokens2))
+    
+    # Find first difference
+    for i in range(min_len):
+        if tokens1[i] != tokens2[i]:
+            start = max(0, i - context)
+            end = min(min_len, i + context + 1)
+            
+            context1 = tokens1[start:end]
+            context2 = tokens2[start:end]
+            
+            return (f"First difference at position {i}:\n"
+                   f"  Original: ...{' '.join(context1)}...\n"
+                   f"  Processed: ...{' '.join(context2)}...")
+    
+    # Lists match up to min_len but have different lengths
+    if len(tokens1) != len(tokens2):
+        return (f"Token lists have different lengths: "
+               f"original={len(tokens1)}, processed={len(tokens2)}")
+    
+    return "No differences found"
+
+
+def check_hallucination(original_tokens: list, processed_tokens: list) -> VerificationResult:
     """
     Verify that processed tokens match original tokens when labels are stripped.
     
@@ -83,20 +90,18 @@ def check_hallucination(original_tokens: list, processed_tokens: list,
     Returns:
         VerificationResult with passed=True if no hallucination detected
     """
-    from .html_cleaner import clean_tokens
+    from ..html_cleaner import clean_tokens
     
     original_cleaned = clean_tokens(
         original_tokens, 
-        normalize=normalize, 
-        keep_manual_label=keep_manual_label,
+        keep_manual_label=True,
         keep_auto_label=False,
         keep_bookmarks=False
     )
     
     processed_cleaned = clean_tokens(
         processed_tokens,
-        normalize=normalize,
-        keep_manual_label=keep_manual_label,
+        keep_manual_label=True,
         keep_auto_label=False,
         keep_bookmarks=False
     )
@@ -241,7 +246,7 @@ def check_nesting(tokens: list) -> VerificationResult:
     parent auto_label tag.
 
     Checks:
-    - 'title', 'citation', 'source', 'authors' must have at least one
+    - 'title', 'citation', 'source', 'authors', 'fragment' must have at least one
       auto_label ancestor (i.e. must not appear at the top level)
     - 'legislation', 'decision', 'secondary sources' are always valid
       regardless of nesting
@@ -252,7 +257,7 @@ def check_nesting(tokens: list) -> VerificationResult:
     Returns:
         VerificationResult with passed=True if all nesting rules are respected
     """
-    STRUCTURAL_LABELS = {"title", "citation", "source", "authors"}
+    
 
     # Stack holds the labelname of every currently-open auto_label tag
     stack: list[str] = []
@@ -295,8 +300,7 @@ def check_nesting(tokens: list) -> VerificationResult:
 
 
 def verify_processed_chunk(original_tokens: list, processed_tokens: list,
-                          allowed_labels: Optional[List[str]] = None,
-                          check_scheme: bool = True) -> VerificationResult:
+                          allowed_labels: Optional[List[str]] = None) -> VerificationResult:
     """
     Run all verification checks on a processed chunk.
     
@@ -327,11 +331,10 @@ def verify_processed_chunk(original_tokens: list, processed_tokens: list,
     if not result:
         return result
     
-    # Check 3: Label scheme (optional)
-    if check_scheme:
-        result = check_label_scheme(processed_tokens, allowed_labels)
-        if not result:
-            return result
+    # Check 3: Label scheme
+    result = check_label_scheme(processed_tokens, allowed_labels)
+    if not result:
+        return result
         
     result = check_nesting(processed_tokens)
     if not result:
@@ -340,36 +343,4 @@ def verify_processed_chunk(original_tokens: list, processed_tokens: list,
     return VerificationResult(passed=True)
 
 
-def _find_token_differences(tokens1: list, tokens2: list, context: int = 5) -> str:
-    """
-    Find where two token lists differ and return a description.
-    
-    Args:
-        tokens1: First token list
-        tokens2: Second token list
-        context: Number of tokens to show before/after difference
-    
-    Returns:
-        String describing the difference location
-    """
-    min_len = min(len(tokens1), len(tokens2))
-    
-    # Find first difference
-    for i in range(min_len):
-        if tokens1[i] != tokens2[i]:
-            start = max(0, i - context)
-            end = min(min_len, i + context + 1)
-            
-            context1 = tokens1[start:end]
-            context2 = tokens2[start:end]
-            
-            return (f"First difference at position {i}:\n"
-                   f"  Original: ...{' '.join(context1)}...\n"
-                   f"  Processed: ...{' '.join(context2)}...")
-    
-    # Lists match up to min_len but have different lengths
-    if len(tokens1) != len(tokens2):
-        return (f"Token lists have different lengths: "
-               f"original={len(tokens1)}, processed={len(tokens2)}")
-    
-    return "No differences found"
+

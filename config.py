@@ -1,0 +1,55 @@
+from pathlib import Path
+
+
+PROJECT_ROOT = Path(__file__).parent
+
+DATA_DIR  = PROJECT_ROOT / "data"
+CACHE_DIR = PROJECT_ROOT / "cache"
+IMG_DIR   = PROJECT_ROOT / "img"
+
+CHUNK_CACHE_DIR   = CACHE_DIR / "chunks"
+PATTERN_CACHE_DIR = CACHE_DIR / "patterns"
+FEWSHOT_CACHE_DIR = CACHE_DIR / "fewshot"
+
+PROMPT_DIR = PROJECT_ROOT / "src" /"prompts"
+
+MIN_TOKENS         = 500
+CITATION_THRESHOLD = 25
+SPLITS             = ["train", "test", "dev"]
+
+FEWSHOT_N          = 100
+FEWSHOT_METHOD     = "random"   # "greedy" | "random" 
+FEWSHOT_MAX_INPUT_LEN = 2000
+
+
+FS_MIN_TOKENS = 100
+LABEL_SCHEME = {
+    "legislation": {
+        "attributes": ["docid", "uri"],  
+    },
+    "decision": {
+        "attributes": ["docid", "uri"],  
+    },
+    "secondary sources": {
+        "attributes": ["docid", "uri"],
+    },
+    "title": {
+        "attributes": ["titletype"], 
+    },
+    "citation": {
+        "attributes": [],
+    },
+    "source": {
+        "attributes": [],
+    },
+    "authors": {
+        "attributes": [],   
+    },
+    "fragment": {
+        "attributes": ["fragmentid", 'non_standard'],
+    }
+}
+
+STRUCTURAL_LABELS = {"title", "citation", "source", "authors", "fragment"}
+
+LABEL_SCHEME_PATH = PROJECT_ROOT / "src" / "post_processing" / "label_scheme.json"

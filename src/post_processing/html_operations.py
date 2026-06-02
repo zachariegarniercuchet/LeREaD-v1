@@ -1,0 +1,298 @@
+import re
+import json
+from bs4 import BeautifulSoup
+
+from config import LABEL_SCHEME_PATH
+
+def clean_html_formatting(html: str, tags_to_clean: set = None, debug: bool = False) -> str:
+    """
+    Clean HTML by removing useless formatting artifacts WITHOUT changing any text content.
+    
+    This function performs comprehensive HTML normalization by:
+    1. PASS 1: Remove ALL empty tags (tags with NO children)
+    2. PASS 2: Merge ALL adjacent identical tags (same name + attributes, no text between)
+    3. Repeat until no more changes
+    
+    CRITICAL: Only merges tags that are truly adjacent with no text nodes between them.
+    This preserves ALL text content (including spaces) for character-by-character comparison.
+    
+    Helps normalize HTML for comparison by removing artifacts like:
+    - Empty tags: <i></i>, <span class="..."></span>
+    - Adjacent empty + non-empty: <i></i><i>text</i> → <i>text</i>
+    - Adjacent identical tags: <b>a</b><b>b</b> → <b>ab</b>
+    
+    Does NOT merge tags with ANY content between them:
+    - <i>a</i> <i>b</i> → stays as is (space preserved)
+    - <b>a</b>text<b>b</b> → stays as is
+    
+    Args:
+        html: HTML string to clean
+        tags_to_clean: Set of tag names to check. If None, checks common formatting tags.
+        debug: If True, print debug information about cleaning operations
+    
+    Returns:
+        Cleaned HTML string with useless formatting removed, all text preserved
+    
+    Examples:
+        >>> clean_html_formatting('<b>text</b><b>more</b>')
+        '<b>textmore</b>'
+        >>> clean_html_formatting('<i></i><i>text</i>')
+        '<i>text</i>'
+        >>> clean_html_formatting('<span></span>text')
+        'text'
+        >>> clean_html_formatting('<i>a</i> <i>b</i>')  # space preserved
+        '<i>a</i> <i>b</i>'
+    """
+    if tags_to_clean is None:
+        tags_to_clean = {"span", "i", "b", "strong", "u", "em", "mark", "sup", "sub"}
+    
+    soup = BeautifulSoup(html, 'html.parser')
+    
+    max_iterations = 50  # Safety limit
+    total_empty_removed = 0
+    total_merged = 0
+    
+    if debug:
+        print(f"\n=== Starting clean_html_formatting ===")
+        print(f"Tags to clean: {tags_to_clean}")
+        print(f"Input length: {len(html)} chars")
+    
+    # Loop until no more changes can be made
+    for iteration in range(max_iterations):
+        if debug:
+            print(f"\n--- Iteration {iteration + 1} ---")
+        
+        # PASS 1: Remove ALL empty tags in one complete pass
+        empty_removed_this_pass = 0
+        for tag_name in tags_to_clean:
+            while True:  # Keep removing until no more empty tags of this type
+                tags = soup.find_all(tag_name)
+                found_empty = False
+                
+                for tag in tags:
+                    # Check if tag has NO children (not even text/whitespace)
+                    if len(list(tag.children)) == 0:
+                        if debug:
+                            print(f"  [PASS 1] Removing empty <{tag_name}> tag")
+                        tag.decompose()
+                        empty_removed_this_pass += 1
+                        found_empty = True
+                        break  # Restart search after modification
+                
+                if not found_empty:
+                    break  # No more empty tags of this type
+        
+        total_empty_removed += empty_removed_this_pass
+        if debug and empty_removed_this_pass > 0:
+            print(f"  [PASS 1] Removed {empty_removed_this_pass} empty tags")
+        
+        # PASS 2: Merge ALL adjacent identical tags in one complete pass
+        merged_this_pass = 0
+        for tag_name in tags_to_clean:
+            while True:  # Keep merging until no more adjacent pairs of this type
+                tags = soup.find_all(tag_name)
+                found_merge = False
+                
+                for tag in tags:
+                    # Look at the next sibling - must be immediate, no text between
+                    next_sib = tag.next_sibling
+                    
+                    # Only merge if next sibling is same tag type with same attributes
+                    if (next_sib and 
+                        hasattr(next_sib, 'name') and 
+                        next_sib.name == tag_name and
+                        dict(tag.attrs) == dict(next_sib.attrs)):
+                        
+                        if debug:
+                            tag_str = str(tag)[:60] + "..." if len(str(tag)) > 60 else str(tag)
+                            next_str = str(next_sib)[:60] + "..." if len(str(next_sib)) > 60 else str(next_sib)
+                            print(f"  [PASS 2] Merging <{tag_name}> tags:")
+                            print(f"           First:  {tag_str}")
+                            print(f"           Second: {next_str}")
+                        
+                        # Merge: move all contents from next_sib into tag
+                        children_to_move = list(next_sib.children)
+                        for child in children_to_move:
+                            tag.append(child)
+                        
+                        # Remove the now-empty next tag
+                        next_sib.decompose()
+                        merged_this_pass += 1
+                        found_merge = True
+                        break  # Restart search after modification
+                
+                if not found_merge:
+                    break  # No more adjacent pairs of this type
+        
+        total_merged += merged_this_pass
+        if debug and merged_this_pass > 0:
+            print(f"  [PASS 2] Merged {merged_this_pass} adjacent tag pairs")
+        
+        # If no changes in this iteration, we're done
+        if empty_removed_this_pass == 0 and merged_this_pass == 0:
+            if debug:
+                print(f"\n=== Cleaning complete after {iteration + 1} iterations ===")
+                print(f"Total empty tags removed: {total_empty_removed}")
+                print(f"Total tag pairs merged: {total_merged}")
+                print(f"Output length: {len(str(soup))} chars")
+            break
+    
+    return str(soup)
+
+def add_attributes_to_auto_labels(html_content: str) -> str:
+    """
+    Add parent, style, verified, and all label scheme attributes to auto_label tags in HTML content.
+    
+    The function loads the label scheme from a JSON file to determine:
+    - Parent relationships based on nesting context (parent is the immediately enclosing auto_label)
+    - Colors for each label (converted to background-color style)
+    - All attributes defined in the label scheme for each label
+    
+    Attributes are initialized as follows:
+    - String type: empty string "" (or default value from scheme)
+    - Checkbox type: "false" (or default value from scheme)
+    - Dropdown type: default value from the label scheme
+    
+    Also adds verified="false" to all auto_label tags.
+    
+    Args:
+        html_content: HTML string with auto_label tags
+    
+    Returns:
+        Modified HTML string with all attributes added
+    """
+
+    with open(LABEL_SCHEME_PATH, 'r', encoding='utf-8') as f:
+        label_scheme = json.load(f)
+    
+    # Build style mapping and attributes mapping from label scheme
+    style_map = {}
+    attributes_map = {}
+    
+    # Helper function to determine text color based on background brightness
+    def get_text_color(hex_color: str) -> str:
+        """Determine if text should be black or white based on background color brightness."""
+        # Remove # if present
+        hex_color = hex_color.lstrip('#')
+        # Convert to RGB
+        r, g, b = int(hex_color[0:2], 16), int(hex_color[2:4], 16), int(hex_color[4:6], 16)
+        # Calculate relative luminance
+        luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255
+        return 'black' if luminance > 0.5 else 'white'
+    
+    # Convert hex color to rgb format
+    def hex_to_rgb(hex_color: str) -> str:
+        """Convert hex color to rgb() format."""
+        hex_color = hex_color.lstrip('#')
+        r, g, b = int(hex_color[0:2], 16), int(hex_color[2:4], 16), int(hex_color[4:6], 16)
+        return f"rgb({r}, {g}, {b})"
+    
+    # Helper to get attribute value based on type
+    def get_attribute_value(attr_config: dict) -> str:
+        """Get the initial value for an attribute based on its type."""
+        attr_type = attr_config.get('type', 'string')
+        if attr_type == 'string':
+            return attr_config.get('default', '')
+        elif attr_type == 'checkbox':
+            default = attr_config.get('default', False)
+            return 'true' if default else 'false'
+        elif attr_type == 'dropdown':
+            return attr_config.get('default', '')
+        else:
+            return ''
+    
+    # Process label scheme to build style and attributes mappings
+    for parent_label, parent_data in label_scheme.items():
+        # Set style for top-level label
+        if 'color' in parent_data:
+            bg_color = hex_to_rgb(parent_data['color'])
+            text_color = get_text_color(parent_data['color'])
+            style_map[parent_label] = f"background-color: {bg_color}; color: {text_color};"
+        
+        # Set attributes for top-level label
+        if 'attributes' in parent_data:
+            attributes_map[parent_label] = parent_data['attributes']
+        
+        # Process sublabels
+        if 'sublabels' in parent_data:
+            for sublabel, sublabel_data in parent_data['sublabels'].items():
+                # Set style for sublabel
+                if 'color' in sublabel_data:
+                    bg_color = hex_to_rgb(sublabel_data['color'])
+                    text_color = get_text_color(sublabel_data['color'])
+                    style_map[sublabel] = f"background-color: {bg_color}; color: {text_color};"
+                
+                # Set attributes for sublabel
+                if 'attributes' in sublabel_data:
+                    attributes_map[sublabel] = sublabel_data['attributes']
+    
+    # Pattern to match auto_label tags (opening and closing)
+    tag_pattern = r'<(/?)auto_label([^>]*)>'
+    
+    # Stack to track currently open auto_labels
+    label_stack = []
+    result_parts = []
+    last_pos = 0
+    
+    for match in re.finditer(tag_pattern, html_content, flags=re.IGNORECASE):
+        # Add text before this tag
+        result_parts.append(html_content[last_pos:match.start()])
+        
+        is_closing = match.group(1) == '/'
+        tag_content = match.group(2)
+        
+        if is_closing:
+            # Closing tag - pop from stack
+            if label_stack:
+                label_stack.pop()
+            result_parts.append(match.group(0))
+        else:
+            # Opening tag - extract labelname and determine parent
+            labelname_match = re.search(r'labelname="([^"]*)"', tag_content)
+            if labelname_match:
+                labelname = labelname_match.group(1)
+                
+                # Parent is the labelname of the tag at the top of the stack (or "" if stack is empty)
+                parent_value = label_stack[-1] if label_stack else ""
+                parent_attr = f'parent="{parent_value}"'
+                
+                # Get style attribute from label scheme
+                style = style_map.get(labelname, '')
+                style_attr = f'style="{style}"' if style else ''
+                
+                # Add verified attribute
+                verified_attr = 'verified="false"'
+                
+                # Get all attributes for this label from label scheme
+                label_attrs = attributes_map.get(labelname, {})
+                scheme_attrs = []
+                for attr_name, attr_config in label_attrs.items():
+                    attr_value = get_attribute_value(attr_config)
+                    scheme_attrs.append(f'{attr_name}="{attr_value}"')
+                
+                # Remove existing parent/style/verified/scheme attributes if present
+                tag_content = re.sub(r'\s*parent="[^"]*"', '', tag_content)
+                tag_content = re.sub(r'\s*style="[^"]*"', '', tag_content)
+                tag_content = re.sub(r'\s*verified="[^"]*"', '', tag_content)
+                # Remove existing scheme attributes
+                for attr_name in label_attrs.keys():
+                    tag_content = re.sub(rf'\s*{re.escape(attr_name)}="[^"]*"', '', tag_content)
+                
+                # Build new tag with all attributes
+                all_attrs = [parent_attr, style_attr, verified_attr] + scheme_attrs
+                attrs_str = ' '.join(filter(None, all_attrs))  # Filter out empty strings
+                new_tag = f'<auto_label{tag_content} {attrs_str}>'
+                result_parts.append(new_tag)
+                
+                # Push this label onto the stack
+                label_stack.append(labelname)
+            else:
+                # No labelname found, keep tag as-is
+                result_parts.append(match.group(0))
+        
+        last_pos = match.end()
+    
+    # Add remaining text after last tag
+    result_parts.append(html_content[last_pos:])
+    
+    return ''.join(result_parts)

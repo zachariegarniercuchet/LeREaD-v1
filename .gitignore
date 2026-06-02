@@ -1,2 +1,6 @@
 data.zip
 software.zip
+
+__pycache__/
+
+private/
