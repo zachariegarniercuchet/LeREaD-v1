@@ -63,25 +63,25 @@ class BaseAssistant(ABC):
 
 
 
-def get_message(system_prompt, user_input, fewshot_examples=None, has_system_role=True):
+def get_messages(system_prompt, user_input, fewshot_examples=None, has_system_role=True):
 
     if has_system_role:
         message = [{"role": "system", "content": system_prompt}]
-        if fewshot_examples is not None:
-            message.append({"role": "user", "content": f"{fewshot_examples[0][0]}"})
+        if fewshot_examples is not None and fewshot_examples != []:
+            message.append({"role": "user", "content": f"Annotate this text:{fewshot_examples[0][0]}"})
     else:
-        message = [{"role": "user", "content": f"{system_prompt} \n\n {fewshot_examples[0][0] if fewshot_examples is not None and fewshot_examples != [] else user_input}"}]
+        message = [{"role": "user", "content": f"{system_prompt} \n\n Annotate this text:{fewshot_examples[0][0]}"}]
 
     
     if fewshot_examples is not None and fewshot_examples != []:
         for i, example in enumerate(fewshot_examples):
 
             if i != 0:
-                message.append({"role": "user", "content": f"{example[0]}"})
+                message.append({"role": "user", "content": f"Annotate this text:{example[0]}"})
 
             message.append({"role": "assistant", "content": f"{example[1]}"})
 
         # User input 
-        message.append({"role": "user", "content": f"{user_input}"})
+        message.append({"role": "user", "content": f"Annotate this text:{user_input}"})
     
     return message

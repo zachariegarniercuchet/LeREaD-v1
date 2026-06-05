@@ -4,6 +4,7 @@ import sys
 from pathlib import Path
 import json
 import argparse
+import token
 from typing import List, Optional, Dict, Any
 from datetime import datetime
 
@@ -13,6 +14,12 @@ from tqdm import tqdm
 PROJECT_ROOT = Path.cwd()
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
+
+
+MODEL_MAPPING_NAME = {
+    "qwen7b": "Qwen2.5-7B-Instruct",
+    "gpt-5.2": "gpt-5.2",
+}
 
 from config import DATA_DIR, FEWSHOT_CACHE_DIR, PROMPT_DIR
 from run_config import RunConfig
@@ -24,7 +31,7 @@ from src.tokenizer_utils import tokenize, decode
 from src import clean_tokens
 from src.chunkers.cache import cache_exists, load_cache
 from src.chunkers import ChunkerFactory
-from src.models import get_message, AssistantFactory
+from src.models import get_messages, AssistantFactory
 from src.output_control.processor import OutputProcessor
 from src.output_control.fallback import FallbackHandler 
 from src.output_control.verification import VerificationResult 
@@ -51,7 +58,7 @@ def get_method_config(method: str) -> Dict[str, Any]:
             "already_labeled_labels": [],
             "new_labels": ["decision", "legislation", "secondary sources"],
             "spans_in_context": True,
-            "prompt_filename": "decomposed0_long.txt",
+            "prompt_filename": "decomposed0_short.txt",
             "use_chunking": True,
         },
         "DEC1": {
@@ -200,23 +207,29 @@ def process_output(
         original_chunk=token_chunk,
         allowed_labels=allowed_labels
     )
+
+    if status.passed:
+        return token_chunk, status
+
+    if not with_fallback:
+        return token_chunk, status
     
-    if not status.passed and with_fallback:
-        corrected_generated_tokens, status_dict = fallback_handler.handle_failure(
-            assistant=assistant,
-            corrected_output=corrected_generated_tokens,
-            original_chunk=token_chunk,
-            initial_status=status,
-            allowed_labels=allowed_labels,
-            fallback_prompt_filename="fallback.txt"
-        )
-        # Convert dict to VerificationResult
-        status = VerificationResult(
-            passed=status_dict.get('passed', False),
-            error_type=status_dict.get('error_type'),
-            details=status_dict.get('error_details'),
-            tokens=corrected_generated_tokens
-        )
+    
+    corrected_generated_tokens, status_dict = fallback_handler.handle_failure(
+        assistant=assistant,
+        corrected_output=corrected_generated_tokens,
+        original_chunk=token_chunk,
+        initial_status=status,
+        allowed_labels=allowed_labels,
+        fallback_prompt_filename="fallback.txt"
+    )
+    # Convert dict to VerificationResult
+    status = VerificationResult(
+        passed=status_dict.get('passed', False),
+        error_type=status_dict.get('error_type'),
+        details=status_dict.get('error_details'),
+        tokens=corrected_generated_tokens
+    )
     
     return corrected_generated_tokens, status
 
@@ -251,14 +264,14 @@ def process_aio_dec0(
     
     for chunk_tokens in tqdm(token_chunks, desc="Processing chunks"):
         user_input = decode(chunk_tokens)
-        message = get_message(
+        messages = get_messages(
             system_prompt=system_prompt,
             user_input=user_input,
             fewshot_examples=fewshot_examples,
             has_system_role=True
         )
         
-        generated = assistant.generate(message=message)
+        generated = assistant.generate(messages=messages)
         corrected_generated_tokens, status = process_output(
             generated=generated,
             token_chunk=chunk_tokens,
@@ -336,14 +349,14 @@ def process_dec1_3(
         ]
         
         
-        message = get_message(
+        messages = get_messages(
             system_prompt=system_prompt,
             user_input=user_input,
             fewshot_examples=filtered_fewshot,
             has_system_role=True
         )
         
-        generated = assistant.generate(message=message)
+        generated = assistant.generate(messages=messages)
         corrected_generated_tokens, status = process_output(
             generated=generated,
             token_chunk=prepare_label_tokens(mention, config),
@@ -599,12 +612,15 @@ def main():
 
     # ── Model loaded ONCE here ──────────────────────────────────────────────
     print(f"[Setup] Loading model {run.model}...")
-    assistant = AssistantFactory.create_from_config({
-        "type": "openai",
-        "model_name": run.model,
-        "temperature": run.temperature,
-    })
-    print(f"  ✓ Model ready\n")
+
+    if run.model == "gpt-5.2":
+        assistant = AssistantFactory.create_from_config({
+            "type": "gpt",
+            "model_name": run.model,
+            "temperature": run.temperature,
+        })
+    else:
+        assistant = AssistantFactory.create(MODEL_MAPPING_NAME[run.model])
 
     print(f"[Setup] Mode: {run.mode.upper()} | Files: {len(filenames)} | Output: {output_root}\n")
 
@@ -624,14 +640,7 @@ def main():
         
         
         process_file(filename, split, run, assistant, exp_dir)
-        #except Exception as e:
-        #    print(f"  ✗ FAILED: {e}")
-            # In split mode, log and continue; in single mode, raise
-        #    if run.mode == "single":
-        #        raise
-        #    with open(output_root / "errors.log", "a") as log:
-        #        log.write(f"{filename}: {e}\n")
-        #    continue
+
 
     
     

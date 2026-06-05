@@ -12,7 +12,7 @@ from src.models.factory import AssistantFactory
 from ..tokenizer_utils import decode
 from .processor import OutputProcessor
 from .verification import VerificationResult
-from src.models import get_message
+from src.models import get_messages
 
 from config import PROMPT_DIR
 
@@ -84,8 +84,8 @@ class FallbackHandler:
         )
         
         # Generate fallback output
-        message = get_message(system_prompt=fallback_system_prompt, user_input=fallback_user_prompt, fewshot_examples=None, has_system_role=assistant.has_system_role)
-        fallback_output = assistant.generate(message=message)
+        messages = get_messages(system_prompt=fallback_system_prompt, user_input=fallback_user_prompt, fewshot_examples=None, has_system_role=assistant.has_system_role)
+        fallback_output = assistant.generate(messages=messages)
         
         
         # Process fallback output
@@ -207,16 +207,20 @@ Return ONLY the corrected annotated paragraph, nothing else.
         
         else:
             # If fallback also fails, return original tokens with failure status unless it was a nesting error
-            return original_chunk, {
-                'passed': False,
-                'error_type': fallback_meta.get('error_type'),
-                'error_details': fallback_meta.get('error_details'),
-                'fallback_used': fallback_meta.get('fallback_used', False),
-                'fallback_passed': fallback_passed
-            } if initial_status.error_type != 'nesting' else corrected_output, {
-                'passed': False,
-                'error_type': initial_status.error_type,
-                'error_details': initial_status.details,
-                'fallback_used': False,
-                'fallback_passed': False
+
+            if initial_status.error_type != 'nesting':
+                return original_chunk, {
+                    'passed': False,
+                    'error_type': fallback_meta.get('error_type'),
+                    'error_details': fallback_meta.get('error_details'),
+                    'fallback_used': fallback_meta.get('fallback_used', False),
+                    'fallback_passed': fallback_passed
+                }  
+            else:
+                return corrected_output, {
+                    'passed': False,
+                    'error_type': initial_status.error_type,
+                    'error_details': initial_status.details,
+                    'fallback_used': False,
+                    'fallback_passed': False
             }
