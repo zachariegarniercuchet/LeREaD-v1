@@ -3,6 +3,7 @@ from typing import Dict, Any, Literal
 from src.models.base import BaseAssistant
 from src.models.openai_assistant import OpenAIAssistant
 from src.models.openweight_assistant import OpenWeightAssistant
+from src.models.registry import MODEL_REGISTRY
 
 
 class AssistantFactory:
@@ -42,17 +43,17 @@ class AssistantFactory:
     
     @staticmethod
     def create(
-        assistant_type: Literal["openai", "openweight"],
         model_name: str,
         temperature: float = 0.3,
+        quantization: str = None,
         **kwargs
     ) -> BaseAssistant:
         """Create an assistant instance.
         
         Args:
-            assistant_type: Type of assistant ("openai" or "openweight")
             model_name: Name or path of the model
             temperature: Sampling temperature (0.0 to 2.0)
+            quantization: Quantization method (optional)
             **kwargs: Additional model-specific parameters
         
         Returns:
@@ -61,17 +62,29 @@ class AssistantFactory:
         Raises:
             ValueError: If assistant_type is not supported
         """
-        if assistant_type == "openai":
-            return OpenAIAssistant(model_name=model_name, temperature=temperature, **kwargs)
         
-        elif assistant_type == "openweight":
-            return OpenWeightAssistant(model_name=model_name, temperature=temperature, **kwargs)
-        
-        else:
+        if model_name not in MODEL_REGISTRY:
             raise ValueError(
-                f"Unknown assistant type: {assistant_type}. "
-                f"Supported types: 'openai', 'openweight'"
+                f"Unknown model '{model_name}'. Available: {list(MODEL_REGISTRY.keys())}"
             )
+        cfg = MODEL_REGISTRY[model_name]
+        quant = quantization or cfg["default_quantization"]
+
+        if cfg["type"] == "openweight":
+            return OpenWeightAssistant(
+                model_name=model_name,
+                model_path=cfg["path"],
+                temperature=temperature,
+                quantization=quant,
+                trust_remote_code=cfg["trust_remote_code"],
+                has_system_role=cfg["has_system_role"],
+                thinking=cfg["thinking"],
+                **kwargs,
+            )
+        elif cfg["type"] == "openai":
+            return OpenAIAssistant(model_name=model_name, temperature=temperature, **kwargs)
+        else:
+            raise ValueError(f"Unknown type: {cfg['type']}")
     
     @staticmethod
     def create_from_config(config: Dict[str, Any]) -> BaseAssistant:
