@@ -9,7 +9,6 @@ from sympy import content
 
 from src.htmlLabel import from_simplified
 from src.html_utils import get_tag_name, is_auto_label_tag, is_closing_tag, is_opening_tag
-from ..chunck_level_post_processing import apply_post_processing_transforms
 from .protected_levenshtein_alignnment import protected_levenshtein_distance, apply_operations_safe
 from .verification import verify_processed_chunk, VerificationResult
 from ..tokenizer_utils import decode

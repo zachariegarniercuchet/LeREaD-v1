@@ -2,7 +2,6 @@ from .html_utils import extract_body, is_manual_label_tag, is_auto_label_tag, is
 from .tokenizer_utils import tokenize, decode
 from .transforme_utils import clean_tokens
 from .htmlLabel import HTMLLabel, from_simplified
-from .chunck_level_post_processing import apply_post_processing_transforms
 from .output_control.verification import verify_processed_chunk, check_hallucination, check_consistency, check_label_scheme, VerificationResult, LABEL_SCHEME
-from .evaluation_l1_util import evaluate_batch, evaluate, show_errors
-from .evaluation_l2_util import evaluate_attribute, evaluate_attribute_batch
+from .evaluation.evaluation_l1_util import evaluate_batch, evaluate, show_errors
+from .evaluation.evaluation_l2_util import evaluate_attribute, evaluate_attribute_batch

@@ -138,6 +138,8 @@ def load_fewshot_examples(
             final_fewshot.append((decode(transformed_input_tokens), decode(transformed_output_tokens)))
         else:
             total_output_text += "|||" + decode(transformed_output_tokens)
+
+    final_fewshot = final_fewshot[:nb_examples]
     
     if not spans_in_context:
         parents_dict = _parse_parent_annotations(total_output_text)
@@ -154,7 +156,7 @@ def load_fewshot_examples(
                 if input_text != annotation:
                     final_fewshot.append((input_text, annotation))
     
-    return final_fewshot[:nb_examples]
+    return final_fewshot
 
 
 def load_html_document(filename: str, split: str) -> str:
@@ -219,25 +221,17 @@ def process_output(
     return corrected_generated_tokens, status
 
 
-def create_experiment_folder(
-    base_output_dir: Path,
-    filename: str,
-    method: str,
-    fewshot_method: str,
-    fewshot_examples: int,
-    chunker: str,
-) -> Path:
-    """Create an experiment folder with descriptive name."""
-
-    if WITH_TIMESTAMP :
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        exp_name = f"{filename}_{method}_fs{fewshot_examples}_{fewshot_method}_{chunker}_{timestamp}"
-    else:
-        exp_name = f"{filename}_{method}_fs{fewshot_examples}_{fewshot_method}_{chunker}"
-
-    exp_dir = base_output_dir / exp_name
-    exp_dir.mkdir(parents=True, exist_ok=True)
-    return exp_dir
+def get_checkpoint(exp_dir: Path, filename: str, step: str) -> Optional[str]:
+    """Return HTML content if checkpoint exists, else None.
+    
+    step examples: 'processed', '0', '1', '2', '3', 'final'
+    """
+    checkpoint_path = exp_dir / f"{filename}_{step}.html"
+    if checkpoint_path.exists():
+        print(f"  ⏭  Checkpoint found: {checkpoint_path.name} — skipping")
+        with open(checkpoint_path, "r", encoding="utf-8") as f:
+            return f.read()
+    return None
 
 
 def process_aio_dec0(
@@ -341,6 +335,7 @@ def process_dec1_3(
             if example[0].startswith(f"<{html_label.name}>")
         ]
         
+        
         message = get_message(
             system_prompt=system_prompt,
             user_input=user_input,
@@ -415,28 +410,32 @@ def process_file(filename, split, run, assistant, exp_dir):
         print(f"  ✓ Loaded prompt ({len(system_prompt)} characters)\n")
         
         # Step 6: Process all chunks
-        print("[Step 6] Processing chunks...")
-        processed_chunks, fallback_count = process_aio_dec0(
-            html_content, token_chunks, system_prompt, fewshot_examples,
-            allowed_labels, assistant, run.disable_fallback
-        )
-        print(f"  ✓ Processed all {len(token_chunks)} chunks")
-        if fallback_count > 0:
-            print(f"  ℹ️  Fallback mechanism invoked {fallback_count} time(s)\n")
+        cached = get_checkpoint(exp_dir, filename, "processed")
+        if cached is not None:
+            output_html_content = cached
         else:
-            print()
-        
-        # Step 7: Post-processing
-        print("[Step 7] Post-processing document...")
-        output_html_content = chunks_to_html(processed_chunks, html_content)
-        print(f"  ✓ Post-processing complete\n")
-        
-        # Step 8: Save output
-        print("[Step 8] Saving output...")
-        output_filename = exp_dir / f"{filename}_processed.html"
-        with open(output_filename, "w", encoding="utf-8") as f:
-            f.write(output_html_content)
-        print(f"  ✓ Saved to {output_filename}\n")
+            print("[Step 6] Processing chunks...")
+            processed_chunks, fallback_count = process_aio_dec0(
+                html_content, token_chunks, system_prompt, fewshot_examples,
+                allowed_labels, assistant, run.disable_fallback
+            )
+            print(f"  ✓ Processed all {len(token_chunks)} chunks")
+            if fallback_count > 0:
+                print(f"  ℹ️  Fallback mechanism invoked {fallback_count} time(s)\n")
+            else:
+                print()
+            
+            # Step 7: Post-processing
+            print("[Step 7] Post-processing document...")
+            output_html_content = chunks_to_html(processed_chunks, html_content)
+            print(f"  ✓ Post-processing complete\n")
+            
+            # Step 8: Save output
+            print("[Step 8] Saving output...")
+            output_filename = exp_dir / f"{filename}_processed.html"
+            with open(output_filename, "w", encoding="utf-8") as f:
+                f.write(output_html_content)
+            print(f"  ✓ Saved to {output_filename}\n")
     
     # =========================================================================
     # DEC Method: Decomposed 4-pass method
@@ -454,6 +453,13 @@ def process_file(filename, split, run, assistant, exp_dir):
             print(f"{'='*80}\n")
             
             config = get_method_config(dec_method)
+
+            # ── Checkpoint check ──────────────────────────────────────────
+            cached = get_checkpoint(exp_dir, filename, str(dec_idx))
+            if cached is not None:
+                current_html = cached   # feed into next pass as usual
+                continue                # skip everything below
+        # ─────────────────────────────────────────────────────────────
             
             # Load few-shot examples
             print(f"[{dec_method}] Step 1: Loading few-shot examples...")
@@ -531,14 +537,16 @@ def process_file(filename, split, run, assistant, exp_dir):
                 f.write(current_html)
             print(f"  ✓ Saved to {intermediate_filename}\n")
         
-        # Final output
-        print(f"\n{'='*80}")
-        print("✓ ALL DECOMPOSED PASSES COMPLETE")
-        print(f"{'='*80}")
-        final_filename = exp_dir / f"{filename}_final.html"
-        with open(final_filename, "w", encoding="utf-8") as f:
-            f.write(current_html)
-        print(f"\n✓ Final output saved to {final_filename}\n")
+        # Final output — also checkpointed
+        cached_final = get_checkpoint(exp_dir, filename, "final")
+        if cached_final is None:
+            print(f"\n{'='*80}")
+            print("✓ ALL DECOMPOSED PASSES COMPLETE")
+            print(f"{'='*80}")
+            final_filename = exp_dir / f"{filename}_final.html"
+            with open(final_filename, "w", encoding="utf-8") as f:
+                f.write(current_html)
+            print(f"\n✓ Final output saved to {final_filename}\n")
     
     print("="*80)
     print("✓ PROCESSING COMPLETE")
@@ -614,16 +622,16 @@ def main():
 
         split = run.split if run.mode == "split" else "test"  # or make split required always
         
-        try:
-            process_file(filename, split, run, assistant, exp_dir)
-        except Exception as e:
-            print(f"  ✗ FAILED: {e}")
+        
+        process_file(filename, split, run, assistant, exp_dir)
+        #except Exception as e:
+        #    print(f"  ✗ FAILED: {e}")
             # In split mode, log and continue; in single mode, raise
-            if run.mode == "single":
-                raise
-            with open(output_root / "errors.log", "a") as log:
-                log.write(f"{filename}: {e}\n")
-            continue
+        #    if run.mode == "single":
+        #        raise
+        #    with open(output_root / "errors.log", "a") as log:
+        #        log.write(f"{filename}: {e}\n")
+        #    continue
 
     
     

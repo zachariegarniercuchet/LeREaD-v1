@@ -70,10 +70,10 @@ def get_message(system_prompt, user_input, fewshot_examples=None, has_system_rol
         if fewshot_examples is not None:
             message.append({"role": "user", "content": f"{fewshot_examples[0][0]}"})
     else:
-        message = [{"role": "user", "content": f"{system_prompt} \n\n {fewshot_examples[0][0] if fewshot_examples is not None else user_input}"}]
+        message = [{"role": "user", "content": f"{system_prompt} \n\n {fewshot_examples[0][0] if fewshot_examples is not None and fewshot_examples != [] else user_input}"}]
 
     
-    if fewshot_examples is not None:
+    if fewshot_examples is not None and fewshot_examples != []:
         for i, example in enumerate(fewshot_examples):
 
             if i != 0:
