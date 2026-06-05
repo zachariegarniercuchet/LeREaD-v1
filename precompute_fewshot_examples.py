@@ -32,7 +32,7 @@ def get_html_files(split: str) -> dict[str, str]:
 def _load_candidate_examples(fs_min_tokens: int) -> list[dict]:
     """Chunk train HTML files and extract few-shot (input, output) pairs."""
     from src.chunkers.factory import ChunkerFactory
-    from src.fewshot.extractor import extract_few_shot_examples, LabelTransformConfig
+    from src.extractor import extract_few_shot_examples, LabelTransformConfig
     from config import DATA_DIR, LABEL_CONFIG 
 
     examples = []

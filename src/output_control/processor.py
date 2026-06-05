@@ -8,7 +8,7 @@ from typing import Tuple, Optional, List
 from sympy import content
 
 from src.htmlLabel import from_simplified
-from src.html_utils import is_auto_label_tag, is_closing_tag, is_opening_tag
+from src.html_utils import get_tag_name, is_auto_label_tag, is_closing_tag, is_opening_tag
 from ..chunck_level_post_processing import apply_post_processing_transforms
 from .protected_levenshtein_alignnment import protected_levenshtein_distance, apply_operations_safe
 from .verification import verify_processed_chunk, VerificationResult
@@ -60,7 +60,7 @@ class OutputProcessor:
             ...     print("Success!")
         """
         # Step 1: Post-process (tokenize)
-        processed_tokens = self._post_process(raw_llm_output)
+        processed_tokens = self._post_process(raw_llm_output, allowed_labels)
         
         # Step 2: Apply error correction (Levenshtein alignment)
         corrected_tokens = self._apply_correction(processed_tokens, original_chunk)
@@ -77,6 +77,7 @@ class OutputProcessor:
     def _post_process(
         self,
         raw_output: str,
+        allowed_labels: Optional[List[str]] = None
     ) -> list:
         """
         Apply post-processing transformations to raw output.
@@ -94,10 +95,10 @@ class OutputProcessor:
         complete_form_tokens = []
         for token in processed_tokens:
             new_token = token
-            if is_opening_tag(token):
+            if is_opening_tag(token) and get_tag_name(token) in allowed_labels:
                 new_token = str(from_simplified(token, "auto_label"))
 
-            if is_closing_tag(token):
+            if is_closing_tag(token) and get_tag_name(token) in allowed_labels:
                 new_token = "</auto_label>"
             
             complete_form_tokens.append(new_token)

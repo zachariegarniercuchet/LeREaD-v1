@@ -6,7 +6,7 @@ from ..html_utils import is_auto_label_tag, is_tag_token
 from .token_operations import merge_tokens_general, flatten_token_chunks
 from .validation import compare_html_allow_auto_labels
 from .bracket_fixing import correct_tokens_brackets, check_tokens_brackets
-from .html_operations import add_attributes_to_auto_labels, clean_html_formatting
+from .html_operations import add_attributes_to_auto_labels, clean_html_formatting, fix_labels
 
 
 def chunks_to_html(processed_chunks, html_content):
@@ -34,26 +34,17 @@ def chunks_to_html(processed_chunks, html_content):
         AssertionError: If validation or bracket checking fails
     """
     
-    print("\n" + "="*80)
-    print("DOCUMENT LEVEL POST-PROCESSING")
-    print("="*80)
     
     # =====================================================================
     # Step 1: Flatten processed chunks
     # =====================================================================
-    print("\n[Step 1] Flattening processed chunks...")
     processed_tokens_flat = flatten_token_chunks(processed_chunks)
-    print(f"   ✓ Flattened to {len(processed_tokens_flat)} tokens")
     
     # =====================================================================
     # Step 2: Tokenize original HTML and merge with processed tokens
     # =====================================================================
-    print("\n[Step 2] Tokenizing original HTML...")
     original_tokens = tokenize(html_content)
-    print(f"   ✓ Tokenized to {len(original_tokens)} tokens")
     
-    print("\n[Step 3] Merging original tokens with processed tokens...")
-    print("   → Preserving original formatting while inserting auto_labels...")
     processed_html_content_tokens = merge_tokens_general(
         original_tokens=original_tokens,
         derived_tokens=processed_tokens_flat,
@@ -67,7 +58,6 @@ def chunks_to_html(processed_chunks, html_content):
     # =====================================================================
     # Step 4: Validate merge against original HTML
     # =====================================================================
-    print("\n[Step 4] Validating merge against original HTML...")
     comparison_result = compare_html_allow_auto_labels(
         decode(processed_html_content_tokens), 
         html_content
@@ -81,14 +71,12 @@ def chunks_to_html(processed_chunks, html_content):
     # =====================================================================
     # Step 5: Fix bracket nesting issues
     # =====================================================================
-    print("\n[Step 5] Correcting bracket nesting issues...")
     processed_html_content_tokens_corrected = correct_tokens_brackets(processed_html_content_tokens)
     print(f"   ✓ Corrected {len(processed_html_content_tokens_corrected)} tokens")
     
     # =====================================================================
     # Step 6: Validate bracket coherence
     # =====================================================================
-    print("\n[Step 6] Validating bracket coherence...")
     ok, message, position, context = check_tokens_brackets(processed_html_content_tokens_corrected)
     assert ok, (
         f"The brackets in the merged tokens are not balanced: {message} "
@@ -96,21 +84,23 @@ def chunks_to_html(processed_chunks, html_content):
         f"correction steps for errors.\nContext: {context}"
     )
     print(f"   ✓ {message}")
-    
+
+
     # =====================================================================
-    # Step 7: Clean HTML formatting
+    # Step 7: Push tags outside auto_labels
     # =====================================================================
-    print("\n[Step 7] Cleaning HTML formatting...")
     processed_html = decode(processed_html_content_tokens_corrected)
-    processed_html_cleaned = clean_html_formatting(processed_html)
-    print(f"   ✓ Cleaned HTML length: {len(processed_html_cleaned)} characters")
+    processed_html_swapped = fix_labels(processed_html)
     
     # =====================================================================
-    # Step 8: Add label scheme attributes
+    # Step 8: Clean HTML formatting
     # =====================================================================
-    print("\n[Step 8] Adding label scheme attributes...")
+    processed_html_cleaned = clean_html_formatting(processed_html_swapped)
+    
+    # =====================================================================
+    # Step 9: Add label scheme attributes
+    # =====================================================================
     processed_html_content = add_attributes_to_auto_labels(processed_html_cleaned)
-    print(f"   ✓ Added attributes to auto_label tags")
     
     # =====================================================================
     # Final result
@@ -121,3 +111,94 @@ def chunks_to_html(processed_chunks, html_content):
     print(f"Final HTML length: {len(processed_html_content)} characters\n")
     
     return processed_html_content
+
+
+def tokens_to_html_after_decomposed1_3_prompting(processed_tokens, html_content):
+    """
+    Orchestration function for converting processed tokens to HTML after the 
+    decomposed 1.3 prompting step.
+    
+    This function:
+    1. Validates the processed tokens against the original HTML
+    2. Corrects any bracket nesting issues
+    3. Validates bracket coherence
+    4. Cleans up HTML formatting
+    5. Adds label scheme attributes to auto_labels
+    
+    Args:
+        processed_tokens: List of tokens from the model output after decomposed prompting
+        html_content: Original HTML content string
+    """
+    # Useless verification to check if the tokens are the same after processing (except for the auto labels)
+    t1 = []
+    t2 = []
+    for token in processed_tokens:
+        if not is_auto_label_tag(token) in [1, 2]:
+            t1.append(token)
+
+    original_tokens = tokenize(html_content)
+    for token in original_tokens:
+        if not is_auto_label_tag(token) in [1, 2]:
+            t2.append(token)
+
+    assert t1 == t2, "The tokens are different after processing, which should not happen as we are only adding auto_label tags without changing the original tokens."
+
+
+    processed_html = decode(processed_tokens)
+    processed_html_cleaned = clean_html_formatting(processed_html)
+
+    processed_html_content = add_attributes_to_auto_labels(processed_html_cleaned)
+
+    comparison_result = compare_html_allow_auto_labels(processed_html_content, html_content)
+    assert comparison_result, "The processed HTML content does not match the original HTML content when ignoring auto_label tags."
+
+    return processed_html_content
+
+
+
+
+
+
+
+def tokens_to_html_after_decomposed1_3_prompting(processed_tokens, html_content):
+    """
+    Orchestration function for converting processed tokens to HTML after the 
+    decomposed 1.3 prompting step.
+    
+    This function:
+    1. Validates the processed tokens against the original HTML
+    2. Corrects any bracket nesting issues
+    3. Validates bracket coherence
+    4. Cleans up HTML formatting
+    5. Adds label scheme attributes to auto_labels
+    
+    Args:
+        processed_tokens: List of tokens from the model output after decomposed prompting
+        html_content: Original HTML content string
+    """
+    # Useless verification to check if the tokens are the same after processing (except for the auto labels)
+    t1 = []
+    t2 = []
+    for token in processed_tokens:
+        if not is_auto_label_tag(token) in [1, 2]:
+            t1.append(token)
+
+    original_tokens = tokenize(html_content)
+    for token in original_tokens:
+        if not is_auto_label_tag(token) in [1, 2]:
+            t2.append(token)
+
+    assert t1 == t2, "The tokens are different after processing, which should not happen as we are only adding auto_label tags without changing the original tokens."
+
+
+    processed_html = decode(processed_tokens)
+    processed_html_cleaned = clean_html_formatting(processed_html)
+
+    processed_html_content = add_attributes_to_auto_labels(processed_html_cleaned)
+
+    comparison_result = compare_html_allow_auto_labels(processed_html_content, html_content)
+    assert comparison_result, "The processed HTML content does not match the original HTML content when ignoring auto_label tags."
+
+    return processed_html_content
+
+

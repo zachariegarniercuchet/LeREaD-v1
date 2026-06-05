@@ -90,7 +90,7 @@ def check_hallucination(original_tokens: list, processed_tokens: list) -> Verifi
     Returns:
         VerificationResult with passed=True if no hallucination detected
     """
-    from ..html_cleaner import clean_tokens
+    from ..transforme_utils import clean_tokens
     
     original_cleaned = clean_tokens(
         original_tokens, 

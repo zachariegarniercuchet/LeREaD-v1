@@ -4,62 +4,157 @@ import sys
 from pathlib import Path
 import json
 import argparse
-from typing import List, Optional
+from typing import List, Optional, Dict, Any
+from datetime import datetime
+
+from tqdm import tqdm
 
 # Setup project path
 PROJECT_ROOT = Path.cwd()
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from config import DATA_DIR, FEWSHOT_CACHE_DIR, PROMPT_DIR, LABEL_SCHEME
-from src.fewshot.extractor import LabelTransformConfig, _prepare_label_tokens, _parse_parent_annotations
+from config import DATA_DIR, FEWSHOT_CACHE_DIR, PROMPT_DIR
+from run_config import RunConfig
+from src.extractor import (
+    LabelTransformConfig, prepare_label_tokens, _parse_parent_annotations,
+    build_processing_segments, get_list_of_mention
+)
 from src.tokenizer_utils import tokenize, decode
 from src import clean_tokens
 from src.chunkers.cache import cache_exists, load_cache
 from src.chunkers import ChunkerFactory
 from src.models import get_message, AssistantFactory
 from src.output_control.processor import OutputProcessor
-from src.output_control.fallback import FallbackHandler
+from src.output_control.fallback import FallbackHandler 
+from src.output_control.verification import VerificationResult 
 from src.post_processing import chunks_to_html
+from src.post_processing.main import tokens_to_html_after_decomposed1_3_prompting
+from src.htmlLabel import simplified_to_normal_form
+from src.prompts.prompt_utils import build_sublabel_definitions
+from src.prompts.sublabel_definitions import SUBLABEL_DEFINITIONS_V2
 
 
-def load_fewshot_examples(fewshot_method: str, nb_examples: int, spans_in_context: bool = True) -> List[tuple]:
-    """Load and prepare few-shot examples."""
+def get_method_config(method: str) -> Dict[str, Any]:
+    """Get configuration for the specified prompting method."""
+    configs = {
+        "AIO": {
+            "parents": ["decision", "legislation", "secondary sources"],
+            "already_labeled_labels": [],
+            "new_labels": ["decision", "legislation", "secondary sources", "title", "citation", "source", "authors", "fragment"],
+            "spans_in_context": True,
+            "prompt_filename": "allInOne_long.txt",
+            "use_chunking": True,
+        },
+        "DEC0": {
+            "parents": ["decision", "legislation", "secondary sources"],
+            "already_labeled_labels": [],
+            "new_labels": ["decision", "legislation", "secondary sources"],
+            "spans_in_context": True,
+            "prompt_filename": "decomposed0_long.txt",
+            "use_chunking": True,
+        },
+        "DEC1": {
+            "parents": ["decision", "legislation", "secondary sources"],
+            "already_labeled_labels": ["decision", "legislation", "secondary sources"],
+            "new_labels": ["title", "fragment"],
+            "spans_in_context": False,
+            "prompt_filename": "decomposed1-3.txt",
+            "use_chunking": False,
+        },
+        "DEC2": {
+            "parents": ["secondary sources"],
+            "already_labeled_labels": ["decision", "legislation", "secondary sources", "title", "fragment"],
+            "new_labels": ["source", "authors"],
+            "spans_in_context": False,
+            "prompt_filename": "decomposed1-3.txt",
+            "use_chunking": False,
+        },
+        "DEC3": {
+            "parents": ["decision", "legislation"],
+            "already_labeled_labels": ["decision", "legislation", "secondary sources", "title", "fragment", "source", "authors"],
+            "new_labels": ["citation"],
+            "spans_in_context": False,
+            "prompt_filename": "decomposed1-3.txt",
+            "use_chunking": False,
+        },
+    }
+    return configs.get(method, configs["AIO"])
+
+
+def load_fewshot_examples(
+    fewshot_method: str,
+    nb_examples: int,
+    spans_in_context: bool = True,
+    already_labeled_labels: List[str] = None,
+    new_labels: List[str] = None,
+    parents: List[str] = None,
+) -> List[tuple]:
+    """Load and prepare few-shot examples based on method configuration."""
+    if already_labeled_labels is None:
+        already_labeled_labels = []
+    if new_labels is None:
+        new_labels = []
+    if parents is None:
+        parents = ["decision", "legislation", "secondary sources"]
+    
     with open(FEWSHOT_CACHE_DIR / f"examples_{fewshot_method}.json", "r", encoding="utf-8") as f:
         fewshot_file_content = json.load(f)
     
-    fewshot_examples = [(example["example"]["input"], example["example"]["output"]) 
-                        for example in fewshot_file_content["examples"]]
+    fewshot_examples = [
+        (example["example"]["input"], example["example"]["output"])
+        for example in fewshot_file_content["examples"]
+    ]
     
-    allowed_labels = ["decision", "legislation", "secondary sources"]
-    label_config = LabelTransformConfig(
+    # Create label configs
+    input_label_config = LabelTransformConfig(
         use_simplified=True,
         switch_type=True,
-        keep_labels=allowed_labels,
+        keep_labels=already_labeled_labels,
         keep_attributes=["labelname"]
     )
     
-    # Transform the output in its simplified form
+    output_label_config = LabelTransformConfig(
+        use_simplified=True,
+        switch_type=True,
+        keep_labels=already_labeled_labels + new_labels,
+        keep_attributes=["labelname"]
+    )
+    
+    # Transform examples
     final_fewshot = []
     total_output_text = ""
     
     for example in fewshot_examples:
-        _, output = example
-        output_tokens = tokenize(output)
-        transformed_output_tokens = _prepare_label_tokens(output_tokens, label_config)
+        input_text, output_text = example
+        
+        input_tokens = tokenize(input_text)
+        transformed_input_tokens = prepare_label_tokens(input_tokens, input_label_config)
+        
+        output_tokens = tokenize(output_text)
+        transformed_output_tokens = prepare_label_tokens(output_tokens, output_label_config)
         
         if spans_in_context:
-            final_fewshot.append((example[0], decode(transformed_output_tokens)))
+            final_fewshot.append((decode(transformed_input_tokens), decode(transformed_output_tokens)))
         else:
             total_output_text += "|||" + decode(transformed_output_tokens)
     
     if not spans_in_context:
         parents_dict = _parse_parent_annotations(total_output_text)
         for parent_name, annotations in parents_dict.items():
+            if parent_name not in parents:
+                continue
             for annotation in annotations:
-                final_fewshot.append((decode(clean_tokens(tokenize(annotation))), annotation))
+                input_text = decode(
+                    prepare_label_tokens(
+                        simplified_to_normal_form(tokenize(annotation), label_type="manual_label"),
+                        input_label_config
+                    )
+                )
+                if input_text != annotation:
+                    final_fewshot.append((input_text, annotation))
     
-    return final_fewshot[:nb_examples], allowed_labels
+    return final_fewshot[:nb_examples]
 
 
 def load_html_document(filename: str, split: str) -> str:
@@ -87,138 +182,80 @@ def get_token_chunks(html_content: str, chunker: str, split: str, filename: str)
     return token_chunks
 
 
-def create_message(chunk_tokens, system_prompt: str, fewshot_examples: List[tuple]) -> str:
-    """Create a message for the model."""
-    user_input = decode(chunk_tokens)
-    message = get_message(
-        system_prompt=system_prompt,
-        user_input=user_input,
-        fewshot_examples=fewshot_examples,
-        has_system_role=True
-    )
-    return message
-
-
-def process_chunk(chunk_tokens, assistant, allowed_labels: List[str], 
-                  fallback_prompt_filename: str = "fallback.txt") -> tuple:
-    """Process a single chunk through the model and verification pipeline."""
-    
-    # Generate output from model
-    message = create_message(chunk_tokens, system_prompt="", fewshot_examples=[])
-    # Note: This is a simplified version; you may need to pass system_prompt and fewshot_examples
-    
-    generated = assistant.generate(message=message)
-    
-    # Process and verify output
+def process_output(
+    generated: str,
+    token_chunk,
+    allowed_labels: List[str],
+    assistant,
+    with_fallback: bool = True,
+) -> tuple:
+    """Process and verify LLM output."""
     controller = OutputProcessor()
     fallback_handler = FallbackHandler(processor=controller)
     
     corrected_generated_tokens, status = controller.process(
         raw_llm_output=generated,
-        original_chunk=chunk_tokens,
+        original_chunk=token_chunk,
         allowed_labels=allowed_labels
     )
     
-    if not status.passed:
-        print("   ⚠️  Output did not pass verification. Invoking fallback mechanism...")
-        corrected_generated_tokens, status = fallback_handler.handle_failure(
+    if not status.passed and with_fallback:
+        corrected_generated_tokens, status_dict = fallback_handler.handle_failure(
             assistant=assistant,
             corrected_output=corrected_generated_tokens,
-            original_chunk=chunk_tokens,
+            original_chunk=token_chunk,
             initial_status=status,
             allowed_labels=allowed_labels,
-            fallback_prompt_filename=fallback_prompt_filename
+            fallback_prompt_filename="fallback.txt"
+        )
+        # Convert dict to VerificationResult
+        status = VerificationResult(
+            passed=status_dict.get('passed', False),
+            error_type=status_dict.get('error_type'),
+            details=status_dict.get('error_details'),
+            tokens=corrected_generated_tokens
         )
     
     return corrected_generated_tokens, status
 
 
-def main():
-    """Main processing pipeline."""
-    parser = argparse.ArgumentParser(description="Process a document for annotation extraction.")
-    parser.add_argument("--filename", type=str, required=True, help="Filename without extension (e.g., '1989CanLII1415ONCA')")
-    parser.add_argument("--split", type=str, default="test", choices=["train", "test", "dev"], help="Data split")
-    parser.add_argument("--chunker", type=str, default="paragraph", choices=["paragraph", "sentence"], help="Chunking method")
-    parser.add_argument("--fewshot-method", type=str, default="greedy", choices=["greedy", "random"], help="Few-shot selection method")
-    parser.add_argument("--fewshot-examples", type=int, default=6, help="Number of few-shot examples")
-    parser.add_argument("--prompt", type=str, default="decomposed0_long.txt", help="Prompt filename")
-    parser.add_argument("--model", type=str, default="gpt-5.2", help="Model name (e.g., 'gpt-5.2')")
-    parser.add_argument("--temperature", type=float, default=1, help="Model temperature")
-    parser.add_argument("--output-dir", type=Path, default=Path("./output"), help="Output directory for processed HTML")
-    parser.add_argument("--disable-fallback", action="store_true", help="Disable fallback mechanism")
-    
-    args = parser.parse_args()
-    
-    print("="*80)
-    print("DOCUMENT-LEVEL ANNOTATION EXTRACTION")
-    print("="*80)
-    print(f"\nConfiguration:")
-    print(f"  Filename: {args.filename}")
-    print(f"  Split: {args.split}")
-    print(f"  Chunker: {args.chunker}")
-    print(f"  Few-shot method: {args.fewshot_method} ({args.fewshot_examples} examples)")
-    print(f"  Prompt: {args.prompt}")
-    print(f"  Model: {args.model} (temperature={args.temperature})")
-    print()
-    
-    # =========================================================================
-    # Step 1: Load HTML content
-    # =========================================================================
-    print("[Step 1] Loading HTML document...")
-    html_content = load_html_document(args.filename, args.split)
-    print(f"  ✓ Loaded {len(html_content)} characters\n")
-    
-    # =========================================================================
-    # Step 2: Chunk the document
-    # =========================================================================
-    print("[Step 2] Chunking document...")
-    token_chunks = get_token_chunks(html_content, args.chunker, args.split, args.filename)
-    print(f"  ✓ Created {len(token_chunks)} chunks\n")
-    
-    # =========================================================================
-    # Step 3: Load few-shot examples
-    # =========================================================================
-    print("[Step 3] Loading few-shot examples...")
-    fewshot_examples, allowed_labels = load_fewshot_examples(
-        args.fewshot_method, 
-        args.fewshot_examples
-    )
-    print(f"  ✓ Loaded {len(fewshot_examples)} examples")
-    print(f"  ✓ Allowed labels: {', '.join(allowed_labels)}\n")
-    
-    # =========================================================================
-    # Step 4: Load prompt
-    # =========================================================================
-    print("[Step 4] Loading prompt...")
-    with open(PROMPT_DIR / args.prompt, "r", encoding="utf-8") as f:
-        system_prompt = f.read()
-    print(f"  ✓ Loaded prompt ({len(system_prompt)} characters)\n")
-    
-    # =========================================================================
-    # Step 5: Initialize model
-    # =========================================================================
-    print("[Step 5] Initializing model...")
-    model_config = {
-        "type": "openai",
-        "model_name": args.model,
-        "temperature": args.temperature,
-    }
-    assistant = AssistantFactory.create_from_config(model_config)
-    print(f"  ✓ Model initialized\n")
-    
-    # =========================================================================
-    # Step 6: Process all chunks
-    # =========================================================================
-    print("[Step 6] Processing chunks...")
+def create_experiment_folder(
+    base_output_dir: Path,
+    filename: str,
+    method: str,
+    fewshot_method: str,
+    fewshot_examples: int,
+    chunker: str,
+) -> Path:
+    """Create an experiment folder with descriptive name."""
+
+    if WITH_TIMESTAMP :
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        exp_name = f"{filename}_{method}_fs{fewshot_examples}_{fewshot_method}_{chunker}_{timestamp}"
+    else:
+        exp_name = f"{filename}_{method}_fs{fewshot_examples}_{fewshot_method}_{chunker}"
+
+    exp_dir = base_output_dir / exp_name
+    exp_dir.mkdir(parents=True, exist_ok=True)
+    return exp_dir
+
+
+def process_aio_dec0(
+    html_content: str,
+    token_chunks: List,
+    system_prompt: str,
+    fewshot_examples: List[tuple],
+    allowed_labels: List[str],
+    assistant,
+    disable_fallback: bool = False,
+) -> List:
+    """Process document using AIO or DEC0 method (chunk-based)."""
     print(f"  Processing {len(token_chunks)} chunks...\n")
     
     processed_chunks = []
     fallback_count = 0
     
-    for i, chunk_tokens in enumerate(token_chunks, 1):
-        print(f"  [{i}/{len(token_chunks)}] Processing chunk...")
-        
-        # Create message for this chunk
+    for chunk_tokens in tqdm(token_chunks, desc="Processing chunks"):
         user_input = decode(chunk_tokens)
         message = get_message(
             system_prompt=system_prompt,
@@ -227,68 +264,369 @@ def main():
             has_system_role=True
         )
         
-        # Generate output from model
         generated = assistant.generate(message=message)
-        
-        # Process and verify output
-        controller = OutputProcessor()
-        fallback_handler = FallbackHandler(processor=controller)
-        
-        corrected_generated_tokens, status = controller.process(
-            raw_llm_output=generated,
-            original_chunk=chunk_tokens,
-            allowed_labels=allowed_labels
+        corrected_generated_tokens, status = process_output(
+            generated=generated,
+            token_chunk=chunk_tokens,
+            allowed_labels=allowed_labels,
+            assistant=assistant,
+            with_fallback=not disable_fallback,
         )
-        
-        if not status.passed and not args.disable_fallback:
-            print(f"      ⚠️  Output did not pass verification. Invoking fallback mechanism...")
-            corrected_generated_tokens, status = fallback_handler.handle_failure(
-                assistant=assistant,
-                corrected_output=corrected_generated_tokens,
-                original_chunk=chunk_tokens,
-                initial_status=status,
-                allowed_labels=allowed_labels,
-                fallback_prompt_filename="fallback.txt"
-            )
-            fallback_count += 1
         
         processed_chunks.append(corrected_generated_tokens)
         
-        if status.passed:
-            print(f"      ✓ Chunk passed verification")
+        if not status.passed:
+            fallback_count += 1
+    
+    return processed_chunks, fallback_count
+
+
+def process_dec1_3(
+    html_content: str,
+    system_prompt: str,
+    fewshot_examples: List[tuple],
+    allowed_labels: List[str],
+    assistant,
+    parents: List[str],
+    already_labeled_labels: List[str],
+    new_labels: List[str],
+    disable_fallback: bool = False,
+) -> List:
+    """Process document using DEC1-3 methods (mention-based)."""
+    # Tokenize document
+    tokens = tokenize(html_content)
+    
+    # Get already extracted parent mentions
+    parent_mentions = get_list_of_mention(
+        tokens=tokens,
+        keep_labels=parents,
+        label_type="auto_label"
+    )
+    
+    print(f"  Found {len(parent_mentions)} parent mentions to process")
+    
+    segments = build_processing_segments(tokens, parent_mentions)
+    print(f"  Built {len(segments)} token segments ({sum(s['process'] for s in segments)} to process)\n")
+    
+    # Create input label config for processing
+    input_label_config = LabelTransformConfig(
+        use_simplified=True,
+        switch_type=True,
+        keep_labels=already_labeled_labels,
+        keep_attributes=["labelname"]
+    )
+    
+    config = LabelTransformConfig(
+        use_simplified=False,
+        switch_type=False,
+        keep_labels=already_labeled_labels,
+        keep_attributes=["labelname"]
+    )
+    
+    failed_count = 0
+    
+    for segment in tqdm(segments, desc="Processing mentions"):
+        if not segment["process"]:
+            continue
+        
+        mention = segment["tokens"]
+        html_label = segment["meta"]["label"]
+        
+        prepared_tokens = prepare_label_tokens(mention, input_label_config)
+        user_input = decode(prepared_tokens)
+        
+        # Filter few-shot examples by parent label
+        filtered_fewshot = [
+            example for example in fewshot_examples
+            if example[0].startswith(f"<{html_label.name}>")
+        ]
+        
+        message = get_message(
+            system_prompt=system_prompt,
+            user_input=user_input,
+            fewshot_examples=filtered_fewshot,
+            has_system_role=True
+        )
+        
+        generated = assistant.generate(message=message)
+        corrected_generated_tokens, status = process_output(
+            generated=generated,
+            token_chunk=prepare_label_tokens(mention, config),
+            allowed_labels=allowed_labels,
+            assistant=assistant,
+            with_fallback=False,
+        )
+        
+        if not status.passed:
+            failed_count += 1
+        
+        segment["tokens"] = corrected_generated_tokens
+    
+    processed_tokens = [
+        token for segment in segments for token in segment["tokens"]
+    ]
+    
+    return processed_tokens, failed_count
+
+
+def process_file(filename, split, run, assistant, exp_dir):
+
+    # =========================================================================
+    # Step 1: Load HTML content
+    # =========================================================================
+    print("[Step 1] Loading HTML document...")
+    html_content = load_html_document(filename, split)
+    print(f"  ✓ Loaded {len(html_content)} characters\n")
+
+    
+    
+    # =========================================================================
+    # AIO Method: All-in-one single pass
+    # =========================================================================
+    if run.method == "AIO":
+        print("[AIO] ALL-IN-ONE METHOD")
+        print("="*80)
+        
+        config = get_method_config("AIO")
+        
+        # Step 3: Chunk the document
+        print("[Step 3] Chunking document...")
+        token_chunks = get_token_chunks(html_content, run.chunker, split, filename)
+        print(f"  ✓ Created {len(token_chunks)} chunks\n")
+        
+        # Step 4: Load few-shot examples
+        print("[Step 4] Loading few-shot examples...")
+        fewshot_examples = load_fewshot_examples(
+            run.fewshot_method,
+            run.fewshot_examples,
+            spans_in_context=config["spans_in_context"],
+            already_labeled_labels=config["already_labeled_labels"],
+            new_labels=config["new_labels"],
+            parents=config["parents"],
+        )
+        allowed_labels = config["already_labeled_labels"] + config["new_labels"]
+        print(f"  ✓ Loaded {len(fewshot_examples)} examples")
+        print(f"  ✓ Allowed labels: {', '.join(allowed_labels)}\n")
+        
+        # Step 5: Load prompt
+        print("[Step 5] Loading prompt...")
+        with open(PROMPT_DIR / config["prompt_filename"], "r", encoding="utf-8") as f:
+            system_prompt = f.read()
+        print(f"  ✓ Loaded prompt ({len(system_prompt)} characters)\n")
+        
+        # Step 6: Process all chunks
+        print("[Step 6] Processing chunks...")
+        processed_chunks, fallback_count = process_aio_dec0(
+            html_content, token_chunks, system_prompt, fewshot_examples,
+            allowed_labels, assistant, run.disable_fallback
+        )
+        print(f"  ✓ Processed all {len(token_chunks)} chunks")
+        if fallback_count > 0:
+            print(f"  ℹ️  Fallback mechanism invoked {fallback_count} time(s)\n")
         else:
-            print(f"      ⚠️  Chunk did not pass verification (status: {status.status})")
-    
-    print(f"\n  ✓ Processed all {len(token_chunks)} chunks")
-    if fallback_count > 0:
-        print(f"  ℹ️  Fallback mechanism invoked {fallback_count} time(s)\n")
-    else:
-        print()
+            print()
+        
+        # Step 7: Post-processing
+        print("[Step 7] Post-processing document...")
+        output_html_content = chunks_to_html(processed_chunks, html_content)
+        print(f"  ✓ Post-processing complete\n")
+        
+        # Step 8: Save output
+        print("[Step 8] Saving output...")
+        output_filename = exp_dir / f"{filename}_processed.html"
+        with open(output_filename, "w", encoding="utf-8") as f:
+            f.write(output_html_content)
+        print(f"  ✓ Saved to {output_filename}\n")
     
     # =========================================================================
-    # Step 7: Post-processing
+    # DEC Method: Decomposed 4-pass method
     # =========================================================================
-    print("[Step 7] Post-processing document...")
-    output_html_content = chunks_to_html(processed_chunks, html_content)
-    print(f"  ✓ Post-processing complete\n")
-    
-    # =========================================================================
-    # Step 8: Save output
-    # =========================================================================
-    print("[Step 8] Saving output...")
-    args.output_dir.mkdir(parents=True, exist_ok=True)
-    
-    output_filename = args.output_dir / f"{args.filename}_processed.html"
-    with open(output_filename, "w", encoding="utf-8") as f:
-        f.write(output_html_content)
-    
-    print(f"  ✓ Saved to {output_filename}\n")
+    elif run.method == "DEC":
+        print("[DEC] DECOMPOSED METHOD (4 PASSES)")
+        print("="*80)
+        
+        dec_methods = ["DEC0", "DEC1", "DEC2", "DEC3"]
+        current_html = html_content
+        
+        for dec_idx, dec_method in enumerate(dec_methods):
+            print(f"\n{'='*80}")
+            print(f"[{dec_method}] {dec_method} Pass")
+            print(f"{'='*80}\n")
+            
+            config = get_method_config(dec_method)
+            
+            # Load few-shot examples
+            print(f"[{dec_method}] Step 1: Loading few-shot examples...")
+            fewshot_examples = load_fewshot_examples(
+                run.fewshot_method,
+                run.fewshot_examples,
+                spans_in_context=config["spans_in_context"],
+                already_labeled_labels=config["already_labeled_labels"],
+                new_labels=config["new_labels"],
+                parents=config["parents"],
+            )
+            allowed_labels = config["already_labeled_labels"] + config["new_labels"]
+            print(f"  ✓ Loaded {len(fewshot_examples)} examples")
+            print(f"  ✓ Allowed labels: {', '.join(allowed_labels)}\n")
+            
+            # Load prompt
+            print(f"[{dec_method}] Step 2: Loading prompt...")
+            with open(PROMPT_DIR / config["prompt_filename"], "r", encoding="utf-8") as f:
+                system_prompt = f.read()
+            
+            # For DEC1-3, format prompt with sublabel definitions
+            if dec_method in ["DEC1", "DEC2", "DEC3"]:
+                sublabels_str = ", ".join(config["new_labels"])
+                sublabels_definition = build_sublabel_definitions(
+                    set(config["new_labels"]) - set(config["parents"]),
+                    sublabel_definitions=SUBLABEL_DEFINITIONS_V2
+                )
+                system_prompt = system_prompt.format(
+                    sublabels=sublabels_str,
+                    sublabels_definition=sublabels_definition,
+                )
+            
+            print(f"  ✓ Loaded prompt ({len(system_prompt)} characters)\n")
+            
+            # Process based on method
+            print(f"[{dec_method}] Step 3: Processing document...")
+            
+            if config["use_chunking"]:
+                # DEC0 uses chunking
+                token_chunks = get_token_chunks(current_html, run.chunker, split, filename)
+                print(f"  ✓ Created {len(token_chunks)} chunks\n")
+                
+                processed_chunks, fallback_count = process_aio_dec0(
+                    current_html, token_chunks, system_prompt, fewshot_examples,
+                    allowed_labels, assistant, run.disable_fallback
+                )
+                print(f"  ✓ Processed all {len(token_chunks)} chunks")
+                if fallback_count > 0:
+                    print(f"  ℹ️  Fallback mechanism invoked {fallback_count} time(s)\n")
+                
+                # Post-process
+                print(f"[{dec_method}] Step 4: Post-processing document...")
+                current_html = chunks_to_html(processed_chunks, current_html)
+                print(f"  ✓ Post-processing complete\n")
+            else:
+                # DEC1-3 use mention-based processing
+                processed_tokens, failed_count = process_dec1_3(
+                    current_html, system_prompt, fewshot_examples, allowed_labels,
+                    assistant, config["parents"], config["already_labeled_labels"],
+                    config["new_labels"], disable_fallback=True
+                )
+                print(f"  ✓ Processed mentions")
+                if failed_count > 0:
+                    print(f"  ℹ️  {failed_count} mention(s) failed verification\n")
+                
+                # Post-process
+                print(f"[{dec_method}] Step 4: Post-processing document...")
+                current_html = tokens_to_html_after_decomposed1_3_prompting(processed_tokens, current_html)
+                print(f"  ✓ Post-processing complete\n")
+            
+            # Save intermediate result
+            print(f"[{dec_method}] Step 5: Saving intermediate result...")
+            intermediate_filename = exp_dir / f"{filename}_{dec_idx}.html"
+            with open(intermediate_filename, "w", encoding="utf-8") as f:
+                f.write(current_html)
+            print(f"  ✓ Saved to {intermediate_filename}\n")
+        
+        # Final output
+        print(f"\n{'='*80}")
+        print("✓ ALL DECOMPOSED PASSES COMPLETE")
+        print(f"{'='*80}")
+        final_filename = exp_dir / f"{filename}_final.html"
+        with open(final_filename, "w", encoding="utf-8") as f:
+            f.write(current_html)
+        print(f"\n✓ Final output saved to {final_filename}\n")
     
     print("="*80)
     print("✓ PROCESSING COMPLETE")
+    print(f"✓ Experiment folder: {exp_dir}")
     print("="*80)
+
+def build_arg_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser()
     
-    return output_html_content
+    # Mode (mutually exclusive)
+    mode_group = parser.add_mutually_exclusive_group(required=True)
+    mode_group.add_argument("--filename", type=str, help="Single file mode")
+    mode_group.add_argument("--split", choices=["train", "dev", "test"], help="Split mode")
+    
+    # Shared args
+    parser.add_argument("--method", default="AIO", choices=["AIO", "DEC"])
+    parser.add_argument("--chunker", default="paragraph", choices=["paragraph", "sentence"])
+    parser.add_argument("--fewshot-method", default="greedy", choices=["greedy", "random"])
+    parser.add_argument("--fewshot-examples", type=int, default=6)
+    parser.add_argument("--model", default="gpt-5.2")
+    parser.add_argument("--temperature", type=float, default=1.0)
+    parser.add_argument("--output-dir", type=Path, default=Path("./output"))
+    parser.add_argument("--disable-fallback", action="store_true")
+    parser.add_argument("--with-timestamp", action="store_true")
+    
+    return parser
+
+
+def main():
+    parser = build_arg_parser()
+    args = parser.parse_args()
+
+    run = RunConfig(
+        mode="single" if args.filename else "split",
+        filename=args.filename,
+        split=args.split,
+        method=args.method,
+        chunker=args.chunker,
+        fewshot_method=args.fewshot_method,
+        fewshot_examples=args.fewshot_examples,
+        model=args.model,
+        temperature=args.temperature,
+        disable_fallback=args.disable_fallback,
+        with_timestamp=args.with_timestamp,
+        output_dir=args.output_dir,
+    )
+
+    output_root = run.output_root()
+    filenames = run.get_filenames(DATA_DIR)
+
+    # ── Model loaded ONCE here ──────────────────────────────────────────────
+    print(f"[Setup] Loading model {run.model}...")
+    assistant = AssistantFactory.create_from_config({
+        "type": "openai",
+        "model_name": run.model,
+        "temperature": run.temperature,
+    })
+    print(f"  ✓ Model ready\n")
+
+    print(f"[Setup] Mode: {run.mode.upper()} | Files: {len(filenames)} | Output: {output_root}\n")
+
+    for filename in filenames:
+        print(f"\n{'='*80}")
+        print(f"Processing: {filename}  ({filenames.index(filename)+1}/{len(filenames)})")
+        print(f"{'='*80}")
+        
+        # Per-file output subfolder (only in split mode; flat in single mode)
+        if run.mode == "split":
+            exp_dir = output_root / filename
+            exp_dir.mkdir(exist_ok=True)
+        else:
+            exp_dir = output_root
+
+        split = run.split if run.mode == "split" else "test"  # or make split required always
+        
+        try:
+            process_file(filename, split, run, assistant, exp_dir)
+        except Exception as e:
+            print(f"  ✗ FAILED: {e}")
+            # In split mode, log and continue; in single mode, raise
+            if run.mode == "single":
+                raise
+            with open(output_root / "errors.log", "a") as log:
+                log.write(f"{filename}: {e}\n")
+            continue
+
+    
+    
 
 
 if __name__ == "__main__":

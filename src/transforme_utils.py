@@ -1,3 +1,61 @@
+from dataclasses import dataclass
+from .htmlLabel import HTMLLabel
+
+
+
+@dataclass
+class LabelTransformConfig:
+    """
+    Controls HOW label tags are rendered in output tokens.
+
+    Attributes:
+        use_simplified:    Emit <title> instead of <manual_label labelname="title">.
+        switch_type:       Swap manual_label ↔ auto_label on every tag.
+        keep_attributes:   Attribute whitelist (all others dropped). Mutually
+                           exclusive with remove_attributes.
+        remove_attributes: Attribute blacklist. Mutually exclusive with
+                           keep_attributes.
+        keep_labels:       Label-name whitelist — tags not in this list are
+                           stripped (content kept). Mutually exclusive with
+                           remove_labels.
+        remove_labels:     Label-name blacklist. Mutually exclusive with
+                           keep_labels.
+    """
+    use_simplified:    bool             = False
+    switch_type:       bool             = False
+    keep_attributes:   list[str] | None = None
+    remove_attributes: list[str] | None = None
+    keep_labels:       list[str] | None = None
+    remove_labels:     list[str] | None = None
+
+
+
+
+# ---------------------------------------------------------------------------
+# Internal helpers — token classification
+# ---------------------------------------------------------------------------
+
+def _is_opening_label(token: str) -> bool:
+    t = token.lower()
+    return (t.startswith("<manual_label") or t.startswith("<auto_label")) and t.endswith(">")
+
+
+def _is_closing_label(token: str) -> bool:
+    t = token.lower()
+    return (t.startswith("</manual_label") or t.startswith("</auto_label")) and t.endswith(">")
+
+
+def _switch_closing_tag(token: str) -> str:
+    if token.lower().startswith("</manual_label"):
+        return "</auto_label>"
+    return "</manual_label>"
+
+
+
+
+
+
+
 def _strip_tags(tokens: list, keep_manual_label=False, keep_auto_label=False, keep_bookmarks=False, merge = True, log=False) -> list:
     """
     Remove tag tokens from the HTML token sequence and return text token list
@@ -106,3 +164,78 @@ def clean_tokens(html_tokens: list, normalize: bool = False, keep_manual_label=F
     if log:
         print(f"   ✓ Cleaned tokens count: {len(text_tokens)} (normalize={normalize})")
     return text_tokens
+
+
+
+# ---------------------------------------------------------------------------
+# Core token transformer
+# ---------------------------------------------------------------------------
+
+def prepare_label_tokens(chunk: list[str], cfg: LabelTransformConfig) -> list[str]:
+    """
+    Transform label tokens in *chunk* according to *cfg*.
+
+    Tags whose label name is filtered out are removed (their text content is
+    preserved). All non-label tokens pass through unchanged.
+    """
+    out:              list[str]  = []
+    label_name_stack: list[str]  = []
+    skip_stack:       list[bool] = []
+
+    for token in chunk:
+        if _is_opening_label(token):
+            try:
+                label = HTMLLabel(token)
+            except ValueError:
+                out.append(token)
+                continue
+
+            # filtering
+            if cfg.keep_labels is not None:
+                keep = label.name in cfg.keep_labels
+            elif cfg.remove_labels is not None:
+                keep = label.name not in cfg.remove_labels
+            else:
+                keep = True
+
+            if not keep:
+                skip_stack.append(True)
+                continue
+
+            skip_stack.append(False)
+
+            # attribute filtering
+            if cfg.keep_attributes is not None or cfg.remove_attributes is not None:
+                label.to_string(
+                    remove_attributes=cfg.remove_attributes,
+                    keep_attributes=cfg.keep_attributes,
+                )
+
+            # type switching
+            if cfg.switch_type:
+                label.switch_type()
+
+            # rendering
+            if cfg.use_simplified:
+                out.append(label.to_simplified())
+                label_name_stack.append(label.name)
+            else:
+                out.append(str(label))
+
+        elif _is_closing_label(token):
+            was_skipped = skip_stack.pop() if skip_stack else False
+            if was_skipped:
+                continue
+
+            if cfg.use_simplified:
+                name = label_name_stack.pop() if label_name_stack else None
+                out.append(f"</{name}>" if name else token)
+            elif cfg.switch_type:
+                out.append(_switch_closing_tag(token))
+            else:
+                out.append(token)
+
+        else:
+            out.append(token)
+
+    return out

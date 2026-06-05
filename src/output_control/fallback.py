@@ -40,7 +40,7 @@ class FallbackHandler:
     def attempt_correction(
         self,
         assistant: AssistantFactory,
-        corrected_output: str,
+        corrected_output: list,
         original_chunk: list,
         status: VerificationResult,
         fallback_prompt_filename: Optional[str],
@@ -78,7 +78,7 @@ class FallbackHandler:
         # Build fallback user prompt
         fallback_user_prompt = self._build_fallback_userprompt(
             original_text=decode(original_chunk),
-            failed_output=corrected_output,
+            failed_output=decode(corrected_output),
             error_type=status.error_type,
             error_details=status.details
         )
@@ -154,7 +154,7 @@ Return ONLY the corrected annotated paragraph, nothing else.
     def handle_failure(
         self,
         assistant,
-        corrected_output: str,
+        corrected_output: list,
         original_chunk: list,
         initial_status,
         allowed_labels: Optional[List[str]] = None,
@@ -163,17 +163,13 @@ Return ONLY the corrected annotated paragraph, nothing else.
         """
         Handle verification failures with optional fallback.
         
-        Strategy:
-        - If error is 'nesting' and enable_nesting_fallback=True:
-          Return corrected tokens without fallback (nesting is minor)
-        - If error is other types:
-          Attempt fallback correction
+        If error is other types:
+        Attempt fallback correction
         
         Args:
             assistant: LLM assistant instance
             corrected_output: Corrected LLM output
             original_chunk: Original tokens
-            cleaned_chunk: Cleaned tokens
             original_text: Decoded text
             initial_status: Initial VerificationResult
             allowed_labels: Optional allowed labels
@@ -189,26 +185,8 @@ Return ONLY the corrected annotated paragraph, nothing else.
                 - 'fallback_used': whether fallback was attempted
                 - 'fallback_passed': whether fallback succeeded
         """
-        # Handle nesting errors: return corrected tokens without fallback
-        if initial_status.error_type == "nesting":
-            # Nesting is a structural issue, not a content issue
-            # Return the corrected tokens even though verification "failed"
-            corrected_tokens, _ = self.processor.process(
-                raw_llm_output=corrected_output,
-                original_chunk=original_chunk,
-                allowed_labels=allowed_labels,
-            )
-            
-            return corrected_tokens, {
-                'passed': False,  # Technically failed verification
-                'error_type': 'nesting',
-                'error_details': initial_status.error_details,
-                'fallback_used': False,
-                'fallback_passed': False,
-                'note': 'Nesting error: structural issue, returning corrected tokens'
-            }
         
-        # Attempt fallback for other error types
+        
         corrected_tokens, fallback_passed, fallback_meta = self.attempt_correction(
             assistant=assistant,
             corrected_output=corrected_output,
@@ -217,11 +195,28 @@ Return ONLY the corrected annotated paragraph, nothing else.
             allowed_labels=allowed_labels,
             fallback_prompt_filename=fallback_prompt_filename,
         )
+
+        if fallback_passed:
+            return corrected_tokens, {
+                'passed': fallback_passed,
+                'error_type': fallback_meta.get('error_type') if not fallback_passed else None,
+                'error_details': fallback_meta.get('error_details') if not fallback_passed else None,
+                'fallback_used': fallback_meta.get('fallback_used', False),
+                'fallback_passed': fallback_passed
+            }
         
-        return corrected_tokens, {
-            'passed': fallback_passed,
-            'error_type': fallback_meta.get('error_type') if not fallback_passed else None,
-            'error_details': fallback_meta.get('error_details') if not fallback_passed else None,
-            'fallback_used': fallback_meta.get('fallback_used', False),
-            'fallback_passed': fallback_passed
-        }
+        else:
+            # If fallback also fails, return original tokens with failure status unless it was a nesting error
+            return original_chunk, {
+                'passed': False,
+                'error_type': fallback_meta.get('error_type'),
+                'error_details': fallback_meta.get('error_details'),
+                'fallback_used': fallback_meta.get('fallback_used', False),
+                'fallback_passed': fallback_passed
+            } if initial_status.error_type != 'nesting' else corrected_output, {
+                'passed': False,
+                'error_type': initial_status.error_type,
+                'error_details': initial_status.details,
+                'fallback_used': False,
+                'fallback_passed': False
+            }

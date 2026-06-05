@@ -105,7 +105,7 @@ def compute_sentence_chunks(
     body    = extract_body(html_content)
     tokens  = tokenize(body)
     cleaned = clean_tokens(html_tokens=tokens, normalize=True,
-                           keep_manual_label=True, keep_bookmarks=True)
+                           keep_manual_label=True, keep_auto_label=True,keep_bookmarks=True)
 
     doc                = nlp(decode(cleaned))
     raw_sentences      = [sent.text for sent in doc.sents]

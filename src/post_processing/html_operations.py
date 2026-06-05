@@ -1,8 +1,72 @@
 import re
 import json
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString, Tag
 
 from config import LABEL_SCHEME_PATH
+
+
+def is_pure_whitespace(node):
+    """Return True if node is a NavigableString containing only whitespace."""
+    return isinstance(node, NavigableString) and str(node).strip() == ""
+
+def get_significant_children(tag):
+    """Return children that are not pure-whitespace text nodes."""
+    return [c for c in tag.children if not is_pure_whitespace(c)]
+
+def fix_labels(html_content):
+    """
+    Iteratively move wrapping tags outside label tags until no more changes.
+    We iterate because after one fix the tree may expose another fixable label.
+    """
+    changed = True
+    total_fixes = 0
+
+    soup = BeautifulSoup(html_content, 'html.parser')
+
+    while changed:
+        changed = False
+        for label in soup.find_all({"auto_label", "manual_label"}):
+            sig = get_significant_children(label)
+
+            # We need exactly one significant child, and it must be a Tag
+            # (not another label tag — those are handled separately)
+            if len(sig) != 1:
+                continue
+            child = sig[0]
+            if not isinstance(child, Tag):
+                continue
+            if child.name in {"auto_label", "manual_label"}:
+                continue
+
+            # Confirmed: child wraps all content of label → move child outside
+
+            # 1. Detach label from the tree, keeping its position via a placeholder
+            placeholder = soup.new_tag("__placeholder__")
+            label.replace_with(placeholder)
+
+            # 2. Pull all of child's contents out into label (unwrap the child
+            #    but keep child as the outer shell)
+            child.extract()            # remove child from label
+            inner_contents = list(child.children)  # save child's children
+
+            # Clear label's children (may have whitespace left)
+            for node in list(label.children):
+                node.extract()
+
+            # Move child's contents into label
+            for node in inner_contents:
+                label.append(node)
+
+            # 3. Put label inside child, then replace placeholder with child
+            child.append(label)
+            placeholder.replace_with(child)
+
+            changed = True
+            total_fixes += 1
+
+    return str(soup)
+
+
 
 def clean_html_formatting(html: str, tags_to_clean: set = None, debug: bool = False) -> str:
     """

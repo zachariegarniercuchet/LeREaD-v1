@@ -39,7 +39,8 @@ from src import clean_tokens
 from src import decode
 from src import HTMLLabel
 from src import is_manual_label_tag, is_auto_label_tag
-from .patterns.normalizers import (
+from src.transforme_utils import prepare_label_tokens
+from .fewshot.patterns.normalizers import (
     normalize_fragment,
     normalize_decision_citation,
     normalize_legislation_citation,
@@ -103,7 +104,7 @@ class FewShotExtractionConfig:
 # ---------------------------------------------------------------------------
 
 _PARENT_LABEL_NAMES: frozenset[str] = frozenset(
-    {"decision", "legislation", "secondary sources"}
+    {"decision", "legislation", "secondary sources"} # to use tag.soup.find_all("secondary") instead of soup.find_all("secondary sources")
 )
 
 # (parent_label, child_label, normalizer_fn)
@@ -118,24 +119,7 @@ _SUBLABEL_PATHS: list[tuple[str, str, callable]] = [
 ]
 
 
-# ---------------------------------------------------------------------------
-# Internal helpers — token classification
-# ---------------------------------------------------------------------------
 
-def _is_opening_label(token: str) -> bool:
-    t = token.lower()
-    return (t.startswith("<manual_label") or t.startswith("<auto_label")) and t.endswith(">")
-
-
-def _is_closing_label(token: str) -> bool:
-    t = token.lower()
-    return (t.startswith("</manual_label") or t.startswith("</auto_label")) and t.endswith(">")
-
-
-def _switch_closing_tag(token: str) -> str:
-    if token.lower().startswith("</manual_label"):
-        return "</auto_label>"
-    return "</manual_label>"
 
 
 # ---------------------------------------------------------------------------
@@ -210,14 +194,28 @@ def _extract_pattern_bs4(output_text: str) -> list[list[str]]:
 
     # --- simplified format: <decision>, <title>, … ---
     for parent_name in _PARENT_LABEL_NAMES:
-        for parent_tag in soup.find_all(parent_name):
-            # every child tag (any name) that is NOT itself a known parent
-            sublabels = [
-                child.name
-                for child in parent_tag.find_all(True)          # recursive
-                if child.name not in _PARENT_LABEL_NAMES
-            ]
-            patterns.append([parent_name] + sublabels)
+        if " " in parent_name:
+            # Use regex to find tags with spaces (e.g., <secondary source>...</secondary source>)
+            escaped_name = re.escape(parent_name)
+            tag_re = re.compile(rf"<{escaped_name}>(.*?)</{escaped_name}>", re.DOTALL | re.IGNORECASE)
+            for m in tag_re.finditer(output_text):
+                parent_tag = BeautifulSoup(m.group(0), "html.parser").find(True)
+                if parent_tag:
+                    sublabels = [
+                        child.name
+                        for child in parent_tag.find_all(True)
+                        if child.name not in _PARENT_LABEL_NAMES
+                    ]
+                    patterns.append([parent_name] + sublabels)
+        else:
+            for parent_tag in soup.find_all(parent_name):
+                # every child tag (any name) that is NOT itself a known parent
+                sublabels = [
+                    child.name
+                    for child in parent_tag.find_all(True)          # recursive
+                    if child.name not in _PARENT_LABEL_NAMES
+                ]
+                patterns.append([parent_name] + sublabels)
 
     return patterns
 
@@ -305,10 +303,18 @@ def _parse_parent_annotations(text: str) -> dict[str, list[dict]]:
     if any(result.values()):
         return result
 
-    # Simplified format
+    # Simplified format - use regex for names with spaces (e.g., "secondary source")
     for name in _PARENT_LABEL_NAMES:
-        for tag in soup.find_all(name):
-            result[name].append(str(tag))
+        if " " in name:
+            # Use regex to find tags like <secondary source>...</secondary source>
+            escaped_name = re.escape(name)
+            tag_re = re.compile(rf"<{escaped_name}>(.*?)</{escaped_name}>", re.DOTALL | re.IGNORECASE)
+            for m in tag_re.finditer(text):
+                result[name].append(m.group(0))
+        else:
+            # For single-word names, use direct find_all
+            for tag in soup.find_all(name):
+                result[name].append(str(tag))
 
     return result
 
@@ -346,7 +352,8 @@ def _get_sublabel_strings(
 
     return results
 
-def _get_list_of_mention(tokens, keep_labels, label_type=None):
+
+def get_list_of_mention(tokens, keep_labels, label_type=None):
     """
     Extract mentions from tokens and return their positions.
     
@@ -419,6 +426,53 @@ def _get_list_of_mention(tokens, keep_labels, label_type=None):
     
     return mentions
 
+def build_processing_segments(tokens, parents):
+    """
+    Build a list of segments alternating between:
+      - non-processable token spans
+      - processable mention spans
+
+    Returns:
+        List[dict]: each dict has:
+            - "process": bool
+            - "tokens": list
+            - "meta": optional mention metadata
+    """
+    segments = []
+    cursor = 0
+
+    for html_label, start_idx, end_idx in parents:
+        # Non-processable tokens before the mention
+        if cursor < start_idx:
+            segments.append({
+                "process": False,
+                "tokens": tokens[cursor:start_idx]
+            })
+
+        # The mention itself (processable)
+        segments.append({
+            "process": True,
+            "tokens": tokens[start_idx:end_idx + 1],
+            "meta": {
+                "label": html_label,
+                "start": start_idx,
+                "end": end_idx
+            }
+        })
+
+        cursor = end_idx + 1
+
+    # Trailing non-processable tokens
+    if cursor < len(tokens):
+        segments.append({
+            "process": False,
+            "tokens": tokens[cursor:]
+        })
+
+    return segments
+
+
+
 
 # ---------------------------------------------------------------------------
 # Internal helper — build a single example dict
@@ -445,78 +499,7 @@ def _build_example(
     }
 
 
-# ---------------------------------------------------------------------------
-# Core token transformer
-# ---------------------------------------------------------------------------
 
-def _prepare_label_tokens(chunk: list[str], cfg: LabelTransformConfig) -> list[str]:
-    """
-    Transform label tokens in *chunk* according to *cfg*.
-
-    Tags whose label name is filtered out are removed (their text content is
-    preserved). All non-label tokens pass through unchanged.
-    """
-    out:              list[str]  = []
-    label_name_stack: list[str]  = []
-    skip_stack:       list[bool] = []
-
-    for token in chunk:
-        if _is_opening_label(token):
-            try:
-                label = HTMLLabel(token)
-            except ValueError:
-                out.append(token)
-                continue
-
-            # filtering
-            if cfg.keep_labels is not None:
-                keep = label.name in cfg.keep_labels
-            elif cfg.remove_labels is not None:
-                keep = label.name not in cfg.remove_labels
-            else:
-                keep = True
-
-            if not keep:
-                skip_stack.append(True)
-                continue
-
-            skip_stack.append(False)
-
-            # attribute filtering
-            if cfg.keep_attributes is not None or cfg.remove_attributes is not None:
-                label.to_string(
-                    remove_attributes=cfg.remove_attributes,
-                    keep_attributes=cfg.keep_attributes,
-                )
-
-            # type switching
-            if cfg.switch_type:
-                label.switch_type()
-
-            # rendering
-            if cfg.use_simplified:
-                out.append(label.to_simplified())
-                label_name_stack.append(label.name)
-            else:
-                out.append(str(label))
-
-        elif _is_closing_label(token):
-            was_skipped = skip_stack.pop() if skip_stack else False
-            if was_skipped:
-                continue
-
-            if cfg.use_simplified:
-                name = label_name_stack.pop() if label_name_stack else None
-                out.append(f"</{name}>" if name else token)
-            elif cfg.switch_type:
-                out.append(_switch_closing_tag(token))
-            else:
-                out.append(token)
-
-        else:
-            out.append(token)
-
-    return out
 
 
 # ---------------------------------------------------------------------------
@@ -560,7 +543,7 @@ def extract_few_shot_examples(
             keep_auto_label=False,
             keep_bookmarks=False,
         )
-        output_tokens = _prepare_label_tokens(chunk, cfg)
+        output_tokens = prepare_label_tokens(chunk, cfg)
         examples.append(
             _build_example(decode(input_tokens), decode(output_tokens), source_file)
         )

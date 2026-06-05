@@ -100,21 +100,30 @@ def get_tag_name(tok: str) -> str:
         '</i>' -> 'i'
         '<span class="test">' -> 'span'
         '<auto_label labelname="decision">' -> 'auto_label'
+        '<secondary sources labelname="decision">' -> 'secondary sources'
     """
     if not is_tag_token(tok):
         return ""
     
     # Remove < and >
-    content = tok[1:-1]
+    content = tok[1:-1].strip()
     
     # Remove leading / for closing tags
     if content.startswith('/'):
         content = content[1:]
     
-    # Split on whitespace to get just the tag name (handles attributes)
-    tag_name = content.split()[0] if content else ""
+    # Split on whitespace and accumulate words into the tag name
+    # until we hit a word that contains '=' (attribute key=value)
+    parts = content.split()
+    name_parts = []
+    for part in parts:
+        if '=' in part:
+            break
+        name_parts.append(part)
     
-    return tag_name
+    return " ".join(name_parts)
+
+
 
 
 

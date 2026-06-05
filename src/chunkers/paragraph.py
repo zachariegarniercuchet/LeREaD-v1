@@ -27,6 +27,7 @@ def compute_paragraph_chunks(
             html_tokens=tokenize(str(block)),
             normalize=True,
             keep_manual_label=True,
+            keep_auto_label=True,
             keep_bookmarks=True,
         )
         if cleaned:

@@ -302,3 +302,48 @@ def from_simplified(simplified_token: str, label_type: str = 'auto_label') -> HT
     
     # Return HTMLLabel object
     return HTMLLabel(full_token)
+
+
+
+
+def simplified_to_normal_form(tokens: list, label_type: str = 'auto_label') -> list:
+    """
+    Convert simplified label format to normal auto_label or manual_label format.
+    
+    Transforms:
+        <decision> → <auto_label labelname="decision">
+        </decision> → </auto_label>
+        <title titletype="main"> → <auto_label labelname="title" titletype="main">
+        </title> → </auto_label>
+    
+    Args:
+        tokens: List of tokens potentially containing simplified label tags
+        label_type: Either 'auto_label' or 'manual_label' (default: 'auto_label')
+    
+    Returns:
+        List of tokens with normalized label format
+    """
+    if label_type not in ['auto_label', 'manual_label']:
+        raise ValueError(f"label_type must be 'auto_label' or 'manual_label', got: {label_type}")
+    
+    normalized_tokens = []
+    
+    for token in tokens:
+        # Check for opening tag: <...> but not </...> or <manual_label...> or <auto_label...>
+        is_open = bool(re.fullmatch(r'<(?!\/|manual_label|auto_label)[^>]+>', token))
+        
+        # Check for closing tag: </...> but not </manual_label...> or </auto_label...>
+        is_close = bool(re.fullmatch(r'<\/((?!manual_label|auto_label)[^>]+)>', token))
+        
+        if is_open:
+            # Convert simplified opening tag to normal form
+            html_label = from_simplified(token, label_type=label_type)
+            normalized_tokens.append(html_label._token)
+        elif is_close:
+            # Convert simplified closing tag to normal form
+            normalized_tokens.append(f'</{label_type}>')
+        else:
+            # Keep token as-is
+            normalized_tokens.append(token)
+    
+    return normalized_tokens
