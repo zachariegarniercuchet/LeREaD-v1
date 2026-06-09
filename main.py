@@ -209,7 +209,7 @@ def process_output(
     )
 
     if status.passed:
-        return token_chunk, status
+        return corrected_generated_tokens, status
 
     if not with_fallback:
         return token_chunk, status
@@ -268,7 +268,7 @@ def process_aio_dec0(
             system_prompt=system_prompt,
             user_input=user_input,
             fewshot_examples=fewshot_examples,
-            has_system_role=True
+            has_system_role=assistant.has_system_role
         )
         
         generated = assistant.generate(messages=messages)
@@ -353,7 +353,7 @@ def process_dec1_3(
             system_prompt=system_prompt,
             user_input=user_input,
             fewshot_examples=filtered_fewshot,
-            has_system_role=True
+            has_system_role=assistant.has_system_role
         )
         
         generated = assistant.generate(messages=messages)

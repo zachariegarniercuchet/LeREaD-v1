@@ -9,7 +9,7 @@ from .bracket_fixing import correct_tokens_brackets, check_tokens_brackets
 from .html_operations import add_attributes_to_auto_labels, clean_html_formatting, fix_labels
 
 
-def chunks_to_html(processed_chunks, html_content):
+def tokens_to_html(processed_tokens, html_content):
     """
     Main orchestration function for document-level post-processing.
     
@@ -34,12 +34,6 @@ def chunks_to_html(processed_chunks, html_content):
         AssertionError: If validation or bracket checking fails
     """
     
-    
-    # =====================================================================
-    # Step 1: Flatten processed chunks
-    # =====================================================================
-    processed_tokens_flat = flatten_token_chunks(processed_chunks)
-    
     # =====================================================================
     # Step 2: Tokenize original HTML and merge with processed tokens
     # =====================================================================
@@ -47,7 +41,7 @@ def chunks_to_html(processed_chunks, html_content):
     
     processed_html_content_tokens = merge_tokens_general(
         original_tokens=original_tokens,
-        derived_tokens=processed_tokens_flat,
+        derived_tokens=processed_tokens,
         is_protected_func=lambda tok: is_auto_label_tag(tok) != 0,
         is_opening_protected_func=lambda tok: is_auto_label_tag(tok) == 1,
         is_tag_token_func=lambda tok: is_tag_token(tok),
@@ -154,51 +148,5 @@ def tokens_to_html_after_decomposed1_3_prompting(processed_tokens, html_content)
 
     return processed_html_content
 
-
-
-
-
-
-
-def tokens_to_html_after_decomposed1_3_prompting(processed_tokens, html_content):
-    """
-    Orchestration function for converting processed tokens to HTML after the 
-    decomposed 1.3 prompting step.
-    
-    This function:
-    1. Validates the processed tokens against the original HTML
-    2. Corrects any bracket nesting issues
-    3. Validates bracket coherence
-    4. Cleans up HTML formatting
-    5. Adds label scheme attributes to auto_labels
-    
-    Args:
-        processed_tokens: List of tokens from the model output after decomposed prompting
-        html_content: Original HTML content string
-    """
-    # Useless verification to check if the tokens are the same after processing (except for the auto labels)
-    t1 = []
-    t2 = []
-    for token in processed_tokens:
-        if not is_auto_label_tag(token) in [1, 2]:
-            t1.append(token)
-
-    original_tokens = tokenize(html_content)
-    for token in original_tokens:
-        if not is_auto_label_tag(token) in [1, 2]:
-            t2.append(token)
-
-    assert t1 == t2, "The tokens are different after processing, which should not happen as we are only adding auto_label tags without changing the original tokens."
-
-
-    processed_html = decode(processed_tokens)
-    processed_html_cleaned = clean_html_formatting(processed_html)
-
-    processed_html_content = add_attributes_to_auto_labels(processed_html_cleaned)
-
-    comparison_result = compare_html_allow_auto_labels(processed_html_content, html_content)
-    assert comparison_result, "The processed HTML content does not match the original HTML content when ignoring auto_label tags."
-
-    return processed_html_content
 
 

@@ -14,55 +14,53 @@ def get_significant_children(tag):
     return [c for c in tag.children if not is_pure_whitespace(c)]
 
 def fix_labels(html_content):
-    """
-    Iteratively move wrapping tags outside label tags until no more changes.
-    We iterate because after one fix the tree may expose another fixable label.
-    """
     changed = True
-    total_fixes = 0
-
     soup = BeautifulSoup(html_content, 'html.parser')
 
     while changed:
         changed = False
-        for label in soup.find_all({"auto_label", "manual_label"}):
-            sig = get_significant_children(label)
-
-            # We need exactly one significant child, and it must be a Tag
-            # (not another label tag — those are handled separately)
-            if len(sig) != 1:
-                continue
-            child = sig[0]
-            if not isinstance(child, Tag):
-                continue
-            if child.name in {"auto_label", "manual_label"}:
+        for label in soup.find_all(["auto_label", "manual_label"]):
+            
+            # Get the full text of the label (ground truth)
+            label_text = label.get_text().strip()
+            if not label_text:
                 continue
 
-            # Confirmed: child wraps all content of label → move child outside
+            # For each possible wrapping tag type found inside the label,
+            # check if concatenation of all its text == label text
+            candidate_tags = {}  # (tag_name, attrs_tuple) -> [list of tag instances]
+            for child_tag in label.find_all(True):
+                key = (child_tag.name, tuple(sorted(child_tag.attrs.items())))
+                if key not in candidate_tags:
+                    candidate_tags[key] = []
+                candidate_tags[key].append(child_tag)
 
-            # 1. Detach label from the tree, keeping its position via a placeholder
-            placeholder = soup.new_tag("__placeholder__")
-            label.replace_with(placeholder)
+            winner = None
+            winner_instances = None
+            for (tag_name, attrs_tuple), instances in candidate_tags.items():
+                # Concatenate text of all instances of this tag
+                combined_text = "".join(t.get_text() for t in instances).strip()
+                if combined_text.replace(" ", "") == label_text.replace(" ", ""):
+                    winner = (tag_name, attrs_tuple)
+                    winner_instances = instances
+                    break
 
-            # 2. Pull all of child's contents out into label (unwrap the child
-            #    but keep child as the outer shell)
-            child.extract()            # remove child from label
-            inner_contents = list(child.children)  # save child's children
+            if winner is None:
+                continue
 
-            # Clear label's children (may have whitespace left)
-            for node in list(label.children):
-                node.extract()
+            winning_tag_name, winning_attrs_tuple = winner
+            winning_attrs = dict(winning_attrs_tuple)
 
-            # Move child's contents into label
-            for node in inner_contents:
-                label.append(node)
+            # Unwrap all instances of the winning tag inside the label
+            for instance in winner_instances:
+                instance.unwrap()
 
-            # 3. Put label inside child, then replace placeholder with child
-            child.append(label)
-            placeholder.replace_with(child)
+            # Wrap the label with the winning tag
+            outer = soup.new_tag(winning_tag_name, **winning_attrs)
+            label.wrap(outer)
 
             changed = True
-            total_fixes += 1
+            break
 
     return str(soup)
 
@@ -126,67 +124,79 @@ def clean_html_formatting(html: str, tags_to_clean: set = None, debug: bool = Fa
         if debug:
             print(f"\n--- Iteration {iteration + 1} ---")
         
-        # PASS 1: Remove ALL empty tags in one complete pass
         empty_removed_this_pass = 0
+        # PASS 1: Remove ALL empty tags (or whitespace-only tags) in one complete pass
         for tag_name in tags_to_clean:
-            while True:  # Keep removing until no more empty tags of this type
+            while True:
                 tags = soup.find_all(tag_name)
                 found_empty = False
                 
                 for tag in tags:
-                    # Check if tag has NO children (not even text/whitespace)
-                    if len(list(tag.children)) == 0:
+                    children = list(tag.children)
+                    has_element_children = any(
+                        isinstance(c, Tag) or (isinstance(c, NavigableString) and c.strip() != "")
+                        for c in children
+                    )
+                    
+                    # Remove tag if it has no element children (pure text, space, or truly empty)
+                    # Always unwrap: keep whatever text is inside, just strip the tag itself
+                    if not has_element_children:
                         if debug:
-                            print(f"  [PASS 1] Removing empty <{tag_name}> tag")
-                        tag.decompose()
+                            print(f"  [PASS 1] Unwrapping <{tag_name}>: {str(tag)[:60]}")
+                        tag.unwrap()
                         empty_removed_this_pass += 1
                         found_empty = True
-                        break  # Restart search after modification
+                        break
                 
                 if not found_empty:
-                    break  # No more empty tags of this type
-        
-        total_empty_removed += empty_removed_this_pass
-        if debug and empty_removed_this_pass > 0:
-            print(f"  [PASS 1] Removed {empty_removed_this_pass} empty tags")
+                    break
         
         # PASS 2: Merge ALL adjacent identical tags in one complete pass
         merged_this_pass = 0
+        
         for tag_name in tags_to_clean:
-            while True:  # Keep merging until no more adjacent pairs of this type
+            while True:
                 tags = soup.find_all(tag_name)
                 found_merge = False
                 
                 for tag in tags:
-                    # Look at the next sibling - must be immediate, no text between
+                    # Look at the next sibling, skipping over pure-whitespace text nodes
                     next_sib = tag.next_sibling
-                    
+                    whitespace_between = None
+                    if (next_sib and
+                        isinstance(next_sib, NavigableString) and
+                        next_sib.strip() == ""):
+                        whitespace_between = next_sib   # remember it so we can remove it
+                        next_sib = next_sib.next_sibling
+
                     # Only merge if next sibling is same tag type with same attributes
-                    if (next_sib and 
-                        hasattr(next_sib, 'name') and 
+                    if (next_sib and
+                        hasattr(next_sib, 'name') and
                         next_sib.name == tag_name and
                         dict(tag.attrs) == dict(next_sib.attrs)):
-                        
+
                         if debug:
                             tag_str = str(tag)[:60] + "..." if len(str(tag)) > 60 else str(tag)
                             next_str = str(next_sib)[:60] + "..." if len(str(next_sib)) > 60 else str(next_sib)
                             print(f"  [PASS 2] Merging <{tag_name}> tags:")
                             print(f"           First:  {tag_str}")
                             print(f"           Second: {next_str}")
-                        
-                        # Merge: move all contents from next_sib into tag
-                        children_to_move = list(next_sib.children)
-                        for child in children_to_move:
+
+                        # Merge: move whitespace inside the tag first, then the contents of next_sib
+                        if whitespace_between is not None:
+                            tag.append(whitespace_between)  # moves the space node inside <b>
+
+                        for child in list(next_sib.children):
                             tag.append(child)
-                        
-                        # Remove the now-empty next tag
+
                         next_sib.decompose()
                         merged_this_pass += 1
                         found_merge = True
-                        break  # Restart search after modification
-                
+                        break
+
                 if not found_merge:
-                    break  # No more adjacent pairs of this type
+                    break
+        
         
         total_merged += merged_this_pass
         if debug and merged_this_pass > 0:
