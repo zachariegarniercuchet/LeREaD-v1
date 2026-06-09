@@ -153,40 +153,48 @@ def clean_html_formatting(html: str, tags_to_clean: set = None, debug: bool = Fa
         # PASS 2: Merge ALL adjacent identical tags in one complete pass
         merged_this_pass = 0
         for tag_name in tags_to_clean:
-            while True:  # Keep merging until no more adjacent pairs of this type
+            while True:
                 tags = soup.find_all(tag_name)
                 found_merge = False
                 
                 for tag in tags:
-                    # Look at the next sibling - must be immediate, no text between
+                    # Look at the next sibling, skipping over pure-whitespace text nodes
                     next_sib = tag.next_sibling
-                    
+                    whitespace_between = None
+                    if (next_sib and
+                        isinstance(next_sib, NavigableString) and
+                        next_sib.strip() == ""):
+                        whitespace_between = next_sib   # remember it so we can remove it
+                        next_sib = next_sib.next_sibling
+
                     # Only merge if next sibling is same tag type with same attributes
-                    if (next_sib and 
-                        hasattr(next_sib, 'name') and 
+                    if (next_sib and
+                        hasattr(next_sib, 'name') and
                         next_sib.name == tag_name and
                         dict(tag.attrs) == dict(next_sib.attrs)):
-                        
+
                         if debug:
                             tag_str = str(tag)[:60] + "..." if len(str(tag)) > 60 else str(tag)
                             next_str = str(next_sib)[:60] + "..." if len(str(next_sib)) > 60 else str(next_sib)
                             print(f"  [PASS 2] Merging <{tag_name}> tags:")
                             print(f"           First:  {tag_str}")
                             print(f"           Second: {next_str}")
-                        
+
+                        # Drop the whitespace node that was between the two tags
+                        if whitespace_between is not None:
+                            whitespace_between.extract()
+
                         # Merge: move all contents from next_sib into tag
-                        children_to_move = list(next_sib.children)
-                        for child in children_to_move:
+                        for child in list(next_sib.children):
                             tag.append(child)
-                        
-                        # Remove the now-empty next tag
+
                         next_sib.decompose()
                         merged_this_pass += 1
                         found_merge = True
-                        break  # Restart search after modification
-                
+                        break
+
                 if not found_merge:
-                    break  # No more adjacent pairs of this type
+                    break
         
         total_merged += merged_this_pass
         if debug and merged_this_pass > 0:

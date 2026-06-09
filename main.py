@@ -51,7 +51,7 @@ def get_method_config(method: str) -> Dict[str, Any]:
             "already_labeled_labels": [],
             "new_labels": ["decision", "legislation", "secondary sources"],
             "spans_in_context": True,
-            "prompt_filename": "decomposed0_long.txt",
+            "prompt_filename": "decomposed0_short.txt",
             "use_chunking": True,
         },
         "DEC1": {
