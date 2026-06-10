@@ -33,8 +33,6 @@ Usage:
     result = main_post_processing(processed_chunks, original_html)
 """
 
-from .main import chunks_to_html
-
 # Import utilities for advanced usage
 from .token_operations import merge_tokens_general
 from .format_conversion import (
@@ -48,7 +46,7 @@ from .validation import compare_html_allow_auto_labels
 
 __all__ = [
     # Main function
-    "chunks_to_html",
+    "tokens_to_html",
     # Token operations
     "merge_tokens_general",
     # Format conversion

@@ -40,7 +40,8 @@ class OpenWeightAssistant(BaseAssistant):
 
         common_kwargs = dict(
             trust_remote_code=self.trust_remote_code,
-            device_map="auto",
+            device_map="cuda",
+            low_cpu_mem_usage=True,
         )
 
         if self.quantization == "4bit":
@@ -49,14 +50,18 @@ class OpenWeightAssistant(BaseAssistant):
                 bnb_4bit_compute_dtype=torch.float16,
                 bnb_4bit_use_double_quant=True,
                 bnb_4bit_quant_type="nf4",
+                llm_int8_enable_fp32_cpu_offload=True,
             )
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_path, quantization_config=bnb_cfg, **common_kwargs
             )
         elif self.quantization == "8bit":
-            bnb_cfg = BitsAndBytesConfig(load_in_8bit=True)
+            bnb_cfg = BitsAndBytesConfig(
+                load_in_8bit=True, 
+                llm_int8_enable_fp32_cpu_offload=True,
+            )
             self.model = AutoModelForCausalLM.from_pretrained(
-                self.model_path, quantization_config=bnb_cfg, **common_kwargs
+                self.model_path, quantization_config=bnb_cfg,**common_kwargs
             )
         else:  # fp16
             self.model = AutoModelForCausalLM.from_pretrained(
@@ -85,27 +90,45 @@ class OpenWeightAssistant(BaseAssistant):
     def _strip_think_block(text: str) -> str:
         return re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
 
-    def generate(self, message: List[Dict[str, str]]) -> str:
-        prompt = self._format_prompt(message)
-        inputs = self.tokenizer(
-            prompt, return_tensors="pt", truncation=True, max_length=2048
-        ).to(self.model.device)
-
+    def generate(
+        self,
+        messages,  # Full conversation history
+        max_new_tokens: int = 512,
+    ) -> str:
+        """
+        Generate a response for Qwen2.5-7B-Instruct.
+        
+        Args:
+            messages: List of dicts with "role" and "content" keys.
+                    Example: [
+                        {"role": "system", "content": "You are..."},
+                        {"role": "user", "content": "Hello"},
+                        {"role": "assistant", "content": "Hi!"},
+                        {"role": "user", "content": "Another question"}
+                    ]
+            max_new_tokens: Maximum tokens to generate.
+        """
+        # Apply chat template - Qwen2.5 handles everything automatically
+        text = self.tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True,
+        )
+        
+        inputs = self.tokenizer([text], return_tensors="pt").to(self.model.device)
+        
+        # Recommended sampling parameters for Qwen2.5-Instruct[citation:4][citation:9]
         with torch.no_grad():
-            output_ids = self.model.generate(
-                input_ids=inputs["input_ids"],
-                attention_mask=inputs.get("attention_mask"),
-                max_new_tokens=self.max_tokens,
+            outputs = self.model.generate(
+                **inputs,
+                max_new_tokens=max_new_tokens,
                 temperature=self.temperature,
-                top_p=0.95,
                 do_sample=True,
-                pad_token_id=self.tokenizer.pad_token_id,
-                eos_token_id=self.tokenizer.eos_token_id,
+                repetition_penalty=1.05,
             )
-
-        new_tokens = output_ids[0, inputs["input_ids"].shape[1]:]
-        text = self.tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
-
-        if self.thinking and self.strip_thinking:
-            text = self._strip_think_block(text)
-        return text
+        
+        # Decode only the newly generated tokens
+        generated_ids = outputs[0][inputs.input_ids.shape[1]:]
+        response = self.tokenizer.decode(generated_ids, skip_special_tokens=True)
+        
+        return response

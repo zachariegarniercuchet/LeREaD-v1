@@ -64,6 +64,16 @@ def is_manual_label_tag(tok):
         return 2
     return 0
 
+def is_specific_label_tag(tok, labelnames, labeltype='auto_label'):
+    """Return 1 if token is an opening, 2 if it is a closing auto_label tag with the specified labelname, 0 otherwise"""
+    if not is_tag_token(tok):
+        return False
+    # Check for opening tag with labelname attribute
+    for labelname in labelnames:
+        if tok.lower().startswith(f'<{labeltype}') and f'labelname="{labelname}"' in tok.lower():
+            return True
+    return False
+
 def strip_auto_labels(html: str) -> str:
     """Remove all <auto_label ...> and </auto_label> tags from html."""
     # Remove opening tags with any attributes

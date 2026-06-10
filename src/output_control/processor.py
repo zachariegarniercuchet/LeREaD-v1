@@ -4,9 +4,6 @@ This module orchestrates the transformation pipeline: tokenization → extractio
 """
 
 from typing import Tuple, Optional, List
-
-from sympy import content
-
 from src.htmlLabel import from_simplified
 from src.html_utils import get_tag_name, is_auto_label_tag, is_closing_tag, is_opening_tag
 from .protected_levenshtein_alignnment import protected_levenshtein_distance, apply_operations_safe
