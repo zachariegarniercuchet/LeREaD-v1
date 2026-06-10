@@ -26,15 +26,16 @@ class RunConfig:
     disable_fallback: bool = False
     with_timestamp: bool = False
     output_dir: Path = Path("./output")
+    prompt_type: str = "long"
 
     def output_root(self) -> Path:
         """Resolve the top-level output folder for this run."""
         if self.mode == "split":
             # e.g. output/test_AIO_fs6_greedy_paragraph/
-            folder = f"{self.split}_{self.model}_{self.method}_fs{self.fewshot_examples}_{self.fewshot_method}_{self.chunker}"
+            folder = f"{self.split}_{self.model}_{self.method}_fs{self.fewshot_examples}_{self.fewshot_method}_{self.chunker}_{self.prompt_type}"
         else:
             # e.g. output/single_1989CanLII1415ONCA_AIO_.../
-            folder = f"single_{self.filename}_{self.model}_{self.method}_fs{self.fewshot_examples}_{self.fewshot_method}_{self.chunker}"
+            folder = f"single_{self.filename}_{self.model}_{self.method}_fs{self.fewshot_examples}_{self.fewshot_method}_{self.chunker}_{self.prompt_type}"
         
         if self.with_timestamp:
             from datetime import datetime

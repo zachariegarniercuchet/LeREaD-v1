@@ -14,6 +14,18 @@ def get_significant_children(tag):
     return [c for c in tag.children if not is_pure_whitespace(c)]
 
 def fix_labels(html_content):
+
+    def normalize_attr_value(k, v):
+        if k == "style":
+            # Remove all spaces around : and ; for consistent comparison
+            return ";".join(
+                p.strip() for p in v.replace(" ", "").split(";") if p.strip()
+            )
+        if isinstance(v, list):
+            return " ".join(v)
+        return str(v)
+
+
     changed = True
     soup = BeautifulSoup(html_content, 'html.parser')
 
@@ -30,14 +42,31 @@ def fix_labels(html_content):
             # check if concatenation of all its text == label text
             candidate_tags = {}  # (tag_name, attrs_tuple) -> [list of tag instances]
             for child_tag in label.find_all(True):
-                key = (child_tag.name, tuple(sorted(child_tag.attrs.items())))
+                key = (child_tag.name, tuple(sorted(
+                    (k, normalize_attr_value(k, v))
+                    for k, v in child_tag.attrs.items()
+                )))
                 if key not in candidate_tags:
                     candidate_tags[key] = []
                 candidate_tags[key].append(child_tag)
 
+            # Filter out instances that are descendants of another instance with the same key
+            filtered_candidate_tags = {}
+            for key, instances in candidate_tags.items():
+                top_level = []
+                for instance in instances:
+                    # Check if any ancestor of this instance is also in the same group
+                    is_nested = any(
+                        ancestor in instances
+                        for ancestor in instance.parents
+                    )
+                    if not is_nested:
+                        top_level.append(instance)
+                filtered_candidate_tags[key] = top_level
+
             winner = None
             winner_instances = None
-            for (tag_name, attrs_tuple), instances in candidate_tags.items():
+            for (tag_name, attrs_tuple), instances in filtered_candidate_tags.items():
                 # Concatenate text of all instances of this tag
                 combined_text = "".join(t.get_text() for t in instances).strip()
                 if combined_text.replace(" ", "") == label_text.replace(" ", ""):
@@ -49,14 +78,17 @@ def fix_labels(html_content):
                 continue
 
             winning_tag_name, winning_attrs_tuple = winner
-            winning_attrs = dict(winning_attrs_tuple)
+            winning_attrs = {
+                k: (v.split(" ") if k == "class" else v)  
+                for k, v in winning_attrs_tuple
+            }
 
             # Unwrap all instances of the winning tag inside the label
             for instance in winner_instances:
                 instance.unwrap()
 
             # Wrap the label with the winning tag
-            outer = soup.new_tag(winning_tag_name, **winning_attrs)
+            outer = soup.new_tag(winning_tag_name, **winner_instances[0].attrs)
             label.wrap(outer)
 
             changed = True

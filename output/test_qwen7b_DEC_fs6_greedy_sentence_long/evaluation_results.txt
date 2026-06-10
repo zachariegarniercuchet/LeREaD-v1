@@ -2,7 +2,7 @@
 ======================================================================
 BATCH EVALUATION
 ======================================================================
-Batch folder: output/test_qwen7b_DEC_fs6_greedy_sentence
+Batch folder: output/test_qwen7b_DEC_fs6_greedy_sentence_long
 Split: test
 ======================================================================
 Found 3 evaluation pair(s)
@@ -11,14 +11,14 @@ Found 3 evaluation pair(s)
 Batch evaluation — 3 file pair(s)
 ============================================================
 
-[1/3] 1989CanLII1415ONCA.html
-  micro F1: 42.4%
+[1/3] 2024NBKB203.html
+  micro F1: 42.5%
 
 [2/3] 2005QCCA437.html
-  micro F1: 18.2%
+  micro F1: 26.9%
 
-[3/3] 2024NBKB203.html
-  micro F1: 0.0%
+[3/3] 1989CanLII1415ONCA.html
+  micro F1: 45.1%
 
 ============================================================
 
@@ -26,16 +26,16 @@ Batch evaluation — 3 file pair(s)
   ──────────────────────────────────────────────────────────────────────────────────
   Label                                Gold    Sys     TP        P        R       F1
   ──────────────────────────────────────────────────────────────────────────────────
-  authors                                32      1      1   100.0%     3.1%     6.1%
-  citation                              102     19     14    73.7%    13.7%    23.1%
-  decision                              207     35     27    77.1%    13.0%    22.3%
-  fragment                              286      8      6    75.0%     2.1%     4.1%
-  legislation                           183     35     19    54.3%    10.4%    17.4%
-  secondary sources                      65     24     14    58.3%    21.5%    31.5%
-  source                                 28      4      3    75.0%    10.7%    18.8%
-  title                                 307     28     21    75.0%     6.8%    12.5%
+  authors                                32     13      9    69.2%    28.1%    40.0%
+  citation                              102     48     40    83.3%    39.2%    53.3%
+  decision                              207    116     74    63.8%    35.7%    45.8%
+  fragment                              286     97     66    68.0%    23.1%    34.5%
+  legislation                           183     51     27    52.9%    14.8%    23.1%
+  secondary sources                      65     37     21    56.8%    32.3%    41.2%
+  source                                 28     11     10    90.9%    35.7%    51.3%
+  title                                 307    110     85    77.3%    27.7%    40.8%
   unable to classify                      1      0      0     0.0%     0.0%     0.0%
   ──────────────────────────────────────────────────────────────────────────────────
-  MICRO (all labels)                   1211    154    105    68.2%     8.7%    15.4%
-  MACRO F1 (mean per-doc F1)                                          20.2%  (over 3 documents)
+  MICRO (all labels)                   1211    483    332    68.7%    27.4%    39.2%
+  MACRO F1 (mean per-doc F1)                                          38.2%  (over 3 documents)
 

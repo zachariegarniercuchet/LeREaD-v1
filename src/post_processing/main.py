@@ -135,18 +135,25 @@ def tokens_to_html_after_decomposed1_3_prompting(processed_tokens, html_content)
         if not is_auto_label_tag(token) in [1, 2]:
             t2.append(token)
 
+    for o, p in zip(t1, t2):
+        if o != p:
+            print("Original token: ", o)
+            print("Processed token: ", p)
+
     assert t1 == t2, "The tokens are different after processing, which should not happen as we are only adding auto_label tags without changing the original tokens."
 
-
     processed_html = decode(processed_tokens)
-    processed_html_cleaned = clean_html_formatting(processed_html)
-
-    processed_html_content = add_attributes_to_auto_labels(processed_html_cleaned)
-
-    comparison_result = compare_html_allow_auto_labels(processed_html_content, html_content)
+    comparison_result = compare_html_allow_auto_labels(processed_html, html_content)
     assert comparison_result, "The processed HTML content does not match the original HTML content when ignoring auto_label tags."
 
-    return processed_html_content
+
+    
+    processed_html_cleaned = clean_html_formatting(processed_html)
+
+    processed_html_final = add_attributes_to_auto_labels(processed_html_cleaned)
+
+
+    return processed_html_final
 
 
 
