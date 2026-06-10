@@ -34,6 +34,7 @@ Usage:
 """
 
 # Import utilities for advanced usage
+from .main import tokens_to_html
 from .token_operations import merge_tokens_general
 from .format_conversion import (
     extract_start_end_tokens,

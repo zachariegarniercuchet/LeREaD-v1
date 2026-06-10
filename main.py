@@ -18,6 +18,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 MODEL_MAPPING_NAME = {
     "qwen7b": "Qwen2.5-7B-Instruct",
+    "qwen32b": "Qwen2.5-32B-Instruct",
     "gpt-5.2": "gpt-5.2",
 }
 
@@ -35,14 +36,16 @@ from src.models import get_messages, AssistantFactory
 from src.output_control.processor import OutputProcessor
 from src.output_control.fallback import FallbackHandler 
 from src.output_control.verification import VerificationResult 
-from src.post_processing import chunks_to_html
+from src.post_processing import tokens_to_html
 from src.post_processing.main import tokens_to_html_after_decomposed1_3_prompting
 from src.htmlLabel import simplified_to_normal_form
 from src.prompts.prompt_utils import build_sublabel_definitions
 from src.prompts.sublabel_definitions import SUBLABEL_DEFINITIONS_V2
+from src.post_processing.token_operations import flatten_token_chunks
 
 
-def get_method_config(method: str) -> Dict[str, Any]:
+
+def get_method_config(method: str, prompt_type: str = "long") -> Dict[str, Any]:
     """Get configuration for the specified prompting method."""
     configs = {
         "AIO": {
@@ -50,7 +53,7 @@ def get_method_config(method: str) -> Dict[str, Any]:
             "already_labeled_labels": [],
             "new_labels": ["decision", "legislation", "secondary sources", "title", "citation", "source", "authors", "fragment"],
             "spans_in_context": True,
-            "prompt_filename": "allInOne_long.txt",
+            "prompt_filename": f"allInOne_{prompt_type}.txt",
             "use_chunking": True,
         },
         "DEC0": {
@@ -58,7 +61,7 @@ def get_method_config(method: str) -> Dict[str, Any]:
             "already_labeled_labels": [],
             "new_labels": ["decision", "legislation", "secondary sources"],
             "spans_in_context": True,
-            "prompt_filename": "decomposed0_short.txt",
+            "prompt_filename": f"decomposed0_{prompt_type}.txt",
             "use_chunking": True,
         },
         "DEC1": {
@@ -395,7 +398,7 @@ def process_file(filename, split, run, assistant, exp_dir):
         print("[AIO] ALL-IN-ONE METHOD")
         print("="*80)
         
-        config = get_method_config("AIO")
+        config = get_method_config("AIO", run.prompt_type)
         
         # Step 3: Chunk the document
         print("[Step 3] Chunking document...")
@@ -440,7 +443,10 @@ def process_file(filename, split, run, assistant, exp_dir):
             
             # Step 7: Post-processing
             print("[Step 7] Post-processing document...")
-            output_html_content = chunks_to_html(processed_chunks, html_content)
+
+            processed_tokens_flat = flatten_token_chunks(processed_chunks)
+
+            output_html_content = tokens_to_html(processed_tokens_flat, html_content)
             print(f"  ✓ Post-processing complete\n")
             
             # Step 8: Save output
@@ -465,7 +471,7 @@ def process_file(filename, split, run, assistant, exp_dir):
             print(f"[{dec_method}] {dec_method} Pass")
             print(f"{'='*80}\n")
             
-            config = get_method_config(dec_method)
+            config = get_method_config(dec_method, run.prompt_type)
 
             # ── Checkpoint check ──────────────────────────────────────────
             cached = get_checkpoint(exp_dir, filename, str(dec_idx))
@@ -525,7 +531,9 @@ def process_file(filename, split, run, assistant, exp_dir):
                 
                 # Post-process
                 print(f"[{dec_method}] Step 4: Post-processing document...")
-                current_html = chunks_to_html(processed_chunks, current_html)
+                processed_tokens_flat = flatten_token_chunks(processed_chunks)
+
+                current_html = tokens_to_html(processed_tokens_flat, current_html)
                 print(f"  ✓ Post-processing complete\n")
             else:
                 # DEC1-3 use mention-based processing
@@ -584,6 +592,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--output-dir", type=Path, default=Path("./output"))
     parser.add_argument("--disable-fallback", action="store_true")
     parser.add_argument("--with-timestamp", action="store_true")
+    parser.add_argument("--prompt_type", type=str, default="long", choices=["short", "long"])
     
     return parser
 
@@ -605,6 +614,7 @@ def main():
         disable_fallback=args.disable_fallback,
         with_timestamp=args.with_timestamp,
         output_dir=args.output_dir,
+        prompt_type=args.prompt_type,
     )
 
     output_root = run.output_root()
