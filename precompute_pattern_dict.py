@@ -8,8 +8,10 @@ Usage:
 import argparse
 from config import DATA_DIR
 from src.fewshot.patterns.builder import (
-    build_pattern_dict, save_pattern_dict,
-    load_pattern_dict, pattern_dict_exists,
+    build_surface_pattern_dict, save_surface_pattern_dict,
+    load_surface_pattern_dict, surface_pattern_dict_exists,
+    build_structural_pattern_dict, save_structural_pattern_dict,
+    load_structural_pattern_dict, structural_pattern_dict_exists
 )
 from src.fewshot.patterns.ann_extractor import extract_parent_level_annotations
 
@@ -29,21 +31,35 @@ def _load_train_annotations() -> dict:
     return merged
 
 
-def main(force: bool) -> None:
-    if not force and pattern_dict_exists():
-        print("✓ Pattern dict already cached. Use --force to rebuild.")
+def main(force: bool, group: bool) -> None:
+
+    surface_cached = force or not surface_pattern_dict_exists()
+    structural_cached = force or not structural_pattern_dict_exists()
+
+    if not surface_cached and not structural_cached:
+        print("✓ Both pattern dicts already cached. Use --force to rebuild.")
         return
+
     print("🔄 Loading train annotations…")
     all_annotations = _load_train_annotations()
-    print("🔄 Building pattern dict…")
-    pattern_dict = build_pattern_dict(all_annotations)
-    save_pattern_dict(pattern_dict)
-    n_patterns = sum(len(v) for v in pattern_dict.values())
-    print(f"✅ Saved — {n_patterns} patterns across {len(pattern_dict)} keys.")
 
+    if surface_cached:
+        print("🔄 Building surface pattern dict…")
+        surface_pattern_dict = build_surface_pattern_dict(all_annotations)
+        save_surface_pattern_dict(surface_pattern_dict)
+        n_patterns = sum(len(v) for v in surface_pattern_dict.values())
+        print(f"✅ Saved — {n_patterns} patterns across {len(surface_pattern_dict)} keys.")
+
+    if structural_cached:
+        print("🔄 Building structural pattern dict…")
+        structural_pattern_dict = build_structural_pattern_dict(all_annotations, group=args.group)
+        save_structural_pattern_dict(structural_pattern_dict)
+        n_patterns = sum(len(v) for v in structural_pattern_dict.values())
+        print(f"✅ Saved — {n_patterns} patterns across {len(structural_pattern_dict)} keys.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--group", action="store_true", help="Group patterns by deduplicating consecutive sublabels")
     args = parser.parse_args()
-    main(args.force)
+    main(args.force, args.group)

@@ -508,7 +508,7 @@ def _build_example(
 
 def extract_few_shot_examples(
     token_chunks: list[list[str]],
-    cfg: LabelTransformConfig,
+    cfg: LabelTransformConfig = None,
     source_file: str = "",
 ) -> list[dict]:
     """
@@ -543,7 +543,10 @@ def extract_few_shot_examples(
             keep_auto_label=False,
             keep_bookmarks=False,
         )
-        output_tokens = prepare_label_tokens(chunk, cfg)
+        if not cfg:
+            output_tokens = chunk
+        else:
+            output_tokens = prepare_label_tokens(chunk, cfg)
         examples.append(
             _build_example(decode(input_tokens), decode(output_tokens), source_file)
         )

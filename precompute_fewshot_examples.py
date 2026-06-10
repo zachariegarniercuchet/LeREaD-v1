@@ -48,40 +48,7 @@ def _load_candidate_examples(fs_min_tokens: int) -> list[dict]:
 def _filter(examples, max_len):
     return [ex for ex in examples if len(ex["example"]["input"]) < max_len]
 
-
-def main(method: str, n: int, force: bool, compare: bool = False) -> None:
-
-    if compare:
-        # Generate comparison plot for both greedy and random
-        _generate_comparison(n, force)
-        return
-
-    example_path = FEWSHOT_CACHE_DIR / f"examples_{method}.json"
-
-    if not force and example_path.is_file():
-        print("✓ Few-shot examples already cached. Use --force to rebuild.")
-        return
-
-    if method == "greedy" and not pattern_dict_exists():
-        raise RuntimeError("Pattern dict not found. Run precompute_pattern_dict.py first.")
-
-    examples = _filter(_load_candidate_examples(fs_min_tokens=FS_MIN_TOKENS), FEWSHOT_MAX_INPUT_LEN)
-    print(f"Candidate pool: {len(examples)} examples after filtering.")
-
-    if method == "greedy":
-        pattern_dict = load_pattern_dict()
-        indices, log = greedy_select_examples(examples, pattern_dict, n=n)
-    else:
-        indices, log = random_select_examples(examples, n=n)
-
-    selected = [examples[i] for i in indices]
-    example_path.parent.mkdir(parents=True, exist_ok=True)
-    with example_path.open("w", encoding="utf-8") as f:
-        json.dump({"method": method, "n": n, "examples": selected, "log": log}, f, indent=2)
-    print(f"✅ Saved {len(selected)} examples → {example_path}")
-
-
-def _generate_comparison(n: int, force: bool) -> None:
+def _generate_comparison(n: int) -> None:
     """Generate both greedy and random selections, then create comparison plot."""
     
     # Check if pattern dict exists for greedy
@@ -122,6 +89,41 @@ def _generate_comparison(n: int, force: bool) -> None:
     plot_path = IMG_DIR / "coverage_comparison.png"
     plot_coverage_comparison(greedy_log, random_log, save_path=plot_path, 
                             examples=examples, pattern_dict=pattern_dict)
+    
+
+def main(method: str, n: int, force: bool, compare: bool = False) -> None:
+
+    if compare:
+        # Generate comparison plot for both greedy and random
+        _generate_comparison(n)
+        return
+
+    example_path = FEWSHOT_CACHE_DIR / f"examples_{method}.json"
+
+    if not force and example_path.is_file():
+        print("✓ Few-shot examples already cached. Use --force to rebuild.")
+        return
+
+    if method == "greedy" and not pattern_dict_exists():
+        raise RuntimeError("Pattern dict not found. Run precompute_pattern_dict.py first.")
+
+    examples = _filter(_load_candidate_examples(fs_min_tokens=FS_MIN_TOKENS), FEWSHOT_MAX_INPUT_LEN)
+    print(f"Candidate pool: {len(examples)} examples after filtering.")
+
+    if method == "greedy":
+        pattern_dict = load_pattern_dict()
+        indices, log = greedy_select_examples(examples, pattern_dict, n=n)
+    else:
+        indices, log = random_select_examples(examples, n=n)
+
+    selected = [examples[i] for i in indices]
+    example_path.parent.mkdir(parents=True, exist_ok=True)
+    with example_path.open("w", encoding="utf-8") as f:
+        json.dump({"method": method, "n": n, "examples": selected, "log": log}, f, indent=2)
+    print(f"✅ Saved {len(selected)} examples → {example_path}")
+
+
+
 
 
 if __name__ == "__main__":
