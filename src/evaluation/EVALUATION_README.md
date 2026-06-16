@@ -295,7 +295,7 @@ ADVANCED USAGE
    
    from pathlib import Path
    from src.evaluation.evaluation_config import EvaluationConfig
-   from config import PROJECT_ROOT
+   from config.config import PROJECT_ROOT
    
    my_config = EvaluationConfig(
        mode="batch",

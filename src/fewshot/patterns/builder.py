@@ -14,7 +14,7 @@ from collections import Counter
 from pathlib import Path
 from typing import List
 
-from config import PATTERN_CACHE_DIR
+from configs.config import PATTERN_CACHE_DIR
 from .normalizers import (
     normalize_fragment,
     normalize_decision_citation,

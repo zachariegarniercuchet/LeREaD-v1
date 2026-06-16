@@ -166,12 +166,26 @@ def _extract_annotation_pattern(output_text: str) -> list[list[str]]:
 
     Example return value::
 
-        [["decision", "title", "citation"], ["legislation", "fragment"]]
+        Example return value::
+
+        {
+            "decision": [("title", "citation")],
+            "legislation": [("fragment",)],
+            "secondary sources": []
+        }
     """
     try:
-        return _extract_pattern_bs4(output_text)
+        raw = _extract_pattern_bs4(output_text)
     except Exception:
-        return _extract_pattern_regex(output_text)
+        raw = _extract_pattern_regex(output_text)
+    
+    result: dict[str, list[tuple[str, ...]]] = {name: [] for name in _PARENT_LABEL_NAMES}
+    for entry in raw:
+        parent, *sublabels = entry
+        if parent in result:
+            result[parent].append(tuple(sublabels))
+
+    return result
 
 
 def _extract_pattern_bs4(output_text: str) -> list[list[str]]:

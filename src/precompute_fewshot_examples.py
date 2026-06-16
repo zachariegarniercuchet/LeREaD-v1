@@ -10,7 +10,7 @@ Usage:
 """
 import argparse
 import json
-from config import DATA_DIR, FEWSHOT_CACHE_DIR, FEWSHOT_N, FEWSHOT_METHOD, FEWSHOT_MAX_INPUT_LEN, FS_MIN_TOKENS, IMG_DIR
+from configs.config import DATA_DIR, FEWSHOT_CACHE_DIR, FEWSHOT_N, FEWSHOT_METHOD, FEWSHOT_MAX_INPUT_LEN, FS_MIN_TOKENS, IMG_DIR
 from src.fewshot.patterns.builder import load_pattern_dict, pattern_dict_exists
 from src.fewshot import greedy_select_examples, random_select_examples
 from src.plotting_utils import plot_coverage_comparison

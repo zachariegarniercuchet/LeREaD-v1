@@ -6,10 +6,9 @@ Usage:
     python precompute_chunks_cache.py --splits train dev --method paragraph
     python precompute_chunks_cache.py --force
 """
+
 import argparse
-import os
-from pathlib import Path
-from config import DATA_DIR, SPLITS
+from configs.config import DATA_DIR, SPLITS
 from src.chunkers import ChunkerFactory
 
 
@@ -53,20 +52,12 @@ def precompute(splits: list[str], method: str, force: bool) -> None:
         nlp = spacy.load("en_core_web_trf")
         print("✅ Model loaded.\n")
 
-    ok = err = 0
     for split, filename, html in pending:
         print(f"  → [{split}] {filename} … ", end="", flush=True)
-        try:
-            ChunkerFactory.get_chunks(
-                html, method=method, split=split, filename=filename, nlp=nlp
-            )
-            ok += 1
-        except Exception as exc:
-            print(f"✗ ERROR: {exc}")
-            err += 1
 
-    print(f"\n{'='*50}\nDone — {ok} cached, {err} failed")
-
+        ChunkerFactory.get_chunks(
+            html, method=method, split=split, filename=filename, nlp=nlp
+        )
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

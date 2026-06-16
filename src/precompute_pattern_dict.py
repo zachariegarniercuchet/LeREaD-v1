@@ -6,7 +6,7 @@ Usage:
     python precompute_pattern_dict.py --force
 """
 import argparse
-from config import DATA_DIR
+from configs.config import DATA_DIR
 from src.fewshot.patterns.builder import (
     build_surface_pattern_dict, save_surface_pattern_dict,
     load_surface_pattern_dict, surface_pattern_dict_exists,
@@ -52,7 +52,7 @@ def main(force: bool, group: bool) -> None:
 
     if structural_cached:
         print("🔄 Building structural pattern dict…")
-        structural_pattern_dict = build_structural_pattern_dict(all_annotations, group=args.group)
+        structural_pattern_dict = build_structural_pattern_dict(all_annotations, group=group)
         save_structural_pattern_dict(structural_pattern_dict)
         n_patterns = sum(len(v) for v in structural_pattern_dict.values())
         print(f"✅ Saved — {n_patterns} patterns across {len(structural_pattern_dict)} keys.")

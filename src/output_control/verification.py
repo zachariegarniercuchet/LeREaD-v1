@@ -6,7 +6,7 @@ These functions check the validity of processed chunks without modifying them.
 import sys
 from pathlib import Path
 
-from config import LABEL_SCHEME, STRUCTURAL_LABELS
+from configs.config import LABEL_SCHEME, STRUCTURAL_LABELS
 
 from src.html_utils import is_auto_label_tag
 from src.htmlLabel import HTMLLabel

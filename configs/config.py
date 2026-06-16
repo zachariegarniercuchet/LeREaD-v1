@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-PROJECT_ROOT = Path(__file__).parent
+PROJECT_ROOT = Path(__file__).parent.parent
 
 DATA_DIR  = PROJECT_ROOT / "data"
 CACHE_DIR = PROJECT_ROOT / "cache"
@@ -15,7 +15,7 @@ PROMPT_DIR = PROJECT_ROOT / "src" /"prompts"
 
 MIN_TOKENS         = 500
 CITATION_THRESHOLD = 25
-SPLITS             = ["train", "test", "dev"]
+SPLITS             = ["train", "test", "dev", "incoming"]
 
 FEWSHOT_N          = 100
 FEWSHOT_METHOD     = "random"   # "greedy" | "random" 
@@ -52,7 +52,7 @@ LABEL_SCHEME = {
 
 STRUCTURAL_LABELS = {"title", "citation", "source", "authors", "fragment"}
 
-LABEL_SCHEME_PATH = PROJECT_ROOT / "src" / "post_processing" / "label_scheme.json"
+LABEL_SCHEME_PATH = PROJECT_ROOT / "configs" / "label_scheme.json"
 
 
 

@@ -2,7 +2,7 @@ import re
 import json
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-from config import LABEL_SCHEME_PATH
+from configs.config import LABEL_SCHEME_PATH
 
 
 def is_pure_whitespace(node):
@@ -214,18 +214,10 @@ def clean_html_formatting(html: str, tags_to_clean: set = None, debug: bool = Fa
                             print(f"           First:  {tag_str}")
                             print(f"           Second: {next_str}")
 
-<<<<<<< HEAD
-                        # Drop the whitespace node that was between the two tags
-                        if whitespace_between is not None:
-                            whitespace_between.extract()
-
-                        # Merge: move all contents from next_sib into tag
-=======
                         # Merge: move whitespace inside the tag first, then the contents of next_sib
                         if whitespace_between is not None:
                             tag.append(whitespace_between)  # moves the space node inside <b>
 
->>>>>>> 8b775934c1b4558d8fcc7fff72e05376bed68c2e
                         for child in list(next_sib.children):
                             tag.append(child)
 
@@ -236,10 +228,7 @@ def clean_html_formatting(html: str, tags_to_clean: set = None, debug: bool = Fa
 
                 if not found_merge:
                     break
-<<<<<<< HEAD
-=======
         
->>>>>>> 8b775934c1b4558d8fcc7fff72e05376bed68c2e
         
         total_merged += merged_this_pass
         if debug and merged_this_pass > 0:

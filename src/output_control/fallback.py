@@ -14,7 +14,7 @@ from .processor import OutputProcessor
 from .verification import VerificationResult
 from src.models import get_messages
 
-from config import PROMPT_DIR
+from configs.config import PROMPT_DIR
 
 
 class FallbackHandler:

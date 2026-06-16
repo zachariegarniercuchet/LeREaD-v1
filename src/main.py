@@ -22,8 +22,8 @@ MODEL_MAPPING_NAME = {
     "gpt-5.2": "gpt-5.2",
 }
 
-from config import DATA_DIR, FEWSHOT_CACHE_DIR, PROMPT_DIR
-from run_config import RunConfig
+from configs.config import DATA_DIR, FEWSHOT_CACHE_DIR, PROMPT_DIR, SPLITS
+from src.run_config import RunConfig
 from src.extractor import (
     LabelTransformConfig, prepare_label_tokens, _parse_parent_annotations,
     build_processing_segments, get_list_of_mention
@@ -169,10 +169,8 @@ def load_fewshot_examples(
     return final_fewshot
 
 
-def load_html_document(filename: str, split: str) -> str:
-    """Load HTML content from file."""
-    filepath = Path(DATA_DIR) / "original" / split / f"{filename}.html"
-    with open(filepath, "r", encoding="utf-8") as f:
+def load_html_document(path: Path) -> str:
+    with open(path, encoding="utf-8") as f:
         return f.read()
 
 
@@ -380,14 +378,15 @@ def process_dec1_3(
     return processed_tokens, failed_count
 
 
-def process_file(filename, split, run, assistant, exp_dir):
+def process_file(filename: str, run: RunConfig, assistant, exp_dir: Path):
 
     # =========================================================================
     # Step 1: Load HTML content
     # =========================================================================
     print("[Step 1] Loading HTML document...")
-    html_content = load_html_document(filename, split)
-    print(f"  ✓ Loaded {len(html_content)} characters\n")
+    path = run.resolve_input_path(filename) # the split is updated here
+    html_content = load_html_document(path)
+    print(f"  ✓ Loaded {len(html_content)} characters from {path}\n")
 
     
     
@@ -402,7 +401,7 @@ def process_file(filename, split, run, assistant, exp_dir):
         
         # Step 3: Chunk the document
         print("[Step 3] Chunking document...")
-        token_chunks = get_token_chunks(html_content, run.chunker, split, filename)
+        token_chunks = get_token_chunks(html_content, run.chunker, run.split, filename)
         print(f"  ✓ Created {len(token_chunks)} chunks\n")
         
         # Step 4: Load few-shot examples
@@ -518,7 +517,7 @@ def process_file(filename, split, run, assistant, exp_dir):
             
             if config["use_chunking"]:
                 # DEC0 uses chunking
-                token_chunks = get_token_chunks(current_html, run.chunker, split, filename)
+                token_chunks = get_token_chunks(current_html, run.chunker, run.split, filename)
                 print(f"  ✓ Created {len(token_chunks)} chunks\n")
                 
                 processed_chunks, fallback_count = process_aio_dec0(
@@ -574,15 +573,22 @@ def process_file(filename, split, run, assistant, exp_dir):
     print(f"✓ Experiment folder: {exp_dir}")
     print("="*80)
 
+# ── Arg parser ──────────────────────────────────────────────────────────────
+
 def build_arg_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser()
-    
-    # Mode (mutually exclusive)
+
     mode_group = parser.add_mutually_exclusive_group(required=True)
-    mode_group.add_argument("--filename", type=str, help="Single file mode")
-    mode_group.add_argument("--split", choices=["train", "dev", "test"], help="Split mode")
-    
-    # Shared args
+    mode_group.add_argument("--filename", type=str)
+    mode_group.add_argument("--split", choices=SPLITS)
+
+    # --data-dir overrides the dataset root (default: DATA_DIR)
+    # --variant selects the subfolder under that root (default: "original")
+    parser.add_argument("--data-dir", type=Path, default=None,
+                        help="Dataset root, e.g. data/upcoming. Defaults to DATA_DIR.")
+    parser.add_argument("--variant", default="original", choices=["original", "annotated"],
+                        help="Subfolder variant under the dataset root.")
+
     parser.add_argument("--method", default="AIO", choices=["AIO", "DEC"])
     parser.add_argument("--chunker", default="paragraph", choices=["paragraph", "sentence"])
     parser.add_argument("--fewshot-method", default="greedy", choices=["greedy", "random"])
@@ -592,8 +598,8 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--output-dir", type=Path, default=Path("./output"))
     parser.add_argument("--disable-fallback", action="store_true")
     parser.add_argument("--with-timestamp", action="store_true")
-    parser.add_argument("--prompt_type", type=str, default="long", choices=["short", "long"])
-    
+    parser.add_argument("--prompt-type", default="long", choices=["short", "long"])
+
     return parser
 
 
@@ -613,19 +619,21 @@ def main():
         temperature=args.temperature,
         disable_fallback=args.disable_fallback,
         with_timestamp=args.with_timestamp,
+        data_dir=args.data_dir or Path(DATA_DIR),
+        variant=args.variant,
         output_dir=args.output_dir,
         prompt_type=args.prompt_type,
     )
 
     output_root = run.output_root()
-    filenames = run.get_filenames(DATA_DIR)
+    filenames = run.get_filenames()
 
     # ── Model loaded ONCE here ──────────────────────────────────────────────
     print(f"[Setup] Loading model {run.model}...")
 
     if run.model == "gpt-5.2":
         assistant = AssistantFactory.create_from_config({
-            "type": "gpt",
+            "type": "openai",
             "model_name": run.model,
             "temperature": run.temperature,
         })
@@ -649,7 +657,7 @@ def main():
         split = run.split if run.mode == "split" else "test"  # or make split required always
         
         
-        process_file(filename, split, run, assistant, exp_dir)
+        process_file(filename, run, assistant, exp_dir)
 
 
     

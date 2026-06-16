@@ -8,7 +8,7 @@ Usage (lazy, one file at a time):
     )
 """
 from __future__ import annotations
-from config import MIN_TOKENS
+from configs.config import MIN_TOKENS
 from .cache import cache_exists, load_cache, save_cache
 
 

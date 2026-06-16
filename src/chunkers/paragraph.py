@@ -1,6 +1,6 @@
 """Paragraph-based chunker — BeautifulSoup logic lives here."""
 from bs4 import BeautifulSoup
-from config import MIN_TOKENS
+from configs.config import MIN_TOKENS
 from src import extract_body, tokenize, clean_tokens
 
 

@@ -62,8 +62,10 @@ class AssistantFactory:
         Raises:
             ValueError: If assistant_type is not supported
         """
+        if kwargs.get("assistant_type") == "openai":
+            return OpenAIAssistant(model_name=model_name, temperature=temperature, **kwargs)
         
-        if model_name not in MODEL_REGISTRY:
+        elif model_name not in MODEL_REGISTRY:
             raise ValueError(
                 f"Unknown model '{model_name}'. Available: {list(MODEL_REGISTRY.keys())}"
             )
@@ -81,8 +83,7 @@ class AssistantFactory:
                 thinking=cfg["thinking"],
                 **kwargs,
             )
-        elif cfg["type"] == "openai":
-            return OpenAIAssistant(model_name=model_name, temperature=temperature, **kwargs)
+
         else:
             raise ValueError(f"Unknown type: {cfg['type']}")
     

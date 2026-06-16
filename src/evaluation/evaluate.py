@@ -54,7 +54,7 @@ EvaluationConfig = evaluation_config_module.EvaluationConfig
 # Import config constants
 spec_config = importlib.util.spec_from_file_location(
     "config",
-    project_root / "config.py"
+    project_root / "configs" / "config.py"
 )
 config_module = importlib.util.module_from_spec(spec_config)
 spec_config.loader.exec_module(config_module)

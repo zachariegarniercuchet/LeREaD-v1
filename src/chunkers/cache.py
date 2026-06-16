@@ -1,7 +1,7 @@
 """Pure I/O"""
 import json
 from pathlib import Path
-from config import CHUNK_CACHE_DIR
+from configs.config import CHUNK_CACHE_DIR
 
 
 def _cache_path(method: str, split: str, filename: str) -> Path:

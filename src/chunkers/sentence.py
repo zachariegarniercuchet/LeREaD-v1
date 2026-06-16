@@ -1,5 +1,5 @@
 """Sentence-based chunker — all spaCy logic lives here."""
-from config import MIN_TOKENS, CITATION_THRESHOLD
+from configs.config import MIN_TOKENS, CITATION_THRESHOLD
 from src import (
     extract_body, tokenize, clean_tokens, decode,
     flatten_token_chunks, merge_tokens_general,

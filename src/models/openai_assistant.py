@@ -22,18 +22,18 @@ class OpenAIAssistant(BaseAssistant):
             raise ValueError("OPENAI_API_KEY environment variable not set")
         self.client = OpenAI(api_key=self.api_key)
     
-    def generate(self, message: List[Dict[str, str]]) -> str:
+    def generate(self, messages: List[Dict[str, str]]) -> str:
         """Generate response using OpenAI API.
         
         Args:
-            message: List of message dictionaries
+            messages: List of message dictionaries
         
         Returns:
             str: Generated content
         """
         response = self.client.chat.completions.create(
             model=self.model_name,
-            messages=message,
+            messages=messages,
             temperature=self.temperature
         )
         return response.choices[0].message.content
