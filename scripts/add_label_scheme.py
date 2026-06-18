@@ -3,6 +3,7 @@
 import json
 from pathlib import Path
 import os
+from configs.config import DATA_DIR
 
 
 with open("./configs/label_scheme.json") as f:
@@ -11,9 +12,8 @@ with open("./configs/label_scheme.json") as f:
 with open("./configs/meta.json") as f:
     META = json.load(f)
 
-INCOMING = Path("./data/incoming")
-INPUT_DIR = INCOMING / "raw"
-OUTPUT_DIR = INCOMING / "original"
+INPUT_DIR = DATA_DIR / "raw"
+OUTPUT_DIR = DATA_DIR / "original" / "incoming"
 
 from bs4 import BeautifulSoup
 import chardet

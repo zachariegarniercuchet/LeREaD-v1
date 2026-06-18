@@ -55,6 +55,19 @@ STRUCTURAL_LABELS = {"title", "citation", "source", "authors", "fragment"}
 LABEL_SCHEME_PATH = PROJECT_ROOT / "configs" / "label_scheme.json"
 
 
+# How input will be given to the LLM for the chunk and for the fewshots :
+USE_SIMPLIFIED_LABELS = True # normal form : <auto_label labelname="decision" docid="123" uri="http://example.com/doc"> ... </auto_label> simplifed version : <decision docid="123" uri="http://example.com/doc"> ... </decision>
+KEEP_ATRIBUTES = ["labelname"]  # Only keep labelname attribute for fewshot selection and input formatting
+
+# For few shot greedy selection there is two types of patterns : surface and structural patterns.
+GREEDY_CONFIG = {
+    "surface_pattern": 1.0,
+    "structural_pattern": 0.0,
+}
+# In LeREaD v1 we used  surface_pattern 1.0 and structural pattern 0.0.
+
+
+
 
 
 

@@ -10,10 +10,12 @@ Usage:
 """
 import argparse
 import json
-from configs.config import DATA_DIR, FEWSHOT_CACHE_DIR, FEWSHOT_N, FEWSHOT_METHOD, FEWSHOT_MAX_INPUT_LEN, FS_MIN_TOKENS, IMG_DIR
-from src.fewshot.patterns.builder import load_pattern_dict, pattern_dict_exists
+from configs.config import DATA_DIR, FEWSHOT_CACHE_DIR, FEWSHOT_N, FEWSHOT_METHOD, FEWSHOT_MAX_INPUT_LEN, FS_MIN_TOKENS, IMG_DIR, KEEP_ATRIBUTES, USE_SIMPLIFIED_LABELS
+from src.fewshot.patterns.builder import load_surface_pattern_dict, load_structural_pattern_dict, surface_pattern_dict_exists, structural_pattern_dict_exists, save_surface_pattern_dict, save_structural_pattern_dict
 from src.fewshot import greedy_select_examples, random_select_examples
 from src.plotting_utils import plot_coverage_comparison
+from src.transforme_utils import LabelTransformConfig
+from configs.config import GREEDY_CONFIG
 
 
 def get_html_files(split: str) -> dict[str, str]:
@@ -32,8 +34,14 @@ def get_html_files(split: str) -> dict[str, str]:
 def _load_candidate_examples(fs_min_tokens: int) -> list[dict]:
     """Chunk train HTML files and extract few-shot (input, output) pairs."""
     from src.chunkers.factory import ChunkerFactory
-    from src.extractor import extract_few_shot_examples, LabelTransformConfig
-    from config import DATA_DIR, LABEL_CONFIG 
+    from src.extractor import extract_few_shot_examples
+
+    # Create input label config for processing
+    input_label_config = LabelTransformConfig(
+        use_simplified=False,
+        switch_type=False,
+        remove_attributes=["verified", "style"],
+    )
 
     examples = []
     for filename, html in get_html_files("train").items():
@@ -41,7 +49,7 @@ def _load_candidate_examples(fs_min_tokens: int) -> list[dict]:
             html, method="paragraph",
             filename=filename, min_tokens=fs_min_tokens
         )
-        examples.extend(extract_few_shot_examples(chunks, LABEL_CONFIG, source_file=filename))
+        examples.extend(extract_few_shot_examples(chunks, input_label_config, source_file=filename))
     return examples
 
 
@@ -52,7 +60,7 @@ def _generate_comparison(n: int) -> None:
     """Generate both greedy and random selections, then create comparison plot."""
     
     # Check if pattern dict exists for greedy
-    if not pattern_dict_exists():
+    if not surface_pattern_dict_exists() :
         raise RuntimeError("Pattern dict not found. Run precompute_pattern_dict.py first.")
     
     # Load candidate examples
@@ -61,7 +69,7 @@ def _generate_comparison(n: int) -> None:
     
     # Generate greedy selection
     print("\n--- Running greedy selection ---")
-    pattern_dict = load_pattern_dict()
+    pattern_dict = load_surface_pattern_dict()
     greedy_indices, greedy_log = greedy_select_examples(examples, pattern_dict, n=n)
     greedy_selected = [examples[i] for i in greedy_indices]
     
@@ -98,28 +106,30 @@ def main(method: str, n: int, force: bool, compare: bool = False) -> None:
         _generate_comparison(n)
         return
 
-    example_path = FEWSHOT_CACHE_DIR / f"examples_{method}.json"
+    example_path = FEWSHOT_CACHE_DIR / f"examples_{method}_surf-{GREEDY_CONFIG["surface_pattern"]}_struct-{GREEDY_CONFIG["structural_pattern"]}.json"
 
     if not force and example_path.is_file():
         print("✓ Few-shot examples already cached. Use --force to rebuild.")
         return
 
-    if method == "greedy" and not pattern_dict_exists():
-        raise RuntimeError("Pattern dict not found. Run precompute_pattern_dict.py first.")
+    if method == "greedy" and not surface_pattern_dict_exists():
+        raise RuntimeError("Surface pattern dict not found. Run precompute_pattern_dict.py first.")
 
     examples = _filter(_load_candidate_examples(fs_min_tokens=FS_MIN_TOKENS), FEWSHOT_MAX_INPUT_LEN)
     print(f"Candidate pool: {len(examples)} examples after filtering.")
 
     if method == "greedy":
-        pattern_dict = load_pattern_dict()
-        indices, log = greedy_select_examples(examples, pattern_dict, n=n)
+        surface_pattern_dict = load_surface_pattern_dict()
+        structural_pattern_dict = load_structural_pattern_dict()
+        pattern_sources = [( "surface_pattern", surface_pattern_dict, GREEDY_CONFIG["surface_pattern"] ), ( "structural_pattern", structural_pattern_dict, GREEDY_CONFIG["structural_pattern"] )]
+        indices, log = greedy_select_examples(examples, pattern_sources=pattern_sources, n=n)
     else:
         indices, log = random_select_examples(examples, n=n)
 
     selected = [examples[i] for i in indices]
     example_path.parent.mkdir(parents=True, exist_ok=True)
     with example_path.open("w", encoding="utf-8") as f:
-        json.dump({"method": method, "n": n, "examples": selected, "log": log}, f, indent=2)
+        json.dump({"method": method, "n": n, "surface_weight": GREEDY_CONFIG["surface_pattern"], "structural_weight": GREEDY_CONFIG["structural_pattern"], "examples": selected, "log": log}, f, indent=2)
     print(f"✅ Saved {len(selected)} examples → {example_path}")
 
 

@@ -508,8 +508,8 @@ def _build_example(
     return {
         "example":            {"input": input_text, "output": output_text},
         "source_file":        source_file,
-        "annotation_pattern": _extract_annotation_pattern(output_text),
-        "label_pattern":      _extract_label_pattern(output_text),
+        "structural_pattern": _extract_annotation_pattern(output_text),
+        "surface_pattern":      _extract_label_pattern(output_text),
     }
 
 

@@ -22,7 +22,7 @@ MODEL_MAPPING_NAME = {
     "gpt-5.2": "gpt-5.2",
 }
 
-from configs.config import DATA_DIR, FEWSHOT_CACHE_DIR, PROMPT_DIR, SPLITS
+from configs.config import DATA_DIR, FEWSHOT_CACHE_DIR, KEEP_ATRIBUTES, PROMPT_DIR, SPLITS, USE_SIMPLIFIED_LABELS
 from src.run_config import RunConfig
 from src.extractor import (
     LabelTransformConfig, prepare_label_tokens, _parse_parent_annotations,
@@ -55,6 +55,8 @@ def get_method_config(method: str, prompt_type: str = "long") -> Dict[str, Any]:
             "spans_in_context": True,
             "prompt_filename": f"allInOne_{prompt_type}.txt",
             "use_chunking": True,
+            "surface_pattern": 1.0,
+            "structural_pattern": 1.0,
         },
         "DEC0": {
             "parents": ["decision", "legislation", "secondary sources"],
@@ -63,6 +65,8 @@ def get_method_config(method: str, prompt_type: str = "long") -> Dict[str, Any]:
             "spans_in_context": True,
             "prompt_filename": f"decomposed0_{prompt_type}.txt",
             "use_chunking": True,
+            "surface_pattern": 0.0,
+            "structural_pattern": 1.0,
         },
         "DEC1": {
             "parents": ["decision", "legislation", "secondary sources"],
@@ -71,6 +75,8 @@ def get_method_config(method: str, prompt_type: str = "long") -> Dict[str, Any]:
             "spans_in_context": False,
             "prompt_filename": "decomposed1-3.txt",
             "use_chunking": False,
+            "surface_pattern": 1.0,
+            "structural_pattern": 0.0,
         },
         "DEC2": {
             "parents": ["secondary sources"],
@@ -79,6 +85,8 @@ def get_method_config(method: str, prompt_type: str = "long") -> Dict[str, Any]:
             "spans_in_context": False,
             "prompt_filename": "decomposed1-3.txt",
             "use_chunking": False,
+            "surface_pattern": 1.0,
+            "structural_pattern": 0.0,
         },
         "DEC3": {
             "parents": ["decision", "legislation"],
@@ -87,12 +95,15 @@ def get_method_config(method: str, prompt_type: str = "long") -> Dict[str, Any]:
             "spans_in_context": False,
             "prompt_filename": "decomposed1-3.txt",
             "use_chunking": False,
+            "surface_pattern": 1.0,
+            "structural_pattern": 0.0,
         },
     }
     return configs.get(method, configs["AIO"])
 
 
 def load_fewshot_examples(
+    method: str,
     fewshot_method: str,
     nb_examples: int,
     spans_in_context: bool = True,
@@ -107,9 +118,11 @@ def load_fewshot_examples(
         new_labels = []
     if parents is None:
         parents = ["decision", "legislation", "secondary sources"]
-    
-    with open(FEWSHOT_CACHE_DIR / f"examples_{fewshot_method}.json", "r", encoding="utf-8") as f:
+    fewshot_filename = f"examples_{fewshot_method}_surf-{get_method_config(method)['surface_pattern']}_struct-{get_method_config(method)['structural_pattern']}"
+    with open(FEWSHOT_CACHE_DIR / f"{fewshot_filename}.json", "r", encoding="utf-8") as f:
         fewshot_file_content = json.load(f)
+
+    print("fewshot examples from :", fewshot_filename)
     
     fewshot_examples = [
         (example["example"]["input"], example["example"]["output"])
@@ -249,7 +262,6 @@ def get_checkpoint(exp_dir: Path, filename: str, step: str) -> Optional[str]:
 
 
 def process_aio_dec0(
-    html_content: str,
     token_chunks: List,
     system_prompt: str,
     fewshot_examples: List[tuple],
@@ -318,17 +330,17 @@ def process_dec1_3(
     
     # Create input label config for processing
     input_label_config = LabelTransformConfig(
-        use_simplified=True,
-        switch_type=True,
+        use_simplified=USE_SIMPLIFIED_LABELS,
+        switch_type=False,
         keep_labels=already_labeled_labels,
-        keep_attributes=["labelname"]
+        keep_attributes=KEEP_ATRIBUTES
     )
     
     config = LabelTransformConfig(
         use_simplified=False,
         switch_type=False,
         keep_labels=already_labeled_labels,
-        keep_attributes=["labelname"]
+        keep_attributes=KEEP_ATRIBUTES
     )
     
     failed_count = 0
@@ -407,6 +419,7 @@ def process_file(filename: str, run: RunConfig, assistant, exp_dir: Path):
         # Step 4: Load few-shot examples
         print("[Step 4] Loading few-shot examples...")
         fewshot_examples = load_fewshot_examples(
+            run.method,
             run.fewshot_method,
             run.fewshot_examples,
             spans_in_context=config["spans_in_context"],
@@ -431,7 +444,7 @@ def process_file(filename: str, run: RunConfig, assistant, exp_dir: Path):
         else:
             print("[Step 6] Processing chunks...")
             processed_chunks, fallback_count = process_aio_dec0(
-                html_content, token_chunks, system_prompt, fewshot_examples,
+                token_chunks, system_prompt, fewshot_examples,
                 allowed_labels, assistant, run.disable_fallback
             )
             print(f"  ✓ Processed all {len(token_chunks)} chunks")
@@ -482,6 +495,7 @@ def process_file(filename: str, run: RunConfig, assistant, exp_dir: Path):
             # Load few-shot examples
             print(f"[{dec_method}] Step 1: Loading few-shot examples...")
             fewshot_examples = load_fewshot_examples(
+                dec_method,
                 run.fewshot_method,
                 run.fewshot_examples,
                 spans_in_context=config["spans_in_context"],
@@ -521,7 +535,7 @@ def process_file(filename: str, run: RunConfig, assistant, exp_dir: Path):
                 print(f"  ✓ Created {len(token_chunks)} chunks\n")
                 
                 processed_chunks, fallback_count = process_aio_dec0(
-                    current_html, token_chunks, system_prompt, fewshot_examples,
+                    token_chunks, system_prompt, fewshot_examples,
                     allowed_labels, assistant, run.disable_fallback
                 )
                 print(f"  ✓ Processed all {len(token_chunks)} chunks")
