@@ -18,6 +18,7 @@ def extract_parent_level_annotations(html_content: str) -> dict:
     )
     annotations = {"decision": [], "legislation": [], "secondary sources": []}
 
+    idx = 0
     for label in parent_labels:
         labelname = label.get("labelname", "")
         if labelname not in annotations:
@@ -34,7 +35,9 @@ def extract_parent_level_annotations(html_content: str) -> dict:
             "text_content":    label.get_text(strip=True),
             "direct_sublabels": direct,
             "all_sublabels":   all_sl,
+            "order": idx,
         })
+        idx += 1
     return annotations
 
 

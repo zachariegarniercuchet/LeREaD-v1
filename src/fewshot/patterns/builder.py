@@ -22,7 +22,7 @@ from .normalizers import (
     normalize_secondary_source,
     normalize_decision_title,
 )
-from .ann_extractor import get_sublabel_strings
+from ...ann_extractor import get_sublabel_strings
 
 SURFACE_PATTERN_CACHE_PATH = PATTERN_CACHE_DIR / "surface_pattern_dict.json"
 STRUCTURAL_PATTERN_CACHE_PATH = PATTERN_CACHE_DIR / "structural_pattern_dict.json"

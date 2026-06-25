@@ -13,7 +13,7 @@ from src.fewshot.patterns.builder import (
     build_structural_pattern_dict, save_structural_pattern_dict,
     load_structural_pattern_dict, structural_pattern_dict_exists
 )
-from src.fewshot.patterns.ann_extractor import extract_parent_level_annotations
+from src.ann_extractor import extract_parent_level_annotations
 
 
 def _load_train_annotations() -> dict:

@@ -8,7 +8,7 @@ Usage:
 """
 
 import argparse
-from configs.config import DATA_DIR, SPLITS
+from configs.config import CHUNK_CACHE_DIR, DATA_DIR, SPLITS
 from src.chunkers import ChunkerFactory
 
 
@@ -28,14 +28,19 @@ def get_html_files(split: str) -> dict[str, str]:
     return files
 
 
-def precompute(splits: list[str], method: str, force: bool) -> None:
+def precompute(splits: list[str], method: str, force: bool, annotated: bool) -> None:
     from src.chunkers.cache import cache_exists
+
+    if annotated:
+        cache_dir = f"{CHUNK_CACHE_DIR}/annotated"
+    else:
+        cache_dir = f"{CHUNK_CACHE_DIR}/original"
 
     # Collect pending files before loading spaCy
     pending: list[tuple[str, str, str]] = []
     for split in splits:
         for filename, html in get_html_files(split).items():
-            if not force and cache_exists(method, split, filename):
+            if not force and cache_exists(cache_dir=cache_dir, method=method, split=split, filename=filename):
                 print(f"  ✓ [{split}] {filename} — skip")
                 continue
             pending.append((split, filename, html))
@@ -56,13 +61,14 @@ def precompute(splits: list[str], method: str, force: bool) -> None:
         print(f"  → [{split}] {filename} … ", end="", flush=True)
 
         ChunkerFactory.get_chunks(
-            html, method=method, split=split, filename=filename, nlp=nlp
+            html, method=method, split=split, filename=filename, nlp=nlp, annotated=annotated
         )
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--splits",  nargs="+", default=SPLITS, choices=SPLITS)
     parser.add_argument("--method",  default="sentence", choices=["sentence", "paragraph"])
+    parser.add_argument("--annotated",  action="store_true")
     parser.add_argument("--force",   action="store_true")
     args = parser.parse_args()
-    precompute(args.splits, args.method, args.force)
+    precompute(args.splits, args.method, args.force, args.annotated)

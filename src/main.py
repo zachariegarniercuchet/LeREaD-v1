@@ -24,7 +24,7 @@ MODEL_MAPPING_NAME = {
     "saul-54b": "SaulLM-54B-Instruct"
 }
 
-from configs.config import DATA_DIR, FEWSHOT_CACHE_DIR, KEEP_ATRIBUTES, PROMPT_DIR, SPLITS, USE_SIMPLIFIED_LABELS
+from configs.config import CHUNK_CACHE_DIR, DATA_DIR, FEWSHOT_CACHE_DIR, KEEP_ATRIBUTES, PROMPT_DIR, SPLITS, USE_SIMPLIFIED_LABELS
 from src.run_config import RunConfig
 from src.extractor import (
     LabelTransformConfig, prepare_label_tokens, _parse_parent_annotations,
@@ -189,9 +189,15 @@ def load_html_document(path: Path) -> str:
         return f.read()
 
 
-def get_token_chunks(html_content: str, chunker: str, split: str, filename: str):
+def get_token_chunks(html_content: str, chunker: str, split: str, filename: str, annotated: bool = False) -> list[list[str]]:
     """Get token chunks, using cache if available."""
-    if not cache_exists(chunker, split, filename):
+
+    if annotated:
+        cache_dir = f"{CHUNK_CACHE_DIR}/annotated"
+    else:
+        cache_dir = f"{CHUNK_CACHE_DIR}/original"
+    
+    if not cache_exists(method=chunker, cache_dir=cache_dir, split=split, filename=filename):
         nlp = None
         if chunker == "sentence":
             import spacy
@@ -202,7 +208,7 @@ def get_token_chunks(html_content: str, chunker: str, split: str, filename: str)
             html_content, method=chunker, split=split, filename=filename, nlp=nlp
         )
     else:
-        token_chunks = load_cache(chunker, split, filename)
+        token_chunks = load_cache(method=chunker, cache_dir=cache_dir, split=split, filename=filename)
     
     return token_chunks
 
