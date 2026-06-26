@@ -14,6 +14,7 @@ from configs.config import DATA_DIR, FEWSHOT_CACHE_DIR, FEWSHOT_N, FEWSHOT_METHO
 from src.fewshot.patterns.builder import load_surface_pattern_dict, load_structural_pattern_dict, surface_pattern_dict_exists, structural_pattern_dict_exists, save_surface_pattern_dict, save_structural_pattern_dict
 from src.fewshot import greedy_select_examples, random_select_examples
 from src.plotting_utils import plot_coverage_comparison
+from src.reference_profile import ReferenceProfileJSONEncoder
 from src.transforme_utils import LabelTransformConfig
 from configs.config import GREEDY_CONFIG
 
@@ -50,7 +51,7 @@ def _load_candidate_examples(fs_min_tokens: int) -> list[dict]:
             filename=filename, min_tokens=fs_min_tokens
         )
         examples.extend(extract_few_shot_examples(chunks, input_label_config, source_file=filename))
-    return examples
+    
 
 
 def _filter(examples, max_len):
@@ -129,7 +130,7 @@ def main(method: str, n: int, force: bool, compare: bool = False) -> None:
     selected = [examples[i] for i in indices]
     example_path.parent.mkdir(parents=True, exist_ok=True)
     with example_path.open("w", encoding="utf-8") as f:
-        json.dump({"method": method, "n": n, "surface_weight": GREEDY_CONFIG["surface_pattern"], "structural_weight": GREEDY_CONFIG["structural_pattern"], "examples": selected, "log": log}, f, indent=2)
+        json.dump({"method": method, "n": n, "surface_weight": GREEDY_CONFIG["surface_pattern"], "structural_weight": GREEDY_CONFIG["structural_pattern"], "examples": selected, "log": log}, f, indent=2, cls=ReferenceProfileJSONEncoder)
     print(f"✅ Saved {len(selected)} examples → {example_path}")
 
 

@@ -39,6 +39,7 @@ from src import clean_tokens
 from src import decode
 from src import HTMLLabel
 from src import is_manual_label_tag, is_auto_label_tag
+from src.ann_extractor import extract_parent_level_annotations
 from src.transforme_utils import prepare_label_tokens
 from .fewshot.patterns.normalizers import (
     normalize_fragment,
@@ -47,6 +48,9 @@ from .fewshot.patterns.normalizers import (
     normalize_secondary_source,
     normalize_decision_title,
 )
+
+from src.reference_profile import ReferenceProfileList
+from src.tokenizer_utils import tokenize, decode
 
 
 # ---------------------------------------------------------------------------
@@ -272,6 +276,83 @@ def _extract_pattern_regex(output_text: str) -> list[list[str]]:
     return patterns
 
 
+def _extract_reference_profile_list(output_text: str, reference_profile_list: ReferenceProfileList | None = None) -> list[dict]:
+
+    list_mention_in_current_chunk = [
+        mention
+        for value in extract_parent_level_annotations(decode(tokenize(output_text))).values()
+        for mention in value
+    ]
+    list_mention_in_current_chunk.sort(key=lambda x: x["order"])
+
+    reference_profile_list.update_from_annotations(list_mention_in_current_chunk) 
+
+    return reference_profile_list.to_dict()
+
+
+
+# ---------------------------------------------------------------------------
+# Internal helper — parse_full_html
+# ---------------------------------------------------------------------------
+
+SUBLABEL_NAMES = ["title", "authors", "citation", "fragment"]
+
+
+def _extract_text(tokens, start_index, end_index):
+    """Join the raw text tokens between an opening tag and its matching closing tag."""
+    return "".join(tokens[start_index + 1:end_index]).strip()
+
+
+def parse_full_html(full_html: str):
+    """
+    Parse one annotation's full_html into structured pieces.
+
+    Assumes the root tag (tokens[0]) is the doctype tag: it has no parent
+    (parent="" or missing) and its labelname IS the doctype
+    (legislation / decision / secondary_source). The docid lives in the
+    root tag's docid attribute.
+    """
+    tokens = tokenize(full_html)
+    if not tokens:
+        return None
+
+    root_label = HTMLLabel(tokens[0])
+    doc_type = root_label.name
+    docid = root_label.attributes.get("docid")
+
+    result = {
+        "doc_type": doc_type,
+        "docid": docid,
+        "main_title": None,
+        "alternative_titles": [],
+        "citations": [],
+        "fragments_mentioned": [],
+        "authors": [],
+    }
+
+    mentions = get_list_of_mention(tokens, keep_labels=SUBLABEL_NAMES)
+
+    for label, start, end in mentions:
+        text = _extract_text(tokens, start, end)
+        if not text:
+            continue
+
+        if label.name == "title":
+            if label.attributes.get("titletype") == "alias":
+                result["alternative_titles"].append(text)
+            elif result["main_title"] is None:
+                result["main_title"] = text
+            else:
+                result["alternative_titles"].append(text)
+        elif label.name == "authors":
+            result["authors"].append(text)
+        elif label.name == "citation":
+            result["citations"].append(text)
+        elif label.name == "fragment":
+            result["fragments_mentioned"].append(text)
+
+    return result
+
 # ---------------------------------------------------------------------------
 # Internal helper — normalised sublabel pattern extraction
 # ---------------------------------------------------------------------------
@@ -496,6 +577,7 @@ def _build_example(
     input_text: str,
     output_text: str,
     source_file: str,
+    reference_profile_list: ReferenceProfileList | None = None,
 ) -> dict:
     """
     Assemble one example dict from raw (input, output) strings.
@@ -510,6 +592,7 @@ def _build_example(
         "source_file":        source_file,
         "structural_pattern": _extract_annotation_pattern(output_text),
         "surface_pattern":      _extract_label_pattern(output_text),
+        "list_reference_profile": _extract_reference_profile_list(output_text, reference_profile_list),
     }
 
 
@@ -549,6 +632,8 @@ def extract_few_shot_examples(
     """
     examples: list[dict] = []
 
+    reference_profile_list = ReferenceProfileList()
+
     for chunk in token_chunks:
         input_tokens = clean_tokens(
             chunk,
@@ -562,7 +647,7 @@ def extract_few_shot_examples(
         else:
             output_tokens = prepare_label_tokens(chunk, cfg)
         examples.append(
-            _build_example(decode(input_tokens), decode(output_tokens), source_file)
+            _build_example(input_text = decode(input_tokens), output_text = decode(output_tokens), source_file = source_file, reference_profile_list = reference_profile_list)
         )
 
     print(f"   ✓ Extracted {len(examples)} few-shot examples from chunks")
