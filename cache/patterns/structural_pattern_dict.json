@@ -1,33 +1,41 @@
 {
   "decision": [
     [
-      31.08,
+      21.08,
+      [
+        "title"
+      ]
+    ],
+    [
+      17.26,
+      [
+        "title",
+        "fragment"
+      ]
+    ],
+    [
+      16.14,
+      [
+        "title",
+        "citation",
+        "citation"
+      ]
+    ],
+    [
+      12.07,
       [
         "title",
         "citation"
       ]
     ],
     [
-      21.14,
-      [
-        "title"
-      ]
-    ],
-    [
-      18.76,
-      [
-        "title",
-        "fragment"
-      ]
-    ],
-    [
-      12.95,
+      11.63,
       [
         "fragment"
       ]
     ],
     [
-      12.95,
+      6.82,
       [
         "title",
         "citation",
@@ -35,9 +43,43 @@
       ]
     ],
     [
-      1.5,
+      5.07,
+      [
+        "title",
+        "citation",
+        "citation",
+        "fragment"
+      ]
+    ],
+    [
+      1.19,
+      [
+        "title",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      1.13,
+      [
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      0.88,
       [
         "citation"
+      ]
+    ],
+    [
+      0.69,
+      [
+        "title",
+        "citation",
+        "citation",
+        "fragment",
+        "fragment"
       ]
     ],
     [
@@ -51,7 +93,98 @@
       ]
     ],
     [
-      0.31,
+      0.56,
+      [
+        "title",
+        "citation",
+        "citation",
+        "citation"
+      ]
+    ],
+    [
+      0.56,
+      [
+        "title",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation"
+      ]
+    ],
+    [
+      0.44,
+      [
+        "title",
+        "citation",
+        "citation",
+        "citation",
+        "citation"
+      ]
+    ],
+    [
+      0.44,
+      [
+        "title",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation"
+      ]
+    ],
+    [
+      0.38,
+      [
+        "title",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation"
+      ]
+    ],
+    [
+      0.38,
+      [
+        "citation",
+        "citation"
+      ]
+    ],
+    [
+      0.25,
+      [
+        "title",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation"
+      ]
+    ],
+    [
+      0.25,
+      [
+        "title",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation"
+      ]
+    ],
+    [
+      0.19,
       [
         "title",
         "citation",
@@ -72,7 +205,26 @@
       [
         "title",
         "citation",
+        "citation",
         "title",
+        "fragment"
+      ]
+    ],
+    [
+      0.19,
+      [
+        "title",
+        "fragment",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      0.19,
+      [
+        "title",
+        "citation",
+        "fragment",
         "fragment"
       ]
     ],
@@ -81,8 +233,39 @@
       [
         "title",
         "citation",
-        "title",
+        "fragment",
+        "citation",
         "citation"
+      ]
+    ],
+    [
+      0.13,
+      [
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      0.13,
+      [
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation"
+      ]
+    ],
+    [
+      0.13,
+      [
+        "title",
+        "citation",
+        "citation",
+        "fragment",
+        "fragment",
+        "fragment"
       ]
     ],
     [
@@ -92,20 +275,114 @@
     [
       0.06,
       [
+        "title",
         "citation",
+        "title",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation"
+      ]
+    ],
+    [
+      0.06,
+      [
+        "citation",
+        "fragment"
+      ]
+    ],
+    [
+      0.06,
+      [
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation"
+      ]
+    ],
+    [
+      0.06,
+      [
+        "title",
+        "title"
+      ]
+    ],
+    [
+      0.06,
+      [
+        "title",
+        "citation",
+        "title",
+        "citation"
+      ]
+    ],
+    [
+      0.06,
+      [
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation",
+        "citation"
+      ]
+    ],
+    [
+      0.06,
+      [
+        "title",
+        "citation",
+        "fragment",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      0.06,
+      [
+        "fragment",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      0.06,
+      [
+        "title",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      0.06,
+      [
+        "title",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
         "fragment"
       ]
     ]
   ],
   "legislation": [
     [
-      39.5,
+      37.23,
       [
         "fragment"
       ]
     ],
     [
-      25.94,
+      23.27,
       [
         "fragment",
         "title"
@@ -125,7 +402,7 @@
       ]
     ],
     [
-      3.07,
+      2.18,
       [
         "title",
         "citation",
@@ -133,14 +410,29 @@
       ]
     ],
     [
-      2.18,
+      1.68,
+      [
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      1.68,
+      [
+        "fragment",
+        "fragment",
+        "title"
+      ]
+    ],
+    [
+      1.49,
       [
         "title",
         "fragment"
       ]
     ],
     [
-      1.49,
+      1.39,
       [
         "fragment",
         "title",
@@ -148,9 +440,43 @@
       ]
     ],
     [
+      0.59,
+      [
+        "title",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      0.5,
+      [
+        "fragment",
+        "fragment",
+        "fragment",
+        "title"
+      ]
+    ],
+    [
+      0.5,
+      [
+        "title",
+        "citation",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
       0.5,
       [
         "citation"
+      ]
+    ],
+    [
+      0.4,
+      [
+        "fragment",
+        "fragment",
+        "fragment"
       ]
     ],
     [
@@ -164,7 +490,44 @@
     [
       0.3,
       [
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "title"
+      ]
+    ],
+    [
+      0.3,
+      [
         "citation",
+        "fragment"
+      ]
+    ],
+    [
+      0.2,
+      [
+        "fragment",
+        "title",
+        "title"
+      ]
+    ],
+    [
+      0.2,
+      [
+        "title",
+        "citation",
+        "fragment",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      0.1,
+      [
+        "fragment",
+        "fragment",
+        "fragment",
         "fragment"
       ]
     ],
@@ -183,6 +546,13 @@
         "fragment",
         "title",
         "citation",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
         "fragment"
       ]
     ],
@@ -206,6 +576,67 @@
         "title",
         "citation",
         "title"
+      ]
+    ],
+    [
+      0.1,
+      [
+        "fragment",
+        "fragment",
+        "title",
+        "citation"
+      ]
+    ],
+    [
+      0.1,
+      [
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      0.1,
+      [
+        "title",
+        "citation",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      0.1,
+      [
+        "title",
+        "citation",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      0.1,
+      [
+        "title",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment",
+        "fragment"
       ]
     ],
     [
@@ -227,7 +658,7 @@
       ]
     ],
     [
-      27.05,
+      26.64,
       [
         "authors",
         "title",
@@ -236,7 +667,7 @@
       ]
     ],
     [
-      13.11,
+      12.3,
       [
         "authors",
         "fragment"
@@ -257,7 +688,7 @@
       ]
     ],
     [
-      4.1,
+      3.69,
       [
         "authors",
         "title",
@@ -271,7 +702,7 @@
       ]
     ],
     [
-      2.46,
+      2.05,
       [
         "authors",
         "title"
@@ -284,8 +715,17 @@
       ]
     ],
     [
+      0.82,
+      [
+        "authors",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
       0.41,
       [
+        "title",
         "title",
         "source",
         "authors",
@@ -301,7 +741,35 @@
     ],
     [
       0.41,
+      [
+        "authors",
+        "title",
+        "source",
+        "fragment",
+        "fragment"
+      ]
+    ],
+    [
+      0.41,
+      [
+        "authors",
+        "title",
+        "title"
+      ]
+    ],
+    [
+      0.41,
       []
+    ],
+    [
+      0.41,
+      [
+        "authors",
+        "title",
+        "fragment",
+        "fragment",
+        "fragment"
+      ]
     ]
   ]
 }

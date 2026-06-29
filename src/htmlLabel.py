@@ -1,4 +1,60 @@
 import re 
+from src.tokenizer_utils import tokenize
+from bs4 import BeautifulSoup
+
+class ReferenceMention:
+
+    def __init__(self, html_str: str):
+        """
+        html_str for example: <manual_label docid="Laicity Act" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" 
+        uri="https://canlii.ca/t/56lzp" verified="false">
+        <manual_label labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" 
+        verified="false">Laicity\nAct</manual_label></manual_label>
+        """
+        
+
+        self.soup = BeautifulSoup(html_str, "html.parser")
+
+        root = self.soup.find(["manual_label", "auto_label"])
+        self.html_tag = HTMLLabel(str(root).split(">")[0] + ">")
+
+        self.text = self.get_text()
+
+        self.name = self.html_tag.name
+
+        self.sublabels = self.get_sublabels()
+
+    @property
+    def html_str(self):
+        # Synchronize the root tag with html_tag
+        root = self.soup.find(["manual_label", "auto_label"])
+
+        # Replace tag attributes
+        root.attrs.clear()
+        root.attrs.update(self.html_tag.attributes)
+
+        return str(self.soup)
+
+
+    def get_text(self) -> str:
+        """
+        Extract the text content from the HTML label, excluding the opening and closing tags.
+        """
+        return self.soup.get_text(strip=True)  # Use BeautifulSoup to get clean text content
+    
+    def get_sublabels(self) -> list[str]:
+        
+        children = self.soup.find_all(
+            ["manual_label", "auto_label"],
+            attrs={"parent": lambda v: v is not None and v != ""}
+        )
+
+        children_name = [child.get("labelname", "")
+                    for child in children]
+        return children_name
+    
+    def __str__(self):
+        return str(self.html_str)
 
 class HTMLLabel:
     """
@@ -100,6 +156,33 @@ class HTMLLabel:
         """Return 'manual_label' or 'auto_label'."""
         return self._label_type
     
+    def _rebuild_token(self):
+        """Rebuild the HTML token from the current attributes."""
+        reconstructed = f"<{self._label_type}"
+
+        for key, value in self._attributes.items():
+            reconstructed += f' {key}="{value}"'
+
+        reconstructed += ">"
+        self._token = reconstructed
+
+    def set_attribute(self, attribute: str, value: str):
+        """
+        Update the value of an existing attribute.
+
+        Args:
+            attribute: Name of the attribute to modify.
+            value: New value.
+
+        Raises:
+            KeyError: If the attribute does not exist.
+        """
+        if attribute not in self._attributes:
+            raise KeyError(f"Attribute '{attribute}' does not exist.")
+
+        self._attributes[attribute] = value
+        self._rebuild_token()
+    
     def to_string(self, remove_attributes: list = None, keep_attributes: list = None):
         """
         Update the token with filtered attributes and update internal state.
@@ -134,18 +217,8 @@ class HTMLLabel:
             # No filtering, do nothing
             return
         
-        # Reconstruct token
-        tag_name = self._label_type
-        reconstructed = f'<{tag_name}'
-        
-        # Add remaining attributes
-        for key, value in filtered_attrs.items():
-            reconstructed += f' {key}="{value}"'
-        
-        reconstructed += '>'
-        
-        # Update internal state
-        self._update_from_token(reconstructed)
+        self._attributes = filtered_attrs
+        self._rebuild_token()
     
     def switch_type(self):
         """

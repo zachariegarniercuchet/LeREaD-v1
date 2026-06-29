@@ -1,0 +1,357 @@
+{
+  "profiles": [
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "main_title": "Excise Tax Act",
+      "docid": "Excise Tax Act 1970",
+      "alternative_titles": {
+        "the Act": "67"
+      },
+      "citations": {
+        "R.S.C. 1970, c. E-13": "0"
+      },
+      "fragments_mentioned": {
+        "section 51.19": "0",
+        "section 51.17": "4",
+        "paragraph 1(h), Part XII,\nSchedule III": "7",
+        "paragraph 1(h), Part XII, Schedule III": "12",
+        "paragraph 1(h), Part XII, Schedule\nIII": "20",
+        "paragraph 1(h), Part XII, Schedule III": "67",
+        "section 27": "73",
+        "Schedule III": "75",
+        "paragraph 1(h), Part XII, Schedule III": "77",
+        "exemption clause": "77",
+        "exemption\nprovision": "138",
+        "exemption\nclause": "198"
+      },
+      "authors": {},
+      "first_seen_id": "0"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "main_title": "Canadian\nInternational Trade Tribunal Act",
+      "docid": "Canadian International Trade Tribunal Act",
+      "alternative_titles": {},
+      "citations": {
+        "S.C. 1988, c. 56": "15"
+      },
+      "fragments_mentioned": {
+        "subs.54(2)": "15",
+        "s. 60": "15",
+        "subsection 54(2)": "87",
+        "section 60": "87"
+      },
+      "authors": {},
+      "first_seen_id": "15"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "City\nof Chicago v. Pittsburgh",
+      "docid": "City of Chicago",
+      "alternative_titles": {},
+      "citations": {
+        "Ft. W. &amp; C. R. Co. (1910)": "24",
+        "93 N.E. 307": "24"
+      },
+      "fragments_mentioned": {
+        "308": "223"
+      },
+      "authors": {},
+      "first_seen_id": "24"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Hunt\nFoods Export Corp. of Canada Ltd et al. v. The Deputy Minister of National\nRevenue for Customs and Excise (1970)",
+      "docid": "Hunt Foods Export Corp. of Canada Ltd",
+      "alternative_titles": {},
+      "citations": {
+        "Ex. C.R. 828": "28",
+        "[1970] Ex. C.R. 828": "235"
+      },
+      "fragments_mentioned": {
+        "p. 838": "237",
+        "p. 5": "239"
+      },
+      "authors": {},
+      "first_seen_id": "28"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Olympia Floor and Wall\nTile Company v. The Deputy Minister of National Revenue for Customs and Excise",
+      "docid": "Olympia Floor and Wall Tile Company",
+      "alternative_titles": {
+        "The\nOlympia Floor and Wall Tile Company case": "174"
+      },
+      "citations": {
+        "5 C.E.R. 562": "31",
+        "5 C.E.R. 562": "231"
+      },
+      "fragments_mentioned": {
+        "p. 460": "233"
+      },
+      "authors": {},
+      "first_seen_id": "31"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Pfizer Company Limited v. The Deputy Minister of\nNational Revenue for Customs and Excise (1977)",
+      "docid": "Pfizer",
+      "alternative_titles": {
+        "Pfizer case": "166",
+        "Pfizer\ncase": "170"
+      },
+      "citations": {
+        "1 S.C.R. 456": "34",
+        "[1977] 1 S.C.R. 456": "212"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "34"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Proprietors\nof Passaic &amp; Hackensack River Bridges v. Hoboken Land Imp. Co. (1860)",
+      "docid": "Proprietors of Passaic &amp; Hackensack River Bridges",
+      "alternative_titles": {},
+      "citations": {
+        "13 N.J.Eq. (2 Beasl.) 503": "37"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "37"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Westeel Products Limited v. The Deputy Minister of\nNational Revenue for Customs and Excise",
+      "docid": "Westeel Products Limited",
+      "alternative_titles": {},
+      "citations": {
+        "2 T.B.R. 106": "40"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "40"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Wilson v. Town of\nBarnstead (1906)",
+      "docid": "Wilson",
+      "alternative_titles": {},
+      "citations": {
+        "74 N.H. 78": "43",
+        "74 N.H. 78": "220"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "43"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "Funk\n&amp; Wagnalls New Standard Dictionary of the English Language",
+      "docid": "New Standard Dictionary English Language",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "46"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "The Oxford\nEnglish Dictionary",
+      "docid": "The Oxford English Dictionary",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "48"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "Black's Law Dictionary",
+      "docid": "Black",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "51"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "The Houghton Mifflin Canadian Dictionary of the English\nLanguage",
+      "docid": "The Houghton Mifflin Canadian Dictionary",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "54"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "Webster's Third New International Dictionary of the English Language\nUnabridged",
+      "docid": "Webster",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "56"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "Funk\n&amp; Wagnalls Standard College Dictionary",
+      "docid": "Funk Wagnalls Standard College Dictionary",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "61"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "Construction of Statutes",
+      "docid": "Construction of Statutes",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {
+        "Driedger,\nE.A.": "63",
+        "Driedger": "192",
+        "Driedger, E. A.": "216"
+      },
+      "first_seen_id": "63"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "Standard Specifications for Structural Supports for Highway Signs,\nLuminaires and Traffic Signals",
+      "docid": "structural support code",
+      "alternative_titles": {
+        "structural support code": "91"
+      },
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {
+        "American Association of State Highway and Transportation\nOfficials (AASHTO)": "94",
+        "AASHTO": "96"
+      },
+      "first_seen_id": "91"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "Standard Specifications for Highway Bridges",
+      "docid": "the highway code",
+      "alternative_titles": {
+        "the highway\ncode": "107"
+      },
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {
+        "AASHTO": "105"
+      },
+      "first_seen_id": "105"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "Ontario Highway Bridge Design Code",
+      "docid": "Ontario Highway Bridge Design Code",
+      "alternative_titles": {
+        "Ontario code": "114"
+      },
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {
+        "Ontario\nMinistry of Transportation and Communications": "114"
+      },
+      "first_seen_id": "112"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "McGraw-Hill Encyclopedia of Science and\nTechnology",
+      "docid": "McGraw-Hill Encyclopedia of Science",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "156"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "The New Encyclopaedia Britannica",
+      "docid": "The New Encyclopaedia Britannica",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "158"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "Words and Phrases. Permanent\nEdition",
+      "docid": "Words and Phrases",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "160"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "main_title": "Customs\nTariff",
+      "docid": "Customs Tariff",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "172"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "main_title": null,
+      "docid": "Excise Tax Act 1985",
+      "alternative_titles": {},
+      "citations": {
+        "R.S.C. 1985, c. E-15": "208"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "208"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Proprietors of Passaic &amp;\nHackensack River Bridges v. Hoboken Land Imp. Co.",
+      "docid": "Proprietors of Passaic &amp; Hackensack River Bridges",
+      "alternative_titles": {},
+      "citations": {
+        "(1860) 13 N.J.Eq.\n(2 Beasl.) 503": "227"
+      },
+      "fragments_mentioned": {
+        "511": "227"
+      },
+      "authors": {},
+      "first_seen_id": "227"
+    }
+  ]
+}

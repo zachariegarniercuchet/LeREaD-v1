@@ -10,6 +10,7 @@ IMG_DIR   = PROJECT_ROOT / "img"
 CHUNK_CACHE_DIR   = CACHE_DIR / "chunks"
 PATTERN_CACHE_DIR = CACHE_DIR / "patterns"
 FEWSHOT_CACHE_DIR = CACHE_DIR / "fewshot"
+PROFILE_CACHE_DIR = CACHE_DIR / "rpr"
 
 PROMPT_DIR = PROJECT_ROOT / "src" /"prompts"
 

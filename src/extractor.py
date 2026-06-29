@@ -49,7 +49,7 @@ from .fewshot.patterns.normalizers import (
     normalize_decision_title,
 )
 
-from src.reference_profile import ReferenceProfileList
+from src.rpr import ReferenceProfileRegistry
 from src.tokenizer_utils import tokenize, decode
 
 
@@ -592,7 +592,6 @@ def _build_example(
         "source_file":        source_file,
         "structural_pattern": _extract_annotation_pattern(output_text),
         "surface_pattern":      _extract_label_pattern(output_text),
-        "list_reference_profile": _extract_reference_profile_list(output_text, reference_profile_list),
     }
 
 
@@ -630,6 +629,34 @@ def extract_few_shot_examples(
         >>> cfg = LabelTransformConfig(use_simplified=True, keep_labels=["decision"])
         >>> examples = extract_few_shot_examples(chunks, cfg)
     """
+    examples: list[dict] = []
+
+    for chunk in token_chunks:
+        input_tokens = clean_tokens(
+            chunk,
+            normalize=True,
+            keep_manual_label=False,
+            keep_auto_label=False,
+            keep_bookmarks=False,
+        )
+        if not cfg:
+            output_tokens = chunk
+        else:
+            output_tokens = prepare_label_tokens(chunk, cfg)
+        examples.append(
+            _build_example(input_text = decode(input_tokens), output_text = decode(output_tokens), source_file = source_file)
+        )
+
+    print(f"   ✓ Extracted {len(examples)} few-shot examples from chunks")
+    return examples
+
+
+def create_coref_examples(
+    html: list[list[str]],
+    cfg: LabelTransformConfig = None,
+    source_file: str = "",
+) -> list[dict]:
+
     examples: list[dict] = []
 
     reference_profile_list = ReferenceProfileList()

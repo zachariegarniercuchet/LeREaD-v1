@@ -1,0 +1,513 @@
+{
+  "profiles": [
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Mouvement laïque québécois c.\n  English Montreal School Board",
+      "docid": "Mouvement laïque québécois",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "0"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "main_title": "Code of Civil Procedure",
+      "docid": "Code of Civil Procedure",
+      "alternative_titles": {
+        "C.C.P.": "17"
+      },
+      "citations": {},
+      "fragments_mentioned": {
+        "661 C.C.P.": "4",
+        "article 355 para. 1": "17",
+        "article 661 para. 1": "20",
+        "article 661 para.\n1": "23",
+        "article\n661": "92"
+      },
+      "authors": {},
+      "first_seen_id": "4"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "main_title": "Act respecting the\nlaicity of the State",
+      "docid": "Laicity Act",
+      "alternative_titles": {
+        "Laicity Act": "6",
+        "Act": "6",
+        "Laicity\nAct": "59"
+      },
+      "citations": {
+        "CQLR c L-0.3": "123"
+      },
+      "fragments_mentioned": {
+        "Section 31(5)": "256"
+      },
+      "authors": {},
+      "first_seen_id": "6"
+    },
+    {
+      "doc_type": "legislation",
+      "jurisdiction": null,
+      "main_title": "Canadian Charter of Rights and Freedoms",
+      "docid": "Canadian Charter",
+      "alternative_titles": {
+        "Charter": "33"
+      },
+      "citations": {},
+      "fragments_mentioned": {
+        "section 23": "12",
+        "Section 23": "51",
+        "section 23(3)(a)": "55",
+        "section 23(3)(b)": "57",
+        "section\n23": "69"
+      },
+      "authors": {},
+      "first_seen_id": "12"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Harper v. Canada (Attorney General)",
+      "docid": "Harper",
+      "alternative_titles": {
+        "Harper": "31"
+      },
+      "citations": {
+        "[2000] 2 S.C.R. 764": "173",
+        "2000 SCC 57": "173"
+      },
+      "fragments_mentioned": {
+        "para. 9": "173"
+      },
+      "authors": {},
+      "first_seen_id": "31"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": null,
+      "docid": "Mosaic Potash",
+      "alternative_titles": {
+        "Mosaic Potash": "37"
+      },
+      "citations": {},
+      "fragments_mentioned": {
+        "paragraph 58": "37",
+        "paragraph 59": "40"
+      },
+      "authors": {},
+      "first_seen_id": "37"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Canada (Attorney General) v Oshkosh\nDefense Canada Inc.",
+      "docid": "Oshkosh Defense Canada",
+      "alternative_titles": {},
+      "citations": {
+        "2018 FCA 102": "42"
+      },
+      "fragments_mentioned": {
+        "paragraph 30": "42"
+      },
+      "authors": {},
+      "first_seen_id": "42"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Mahe v. Alberta",
+      "docid": "Mahe",
+      "alternative_titles": {
+        "Mahe": "61"
+      },
+      "citations": {
+        "[1990] 1 S.C.R. 342": "229"
+      },
+      "fragments_mentioned": {
+        "p. 377": "229",
+        "p. 350": "233",
+        "pp. 375-376": "235"
+      },
+      "authors": {},
+      "first_seen_id": "61"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Conseil\nscolaire francophone de la Colombie‑Britannique\nv. British Columbia",
+      "docid": "Conseil scolaire francophone de la Colombie-Britannique",
+      "alternative_titles": {
+        "Conseil\nscolaire francophone de la Colombie‑Britannique": "67"
+      },
+      "citations": {
+        "2020 SCC 13": "224",
+        "2020\nSCC 13": "237"
+      },
+      "fragments_mentioned": {
+        "paras. 21 et seq.": "227"
+      },
+      "authors": {},
+      "first_seen_id": "67"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Ross v. New Brunswick School District No. 15",
+      "docid": "Ross",
+      "alternative_titles": {},
+      "citations": {
+        "[1996] 1 S.C.R. 825": "262"
+      },
+      "fragments_mentioned": {
+        "p. 873": "262"
+      },
+      "authors": {},
+      "first_seen_id": "105"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Brown\nv. Board of Education of Topeka",
+      "docid": "Brown",
+      "alternative_titles": {},
+      "citations": {
+        "347 U.S. 483 (1954)": "259"
+      },
+      "fragments_mentioned": {
+        "p. 493": "259"
+      },
+      "authors": {},
+      "first_seen_id": "107"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Hak c. Procureur général du Québec",
+      "docid": "Hak QCCS 2021",
+      "alternative_titles": {},
+      "citations": {
+        "2021 QCCS 1466": "120"
+      },
+      "fragments_mentioned": {
+        "paras.\n983 et seq.": "240",
+        "paras. 989 et seq.": "244",
+        "para. 993": "246",
+        "para. 1003": "248",
+        "para. 994": "250",
+        "paras. 998-1002": "252",
+        "paras. 1004 et seq.": "254"
+      },
+      "authors": {},
+      "first_seen_id": "120"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "main_title": "Introduction — Recourse Against\nCivil Judgments in the European Union: A Comparative Survey",
+      "docid": "Recourse Against Civil Judgments",
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {
+        "p. 11": "125"
+      },
+      "authors": {
+        "John Anthony Jolowicz": "125"
+      },
+      "first_seen_id": "125"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "CTI Capital valeurs mobilières inc. c. Nassif",
+      "docid": "CTI Capital",
+      "alternative_titles": {},
+      "citations": {
+        "2020\nQCCA 197": "130"
+      },
+      "fragments_mentioned": {
+        "para. 11": "130",
+        "footnote 7": "134"
+      },
+      "authors": {},
+      "first_seen_id": "130"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Aliments\nUltima inc. c. Vergers Leahy inc.",
+      "docid": "Aliments Ultima",
+      "alternative_titles": {},
+      "citations": {
+        "2021 QCCA 239": "136"
+      },
+      "fragments_mentioned": {
+        "para. 6": "136"
+      },
+      "authors": {},
+      "first_seen_id": "136"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Lebeuf c. Groupe SNC-Lavalin inc.",
+      "docid": "Lebeuf",
+      "alternative_titles": {},
+      "citations": {
+        "1995 CanLII 5310": "140"
+      },
+      "fragments_mentioned": {
+        "paras. 8-9": "140",
+        "para. 8": "168"
+      },
+      "authors": {},
+      "first_seen_id": "140"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Friedrich\nv. Friedrich",
+      "docid": "Friedrich",
+      "alternative_titles": {},
+      "citations": {
+        "2016 QCCA 2011": "146"
+      },
+      "fragments_mentioned": {
+        "paras. 6-7": "146"
+      },
+      "authors": {},
+      "first_seen_id": "146"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Droit de la famille — 172312",
+      "docid": "Droit de la famille - 172312",
+      "alternative_titles": {},
+      "citations": {
+        "2017 QCCA 1554": "150"
+      },
+      "fragments_mentioned": {
+        "para. 23": "150"
+      },
+      "authors": {},
+      "first_seen_id": "150"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Droit de la famille — 21903",
+      "docid": "Droit de la famille — 21903",
+      "alternative_titles": {},
+      "citations": {
+        "2021 QCCA 837": "154"
+      },
+      "fragments_mentioned": {
+        "para. 6": "154"
+      },
+      "authors": {},
+      "first_seen_id": "154"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Société Nationale d’assurance inc./Les Clairvoyants,\ncompagnie d’assurance générale c. Gaz Métropolitain inc.",
+      "docid": "Société Nationale d",
+      "alternative_titles": {},
+      "citations": {
+        "[2001] R.R.A. 757\n(C.S.)": "158",
+        "2001 CanLII 25493": "158"
+      },
+      "fragments_mentioned": {
+        "p. 764": "158",
+        "para. 50": "158"
+      },
+      "authors": {},
+      "first_seen_id": "158"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Imperial Tobacco Canada Ltd. v. Conseil québécois sur\nle tabac et la santé",
+      "docid": "Imperial Tobacco",
+      "alternative_titles": {},
+      "citations": {
+        "2015 QCCA 1224": "164"
+      },
+      "fragments_mentioned": {
+        "para. 31": "164"
+      },
+      "authors": {},
+      "first_seen_id": "164"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Procureur général du Québec c. Quebec\nEnglish School Board Association",
+      "docid": "Quebec English School Board Association",
+      "alternative_titles": {},
+      "citations": {
+        "2020 QCCA 1171": "180"
+      },
+      "fragments_mentioned": {
+        "para. 11": "180"
+      },
+      "authors": {},
+      "first_seen_id": "180"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Procureure générale du Québec c. Solski",
+      "docid": "Solski",
+      "alternative_titles": {},
+      "citations": {
+        "J.E.\n2001-400 (C.A.)": "184",
+        "2001 CanLII 5956": "184"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "184"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Québec (Procureur général) c.\nH.N.",
+      "docid": "H.N.",
+      "alternative_titles": {},
+      "citations": {
+        "2007 QCCA 1136": "188"
+      },
+      "fragments_mentioned": {
+        "para. 7": "188"
+      },
+      "authors": {},
+      "first_seen_id": "188"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Canada\nv. Canadian Council for Refugees",
+      "docid": "Canadian Council for Refugees",
+      "alternative_titles": {},
+      "citations": {
+        "2008 FCA 40": "192"
+      },
+      "fragments_mentioned": {
+        "para. 34": "192"
+      },
+      "authors": {},
+      "first_seen_id": "192"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Bedford\nv. Canada (Attorney General)",
+      "docid": "Bedford",
+      "alternative_titles": {},
+      "citations": {
+        "2010 ONCA 814": "196"
+      },
+      "fragments_mentioned": {
+        "paras. 67": "196",
+        "68": "196"
+      },
+      "authors": {},
+      "first_seen_id": "196"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Hak c. Procureure générale du Québec",
+      "docid": "Hak QCCA 2019",
+      "alternative_titles": {},
+      "citations": {
+        "2019 QCCA 2145": "204"
+      },
+      "fragments_mentioned": {
+        "para. 67": "207"
+      },
+      "authors": {},
+      "first_seen_id": "204"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Fédération des coopératives funéraires du Québec c. Bureau de\nnormalisation du Québec",
+      "docid": "Fédération des coopératives funéraires du Québec",
+      "alternative_titles": {},
+      "citations": {
+        "J.E. 2010-153 (C.A.)": "209",
+        "2009 QCCA 2445": "209"
+      },
+      "fragments_mentioned": {
+        "para. 17": "209"
+      },
+      "authors": {},
+      "first_seen_id": "209"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Montréal (Ville de) c. Lours",
+      "docid": "Lours",
+      "alternative_titles": {},
+      "citations": {
+        "J.E. 2016-2133\n(C.A.)": "214",
+        "2016 QCCA 1931": "214"
+      },
+      "fragments_mentioned": {
+        "para. 20": "214"
+      },
+      "authors": {},
+      "first_seen_id": "214"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "British Columbia (Attorney General) v. Alberta (Attorney\nGeneral)",
+      "docid": "British Columbia",
+      "alternative_titles": {},
+      "citations": {
+        "2019 FC 1195": "219"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "219"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": null,
+      "docid": "Alberta",
+      "alternative_titles": {},
+      "citations": {
+        "2021\nFCA 84": "222"
+      },
+      "fragments_mentioned": {},
+      "authors": {},
+      "first_seen_id": "222"
+    },
+    {
+      "doc_type": "decision",
+      "jurisdiction": null,
+      "main_title": "Syndicat Northcrest v. Amselem",
+      "docid": "Syndicat Northcrest",
+      "alternative_titles": {},
+      "citations": {
+        "[2004] 2 S.C.R. 551": "265",
+        "2004 SCC 47": "265"
+      },
+      "fragments_mentioned": {
+        "para. 39": "265",
+        "para. 42": "270"
+      },
+      "authors": {},
+      "first_seen_id": "265"
+    }
+  ]
+}

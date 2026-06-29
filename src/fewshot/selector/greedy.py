@@ -43,10 +43,10 @@ def _coverage_score(label_patterns_list: list[dict], score_lookup: dict):
     total = 0.0
     for lp in label_patterns_list:
         for label_key, patterns in lp.items():
-            dict_key = _KEY_MAP.get(label_key)
+            dict_key = _KEY_MAP[label_key]
             if dict_key is None:
                 continue
-            lookup = score_lookup.get(dict_key, {})
+            lookup = score_lookup[dict_key]
             for p in patterns:
                 p   = _make_hashable(p)
                 key = (dict_key, p)

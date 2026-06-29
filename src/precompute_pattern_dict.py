@@ -26,8 +26,16 @@ def _load_train_annotations() -> dict:
         except UnicodeDecodeError:
             html = path.read_text(encoding="latin-1")
         anns = extract_parent_level_annotations(html)
-        for k in merged:
-            merged[k].extend(anns.get(k, []))
+        for rm in anns:
+            labelname = rm.name
+            if labelname in merged:
+                merged[labelname].append({
+                    "full_html": str(rm),
+                    "docid": rm.html_tag.attributes["docid"],
+                    "uri": rm.html_tag.attributes["uri"],
+                    "text_content": rm.text,
+                    "all_sublabels": rm.sublabels,
+                })
     return merged
 
 

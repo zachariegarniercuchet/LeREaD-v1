@@ -2,8 +2,8 @@
 Extract and collect sublabel strings from annotated HTML files.
 """
 from bs4 import BeautifulSoup
-
-
+from src.htmlLabel import ReferenceMention
+from src.tokenizer_utils import decode, tokenize
 
 
 def extract_parent_level_annotations(html_content: str) -> dict:
@@ -16,29 +16,51 @@ def extract_parent_level_annotations(html_content: str) -> dict:
     parent_labels = soup.find_all(
         ["manual_label", "auto_label"], attrs={"parent": ""}
     )
-    annotations = {"decision": [], "legislation": [], "secondary sources": []}
 
-    idx = 0
-    for label in parent_labels:
-        labelname = label.get("labelname", "")
-        if labelname not in annotations:
-            continue
-        direct = [sl.get("labelname", "")
-                  for sl in label.find_all(["manual_label", "auto_label"],
-                                           recursive=False)]
-        all_sl = [sl.get("labelname", "")
-                  for sl in label.find_all(["manual_label", "auto_label"])]
-        annotations[labelname].append({
-            "full_html":       str(label),
-            "docid":           label.get("docid", ""),
-            "uri":             label.get("uri", ""),
-            "text_content":    label.get_text(strip=True),
-            "direct_sublabels": direct,
-            "all_sublabels":   all_sl,
-            "order": idx,
-        })
-        idx += 1
-    return annotations
+    return [rm for rm in (ReferenceMention(str(parent)) for parent in parent_labels)]
+
+
+def get_mention_upper_context(html: str, mention, max_tokens: int = 500) -> str:
+    """
+    Find `mention` inside `html`, and return up to `max_tokens` tokens
+    of context immediately preceding it, decoded back to a string.
+
+    Args:
+        html: the full document html.
+        mention: a mention object with `.html_tag` (has `.attributes["id"]`)
+                  and `.html_str` (the raw html snippet for this mention).
+        max_tokens: maximum number of preceding tokens to include.
+
+    Returns:
+        Decoded string of the context window preceding the mention.
+    """
+    tokens = tokenize(html)
+
+    start_idx = _find_mention_token_start(tokens, mention)
+
+    if start_idx is None:
+        raise ValueError(f"Could not locate mention with id={mention.html_tag.attributes.get('id')} in tokenized html")
+
+    context_start = max(0, start_idx - max_tokens)
+    context_tokens = tokens[context_start:start_idx]
+
+    return decode(context_tokens)
+
+
+def _find_mention_token_start(tokens, mention):
+    """
+    Locate the index of the first token belonging to `mention` inside `tokens`.
+    """
+    tag = mention.html_tag
+
+    for i, tok in enumerate(tokens):
+
+
+        if str(tag) == tok:
+            return i
+
+    return None
+    
 
 
 def get_sublabel_strings(

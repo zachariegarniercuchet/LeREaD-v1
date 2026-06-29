@@ -56,7 +56,7 @@ def _switch_closing_tag(token: str) -> str:
 
 
 
-def _strip_tags(tokens: list, keep_manual_label=False, keep_auto_label=False, keep_bookmarks=False, merge = True, log=False) -> list:
+def _strip_tags(tokens: list, keep_manual_label=False, keep_auto_label=False, keep_bookmarks=False, merge = True, log=False, protected_id=None) -> list:
     """
     Remove tag tokens from the HTML token sequence and return text token list
     while preserving whitespace tokens exactly.
@@ -81,6 +81,13 @@ def _strip_tags(tokens: list, keep_manual_label=False, keep_auto_label=False, ke
                 if t.lower().startswith('<auto_label') or t.lower().startswith('</auto_label'):
                     text_parts.append(t)
                     continue
+
+            if protected_id is not None:
+                # Check if the tag has the protected id attribute
+                if (t.lower().startswith('<manual_label') or t.lower().startswith('<auto_label')) and f'id="{protected_id}"' in t.lower():
+                    text_parts.append(t)
+                    continue
+                    
 
             if keep_bookmarks:
                 # Keep bookmarks tags (opening and closing)
@@ -150,14 +157,14 @@ def _normalize_text_tokens(text_tokens: list, log=False) -> list:
     return normalized
 
 
-def clean_tokens(html_tokens: list, normalize: bool = False, keep_manual_label=False, keep_auto_label=False, keep_bookmarks=False, log=False) -> list:
+def clean_tokens(html_tokens: list, normalize: bool = False, keep_manual_label=False, keep_auto_label=False, keep_bookmarks=False, log=False, protected_id=None) -> list:
     """
     Produce a cleaned token list by:
     1) Removing all tag tokens and building plain text token list
     2) Optionally normalizing whitespace tokens (NBSPs and excessive newlines/spaces)
     Returns: cleaned tokens (no tag tokens)
     """
-    text_tokens = _strip_tags(tokens=html_tokens, keep_manual_label=keep_manual_label, keep_auto_label=keep_auto_label, keep_bookmarks=keep_bookmarks, log=log)
+    text_tokens = _strip_tags(tokens=html_tokens, keep_manual_label=keep_manual_label, keep_auto_label=keep_auto_label, keep_bookmarks=keep_bookmarks, log=log, protected_id=protected_id)
     if normalize:
         text_tokens = _normalize_text_tokens(text_tokens, log=log)
 
