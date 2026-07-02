@@ -8,8 +8,7 @@
       "output": "\"<decision docid=\\\"Canada v. Craig\\\"><title>Craig</title>, at <fragment>para. 24</fragment></decision>\"",
       "meta": {
         "docid": "Craig",
-        "mention_id": 3960,
-        "has_main_title": false
+        "mention_id": 3960
       }
     },
     {
@@ -17,8 +16,7 @@
       "output": "\"<legislation docid=\\\"Lord\\\"><title>Lord's Day Act</title>,\\n<citation>R.S.C. 1970, c. L-13</citation></legislation>\"",
       "meta": {
         "docid": "Lord",
-        "mention_id": 1054,
-        "has_main_title": true
+        "mention_id": 1054
       }
     },
     {
@@ -26,8 +24,7 @@
       "output": "\"<legislation docid=\\\"Canadian Charter of\\nRights and Freedoms\\\"><title>Charter</title></legislation>\"",
       "meta": {
         "docid": "Charter",
-        "mention_id": 269,
-        "has_main_title": false
+        "mention_id": 269
       }
     },
     {
@@ -35,8 +32,7 @@
       "output": "\"<decision docid=\\\"Cardinal v. Director of Kent Institution\\\"><title>Cardinal v. Director of Kent Institution</title></decision>\"",
       "meta": {
         "docid": "Cardinal",
-        "mention_id": 984,
-        "has_main_title": true
+        "mention_id": 984
       }
     },
     {
@@ -44,8 +40,7 @@
       "output": "\"<decision docid=\\\"U.E.S., Local 298 v. Bibeault\\\"><fragment>p. 1090</fragment></decision>\"",
       "meta": {
         "docid": "Bibeault",
-        "mention_id": 650,
-        "has_main_title": false
+        "mention_id": 650
       }
     },
     {
@@ -53,8 +48,7 @@
       "output": "\"<legislation docid=\\\"Public Service Labour Relations Act\\\"><title>Public Service Labour Relations\\nAct</title>, <citation>R.S.N.B. 1973, c.\u00a0P\u201125</citation>,<fragment>\\nss.\u00a092(1)</fragment>, <fragment>97</fragment>, <fragment>97(2.1)</fragment></legislation>\"",
       "meta": {
         "docid": "PSLRA",
-        "mention_id": 381,
-        "has_main_title": true
+        "mention_id": 381
       }
     },
     {
@@ -62,8 +56,7 @@
       "output": "\"<legislation docid=\\\"Canadian Charter of\\nRights and Freedoms\\\"><fragment>s. 11</fragment></legislation>\"",
       "meta": {
         "docid": "Charter",
-        "mention_id": 1353,
-        "has_main_title": false
+        "mention_id": 1353
       }
     },
     {
@@ -71,8 +64,7 @@
       "output": "\"<decision docid=\\\"R. v. Laws (1994)\\\"><title>Laws</title></decision>\"",
       "meta": {
         "docid": "Laws",
-        "mention_id": 960,
-        "has_main_title": false
+        "mention_id": 960
       }
     },
     {
@@ -80,8 +72,7 @@
       "output": "\"<decision docid=\\\"Canada (Attorney General) v. Igloo Vikski Inc.\\\"><title>Igloo Vikski</title></decision>\"",
       "meta": {
         "docid": "Igloo Vikski",
-        "mention_id": 4452,
-        "has_main_title": false
+        "mention_id": 4452
       }
     },
     {
@@ -89,8 +80,7 @@
       "output": "\"<legislation docid=\\\"Citizenship Act\\\"><fragment>Section 3(2)</fragment></legislation>\"",
       "meta": {
         "docid": "Citizenship Act 1985",
-        "mention_id": 2820,
-        "has_main_title": false
+        "mention_id": 2820
       }
     },
     {
@@ -98,8 +88,7 @@
       "output": "\"<decision docid=\\\"R. v. Stillman\\n(1997)\\\"><title>R. v.\\nStillman</title></decision>\"",
       "meta": {
         "docid": "Stillman",
-        "mention_id": 781,
-        "has_main_title": true
+        "mention_id": 781
       }
     },
     {
@@ -107,8 +96,7 @@
       "output": "\"<decision docid=\\\"Dunsmuir v. New Brunswick\\\"><title>Dunsmuir</title></decision>\"",
       "meta": {
         "docid": "Dunsmuir",
-        "mention_id": 3349,
-        "has_main_title": false
+        "mention_id": 3349
       }
     },
     {
@@ -116,8 +104,7 @@
       "output": "\"<secondary sources docid=\\\"A \u2018Unique Experiment\u2019: The Ontario Labour Court, 1943\u20111944\\\"><authors>Munro, Katherine</authors>. \u201c<title>A \u2018Unique Experiment\u2019: The Ontario Labour Court, 1943\u20111944</title>\u201d<source> (2014), 74 Labour 199</source></secondary sources>\"",
       "meta": {
         "docid": "A Unique Experiment",
-        "mention_id": 1171,
-        "has_main_title": true
+        "mention_id": 1171
       }
     },
     {
@@ -125,8 +112,7 @@
       "output": "\"<legislation docid=\\\"Criminal Code\\\"><fragment>paragraph (a)</fragment> or <fragment>(b)</fragment></legislation>\"",
       "meta": {
         "docid": "Criminal Code",
-        "mention_id": 338,
-        "has_main_title": false
+        "mention_id": 338
       }
     },
     {
@@ -134,8 +120,7 @@
       "output": "\"<legislation docid=\\\"Criminal Code\\\"><fragment>s. 503(1)</fragment> of the <title>Criminal Code</title></legislation>\"",
       "meta": {
         "docid": "Criminal Code",
-        "mention_id": 318,
-        "has_main_title": true
+        "mention_id": 318
       }
     },
     {
@@ -143,8 +128,7 @@
       "output": "\"<legislation docid=\\\"Criminal Code\\\"><fragment>s. 638(1)(b)</fragment></legislation>\"",
       "meta": {
         "docid": "Criminal Code 1985",
-        "mention_id": 856,
-        "has_main_title": false
+        "mention_id": 856
       }
     },
     {
@@ -152,8 +136,7 @@
       "output": "\"<decision docid=\\\"Mount Sinai\\nHospital Center v. Quebec (Minister of Health and Social Services)\\\"><title>Mount\\nSinai Hospital Center v. Quebec (Minister of Health and Social Services)</title>,\\n<citation>[2001] 2 S.C.R. 281</citation>, <citation>2001 SCC 41</citation></decision>\"",
       "meta": {
         "docid": "Mount Sinai Hospital Center",
-        "mention_id": 314,
-        "has_main_title": true
+        "mention_id": 314
       }
     },
     {
@@ -161,8 +144,7 @@
       "output": "\"<legislation docid=\\\"Civil Service Act\\\"> <fragment>s. 20</fragment> of the <title>Civil\\nService Act</title></legislation>\"",
       "meta": {
         "docid": "Civil Service Act",
-        "mention_id": 509,
-        "has_main_title": true
+        "mention_id": 509
       }
     },
     {
@@ -170,8 +152,7 @@
       "output": "\"<decision docid=\\\"Congr\u00e9gation des t\u00e9moins de J\u00e9hovah de St\u2011J\u00e9r\u00f4me\u2011Lafontaine v. Lafontaine (Village)\\\"><title>Congr\u00e9gation des t\u00e9moins de J\u00e9hovah de St-J\u00e9r\u00f4me-Lafontaine</title>, at <fragment>para. 7</fragment></decision>\"",
       "meta": {
         "docid": "Congr\u00e9gation des t\u00e9moins de J\u00e9hovah",
-        "mention_id": 2341,
-        "has_main_title": true
+        "mention_id": 2341
       }
     },
     {
@@ -179,8 +160,7 @@
       "output": "\"<decision docid=\\\"Edmonton (City) v. Edmonton East (Capilano) Shopping Centres Ltd.\\\"><fragment>para. 70</fragment></decision>\"",
       "meta": {
         "docid": "Edmonton East",
-        "mention_id": 3483,
-        "has_main_title": false
+        "mention_id": 3483
       }
     },
     {
@@ -188,8 +168,7 @@
       "output": "\"<legislation docid=\\\"Canadian Charter of\\nRights and Freedoms\\\"><title>Charter</title></legislation>\"",
       "meta": {
         "docid": "Charter",
-        "mention_id": 281,
-        "has_main_title": false
+        "mention_id": 281
       }
     },
     {
@@ -197,8 +176,7 @@
       "output": "\"<decision docid=\\\"Lee v. Canada (Minister of Citizenship and Immigration)\\\"><title>Lee</title>, at <fragment>para.\u00a077</fragment></decision>\"",
       "meta": {
         "docid": "Lee FC 2008",
-        "mention_id": 3004,
-        "has_main_title": false
+        "mention_id": 3004
       }
     },
     {
@@ -206,8 +184,7 @@
       "output": "\"<decision docid=\\\"Dunsmuir\\n  v. New Brunswick\\\"><fragment>81</fragment></decision>\"",
       "meta": {
         "docid": "Dunsmuir SCC 2008",
-        "mention_id": 73,
-        "has_main_title": false
+        "mention_id": 73
       }
     },
     {
@@ -215,8 +192,7 @@
       "output": "\"<decision docid=\\\"R. v. Jordan\\\"><title>R. v. Jordan</title>, <citation>[2016] 1 S.C.R. 631</citation></decision>\"",
       "meta": {
         "docid": "Jordan",
-        "mention_id": 4082,
-        "has_main_title": true
+        "mention_id": 4082
       }
     },
     {
@@ -224,8 +200,7 @@
       "output": "\"<legislation docid=\\\"Vienna Convention on Diplomatic Relations\\\"><fragment>Article 37</fragment> of the <title>Convention</title></legislation>\"",
       "meta": {
         "docid": "Vienna Convention on Diplomatic Relations",
-        "mention_id": 2817,
-        "has_main_title": false
+        "mention_id": 2817
       }
     },
     {
@@ -233,8 +208,7 @@
       "output": "\"<secondary sources docid=\\\"Citizenship Revocation, the Privilege to Have Rights and the Production of the Alien\\\"><authors>Macklin, Audrey.</authors> \u201c<title>Citizenship Revocation, the Privilege to Have Rights and the Production of the Alien</title>\u201d <source>(2014), 40 Queen\u2019s L.J. 1</source></secondary sources>\"",
       "meta": {
         "docid": "Citizenship Revocation",
-        "mention_id": 1131,
-        "has_main_title": true
+        "mention_id": 1131
       }
     },
     {
@@ -242,8 +216,7 @@
       "output": "\"<decision docid=\\\"Moreau\u2011B\u00e9rub\u00e9\\nv. New Brunswick (Judicial Council)\\\"><title>Moreau\u2011B\u00e9rub\u00e9\\nv. New Brunswick (Judicial Council)</title>, <citation>[2002] 1 S.C.R. 249</citation>, <citation>2002 SCC 11</citation></decision>\"",
       "meta": {
         "docid": "Moreau-B\u00e9rub\u00e9",
-        "mention_id": 338,
-        "has_main_title": true
+        "mention_id": 338
       }
     },
     {
@@ -251,8 +224,7 @@
       "output": "\"<decision docid=\\\"C.U.P.E. v. Ontario (Minister of Labour)\\\"><title>C.U.P.E. v. Ontario (Minister of Labour)</title>, <citation>2003 SCC 29</citation>, <citation>[2003] 1 S.C.R. 539</citation>, at <fragment>para. 149</fragment></decision>\"",
       "meta": {
         "docid": "CUPE",
-        "mention_id": 1562,
-        "has_main_title": true
+        "mention_id": 1562
       }
     },
     {
@@ -260,8 +232,7 @@
       "output": "\"<decision docid=\\\"Pushpanathan v. Canada (Minister of Citizenship and Immigration)\\\"><title>Pushpanathan</title></decision>\"",
       "meta": {
         "docid": "Pushpanathan",
-        "mention_id": 3331,
-        "has_main_title": false
+        "mention_id": 3331
       }
     },
     {
@@ -269,8 +240,7 @@
       "output": "\"<decision docid=\\\"Seshia v.\\nHealth Sciences Centre (2001)\\\"><title>Seshia v. Health Sciences Centre (2001)</title>,<citation> 160 Man.\\nR. (2d) 41</citation>, <citation>2001 MBCA 151</citation></decision>\"",
       "meta": {
         "docid": "Seshia",
-        "mention_id": 1015,
-        "has_main_title": true
+        "mention_id": 1015
       }
     },
     {
@@ -278,8 +248,7 @@
       "output": "\"<legislation docid=\\\"Criminal Code\\\"><fragment>subsection\\n494(3)</fragment></legislation>\"",
       "meta": {
         "docid": "Criminal Code",
-        "mention_id": 73,
-        "has_main_title": false
+        "mention_id": 73
       }
     },
     {
@@ -287,8 +256,7 @@
       "output": "\"<decision><fragment>p. 685</fragment> S.C.R.</decision>\"",
       "meta": {
         "docid": "Canadian Dredge &amp; Dock",
-        "mention_id": 1558,
-        "has_main_title": false
+        "mention_id": 1558
       }
     },
     {
@@ -296,8 +264,7 @@
       "output": "\"<secondary sources docid=\\\"Stare Decisis and Judicial Restraint\\\"><authors>Powell, Lewis\u00a0F., Jr. </authors>\u201c<title>Stare Decisis and Judicial Restraint</title>\u201d <source>(1990), 47 Wash. &amp; Lee L. Rev. 281</source></secondary sources>\"",
       "meta": {
         "docid": "Stare Decisis and Judicial Restraint",
-        "mention_id": 1183,
-        "has_main_title": true
+        "mention_id": 1183
       }
     },
     {
@@ -305,8 +272,7 @@
       "output": "\"<legislation docid=\\\"Right to Information and Protection of Privacy Act\\\"><fragment>Part 2</fragment> of the <title>Act</title></legislation>\"",
       "meta": {
         "docid": "Right to Information Act",
-        "mention_id": 265,
-        "has_main_title": false
+        "mention_id": 265
       }
     },
     {
@@ -314,8 +280,7 @@
       "output": "\"<decision docid=\\\"Gismondi v. Toronto (City) (2003)\\\"><title>Gismondi v. Toronto (City) (2003)</title>, <citation>64\\nO.R. (3d) 688 (C.A.)</citation></decision>\"",
       "meta": {
         "docid": "Gismondi",
-        "mention_id": 1012,
-        "has_main_title": true
+        "mention_id": 1012
       }
     },
     {
@@ -323,8 +288,7 @@
       "output": "\"<legislation docid=\\\"Corporations Act\\\"><title>Corporations Act</title></legislation>\"",
       "meta": {
         "docid": "Corporations Act 1960",
-        "mention_id": 1513,
-        "has_main_title": true
+        "mention_id": 1513
       }
     },
     {
@@ -332,8 +296,7 @@
       "output": "\"<decision docid=\\\"Gerrard v.\\nSackville (Town) (1992)\\\"><title>Gerrard v.\\nSackville (Town) (1992)</title>, <citation>124 N.B.R. (2d) 70</citation></decision>\"",
       "meta": {
         "docid": "Gerrard",
-        "mention_id": 270,
-        "has_main_title": true
+        "mention_id": 270
       }
     },
     {
@@ -341,8 +304,7 @@
       "output": "\"<decision docid=\\\"Aluminium Company of Canada Ltd. v. The Corporation of the\\nCity of Toronto\\\"><title>judgment</title></decision>\"",
       "meta": {
         "docid": "Aluminum Company of Canada",
-        "mention_id": 231,
-        "has_main_title": false
+        "mention_id": 231
       }
     },
     {
@@ -350,8 +312,7 @@
       "output": "\"<legislation docid=\\\"Canadian Charter of\\nRights and Freedoms\\\"><fragment>ss. 7</fragment>, <fragment>11(d)</fragment> and <fragment>11(f)</fragment> of the <title>Charter</title></legislation>\"",
       "meta": {
         "docid": "Charter",
-        "mention_id": 955,
-        "has_main_title": false
+        "mention_id": 955
       }
     },
     {
@@ -359,8 +320,7 @@
       "output": "\"<legislation docid=\\\"Criminal Code\\\"><fragment>s. 632</fragment></legislation>\"",
       "meta": {
         "docid": "Criminal Code 1985",
-        "mention_id": 848,
-        "has_main_title": false
+        "mention_id": 848
       }
     },
     {
@@ -368,8 +328,7 @@
       "output": "\"<decision docid=\\\"B010 v. Canada (Citizenship and Immigration)\\\"> <title>B010 v. Canada (Citizenship and Immigration)</title>,<citation> 2015 SCC 58</citation>, <citation>[2015] 3 S.C.R. 704</citation></decision>\"",
       "meta": {
         "docid": "B010",
-        "mention_id": 518,
-        "has_main_title": true
+        "mention_id": 518
       }
     },
     {
@@ -377,8 +336,7 @@
       "output": "\"<legislation docid=\\\"Canadian Charter of\\nRights and Freedoms\\\"><fragment>s. 11</fragment></legislation>\"",
       "meta": {
         "docid": "Charter",
-        "mention_id": 896,
-        "has_main_title": false
+        "mention_id": 896
       }
     },
     {
@@ -386,8 +344,7 @@
       "output": "\"<decision docid=\\\"Canada (Director of Investigation and Research) v. Southam Inc.\\\"><title> Canada (Director of Investigation and Research) v. Southam Inc.</title>, <citation>[1997] 1 S.C.R. 748</citation></decision>\"",
       "meta": {
         "docid": "Southam",
-        "mention_id": 193,
-        "has_main_title": true
+        "mention_id": 193
       }
     },
     {
@@ -395,8 +352,7 @@
       "output": "\"<decision docid=\\\"Canada (Minister of Citizenship and Immigration) v. Vavilov\\\"><citation>2019 SCC\u00a065</citation></decision>\"",
       "meta": {
         "docid": "Vavilov SCC 2019",
-        "mention_id": 6,
-        "has_main_title": false
+        "mention_id": 6
       }
     },
     {
@@ -404,8 +360,7 @@
       "output": "\"<decision docid=\\\"Rogers Communications Inc. v. Society of Composers, Authors and Music Publishers of Canada\\\"><title>Rogers</title>, at\u00a0<fragment>para. 15</fragment></decision>\"",
       "meta": {
         "docid": "Rogers Communications",
-        "mention_id": 3499,
-        "has_main_title": false
+        "mention_id": 3499
       }
     },
     {
@@ -413,8 +368,7 @@
       "output": "\"<legislation docid=\\\"Public Service Labour Relations Act\\\"><title>PSLRA</title></legislation>\"",
       "meta": {
         "docid": "PSLRA",
-        "mention_id": 880,
-        "has_main_title": false
+        "mention_id": 880
       }
     },
     {
@@ -422,8 +376,7 @@
       "output": "\"<legislation docid=\\\"Canadian Charter of\\nRights and Freedoms\\\"><title>Canadian Charter of Rights\\nand Freedoms</title>, <fragment>s. 15(1)</fragment></legislation>\"",
       "meta": {
         "docid": "Charter",
-        "mention_id": 32,
-        "has_main_title": true
+        "mention_id": 32
       }
     },
     {
@@ -431,8 +384,7 @@
       "output": "\"<decision docid=\\\"Monsanto Canada Inc. v. Ontario (Superintendent of Financial Services)\\\"><title>Monsanto</title>, at <fragment>paras. 6-16</fragment></decision>\"",
       "meta": {
         "docid": "Monsanto Canada",
-        "mention_id": 1741,
-        "has_main_title": false
+        "mention_id": 1741
       }
     },
     {
@@ -440,8 +392,7 @@
       "output": "\"<legislation docid=\\\"Citizenship Act\\\"><fragment>s.\u00a03(2)(a)</fragment></legislation>\"",
       "meta": {
         "docid": "Citizenship Act 1985",
-        "mention_id": 2726,
-        "has_main_title": false
+        "mention_id": 2726
       }
     },
     {
@@ -449,8 +400,7 @@
       "output": "\"<legislation docid=\\\"Canadian Charter of\\nRights and Freedoms\\\"><fragment>s. 15</fragment> of the <title>Charter</title></legislation>\"",
       "meta": {
         "docid": "Charter",
-        "mention_id": 1202,
-        "has_main_title": false
+        "mention_id": 1202
       }
     },
     {
@@ -458,8 +408,7 @@
       "output": "\"<decision docid=\\\"Groia v. Law Society of Upper Canada\\\"><title>Groia v. Law Society of Upper Canada</title>, <citation>2018 SCC 27</citation>, <citation>[2018] 1 S.C.R. 772</citation></decision>\"",
       "meta": {
         "docid": "Groia",
-        "mention_id": 494,
-        "has_main_title": true
+        "mention_id": 494
       }
     },
     {
@@ -467,8 +416,7 @@
       "output": "\"<decision docid=\\\"R. v. Chaplin\\\"><title>Chaplin</title></decision>\"",
       "meta": {
         "docid": "Chaplin",
-        "mention_id": 691,
-        "has_main_title": false
+        "mention_id": 691
       }
     },
     {
@@ -476,8 +424,7 @@
       "output": "\"<decision docid=\\\"Office of the Children\u2019s Lawyer v. Balev\\\"><title>Office of the Children\u2019s Lawyer v. Balev</title>, <citation>2018 SCC 16</citation>, <citation>[2018] 1 S.C.R. 398</citation>, at <fragment>paras.\u00a031-32</fragment></decision>\"",
       "meta": {
         "docid": "Balev",
-        "mention_id": 2900,
-        "has_main_title": true
+        "mention_id": 2900
       }
     },
     {
@@ -485,8 +432,7 @@
       "output": "\"<decision docid=\\\"Knight v. Indian Head School Division No.\u00a019\\\"><title>Knight</title>, at p. 682</decision>\"",
       "meta": {
         "docid": "Knight",
-        "mention_id": 1189,
-        "has_main_title": false
+        "mention_id": 1189
       }
     },
     {
@@ -494,8 +440,7 @@
       "output": "\"<decision docid=\\\"Kisor v. Wilkie\\\"><title>Kisor</title>, at <fragment>p. 2422</fragment></decision>\"",
       "meta": {
         "docid": "Kisor",
-        "mention_id": 3838,
-        "has_main_title": false
+        "mention_id": 3838
       }
     },
     {
@@ -503,8 +448,7 @@
       "output": "\"<decision docid=\\\"Pezim v. British Columbia (Superintendent of Brokers)\\\"><title>Pezim</title>, at <fragment>p. 590</fragment></decision>\"",
       "meta": {
         "docid": "Pezim",
-        "mention_id": 3688,
-        "has_main_title": false
+        "mention_id": 3688
       }
     },
     {
@@ -512,8 +456,7 @@
       "output": "\"<decision docid=\\\"Seneca College of Applied Arts and Technology v. Bhadauria\\\"><title>Seneca College of Applied Arts and Technology v. Bhadauria</title>, <citation>[1981] 2 S.C.R. 181</citation></decision>\"",
       "meta": {
         "docid": "Seneca College",
-        "mention_id": 236,
-        "has_main_title": true
+        "mention_id": 236
       }
     },
     {
@@ -521,8 +464,7 @@
       "output": "\"<decision docid=\\\"Metropolitan Life Insurance Co. v. International Union of Operating Engineers, Local 796\\\"><title>Metropolitan Life Insurance Co. v. International Union of Operating Engineers, Local 796</title>, <citation>[1970] S.C.R. 425</citation></decision>\"",
       "meta": {
         "docid": "Metropolitan Life Insurance",
-        "mention_id": 3186,
-        "has_main_title": true
+        "mention_id": 3186
       }
     },
     {
@@ -530,8 +472,7 @@
       "output": "\"<legislation docid=\\\"Canadian Charter of\\nRights and Freedoms\\\"><fragment>s. 11</fragment></legislation>\"",
       "meta": {
         "docid": "Charter",
-        "mention_id": 1909,
-        "has_main_title": false
+        "mention_id": 1909
       }
     },
     {
@@ -539,8 +480,7 @@
       "output": "\"<secondary sources docid=\\\"Paedophilia: The Criminal Responsibility of Canada\\\"><authors>Russell, D.</authors>,\\n\\\"<title>Paedophilia: The Criminal Responsibility of Canada's Churches</title>\\\"\\n<source>(1992), 15 Dalhousie L.J. 380</source>, <fragment>p. 394</fragment></secondary sources>\"",
       "meta": {
         "docid": "The Criminal Responsability of Churches",
-        "mention_id": 575,
-        "has_main_title": true
+        "mention_id": 575
       }
     },
     {
@@ -548,8 +488,7 @@
       "output": "\"<legislation docid=\\\"Canadian Charter of\\nRights and Freedoms\\\"><title>Charter</title></legislation>\"",
       "meta": {
         "docid": "Charter",
-        "mention_id": 60,
-        "has_main_title": false
+        "mention_id": 60
       }
     },
     {
@@ -557,8 +496,7 @@
       "output": "\"<secondary sources docid=\\\"Good Judgment: Making Judicial Decisions\\\"><authors>Sharpe</authors>, at <fragment>pp. 204</fragment> and <fragment>208</fragment></secondary sources>\"",
       "meta": {
         "docid": "Good Judgment : Making Judicial Decisions",
-        "mention_id": 4231,
-        "has_main_title": false
+        "mention_id": 4231
       }
     },
     {
@@ -566,8 +504,7 @@
       "output": "\"<secondary sources docid=\\\"Administrative\\nLaw\\\"><authors>Wade, Sir William</authors>.\u00a0 <title>Administrative\\nLaw</title>, <source>8th ed. by Sir William Wade and Christopher Forsyth.\u00a0 New York:\u00a0\\nOxford University Press, 2000</source></secondary sources>\"",
       "meta": {
         "docid": "Administrative Law 2000",
-        "mention_id": 444,
-        "has_main_title": true
+        "mention_id": 444
       }
     },
     {
@@ -575,8 +512,7 @@
       "output": "\"<secondary sources docid=\\\"Employment Law in Canada\\\"><authors>England</authors>, at <fragment>para. 17.224</fragment></secondary sources>\"",
       "meta": {
         "docid": "Employment Law in Canada",
-        "mention_id": 1148,
-        "has_main_title": false
+        "mention_id": 1148
       }
     },
     {
@@ -584,8 +520,7 @@
       "output": "\"<decision docid=\\\"R. v. Carosella (1997)\\\"><title>Carosella</title></decision>\"",
       "meta": {
         "docid": "Carosella",
-        "mention_id": 700,
-        "has_main_title": false
+        "mention_id": 700
       }
     },
     {
@@ -593,8 +528,7 @@
       "output": "\"<legislation docid=\\\"Civil Service Act\\\"><fragment>s. 20</fragment> of the <title>Civil\\nService Act</title></legislation>\"",
       "meta": {
         "docid": "Civil Service Act",
-        "mention_id": 512,
-        "has_main_title": true
+        "mention_id": 512
       }
     },
     {
@@ -602,8 +536,7 @@
       "output": "\"<decision docid=\\\"R. v. Laws (1994)\\\"> <title>R. v. Laws (1994)</title>, <citation>19 C.R.R. (2d) 269 (Ont. Gen. Div.)</citation></decision>\"",
       "meta": {
         "docid": "Laws",
-        "mention_id": 943,
-        "has_main_title": true
+        "mention_id": 943
       }
     },
     {
@@ -611,8 +544,7 @@
       "output": "\"<secondary sources docid=\\\"Struggling Towards Coherence in Canadian Administrative Law? Recent Cases on Standard of Review and Reasonableness\\\"><authors>Daly</authors>, at <fragment>pp. 541-42</fragment></secondary sources>\"",
       "meta": {
         "docid": "Struggling Towards Coherence",
-        "mention_id": 1644,
-        "has_main_title": false
+        "mention_id": 1644
       }
     },
     {
@@ -620,8 +552,7 @@
       "output": "\"<decision docid=\\\"Association des courtiers et agents immobiliers du Qu\u00e9bec v. Proprio Direct inc.\\\"><title>Association des courtiers et agents immobiliers du Qu\u00e9bec v. Proprio Direct inc.</title>, <citation>[2008] 2 S.C.R. 195</citation></decision>\"",
       "meta": {
         "docid": "Association des courtiers",
-        "mention_id": 3926,
-        "has_main_title": true
+        "mention_id": 3926
       }
     },
     {
@@ -629,8 +560,7 @@
       "output": "\"<decision docid=\\\"Attorney General of Quebec v. Carri\u00e8res Ste\u2011Th\u00e9r\u00e8se Lt\u00e9e\\\"> <title>Attorney General of Quebec v. Carri\u00e8res Ste\u2011Th\u00e9r\u00e8se Lt\u00e9e</title>,<citation> [1985] 1 S.C.R. 831</citation></decision>\"",
       "meta": {
         "docid": "Carri\u00e8res Ste-Th\u00e9r\u00e8se",
-        "mention_id": 283,
-        "has_main_title": true
+        "mention_id": 283
       }
     },
     {
@@ -638,8 +568,7 @@
       "output": "\"<legislation docid=\\\"Canadian Charter of\\nRights and Freedoms\\\"><fragment>s. 7</fragment></legislation>\"",
       "meta": {
         "docid": "Charter",
-        "mention_id": 1591,
-        "has_main_title": false
+        "mention_id": 1591
       }
     },
     {
@@ -647,8 +576,7 @@
       "output": "\"<decision docid=\\\"Congr\u00e9gation des t\u00e9moins de J\u00e9hovah de St\u2011J\u00e9r\u00f4me\u2011Lafontaine v. Lafontaine (Village)\\\"><title>Congr\u00e9gation des t\u00e9moins de J\u00e9hovah de St\u2011J\u00e9r\u00f4me\u2011Lafontaine v. Lafontaine (Village)</title>, <citation>2004 SCC 48</citation>, <citation>[2004] 2 S.C.R. 650</citation></decision>\"",
       "meta": {
         "docid": "Congr\u00e9gation des t\u00e9moins de J\u00e9hovah",
-        "mention_id": 366,
-        "has_main_title": true
+        "mention_id": 366
       }
     },
     {
@@ -656,8 +584,7 @@
       "output": "\"<decision docid=\\\"Canada (Canadian Human Rights Commission) v. Canada (Attorney General)\\\"><title>Canada (Canadian Human Rights Commission) v. Canada (Attorney General)</title>, <citation>2018 SCC 31</citation>, <citation>[2018] 2 S.C.R. 230</citation></decision>\"",
       "meta": {
         "docid": "Canadian Human Rights Commission SCC 2018",
-        "mention_id": 142,
-        "has_main_title": true
+        "mention_id": 142
       }
     },
     {
@@ -665,8 +592,7 @@
       "output": "\"<decision docid=\\\"Canada (Attorney General) v. Mossop\\\"><title>Canada (Attorney General) v. Mossop</title>, <citation>[1993] 1 S.C.R.\\n554</citation></decision>\"",
       "meta": {
         "docid": "Mossop",
-        "mention_id": 192,
-        "has_main_title": true
+        "mention_id": 192
       }
     },
     {
@@ -674,8 +600,7 @@
       "output": "\"<secondary sources docid=\\\"Reasons for Decision in Administrative Law\\\"><authors>Roderick A. Macdonald and David Lametti</authors>, \u201c<title>Reasons for Decision in Administrative Law</title>\u201d <source>(1990), 3 C.J.A.L.P. 123</source></secondary sources>\"",
       "meta": {
         "docid": "Reasons for Decision",
-        "mention_id": 4359,
-        "has_main_title": true
+        "mention_id": 4359
       }
     },
     {
@@ -683,8 +608,7 @@
       "output": "\"<decision docid=\\\"Baker v. Canada (Minister of Citizenship and\\nImmigration)\\\"><title>Baker</title>, at <fragment>para. 21</fragment></decision>\"",
       "meta": {
         "docid": "Baker",
-        "mention_id": 903,
-        "has_main_title": false
+        "mention_id": 903
       }
     },
     {
@@ -692,8 +616,7 @@
       "output": "\"<legislation docid=\\\"Canadian Citizenship Act\\\"><fragment>s. 5(3)</fragment> of the <title>Canadian Citizenship Act</title>, <citation>R.S.C. 1970, c.\u00a0C-19</citation></legislation>\"",
       "meta": {
         "docid": "Canadian Citizenship Act 1970",
-        "mention_id": 4520,
-        "has_main_title": true
+        "mention_id": 4520
       }
     },
     {
@@ -701,8 +624,7 @@
       "output": "\"<secondary sources docid=\\\"Standards of Review in Administrative Law\\\"><authors>John M. Evans</authors>, \u201c<title>Standards of Review in Administrative Law</title>\u201d <source>(2013), 26 C.J.A.L.P. 67</source>, at <fragment>p. 79</fragment></secondary sources>\"",
       "meta": {
         "docid": "Standards of Review",
-        "mention_id": 4058,
-        "has_main_title": true
+        "mention_id": 4058
       }
     },
     {
@@ -710,8 +632,7 @@
       "output": "\"<legislation docid=\\\"Canadian Charter of\\nRights and Freedoms\\\"><fragment>Section 2(a)</fragment> of the <title>Charter</title></legislation>\"",
       "meta": {
         "docid": "Charter",
-        "mention_id": 598,
-        "has_main_title": false
+        "mention_id": 598
       }
     },
     {
@@ -719,8 +640,7 @@
       "output": "\"<decision docid=\\\"National Corn Growers Assn. v. Canada (Import Tribunal)\\\"><title>National Corn Growers</title>, at <fragment>p. 1343</fragment></decision>\"",
       "meta": {
         "docid": "National Corn Growers",
-        "mention_id": 3569,
-        "has_main_title": false
+        "mention_id": 3569
       }
     },
     {
@@ -728,8 +648,7 @@
       "output": "\"<decision docid=\\\"Law Society of New Brunswick v. Ryan\\\"><title>Ryan</title></decision>\"",
       "meta": {
         "docid": "Ryan",
-        "mention_id": 3920,
-        "has_main_title": false
+        "mention_id": 3920
       }
     },
     {
@@ -737,8 +656,7 @@
       "output": "\"<decision><title>Edwards Books</title></decision>\"",
       "meta": {
         "docid": "Edwards Books &amp; Art",
-        "mention_id": 1679,
-        "has_main_title": false
+        "mention_id": 1679
       }
     },
     {
@@ -746,8 +664,7 @@
       "output": "\"<legislation docid=\\\"Citizenship Act\\\"><fragment>s. 3(2)(a)</fragment></legislation>\"",
       "meta": {
         "docid": "Citizenship Act 1985",
-        "mention_id": 2704,
-        "has_main_title": false
+        "mention_id": 2704
       }
     },
     {
@@ -755,8 +672,7 @@
       "output": "\"<decision docid=\\\"U.E.S., Local 298 v. Bibeault\\\"><fragment>p. 1088</fragment></decision>\"",
       "meta": {
         "docid": "Bibeault",
-        "mention_id": 648,
-        "has_main_title": false
+        "mention_id": 648
       }
     },
     {
@@ -764,8 +680,7 @@
       "output": "\"<legislation docid=\\\"Canadian Charter of\\nRights and Freedoms\\\"><fragment>s. 7</fragment></legislation>\"",
       "meta": {
         "docid": "Charter",
-        "mention_id": 1598,
-        "has_main_title": false
+        "mention_id": 1598
       }
     },
     {
@@ -773,8 +688,7 @@
       "output": "\"<decision docid=\\\"Canada (Canadian Human Rights Commission) v. Canada (Attorney General)\\\"><title>CHRC</title>, at <fragment>para. 46</fragment></decision>\"",
       "meta": {
         "docid": "Canadian Human Rights Commission SCC 2018",
-        "mention_id": 1775,
-        "has_main_title": false
+        "mention_id": 1775
       }
     },
     {
@@ -782,8 +696,7 @@
       "output": "\"<decision docid=\\\"MiningWatch Canada v. Canada (Fisheries and Oceans)\\\"> <title>MiningWatch Canada v. Canada (Fisheries and Oceans)</title>,<citation> 2010 SCC 2</citation>, <citation>[2010] 1 S.C.R. 6</citation></decision>\"",
       "meta": {
         "docid": "MiningWatch",
-        "mention_id": 510,
-        "has_main_title": true
+        "mention_id": 510
       }
     },
     {
@@ -791,8 +704,7 @@
       "output": "\"<decision docid=\\\"Ridge\\nv. Baldwin\\\"><title>Ridge\\nv. Baldwin</title>, <citation>[1963] 2 All E.R. 66</citation></decision>\"",
       "meta": {
         "docid": "Ridge",
-        "mention_id": 931,
-        "has_main_title": true
+        "mention_id": 931
       }
     },
     {
@@ -800,8 +712,7 @@
       "output": "\"<decision docid=\\\"Nishi v. Rascal Trucking Ltd.\\\"><title>Nishi v. Rascal Trucking Ltd.</title>, <citation>[2013] 2 S.C.R. 438</citation>, at <fragment>paras. 23-24</fragment></decision>\"",
       "meta": {
         "docid": "Nishi",
-        "mention_id": 3967,
-        "has_main_title": true
+        "mention_id": 3967
       }
     },
     {
@@ -809,8 +720,7 @@
       "output": "\"<legislation docid=\\\"Citizenship Act\\\"><fragment>s. 3(2)</fragment></legislation>\"",
       "meta": {
         "docid": "Citizenship Act 1985",
-        "mention_id": 4572,
-        "has_main_title": false
+        "mention_id": 4572
       }
     },
     {
@@ -818,8 +728,7 @@
       "output": "\"<secondary sources docid=\\\"Principles of Public International Law\\\"><authors>Brownlie</authors>, at <fragment>pp. 391-93</fragment></secondary sources>\"",
       "meta": {
         "docid": "Principles of Public International Law",
-        "mention_id": 2957,
-        "has_main_title": false
+        "mention_id": 2957
       }
     },
     {
@@ -827,8 +736,7 @@
       "output": "\"<decision docid=\\\"Attorney General of Canada v. Inuit Tapirisat of Canada\\\"><title>Attorney General of Canada v. Inuit\\nTapirisat of Canada</title>, <citation>[1980] 2 S.C.R. 735</citation></decision>\"",
       "meta": {
         "docid": "Inuit Tapirisat",
-        "mention_id": 328,
-        "has_main_title": true
+        "mention_id": 328
       }
     },
     {
@@ -836,8 +744,7 @@
       "output": "\"<legislation docid=\\\"Citizenship Act\\\"><fragment>s. 3(2)(a)</fragment></legislation>\"",
       "meta": {
         "docid": "Citizenship Act 1985",
-        "mention_id": 4534,
-        "has_main_title": false
+        "mention_id": 4534
       }
     },
     {
@@ -845,8 +752,7 @@
       "output": "\"<legislation docid=\\\"Municipal Freedom of\\nInformation and Protection of Privacy Act\\\"><title>Act</title></legislation>\"",
       "meta": {
         "docid": "Municipal Freedom of Information Act",
-        "mention_id": 119,
-        "has_main_title": true
+        "mention_id": 119
       }
     },
     {
@@ -854,8 +760,7 @@
       "output": "\"<decision docid=\\\"R. v. Goldhart\\\"><title> R. v. Goldhart</title>, <citation>[1996] 2 S.C.R. 463</citation>, <citation>37 C.R.R. (2d) 1</citation>, <citation>28 O.R.\\n(3d) 480n</citation>, <citation>107 C.C.C. (3d) 481</citation>,<citation> 48 C.R. (4th) 297</citation>, <citation>136 D.L.R. (4th) 502</citation>, <citation>198\\nN.R. 321</citation></decision>\"",
       "meta": {
         "docid": "Goldhart",
-        "mention_id": 227,
-        "has_main_title": true
+        "mention_id": 227
       }
     },
     {
@@ -863,8 +768,7 @@
       "output": "\"<legislation docid=\\\"Public Service Labour Relations Act\\\"><fragment>s. 100.1(2)</fragment></legislation>\"",
       "meta": {
         "docid": "PSLRA",
-        "mention_id": 471,
-        "has_main_title": false
+        "mention_id": 471
       }
     },
     {
@@ -872,8 +776,7 @@
       "output": "\"<legislation docid=\\\"Criminal Code\\\"><fragment>subsection (4)</fragment></legislation>\"",
       "meta": {
         "docid": "Criminal Code",
-        "mention_id": 341,
-        "has_main_title": false
+        "mention_id": 341
       }
     },
     {
@@ -881,8 +784,7 @@
       "output": "\"<legislation docid=\\\"Right to Information and Protection of Privacy Act\\\"><title>Act</title></legislation>\"",
       "meta": {
         "docid": "Right to Information Act",
-        "mention_id": 45,
-        "has_main_title": false
+        "mention_id": 45
       }
     },
     {
@@ -890,8 +792,7 @@
       "output": "\"<decision docid=\\\"Volvo Canada Ltd. v. U.A.W., Local 720\\\"><title>Volvo Canada Ltd. v. U.A.W., Local 720</title>, <citation>[1980] 1 S.C.R. 178</citation></decision>\"",
       "meta": {
         "docid": "Volvo Canada",
-        "mention_id": 834,
-        "has_main_title": true
+        "mention_id": 834
       }
     },
     {
@@ -899,8 +800,7 @@
       "output": "\"<decision docid=\\\"Knight v. Indian Head School Division No.\u00a019\\\"><fragment>p. 683</fragment></decision>\"",
       "meta": {
         "docid": "Knight",
-        "mention_id": 913,
-        "has_main_title": false
+        "mention_id": 913
       }
     }
   ],

@@ -1,5 +1,6 @@
 import html
 import json
+import copy
 
 
 def normalize_docid(docid: str) -> str:
@@ -109,16 +110,22 @@ class ReferenceProfileRegistry:
     def __init__(self):
         self.profiles = []
         self._profiles_by_docid = {}
+        self._profiles_main_title = {}
 
     def add_profile(self, profile: ReferenceProfile):
         self.profiles.append(profile)
         if profile.docid is not None:
             norm_id = normalize_docid(profile.docid)
             self._profiles_by_docid[norm_id] = profile
-                
+        if profile.main_title is not None:
+            self._profiles_main_title[profile.main_title] = profile
+
 
     def get_profile_by_docid(self, docid):
         return self._profiles_by_docid.get(normalize_docid(docid))
+
+    def get_profile_by_main_title(self, main_title):
+        return self._profiles_main_title.get(main_title)
 
     
     def _filter_registry_before(self, mention_id: int) -> "ReferenceProfileRegistry":
@@ -205,8 +212,10 @@ class ReferenceProfileRegistry:
             return None
 
         docid = parsed["docid"] or getattr(mention, "docid", None)
-        if docid is None:
-            return None
+        #if docid == NEW_REFERENCE:
+        #    docid = mention.get_sublabel_texts().get("title", [None])[0]
+        #if docid is None:
+        #    return None
 
         mention_id = mention.html_tag.attributes.get("id")
 
@@ -215,7 +224,7 @@ class ReferenceProfileRegistry:
         if profile is None:
             profile = ReferenceProfile(
                 doctype=parsed["doc_type"],
-                main_title=parsed["main_title"],
+                main_title=docid,
                 docid=docid,
                 first_seen_id=mention_id,
             )
@@ -243,19 +252,21 @@ class ReferenceProfileRegistry:
         `main_title` (in place). If `main_title` is None, the original `docid`
         is kept as a fallback. The registry's internal docid index is rebuilt
         afterwards so lookups via get_profile_by_docid stay consistent.
-
-        Mutates `registry` and also returns it for convenience.
-        """
-        for profile in self.profiles:
+        Returns a new ReferenceProfileRegistry with the updated profiles."""
+        new_registry = copy.copy(self)
+        for profile in new_registry.profiles:
             if profile.main_title is not None:
                 profile.docid = normalize_docid(profile.main_title)
             # else: keep the existing docid as-is (fallback)
 
         # Rebuild the docid -> profile index since docids changed
-        self._profiles_by_docid = {}
-        for profile in self.profiles:
+        new_registry._profiles_by_docid = {}
+        for profile in new_registry.profiles:
             if profile.docid is not None:
-                self._profiles_by_docid[normalize_docid(profile.docid)] = profile
+                new_registry._profiles_by_docid[normalize_docid(profile.docid)] = profile
+
+        return new_registry
+
 
 
     @classmethod
@@ -265,6 +276,16 @@ class ReferenceProfileRegistry:
         for profile_data in data.get("profiles", []):
             registry.add_profile(ReferenceProfile.from_dict(profile_data))
         return registry
+    
+    def to_dict(self, attributes=None) -> dict:
+        """Return a plain-dict representation, safe for json.dumps()."""
+        if attributes is None:
+            attributes = ["doc_type", "jurisdiction", "main_title", "docid",
+                          "alternative_titles", "citations", "fragments_mentioned",
+                          "authors", "first_seen_id"]
+        return {
+            "profiles": [profile.to_dict(attributes=attributes) for profile in self.profiles]
+        }
 
     def to_json(self, **kwargs) -> str:
         """Serialize the whole registry directly to a JSON string."""

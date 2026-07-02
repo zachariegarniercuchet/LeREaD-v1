@@ -25,6 +25,7 @@ from src.ann_extractor import get_mention_upper_context
 from src.transforme_utils import prepare_label_tokens
 from src.rpr import ReferenceProfileRegistry
 from tqdm import tqdm
+import copy
 
 
 TASKS = ["extraction", "coref"]
@@ -95,7 +96,6 @@ def _load_coref_examples() -> list[dict]:
 
         rpr = ReferenceProfileRegistry.from_dict(registry_dict)
 
-        rpr_main_titles = rpr.replace_docid_with_main_title()
 
         mentions = extract_parent_level_annotations(decode(clean_tokens(tokenize(html), keep_manual_label=True, keep_auto_label=True)))
 
@@ -117,7 +117,6 @@ def _load_coref_examples() -> list[dict]:
 
             input_mention = decode(prepare_label_tokens(tokenize(mention.html_str), input_label_config))
 
-            
             mention.html_tag.set_attribute("docid", profile.main_title)  # replace docid by the main_title
 
             output_mention = decode(prepare_label_tokens(tokenize(mention.html_str), output_label_config))
@@ -128,6 +127,7 @@ def _load_coref_examples() -> list[dict]:
             examples.append({
                 "input": json.dumps({"input_mention": input_mention, "profileRegistry": snapshot_filtered.to_dict(), "context": context}, ensure_ascii=False),
                 "output": json.dumps(output_mention, ensure_ascii=False),
+                "meta": {"docid": docid, "mention_id": mention_id, "has_main_title": 'titletype="official"' in mention.html_str}
             })
 
     return examples

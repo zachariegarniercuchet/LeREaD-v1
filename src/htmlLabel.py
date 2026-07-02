@@ -1,19 +1,71 @@
-import re 
+import re
 from src.tokenizer_utils import tokenize
 from bs4 import BeautifulSoup
+
+# Tag names accepted as "simplified" tokens, i.e. tokens that drop the
+# manual_label/auto_label wrapper and use the labelname directly as the
+# HTML tag name (e.g. <decision docid="Craig">...</decision>).
+SIMPLIFIED_LABELS = [
+    "decision",
+    "legislation",
+    "secondary_sources",
+    "title",
+    "authors",
+    "fragment",
+    "source",
+    "citation",
+]
+
+CHILDREN_LABELS = [
+    "title",
+    "authors",
+    "fragment",
+    "source",
+    "citation",
+]
+
+
+def _unescape_quotes(token: str) -> str:
+    """
+    Normalize tokens whose quote characters were backslash-escaped
+    (e.g. 'docid=\\"Craig\\"' instead of 'docid="Craig"'), which otherwise
+    breaks the attribute-parsing regex (it expects an unescaped quote
+    immediately after '=').
+    """
+    return token.replace('\\"', '"').replace("\\'", "'")
+
 
 class ReferenceMention:
 
     def __init__(self, html_str: str):
         """
-        html_str for example: <manual_label docid="Laicity Act" labelname="legislation" parent="" style="background-color: rgb(118, 206, 222); color: black;" 
-        uri="https://canlii.ca/t/56lzp" verified="false">
-        <manual_label labelname="title" parent="legislation" style="background-color: rgb(147, 196, 125); color: black;" titletype="alias" 
-        verified="false">Laicity\nAct</manual_label></manual_label>
-        """
-        
+        Accepts EITHER syntax as input:
 
-        self.soup = BeautifulSoup(html_str, "html.parser")
+        Normal form:
+            <manual_label labelname="decision" docid="Craig">
+                <manual_label labelname="title" parent="decision">...</manual_label>
+            </manual_label>
+
+        Short form:
+            <decision docid="Craig">
+                <title parent="decision">...</title>
+            </decision>
+
+        Internally, everything is immediately normalized to the full
+        manual_label/auto_label form and stored in self.soup. That single
+        tree is the only source of truth: every other method (get_text,
+        get_sublabels, html_str, simplified_str, ...) reads from it, so
+        there is nothing that can get out of sync between the two syntaxes.
+        """
+
+        html_str = _unescape_quotes(html_str)
+        parsed = BeautifulSoup(html_str, "html.parser")
+
+        # Canonicalize: rewrite any short-form tags anywhere in the tree
+        # into full manual_label/auto_label form. After this point, the
+        # rest of the class never has to think about which syntax the
+        # caller used.
+        self.soup = self._normalize_to_full_form(parsed)
 
         root = self.soup.find(["manual_label", "auto_label"])
         self.html_tag = HTMLLabel(str(root).split(">")[0] + ">")
@@ -24,37 +76,111 @@ class ReferenceMention:
 
         self.sublabels = self.get_sublabels()
 
-    @property
-    def html_str(self):
-        # Synchronize the root tag with html_tag
-        root = self.soup.find(["manual_label", "auto_label"])
+    @staticmethod
+    def _normalize_to_full_form(soup: BeautifulSoup) -> BeautifulSoup:
+        """
+        Return a new soup where every short-form tag (<decision>, <title>,
+        etc., anywhere in the tree, not just at the root) has been rewritten
+        into the equivalent manual_label/auto_label tag. Tags that are
+        already in full form, or that aren't recognized short-form names,
+        are left untouched.
+        """
+        normalized = BeautifulSoup(str(soup), "html.parser")
 
-        # Replace tag attributes
+        for tag in normalized.find_all(SIMPLIFIED_LABELS):
+            token = "<" + tag.name
+            for key, value in tag.attrs.items():
+                token += f' {key}="{value}"'
+            token += ">"
+
+            # HTMLLabel already knows how to turn a short-form token into a
+            # full-form one (defaults to manual_label) - reuse that logic
+            # instead of duplicating it.
+            label = HTMLLabel(token)
+
+            tag.attrs = dict(label.attributes)
+            tag.name = label.label_type
+
+        return normalized
+
+    @property
+    def html_str(self) -> str:
+        """Normal (manual_label/auto_label) form of the document."""
+        # Synchronize the root tag with html_tag in case it was edited.
+        root = self.soup.find(["manual_label", "auto_label"])
         root.attrs.clear()
         root.attrs.update(self.html_tag.attributes)
 
         return str(self.soup)
 
+    @property
+    def simplified_str(self) -> str:
+        """
+        Short form of the document, e.g.
+        <decision docid="Craig"><title parent="decision">...</title></decision>
+
+        Computed fresh from self.soup every time it's accessed, so it can
+        never drift out of sync with html_str - they're two views of the
+        same underlying tree, not two independently-maintained variables.
+        Only tags whose labelname is one of SIMPLIFIED_LABELS get
+        shortened; any other manual_label/auto_label (e.g. labelname
+        "mention") is left in full form, since short syntax isn't defined
+        for it.
+        """
+        # Make sure root reflects any edits made via self.html_tag first.
+        _ = self.html_str
+
+        simplified = BeautifulSoup(str(self.soup), "html.parser")
+        for tag in simplified.find_all(["manual_label", "auto_label"]):
+            labelname = tag.get("labelname", "")
+            if labelname in SIMPLIFIED_LABELS:
+                tag.attrs = {k: v for k, v in tag.attrs.items() if k != "labelname"}
+                tag.name = labelname
+
+        return str(simplified)
 
     def get_text(self) -> str:
         """
         Extract the text content from the HTML label, excluding the opening and closing tags.
         """
         return self.soup.get_text(strip=True)  # Use BeautifulSoup to get clean text content
-    
-    def get_sublabels(self) -> list[str]:
-        
-        children = self.soup.find_all(
-            ["manual_label", "auto_label"],
-            attrs={"parent": lambda v: v is not None and v != ""}
-        )
 
-        children_name = [child.get("labelname", "")
-                    for child in children]
-        return children_name
+    def get_sublabels(self) -> list[str]:
+        """
+        Return the labelname of every descendant label under the root,
+        regardless of whether the original input used short or normal
+        form, and regardless of whether a 'parent' attribute is present
+        (short form typically omits it - nesting itself expresses the
+        parent/child relationship).
+        """
+        root = self.soup.find(["manual_label", "auto_label"])
+        if root is None:
+            return []
+
+        descendants = root.find_all(["manual_label", "auto_label"])
+        return [child.get("labelname", "") for child in descendants]
     
+    def get_sublabel_texts(self) -> dict[str, list[str]]:
+        """
+        Return a mapping from labelname to the text content of every
+        descendant label with that labelname, in document order.
+
+        e.g. {"title": ["Craig v. Boren"], "citation": ["429 U.S. 190"]}
+        """
+        root = self.soup.find(["manual_label", "auto_label"])
+        if root is None:
+            return {}
+
+        texts: dict[str, list[str]] = {}
+        for child in root.find_all(["manual_label", "auto_label"]):
+            labelname = child.get("labelname", "")
+            texts.setdefault(labelname, []).append(child.get_text(strip=True))
+
+        return texts
+
     def __str__(self):
         return str(self.html_str)
+
 
 class HTMLLabel:
     """
@@ -75,10 +201,18 @@ class HTMLLabel:
         Raises:
             ValueError: If token is not a valid manual_label or auto_label tag
         """
+        token = _unescape_quotes(token)
+
         if not self._is_valid_label_token(token):
             raise ValueError(f"Token is not a valid manual_label or auto_label: {token}")
         
         self._token = token
+        if not (self._token.startswith("<auto_label") or self._token.startswith("<manual_label")):
+            parsed = from_simplified(self._token, label_type='manual_label')
+            self._token = parsed._token
+            self._label_type = parsed._label_type
+            self._attributes = parsed._attributes
+            return
         self._label_type = self._detect_label_type(token)
         self._attributes = self._parse_attributes(token)
         
@@ -86,11 +220,19 @@ class HTMLLabel:
             raise ValueError(f"Token missing 'labelname' attribute: {token}")
     
     def _is_valid_label_token(self, token: str) -> bool:
-        """Check if token is a valid manual_label or auto_label opening tag."""
+        """Check if token is a valid manual_label/auto_label tag, or a
+        valid simplified tag (one of SIMPLIFIED_LABELS)."""
         if not token.startswith('<') or not token.endswith('>'):
             return False
         lower = token.lower()
-        return lower.startswith('<manual_label') or lower.startswith('<auto_label')
+        if lower.startswith('<manual_label') or lower.startswith('<auto_label'):
+            return True
+
+        inner = lower[1:-1].strip()
+        if not inner:
+            return False
+        tag_name = inner.split()[0]
+        return tag_name in SIMPLIFIED_LABELS
     
     def _detect_label_type(self, token: str) -> str:
         """Detect whether token is 'manual_label' or 'auto_label'."""
@@ -155,6 +297,17 @@ class HTMLLabel:
     def label_type(self) -> str:
         """Return 'manual_label' or 'auto_label'."""
         return self._label_type
+
+    def __getattr__(self, item):
+        """
+        Convenience accessor: allow reading arbitrary parsed attributes
+        directly, e.g. label.docid instead of label.attributes['docid'].
+        Only triggered for attributes not otherwise found normally.
+        """
+        attrs = self.__dict__.get('_attributes', {})
+        if item in attrs:
+            return attrs[item]
+        raise AttributeError(f"'HTMLLabel' object has no attribute '{item}'")
     
     def _rebuild_token(self):
         """Rebuild the HTML token from the current attributes."""
@@ -337,6 +490,8 @@ def from_simplified(simplified_token: str, label_type: str = 'auto_label') -> HT
     if label_type not in ['manual_label', 'auto_label']:
         raise ValueError(f"label_type must be 'manual_label' or 'auto_label', got: {label_type}")
     
+    simplified_token = _unescape_quotes(simplified_token)
+
     # Validate simplified_token format
     if not simplified_token.startswith('<') or not simplified_token.endswith('>'):
         raise ValueError(f"Invalid token format: {simplified_token}")
