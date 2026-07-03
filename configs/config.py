@@ -67,6 +67,10 @@ GREEDY_CONFIG = {
 }
 # In LeREaD v1 we used  surface_pattern 1.0 and structural pattern 0.0.
 
+# COREF
+CONTEXT_MAX_TOKENS = 500
+FEWSHOT_CONTEXT_MAX_TOKENS = 100
+
 
 
 

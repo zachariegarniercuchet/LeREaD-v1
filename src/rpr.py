@@ -9,11 +9,11 @@ def normalize_docid(docid: str) -> str:
     return html.unescape(docid).strip()
 
 class ReferenceProfile:
-    def __init__(self, doctype, jurisdiction: str = None, main_title=None, docid=None, first_seen_id=None):
+    def __init__(self, doctype, jurisdiction: str = None, docid=None, first_seen_id=None):
         self.doc_type = doctype
         self.jurisdiction = jurisdiction
-        self.main_title = main_title
         self.docid = normalize_docid(docid)
+        self.main_title = None
 
         # Each of these is a dict mapping {value: first_seen_id}, i.e. the
         # id of the <manual_label>/<auto_label> tag whose mention first
@@ -35,6 +35,9 @@ class ReferenceProfile:
         if title not in self.alternative_titles:
             self.alternative_titles[title] = mention_id
 
+        if len(self.alternative_titles.keys()) > 0 and self.main_title is None:
+            self.main_title = list(self.alternative_titles.keys())[0]
+
     def add_citation(self, citation, mention_id=None):
         if citation not in self.citations:
             self.citations[citation] = mention_id
@@ -49,7 +52,7 @@ class ReferenceProfile:
 
     def to_string(self, attributes=None):
         if attributes is None:
-            attributes = ["doc_type", "jurisdiction", "main_title", "docid",
+            attributes = ["doc_type", "jurisdiction", "docid",
                           "alternative_titles", "citations", "fragments_mentioned",
                           "authors", "first_seen_id"]
         return {attr: getattr(self, attr) for attr in attributes}
@@ -63,7 +66,7 @@ class ReferenceProfile:
     def to_dict(self, attributes=None) -> dict:
         """Return a plain-dict representation, safe for json.dumps()."""
         if attributes is None:
-            attributes = ["doc_type", "jurisdiction", "main_title", "docid",
+            attributes = ["doc_type", "jurisdiction", "docid",
                           "alternative_titles", "citations", "fragments_mentioned",
                           "authors", "first_seen_id"]
         return {attr: getattr(self, attr) for attr in attributes}
@@ -74,7 +77,6 @@ class ReferenceProfile:
         profile = cls(
             doctype=data.get("doc_type"),
             jurisdiction=data.get("jurisdiction"),
-            main_title=data.get("main_title"),
             docid=data.get("docid"),
             first_seen_id=data.get("first_seen_id"),
         )
@@ -110,22 +112,17 @@ class ReferenceProfileRegistry:
     def __init__(self):
         self.profiles = []
         self._profiles_by_docid = {}
-        self._profiles_main_title = {}
 
     def add_profile(self, profile: ReferenceProfile):
         self.profiles.append(profile)
         if profile.docid is not None:
             norm_id = normalize_docid(profile.docid)
             self._profiles_by_docid[norm_id] = profile
-        if profile.main_title is not None:
-            self._profiles_main_title[profile.main_title] = profile
+
 
 
     def get_profile_by_docid(self, docid):
         return self._profiles_by_docid.get(normalize_docid(docid))
-
-    def get_profile_by_main_title(self, main_title):
-        return self._profiles_main_title.get(main_title)
 
     
     def _filter_registry_before(self, mention_id: int) -> "ReferenceProfileRegistry":
@@ -153,7 +150,6 @@ class ReferenceProfileRegistry:
             new_profile = ReferenceProfile(
                 doctype=profile.doc_type,
                 jurisdiction=profile.jurisdiction,
-                main_title=profile.main_title,
                 docid=profile.docid,
                 first_seen_id=profile.first_seen_id,
             )
@@ -212,10 +208,6 @@ class ReferenceProfileRegistry:
             return None
 
         docid = parsed["docid"] or getattr(mention, "docid", None)
-        #if docid == NEW_REFERENCE:
-        #    docid = mention.get_sublabel_texts().get("title", [None])[0]
-        #if docid is None:
-        #    return None
 
         mention_id = mention.html_tag.attributes.get("id")
 
@@ -224,14 +216,11 @@ class ReferenceProfileRegistry:
         if profile is None:
             profile = ReferenceProfile(
                 doctype=parsed["doc_type"],
-                main_title=docid,
                 docid=docid,
                 first_seen_id=mention_id,
             )
             self.add_profile(profile)
         else:
-            if profile.main_title is None and parsed["main_title"] is not None:
-                profile.main_title = parsed["main_title"]
             if profile.doc_type is None and parsed["doc_type"] is not None:
                 profile.doc_type = parsed["doc_type"]
 
@@ -245,7 +234,7 @@ class ReferenceProfileRegistry:
             profile.add_author(author, mention_id)
 
         return profile
-    
+
     def replace_docid_with_main_title(self):
         """
         For every profile in the registry, replace its `docid` with its
@@ -280,7 +269,7 @@ class ReferenceProfileRegistry:
     def to_dict(self, attributes=None) -> dict:
         """Return a plain-dict representation, safe for json.dumps()."""
         if attributes is None:
-            attributes = ["doc_type", "jurisdiction", "main_title", "docid",
+            attributes = ["doc_type", "jurisdiction", "docid",
                           "alternative_titles", "citations", "fragments_mentioned",
                           "authors", "first_seen_id"]
         return {
@@ -293,7 +282,7 @@ class ReferenceProfileRegistry:
 
     def to_string(self, attributes=None):
         if attributes is None:
-            attributes = ["doc_type", "jurisdiction", "main_title", "docid",
+            attributes = ["doc_type", "jurisdiction", "docid",
                           "alternative_titles", "citations", "fragments_mentioned",
                           "authors", "first_seen_id"]
         return str(self.to_dict(attributes=attributes))

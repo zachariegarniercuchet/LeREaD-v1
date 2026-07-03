@@ -12,7 +12,7 @@ Usage:
 """
 import argparse
 import json
-from configs.config import DATA_DIR, FEWSHOT_CACHE_DIR, FEWSHOT_N, FEWSHOT_METHOD, FEWSHOT_MAX_INPUT_LEN, FS_MIN_TOKENS, IMG_DIR, PROFILE_CACHE_DIR
+from configs.config import CONTEXT_MAX_TOKENS, DATA_DIR, FEWSHOT_CACHE_DIR, FEWSHOT_CONTEXT_MAX_TOKENS, FEWSHOT_N, FEWSHOT_METHOD, FEWSHOT_MAX_INPUT_LEN, FS_MIN_TOKENS, IMG_DIR, PROFILE_CACHE_DIR
 from src.ann_extractor import extract_parent_level_annotations
 from src.fewshot.patterns.builder import load_surface_pattern_dict, load_structural_pattern_dict, surface_pattern_dict_exists
 from src.fewshot import greedy_select_examples, random_select_examples
@@ -113,7 +113,7 @@ def _load_coref_examples() -> list[dict]:
                 continue
 
 
-            context = get_mention_upper_context(decode(clean_tokens(tokenize(html), keep_manual_label=False, keep_auto_label=False, protected_id=mention_id)), mention, max_tokens=FEWSHOT_N)
+            context = get_mention_upper_context(decode(clean_tokens(tokenize(html), keep_manual_label=False, keep_auto_label=False, protected_id=mention_id)), mention, max_tokens=FEWSHOT_CONTEXT_MAX_TOKENS)
 
             input_mention = decode(prepare_label_tokens(tokenize(mention.html_str), input_label_config))
 

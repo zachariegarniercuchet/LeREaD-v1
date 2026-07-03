@@ -276,19 +276,6 @@ def _extract_pattern_regex(output_text: str) -> list[list[str]]:
     return patterns
 
 
-def _extract_reference_profile_list(output_text: str, reference_profile_list: ReferenceProfileList | None = None) -> list[dict]:
-
-    list_mention_in_current_chunk = [
-        mention
-        for value in extract_parent_level_annotations(decode(tokenize(output_text))).values()
-        for mention in value
-    ]
-    list_mention_in_current_chunk.sort(key=lambda x: x["order"])
-
-    reference_profile_list.update_from_annotations(list_mention_in_current_chunk) 
-
-    return reference_profile_list.to_dict()
-
 
 
 # ---------------------------------------------------------------------------
@@ -323,7 +310,6 @@ def parse_full_html(full_html: str):
     result = {
         "doc_type": doc_type,
         "docid": docid,
-        "main_title": None,
         "alternative_titles": [],
         "citations": [],
         "fragments_mentioned": [],
@@ -338,12 +324,7 @@ def parse_full_html(full_html: str):
             continue
 
         if label.name == "title":
-            if label.attributes.get("titletype") == "alias":
-                result["alternative_titles"].append(text)
-            elif result["main_title"] is None:
-                result["main_title"] = text
-            else:
-                result["alternative_titles"].append(text)
+            result["alternative_titles"].append(text)
         elif label.name == "authors":
             result["authors"].append(text)
         elif label.name == "citation":

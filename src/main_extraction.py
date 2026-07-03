@@ -8,6 +8,8 @@ import token
 from typing import List, Optional, Dict, Any
 from datetime import datetime
 
+from configs.constants import MODEL_MAPPING_NAME
+
 from tqdm import tqdm
 
 # Setup project path
@@ -16,13 +18,6 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 
-MODEL_MAPPING_NAME = {
-    "qwen7b": "Qwen2.5-7B-Instruct",
-    "qwen32b": "Qwen2.5-32B-Instruct",
-    "gpt-5.2": "gpt-5.2",
-    "phi-4": "phi-4",
-    "saul-54b": "SaulLM-54B-Instruct"
-}
 
 from configs.config import CHUNK_CACHE_DIR, DATA_DIR, FEWSHOT_CACHE_DIR, KEEP_ATRIBUTES, PROMPT_DIR, SPLITS, USE_SIMPLIFIED_LABELS
 from src.run_config import RunConfig
