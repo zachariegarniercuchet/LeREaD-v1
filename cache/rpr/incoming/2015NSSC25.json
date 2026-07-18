@@ -3,9 +3,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Trinity\nWestern University v. Nova Scotia Barristers’ Society",
       "docid": "Trinity Western University NSSC 2015",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Trinity\nWestern University v. Nova Scotia Barristers’ Society": "0"
+      },
       "citations": {
         "2015 NSSC 25": "0"
       },
@@ -16,9 +17,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Legal\nProfession Act",
       "docid": "Legal Profession Act",
       "alternative_titles": {
+        "Legal\nProfession Act": "3",
+        "Legal Profession Act": "47",
         "Act": "118",
         "legislation": "121",
         "provincial statute": "164",
@@ -37,10 +39,11 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Charter of Rights and freedoms",
       "docid": "Canadian Charter",
       "alternative_titles": {
-        "Charter": "5"
+        "Charter": "5",
+        "Charter of Rights and freedoms": "73",
+        "Charter of Rights and\nFreedoms": "319"
       },
       "citations": {},
       "fragments_mentioned": {
@@ -53,7 +56,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "NSBS Regulation 2014",
       "alternative_titles": {
         "NSBS regulation": "13",
@@ -71,7 +73,6 @@
     {
       "doc_type": "unable to classify",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "NSBS policy",
       "alternative_titles": {},
       "citations": {},
@@ -82,7 +83,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "NSBS Resolution",
       "alternative_titles": {
         "decision": "18",
@@ -98,7 +98,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "NSBS Regulation 2015",
       "alternative_titles": {
         "regulation": "20",
@@ -112,10 +111,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Quebec Charter of Values",
       "docid": "Quebec Charter of Values",
       "alternative_titles": {
-        "Bill 60": "24"
+        "Bill 60": "24",
+        "Quebec Charter of Values": "26"
       },
       "citations": {},
       "fragments_mentioned": {},
@@ -125,7 +124,6 @@
     {
       "doc_type": "unable to classify",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Old Testament",
       "alternative_titles": {},
       "citations": {},
@@ -136,7 +134,6 @@
     {
       "doc_type": "unable to classify",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Tanack",
       "alternative_titles": {},
       "citations": {},
@@ -147,7 +144,6 @@
     {
       "doc_type": "unable to classify",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "New Testament",
       "alternative_titles": {},
       "citations": {},
@@ -158,9 +154,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Strangers Within Our\nGates",
       "docid": "Strangers Within Our Gates",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Strangers Within Our\nGates": "35",
+        "Strangers Within Our Gates": "482"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {
@@ -172,7 +170,6 @@
     {
       "doc_type": "unable to classify",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Bible",
       "alternative_titles": {},
       "citations": {},
@@ -183,7 +180,6 @@
     {
       "doc_type": "unable to classify",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Uniform national requirement",
       "alternative_titles": {},
       "citations": {},
@@ -194,14 +190,17 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Trinity Western University v. British Columbia College of\nTeachers",
       "docid": "Trinity Western University SCC 2001",
       "alternative_titles": {
+        "Trinity Western University v. British Columbia College of\nTeachers": "45",
         "2001 Supreme Court of Canada decision": "61",
         "TWU v. BCCT": "137",
         "TWU\nv. BCCT": "142",
+        "British Columbia College of Teachers v.\nTrinity Western University": "244",
+        "British Columbia College of Teachers v. Trinity Western\nUniversity": "248",
         "TWU v.BCCT": "259",
-        "BCCT": "271"
+        "BCCT": "271",
+        "Trinity Western University v. British Columbia College\nof Teacher,s": "467"
       },
       "citations": {
         "2001 SCC 14": "515",
@@ -223,9 +222,12 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Human Rights Act",
       "docid": "Human Rights Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Human Rights Act": "59",
+        "Human\nRights Act": "75",
+        "Nova Scotia Human Rights Act": "321"
+      },
       "citations": {
         "R.S.N.S. 1989, c. 214": "473"
       },
@@ -236,7 +238,6 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Marshal Commission Report",
       "alternative_titles": {
         "report": "99",
@@ -251,9 +252,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Gender Equality in the Nova Scotia Legal\nProfession: A Survey of Members of the Nova Scotia Legal Profession",
       "docid": "Gender Equality in Legal Profession",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Gender Equality in the Nova Scotia Legal\nProfession: A Survey of Members of the Nova Scotia Legal Profession": "109"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {
@@ -264,7 +266,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Regulation 1A",
       "alternative_titles": {
         "Regulation 1A": "111"
@@ -277,7 +278,6 @@
     {
       "doc_type": "unable to classify",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Legal Ethics Handbook",
       "alternative_titles": {},
       "citations": {},
@@ -288,9 +288,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Barristers and Solicitors Act",
       "docid": "Barristers and Solicitors Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Barristers and Solicitors Act": "114"
+      },
       "citations": {
         "R.S.N.S. 1989, c.30": "475"
       },
@@ -301,9 +302,11 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Code of Professional\nConduct",
       "docid": "Code of Professionnal Conduct",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Code of Professional\nConduct": "124",
+        "Code of\nProfessional Conduct": "397"
+      },
       "citations": {},
       "fragments_mentioned": {
         "Section 6.3": "126"
@@ -314,9 +317,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Egg Films Inc. v. Nova Scotia\n(Labour Board)",
       "docid": "Egg Films",
       "alternative_titles": {
+        "Egg Films Inc. v. Nova Scotia\n(Labour Board)": "133",
         "Egg Films": "493"
       },
       "citations": {
@@ -332,9 +335,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Dunsmuir v. New Brunswick",
       "docid": "Dunsmuir",
       "alternative_titles": {
+        "Dunsmuir v. New Brunswick": "135",
         "Dunsmuir": "505"
       },
       "citations": {
@@ -356,9 +359,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Pearlman v. Manitoba Law Society Judicial Committee",
       "docid": "Pearlman",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Pearlman v. Manitoba Law Society Judicial Committee": "148"
+      },
       "citations": {
         "[1991] 2 S.C.R. 869": "529"
       },
@@ -369,9 +373,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Sobeys\nWest Inc. v. College of Pharmacists of British Columbia",
       "docid": "Sobeys West",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Sobeys\nWest Inc. v. College of Pharmacists of British Columbia": "150"
+      },
       "citations": {
         "2014 BCSC 1414": "531"
       },
@@ -382,9 +387,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Constitution Act, 1867",
       "docid": "Constitution Act 1867",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Constitution Act, 1867": "154"
+      },
       "citations": {},
       "fragments_mentioned": {
         "s. 96": "156"
@@ -395,9 +401,13 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Alberta v. Alberta Teachers’ Federation",
       "docid": "Alberta Teachers",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Alberta v. Alberta Teachers’ Federation": "162",
+        "Alberta v. Alberta\nTeachers’ Association": "499",
+        "Alberta\nv. Alberta Teachers’ Association": "544",
+        "Alberta v. Alberta Teachers’\nFederation": "561"
+      },
       "citations": {
         "2011 S.C.C. 61": "499",
         "2011 SCC 61": "544",
@@ -414,11 +424,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Dore v. Barreau du Quebec",
       "docid": "Doré",
       "alternative_titles": {
-        "Dore v. Barreau du Quebec": "551",
-        "Dore": "579"
+        "Dore v. Barreau du Quebec": "178",
+        "Dore": "572"
       },
       "citations": {
         "2012\nSCC 12": "551",
@@ -437,9 +446,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Civil Procedure Rules",
       "docid": "Civil Procedure Rules",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Civil Procedure Rules": "218"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -448,7 +458,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Teaching Profession Act",
       "alternative_titles": {},
       "citations": {},
@@ -461,9 +470,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Syndicat Northcrest v. Anselem",
       "docid": "Anselem",
       "alternative_titles": {
+        "Syndicat Northcrest v. Anselem": "267",
+        "Syndicat Northcrest v. Amselem": "433",
         "Amselem": "704"
       },
       "citations": {
@@ -481,9 +491,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Multani\nv. Commission scolaire Marguerite-Bourgeoys",
       "docid": "Multani",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Multani\nv. Commission scolaire Marguerite-Bourgeoys": "269",
+        "Multani v. Commission scolaire Marguerite- Bourgeoys": "427"
+      },
       "citations": {
         "2006 SCC 6": "427"
       },
@@ -496,9 +508,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "S.L. v. Commission scolaire des Chenes",
       "docid": "Commission scolaire des Chênes",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "S.L. v. Commission scolaire des Chenes": "273"
+      },
       "citations": {
         "2012 SCC 7": "621"
       },
@@ -512,9 +525,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Government Support for Religious\nPractice",
       "docid": "Government Support for Religious Practice",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Government Support for Religious\nPractice": "275"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 231": "627"
@@ -528,9 +542,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. N.S.",
       "docid": "N.S.",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. N.S.": "281",
+        "R. v.\nN.S.": "335"
+      },
       "citations": {
         "2012 SCC 72": "424"
       },
@@ -543,10 +559,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Saskatchewan (Human Rights Commission) v.\nWhatcott,",
       "docid": "Whatcott",
       "alternative_titles": {
-        "Whatcott": "287"
+        "Saskatchewan (Human Rights Commission) v.\nWhatcott,": "283",
+        "Whatcott": "287",
+        "Saskatchewan\n(Human Rights Commission) v. Whatcott": "469"
       },
       "citations": {
         "2013 SCC 11": "637"
@@ -564,9 +581,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Owens\nv. Human Rights Commission (Sask.)",
       "docid": "Owens SKQB 2002",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Owens\nv. Human Rights Commission (Sask.)": "294"
+      },
       "citations": {
         "2002 SKQB 506": "647"
       },
@@ -579,9 +597,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Freedom of Religion and the Rule of Law:\nA Canadian Perspective",
       "docid": "Freedom of Religion",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Freedom of Religion and the Rule of Law:\nA Canadian Perspective": "300"
+      },
       "citations": {},
       "fragments_mentioned": {
         "page 16": "659",
@@ -597,9 +616,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Dagenais v. Canadian Broadcasting Corp.",
       "docid": "Dagenais",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Dagenais v. Canadian Broadcasting Corp.": "331"
+      },
       "citations": {
         "[1994] 3 SCR 835": "669"
       },
@@ -610,9 +630,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Mentuck",
       "docid": "Mentuck",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Mentuck": "333"
+      },
       "citations": {
         "[2001] 3 SCR 442": "671"
       },
@@ -623,9 +644,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Alberta v. Hutterian Brethren of\nWilson Colony",
       "docid": "Wilson Colony",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Alberta v. Hutterian Brethren of\nWilson Colony": "343",
+        "Alberta v.Hutterian Brethren of Wilson Colony": "430"
+      },
       "citations": {
         "2009 SCC 37": "430",
         "2009  SCC 37": "673"
@@ -637,9 +660,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Oakes",
       "docid": "Oakes",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Oakes": "353"
+      },
       "citations": {
         "[1986] 1 S.C.R. 103": "678"
       },
@@ -650,9 +674,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Big M Drug Mart Ltd.",
       "docid": "Big M Drug Mart",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Big M Drug Mart Ltd.": "383",
+        "R. v. Big M Drug Mart Ltd": "690"
+      },
       "citations": {
         "[1985] 1 S.C.R. 295": "690"
       },
@@ -666,9 +692,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Dilemmas and Connections; Selected Essays",
       "docid": "Dilemmas and Connections",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Dilemmas and Connections; Selected Essays": "415"
+      },
       "citations": {},
       "fragments_mentioned": {
         "page 306": "415"
@@ -681,9 +708,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "A Secular Age",
       "docid": "A Secular Age",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "A Secular Age": "420"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {
@@ -694,9 +722,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "A Small Treatise on the Great Virtues",
       "docid": "Treaties on the Great Virtues",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "A Small Treatise on the Great Virtues": "436"
+      },
       "citations": {},
       "fragments_mentioned": {
         "page 170": "436"
@@ -709,9 +738,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Regulating\nAversion: Tolerance in the Age of Identity and Empire",
       "docid": "Tolerance in the Age of Identity",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Regulating\nAversion: Tolerance in the Age of Identity and Empire": "441"
+      },
       "citations": {},
       "fragments_mentioned": {
         "27": "441"
@@ -724,9 +754,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Putting Up\nand Putting Down: Tolerance Reconsidered",
       "docid": "Putting Up and Putting Down",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Putting Up\nand Putting Down: Tolerance Reconsidered": "446"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {
@@ -737,9 +768,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Reasonable\nAccommodation: Managing Diversity",
       "docid": "Reasonable Accommodation : Managing Diversity",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Reasonable\nAccommodation: Managing Diversity": "450"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {
@@ -750,9 +782,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The Open Society and Its Enemies",
       "docid": "Open Society and its Enemies",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Open Society and Its Enemies": "454"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p.265": "454"
@@ -765,9 +798,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canada (Attorney General). v. Bedford",
       "docid": "Bedford",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Canada (Attorney General). v. Bedford": "459",
+        "Canada (Attorney General) v.\nBedford": "609"
+      },
       "citations": {
         "2013 SCC 72": "459",
         "2013 SCC72": "609"
@@ -782,9 +817,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Trinity\nWestern University Act",
       "docid": "Trinity Western University Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Trinity\nWestern University Act": "463"
+      },
       "citations": {
         "S.B.C. 1969, c.44": "463"
       },
@@ -797,9 +833,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The\nTheological Origins of Modernity",
       "docid": "Theological Origins of Modernity",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The\nTheological Origins of Modernity": "477"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 284": "477"
@@ -812,9 +849,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Newfoundland and Labrador Nurses’ Union v. Newfoundland and Labrador (Treasury\nBoard)",
       "docid": "Newfoundland",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Newfoundland and Labrador Nurses’ Union v. Newfoundland and Labrador (Treasury\nBoard)": "486"
+      },
       "citations": {
         "2011 SCC 62": "486"
       },
@@ -827,9 +865,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Cartaway Resources Corp. (Re)",
       "docid": "Cartaway",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Cartaway Resources Corp. (Re)": "523"
+      },
       "citations": {
         "[2004] 1 S.C.R. 672": "523"
       },
@@ -840,9 +879,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Cooper v. Canada (Human Rights Commission)",
       "docid": "Cooper",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Cooper v. Canada (Human Rights Commission)": "526"
+      },
       "citations": {
         "[1996] 3 S.C.R. 854": "526"
       },
@@ -853,9 +893,12 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canadian National Railway Co. v. Canada (Attorney General",
       "docid": "Canadian National Railway",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Canadian National Railway Co. v. Canada (Attorney General": "536",
+        "Canadian National Railway Co. v.\nCanada": "555",
+        "Canadian National Railway Company\nv. Canada (Attorney General)": "566"
+      },
       "citations": {
         "2014 SCC 40": "536"
       },
@@ -869,9 +912,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canada (Canadian Human Rights Commission) v. Canada (Attorney\nGeneral)",
       "docid": "CHRC",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Canada (Canadian Human Rights Commission) v. Canada (Attorney\nGeneral)": "540"
+      },
       "citations": {
         "2011 SCC 53": "540"
       },
@@ -884,9 +928,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Catalyst Paper Corp. v. North Cowichan (District)",
       "docid": "Catalyst Paper",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Catalyst Paper Corp. v. North Cowichan (District)": "575"
+      },
       "citations": {
         "2012 SCC 2": "575"
       },
@@ -899,9 +944,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Katz\nGroup Inc. V. Ontario ( Health and Long-Term Care",
       "docid": "Katz Group",
       "alternative_titles": {
+        "Katz\nGroup Inc. V. Ontario ( Health and Long-Term Care": "585",
         "Katz": "595"
       },
       "citations": {
@@ -917,9 +962,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Thorne’s Hardware Ltd. v. The\nQueen",
       "docid": "Thorne",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Thorne’s Hardware Ltd. v. The\nQueen": "591"
+      },
       "citations": {
         "[1983] 1 S.C.R. 106": "591"
       },
@@ -932,7 +978,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Owens SKCA 2006",
       "alternative_titles": {},
       "citations": {
@@ -945,9 +990,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "RJR- MacDonald Inc. v. Canada",
       "docid": "RJR-MacDonald",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "RJR- MacDonald Inc. v. Canada": "680"
+      },
       "citations": {
         "[1995] 3 S.C.R. 199": "680"
       },
@@ -958,7 +1004,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Human Rights Code",
       "alternative_titles": {
         "British Columbia Human Rights legislation": "683"
@@ -971,9 +1016,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The\nRighteous Mind; Why Good People are Divided by Politics and Religion",
       "docid": "Why Good People are Divided",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The\nRighteous Mind; Why Good People are Divided by Politics and Religion": "708"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {

@@ -1,4 +1,7 @@
-
+"""
+At the very begining of each HTML file, add a comment containing the label scheme and meta information.
+This process is necessary for the manual annotation process, so that the LeREaD Labelizer tool can read them.
+"""
 
 import json
 from pathlib import Path

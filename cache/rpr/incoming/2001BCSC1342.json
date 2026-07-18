@@ -3,9 +3,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "John Campbell Law Corporation v. Owners, Strata\n  Plan 1350",
       "docid": "John Campbell Law Corporation",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "John Campbell Law Corporation v. Owners, Strata\n  Plan 1350": "0"
+      },
       "citations": {
         "2001 BCSC 1342": "2"
       },
@@ -16,9 +17,11 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Condominium Act",
       "docid": "Condominium Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Condominium Act": "4",
+        "Condominium\nAct": "17"
+      },
       "citations": {
         "R.S.B.C. 1996, c.64": "4"
       },
@@ -33,9 +36,13 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Rylands v. Fletcher (1866)",
       "docid": "Rylands EX 1866",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Rylands v. Fletcher (1866)": "8",
+        "Rylands v.\nFletcher": "41",
+        "Rylands\nv. Fletcher": "43",
+        "Rylands v. Fletcher": "45"
+      },
       "citations": {
         "L.R. 1 Ex.\n265": "8",
         "(1866), L.R. 1 Ex 265": "172"
@@ -47,9 +54,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "The Strata\nProperty Act",
       "docid": "Strata Property Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Strata\nProperty Act": "14"
+      },
       "citations": {
         "S.B.C. 1998, c.43": "14"
       },
@@ -62,9 +70,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Black's Law Dictionary",
       "docid": "Black",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Black's Law Dictionary": "23"
+      },
       "citations": {},
       "fragments_mentioned": {
         "Maintain": "21"
@@ -75,9 +84,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Wright\nv. Strata Plan No. 205 (1996)",
       "docid": "Wright BCSC 1996",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Wright\nv. Strata Plan No. 205 (1996)": "28"
+      },
       "citations": {
         "20 B.C.L.R. (3d) 343": "28",
         "[1996] B.C.J. No.\n381, (B.C.S.C.)": "28"
@@ -92,7 +102,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Wright BCCA 1998",
       "alternative_titles": {},
       "citations": {
@@ -105,9 +114,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "City of Port Alberni v. Moyer, (1999)",
       "docid": "Moyer",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "City of Port Alberni v. Moyer, (1999)": "37"
+      },
       "citations": {
         "65 B.C.L.R.\n(3d) 352": "37",
         "[1999] B.C.J. No. 423": "37"
@@ -119,9 +129,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Cambridge Water Co. Ltd. v.\nEastern Counties Leather plc",
       "docid": "Cambridge Water",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Cambridge Water Co. Ltd. v.\nEastern Counties Leather plc": "51"
+      },
       "citations": {
         "[1994] 2 A.C. 264": "51"
       },
@@ -132,9 +143,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Burnie Port Authority v.\nGeneral Jones Pty. Ltd.",
       "docid": "Burnie Port Authority",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Burnie Port Authority v.\nGeneral Jones Pty. Ltd.": "56"
+      },
       "citations": {
         "[1994] 120 A.L.R. 42": "56"
       },
@@ -145,9 +157,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Canadian Tort Law",
       "docid": "Canadian Tort Law",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Canadian Tort Law": "61"
+      },
       "citations": {},
       "fragments_mentioned": {
         "page 501": "61"
@@ -160,7 +173,6 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Continuing Legal Education seminar",
       "alternative_titles": {},
       "citations": {},
@@ -173,9 +185,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Rickards v. Lothian",
       "docid": "Rickards",
       "alternative_titles": {
+        "Rickards v. Lothian": "83",
         "Rickards": "202"
       },
       "citations": {
@@ -192,9 +204,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Remedies\nin Tort",
       "docid": "Remedies in Tort",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Remedies\nin Tort": "87"
+      },
       "citations": {},
       "fragments_mentioned": {
         "21-20": "87"
@@ -205,9 +218,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Stachniak v. Thorhild (County\nNo.7)",
       "docid": "Stachniak",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Stachniak v. Thorhild (County\nNo.7)": "91"
+      },
       "citations": {
         "[2001] A.J. No.423": "91"
       },
@@ -218,9 +232,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The Law of Torts",
       "docid": "The Law of Torts",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Law of Torts": "98"
+      },
       "citations": {},
       "fragments_mentioned": {
         "para. 27": "96",
@@ -235,9 +250,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Non-natural Use of Land",
       "docid": "Non-natural Use of Land",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Non-natural Use of Land": "107"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 319": "107"
@@ -250,9 +266,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Pride\nof Derby and Derbyshire Angling Association Ltd. v. British Celanese Lat.",
       "docid": "Pride of Derby and Derbyshire Angling Association",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Pride\nof Derby and Derbyshire Angling Association Ltd. v. British Celanese Lat.": "111",
+        "Pride of Derby and Derbyshire\nAngling Association Ld. v. British Celanese Ld.": "194"
+      },
       "citations": {
         "[1953] Ch. 149": "111",
         "[1953] Ch 149": "194"
@@ -266,9 +284,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The\nPrinciple of Rylands v. Fletcher",
       "docid": "The Principle of Rylands",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The\nPrinciple of Rylands v. Fletcher": "118"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 147": "115"
@@ -281,10 +300,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Tock v.\nSt.John's Metro Area Bd.",
       "docid": "Tock",
       "alternative_titles": {
-        "Tock": "123"
+        "Tock": "123",
+        "Tock v.\nSt.John's Metro Area Bd.": "154",
+        "Tock v. St. John's Metropolitan Area Board": "176"
       },
       "citations": {
         "[1989] 2 S.C.R. 1181": "154",
@@ -301,9 +321,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Carstairs\nand Another v. Taylor (1871)",
       "docid": "Carstairs",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Carstairs\nand Another v. Taylor (1871)": "128"
+      },
       "citations": {
         "L.R. 6 Ex. 217": "128"
       },
@@ -314,9 +335,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Ross\nv. Fedden and Another (1972)",
       "docid": "Ross",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Ross\nv. Fedden and Another (1972)": "133"
+      },
       "citations": {
         "L.R. 7 Q.B. 661": "133"
       },
@@ -327,9 +349,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Ballard\nv. Tomlinson (1885)",
       "docid": "Ballard",
       "alternative_titles": {
+        "Ballard\nv. Tomlinson (1885)": "136",
         "Ballard": "136"
       },
       "citations": {
@@ -342,9 +364,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Blake\nv. Woolf",
       "docid": "Blake",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Blake\nv. Woolf": "142"
+      },
       "citations": {
         "[1898] 2 Q.B. 426": "142"
       },
@@ -355,9 +378,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Lyon v. Shelbourne (1981)",
       "docid": "Lyon",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Lyon v. Shelbourne (1981)": "147"
+      },
       "citations": {
         "130 D.L.R. (3d) 307 (Ont.Co.Ct.)": "147"
       },
@@ -368,9 +392,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Smeaton v. Ilford Corp.",
       "docid": "Smeaton",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Smeaton v. Ilford Corp.": "150"
+      },
       "citations": {
         "[1954] 1 All E.R. 923": "150"
       },
@@ -383,9 +408,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "McKellar\nv. Saint John (City) (1997)",
       "docid": "McKellar",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "McKellar\nv. Saint John (City) (1997)": "159"
+      },
       "citations": {
         "189 N.B.R. (2d) 49": "159",
         "(1997), 27 M.V.R. (3d)\n191": "159"
@@ -397,9 +423,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Rylands v. Fletcher",
       "docid": "Rylands HL 1868",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Rylands v. Fletcher": "165",
+        "Rylands v. Fletcher (1868)": "169"
+      },
       "citations": {
         "L.R. 3 H.L.\n330": "169"
       },
@@ -412,9 +440,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Toms\nv. Duma",
       "docid": "Toms",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Toms\nv. Duma": "215"
+      },
       "citations": {
         "[1970] O.J. No. 150 (Ont. S.C.)": "215"
       },
@@ -425,7 +454,6 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Elements Law of Torts",
       "alternative_titles": {
         "Torts": "218"
@@ -443,9 +471,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Wayen\nDiners Ltd. v. Hong Yick Tong Ltd. (1987)",
       "docid": "Wayen Diners",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Wayen\nDiners Ltd. v. Hong Yick Tong Ltd. (1987)": "232"
+      },
       "citations": {
         "35 D.L.R. (4th) 722": "232",
         "[1987]\nB.C.J. No. 223": "232"
@@ -457,9 +486,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Theberge v. Zittlau",
       "docid": "Theberge",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Theberge v. Zittlau": "236"
+      },
       "citations": {
         "[2000] B.C.J. No. 2198": "236"
       },
@@ -470,9 +500,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Kinaschuk v. Day",
       "docid": "Kinaschuk",
       "alternative_titles": {
+        "Kinaschuk v. Day": "239",
         "Kinaschuk": "239"
       },
       "citations": {
@@ -485,9 +515,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Bloom\nv. Creed",
       "docid": "Bloom",
       "alternative_titles": {
+        "Bloom\nv. Creed": "243",
         "Bloom": "246"
       },
       "citations": {

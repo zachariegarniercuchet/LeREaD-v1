@@ -43,6 +43,8 @@ from datetime import datetime
 
 from bs4 import BeautifulSoup
 
+from configs.config import SPLITS
+
 # Add project root to path for imports (same depth convention as evaluate.py)
 project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root))
@@ -355,7 +357,7 @@ def main():
 
     # ========== SINGLE FILE EVALUATION ==========
     single_parser = subparsers.add_parser("single", help="Evaluate a single system coref output")
-    single_parser.add_argument("--split", required=True, choices=["train", "test", "dev"],
+    single_parser.add_argument("--split", required=True, choices=SPLITS,
                                 help="Ground truth split (required for single file evaluation)")
     single_parser.add_argument("--system-file", required=True,
                                 help="Path to a *_coref_clusters.json or *_coref.html system output file")
@@ -365,7 +367,7 @@ def main():
     # ========== BATCH EVALUATION ==========
     batch_parser = subparsers.add_parser("batch", help="Evaluate a batch folder with multiple documents")
     batch_parser.add_argument("--batch-folder", required=True, help="Path to a main_coref.py output folder")
-    batch_parser.add_argument("--split", default=None, choices=["train", "test", "dev"],
+    batch_parser.add_argument("--split", default=None, choices=SPLITS,
                                help="Ground truth split (optional, auto-detected from folder name if not provided)")
     batch_parser.add_argument("--data-dir", default="./data", help="Root data directory (default: ./data)")
     batch_parser.add_argument("--verbose", action="store_true",

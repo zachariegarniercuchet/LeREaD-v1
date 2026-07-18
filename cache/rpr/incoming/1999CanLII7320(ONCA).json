@@ -3,9 +3,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "General Accident Assurance Co. v. Chrusz",
       "docid": "General Accident Assurance ONCA 1999",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "General Accident Assurance Co. v. Chrusz": "0"
+      },
       "citations": {
         "45 O.R. (3d) 321": "2",
         "[1999] O.J. No. 3291": "4"
@@ -32,10 +33,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Blackstone v. Mutual Life Insurance Co. of New York",
       "docid": "Blackstone",
       "alternative_titles": {
-        "Blackstone": "8"
+        "Blackstone v. Mutual Life Insurance Co. of New York": "6",
+        "Blackstone": "8",
+        "Blackstone v. Mutual Life Insurance Co. \nof New York": "755"
       },
       "citations": {
         "[1944] O.R. 328": "49",
@@ -54,7 +56,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "General Accident Assurance ONDC 1998",
       "alternative_titles": {
         "judgment of the Divisional Court": "10"
@@ -72,7 +73,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "General Accident Assurance ONDC 1997",
       "alternative_titles": {},
       "citations": {
@@ -86,9 +86,12 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "A. (L.L.) v. B. (A.)",
       "docid": "A. (L.L.)",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "A. (L.L.) v. B. (A.)": "17",
+        "A. (L.L.) v . B. (A.)": "713",
+        "A. (L.L.) v. B. \n(A.)": "1012"
+      },
       "citations": {
         "[1995] 4 S.C.R. 536": "17",
         "130 D.L.R. (4th) 422": "17",
@@ -107,9 +110,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Alcan-Colony Contracting Ltd. v. M.N.R.",
       "docid": "Alcan-Colony",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Alcan-Colony Contracting Ltd. v. M.N.R.": "25",
+        "Alcan-Colony Contracting Ltd. v. Minister of National \nRevenue": "794"
+      },
       "citations": {
         "[1971] 2 O.R. 365": "25",
         "18 D.L.R. (3d) 32": "25",
@@ -125,9 +130,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Almecon Industries Ltd. v. Anchortek Ltd.",
       "docid": "Almecon Industries",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Almecon Industries Ltd. v. Anchortek Ltd.": "30",
+        "Almecon \nIndustries Ltd. v. Anchortek Ltd.": "605"
+      },
       "citations": {
         "[1999] 1 F.C. 507": "30",
         "85 C.P.R. (3d) 30": "30",
@@ -141,9 +148,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Anderson v. Bank of British Columbia (1876)",
       "docid": "Anderson",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Anderson v. Bank of British Columbia (1876)": "35"
+      },
       "citations": {
         "2 Ch. D. 644": "35",
         "[1874-80] All E.R. Rep. 396": "35",
@@ -161,9 +169,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Anderson Exploration Ltd. v. Pan-Alberta Gas Ltd. (1998)",
       "docid": "Anderson Exploration",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Anderson Exploration Ltd. v. Pan-Alberta Gas Ltd. (1998)": "42"
+      },
       "citations": {
         "61 Alta. L.R. (3d) 38": "42",
         "[1998] 10 W.W.R. 633 (Q.B.)": "42",
@@ -176,9 +185,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Archean Energy Ltd. v. Canada (Minister of National Revenue) (1997)",
       "docid": "Archean Energy",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Archean Energy Ltd. v. Canada (Minister of National Revenue) (1997)": "46",
+        "Archean Energy \nLtd. v. Canada (Minister of National Revenue) (1997)": "594"
+      },
       "citations": {
         "202 A.R. 198 (Q.B.)": "46",
         "202 A.R. \n198 (Q.B.)": "594"
@@ -190,9 +201,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Bunbury v. Bunbury (1839)",
       "docid": "Bunbury",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Bunbury v. Bunbury (1839)": "54",
+        "Bunbury v. Bunbury \n(1839)": "765"
+      },
       "citations": {
         "48 E.R. 1146": "54",
         "2 Beav. 173": "54",
@@ -205,9 +218,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Butterfield v. Dickson",
       "docid": "Butterfield",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Butterfield v. Dickson": "59",
+        "Butterfield v. Dickson (1994)": "1040"
+      },
       "citations": {
         "[1994] N.W.T.R. 228": "59",
         "28 C.P.C. (3d) 242 (S.C.)": "59",
@@ -223,9 +238,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Buttes Gas and Oil Co. v. Hammer (No. 3)",
       "docid": "Buttes Gas",
       "alternative_titles": {
+        "Buttes Gas and Oil Co. v. Hammer (No. 3)": "63",
         "Buttes": "617"
       },
       "citations": {
@@ -243,9 +258,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "C-C Bottlers Ltd. v. Lion Nathan Ltd.",
       "docid": "C-C Bottlers",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "C-C Bottlers Ltd. v. Lion Nathan Ltd.": "68"
+      },
       "citations": {
         "[1993] 2 N.Z.L.R. 445 (H.C.)": "68",
         "[1993] 2 N.Z.L.R. 445": "849",
@@ -260,9 +276,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Calcraft v. Guest",
       "docid": "Calcraft",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Calcraft v. Guest": "71"
+      },
       "citations": {
         "[1898] 1 Q.B. 759": "71",
         "[1895-9] All E.R. Rep. 346": "71",
@@ -282,9 +299,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canadian Indemnity Co. v. Canadian Johns-Manville Co.",
       "docid": "Canadian Indemnity",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Canadian Indemnity Co. v. Canadian Johns-Manville Co.": "79",
+        "Canadian \nIndemnity Co. v. Canadian Johns-Manville Co.": "740"
+      },
       "citations": {
         "[1990] 2 S.C.R. 549": "79",
         "72 D.L.R. (4th) 478": "79",
@@ -302,9 +321,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canadian Pacific Ltd. v. Canada (Competition Act, Director of Investigation and Research)",
       "docid": "Canadian Pacific",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Canadian Pacific Ltd. v. Canada (Competition Act, Director of Investigation and Research)": "86",
+        "Canadian Pacific Ltd. v. Canada (Competition Act, Director of \nInvestigation and Research)": "587"
+      },
       "citations": {
         "[1995] O.J. No. 4148 (Gen. Div.)": "86"
       },
@@ -315,9 +336,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Catherwood (Guardian ad litem of) v. Heinrichs (1995)",
       "docid": "Catherwood",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Catherwood (Guardian ad litem of) v. Heinrichs (1995)": "89",
+        "Catherwood (Guardian ad litem of) \nv. Heinrichs (1995)": "963"
+      },
       "citations": {
         "17 B.C.L.R. (3d) 326 (S.C.)": "89"
       },
@@ -328,9 +351,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Commissioner Australian Federal Police v. Propend Finance Pty Ltd.",
       "docid": "Propend Finance",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Commissioner Australian Federal Police v. Propend Finance Pty Ltd.": "92",
+        "Commissioner Australian Federal \nPolice v. Propend Finance Pty Ltd. (1997)": "956"
+      },
       "citations": {
         "(1997), 141 A.L.R. 545 (H.C.)": "92",
         "141 A.L.R. 545 \n(H.C.)": "956"
@@ -342,9 +367,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Cook v. Ip",
       "docid": "Cook",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Cook v. Ip": "95"
+      },
       "citations": {
         "(1985), 52 O.R. (2d) 289": "95",
         "22 D.L.R. (4th) 1": "95",
@@ -358,9 +384,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Coronation Insurance Co. v. Taku Air Transport Ltd.",
       "docid": "Coronation Insurance",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Coronation Insurance Co. v. Taku Air Transport Ltd.": "100",
+        "Coronation Insurance \nCo. v. Taku Air Transport Ltd.": "745"
+      },
       "citations": {
         "[1991] 3 S.C.R. 622": "100",
         "61 B.C.L.R.  (2d) 41": "100",
@@ -378,9 +406,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Davies v. Harrington (1980)",
       "docid": "Davies",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Davies v. Harrington (1980)": "108",
+        "Davies v. Harrington": "519"
+      },
       "citations": {
         "39 N.S.R. (2d) 258": "108",
         "115 D.L.R. (3d) 347": "108",
@@ -395,9 +425,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Descteaux v. Mierzwinski",
       "docid": "Descôteaux",
       "alternative_titles": {
+        "Descteaux v. Mierzwinski": "113",
         "Montreal Legal Aid Centre v. Mierzwinski": "113",
         "Landry v. Montreal Legal Aid Centre": "113"
       },
@@ -424,9 +454,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Dionisopoulous v. Provias",
       "docid": "Dionisopoulos",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Dionisopoulous v. Provias": "123",
+        "Dionisopoulous v. Provias (1990)": "500"
+      },
       "citations": {
         "(1990), 71 O.R. (2d) 547": "123",
         "45 C.P.C. (2d) 116 (H.C.J.)": "123",
@@ -439,9 +471,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Flack v. Pacific Press Ltd. (1970)",
       "docid": "Flack",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Flack v. Pacific Press Ltd. (1970)": "127",
+        "Flack v. Pacific \nPress Ltd. (1970)": "1027"
+      },
       "citations": {
         "14 D.L.R. (3d) 334": "127",
         "14 W.W.R. 275": "127",
@@ -458,9 +492,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Goodman and Carr v. M.N.R.",
       "docid": "Goodman",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Goodman and Carr v. M.N.R.": "131",
+        "Goodman and Carr \nv. M.N.R.": "789"
+      },
       "citations": {
         "[1968] 2 O.R. 814": "131",
         "70 D.L.R. (2d) 670": "131",
@@ -477,9 +513,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Goodman Estate v. Geffen",
       "docid": "Geffen",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Goodman Estate v. Geffen": "137"
+      },
       "citations": {
         "[1991] 2 S.C.R. 353": "137",
         "80 Alta. L.R. (2d) 293": "137",
@@ -499,9 +536,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Grant v. Downs",
       "docid": "Grant",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Grant v. Downs": "145",
+        "Grant v. Downs (1976)": "669"
+      },
       "citations": {
         "(1976), 135 C.L.R. 674 (Ont. H.C.J.)": "145",
         "135 C.L.R. 674": "669",
@@ -516,9 +555,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Hamalainen (Committee of) v. Sippola (1991)",
       "docid": "Hamalainen",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Hamalainen (Committee of) v. Sippola (1991)": "148",
+        "Hamalainen (Committee of) v. \nSippola": "907"
+      },
       "citations": {
         "62 B.C.L.R. (2d) (254": "148",
         "[1992] 2 W.W.R. 132": "148",
@@ -535,9 +576,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Hickman v. Taylor",
       "docid": "Hickman",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Hickman v. Taylor": "153"
+      },
       "citations": {
         "329 U.S. 495 (1946)": "153",
         "329 U.S. 495 (1947)": "1059"
@@ -551,9 +593,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Hodgkinson v. Simms",
       "docid": "Hodgkinson",
       "alternative_titles": {
+        "Hodgkinson v. Simms": "156",
+        "Hodgkinson \nv. Simms (1988)": "541",
         "Hodgkinson": "552"
       },
       "citations": {
@@ -576,9 +619,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Hooper v. Gumm",
       "docid": "Hooper",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Hooper v. Gumm": "162",
+        "Hooper v. Gumm (1862)": "773"
+      },
       "citations": {
         "(1862), 70 E.R. 1199": "162",
         "2 John &amp; H 602": "162",
@@ -593,9 +638,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "International Minerals &amp; Chemical Corp. v. Commonwealth Insurance Co. (1991)",
       "docid": "International Minerals",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "International Minerals &amp; Chemical Corp. v. Commonwealth Insurance Co. (1991)": "168",
+        "Internat ional Minerals &amp; Chemical Corp. v. \nCommonwealth Insurance Co. (1991)": "799"
+      },
       "citations": {
         "89 Sask. R. 1 (Q.B.)": "168",
         "89 Sask. R. 1": "799",
@@ -610,9 +657,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Jones v. Great Central Railway Co.",
       "docid": "Jones",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Jones v. Great Central Railway Co.": "171",
+        "Jones v. Great \nCentral Railway Co.": "782"
+      },
       "citations": {
         "[1910] A.C. 4": "171",
         "79 L.J.K.B. 191": "171",
@@ -627,9 +676,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Learoyd v. Halifax Joint Stock Banking Co.",
       "docid": "Learoyd",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Learoyd v. Halifax Joint Stock Banking Co.": "177"
+      },
       "citations": {
         "[1893] 1 Ch. D. 686": "177",
         "62 L.J. Ch. 509": "177",
@@ -647,9 +697,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Lehman v. Insurance Corp. of Ireland",
       "docid": "Lehman",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Lehman v. Insurance Corp. of Ireland": "185",
+        "Lehman v. Insurance Corp. of Ireland (1983)": "597"
+      },
       "citations": {
         "(1983), 25 Man. R. (2d) 198": "185",
         "[1984] 1 W.W.R. 615": "185",
@@ -664,9 +716,12 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Lyell v. Kennedy",
       "docid": "Lyell",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Lyell v. Kennedy": "190",
+        "Lyell v. \nKennedy (1884)": "545",
+        "Lyell \n  v. Kennedy (No. 3)": "949"
+      },
       "citations": {
         "(1884), 27 Ch. D. 1 (C.A.)": "190",
         "27 Ch.D. 1 (C.A.)": "545",
@@ -681,9 +736,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Maritime Steel &amp; Foundries Ltd. v. Whitman Benn &amp; Associates Ltd.",
       "docid": "Maritime Steel",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Maritime Steel &amp; Foundries Ltd. v. Whitman Benn &amp; Associates Ltd.": "193",
+        "Maritime Steel &amp; \nFoundries Ltd. v. Whitman Benn &amp; Associates Ltd. (1994)": "601"
+      },
       "citations": {
         "(1994), 130 N.S.R. (2d) 211": "193",
         "114 D.L.R. (4th) 526": "193",
@@ -699,9 +756,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "McCaig v. Trentowsky",
       "docid": "McCaig",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "McCaig v. Trentowsky": "199",
+        "McCaig v. \nTrentowsky": "523"
+      },
       "citations": {
         "(1983), 47 N.B.R. (2d) 71": "199",
         "148 D.L.R. (3d) 724": "199",
@@ -716,9 +775,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Metropolitan Life Insurance Co. v. Frenette",
       "docid": "Frenette",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Metropolitan Life Insurance Co. v. Frenette": "204"
+      },
       "citations": {
         "[1992] 1 S.C.R. 647": "204",
         "89 D.L.R. (4th) 653": "204",
@@ -732,9 +792,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Nickmar Pty Ltd. v. Preservatrice Skandia Insurance Ltd. (1985)",
       "docid": "Nickmar",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Nickmar Pty Ltd. v. Preservatrice Skandia Insurance Ltd. (1985)": "210",
+        "Nickmar Pty Ltd. v. Preservatrice Skandia \nInsurance Ltd. (1985)": "944"
+      },
       "citations": {
         "3 N.S.W.L.R. 44 (S.C.)": "210",
         "3 N.S.W.L.R. 44": "944",
@@ -749,9 +811,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Nova, An Alberta Corp. v. Guelph Engineering Co. (1984)",
       "docid": "Nova",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Nova, An Alberta Corp. v. Guelph Engineering Co. (1984)": "213",
+        "Nova, An Alberta Corp. v. Guelph \nEngineering Co.": "531"
+      },
       "citations": {
         "30 Alta. L.R. (2d) 183": "213",
         "5 D.L.R. (4th) 755": "213",
@@ -767,9 +831,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Ottawa-Carleton (Regional Municipality) v. Consumers' Gas Co. (1990)",
       "docid": "Ottawa-Carleton",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Ottawa-Carleton (Regional Municipality) v. Consumers' Gas Co. (1990)": "220",
+        "Ottawa-Carleton (Regional Municipality) v. Consumers' Gas Co.\n(1990)": "568"
+      },
       "citations": {
         "74 O.R. (2d) 637": "220",
         "41 O.A.C. 65": "220",
@@ -783,9 +849,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. B. (K.G.)",
       "docid": "B. (K.G.)",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. B. (K.G.)": "226"
+      },
       "citations": {
         "[1993] 1 S.C.R. 740": "226",
         "148 N.R. 241": "226",
@@ -800,9 +867,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Dunbar",
       "docid": "Dunbar",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Dunbar": "232",
+        "R. v. Dunbar (1982)": "611"
+      },
       "citations": {
         "(1982), 138 D.L.R. (3d) 221": "232",
         "68 C.C.C. (2d) 13": "232",
@@ -816,9 +885,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Garofoli",
       "docid": "Garofoli",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Garofoli": "237",
+        "R. v. \nGarofoli": "1068"
+      },
       "citations": {
         "[1990] 2 S.C.R. 1421": "237",
         "43 O.A.C. 1": "237",
@@ -838,11 +909,13 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. G ruenke",
       "docid": "Gruenke",
       "alternative_titles": {
+        "R. v. G ruenke": "245",
         "R. v. Fosty": "245",
-        "Gruenke": "640"
+        "R. v. Gruenke": "619",
+        "Gruenke": "640",
+        "R. v. \nGruenke": "1002"
       },
       "citations": {
         "[1991] 3 S.C.R. 263": "245",
@@ -867,9 +940,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Littlechild (1979)",
       "docid": "Littlechild",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Littlechild (1979)": "255",
+        "R. v. \nLittlechild (1979)": "844"
+      },
       "citations": {
         "108 D.L.R. (3d) 340": "255",
         "[1980] 1 W.W.R. 742": "255",
@@ -886,9 +961,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. O'Connor",
       "docid": "O",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. O'Connor": "261"
+      },
       "citations": {
         "[1995] 4 S.C.R. 411": "261",
         "130 D.L.R. (4th) 235": "261",
@@ -905,9 +981,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Perron (1990)",
       "docid": "Perron",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Perron (1990)": "270",
+        "R. v. Perron": "879"
+      },
       "citations": {
         "54 C.C.C. (3d) 108": "270",
         "75 C.R. (3d) 382 (Que. C.A.)": "270",
@@ -921,9 +999,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. S. (R.)",
       "docid": "S. (R.)",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. S. (R.)": "274",
+        "R. v. S. \n(R.) (1985)": "1020"
+      },
       "citations": {
         "(1985), 19 C.C.C. (3d) 115 (Ont. C.A.)": "274",
         "19 C.C.C. (3d) 115 (Ont. C.A.)": "1020"
@@ -935,9 +1015,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Seaboyer; R. v. Gayme",
       "docid": "Seaboyer",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Seaboyer; R. v. Gayme": "277",
+        "R. v. Seaboyer; \nR. v. Gayme": "994"
+      },
       "citations": {
         "[1991] 2 S.C.R. 577": "277",
         "4 O.R. (3d) 383n": "277",
@@ -955,9 +1037,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Shirose",
       "docid": "Shirose",
       "alternative_titles": {
+        "R. v. Shirose": "287",
         "R. v. Campbell": "287"
       },
       "citations": {
@@ -981,9 +1063,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Stinchcombe",
       "docid": "Stinchcombe",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Stinchcombe": "296",
+        "R. v. \nStinchcombe": "998"
+      },
       "citations": {
         "[1991] 3 S.C.R. 326": "296",
         "83 Alta. L.R. (2d) 193": "296",
@@ -1000,9 +1084,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Russell v. Jackson (1851)",
       "docid": "Russel",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Russell v. Jackson (1851)": "305",
+        "Russell v. Jackson": "769"
+      },
       "citations": {
         "68 E.R. 558": "305",
         "9 Hare 387": "305",
@@ -1017,9 +1103,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "San Francisco (City) v. Superior Court",
       "docid": "San Francisco",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "San Francisco (City) v. Superior Court": "311",
+        "San \nFrancisco (City) v. Superior Court": "868"
+      },
       "citations": {
         "281 P.2d 26 (1951 Cal. S.C.)": "311",
         "281 P.2d 26": "868",
@@ -1034,9 +1122,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Shaughnessy Golf &amp; Country Club v. Drake International Inc. (1986)",
       "docid": "Shaughnessy Golf",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Shaughnessy Golf &amp; Country Club v. Drake International Inc. (1986)": "314",
+        "Shaughnessy Golf &amp; Country Club \nv. Drake International Inc.": "731"
+      },
       "citations": {
         "1 B.C.L.R. (2d) 309": "314",
         "26 D.L.R. (4th) 298": "314",
@@ -1054,9 +1144,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Slavutych v. Baker",
       "docid": "Slavutych",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Slavutych v. Baker": "319",
+        "Slavutych v. \nBaker": "990"
+      },
       "citations": {
         "[1976] 1 S.C.R. 254": "319",
         "55 D.L.R. (3d) 224": "319",
@@ -1071,9 +1163,12 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Smith v. Jones",
       "docid": "Smith",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Smith v. Jones": "326",
+        "Smith \nv. Jones": "856",
+        "Smith v. \nJones": "1109"
+      },
       "citations": {
         "[1999] 1 S.C.R. 455": "326",
         "62 B.C.L.R. (3d) 209": "326",
@@ -1110,9 +1205,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Solosky v. R.",
       "docid": "Solosky",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Solosky v. R.": "335"
+      },
       "citations": {
         "[1980] 1 S.C.R. 821": "335",
         "105 D.L.R. (3d) 745": "335",
@@ -1131,9 +1227,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Somerville Belkin Industries Ltd. v. Brocklesby Transport (1985)",
       "docid": "Somerville Belkin",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Somerville Belkin Industries Ltd. v. Brocklesby Transport (1985)": "342",
+        "Somerville Belkin Industries Ltd. \nv. Brocklesby Transport": "750"
+      },
       "citations": {
         "65 B.C.L.R. 260": "342",
         "[1985] 6 W.W.R. 85": "342",
@@ -1149,9 +1247,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Strauss v. Goldsack",
       "docid": "Strauss",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Strauss v. Goldsack": "347"
+      },
       "citations": {
         "(1976), 58 D.L.R. (3d) 397 (Alta. C.A.)": "347",
         "(1976), 58 D.L.R. (3d) 397": "980"
@@ -1168,9 +1267,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Susan Hosiery Ltd. v. M.N.R.",
       "docid": "Susan Hosiery",
       "alternative_titles": {
+        "Susan Hosiery Ltd. v. M.N.R.": "350",
+        "Susan Hosiery \nLtd. v. M.N.R.": "854",
         "Susan Hosiery": "873",
         "Susan Hosiery \nLtd.": "890"
       },
@@ -1192,9 +1292,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "United States of America v. American Telephone and Telegraph Company",
       "docid": "American Telephone and Telegraph",
       "alternative_titles": {
+        "United States of America v. American Telephone and Telegraph Company": "355",
+        "United \nStates of America v. American Telephone and Telegraph Company": "581",
         "United States v. American Telephone": "615"
       },
       "citations": {
@@ -1209,9 +1310,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Voth Bros. Construction (1974) Ltd. v. North Vancouver Board of School Trustees (1981)",
       "docid": "Voth Bros. Construction",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Voth Bros. Construction (1974) Ltd. v. North Vancouver Board of School Trustees (1981)": "358",
+        "Voth Bros. Construction (1974) Ltd. v. North \nVancouver Board of School Trustees": "527"
+      },
       "citations": {
         "29 B.C.L.R. 114": "358",
         "[1981] 5 W.W.R. 91": "358",
@@ -1226,9 +1329,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Walters v. Toronto Transit Commission",
       "docid": "Walters",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Walters v. Toronto Transit Commission": "363",
+        "Walters v. Toronto Transit \nCommission (1985)": "760"
+      },
       "citations": {
         "(1985), 50 O.R. (2d) 635": "363",
         "4 C.P.C. (2d) 66 (H.C.J.)": "363",
@@ -1244,9 +1349,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Waugh v. British Railways Board",
       "docid": "Waugh",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Waugh v. British Railways Board": "367",
+        "Waugh v. British \nRailways Board": "513"
+      },
       "citations": {
         "[1979] 2 All E.R. 1169": "367",
         "[1979] 3 W.L.R. 150": "367",
@@ -1262,10 +1369,12 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Wheeler v. Le Marchant (1881)",
       "docid": "Wheeler",
       "alternative_titles": {
-        "Wheeler": "892"
+        "Wheeler v. Le Marchant (1881)": "372",
+        "Wheeler v. Le Marchant": "822",
+        "Wheeler": "892",
+        "Wheeler v. La Marchant": "894"
       },
       "citations": {
         "17 Ch. D. 675": "372",
@@ -1284,9 +1393,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Yri-York Ltd. v. Commercial Union Assurance Co. of Canada (1987)",
       "docid": "Yri-York",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Yri-York Ltd. v. Commercial Union Assurance Co. of Canada (1987)": "379",
+        "Yri-York Ltd. v. \nCommercial Union Assurance Co. of Canada (1987)": "959"
+      },
       "citations": {
         "17 C.P.C. (2d) 181 (Ont. H.C.J.)": "379",
         "17 C.P.C. (2d) \n181 (Ont. H.C.J.)": "959"
@@ -1300,9 +1411,11 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "American Revised Uniform Evidence Rules",
       "docid": "American Revised Uniform Evidence Rules",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "American Revised Uniform Evidence Rules": "382",
+        "American \nRevised Uniform Evidence Rules": "896"
+      },
       "citations": {
         "(1986 amendment)": "382",
         "1986 amendment": "896"
@@ -1319,9 +1432,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Rules of Civil Procedure",
       "docid": "Rules of Civil Procedure",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Rules of Civil Procedure": "386"
+      },
       "citations": {
         "R.R.O. 1990, Reg. 194": "386"
       },
@@ -1344,9 +1458,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "U.S. Rules of Federal Procedure",
       "docid": "U.S. Rules of Federal Procedure",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "U.S. Rules of Federal Procedure": "394"
+      },
       "citations": {},
       "fragments_mentioned": {
         "Rule 26(b)(iii)": "394"
@@ -1357,9 +1472,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Attorney-Client Privilege",
       "docid": "Attorney-Client Privilege",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Attorney-Client Privilege": "397"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -1368,9 +1484,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Commentary: Discovery -- Production of Documents --   Claim of Privilege to Prevent Disclosure",
       "docid": "Commentary: Discovery - Production of documents",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Commentary: Discovery -- Production of Documents --   Claim of Privilege to Prevent Disclosure": "400",
+        "Commentary: Discovery \n-- Production of Documents -- Claim of Privilege to Prevent \nDisclosure": "976"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {
@@ -1382,9 +1500,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Judging the Privilege",
       "docid": "Judging the Privilege",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Judging the Privilege": "404",
+        "Judging the \nPrivilege": "966"
+      },
       "citations": {},
       "fragments_mentioned": {
         "pp. 14-19": "404"
@@ -1398,9 +1518,14 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Solicitor-Client Privilege in Canadian Law",
       "docid": "Solicitor-Client Privilege",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Solicitor-Client Privilege in Canadian Law": "409",
+        "Solicitor-Client \nPrivilege in Canadian Law": "674",
+        "Solicitor-Client Privilege in \nCanadian Law": "813",
+        "Solicitor-Client Privilege in Canadian \nLaw": "972",
+        "Solicitor-Client Privelega in \nCanadian Law": "1023"
+      },
       "citations": {},
       "fragments_mentioned": {
         "pp. 20-23": "409",
@@ -1424,9 +1549,9 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "McCormick on Evidence",
       "docid": "McCormick on Evidence",
       "alternative_titles": {
+        "McCormick on Evidence": "418",
         "McCormick": "728"
       },
       "citations": {},
@@ -1447,9 +1572,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Report on Evidence",
       "docid": "Report on Evidence",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Report on Evidence": "425",
+        "Report \non Evidence": "1124"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p.   31": "425",
@@ -1463,9 +1590,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Claiming Privilege in the Discovery Process",
       "docid": "Claiming Privilege in the Discovery",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Claiming Privilege in the Discovery Process": "430",
+        "Claiming \nPrivilege in the Discovery Process": "486"
+      },
       "citations": {},
       "fragments_mentioned": {
         "pp. 163": "430",
@@ -1482,9 +1611,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The Law of Evidence in Canada",
       "docid": "The Law of Evidence",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Law of Evidence in Canada": "436",
+        "The Law of \nEvidence in Canada": "479"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 653": "436"
@@ -1497,9 +1628,13 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Solicitor-Client Privilege and Litigation   Privilege in Civil Litigation",
       "docid": "Litigation Privilege in Civil Litigation",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Solicitor-Client Privilege and Litigation   Privilege in Civil Litigation": "441",
+        "Solicitor-Client Privilege and Litigation Privilege in \nCivil Litigation": "817",
+        "Solicitor-Client Privilege and Litigation \nPrivilege in Civil Litigation": "886",
+        "Solicitor- \nClient Privilege and Litigation Privilege in Civil \nLitigation": "1050"
+      },
       "citations": {},
       "fragments_mentioned": {
         "pp. 333-35": "441",
@@ -1518,9 +1653,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Wigmore, Evidence",
       "docid": "Evidence",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Wigmore, Evidence": "448"
+      },
       "citations": {},
       "fragments_mentioned": {
         "2292": "448"
@@ -1533,9 +1669,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Points in the Law of Discovery",
       "docid": "Points in the Law",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Points in the Law of Discovery": "454"
+      },
       "citations": {},
       "fragments_mentioned": {
         "pp.   265-66": "454",
@@ -1549,9 +1686,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Civil Litigation Trial Preparation in Canada",
       "docid": "Civil Litigation Trial Preparation",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Civil Litigation Trial Preparation in Canada": "459",
+        "Civil Litigation Trial \nPreparation in Canada": "635"
+      },
       "citations": {},
       "fragments_mentioned": {
         "pp. 37-38": "459"
@@ -1565,9 +1704,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Privilege in Experts' Working Papers",
       "docid": "Privilege in Experts",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Privilege in Experts' Working Papers": "464"
+      },
       "citations": {},
       "fragments_mentioned": {
         "pp. 361-65": "464",
@@ -1583,7 +1723,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "General Accident Assurance ONPC 1997",
       "alternative_titles": {},
       "citations": {
@@ -1599,7 +1738,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "GAF Corp.",
       "alternative_titles": {
         "GAF Corp.": "585"
@@ -1612,9 +1750,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Baker v. Campbell",
       "docid": "Baker",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Baker v. Campbell": "631"
+      },
       "citations": {
         "(1983), 153 C.L.R. 52": "631"
       },

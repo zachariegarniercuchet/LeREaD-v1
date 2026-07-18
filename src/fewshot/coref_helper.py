@@ -5,13 +5,10 @@ def sample_reference_profile_subset(
     rpr: ReferenceProfileRegistry,
     docid,
     doc_type: str = None,
-    include_docid="yes",
     length: int = None,
     min_length: int = None,
     max_length: int = None,
     seed: int = None,
-    p: float = 0.7,
-    must_include_main_title: bool = True
 ) -> ReferenceProfileRegistry:
     """
     Build a random subset of `rpr` as a new ReferenceProfileRegistry.
@@ -47,60 +44,21 @@ def sample_reference_profile_subset(
     -------
     ReferenceProfileRegistry
         A new list containing the sampled subset of profiles.
-
-    Raises
-    ------
-    ValueError
-        If include_docid is not one of "yes"/"no"/"random"; if include_docid
-        is "yes" but no profile with `docid` exists in `rpr`; if neither
-        `length` nor a valid (min_length, max_length) pair is given; or if
-        the requested subset size is larger than what's available.
     """
-    if include_docid not in ("yes", "no", "random"):
-        raise ValueError(
-            f"include_docid must be 'yes', 'no', or 'random', got {include_docid!r}"
-        )
 
     rng = random.Random(seed)
 
     all_profiles = list(rpr)
     if doc_type is not None:
         all_profiles = [prof for prof in all_profiles if prof.doc_type == doc_type]
-    if must_include_main_title:
-        all_profiles = [prof for prof in all_profiles if prof.main_title is not None]
+
     target_profile = rpr.get_profile_by_docid(docid)
 
-    if include_docid == "yes" and target_profile is None:
-        raise ValueError(f"docid {docid!r} not found in the given ReferenceProfileRegistry")
-
-    # Decide, for this call, whether the target profile should be forced in,
-    # forced out, or absent because it doesn't exist.
-    force_include_target = False
-    force_exclude_target = False
-
-    if target_profile is None:
-        # Nothing to force either way; "no" and "random" are trivially satisfied.
-        force_exclude_target = True
-    elif include_docid == "yes":
-        force_include_target = True
-    elif include_docid == "no":
-        force_exclude_target = True
-    else:  # "random"
-        if rng.random() < p:
-            force_include_target = True
-        else:
-            force_exclude_target = True
 
     # Pool of profiles eligible to fill the "free" slots of the subset
     # (everything except the target profile, which is handled separately).
     other_profiles = [prof for prof in all_profiles if prof is not target_profile]
 
-    # Work out the desired subset size.
-    # Max possible size of the final subset given the forced inclusion/exclusion:
-    if force_include_target:
-        max_possible = 1 + len(other_profiles)
-    else:
-        max_possible = len(other_profiles)
 
     if length is not None:
         subset_size = length
@@ -117,13 +75,13 @@ def sample_reference_profile_subset(
         raise ValueError("Computed subset size is negative")
 
     # How many additional (non-target) profiles do we need to fill the subset?
-    remaining_slots = subset_size - 1 if force_include_target else subset_size
+    remaining_slots = subset_size - 1 if target_profile else subset_size
     remaining_slots = max(remaining_slots, 0)
 
     chosen_others = rng.sample(other_profiles, min(remaining_slots, len(other_profiles))) if remaining_slots > 0 else []
 
     subset_profiles = list(chosen_others)
-    if force_include_target:
+    if target_profile is not None:
         subset_profiles.append(target_profile)
 
     # Shuffle so the target profile (if forced in) isn't always last.
@@ -170,27 +128,22 @@ def example_to_string(example_input: dict, docid: str, doctype: str, max_fragmen
     """
     rpr = ReferenceProfileRegistry.from_dict(example_input["profileRegistry"])
 
-    attributes = ["main_title", "alternative_titles",
+    attributes = ["docid", "alternative_titles",
                   "citations", "fragments_mentioned", "authors"]
 
     
     filtered_rpr = sample_reference_profile_subset(
         rpr=rpr,
         docid=docid,
-        include_docid = "yes",
         doc_type=doctype,
         min_length = 1,
         max_length = 10,
         seed=None,
-        p = 0.8,
     )
-    
-
-    rpr_main_title = filtered_rpr.replace_docid_with_main_title()
-        
+            
     profiles_formatted = [
         format_profile_for_prompt(profile.to_dict(attributes=attributes), max_fragments=max_fragments)
-        for profile in rpr_main_title
+        for profile in filtered_rpr
     ]
 
     lines = []

@@ -22,16 +22,20 @@ import re
 from typing import List, Optional, Dict, Any, Tuple
 from datetime import datetime
 from collections import defaultdict
+from src.ann_extractor import get_mention_upper_context
+
 
 from bs4 import BeautifulSoup
 from tqdm import tqdm
+
+from src.transforme_utils import clean_tokens
 
 # Setup project path
 PROJECT_ROOT = Path.cwd()
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from configs.config import DATA_DIR, FEWSHOT_CACHE_DIR, PROMPT_DIR, SPLITS
+from configs.config import CONTEXT_MAX_TOKENS, DATA_DIR, FEWSHOT_CACHE_DIR, PROMPT_DIR, SPLITS
 
 
 from configs.constants import MODEL_MAPPING_NAME
@@ -46,7 +50,7 @@ from src.rpr import ReferenceProfileRegistry
 from src.coref_run_config import CorefRunConfig
 
 DEFAULT_PROFILE_ATTRIBUTES = [
-    "main_title",
+    "docid",
     "alternative_titles",
     "citations",
     "fragments_mentioned",
@@ -170,6 +174,7 @@ def get_checkpoint(exp_dir: Path, filename: str) -> Optional[Dict[str, str]]:
 # =============================================================================
 
 def process_document_coref(
+    html_content:str,
     mentions: List[Any],
     system_prompt: str,
     fewshot_examples: List[tuple],
@@ -196,6 +201,10 @@ def process_document_coref(
         mention_id = mention.html_tag.attributes["id"]
         prepared_tokens = prepare_label_tokens(tokenize(mention.html_str), input_label_config)
 
+        context = get_mention_upper_context(html = decode(clean_tokens(tokenize(html_content), keep_manual_label=False, keep_auto_label=False, protected_id=mention_id)), 
+                                            mention=mention,
+                                            max_tokens=CONTEXT_MAX_TOKENS)
+
         profiles_formatted = [
             format_profile_for_prompt(profile.to_dict(attributes=profile_attributes), max_fragments=max_fragments)
             for profile in rpr
@@ -204,8 +213,8 @@ def process_document_coref(
         lines += [f"  Profile {i}: {p}" for i, p in enumerate(profiles_formatted)]
         profiles_str = "\n".join(lines)
 
-        user_input = decode(prepared_tokens) + "\n" + profiles_str
-
+        user_input = decode(prepared_tokens) + "\n Upper Context : \n" + context + "\n" + profiles_str
+        #print(user_input)
         messages = get_messages(
             system_prompt=system_prompt,
             user_input=user_input,
@@ -223,6 +232,9 @@ def process_document_coref(
             continue
 
         mention.html_tag.set_attribute("docid", docid_generated)
+
+        profile = rpr.update_from_mention(ReferenceMention(mention.html_str))
+
         result[mention_id] = docid_generated
 
 
@@ -278,6 +290,7 @@ def process_file_coref(filename: str, run: CorefRunConfig, assistant, exp_dir: P
     else:
         print("[Step 5] Resolving coreference...")
         result, failed_count = process_document_coref(
+            html_content=html_content,
             mentions=mentions,
             system_prompt=system_prompt,
             fewshot_examples=fewshot_examples,

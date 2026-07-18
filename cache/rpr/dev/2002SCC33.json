@@ -3,9 +3,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Housen v. Nikolaisen",
       "docid": "Housen SCC 2002",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Housen v. Nikolaisen": "0"
+      },
       "citations": {
         "[2002] 2 S.C.R. 235": "0",
         "2002 SCC 33": "0"
@@ -40,10 +41,12 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "The Rural Municipality Act, 1989",
       "docid": "Rural Municipality Act",
       "alternative_titles": {
-        "Act": "651"
+        "The Rural Municipality Act, 1989": "8",
+        "Rural Municipality Act, 1989": "16",
+        "Act": "651",
+        "Rural Municipality Act": "888"
       },
       "citations": {
         "S.S. 1989‑90, c. R‑26.1": "8",
@@ -66,9 +69,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Schwartz v. Canada",
       "docid": "Schwartz",
       "alternative_titles": {
+        "Schwartz v. Canada": "19",
         "Schwartz": "332"
       },
       "citations": {
@@ -83,9 +86,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Toneguzzo‑Norvell (Guardian ad litem of) v. Burnaby Hospital",
       "docid": "Toneguzzo-Norvell",
       "alternative_titles": {
+        "Toneguzzo‑Norvell (Guardian ad litem of) v. Burnaby Hospital": "22",
+        "Toneguzzo-Norvell (Guardian ad litem of) v. Burnaby Hospital": "262",
         "Toneguzzo-Norvell": "383"
       },
       "citations": {
@@ -105,9 +109,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Van de Perre v. Edwards",
       "docid": "Van de Perre",
       "alternative_titles": {
+        "Van de Perre v. Edwards": "25",
+        "Van de Perre  v. Edwards": "265",
         "Van de Perre": "486"
       },
       "citations": {
@@ -124,9 +129,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canada (Director of Investigation and Research) v. Southam Inc.",
       "docid": "Southam",
       "alternative_titles": {
+        "Canada (Director of Investigation and Research) v. Southam Inc.": "29",
         "Southam": "413"
       },
       "citations": {
@@ -147,9 +152,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Stein v. The Ship “Kathy K”",
       "docid": "Stein",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Stein v. The Ship “Kathy K”": "32",
+        "Stein v. The Ship“Kathy K”": "694"
+      },
       "citations": {
         "[1976] 2 S.C.R. 802": "32"
       },
@@ -162,9 +169,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Geffen v. Goodman Estate",
       "docid": "Geffen",
       "alternative_titles": {
+        "Geffen v. Goodman Estate": "35",
         "Geffen": "360"
       },
       "citations": {
@@ -179,9 +186,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Jaegli Enterprises Ltd. v. Taylor",
       "docid": "Jaegli Enterprises",
       "alternative_titles": {
+        "Jaegli Enterprises Ltd. v. Taylor": "38",
         "Jaegli Enterprises": "471"
       },
       "citations": {
@@ -197,9 +204,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "McCannell v. McLean",
       "docid": "McCannell",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "McCannell v. McLean": "41"
+      },
       "citations": {
         "[1937] S.C.R. 341": "41"
       },
@@ -212,10 +220,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Partridge v. Rural Municipality of Langenburg",
       "docid": "Partridge",
       "alternative_titles": {
-        "Partridge": "482"
+        "Partridge v. Rural Municipality of Langenburg": "44",
+        "Partridge": "482",
+        "Partridge v. Rural Municipality of Langenberg": "635"
       },
       "citations": {
         "[1929] 3 W.W.R. 555": "44",
@@ -232,9 +241,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Galaske v. O’Donnell",
       "docid": "Galaske",
       "alternative_titles": {
+        "Galaske v. O’Donnell": "47",
         "Galaske": "451"
       },
       "citations": {
@@ -250,9 +259,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Gottardo Properties (Dome) Inc. v. Toronto (City) (1998)",
       "docid": "Gottardo Properties",
       "alternative_titles": {
+        "Gottardo Properties (Dome) Inc. v. Toronto (City) (1998)": "50",
         "Gottardo Properties": "328"
       },
       "citations": {
@@ -268,9 +277,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Underwood v. Ocean City Realty Ltd. (1987)",
       "docid": "Underwood",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Underwood v. Ocean City Realty Ltd. (1987)": "53"
+      },
       "citations": {
         "12 B.C.L.R. (2d) 199": "53",
         "12 B.C.L.R. (2d) 199 (C.A.)": "283"
@@ -284,9 +294,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Woods Manufacturing Co. v. The King",
       "docid": "Woods Manufacturing",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Woods Manufacturing Co. v. The King": "56"
+      },
       "citations": {
         "[1951] S.C.R. 504": "56"
       },
@@ -299,9 +310,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Ingles v. Tutkaluk Construction Ltd.",
       "docid": "Ingles",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Ingles v. Tutkaluk Construction Ltd.": "59"
+      },
       "citations": {
         "[2000] 1 S.C.R. 298": "59",
         "2000 SCC 12": "59"
@@ -315,9 +327,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Ryan v. Victoria (City)",
       "docid": "Ryan",
       "alternative_titles": {
+        "Ryan v. Victoria (City)": "63",
         "Ryan": "556"
       },
       "citations": {
@@ -334,9 +346,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Consolboard Inc. v. MacMillan Bloedel (Saskatchewan) Ltd.",
       "docid": "Consolboard",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Consolboard Inc. v. MacMillan Bloedel (Saskatchewan) Ltd.": "66"
+      },
       "citations": {
         "[1981] 1 S.C.R. 504": "66"
       },
@@ -349,9 +362,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Anderson v. Bessemer City",
       "docid": "Anderson",
       "alternative_titles": {
+        "Anderson v. Bessemer City": "69",
         "Anderson": "385"
       },
       "citations": {
@@ -367,9 +380,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Schreiber Brothers Ltd. v. Currie Products Ltd.",
       "docid": "Schreiber Brothers",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Schreiber Brothers Ltd. v. Currie Products Ltd.": "72",
+        "Schreiber Products Ltd. v. Currie Brothers Ltd.": "176"
+      },
       "citations": {
         "[1980] 2 S.C.R. 78": "72"
       },
@@ -383,9 +398,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Palsky v. Humphrey",
       "docid": "Palsky",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Palsky v. Humphrey": "75"
+      },
       "citations": {
         "[1964] S.C.R. 580": "75"
       },
@@ -398,9 +414,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Hodgkinson v. Simms",
       "docid": "Hodgkinson",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Hodgkinson v. Simms": "78"
+      },
       "citations": {
         "[1994] 3 S.C.R. 377": "78"
       },
@@ -413,9 +430,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Dube v. Labar",
       "docid": "Dube",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Dube v. Labar": "81"
+      },
       "citations": {
         "[1986] 1 S.C.R. 649": "81"
       },
@@ -428,9 +446,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "C.N.R. v. Muller",
       "docid": "Muller",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "C.N.R. v. Muller": "84"
+      },
       "citations": {
         "[1934] 1 D.L.R. 768": "84",
         "[1934] 1 D.L.R. 768 (S.C.C.)": "444"
@@ -442,9 +461,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "St‑Jean v. Mercier",
       "docid": "St-Jean",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "St‑Jean v. Mercier": "87",
+        "St-Jean v. Mercier": "455"
+      },
       "citations": {
         "[2002] 1 S.C.R. 491": "87",
         "2002 SCC 15": "87"
@@ -458,9 +479,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Rhône (The) v. Peter A.B. Widener (The)",
       "docid": "Rhône",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Rhône (The) v. Peter A.B. Widener (The)": "91",
+        "Rhône (The) v.  Peter A.B. Widener (The)": "463"
+      },
       "citations": {
         "[1993] 1 S.C.R. 497": "91"
       },
@@ -474,9 +497,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Cork v. Kirby MacLean, Ltd.",
       "docid": "Cork",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Cork v. Kirby MacLean, Ltd.": "94"
+      },
       "citations": {
         "[1952] 2 All E.R. 402": "94",
         "[1952] 2 All E.R. 402 (C.A.)": "574"
@@ -490,9 +514,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Matthews v. MacLaren (1969)",
       "docid": "Matthews",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Matthews v. MacLaren (1969)": "97"
+      },
       "citations": {
         "4 D.L.R. (3d) 557": "97",
         "4 D.L.R. (3d) 557 (Ont. H.C.)": "578"
@@ -506,9 +531,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15",
       "docid": "Toronto",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Toronto (City) Board of Education v. O.S.S.T.F., District 15": "109"
+      },
       "citations": {
         "[1997] 1 S.C.R. 487": "109"
       },
@@ -521,9 +547,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Fafard v. City of Quebec (1917)",
       "docid": "Fafard",
       "alternative_titles": {
+        "Fafard v. City of Quebec (1917)": "115",
         "Fafard": "831"
       },
       "citations": {
@@ -539,9 +565,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Kamloops (City of) v. Nielsen",
       "docid": "Kamloops",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Kamloops (City of) v. Nielsen": "122"
+      },
       "citations": {
         "[1984] 2 S.C.R. 2": "122"
       },
@@ -552,9 +579,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Swinamer v. Nova Scotia (Attorney General)",
       "docid": "Swinamer",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Swinamer v. Nova Scotia (Attorney General)": "125"
+      },
       "citations": {
         "[1994] 1 S.C.R. 445": "125"
       },
@@ -565,9 +593,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Taylor v. The Queen in Right of British Columbia",
       "docid": "Taylor BCCA 1980",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Taylor v. The Queen in Right of British Columbia": "131",
+        "Taylor (Guardian ad litem of) v. British Columbia (1980)": "773"
+      },
       "citations": {
         "(1980), 112 D.L.R. (3d) 297": "131",
         "112 D.L.R. (3d) 297": "773"
@@ -582,9 +612,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Taylor v. The Queen in Right of British Columbia (1978)",
       "docid": "Taylor BCSC 1978",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Taylor v. The Queen in Right of British Columbia (1978)": "770"
+      },
       "citations": {
         "(1978), 95 D.L.R. (3d) 82": "134",
         "95 D.L.R. (3d) 82": "770"
@@ -596,9 +627,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Brown v. British Columbia (Minister of Transportation and Highways)",
       "docid": "Brown",
       "alternative_titles": {
+        "Brown v. British Columbia (Minister of Transportation and Highways)": "136",
         "Brown": "941"
       },
       "citations": {
@@ -613,9 +644,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Joseph Brant Memorial Hospital v. Koziol",
       "docid": "Joseph Brant",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Joseph Brant Memorial Hospital v. Koziol": "145"
+      },
       "citations": {
         "[1978] 1 S.C.R. 491": "145"
       },
@@ -628,9 +660,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Williams v. Town of North Battleford (1911)",
       "docid": "Williams",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Williams v. Town of North Battleford (1911)": "148"
+      },
       "citations": {
         "4 Sask. L.R. 75": "148"
       },
@@ -643,9 +676,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Shupe v. Rural Municipality of Pleasantdale",
       "docid": "Shupe",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Shupe v. Rural Municipality of Pleasantdale": "151"
+      },
       "citations": {
         "[1932] 1 W.W.R. 627": "151",
         "[1932] 1 W.W.R. 627 (Sask. C.A.)": "640"
@@ -659,9 +693,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Galbiati v. City of Regina",
       "docid": "Galbiati",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Galbiati v. City of Regina": "154"
+      },
       "citations": {
         "[1972] 2 W.W.R. 40": "154",
         "[1972] 2 W.W.R. 40 (Sask. Q.B.)": "644"
@@ -673,9 +708,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Just v. British Columbia",
       "docid": "Just",
       "alternative_titles": {
+        "Just v. British Columbia": "157",
         "Just": "939"
       },
       "citations": {
@@ -689,9 +724,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Moge v. Moge",
       "docid": "Moge",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Moge v. Moge": "163"
+      },
       "citations": {
         "[1992] 3 S.C.R. 813": "163"
       },
@@ -704,9 +740,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Nova Scotia Pharmaceutical Society",
       "docid": "Nova Scotia Pharmaceutical Society",
       "alternative_titles": {
+        "R. v. Nova Scotia Pharmaceutical Society": "166",
         "Nova Scotia Pharmaceutical Society": "764"
       },
       "citations": {
@@ -723,9 +759,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Bose Corp. v. Consumers Union of U.S., Inc.",
       "docid": "Bose Corp.",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Bose Corp. v. Consumers Union of U.S., Inc.": "169"
+      },
       "citations": {
         "466 U.S. 485 (1984)": "169"
       },
@@ -738,9 +775,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Levey v. Rural Municipality of Rodgers, No. 133",
       "docid": "Levey",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Levey v. Rural Municipality of Rodgers, No. 133": "179",
+        "Levey v. Rural Municipality of Rodgers, No. 133": "804"
+      },
       "citations": {
         "[1921] 3 W.W.R. 764": "179",
         "[1921] 3 W.W.R. 764 (Sask. C.A.": "804"
@@ -754,9 +793,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Diebel Estate v. Pinto Creek No. 75 (Rural Municipality) (1996)",
       "docid": "Diebel Estate",
       "alternative_titles": {
+        "Diebel Estate v. Pinto Creek No. 75 (Rural Municipality) (1996)": "182",
+        "Diebel Estate v. Pinto Creek No. 75 (Rural Municipality) (1996)": "808",
         "Diebel Estate": "845"
       },
       "citations": {
@@ -773,9 +813,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Jennings",
       "docid": "Jennings",
       "alternative_titles": {
+        "R. v. Jennings": "185",
         "Jennings": "824"
       },
       "citations": {
@@ -790,9 +830,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "County of Parkland No. 31 v. Stetar",
       "docid": "County of Parkland",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "County of Parkland No. 31 v. Stetar": "188",
+        "County of Parkland No. 31 v. Stetar": "816"
+      },
       "citations": {
         "[1975] 2 S.C.R. 884": "188"
       },
@@ -805,9 +847,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Nelson v. Waverley (Rural Municipality) (1988)",
       "docid": "Nelson",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Nelson v. Waverley (Rural Municipality) (1988)": "191"
+      },
       "citations": {
         "65 Sask. R. 260": "191",
         "65 Sask. R. 260 (Q.B.)": "842"
@@ -819,9 +862,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Criminal Code",
       "docid": "Criminal Code",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Criminal Code": "194"
+      },
       "citations": {
         "R.S.C. 1985, c. C‑46": "194",
         "R.S.C. 1985, c. C-46": "606"
@@ -833,9 +877,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Highway Traffic Act",
       "docid": "Highway Traffic Act",
       "alternative_titles": {
+        "Highway Traffic Act": "197",
+        "The Highway Traffic Act": "532",
         "Act": "626"
       },
       "citations": {
@@ -852,7 +897,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Rural Municipality Amendment Act",
       "alternative_titles": {},
       "citations": {
@@ -867,7 +911,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Treaty Land Entitlement Implementation Act",
       "alternative_titles": {},
       "citations": {
@@ -882,9 +925,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Standards Relating to Appellate Courts",
       "docid": "Standards Relating to Appellate Courts",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Standards Relating to Appellate Courts": "212"
+      },
       "citations": {},
       "fragments_mentioned": {
         "pp. 24-25": "278"
@@ -898,9 +942,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Cambridge International Dictionary of English",
       "docid": "Cambridge International Dictionary",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Cambridge International Dictionary of English": "216"
+      },
       "citations": {},
       "fragments_mentioned": {
         "palpable": "216",
@@ -912,9 +957,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Appellate Review of Findings of Fact",
       "docid": "Appellate Review of Findings",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Appellate Review of Findings of Fact": "220"
+      },
       "citations": {},
       "fragments_mentioned": {
         "pp. 445-48": "335",
@@ -929,9 +975,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Appeals on Questions of Fact",
       "docid": "Appeals on Questions of Fact",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Appeals on Questions of Fact": "224"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 405": "404"
@@ -945,9 +992,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Standards of Review Employed by Appellate Courts",
       "docid": "Standards of Review",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Standards of Review Employed by Appellate Courts": "228"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 90": "302",
@@ -968,9 +1016,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "New Oxford Dictionary of English",
       "docid": "New Oxford Dictionary",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "New Oxford Dictionary of English": "232"
+      },
       "citations": {},
       "fragments_mentioned": {
         "palpable": "232",
@@ -982,9 +1031,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Random House Dictionary of the English Language",
       "docid": "Random House Dictionary",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Random House Dictionary of the English Language": "236"
+      },
       "citations": {},
       "fragments_mentioned": {
         "palpable": "236",
@@ -996,9 +1046,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The Doubtful Omniscience of Appellate Courts",
       "docid": "Doubtful Omniscience of Appellate Courts",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Doubtful Omniscience of Appellate Courts": "240"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 780": "269"
@@ -1012,7 +1063,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Shellbrook",
       "alternative_titles": {},
       "citations": {
@@ -1038,7 +1088,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Housen SKQB 1997",
       "alternative_titles": {},
       "citations": {
@@ -1069,9 +1118,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Fletcher v. Manitoba Public Insurance Co.",
       "docid": "Fletcher",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Fletcher v. Manitoba Public Insurance Co.": "340"
+      },
       "citations": {
         "[1990] 3 S.C.R. 191": "340"
       },
@@ -1084,9 +1134,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Métivier v. Cadorette",
       "docid": "Métivier",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Métivier v. Cadorette": "369"
+      },
       "citations": {
         "[1977] 1 S.C.R. 371": "369"
       },
@@ -1097,9 +1148,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Van Mol (Guardian ad Litem of) v. Ashmore (1999)",
       "docid": "Van Mol BCCA 1999",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Van Mol (Guardian ad Litem of) v. Ashmore (1999)": "490"
+      },
       "citations": {
         "168 D.L.R. (4th) 637 (B.C.C.A.": "490"
       },
@@ -1110,7 +1162,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Van Mol SCC 2000",
       "alternative_titles": {},
       "citations": {
@@ -1123,9 +1174,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "The Contributory Negligence Act",
       "docid": "Contributory Negligence Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Contributory Negligence Act": "615"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -1134,9 +1186,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Lester (W. W.) (1978) Ltd. v. United Association of Journeymen and Apprentices of the Plumbing and Pipefitting Industry, Local 740",
       "docid": "Lester",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Lester (W. W.) (1978) Ltd. v. United Association of Journeymen and Apprentices of the Plumbing and Pipefitting Industry, Local 740": "713"
+      },
       "citations": {
         "[1990] 3 S.C.R. 644": "713"
       },
@@ -1149,9 +1202,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Highway Improvement Act",
       "docid": "Highway Improvement Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Highway Improvement Act": "826"
+      },
       "citations": {
         "R.S.O. 1960, c. 171": "826"
       },
@@ -1162,9 +1216,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Anns v. Merton London Borough Council",
       "docid": "Anns",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Anns v. Merton London Borough Council": "936"
+      },
       "citations": {
         "[1978] A.C. 728": "936"
       },

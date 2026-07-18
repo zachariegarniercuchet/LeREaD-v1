@@ -3,9 +3,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Citation: MegumaGold Corp. (Re)",
       "docid": "MegumaGold",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Citation: MegumaGold Corp. (Re)": "0"
+      },
       "citations": {
         "2025 NBEUB 1": "0"
       },
@@ -16,9 +17,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "MINING ACT",
       "docid": "Mining Act",
       "alternative_titles": {
+        "MINING ACT": "3",
+        "Mining Act": "6",
         "Act": "6",
         "the Act": "55"
       },
@@ -45,9 +47,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Cadillac\nVentures Inc. and Ring of Fire Metals PYT Ltd. v. The Recorder",
       "docid": "Cadillac",
       "alternative_titles": {
+        "Cadillac\nVentures Inc. and Ring of Fire Metals PYT Ltd. v. The Recorder": "36",
         "Cadillac": "43"
       },
       "citations": {
@@ -60,9 +62,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Stewart v. New Brunswick (Mining Commissioner)",
       "docid": "Stewart",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Stewart v. New Brunswick (Mining Commissioner)": "39"
+      },
       "citations": {
         "(1995), N.B.R. (2d) 353 (Q.B.)": "39",
         "[1995] N.B.J. No. 191": "39"

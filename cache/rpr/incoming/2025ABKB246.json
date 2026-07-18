@@ -3,9 +3,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Durham Creek Energy Ltd v Chimera Management Group Ltd",
       "docid": "Durham",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Durham Creek Energy Ltd v Chimera Management Group Ltd": "0"
+      },
       "citations": {
         "2025 ABKB 246": "0"
       },
@@ -16,9 +17,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The Legal Characterization of Overriding Royalty Interests in Oil and Gas",
       "docid": "Legal Characterization of Overriding Royalty",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Legal Characterization of Overriding Royalty Interests in Oil and Gas": "3"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {
@@ -29,9 +31,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Bank of Montreal v Dynex Petroleum Ltd",
       "docid": "Dynex SCC 2002",
       "alternative_titles": {
+        "Bank of Montreal v Dynex Petroleum Ltd": "7",
         "Dynex SCC": "7",
         "Dynex": "72"
       },
@@ -45,9 +47,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "PrairieSky Royalty Ltd v Yangarra Resources Ltd",
       "docid": "PrairieSky",
       "alternative_titles": {
+        "PrairieSky Royalty Ltd v Yangarra Resources Ltd": "13",
         "PrairieSky": "86"
       },
       "citations": {
@@ -63,9 +65,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Vandergrift v Coseka Resources Ltd",
       "docid": "Vandergrift",
       "alternative_titles": {
+        "Vandergrift v Coseka Resources Ltd": "21",
         "Vandergrift": "39"
       },
       "citations": {
@@ -78,9 +80,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Bank of Montreal v Enchant Resources Ltd",
       "docid": "Dynex ABCA 1999",
       "alternative_titles": {
+        "Bank of Montreal v Enchant Resources Ltd": "24",
         "Dynex CA": "24"
       },
       "citations": {
@@ -97,9 +99,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land",
       "docid": "A Tale of Two Interests",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land": "45"
+      },
       "citations": {},
       "fragments_mentioned": {
         "227": "45"
@@ -112,9 +115,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Modernizing the Property Laws that Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry",
       "docid": "Modernizing the Property Laws",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Modernizing the Property Laws that Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry": "54"
+      },
       "citations": {},
       "fragments_mentioned": {
         "176": "54"
@@ -127,9 +131,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Let’s Talk About Royalties: The Continued Uncertainty Surrounding the Creation and Legal Status of the Overriding Royalty",
       "docid": "Let’s Talk About Royalties",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Let’s Talk About Royalties: The Continued Uncertainty Surrounding the Creation and Legal Status of the Overriding Royalty": "67"
+      },
       "citations": {},
       "fragments_mentioned": {
         "347": "67"
@@ -142,9 +147,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The Legal Status of a Gross Overriding Royalty Carved out of a Crown Lease",
       "docid": "Gross Overriding Royalty",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Legal Status of a Gross Overriding Royalty Carved out of a Crown Lease": "74"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {
@@ -155,9 +161,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Third Eye Capital Corporation v Dianor Resources Inc",
       "docid": "Third Eye Capital",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Third Eye Capital Corporation v Dianor Resources Inc": "78"
+      },
       "citations": {
         "2018 ONCA 253": "78"
       },
@@ -170,9 +177,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Creston Moly Corp v Sattva Capital Corp",
       "docid": "Creston Moly",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Creston Moly Corp v Sattva Capital Corp": "98"
+      },
       "citations": {
         "2014 SCC 53": "98"
       },
@@ -185,9 +193,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "IFP Technologies (Canada) Inc v EnCana Midstream and Marketing",
       "docid": "IFP Technologies",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "IFP Technologies (Canada) Inc v EnCana Midstream and Marketing": "102"
+      },
       "citations": {
         "2017 ABCA 157": "102"
       },
@@ -200,9 +209,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Manitok Energy Inc (Re)",
       "docid": "Manitok Energy",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Manitok Energy Inc (Re)": "114"
+      },
       "citations": {
         "2018 ABKB 488": "114"
       },

@@ -3,9 +3,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Charter of human rights and freedoms",
       "docid": "Quebec Charter",
       "alternative_titles": {
+        "Charter of human rights and freedoms": "0",
+        "Charter\nof human rights and freedoms": "3",
         "Charter": "3",
         "CHARTER": "154",
         "Quebec Charter": "172",
@@ -46,11 +47,15 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "By-law respecting standards of the Sûreté du Québec\nand municipal police forces for the hiring of constables and cadets",
       "docid": "Regulation 14",
       "alternative_titles": {
+        "By-law respecting standards of the Sûreté du Québec\nand municipal police forces for the hiring of constables and cadets": "10",
         "Regulation\n14": "10",
-        "Regulation 14": "14"
+        "Regulation 14": "14",
+        "By-law respecting standards of the Sûreté du Québec and\nmunicipal police forces for the hiring of constables and cadets": "140",
+        "By-law respecting standards of the Sûreté du Québec and municipal\npolice forces for the hiring of constables and cadets": "146",
+        "By-law respecting standards of the Sûreté du Québec and municipal police\nforces for the hiring of constables and cadets": "450",
+        "Bylaw respecting standards of the Sûreté\ndu Québec and municipal police forces for the hiring of constables and cadets": "769"
       },
       "citations": {
         "R.R.Q. 1981, c. P- 13, r.14": "633"
@@ -72,7 +77,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Montréal (Communauté urbaine) QCCS 2000",
       "alternative_titles": {},
       "citations": {},
@@ -83,7 +87,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Montréal (Communauté urbaine) QCCA 2000",
       "alternative_titles": {},
       "citations": {
@@ -96,10 +99,11 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Police Act",
       "docid": "Police Act",
       "alternative_titles": {
-        "Act": "452"
+        "Police Act": "27",
+        "Act": "452",
+        "Police\nAct": "477"
       },
       "citations": {
         "c. P-13": "465",
@@ -119,10 +123,11 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Criminal Code",
       "docid": "Criminal Code 1985",
       "alternative_titles": {
-        "Code": "285"
+        "Criminal Code": "34",
+        "Code": "285",
+        "Criminal\nCode": "366"
       },
       "citations": {
         "Revised Statutes of Canada,\n1985, chapter C-46": "143",
@@ -160,12 +165,14 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Criminal Records Act",
       "docid": "Criminal Records Act",
       "alternative_titles": {
+        "Criminal Records Act": "36",
         "the Act": "40",
+        "Criminal\nRecords Act": "302",
         "C.R.A": "304",
-        "C.R.A.": "308"
+        "C.R.A.": "308",
+        "Criminal Records\nAct": "311"
       },
       "citations": {
         "R.S.C. (1985) c. C-47": "650",
@@ -194,7 +201,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Bill C-71",
       "alternative_titles": {},
       "citations": {
@@ -207,9 +213,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Criminal Code",
       "docid": "Criminal Code 1970",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Criminal Code": "52"
+      },
       "citations": {
         "R.S.C. 1970, c. C-34": "52"
       },
@@ -220,9 +227,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "National Defence Act",
       "docid": "National Defence Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "National Defence Act": "123"
+      },
       "citations": {},
       "fragments_mentioned": {
         "subsection\n147.1(1)": "123"
@@ -233,10 +241,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Re Therrien",
       "docid": "Therrien",
       "alternative_titles": {
-        "Therrien": "157"
+        "Therrien": "157",
+        "Re Therrien": "663"
       },
       "citations": {
         "2001 SCC 35": "663"
@@ -252,10 +260,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Maksteel inc. v. Québec (Commission des droits de la personne et\ndes droits de la jeunesse)",
       "docid": "Maksteel QCCA 2000",
       "alternative_titles": {
-        "Maksteel": "184"
+        "Maksteel": "184",
+        "Maksteel inc. v. Québec (Commission des droits de la personne et\ndes droits de la jeunesse)": "666"
       },
       "citations": {
         "[2001] R.J.Q. 28 C.A.Q": "666"
@@ -267,9 +275,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "B.C. Human Rights Commission v.\nB.C. Human Rights Tribunal",
       "docid": "B.C. Human Rights Commission",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "B.C. Human Rights Commission v.\nB.C. Human Rights Tribunal": "192"
+      },
       "citations": {
         "2000 BCCA 584": "192"
       },
@@ -280,9 +289,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Commission des\ndroits de la personne v. Cie Price ltée",
       "docid": "Cie Price ltée",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Commission des\ndroits de la personne v. Cie Price ltée": "204"
+      },
       "citations": {
         "J.E. 81-866 (S.C.)": "204"
       },
@@ -293,9 +303,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Commission\ndes droits de la personne v. Montréal (Ville de)",
       "docid": "Montréal (Ville de)",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Commission\ndes droits de la personne v. Montréal (Ville de)": "207"
+      },
       "citations": {
         "J.E. 82-662 (S.C.)": "207"
       },
@@ -306,10 +317,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Mercier\nv. Beauport (Ville de)",
       "docid": "Mercier",
       "alternative_titles": {
-        "Mercier": "247"
+        "Mercier\nv. Beauport (Ville de)": "210",
+        "Mercier": "247",
+        "Quebec (Commission des droits de la\npersonne et des droits de la jeunesse) v. Montréal (City); Quebec (Commission\ndes droits de la personne et des droits de la jeunesse) v. Boisbriand (City)": "675"
       },
       "citations": {
         "[1981] P.C. 292": "210",
@@ -327,7 +339,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Syndicat du textile de Montmagny inc.",
       "alternative_titles": {
         "Syndicat du textile de Montmagny inc.": "215"
@@ -340,10 +351,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Béliveau St-Jacques v. Fédération des employées et employés\nde services publics inc.",
       "docid": "Béliveau St-Jacques",
       "alternative_titles": {
-        "Béliveau-St-Jacques": "241"
+        "Béliveau-St-Jacques": "241",
+        "Béliveau St-Jacques v. Fédération des employées et employés\nde services publics inc.": "671"
       },
       "citations": {
         "[1996] 2 S.C.R. 345": "671"
@@ -357,10 +368,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "McLaughlin v. Fletcher Challenge Canada Ltd",
       "docid": "McLaughlin",
       "alternative_titles": {
-        "McLaughlin": "270"
+        "McLaughlin": "270",
+        "McLaughlin v. Fletcher Challenge Canada Ltd": "687"
       },
       "citations": {
         "[2000] B.C.J. No 2162, 2000 BCCA\n584": "687"
@@ -378,9 +389,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Human Rights Code[16] of British Columbia",
       "docid": "Human Rights Code British Columbia",
       "alternative_titles": {
+        "Human Rights Code[16] of British Columbia": "272",
+        "British Columbia Human Rights Code": "552",
         "Human Rights Code": "554",
         "Human Rights Act": "558"
       },
@@ -397,7 +409,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Supreme Court Act",
       "alternative_titles": {
         "S.C.A": "299"
@@ -412,9 +423,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Young Offenders Act",
       "docid": "Young Offenders Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Young Offenders Act": "320"
+      },
       "citations": {
         "R.S.C.\n1985, c. Y-1": "320"
       },
@@ -427,7 +439,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Loi sur le casier judiciaire",
       "alternative_titles": {
         "French version of the Act": "326"
@@ -440,7 +451,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Charter",
       "alternative_titles": {
         "Canadian": "332"
@@ -453,9 +463,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Pénologie - Le\ndroit canadien relatif aux peines et aux sentences",
       "docid": "Pénologie droit canadien",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Pénologie - Le\ndroit canadien relatif aux peines et aux sentences": "710"
+      },
       "citations": {},
       "fragments_mentioned": {
         "439": "710",
@@ -473,10 +484,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Rozon\nv. R",
       "docid": "Rozon",
       "alternative_titles": {
-        "Rozon": "371"
+        "Rozon": "371",
+        "Rozon\nv. R": "719"
       },
       "citations": {
         "[1999] R.J.Q. 805": "719"
@@ -488,9 +499,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "La discrimination\nfondée sur le motif des antécédents judiciaires et les instruments\nanti-discriminatoires canadiens",
       "docid": "Discrimination fondée sur antécédents",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "La discrimination\nfondée sur le motif des antécédents judiciaires et les instruments\nanti-discriminatoires canadiens": "726"
+      },
       "citations": {},
       "fragments_mentioned": {
         "474": "726"
@@ -504,9 +516,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Professional Code",
       "docid": "Professional Code",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Professional Code": "394"
+      },
       "citations": {
         "R.S.Q. c. C-26": "733"
       },
@@ -519,10 +532,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Péloquin v. Syndicat des agents de la paix en\nservices correctionnels du Québec",
       "docid": "Péloquin",
       "alternative_titles": {
-        "Péloquin": "411"
+        "Péloquin": "411",
+        "Péloquin v. Syndicat des agents de la paix en\nservices correctionnels du Québec": "735"
       },
       "citations": {
         "[2001] R.J.Q. 2215": "735"
@@ -540,9 +553,12 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Act respecting police\norganization",
       "docid": "Act respecting police organization",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Act respecting police\norganization": "415",
+        "Act\nrespecting police organization": "418",
+        "Act respecting\npolice organization": "428"
+      },
       "citations": {},
       "fragments_mentioned": {
         "Section 169": "415",
@@ -556,7 +572,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "By-law 106-114",
       "alternative_titles": {
         "By-law\n106-114": "421",
@@ -573,7 +588,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Code of ethics",
       "alternative_titles": {
         "Code\nof ethics": "432",
@@ -587,10 +601,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Dickason v. University of Alberta",
       "docid": "Dickason",
       "alternative_titles": {
-        "Dickason": "540"
+        "Dickason": "540",
+        "Dickason v. University of Alberta": "748"
       },
       "citations": {
         "[1992] 2 S.C.R. 1103": "748"
@@ -605,10 +619,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Ontario Human Rights Commission v. Municipality of Etobicoke",
       "docid": "Etobicoke",
       "alternative_titles": {
-        "Etobicoke": "542"
+        "Etobicoke": "542",
+        "Ontario Human Rights Commission v. Municipality of Etobicoke": "752"
       },
       "citations": {
         "[1982] 1 S.C.R.\n202": "752"
@@ -622,10 +636,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Ontario Human Rights Code",
       "docid": "Ontario Human Rights Code",
       "alternative_titles": {
-        "Code": "544"
+        "Code": "544",
+        "Ontario Human Rights Code": "548"
       },
       "citations": {},
       "fragments_mentioned": {
@@ -637,10 +651,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Insurance Corp. of British Columbia v. Heerspink",
       "docid": "Heerspink",
       "alternative_titles": {
-        "Heerspink": "550"
+        "Heerspink": "550",
+        "Insurance Corp. of British Columbia v. Heerspink": "756"
       },
       "citations": {
         "[1982] 2 S.C.R. 145": "756"
@@ -654,10 +668,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Winnipeg School Division No. 1 v. Craton",
       "docid": "Craton",
       "alternative_titles": {
-        "Craton": "556"
+        "Craton": "556",
+        "Winnipeg School Division No. 1 v. Craton": "760"
       },
       "citations": {
         "[1985] 2 S.C.R. 150": "760"
@@ -671,9 +685,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Claude Poirier v. Ville de Montréal",
       "docid": "Claude Poirier",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Claude Poirier v. Ville de Montréal": "617",
+        "CDPDJ (Claude Poirier) v. Ville\nde Montréal": "774"
+      },
       "citations": {
         "[1995] 22 CHRR D/325": "774"
       },
@@ -686,10 +702,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "CDPDJ (Perrier) v. Ville\nd'Aylmer",
       "docid": "Perrier",
       "alternative_titles": {
-        "Perrier": "619"
+        "Perrier": "619",
+        "CDPDJ (Perrier) v. Ville\nd'Aylmer": "778"
       },
       "citations": {
         "HRTQ, Hull, 500-53-000006-984, September 17, 1998, Rivet J": "778"
@@ -701,10 +717,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "CDPDJ (Bichet) v. CHUM,\nHRTQ, Montréal",
       "docid": "Bichet",
       "alternative_titles": {
-        "Bichet": "621"
+        "Bichet": "621",
+        "CDPDJ (Bichet) v. CHUM,\nHRTQ, Montréal": "781"
       },
       "citations": {
         "500-53-000104-982, August 30, 2000, d'Amours J.": "781"
@@ -718,9 +734,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Act\nrespecting the Ministère du Revenu",
       "docid": "An Act respecting ministère du Revenu",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Act\nrespecting the Ministère du Revenu": "627"
+      },
       "citations": {
         "R.S.Q. c. M-31": "627"
       },
@@ -733,9 +750,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "orders in council 1659-86",
       "docid": "order in council 1659-86",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "orders in council 1659-86": "635"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -744,7 +762,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "order in council 1475-92",
       "alternative_titles": {
         "1475-92": "637"
@@ -757,9 +774,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Cie Minière Quebec Cartier v. Quebec\n(Grievances arbitrator)",
       "docid": "Compagnie minière Québec Cartier",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Cie Minière Quebec Cartier v. Quebec\n(Grievances arbitrator)": "642"
+      },
       "citations": {
         "[1995] 2 S.C.R. 1101": "642"
       },
@@ -772,9 +790,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Farber\nv. Royal Trust Company",
       "docid": "Farber",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Farber\nv. Royal Trust Company": "646"
+      },
       "citations": {
         "[1997] 1 S.C.R. 869": "646"
       },
@@ -787,9 +806,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Police Act",
       "docid": "Police Act 2000",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Police Act": "658"
+      },
       "citations": {
         "S.Q. 2000, c. 12": "658",
         "S.Q.\n2000, C-12": "722"
@@ -804,7 +824,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Maksteel SCC 2001",
       "alternative_titles": {},
       "citations": {
@@ -817,9 +836,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Le casier\njudiciaire : criminel un jour, criminel toujours?",
       "docid": "Le casier judiciaire",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Le casier\njudiciaire : criminel un jour, criminel toujours?": "698"
+      },
       "citations": {},
       "fragments_mentioned": {
         "132": "698"
@@ -832,9 +852,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "CDPDJ (Reeves) v. Fondation\nAbbé Charles-Émile Gadbois et al.",
       "docid": "Reeves",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "CDPDJ (Reeves) v. Fondation\nAbbé Charles-Émile Gadbois et al.": "785"
+      },
       "citations": {
         "HRTQ, Montréal, 500-53-000149-003,\nAugust 27, 2001, d'Amours J": "785"
       },

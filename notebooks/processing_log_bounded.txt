@@ -1,0 +1,1386 @@
+================================================================================
+PASS 1 | MENTION id=1
+================================================================================
+{
+  "timestamp": "2026-07-03T16:31:41.507860",
+  "pass": 1,
+  "id": "1",
+  "user_input": "<decision><title>Mouvement laïque québécois c.\n  English Montreal School Board</title></decision>",
+  "docid_generated": "Mouvement laïque québécois c. English Montreal School Board",
+  "main_title": "Mouvement laïque québécois c.\n  English Montreal School Board",
+  "profile_docid": "Mouvement laïque québécois c. English Montreal School Board",
+  "registry_size_after": 1
+}
+
+================================================================================
+PASS 1 | MENTION id=4
+================================================================================
+{
+  "timestamp": "2026-07-03T16:31:42.694678",
+  "pass": 1,
+  "id": "4",
+  "user_input": "<legislation><fragment>661 <i>C.C.P.</i></fragment><i></i></legislation>",
+  "docid_generated": "Code de procédure civile (Québec)",
+  "main_title": null,
+  "profile_docid": "Code de procédure civile (Québec)",
+  "registry_size_after": 2
+}
+
+================================================================================
+PASS 1 | MENTION id=6
+================================================================================
+{
+  "timestamp": "2026-07-03T16:31:44.135462",
+  "pass": 1,
+  "id": "6",
+  "user_input": "<legislation> <i></i><title><i>Act respecting the\nlaicity of the State</i> </title>(“<i><title>Laicity Act</title></i>” or “<i><title>Act</title></i>”</legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 3
+}
+
+================================================================================
+PASS 1 | MENTION id=10
+================================================================================
+{
+  "timestamp": "2026-07-03T16:31:45.063734",
+  "pass": 1,
+  "id": "10",
+  "user_input": "<legislation><title>Laicity Act</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 3
+}
+
+================================================================================
+PASS 1 | MENTION id=12
+================================================================================
+{
+  "timestamp": "2026-07-03T16:31:48.253208",
+  "pass": 1,
+  "id": "12",
+  "user_input": "<legislation><fragment>section 23</fragment> of the <i><title>Canadian Charter of Rights and Freedoms</title></i></legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 4
+}
+
+================================================================================
+PASS 1 | MENTION id=15
+================================================================================
+{
+  "timestamp": "2026-07-03T16:31:50.922241",
+  "pass": 1,
+  "id": "15",
+  "user_input": "<legislation> <title>Act</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 4
+}
+
+================================================================================
+PASS 1 | MENTION id=17
+================================================================================
+{
+  "timestamp": "2026-07-03T16:31:52.119722",
+  "pass": 1,
+  "id": "17",
+  "user_input": "<legislation><fragment>article 355 para. 1 </fragment><i></i><title><i>C.C.P.</i> </title></legislation>",
+  "docid_generated": "Code of Civil Procedure (Quebec)",
+  "main_title": "<i>C.C.P.</i>",
+  "profile_docid": "Code of Civil Procedure (Quebec)",
+  "registry_size_after": 5
+}
+
+================================================================================
+PASS 1 | MENTION id=20
+================================================================================
+{
+  "timestamp": "2026-07-03T16:31:53.708911",
+  "pass": 1,
+  "id": "20",
+  "user_input": "<legislation><fragment>article 661 para. 1</fragment> <i><title>C.C.P.</title></i></legislation>",
+  "docid_generated": "Code of Civil Procedure (Quebec)",
+  "main_title": "<i>C.C.P.</i>",
+  "profile_docid": "Code of Civil Procedure (Quebec)",
+  "registry_size_after": 5
+}
+
+================================================================================
+PASS 1 | MENTION id=23
+================================================================================
+{
+  "timestamp": "2026-07-03T16:31:55.215259",
+  "pass": 1,
+  "id": "23",
+  "user_input": "<legislation> <fragment>article 355 para. 1</fragment> <i><title>C.C.P.</title></i><i></i>, <fragment>article 661 para.\n1</fragment> <i><title>C.C.P.</title></i></legislation>",
+  "docid_generated": "Code of Civil Procedure (Quebec)",
+  "main_title": "<i>C.C.P.</i>",
+  "profile_docid": "Code of Civil Procedure (Quebec)",
+  "registry_size_after": 5
+}
+
+================================================================================
+PASS 1 | MENTION id=28
+================================================================================
+{
+  "timestamp": "2026-07-03T16:31:57.092323",
+  "pass": 1,
+  "id": "28",
+  "user_input": "<legislation> <fragment>article 661 para. 1</fragment> <i><title>C.C.P.</title></i></legislation>",
+  "docid_generated": "C.C.P.",
+  "main_title": "C.C.P.",
+  "profile_docid": "C.C.P.",
+  "registry_size_after": 6
+}
+
+================================================================================
+PASS 1 | MENTION id=31
+================================================================================
+{
+  "timestamp": "2026-07-03T16:31:58.073869",
+  "pass": 1,
+  "id": "31",
+  "user_input": "<decision><title>Harper</title></decision>",
+  "docid_generated": "Harper v. Canada (Attorney General)",
+  "main_title": "Harper",
+  "profile_docid": "Harper v. Canada (Attorney General)",
+  "registry_size_after": 7
+}
+
+================================================================================
+PASS 1 | MENTION id=33
+================================================================================
+{
+  "timestamp": "2026-07-03T16:31:58.913682",
+  "pass": 1,
+  "id": "33",
+  "user_input": "<legislation><title>Charter</title> </legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 7
+}
+
+================================================================================
+PASS 1 | MENTION id=35
+================================================================================
+{
+  "timestamp": "2026-07-03T16:31:59.891155",
+  "pass": 1,
+  "id": "35",
+  "user_input": "<legislation><title>Laicity Act</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 7
+}
+
+================================================================================
+PASS 1 | MENTION id=37
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:00.940271",
+  "pass": 1,
+  "id": "37",
+  "user_input": "<decision><i><title>Mosaic Potash</title></i>,\nat <fragment>paragraph 58</fragment></decision>",
+  "docid_generated": "Mosaic Potash ULC v. Saskatchewan",
+  "main_title": "Mosaic Potash",
+  "profile_docid": "Mosaic Potash ULC v. Saskatchewan",
+  "registry_size_after": 8
+}
+
+================================================================================
+PASS 1 | MENTION id=40
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:01.932431",
+  "pass": 1,
+  "id": "40",
+  "user_input": "<decision><i>ibid</i>,\nat <fragment>paragraph 59</fragment></decision>",
+  "docid_generated": "Mosaic Potash",
+  "main_title": null,
+  "profile_docid": "Mosaic Potash",
+  "registry_size_after": 9
+}
+
+================================================================================
+PASS 1 | MENTION id=42
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:03.050654",
+  "pass": 1,
+  "id": "42",
+  "user_input": "<decision><i><title>Canada (Attorney General) v Oshkosh\nDefense Canada Inc.</title></i>, <citation>2018 FCA 102</citation> at <fragment>paragraph 30</fragment></decision>",
+  "docid_generated": "Canada (Attorney General) v. Oshkosh Defense Canada Inc.",
+  "main_title": "Canada (Attorney General) v Oshkosh\nDefense Canada Inc.",
+  "profile_docid": "Canada (Attorney General) v. Oshkosh Defense Canada Inc.",
+  "registry_size_after": 10
+}
+
+================================================================================
+PASS 1 | MENTION id=46
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:03.906534",
+  "pass": 1,
+  "id": "46",
+  "user_input": "<legislation><fragment>section 23</fragment></legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 10
+}
+
+================================================================================
+PASS 1 | MENTION id=48
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:05.237348",
+  "pass": 1,
+  "id": "48",
+  "user_input": "<legislation><fragment>section 23</fragment> of the\n<i><title>Charter</title></i> </legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 10
+}
+
+================================================================================
+PASS 1 | MENTION id=51
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:06.476893",
+  "pass": 1,
+  "id": "51",
+  "user_input": "<legislation><span style='font:7.0pt \"Times New Roman\"'> \n</span><fragment>Section 23</fragment></legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 10
+}
+
+================================================================================
+PASS 1 | MENTION id=53
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:07.188042",
+  "pass": 1,
+  "id": "53",
+  "user_input": "<legislation><fragment>section 23</fragment></legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 10
+}
+
+================================================================================
+PASS 1 | MENTION id=55
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:08.293004",
+  "pass": 1,
+  "id": "55",
+  "user_input": "<legislation><fragment>section 23(3)(a)</fragment></legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 10
+}
+
+================================================================================
+PASS 1 | MENTION id=57
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:09.171557",
+  "pass": 1,
+  "id": "57",
+  "user_input": "<legislation><fragment>section 23(3)(b)</fragment></legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 10
+}
+
+================================================================================
+PASS 1 | MENTION id=59
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:10.096042",
+  "pass": 1,
+  "id": "59",
+  "user_input": "<legislation><title>Laicity\nAct</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 10
+}
+
+================================================================================
+PASS 1 | MENTION id=61
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:11.061223",
+  "pass": 1,
+  "id": "61",
+  "user_input": "<decision><title> <i>Mahe</i></title><i></i></decision>",
+  "docid_generated": "Mahe v. Alberta",
+  "main_title": "<i>Mahe</i>",
+  "profile_docid": "Mahe v. Alberta",
+  "registry_size_after": 11
+}
+
+================================================================================
+PASS 1 | MENTION id=63
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:12.710383",
+  "pass": 1,
+  "id": "63",
+  "user_input": "<legislation><fragment>section 23</fragment></legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 11
+}
+
+================================================================================
+PASS 1 | MENTION id=65
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:13.790695",
+  "pass": 1,
+  "id": "65",
+  "user_input": "<legislation><fragment>section 23(3)(b)</fragment></legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 11
+}
+
+================================================================================
+PASS 1 | MENTION id=67
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:15.066620",
+  "pass": 1,
+  "id": "67",
+  "user_input": "<decision><i></i><title><i>Conseil\nscolaire francophone de la Colombie</i><i><span style='font-family:\"Cambria Math\",serif'>‑</span></i><i>Britannique</i></title><i></i></decision>",
+  "docid_generated": "Conseil scolaire francophone de la Colombie-Britannique v. British Columbia",
+  "main_title": "<i>Conseil\nscolaire francophone de la Colombie</i><i><span style='font-family:\"Cambria Math\",serif'>‑</span></i><i>Britannique</i>",
+  "profile_docid": "Conseil scolaire francophone de la Colombie-Britannique v. British Columbia",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=69
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:15.901556",
+  "pass": 1,
+  "id": "69",
+  "user_input": "<legislation><fragment>section\n23</fragment></legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=71
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:17.143163",
+  "pass": 1,
+  "id": "71",
+  "user_input": "<legislation><title>Laicity Act</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=73
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:18.176629",
+  "pass": 1,
+  "id": "73",
+  "user_input": "<legislation><fragment>section 23</fragment> of the <i><title>Charter</title></i></legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=76
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:19.064928",
+  "pass": 1,
+  "id": "76",
+  "user_input": "<legislation><title>Charter</title></legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=78
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:20.032007",
+  "pass": 1,
+  "id": "78",
+  "user_input": "<legislation> <i><title>Act</title></i></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=80
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:21.055865",
+  "pass": 1,
+  "id": "80",
+  "user_input": "<legislation><title>Act</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=82
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:22.008560",
+  "pass": 1,
+  "id": "82",
+  "user_input": "<legislation><i><title>Laicity Act</title></i> </legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=84
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:22.790136",
+  "pass": 1,
+  "id": "84",
+  "user_input": "<legislation> <i><title>Act</title></i></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=86
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:23.697504",
+  "pass": 1,
+  "id": "86",
+  "user_input": "<legislation> <i><title>Laicity Act</title></i></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=88
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:24.387032",
+  "pass": 1,
+  "id": "88",
+  "user_input": "<legislation><title>Act</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=90
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:25.564886",
+  "pass": 1,
+  "id": "90",
+  "user_input": "<legislation> <i><title>Act</title></i></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=92
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:26.666979",
+  "pass": 1,
+  "id": "92",
+  "user_input": "<legislation><fragment>article\n661</fragment> <i><title>C.C.P.</title></i><i></i></legislation>",
+  "docid_generated": "C.C.P.",
+  "main_title": "C.C.P.",
+  "profile_docid": "C.C.P.",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=95
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:27.535884",
+  "pass": 1,
+  "id": "95",
+  "user_input": "<legislation><title>Act</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=97
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:28.464125",
+  "pass": 1,
+  "id": "97",
+  "user_input": "<legislation><title>Laicity\nAct</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=99
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:29.627672",
+  "pass": 1,
+  "id": "99",
+  "user_input": "<legislation><i><title>Laicity Act</title></i> </legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=101
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:30.344879",
+  "pass": 1,
+  "id": "101",
+  "user_input": "<legislation><title>Act</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=103
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:31.172853",
+  "pass": 1,
+  "id": "103",
+  "user_input": "<legislation><title>Laicity Act</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 1 | MENTION id=105
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:33.081045",
+  "pass": 1,
+  "id": "105",
+  "user_input": "<decision><i></i><title><i>Ross v</i><i>.</i> <i>New Brunswick School District No. 15</i></title><i></i></decision>",
+  "docid_generated": "Ross v. New Brunswick School District No. 15",
+  "main_title": "<i>Ross v</i><i>.</i> <i>New Brunswick School District No. 15</i>",
+  "profile_docid": "Ross v. New Brunswick School District No. 15",
+  "registry_size_after": 13
+}
+
+================================================================================
+PASS 1 | MENTION id=107
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:34.140996",
+  "pass": 1,
+  "id": "107",
+  "user_input": "<decision><title>Brown\nv. Board of Education of Topeka</title></decision>",
+  "docid_generated": "Brown v. Board of Education of Topeka",
+  "main_title": "Brown\nv. Board of Education of Topeka",
+  "profile_docid": "Brown v. Board of Education of Topeka",
+  "registry_size_after": 14
+}
+
+================================================================================
+PASS 1 | MENTION id=109
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:34.978107",
+  "pass": 1,
+  "id": "109",
+  "user_input": "<legislation><title>Laicity Act</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 14
+}
+
+================================================================================
+PASS 1 | MENTION id=111
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:35.835207",
+  "pass": 1,
+  "id": "111",
+  "user_input": "<legislation><title>Laicity Act</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 14
+}
+
+================================================================================
+PASS 1 | MENTION id=113
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:36.555414",
+  "pass": 1,
+  "id": "113",
+  "user_input": "<legislation><title>Laicity Act</title></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 14
+}
+
+================================================================================
+PASS 1 | MENTION id=115
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:37.808379",
+  "pass": 1,
+  "id": "115",
+  "user_input": "<legislation><fragment>article 661 para. 1</fragment> <i></i><title><i>C.C.P</i><i>.</i></title><i></i></legislation>",
+  "docid_generated": "Code of Civil Procedure (Quebec)",
+  "main_title": "<i>C.C.P.</i>",
+  "profile_docid": "Code of Civil Procedure (Quebec)",
+  "registry_size_after": 14
+}
+
+================================================================================
+PASS 1 | MENTION id=118
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:38.622734",
+  "pass": 1,
+  "id": "118",
+  "user_input": "<legislation><fragment>section 23</fragment></legislation>",
+  "docid_generated": "Canadian Charter of Rights and Freedoms",
+  "main_title": "Canadian Charter of Rights and Freedoms",
+  "profile_docid": "Canadian Charter of Rights and Freedoms",
+  "registry_size_after": 14
+}
+
+================================================================================
+PASS 1 | MENTION id=120
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:39.813084",
+  "pass": 1,
+  "id": "120",
+  "user_input": "<decision><i><title>Hak c. Procureur général du Québec</title></i>, <citation>2021 QCCS 1466</citation></decision>",
+  "docid_generated": "Hak c. Procureur général du Québec, 2021 QCCS 1466",
+  "main_title": "Hak c. Procureur général du Québec",
+  "profile_docid": "Hak c. Procureur général du Québec, 2021 QCCS 1466",
+  "registry_size_after": 15
+}
+
+================================================================================
+PASS 1 | MENTION id=123
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:41.976527",
+  "pass": 1,
+  "id": "123",
+  "user_input": "<legislation><citation>CQLR c L-0.3</citation></legislation>",
+  "docid_generated": "Interpretation Act (Quebec)",
+  "main_title": null,
+  "profile_docid": "Interpretation Act (Quebec)",
+  "registry_size_after": 16
+}
+
+================================================================================
+PASS 1 | MENTION id=125
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:44.120988",
+  "pass": 1,
+  "id": "125",
+  "user_input": "<secondary sources><authors>John Anthony Jolowicz</authors>, “<title>Introduction — Recourse Against\nCivil Judgments in the European Union: A Comparative Survey</title>”, in <source>John Anthony\nJolowicz and Cornelis Hendrik (Remco) van Rhee (eds.), <i>Recourse Against Judgments\nin the European Union</i>, The Hague, Kluwer Law International, 1999, 1</source>, <fragment>p. 11</fragment></secondary sources>",
+  "docid_generated": "John Anthony Jolowicz, “Introduction — Recourse Against Civil Judgments in the European Union: A Comparative Survey” (1999)",
+  "main_title": "Introduction — Recourse Against\nCivil Judgments in the European Union: A Comparative Survey",
+  "profile_docid": "John Anthony Jolowicz, “Introduction — Recourse Against Civil Judgments in the European Union: A Comparative Survey” (1999)",
+  "registry_size_after": 17
+}
+
+================================================================================
+PASS 1 | MENTION id=130
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:45.530649",
+  "pass": 1,
+  "id": "130",
+  "user_input": "<decision><i><title>CTI Capital valeurs mobilières inc. c. Nassif</title></i>, <citation>2020\nQCCA 197</citation> (judge alone), <fragment>para. 11</fragment></decision>",
+  "docid_generated": "CTI Capital valeurs mobilières inc. c. Nassif",
+  "main_title": "CTI Capital valeurs mobilières inc. c. Nassif",
+  "profile_docid": "CTI Capital valeurs mobilières inc. c. Nassif",
+  "registry_size_after": 18
+}
+
+================================================================================
+PASS 1 | MENTION id=134
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:46.630204",
+  "pass": 1,
+  "id": "134",
+  "user_input": "<decision><fragment>footnote 7</fragment></decision>",
+  "docid_generated": "Mouvement laïque québécois c. English Montreal School Board",
+  "main_title": "Mouvement laïque québécois c.\n  English Montreal School Board",
+  "profile_docid": "Mouvement laïque québécois c. English Montreal School Board",
+  "registry_size_after": 18
+}
+
+================================================================================
+PASS 1 | MENTION id=136
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:48.066263",
+  "pass": 1,
+  "id": "136",
+  "user_input": "<decision> <i><title>Aliments\nUltima inc. c. Vergers Leahy inc.</title></i>, <citation>2021 QCCA 239</citation> (judge alone),<fragment> para. 6</fragment></decision>",
+  "docid_generated": "Aliments Ultima inc. c. Vergers Leahy inc.",
+  "main_title": "Aliments\nUltima inc. c. Vergers Leahy inc.",
+  "profile_docid": "Aliments Ultima inc. c. Vergers Leahy inc.",
+  "registry_size_after": 19
+}
+
+================================================================================
+PASS 1 | MENTION id=140
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:49.481793",
+  "pass": 1,
+  "id": "140",
+  "user_input": "<decision> <title> <i>Lebeuf c. Groupe SNC-Lavalin inc.</i></title><i></i>, <citation>1995 CanLII 5310</citation>\n(judge alone), <fragment>paras. 8-9</fragment></decision>",
+  "docid_generated": "Lebeuf c. Groupe SNC-Lavalin inc.",
+  "main_title": "<i>Lebeuf c. Groupe SNC-Lavalin inc.</i>",
+  "profile_docid": "Lebeuf c. Groupe SNC-Lavalin inc.",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=144
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:50.679283",
+  "pass": 1,
+  "id": "144",
+  "user_input": "<legislation><i><title>Code of Civil Procedure</title></i></legislation>",
+  "docid_generated": "C.C.P.",
+  "main_title": "C.C.P.",
+  "profile_docid": "C.C.P.",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=172
+================================================================================
+{
+  "timestamp": "2026-07-03T16:32:59.653298",
+  "pass": 1,
+  "id": "172",
+  "user_input": "<decision> <i>Ibid</i></decision>",
+  "docid_generated": "Mouvement laïque québécois c. English Montreal School Board",
+  "main_title": "Mouvement laïque québécois c.\n  English Montreal School Board",
+  "profile_docid": "Mouvement laïque québécois c. English Montreal School Board",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=179
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:02.575432",
+  "pass": 1,
+  "id": "179",
+  "user_input": "<decision> <i>Ibid</i></decision>",
+  "docid_generated": "Mouvement laïque québécois c. English Montreal School Board",
+  "main_title": "Mouvement laïque québécois c.\n  English Montreal School Board",
+  "profile_docid": "Mouvement laïque québécois c. English Montreal School Board",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=201
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:12.381653",
+  "pass": 1,
+  "id": "201",
+  "user_input": "<decision><i><title>Lebeuf\nc. Groupe SNC-Lavalin inc.</title></i>, <citation>1995 CanLII 5310</citation></decision>",
+  "docid_generated": "Lebeuf c. Groupe SNC-Lavalin inc.",
+  "main_title": "<i>Lebeuf c. Groupe SNC-Lavalin inc.</i>",
+  "profile_docid": "Lebeuf c. Groupe SNC-Lavalin inc.",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=222
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:19.807030",
+  "pass": 1,
+  "id": "222",
+  "user_input": "<decision><citation>2021\nFCA 84</citation></decision>",
+  "docid_generated": "Mouvement laïque québécois c. English Montreal School Board",
+  "main_title": "Mouvement laïque québécois c.\n  English Montreal School Board",
+  "profile_docid": "Mouvement laïque québécois c. English Montreal School Board",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=224
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:21.336567",
+  "pass": 1,
+  "id": "224",
+  "user_input": "<decision><i></i><title><i>Conseil\nscolaire francophone de la Colombie</i><i><span style='font-family:\"Cambria Math\",serif'>‑</span></i><i>Britannique\nv. British Columbia</i></title><i></i>, <citation>2020 SCC 13</citation></decision>",
+  "docid_generated": "Conseil scolaire francophone de la Colombie-Britannique v. British Columbia",
+  "main_title": "<i>Conseil\nscolaire francophone de la Colombie</i><i><span style='font-family:\"Cambria Math\",serif'>‑</span></i><i>Britannique</i>",
+  "profile_docid": "Conseil scolaire francophone de la Colombie-Britannique v. British Columbia",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=233
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:24.928137",
+  "pass": 1,
+  "id": "233",
+  "user_input": "<decision> <i>Id.</i>, <fragment>p. 350</fragment></decision>",
+  "docid_generated": "CTI Capital valeurs mobilières inc. c. Nassif",
+  "main_title": "CTI Capital valeurs mobilières inc. c. Nassif",
+  "profile_docid": "CTI Capital valeurs mobilières inc. c. Nassif",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=235
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:26.825690",
+  "pass": 1,
+  "id": "235",
+  "user_input": "<decision> <i>Id.</i>, <fragment>pp. 375-376</fragment></decision>",
+  "docid_generated": "CTI Capital valeurs mobilières inc. c. Nassif",
+  "main_title": "CTI Capital valeurs mobilières inc. c. Nassif",
+  "profile_docid": "CTI Capital valeurs mobilières inc. c. Nassif",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=244
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:31.274075",
+  "pass": 1,
+  "id": "244",
+  "user_input": "<decision><i>Id.</i>, <fragment>paras. 989 et seq.</fragment></decision>",
+  "docid_generated": "Mouvement laïque québécois c. English Montreal School Board",
+  "main_title": "Mouvement laïque québécois c.\n  English Montreal School Board",
+  "profile_docid": "Mouvement laïque québécois c. English Montreal School Board",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=246
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:32.558305",
+  "pass": 1,
+  "id": "246",
+  "user_input": "<decision><i>Id.</i>, <fragment>para. 993</fragment></decision>",
+  "docid_generated": "Mouvement laïque québécois c. English Montreal School Board",
+  "main_title": "Mouvement laïque québécois c.\n  English Montreal School Board",
+  "profile_docid": "Mouvement laïque québécois c. English Montreal School Board",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=248
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:33.577784",
+  "pass": 1,
+  "id": "248",
+  "user_input": "<decision><i>Id.</i>, <fragment>para. 1003</fragment></decision>",
+  "docid_generated": "Mouvement laïque québécois c. English Montreal School Board",
+  "main_title": "Mouvement laïque québécois c.\n  English Montreal School Board",
+  "profile_docid": "Mouvement laïque québécois c. English Montreal School Board",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=250
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:34.529838",
+  "pass": 1,
+  "id": "250",
+  "user_input": "<decision><i>Id.</i>, <fragment>para. 994</fragment></decision>",
+  "docid_generated": "Mouvement laïque québécois c. English Montreal School Board",
+  "main_title": "Mouvement laïque québécois c.\n  English Montreal School Board",
+  "profile_docid": "Mouvement laïque québécois c. English Montreal School Board",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=252
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:35.284428",
+  "pass": 1,
+  "id": "252",
+  "user_input": "<decision><fragment>paras. 998-1002</fragment></decision>",
+  "docid_generated": "Mouvement laïque québécois c. English Montreal School Board",
+  "main_title": "Mouvement laïque québécois c.\n  English Montreal School Board",
+  "profile_docid": "Mouvement laïque québécois c. English Montreal School Board",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=254
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:36.279182",
+  "pass": 1,
+  "id": "254",
+  "user_input": "<decision> <i>Id.</i>, <fragment>paras. 1004 et seq.</fragment></decision>",
+  "docid_generated": "Mouvement laïque québécois c. English Montreal School Board",
+  "main_title": "Mouvement laïque québécois c.\n  English Montreal School Board",
+  "profile_docid": "Mouvement laïque québécois c. English Montreal School Board",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=256
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:37.441454",
+  "pass": 1,
+  "id": "256",
+  "user_input": "<legislation><fragment>Section 31(5)</fragment> of the <i><title>Laicity Act</title></i></legislation>",
+  "docid_generated": "Act respecting the laicity of the State",
+  "main_title": "<i>Act respecting the\nlaicity of the State</i>",
+  "profile_docid": "Act respecting the laicity of the State",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=259
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:38.636532",
+  "pass": 1,
+  "id": "259",
+  "user_input": "<decision><citation>347 U.S. 483 (1954)</citation>, <fragment>p. 493</fragment></decision>",
+  "docid_generated": "Brown v. Board of Education of Topeka",
+  "main_title": "Brown\nv. Board of Education of Topeka",
+  "profile_docid": "Brown v. Board of Education of Topeka",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=262
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:39.963862",
+  "pass": 1,
+  "id": "262",
+  "user_input": "<decision> <citation>[1996] 1 S.C.R. 825</citation>, <fragment>p. 873</fragment></decision>",
+  "docid_generated": "Ross v. New Brunswick School District No. 15",
+  "main_title": "<i>Ross v</i><i>.</i> <i>New Brunswick School District No. 15</i>",
+  "profile_docid": "Ross v. New Brunswick School District No. 15",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 1 | MENTION id=270
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:42.261140",
+  "pass": 1,
+  "id": "270",
+  "user_input": "<decision> <fragment>para. 42</fragment></decision>",
+  "docid_generated": "Mouvement laïque québécois c. English Montreal School Board",
+  "main_title": "Mouvement laïque québécois c.\n  English Montreal School Board",
+  "profile_docid": "Mouvement laïque québécois c. English Montreal School Board",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 2 | MENTION id=146
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:43.360411",
+  "pass": 2,
+  "id": "146",
+  "user_input": "<decision><i><title>Friedrich\nv. Friedrich</title></i>, <citation>2016 QCCA 2011</citation> (judge alone), <fragment>paras. 6-7</fragment></decision>",
+  "docid_generated": "Friedrich v. Friedrich",
+  "main_title": "Friedrich\nv. Friedrich",
+  "profile_docid": "Friedrich v. Friedrich",
+  "registry_size_after": 1
+}
+
+================================================================================
+PASS 2 | MENTION id=150
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:44.506018",
+  "pass": 2,
+  "id": "150",
+  "user_input": "<decision><i><title>Droit de la famille — 172312</title></i>, <citation>2017 QCCA 1554</citation> (judge alone),\n<fragment>para. 23</fragment></decision>",
+  "docid_generated": "Droit de la famille — 172312",
+  "main_title": "Droit de la famille — 172312",
+  "profile_docid": "Droit de la famille — 172312",
+  "registry_size_after": 2
+}
+
+================================================================================
+PASS 2 | MENTION id=154
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:45.726576",
+  "pass": 2,
+  "id": "154",
+  "user_input": "<decision><i><title>Droit de la famille — 21903</title></i>, <citation>2021 QCCA 837 </citation>(judge alone),\n<fragment>para. 6</fragment></decision>",
+  "docid_generated": "Droit de la famille — 21903",
+  "main_title": "Droit de la famille — 21903",
+  "profile_docid": "Droit de la famille — 21903",
+  "registry_size_after": 3
+}
+
+================================================================================
+PASS 2 | MENTION id=158
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:47.323714",
+  "pass": 2,
+  "id": "158",
+  "user_input": "<decision><i><title>Société Nationale d’assurance inc./Les Clairvoyants,\ncompagnie d’assurance générale c. Gaz Métropolitain inc.</title></i>, <citation>[2001] R.R.A. 757\n(C.S.)</citation>, <fragment>p. 764</fragment>, <citation>2001 CanLII 25493</citation>, <fragment>para. 50</fragment></decision>",
+  "docid_generated": "Société Nationale d’assurance inc./Les Clairvoyants, compagnie d’assurance générale c. Gaz Métropolitain inc.",
+  "main_title": "Société Nationale d’assurance inc./Les Clairvoyants,\ncompagnie d’assurance générale c. Gaz Métropolitain inc.",
+  "profile_docid": "Société Nationale d’assurance inc./Les Clairvoyants, compagnie d’assurance générale c. Gaz Métropolitain inc.",
+  "registry_size_after": 4
+}
+
+================================================================================
+PASS 2 | MENTION id=164
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:48.758836",
+  "pass": 2,
+  "id": "164",
+  "user_input": "<decision><i><title>Imperial Tobacco Canada Ltd. v. Conseil québécois sur\nle tabac et la santé</title></i>, <citation>2015 QCCA 1224</citation>,<fragment> para. 31</fragment></decision>",
+  "docid_generated": "Imperial Tobacco Canada Ltd. v. Conseil québécois sur le tabac et la santé",
+  "main_title": "Imperial Tobacco Canada Ltd. v. Conseil québécois sur\nle tabac et la santé",
+  "profile_docid": "Imperial Tobacco Canada Ltd. v. Conseil québécois sur le tabac et la santé",
+  "registry_size_after": 5
+}
+
+================================================================================
+PASS 2 | MENTION id=168
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:49.932545",
+  "pass": 2,
+  "id": "168",
+  "user_input": "<decision><title> <i>Lebeuf c. Groupe SNC-Lavalin inc.</i></title><i></i>, <citation>1995 CanLII 5310</citation>\n(judge alone),<fragment> para. 8</fragment></decision>",
+  "docid_generated": "Lebeuf c. Groupe SNC-Lavalin inc.",
+  "main_title": "<i>Lebeuf c. Groupe SNC-Lavalin inc.</i>",
+  "profile_docid": "Lebeuf c. Groupe SNC-Lavalin inc.",
+  "registry_size_after": 6
+}
+
+================================================================================
+PASS 2 | MENTION id=173
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:51.493186",
+  "pass": 2,
+  "id": "173",
+  "user_input": "<decision> <i><title>Harper v. Canada (Attorney General)</title></i>, <citation>[2000] 2 S.C.R. 764</citation>,\n<citation>2000 SCC 57</citation>, <fragment>para. 9</fragment></decision>",
+  "docid_generated": "Harper v. Canada (Attorney General)",
+  "main_title": "Harper v. Canada (Attorney General)",
+  "profile_docid": "Harper v. Canada (Attorney General)",
+  "registry_size_after": 7
+}
+
+================================================================================
+PASS 2 | MENTION id=178
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:52.444676",
+  "pass": 2,
+  "id": "178",
+  "user_input": "<decision>Ibid</decision>",
+  "docid_generated": "Harper v. Canada (Attorney General)",
+  "main_title": "Harper v. Canada (Attorney General)",
+  "profile_docid": "Harper v. Canada (Attorney General)",
+  "registry_size_after": 7
+}
+
+================================================================================
+PASS 2 | MENTION id=180
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:53.593160",
+  "pass": 2,
+  "id": "180",
+  "user_input": "<decision> <i><title>Procureur général du Québec c. Quebec\nEnglish School Board Association</title></i>, <citation>2020 QCCA 1171</citation>, <fragment>para. 11</fragment></decision>",
+  "docid_generated": "Procureur général du Québec c. Quebec English School Board Association",
+  "main_title": "Procureur général du Québec c. Quebec\nEnglish School Board Association",
+  "profile_docid": "Procureur général du Québec c. Quebec English School Board Association",
+  "registry_size_after": 8
+}
+
+================================================================================
+PASS 2 | MENTION id=184
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:54.829645",
+  "pass": 2,
+  "id": "184",
+  "user_input": "<decision><i><title>Procureure générale du Québec c. Solski</title></i>, <citation>J.E.\n2001-400 (C.A.)</citation>, <citation>2001 CanLII 5956</citation> </decision>",
+  "docid_generated": "Procureure générale du Québec c. Solski",
+  "main_title": "Procureure générale du Québec c. Solski",
+  "profile_docid": "Procureure générale du Québec c. Solski",
+  "registry_size_after": 9
+}
+
+================================================================================
+PASS 2 | MENTION id=188
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:56.196333",
+  "pass": 2,
+  "id": "188",
+  "user_input": "<decision><i><title>Québec (Procureur général) c.\nH.N.</title></i>, <citation>2007 QCCA 1136</citation> (judge alone), <fragment>para. 7</fragment></decision>",
+  "docid_generated": "Québec (Procureur général) c. H.N.",
+  "main_title": "Québec (Procureur général) c.\nH.N.",
+  "profile_docid": "Québec (Procureur général) c. H.N.",
+  "registry_size_after": 10
+}
+
+================================================================================
+PASS 2 | MENTION id=192
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:57.394832",
+  "pass": 2,
+  "id": "192",
+  "user_input": "<decision><i><title>Canada\nv. Canadian Council for Refugees</title></i>, <citation>2008 FCA 40</citation> (judge alone), <fragment>para. 34</fragment></decision>",
+  "docid_generated": "Canada v. Canadian Council for Refugees",
+  "main_title": "Canada\nv. Canadian Council for Refugees",
+  "profile_docid": "Canada v. Canadian Council for Refugees",
+  "registry_size_after": 11
+}
+
+================================================================================
+PASS 2 | MENTION id=196
+================================================================================
+{
+  "timestamp": "2026-07-03T16:33:58.962783",
+  "pass": 2,
+  "id": "196",
+  "user_input": "<decision><i><title>Bedford\nv. Canada (Attorney General)</title></i>, <citation>2010 ONCA 814</citation> (judge alone), <fragment>paras. 67</fragment> and <fragment>68</fragment></decision>",
+  "docid_generated": "Bedford v. Canada (Attorney General) (ONCA 2010)",
+  "main_title": "Bedford\nv. Canada (Attorney General)",
+  "profile_docid": "Bedford v. Canada (Attorney General) (ONCA 2010)",
+  "registry_size_after": 12
+}
+
+================================================================================
+PASS 2 | MENTION id=204
+================================================================================
+{
+  "timestamp": "2026-07-03T16:34:00.181800",
+  "pass": 2,
+  "id": "204",
+  "user_input": "<decision><i><title>Hak c. Procureure générale du Québec</title></i>, <citation>2019 QCCA 2145</citation></decision>",
+  "docid_generated": "Hak c. Procureure générale du Québec",
+  "main_title": "Hak c. Procureure générale du Québec",
+  "profile_docid": "Hak c. Procureure générale du Québec",
+  "registry_size_after": 13
+}
+
+================================================================================
+PASS 2 | MENTION id=207
+================================================================================
+{
+  "timestamp": "2026-07-03T16:34:01.327548",
+  "pass": 2,
+  "id": "207",
+  "user_input": "<decision><i>Id.</i>, <fragment>para. 67</fragment></decision>",
+  "docid_generated": "Bedford v. Canada (Attorney General)",
+  "main_title": null,
+  "profile_docid": "Bedford v. Canada (Attorney General)",
+  "registry_size_after": 14
+}
+
+================================================================================
+PASS 2 | MENTION id=209
+================================================================================
+{
+  "timestamp": "2026-07-03T16:34:03.050878",
+  "pass": 2,
+  "id": "209",
+  "user_input": "<decision><i><title>Fédération des coopératives funéraires du Québec c. Bureau de\nnormalisation du Québec</title></i>,<citation> J.E. 2010-153 (C.A.)</citation>, <citation>2009 QCCA 2445</citation> (judge\nalone), <fragment>para. 17</fragment></decision>",
+  "docid_generated": "Fédération des coopératives funéraires du Québec c. Bureau de normalisation du Québec",
+  "main_title": "Fédération des coopératives funéraires du Québec c. Bureau de\nnormalisation du Québec",
+  "profile_docid": "Fédération des coopératives funéraires du Québec c. Bureau de normalisation du Québec",
+  "registry_size_after": 15
+}
+
+================================================================================
+PASS 2 | MENTION id=214
+================================================================================
+{
+  "timestamp": "2026-07-03T16:34:04.645009",
+  "pass": 2,
+  "id": "214",
+  "user_input": "<decision><i><title>Montréal (Ville de) c. Lours</title></i>, <citation>J.E. 2016-2133\n(C.A.)</citation>, <citation>2016 QCCA 1931</citation>, <fragment>para. 20</fragment></decision>",
+  "docid_generated": "Montréal (Ville de) c. Lours",
+  "main_title": "Montréal (Ville de) c. Lours",
+  "profile_docid": "Montréal (Ville de) c. Lours",
+  "registry_size_after": 16
+}
+
+================================================================================
+PASS 2 | MENTION id=219
+================================================================================
+{
+  "timestamp": "2026-07-03T16:34:06.506400",
+  "pass": 2,
+  "id": "219",
+  "user_input": "<decision> <i><title>British Columbia (Attorney General) v. Alberta (Attorney\nGeneral)</title></i>, <citation>2019 FC 1195</citation> </decision>",
+  "docid_generated": "British Columbia (Attorney General) v. Alberta (Attorney General), 2019 FC 1195",
+  "main_title": "British Columbia (Attorney General) v. Alberta (Attorney\nGeneral)",
+  "profile_docid": "British Columbia (Attorney General) v. Alberta (Attorney General), 2019 FC 1195",
+  "registry_size_after": 17
+}
+
+================================================================================
+PASS 2 | MENTION id=227
+================================================================================
+{
+  "timestamp": "2026-07-03T16:34:07.599165",
+  "pass": 2,
+  "id": "227",
+  "user_input": "<decision><fragment>paras. 21 et seq.</fragment></decision>",
+  "docid_generated": "Harper v. Canada (Attorney General)",
+  "main_title": "Harper v. Canada (Attorney General)",
+  "profile_docid": "Harper v. Canada (Attorney General)",
+  "registry_size_after": 17
+}
+
+================================================================================
+PASS 2 | MENTION id=229
+================================================================================
+{
+  "timestamp": "2026-07-03T16:34:08.862376",
+  "pass": 2,
+  "id": "229",
+  "user_input": "<decision> <i><title>Mahe v. Alberta</title></i>, <citation>[1990] 1 S.C.R. 342</citation>, <fragment>p. 377</fragment></decision>",
+  "docid_generated": "Mahe v. Alberta",
+  "main_title": "Mahe v. Alberta",
+  "profile_docid": "Mahe v. Alberta",
+  "registry_size_after": 18
+}
+
+================================================================================
+PASS 2 | MENTION id=237
+================================================================================
+{
+  "timestamp": "2026-07-03T16:34:10.411864",
+  "pass": 2,
+  "id": "237",
+  "user_input": "<decision><i></i><title><i>Conseil scolaire francophone de la Colombie</i><i><span style='font-family:\"Cambria Math\",serif'>‑</span></i><i>Britannique v. British Columbia</i></title><i></i>, <citation>2020\nSCC 13</citation></decision>",
+  "docid_generated": "Conseil scolaire francophone de la Colombie-Britannique v. British Columbia",
+  "main_title": "<i>Conseil scolaire francophone de la Colombie</i><i><span style='font-family:\"Cambria Math\",serif'>‑</span></i><i>Britannique v. British Columbia</i>",
+  "profile_docid": "Conseil scolaire francophone de la Colombie-Britannique v. British Columbia",
+  "registry_size_after": 19
+}
+
+================================================================================
+PASS 2 | MENTION id=240
+================================================================================
+{
+  "timestamp": "2026-07-03T16:34:12.393359",
+  "pass": 2,
+  "id": "240",
+  "user_input": "<decision><i><title>Hak c. Procureur général du Québec</title></i>,<citation> 2021 QCCS 1466</citation>, <fragment>paras.\n983 et seq.</fragment></decision>",
+  "docid_generated": "Hak c. Procureur général du Québec, 2021 QCCS 1466",
+  "main_title": "Hak c. Procureur général du Québec",
+  "profile_docid": "Hak c. Procureur général du Québec, 2021 QCCS 1466",
+  "registry_size_after": 20
+}
+
+================================================================================
+PASS 3 | MENTION id=265
+================================================================================
+{
+  "timestamp": "2026-07-03T16:34:15.035535",
+  "pass": 3,
+  "id": "265",
+  "user_input": "<decision><i><title>Syndicat Northcrest v. Amselem</title></i>,\n<citation>[2004] 2 S.C.R. 551</citation>, <citation>2004 SCC 47</citation>,<fragment> para. 39</fragment></decision>",
+  "docid_generated": "Syndicat Northcrest v. Amselem",
+  "main_title": "Syndicat Northcrest v. Amselem",
+  "profile_docid": "Syndicat Northcrest v. Amselem",
+  "registry_size_after": 1
+}
+

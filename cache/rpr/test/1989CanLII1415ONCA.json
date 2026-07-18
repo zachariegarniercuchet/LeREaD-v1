@@ -3,10 +3,13 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Excise Tax Act",
       "docid": "Excise Tax Act 1970",
       "alternative_titles": {
-        "the Act": "67"
+        "Excise Tax Act": "0",
+        "Excise\nTax Act": "10",
+        "Excise Tax\nAct": "67",
+        "the Act": "67",
+        "Act": "182"
       },
       "citations": {
         "R.S.C. 1970, c. E-13": "0"
@@ -31,9 +34,11 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Canadian\nInternational Trade Tribunal Act",
       "docid": "Canadian International Trade Tribunal Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Canadian\nInternational Trade Tribunal Act": "15",
+        "Canadian International Trade Tribunal Act": "87"
+      },
       "citations": {
         "S.C. 1988, c. 56": "15"
       },
@@ -49,9 +54,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "City\nof Chicago v. Pittsburgh",
       "docid": "City of Chicago",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "City\nof Chicago v. Pittsburgh": "24",
+        "City of Chicago v.\nPittsburgh, Ft. W. &amp; C. R. Co., (1910)": "223"
+      },
       "citations": {
         "Ft. W. &amp; C. R. Co. (1910)": "24",
         "93 N.E. 307": "24"
@@ -65,9 +72,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Hunt\nFoods Export Corp. of Canada Ltd et al. v. The Deputy Minister of National\nRevenue for Customs and Excise (1970)",
       "docid": "Hunt Foods Export Corp. of Canada Ltd",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Hunt\nFoods Export Corp. of Canada Ltd et al. v. The Deputy Minister of National\nRevenue for Customs and Excise (1970)": "28",
+        "Hunt Foods Export Corp. of Canada Ltd et al. v. The Deputy\nMinister of National Revenue for Customs and Excise": "180"
+      },
       "citations": {
         "Ex. C.R. 828": "28",
         "[1970] Ex. C.R. 828": "235"
@@ -82,9 +91,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Olympia Floor and Wall\nTile Company v. The Deputy Minister of National Revenue for Customs and Excise",
       "docid": "Olympia Floor and Wall Tile Company",
       "alternative_titles": {
+        "Olympia Floor and Wall\nTile Company v. The Deputy Minister of National Revenue for Customs and Excise": "31",
+        "Olympia Floor and Wall Tile Company v. The Deputy Minister of\nNational Revenue for Customs and Excise": "168",
         "The\nOlympia Floor and Wall Tile Company case": "174"
       },
       "citations": {
@@ -100,9 +110,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Pfizer Company Limited v. The Deputy Minister of\nNational Revenue for Customs and Excise (1977)",
       "docid": "Pfizer",
       "alternative_titles": {
+        "Pfizer Company Limited v. The Deputy Minister of\nNational Revenue for Customs and Excise (1977)": "34",
+        "Pfizer Company Limited v. The Deputy\nMinister of National Revenue for Customs and Excise": "142",
         "Pfizer case": "166",
         "Pfizer\ncase": "170"
       },
@@ -117,9 +128,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Proprietors\nof Passaic &amp; Hackensack River Bridges v. Hoboken Land Imp. Co. (1860)",
       "docid": "Proprietors of Passaic &amp; Hackensack River Bridges",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Proprietors\nof Passaic &amp; Hackensack River Bridges v. Hoboken Land Imp. Co. (1860)": "37"
+      },
       "citations": {
         "13 N.J.Eq. (2 Beasl.) 503": "37"
       },
@@ -130,9 +142,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Westeel Products Limited v. The Deputy Minister of\nNational Revenue for Customs and Excise",
       "docid": "Westeel Products Limited",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Westeel Products Limited v. The Deputy Minister of\nNational Revenue for Customs and Excise": "40",
+        "Westeel Products Limited v. The Deputy Minister of National\nRevenue for Customs and Excise": "144"
+      },
       "citations": {
         "2 T.B.R. 106": "40"
       },
@@ -143,9 +157,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Wilson v. Town of\nBarnstead (1906)",
       "docid": "Wilson",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Wilson v. Town of\nBarnstead (1906)": "43",
+        "Wilson v. Town of Barnstead\n(1906)": "220"
+      },
       "citations": {
         "74 N.H. 78": "43",
         "74 N.H. 78": "220"
@@ -157,9 +173,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Funk\n&amp; Wagnalls New Standard Dictionary of the English Language",
       "docid": "New Standard Dictionary English Language",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Funk\n&amp; Wagnalls New Standard Dictionary of the English Language": "46"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -168,9 +185,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The Oxford\nEnglish Dictionary",
       "docid": "The Oxford English Dictionary",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Oxford\nEnglish Dictionary": "48",
+        "The Oxford English Dictionary": "126"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -179,9 +198,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Black's Law Dictionary",
       "docid": "Black",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Black's Law Dictionary": "51"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -190,9 +210,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The Houghton Mifflin Canadian Dictionary of the English\nLanguage",
       "docid": "The Houghton Mifflin Canadian Dictionary",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Houghton Mifflin Canadian Dictionary of the English\nLanguage": "54",
+        "The Houghton Mifflin Canadian Dictionary of\nthe English Language": "132"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -201,9 +223,12 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Webster's Third New International Dictionary of the English Language\nUnabridged",
       "docid": "Webster",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Webster's Third New International Dictionary of the English Language\nUnabridged": "56",
+        "Webster's New World Dictionary": "58",
+        "Webster's Third New International Dictionary\nof the English Language Unabridged": "135"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -212,9 +237,12 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Funk\n&amp; Wagnalls Standard College Dictionary",
       "docid": "Funk Wagnalls Standard College Dictionary",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Funk\n&amp; Wagnalls Standard College Dictionary": "61",
+        "Funk &amp; Wagnalls New Standard Dictionary\nof the English Language": "123",
+        "Funk &amp; Wagnalls Standard College\nDictionary": "153"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -223,9 +251,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Construction of Statutes",
       "docid": "Construction of Statutes",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Construction of Statutes": "63",
+        "Construction\nof Statutes": "216"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {
@@ -238,9 +268,9 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Standard Specifications for Structural Supports for Highway Signs,\nLuminaires and Traffic Signals",
       "docid": "structural support code",
       "alternative_titles": {
+        "Standard Specifications for Structural Supports for Highway Signs,\nLuminaires and Traffic Signals": "91",
         "structural support code": "91"
       },
       "citations": {},
@@ -254,9 +284,9 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Standard Specifications for Highway Bridges",
       "docid": "the highway code",
       "alternative_titles": {
+        "Standard Specifications for Highway Bridges": "107",
         "the highway\ncode": "107"
       },
       "citations": {},
@@ -269,9 +299,9 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Ontario Highway Bridge Design Code",
       "docid": "Ontario Highway Bridge Design Code",
       "alternative_titles": {
+        "Ontario Highway Bridge Design Code": "112",
         "Ontario code": "114"
       },
       "citations": {},
@@ -284,9 +314,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "McGraw-Hill Encyclopedia of Science and\nTechnology",
       "docid": "McGraw-Hill Encyclopedia of Science",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "McGraw-Hill Encyclopedia of Science and\nTechnology": "156"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -295,9 +326,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The New Encyclopaedia Britannica",
       "docid": "The New Encyclopaedia Britannica",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The New Encyclopaedia Britannica": "158"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -306,9 +338,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Words and Phrases. Permanent\nEdition",
       "docid": "Words and Phrases",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Words and Phrases. Permanent\nEdition": "160"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -317,9 +350,11 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Customs\nTariff",
       "docid": "Customs Tariff",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Customs\nTariff": "172",
+        "Customs Tariff": "176"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -328,7 +363,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Excise Tax Act 1985",
       "alternative_titles": {},
       "citations": {
@@ -341,9 +375,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Proprietors of Passaic &amp;\nHackensack River Bridges v. Hoboken Land Imp. Co.",
       "docid": "Proprietors of Passaic &amp; Hackensack River Bridges",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Proprietors of Passaic &amp;\nHackensack River Bridges v. Hoboken Land Imp. Co.": "227"
+      },
       "citations": {
         "(1860) 13 N.J.Eq.\n(2 Beasl.) 503": "227"
       },

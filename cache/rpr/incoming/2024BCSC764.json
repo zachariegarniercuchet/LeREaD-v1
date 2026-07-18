@@ -3,9 +3,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Aquilini Development Limited\n  Partnership v. Garibaldi at Squamish Limited Partnership",
       "docid": "Aquilini",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Aquilini Development Limited\n  Partnership v. Garibaldi at Squamish Limited Partnership": "0"
+      },
       "citations": {
         "2024 BCSC 764": "0"
       },
@@ -18,11 +19,12 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Bankruptcy\nand Insolvency Act",
       "docid": "BIA",
       "alternative_titles": {
         "BIA": "3",
-        "Act": "194"
+        "Bankruptcy\nand Insolvency Act": "9",
+        "Act": "194",
+        "Bankruptcy and Insolvency Act": "201"
       },
       "citations": {
         "R.S.C., 1985, c. B-3": "9"
@@ -54,9 +56,9 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Environmental Assessment Act",
       "docid": "Environmental Assessment Act",
       "alternative_titles": {
+        "Environmental Assessment Act": "5",
         "E.A. Act": "5"
       },
       "citations": {
@@ -73,9 +75,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "PaySlate Inc. (Re)",
       "docid": "PaySlate BCSC 2023-1",
       "alternative_titles": {
+        "PaySlate Inc. (Re)": "18",
         "PaySlate #1": "18",
         "PaySlate\n#1": "424"
       },
@@ -92,7 +94,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "PaySlate BCSC 2023-2",
       "alternative_titles": {
         "PaySlate #2": "22",
@@ -108,9 +109,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Peakhill Capital Inc. v. Southview\nGardens Limited Partnership",
       "docid": "Peakhill",
       "alternative_titles": {
+        "Peakhill Capital Inc. v. Southview\nGardens Limited Partnership": "25",
         "Peakhill": "106"
       },
       "citations": {
@@ -125,9 +126,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "1351486 B.C. Ltd. v. Living Beachside Development Limited Partnership, Port\nCapital, et al.",
       "docid": "Port Capital",
       "alternative_titles": {
+        "1351486 B.C. Ltd. v. Living Beachside Development Limited Partnership, Port\nCapital, et al.": "28",
         "Port Capital": "28",
         "Port\nCapital": "505"
       },
@@ -143,9 +144,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Royal Bank of Canada v. Canwest Aerospace Inc.",
       "docid": "Canwest",
       "alternative_titles": {
+        "Royal Bank of Canada v. Canwest Aerospace Inc.": "32",
         "Canwest": "109"
       },
       "citations": {
@@ -162,9 +163,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Hansard Spruce Mills (Re)",
       "docid": "Hansard Spruce Mills",
       "alternative_titles": {
+        "Hansard Spruce Mills (Re)": "39",
         "Hansard\nSpruce Mills": "365",
         "Re Hansard Spruce Mills": "392",
         "Spruce\nMills": "394",
@@ -184,9 +185,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Sullivan",
       "docid": "Sullivan",
       "alternative_titles": {
+        "R. v. Sullivan": "43",
         "Sullivan": "367"
       },
       "citations": {
@@ -202,9 +203,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Harte Gold Corp.\n(Re)",
       "docid": "Harte Gold",
       "alternative_titles": {
+        "Harte Gold Corp.\n(Re)": "46",
         "Harte Gold": "77",
         "Harte\nGold": "114"
       },
@@ -224,9 +225,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Arrangement relatif à\nBlackrock Metals Inc.",
       "docid": "Blackrock Metals",
       "alternative_titles": {
+        "Arrangement relatif à\nBlackrock Metals Inc.": "49",
         "Blackrock Metals": "70",
         "Blackrock\nMetals": "579"
       },
@@ -245,9 +246,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Just Energy Group Inc. et.\nal. v. Morgan Stanley Capital Group Inc. et. al.",
       "docid": "Just Energy",
       "alternative_titles": {
+        "Just Energy Group Inc. et.\nal. v. Morgan Stanley Capital Group Inc. et. al.": "52",
         "Just Energy": "94"
       },
       "citations": {
@@ -262,9 +263,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Law and\nEquity Act",
       "docid": "Law and Equity Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Law and\nEquity Act": "55"
+      },
       "citations": {
         "R.S.B.C. 1996, c. 253": "55"
       },
@@ -275,9 +277,9 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Environmental Management Act",
       "docid": "Environmental Management Act",
       "alternative_titles": {
+        "Environmental Management Act": "58",
         "Env. Mgmt. Act": "58"
       },
       "citations": {
@@ -290,9 +292,9 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Companies’ Creditors\nArrangement Act",
       "docid": "CCAA",
       "alternative_titles": {
+        "Companies’ Creditors\nArrangement Act": "64",
         "CCAA": "64",
         "Act": "205"
       },
@@ -309,9 +311,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Quest University Canada (Re)",
       "docid": "Quest",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Quest University Canada (Re)": "73"
+      },
       "citations": {
         "2020 BCSC 1883": "73"
       },
@@ -324,9 +327,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Reverse Vesting Orders – Developing Principles and Guardrails\nto Inform Judicial Decisions",
       "docid": "Reverse Vesting Orders",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Reverse Vesting Orders – Developing Principles and Guardrails\nto Inform Judicial Decisions": "82"
+      },
       "citations": {},
       "fragments_mentioned": {
         "1-2": "82",
@@ -347,9 +351,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Century Services Inc. v. Canada (Attorney General)",
       "docid": "Century Services",
       "alternative_titles": {
+        "Century Services Inc. v. Canada (Attorney General)": "150",
         "Century Services": "179"
       },
       "citations": {
@@ -364,9 +368,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canada\nv. Canada North Group Inc.",
       "docid": "Canada North Group",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Canada\nv. Canada North Group Inc.": "153"
+      },
       "citations": {
         "2021 SCC 30": "153"
       },
@@ -377,9 +382,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Saskatchewan (Attorney General)\nv. Lemare Lake Logging Ltd.",
       "docid": "Lemare Lake",
       "alternative_titles": {
+        "Saskatchewan (Attorney General)\nv. Lemare Lake Logging Ltd.": "156",
         "Lemare Lake\nLogging": "527"
       },
       "citations": {
@@ -392,9 +397,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "GMAC Commercial Credit\nCorporation - Canada v. T.C.T. Logistics Inc.",
       "docid": "T.C.T. Logistics",
       "alternative_titles": {
+        "GMAC Commercial Credit\nCorporation - Canada v. T.C.T. Logistics Inc.": "159",
         "T.C.T.\nLogistics": "442",
         "T.C.T. Logistics": "499",
         "T.C.T\nLogistics": "561"
@@ -409,9 +414,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Third Eye\nCapital Corporation v. Ressources Dianor Inc./Dianor Resources Inc.",
       "docid": "Third Eye Capital",
       "alternative_titles": {
+        "Third Eye\nCapital Corporation v. Ressources Dianor Inc./Dianor Resources Inc.": "162",
         "Third Eye Capital": "254",
         "Dianor": "341"
       },
@@ -428,9 +433,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Yukon (Government of) v. Yukon Zinc Corporation",
       "docid": "Yukon Zinc",
       "alternative_titles": {
+        "Yukon (Government of) v. Yukon Zinc Corporation": "165",
         "Yukon\nZinc": "473",
         "Yukon Zinc": "475"
       },
@@ -448,9 +453,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "A Hill Too Far: Reverse Vesting orders\nin BIA Receiverships",
       "docid": "A Hill Too Far",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "A Hill Too Far: Reverse Vesting orders\nin BIA Receiverships": "170"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {
@@ -461,9 +467,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Anything You Can Do, I Can Do Better: Does the CCAA\nProvide Broader Discretionary Relief than the BIA?",
       "docid": "Anything You Can Do",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Anything You Can Do, I Can Do Better: Does the CCAA\nProvide Broader Discretionary Relief than the BIA?": "174"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {
@@ -475,9 +482,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Winding-up\nand Restructuring Act",
       "docid": "Winding-up and Restructuring Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Winding-up\nand Restructuring Act": "203"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -486,9 +494,12 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canada\n(Minister of Indian Affairs &amp; Northern Development) v. Curragh Inc.",
       "docid": "Curragh",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Canada\n(Minister of Indian Affairs &amp; Northern Development) v. Curragh Inc.": "247",
+        "Canada (Minister of Indian Affairs &amp; Northern Development) v.\nCurragh Inc.": "270",
+        "Canada\n(Minister of Indian Affairs and Northern Development) v. Curragh Inc. (1994)": "349"
+      },
       "citations": {
         "1994),\n114 D.L.R. (4th) 176": "247",
         "1994 CanLII 7468 (Ont. C.J. (Gen. Div.) [Commercial List])": "247",
@@ -505,9 +516,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Bennett on Bankruptcy",
       "docid": "Bennett on Bankruptcy",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Bennett on Bankruptcy": "258"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 205": "258"
@@ -520,9 +532,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Bankruptcy and Insolvency Law",
       "docid": "Bankruptcy and Insolvency Law",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Bankruptcy and Insolvency Law": "263"
+      },
       "citations": {},
       "fragments_mentioned": {
         "pp. 505-506": "263"
@@ -535,9 +548,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Loewen Group Inc., Re",
       "docid": "Loewen Group",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Loewen Group Inc., Re": "277"
+      },
       "citations": {
         "(2001), 22 B.L.R. (3d) 134": "277",
         "(Ont.\nS.C.J. [Commercial List])": "277"
@@ -549,9 +563,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Insolvency Reform Act 2005",
       "docid": "Insolvency Reform Act 2005",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Insolvency Reform Act 2005": "289"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -560,9 +575,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Insolvency Reform Act\n2007",
       "docid": "Insolvency Reform Act 2007",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Insolvency Reform Act\n2007": "291"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -571,9 +587,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "ATCO Gas &amp; Pipelines Ltd.\nv. Alberta (Energy &amp; Utilities Board)",
       "docid": "ATCO Gas",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "ATCO Gas &amp; Pipelines Ltd.\nv. Alberta (Energy &amp; Utilities Board)": "299"
+      },
       "citations": {
         "2006 SCC 4": "299",
         "[2006] 1 S.C.R. 140 (S.C.C.)": "299"
@@ -585,9 +602,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Peace River Hydro Partners v. Petrowest Corp.",
       "docid": "Petrowest",
       "alternative_titles": {
+        "Peace River Hydro Partners v. Petrowest Corp.": "320",
         "Petrowest": "359"
       },
       "citations": {
@@ -604,9 +621,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "DGDP-BC Holdings Ltd. v. Third Eye Capital Corporation",
       "docid": "DGDP-BC Holdings",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "DGDP-BC Holdings Ltd. v. Third Eye Capital Corporation": "333"
+      },
       "citations": {
         "2021 ABCA 226": "333",
         "459\nD.L.R. (4th) 538": "333"
@@ -620,7 +638,6 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Insolvency Law of Canada",
       "alternative_titles": {},
       "citations": {},
@@ -635,9 +652,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Vert\nInfrastructure Ltd. (Re)",
       "docid": "Vert Infrastructure",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Vert\nInfrastructure Ltd. (Re)": "381"
+      },
       "citations": {
         "(8 June 2021), ONSC [Commercial List], Court file\nNo. Toronto CV-20-00642256-00CL": "381"
       },
@@ -648,9 +666,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "2056706 Ontario Inc et al (Re)",
       "docid": "2056706 Ontario",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "2056706 Ontario Inc et al (Re)": "384"
+      },
       "citations": {
         "(7 January\n2021), ONSC [Commercial List], Court file No. Toronto CV-20-00638503-00CL": "384"
       },
@@ -661,7 +680,6 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Practical Guide to Stare Decisis",
       "alternative_titles": {},
       "citations": {},
@@ -677,7 +695,6 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Stare Decisis in the BCCS",
       "alternative_titles": {},
       "citations": {},
@@ -692,9 +709,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "The Owners, Strata Plan BCS 4006 v. Jameson House\nVentures Ltd.",
       "docid": "Jameson House Ventures",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Owners, Strata Plan BCS 4006 v. Jameson House\nVentures Ltd.": "404"
+      },
       "citations": {
         "2017 BCSC 1988": "404",
         "4 B.C.L.R. (6th) 370": "404"
@@ -708,9 +726,9 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Land Act",
       "docid": "Land Act",
       "alternative_titles": {
+        "Land Act": "536",
         "Land\nAct": "536"
       },
       "citations": {
@@ -726,9 +744,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Metcalfe &amp; Mansfield Alternative\nInvestments II Corp., (Re)",
       "docid": "Metcalfe",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Metcalfe &amp; Mansfield Alternative\nInvestments II Corp., (Re)": "574"
+      },
       "citations": {
         "2008 ONCA 587": "574"
       },
@@ -742,9 +761,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Royal\nBank of Canada v. Soundair Corp.",
       "docid": "Soundair",
       "alternative_titles": {
+        "Royal\nBank of Canada v. Soundair Corp.": "589",
         "Soundair Corp.": "593"
       },
       "citations": {

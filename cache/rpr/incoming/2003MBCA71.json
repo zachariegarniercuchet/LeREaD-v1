@@ -3,9 +3,9 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "The Manitoba Motor League Incorporation Act",
       "docid": "Manitoba Motor League Incorporation Act",
       "alternative_titles": {
+        "The Manitoba Motor League Incorporation Act": "0",
         "Act": "0",
         "statute": "123"
       },
@@ -19,9 +19,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Manulife Bank of Canada v. Conlin",
       "docid": "Conlin",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Manulife Bank of Canada v. Conlin": "4"
+      },
       "citations": {
         "[1996]\n3 S.C.R. 415": "4"
       },
@@ -34,9 +35,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Eli Lilly &amp; Co. v.\nNovopharm Ltd.",
       "docid": "Eli Lilly",
       "alternative_titles": {
+        "Eli Lilly &amp; Co. v.\nNovopharm Ltd.": "8",
         "Eli Lilly": "24",
         "Eli\nLilly": "56"
       },
@@ -55,9 +56,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "National Trust Co. v. Mead",
       "docid": "Mead",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "National Trust Co. v. Mead": "15"
+      },
       "citations": {
         "[1990] 2 S.C.R. 410": "15"
       },
@@ -68,9 +70,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Scanlon v. Castlepoint\nDevelopment Corp. (1992)",
       "docid": "Scanlon",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Scanlon v. Castlepoint\nDevelopment Corp. (1992)": "18"
+      },
       "citations": {
         "11 O.R. (3d) 744 (C.A.)": "18"
       },
@@ -81,9 +84,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Controls &amp; Equipment Ltd.\nv. Ramco Contractors Ltd. et al. (1999)",
       "docid": "Ramco",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Controls &amp; Equipment Ltd.\nv. Ramco Contractors Ltd. et al. (1999)": "21"
+      },
       "citations": {
         "209 N.B.R. (2d) 1 (C.A.)": "21"
       },
@@ -94,9 +98,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "White v. Central Trust Co. (1984)",
       "docid": "White",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "White v. Central Trust Co. (1984)": "28"
+      },
       "citations": {
         "7 D.L.R. (4th)\n236 (N.B.C.A.)": "28"
       },
@@ -109,9 +114,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Hill v. Nova Scotia\n(Attorney General)",
       "docid": "Hill",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Hill v. Nova Scotia\n(Attorney General)": "33"
+      },
       "citations": {
         "[1997] 1 S.C.R. 69": "33"
       },
@@ -122,9 +128,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Manitoba Hydro Electric v.\nInglis (John) Co. et al. (1999)",
       "docid": "Inglis",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Manitoba Hydro Electric v.\nInglis (John) Co. et al. (1999)": "36"
+      },
       "citations": {
         "142 Man.R. (2d) 1 (C.A.)": "36"
       },
@@ -135,9 +142,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Reardon Smith Line Ltd.\nv. Hansen-Tangen",
       "docid": "Reardon Smith Line",
       "alternative_titles": {
+        "Reardon Smith Line Ltd.\nv. Hansen-Tangen": "39",
         "Reardon Smith Line Ltd.": "51",
         "Reardon\nSmith Line Ltd.": "68"
       },
@@ -154,9 +161,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The Law of\nContract in Canada",
       "docid": "Law of Contract in Canada",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Law of\nContract in Canada": "46"
+      },
       "citations": {},
       "fragments_mentioned": {
         "478": "46"
@@ -169,9 +177,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "MacMillan Bloedel Ltd. v.\nBritish Columbia Hydro &amp; Power Authority (1992)",
       "docid": "MacMillan Bloedel",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "MacMillan Bloedel Ltd. v.\nBritish Columbia Hydro &amp; Power Authority (1992)": "53"
+      },
       "citations": {
         "72 B.C.L.R. (2d) 273\n(C.A.)": "53"
       },
@@ -182,9 +191,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Glimmer Resources Inc. v.\nExall Resources Ltd. (1999)",
       "docid": "Glimmer Resources",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Glimmer Resources Inc. v.\nExall Resources Ltd. (1999)": "58"
+      },
       "citations": {
         "119 O.A.C. 78": "58"
       },
@@ -195,9 +205,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Prenn v. Simmonds",
       "docid": "Prenn",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Prenn v. Simmonds": "61"
+      },
       "citations": {
         "[1971] 3 All\nE.R. 237 (H.L.)": "61"
       },
@@ -211,9 +222,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Langley Lo-Cost Builders Ltd. v. 474835\nB.C. Ltd.",
       "docid": "Langley Lo-Cost Builders",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Langley Lo-Cost Builders Ltd. v. 474835\nB.C. Ltd.": "72"
+      },
       "citations": {
         "[2000] 7 W.W.R. 46": "72",
         "2000 BCCA 365": "72"
@@ -227,7 +239,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Consolidated-Bathurst",
       "alternative_titles": {
         "Consolidated-Bathurst": "85"
@@ -242,9 +253,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Paddon-Hughes\nDevelopment Co. v. Pancontinental Oil Ltd.",
       "docid": "Paddon Hughes Development",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Paddon-Hughes\nDevelopment Co. v. Pancontinental Oil Ltd.": "88"
+      },
       "citations": {
         "[1999] 5 W.W.R. 726\n(Alta. C.A.)": "88"
       },
@@ -255,9 +267,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Hi-Tech Group Inc. v.\nSears Canada Inc. (2001)",
       "docid": "Hi-Tech Group",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Hi-Tech Group Inc. v.\nSears Canada Inc. (2001)": "91"
+      },
       "citations": {
         "52 O.R. (3d) 97": "91",
         "(C.A.": "91"
@@ -271,9 +284,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Eco-Zone Engineering Ltd. v. Grand Falls-Windsor\n(Town) (2000)",
       "docid": "Eco-Zone",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Eco-Zone Engineering Ltd. v. Grand Falls-Windsor\n(Town) (2000)": "96"
+      },
       "citations": {
         "5 C.L.R. (3d) 55": "96",
         "2000 NFCA 21": "96"
@@ -287,9 +301,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Leitch\nGold Mines Ltd. et al. v. Texas Gulf Sulphur Co. (Incorporated) et al.",
       "docid": "Leitch Gold Mines",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Leitch\nGold Mines Ltd. et al. v. Texas Gulf Sulphur Co. (Incorporated) et al.": "101"
+      },
       "citations": {
         "[1969] 1 O.R. 469": "101"
       },
@@ -302,9 +317,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "London Drugs Ltd. v. Truscan Realty Ltd. et al. (1988)",
       "docid": "London Drugs",
       "alternative_titles": {
+        "London Drugs Ltd. v. Truscan Realty Ltd. et al. (1988)": "105",
         "London Drugs": "109",
         "London Drug[s]": "115"
       },
@@ -321,7 +336,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Queen",
       "alternative_titles": {
         "Queen’s Bench\nRule": "125"
@@ -336,9 +350,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Miller v. Toews (1990)",
       "docid": "Miller",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Miller v. Toews (1990)": "128"
+      },
       "citations": {
         "70 Man.R. (2d) 4 (C.A.)": "128"
       },
@@ -349,9 +364,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Krahn Enterprises Ltd. v. Big Apple Imports\nLtd. (1992)",
       "docid": "Krahn Enterprises",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Krahn Enterprises Ltd. v. Big Apple Imports\nLtd. (1992)": "131"
+      },
       "citations": {
         "82 Man.R. (2d) 106 (Q.B.)": "131"
       },

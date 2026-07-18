@@ -79,7 +79,7 @@ def plot_coverage_comparison(greedy_log, random_log, total_max=700, save_path="c
             color='tomato', linestyle='--', label='Random selection')
 
     ax.set_xlabel("Number of Examples Selected", fontsize=13)
-    ax.set_ylabel("Coverage Score (%)", fontsize=13)
+    ax.set_ylabel("Surface Coverage Score (%)", fontsize=13)
     ax.set_title("Greedy vs Random Coverage", fontsize=15)
     ax.legend(fontsize=12)
     ax.grid(True, linestyle='--', alpha=0.6)

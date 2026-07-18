@@ -3,9 +3,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Simpson",
       "docid": "Simpson",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Simpson": "0"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -14,10 +15,14 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Criminal Code",
       "docid": "Criminal Code",
       "alternative_titles": {
-        "Code": "34"
+        "Criminal Code": "2",
+        "Criminal Code of\nCanada": "16",
+        "Criminal Code of Canada": "19",
+        "Code": "34",
+        "Act": "49",
+        "Criminal\nCode": "107"
       },
       "citations": {},
       "fragments_mentioned": {
@@ -75,12 +80,15 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Canadian Charter of\nRights and Freedoms",
       "docid": "Charter",
       "alternative_titles": {
+        "Canadian Charter of\nRights and Freedoms": "5",
         "Charter right": "10",
         "Charter": "13",
-        "Charter rights": "28"
+        "Charter rights": "28",
+        "Canadian Charter\nof Rights and Freedoms": "296",
+        "Canadian Charter of Rights and Freedoms": "329",
+        "Canadian\nCharter of Rights and Freedoms": "352"
       },
       "citations": {},
       "fragments_mentioned": {
@@ -102,9 +110,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Mills (1986)",
       "docid": "Mills",
       "alternative_titles": {
+        "R. v. Mills (1986)": "166",
         "Mills": "175"
       },
       "citations": {
@@ -122,9 +130,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Rahey (1987)",
       "docid": "Rahey",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Rahey (1987)": "200"
+      },
       "citations": {
         "33 C.C.C. (3d) 289": "200",
         "39 D.L.R. (4th) 481": "200",
@@ -137,9 +146,9 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The Canadian\nCharter of Rights",
       "docid": "The Canadian Charter of Rights",
       "alternative_titles": {
+        "The Canadian\nCharter of Rights": "205",
         "The Prosecution and Defence of\nCriminal and other Statutory Offences": "205"
       },
       "citations": {},
@@ -152,9 +161,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Erickson (1984)",
       "docid": "Erickson",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Erickson (1984)": "211"
+      },
       "citations": {
         "13 C.C.C.\n(3d) 269": "211",
         "12 C.R.R. 193": "211",
@@ -169,9 +179,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Sullivan",
       "docid": "Sullivan",
       "alternative_titles": {
+        "R. v. Sullivan": "230",
+        "R. v. Sullivan (1991)": "392",
         "Sullivan": "406"
       },
       "citations": {
@@ -189,9 +200,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Young (1984)",
       "docid": "Young",
       "alternative_titles": {
+        "R. v. Young (1984)": "247",
         "Young": "263"
       },
       "citations": {
@@ -208,9 +219,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Jewitt (1985)",
       "docid": "Jewitt",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Jewitt (1985)": "253"
+      },
       "citations": {
         "21 C.C.C. (3d) 7": "253",
         "20 D.L.R. (4th) 651": "253",
@@ -223,9 +235,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. v. Keyowski (1988)",
       "docid": "Keyowski",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "R. v. Keyowski (1988)": "258"
+      },
       "citations": {
         "40 C.C.C. (3d) 481": "258",
         "[1988] 1 S.C.R. 657": "258",

@@ -3,10 +3,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "R. in Right of Ontario, et al. v. Ron En- gineering &amp;\nConstruction (Eastern) Ltd.",
       "docid": "Ron Engineering",
       "alternative_titles": {
         "Ron Engineering": "0",
+        "R. in Right of Ontario, et al. v. Ron En- gineering &amp;\nConstruction (Eastern) Ltd.": "20",
+        "R. in Right of Ontario, et al. v. Ron Engineering &amp; Construction (Eastern)\nLtd.": "108",
         "Ron\nEngineering": "108"
       },
       "citations": {
@@ -26,9 +27,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Law of Con- tract",
       "docid": "Law of Contract",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Law of Con- tract": "2",
+        "Law of Contract": "141"
+      },
       "citations": {},
       "fragments_mentioned": {
         "pp. 46": "141",
@@ -48,9 +51,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Hudson's Building and Engineering Contracts",
       "docid": "Hudson",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Hudson's Building and Engineering Contracts": "6",
+        "Hudson's\nBuilding and Engineering Contracts": "185"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p.6": "185",
@@ -64,9 +69,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Government Procurement and Judicial Review",
       "docid": "Government Procurement and Judicial Review",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Government Procurement and Judicial Review": "9",
+        "Government Procurement and\nJudicial Review": "379"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 55": "379",
@@ -81,9 +88,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Damages\nfor Breach of Contract",
       "docid": "Damages for Breach of Contract",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Damages\nfor Breach of Contract": "13"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 33": "414"
@@ -96,9 +104,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Goldsmith on Canadian Building\nContracts",
       "docid": "Goldsmith on Canadian Building Contracts",
       "alternative_titles": {
+        "Goldsmith on Canadian Building\nContracts": "17",
+        "Goldsmith on Canadian Building Contracts": "123",
         "Goldsmith": "127"
       },
       "citations": {},
@@ -111,9 +120,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canamerican Auto Lease and Rental Limited v. Canada",
       "docid": "Canamerican",
       "alternative_titles": {
+        "Canamerican Auto Lease and Rental Limited v. Canada": "24",
         "Canamerican Auto Lease": "115"
       },
       "citations": {
@@ -128,9 +137,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Kawneer Co. Canada, Ltd. v. Bank of Canada (1982)",
       "docid": "Kawneer",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Kawneer Co. Canada, Ltd. v. Bank of Canada (1982)": "27"
+      },
       "citations": {
         "40 O.R.\n(2d) 275 (Ont. C.A.)": "27",
         "40 O.R. (2d) 275 (Ont.\nC.A.)": "147"
@@ -142,9 +152,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Ellis-Don Construction Ltd. v. Canada (Minister of Public\nWorks)",
       "docid": "Ellis-Don",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Ellis-Don Construction Ltd. v. Canada (Minister of Public\nWorks)": "30",
+        "Ellis-Don Construction Ltd. v. Canada (Minister of Public Works)": "150"
+      },
       "citations": {
         "(unreported, April 16, 1992, Fed. T.D.)": "30"
       },
@@ -155,9 +167,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Megatech Contracting Ltd. v.\nRegional Municipality of Ottawa-Carleton (1989)",
       "docid": "Megatech",
       "alternative_titles": {
+        "Megatech Contracting Ltd. v.\nRegional Municipality of Ottawa-Carleton (1989)": "33",
+        "Megatech Con- tracting Ltd.\nv. Regional Municipality of Ottawa-Carleton (1989)": "153",
         "Megatech": "153"
       },
       "citations": {
@@ -173,9 +186,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Arctic Cooperatives, Ltd. v. Sigyamiut Ltd.",
       "docid": "Artic Cooperatives",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Arctic Cooperatives, Ltd. v. Sigyamiut Ltd.": "36"
+      },
       "citations": {
         "(unreported, April 2, 1991,\nN.W.T.S.C.)": "36"
       },
@@ -188,9 +202,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Globe Heating &amp; Plumbing Ltd. v. Northern Construction Co.",
       "docid": "Globe Heating",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Globe Heating &amp; Plumbing Ltd. v. Northern Construction Co.": "39"
+      },
       "citations": {
         "[1986] 2 W.W.R.649 (Alta. C.A.)": "39",
         "[1986] 2 W.W.R.\n649 (Alta. C.A.)": "205"
@@ -204,9 +219,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Northern Construction Company Division of\nMorrison-Knudsen Company, Inc. and the Canadian Indemnity Company v. The City\nof Calgary",
       "docid": "Northern Construction",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Northern Construction Company Division of\nMorrison-Knudsen Company, Inc. and the Canadian Indemnity Company v. The City\nof Calgary": "42",
+        "Northern Construction Company Division of Morrison-Knudsen Company, Inc.\nand the Canadian Indemnity Company v. The City of Calgary": "214"
+      },
       "citations": {
         "[1987] 2 S.C.R. 757": "42"
       },
@@ -217,9 +234,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Bate Equipment Ltd. v. Ellis-Don Ltd.",
       "docid": "Bate Equipment",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Bate Equipment Ltd. v. Ellis-Don Ltd.": "45"
+      },
       "citations": {
         "(unreported, July 21, 1992, Alta. Q.B.)": "45"
       },
@@ -230,9 +248,12 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Slave Lake (Town) v. Appleton\nConstruction Ltd. et al. (1987)",
       "docid": "Slave Lake",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Slave Lake (Town) v. Appleton\nConstruction Ltd. et al. (1987)": "48",
+        "Slave Lake (Town) v. Appleton Construction Ltd. et al. (1987)": "220",
+        "Slave Lake (Town) v. Appleton Con- struction Ltd. et\nal. (1987)": "259"
+      },
       "citations": {
         "80 A.R. 276 (Alta. Q.B.)": "48",
         "80 A.R. 276\n(Alta. Q.B.)": "220"
@@ -247,9 +268,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Protec Installations\nLtd. v. Aberdeen Construction Ltd. (1993)",
       "docid": "Protec Installations",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Protec Installations\nLtd. v. Aberdeen Construction Ltd. (1993)": "51",
+        "Protec Installations Ltd. v. Aberdeen Construction Ltd. (1993)": "223"
+      },
       "citations": {
         "6 C.L.R. (2d) 143 (B.C.S.C.)": "51",
         "6\nC.L.R. (2d) 143 (B.C.S.C.)": "223"
@@ -261,9 +284,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Kencor\nHoldings Ltd. v. Saskatchewan (1991)",
       "docid": "Kencor Holdings",
       "alternative_titles": {
+        "Kencor\nHoldings Ltd. v. Saskatchewan (1991)": "54",
+        "Kencor Holdings Ltd. v. Saskatchewan (1991)": "226",
         "Kencor Holdings": "226",
         "Kencor": "405"
       },
@@ -280,9 +304,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Scott Steel\n(Ottawa) Ltd. v. R.J. Nicol Construction (1975) Ltd.",
       "docid": "Scott Steel",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Scott Steel\n(Ottawa) Ltd. v. R.J. Nicol Construction (1975) Ltd.": "57",
+        "Scott Steel (Ottawa)\nLtd. v. R.J. Nicol Construction (1975) Ltd.": "230"
+      },
       "citations": {
         "(unreported, March 3,\n1993, Ont. Div. Ct.)": "57",
         "(unreported, March 3, 1993, Ont.\nDiv. Ct.)": "230"
@@ -294,9 +320,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Martselos Services Ltd. v. Arctic College",
       "docid": "Martselos Services",
       "alternative_titles": {
+        "Martselos Services Ltd. v. Arctic College": "60",
+        "Martselos Services Ltd., v. Arctic College": "233",
         "Martselos Services Ltd.": "288",
         "Martselos": "402"
       },
@@ -313,9 +340,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Kelson v. A.W. MacPhail Ltd. (1989)",
       "docid": "Kelson",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Kelson v. A.W. MacPhail Ltd. (1989)": "63"
+      },
       "citations": {
         "34 C.L.R. l\n(N.B.C.A.)": "63",
         "34 C.L.R. 1 (N.B.C.A.)": "236"
@@ -327,9 +355,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Whistler Service Park Ltd. v. Whistler (Resort Municipality)\n(1990)",
       "docid": "Whistler",
       "alternative_titles": {
+        "Whistler Service Park Ltd. v. Whistler (Resort Municipality)\n(1990)": "66",
+        "Whistler Service Park Ltd. v. Whistler\n(Resort Municipality) (1990)": "239",
         "Whistler": "239"
       },
       "citations": {
@@ -346,9 +375,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "M.S.K. Financial Services Ltd. v. The Queen\nin Right of Alberta et al. (1987)",
       "docid": "M.S.K. Financial",
       "alternative_titles": {
+        "M.S.K. Financial Services Ltd. v. The Queen\nin Right of Alberta et al. (1987)": "69",
+        "M.S.K. Financial Services Ltd. v. The Queen in\nRight of Alberta et al. (1987)": "247",
         "M.S.K.": "247",
         "M.S.K. Financial Services, Ltd.": "394"
       },
@@ -365,9 +395,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Ben Bruinsma\n&amp; Sons Ltd. v. the Corporation of the City of Chatham et al. (1984)",
       "docid": "Ben Bruinsma",
       "alternative_titles": {
+        "Ben Bruinsma\n&amp; Sons Ltd. v. the Corporation of the City of Chatham et al. (1984)": "72",
+        "Ben Bruinsma &amp; Sons Ltd. v. the Corporation of the City of Chatham et\nal. (1984)": "254",
         "Bruinsma": "254"
       },
       "citations": {
@@ -385,9 +416,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Chinook Aggregates Ltd. v. Abbotsford Municipal District\n(1989)",
       "docid": "Chinook",
       "alternative_titles": {
+        "Chinook Aggregates Ltd. v. Abbotsford Municipal District\n(1989)": "75",
+        "Chinook\nAggregates Ltd. v. Abbotsford Municipal District (1989)": "271",
         "Chinook Aggregates": "271"
       },
       "citations": {
@@ -404,9 +436,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Best Cleaners &amp; Contractors Ltd.\nv. Canada (1985)",
       "docid": "Best Cleaners",
       "alternative_titles": {
+        "Best Cleaners &amp; Contractors Ltd.\nv. Canada (1985)": "78",
+        "Best Cleaners &amp; Contractors Ltd. v. Canada (1985)": "281",
         "Best Cleaners": "281"
       },
       "citations": {
@@ -423,9 +456,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc.\n(1991)",
       "docid": "Hawes",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc.\n(1991)": "81",
+        "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club\nInc. (1991)": "298"
+      },
       "citations": {
         "96 Nfld. &amp; P.E.I.R. 169 (P.E.I.S.C.T.D.)": "81"
       },
@@ -438,9 +473,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Georgia Con- struction\nCo. v. Pacific Great Eastern Railway",
       "docid": "Georgia Construction",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Georgia Con- struction\nCo. v. Pacific Great Eastern Railway": "84",
+        "Georgia\nConstruction Co. v. Pacific Great Eastern Railway": "302"
+      },
       "citations": {
         "[1929] S.C.R. 630": "84"
       },
@@ -453,9 +490,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Cartwright &amp;\nCrickmore, Ltd. v. MacInnes",
       "docid": "Cartwright",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Cartwright &amp;\nCrickmore, Ltd. v. MacInnes": "87",
+        "Cartwright &amp; Crickmore, Ltd. v. MacInnes": "306"
+      },
       "citations": {
         "[1931] S.C.R. 425": "87"
       },
@@ -466,9 +505,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Acme Building and Construction\nLtd. v. Newcastle (Town) (1992)",
       "docid": "Acme Building",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Acme Building and Construction\nLtd. v. Newcastle (Town) (1992)": "90"
+      },
       "citations": {
         "2 C.L.R. (2d) 308 (Ont. C.A.)": "90"
       },
@@ -479,9 +519,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Elgin\nConstruction Co. Ltd. v. Municipality of the Township of Russell (1987)",
       "docid": "Elgin Construction",
       "alternative_titles": {
+        "Elgin\nConstruction Co. Ltd. v. Municipality of the Township of Russell (1987)": "93",
+        "Elgin Construction Co. Ltd. v. Municipality of the Township of Russell\n(1987)": "317",
         "Elgin": "317"
       },
       "citations": {
@@ -497,9 +538,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Power Agencies Co. and DuPont Canada Inc. v.\nNewfoundland Hospital and Nursing Home Assoc. (1991)",
       "docid": "Power Agencies",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Power Agencies Co. and DuPont Canada Inc. v.\nNewfoundland Hospital and Nursing Home Assoc. (1991)": "96",
+        "Power Agencies Co. and DuPont Canada Inc. v. Newfoundland Hospital and Nursing\nHome Assoc. (1991)": "322"
+      },
       "citations": {
         "90 Nfld. &amp; P.E.I.R.\n64 (Nfld. S.C.)": "96",
         "90 Nfld. &amp; P.E.I.R. 64 (Nfld. S.C.)": "322"
@@ -511,9 +554,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Zutphen Bros. Construction Ltd. v. Attorney General of Nova\nScotia",
       "docid": "Zutphen Bros",
       "alternative_titles": {
+        "Zutphen Bros. Construction Ltd. v. Attorney General of Nova\nScotia": "99",
+        "Zutphen Bros. Construction Ltd. v. Attorney General of Nova Scotia": "356",
         "Zutphen Bros.": "356"
       },
       "citations": {
@@ -529,9 +573,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Tercon Contractors Ltd. v.\nBritish Columbia",
       "docid": "Tercon Contractors",
       "alternative_titles": {
+        "Tercon Contractors Ltd. v.\nBritish Columbia": "102",
+        "Tercon Contractors Ltd. v. British Columbia": "360",
         "Tercon": "360"
       },
       "citations": {
@@ -549,9 +594,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "M.J. Peddlesden Ltd.\nv. Liddle Construction, Ltd. (1981)",
       "docid": "Peddlesden",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "M.J. Peddlesden Ltd.\nv. Liddle Construction, Ltd. (1981)": "105",
+        "M.J. Peddlesden Ltd. v. Liddle Construction, Ltd. (1981)": "385"
+      },
       "citations": {
         "128 D.L.R. (3d) 360 (B.C.S.C.)": "105",
         "128 D.L.R. (3d) 360\n(B.C.S.C.)": "385"
@@ -563,9 +610,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Spencer v. Harding",
       "docid": "Spencer",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Spencer v. Harding": "165",
+        "Spencer\nv. Harding": "203"
+      },
       "citations": {
         "[1870] L.R. 4 C.P. 561": "165",
         "39\nL.J.C.P. 332": "165",
@@ -579,9 +628,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Halsbury's Laws of England",
       "docid": "Halsbury",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Halsbury's Laws of England": "171"
+      },
       "citations": {},
       "fragments_mentioned": {
         "para. 230": "171"
@@ -592,9 +642,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Chitty on Contracts",
       "docid": "Chitty on Contracts",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Chitty on Contracts": "176"
+      },
       "citations": {},
       "fragments_mentioned": {
         "para. 51": "176"
@@ -605,9 +656,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Carlill v. Carbolic Smoke Ball Co.",
       "docid": "Carlill",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Carlill v. Carbolic Smoke Ball Co.": "190"
+      },
       "citations": {
         "[1893]\n1 Q.B. 256": "190",
         "62 L.J.Q.B. 257": "190",
@@ -623,9 +675,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Acme\nBuilding and Construction Ltd. v. Newcastle (Town) (1992)",
       "docid": "Acme Building ONCA 1992",
       "alternative_titles": {
+        "Acme\nBuilding and Construction Ltd. v. Newcastle (Town) (1992)": "309",
         "Acme": "309"
       },
       "citations": {
@@ -638,7 +690,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Acme Building ONDISCT 1990",
       "alternative_titles": {},
       "citations": {
@@ -651,7 +702,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Acme Building SCC 1993",
       "alternative_titles": {},
       "citations": {
@@ -664,9 +714,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Richardson v. Silvester (1873)",
       "docid": "Richardson",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Richardson v. Silvester (1873)": "349"
+      },
       "citations": {
         "L.R. 9\nQ.B. 34": "349"
       },

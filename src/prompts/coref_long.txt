@@ -14,10 +14,10 @@ Each profile represents one legal authority that has already appeared in the doc
 
 A profile may contain:
 
-* a canonical title (`main_title`)
+* a canonical docid (`docid`)
 * complete citations
 * abbreviated citations
-* aliases
+* titles
 * short forms
 * previous textual mentions
 
@@ -50,7 +50,7 @@ You will receive:
 For each mention:
 
 1. Determine which legal authority the mention refers to.
-2. If that authority already exists in the Reference Profile Registry, use **exactly** that profile's `main_title` as the `docid`.
+2. If that authority already exists in the Reference Profile Registry, use **exactly** that profile's `docid` as the `docid`.
 3. Otherwise, infer the **best canonical identifier** for the authority.
 
 The canonical identifier should preferably be the authority's official or commonly accepted name.
@@ -80,7 +80,7 @@ The ideal `docid` is one that uniquely identifies the authority.
 
 Prefer, in order:
 
-1. an existing profile's `main_title`, if the authority already exists;
+1. an existing profile's `docid`, if the authority already exists;
 2. the official or canonical legal title;
 3. a commonly accepted full legal name.
 
@@ -107,17 +107,9 @@ Use all available evidence, including:
 
 ## Reuse existing identifiers
 
-If a matching profile already exists, always reuse its `main_title` exactly.
+If a matching profile already exists, always reuse its `docid` exactly.
 
 Do **not** generate an alternative wording.
-
----
-
-## Infer canonical names
-
-If no matching profile exists, infer the best canonical identifier instead of creating a placeholder.
-
-Do not simply copy the surface form when a more precise legal title is known.
 
 ---
 

@@ -3,9 +3,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Caraquet (Town) (Re)",
       "docid": "Caraquet",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Caraquet (Town) (Re)": "0"
+      },
       "citations": {
         "2016 NBOMB 12": "0"
       },
@@ -16,13 +17,17 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Right to Information and Protection of Privacy Act",
       "docid": "Right to Information Act",
       "alternative_titles": {
+        "Right to Information and Protection of Privacy Act": "3",
         "Act": "3",
+        "Right to Information and Protection of\nPrivacy Act": "41",
+        "Right to Information and\nProtection of Privacy Act": "49",
         "New\nBrunswick’s legislation": "127",
         "New Brunswick statute": "201",
-        "ACT": "209"
+        "Right\nto Information and Protection of Privacy Act": "205",
+        "ACT": "209",
+        "Right to Information and Protection\nof Privacy Act": "258"
       },
       "citations": {},
       "fragments_mentioned": {
@@ -51,9 +56,9 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "New Brunswick Companies Act",
       "docid": "New Brunswick Companies Act",
       "alternative_titles": {
+        "New Brunswick Companies Act": "9",
         "Companies Act": "216"
       },
       "citations": {},
@@ -64,10 +69,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Access to Information Act",
       "docid": "Access to Information Act",
       "alternative_titles": {
-        "Act": "67"
+        "Act": "67",
+        "Access to Information Act": "69"
       },
       "citations": {},
       "fragments_mentioned": {},
@@ -77,12 +82,14 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Municipal Freedom of\nInformation and Protection of Privacy Act",
       "docid": "Municipal Freedom of Information Act",
       "alternative_titles": {
+        "Municipal Freedom of\nInformation and Protection of Privacy Act": "79",
         "Ontario statute": "85",
         "Act": "92",
+        "Municipal Freedom of Information\nand Protection of Privacy Act": "96",
         "Ontario\nstatute": "100",
+        "Municipal\nFreedom of Information and Protection of Privacy Act": "123",
         "Ontario access-to-information legislation": "125"
       },
       "citations": {},
@@ -96,9 +103,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Municipal\nAct, 2001",
       "docid": "Municipal Act, 2001",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Municipal\nAct, 2001": "81"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -107,9 +115,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "City\nof Toronto Act, 2006",
       "docid": "City of Toronto Act, 2006",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "City\nof Toronto Act, 2006": "83"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -118,10 +127,11 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Freedom of Information and Protection of Privacy Act",
       "docid": "Freedom of Information Act",
       "alternative_titles": {
-        "Act": "192"
+        "Freedom of Information and Protection of Privacy Act": "180",
+        "Act": "192",
+        "The Freedom of Information and Protection of Privacy Act": "294"
       },
       "citations": {
         "CCSM c F175": "294"
@@ -135,7 +145,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Institutions",
       "alternative_titles": {
         "Regulation\n372/91": "94"
@@ -152,7 +161,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "TEDCO ON IPC 2005",
       "alternative_titles": {
         "Commissioner of Ontario’s decision": "106"
@@ -165,10 +173,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "City of Toronto Economic Development Company v.\nOntario (Information and Privacy Commissioner)",
       "docid": "TEDCO ONCA 2008",
       "alternative_titles": {
-        "TEDCO": "108"
+        "City of Toronto Economic Development Company v.\nOntario (Information and Privacy Commissioner)": "108",
+        "TEDCO": "108",
+        "City of Toronto Economic Development Corp. v. Ontario (Information and\nPrivacy Commissioner)": "274"
       },
       "citations": {
         "[2008] OJ 1799": "274"
@@ -180,10 +189,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Durham (Regional Municipality) (Re)",
       "docid": "Durham (Regional Municipality) (Re)",
       "alternative_titles": {
-        "MO-2393": "115"
+        "MO-2393": "115",
+        "Durham (Regional Municipality) (Re)": "280"
       },
       "citations": {
         "2009 ON IPC 7937": "280"
@@ -195,10 +204,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "London District Catholic School Board (Re)",
       "docid": "London District Catholic School Board (Re)",
       "alternative_titles": {
-        "MO-3146": "121"
+        "MO-3146": "121",
+        "London District Catholic School Board (Re)": "283"
       },
       "citations": {
         "2014 ON IPC 79892": "283"
@@ -210,9 +219,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Municipalities Act",
       "docid": "Municipalities Act",
       "alternative_titles": {
+        "Municipalities Act": "131",
+        "Municipalities\nAct": "144",
         "Act": "246"
       },
       "citations": {
@@ -240,10 +250,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Le petit Robert 1, Dictionnaire\nalphabétique et analogique de la langue française",
       "docid": "Le Petit Robert",
       "alternative_titles": {
-        "Le Petit Robert dictionary": "152"
+        "Le Petit Robert dictionary": "152",
+        "Le petit Robert 1, Dictionnaire\nalphabétique et analogique de la langue française": "286"
       },
       "citations": {},
       "fragments_mentioned": {
@@ -255,9 +265,35 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Webster’s\nCanadian Dictionary and Thesaurus",
-      "docid": "Webster’s Canadian Dictionary and Thesaurus",
+      "docid": null,
       "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {
+        "institution": "154"
+      },
+      "authors": {},
+      "first_seen_id": "154"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "docid": null,
+      "alternative_titles": {},
+      "citations": {},
+      "fragments_mentioned": {
+        "instituer": "156"
+      },
+      "authors": {},
+      "first_seen_id": "156"
+    },
+    {
+      "doc_type": "secondary sources",
+      "jurisdiction": null,
+      "docid": "Webster’s Canadian Dictionary and Thesaurus",
+      "alternative_titles": {
+        "Webster’s\nCanadian Dictionary and Thesaurus": "158",
+        "Webster’s Canadian Dictionary and Thesaurus": "290"
+      },
       "citations": {},
       "fragments_mentioned": {
         "office": "160"
@@ -268,9 +304,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "The Northern Affairs Act",
       "docid": "The Northern Affairs Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Northern Affairs Act": "184"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -279,9 +316,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "The Planning\nAct",
       "docid": "The Planning Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Planning\nAct": "186"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -290,9 +328,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "The Conservation Districts Act",
       "docid": "The Conservation Districts Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Conservation Districts Act": "188"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -301,7 +340,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Access and Privacy Regulation",
       "alternative_titles": {
         "Regulation\n64/98": "190",
@@ -318,9 +356,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Income\nTax Act",
       "docid": "Income Tax Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Income\nTax Act": "218"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -329,9 +368,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Land\nTitles Act",
       "docid": "Land Titles Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Land\nTitles Act": "220"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {},
@@ -340,12 +380,13 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Aluminium Company of Canada Ltd. v. The Corporation of the\nCity of Toronto",
       "docid": "Aluminum Company of Canada",
       "alternative_titles": {
+        "Aluminium Company of Canada Ltd. v. The Corporation of the\nCity of Toronto": "227",
         "judgment": "229",
         "Aluminium\nCompany": "235",
-        "Aluminium Company": "237"
+        "Aluminium Company": "237",
+        "Aluminum Company of Canada Ltd. v. City of Toronto": "297"
       },
       "citations": {
         "[1944]\nS.C.R. 267": "297"
@@ -357,9 +398,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "86296 Canada Ltd. v. Shoppers Realty\nInc.",
       "docid": "86296 Canada",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "86296 Canada Ltd. v. Shoppers Realty\nInc.": "233",
+        "86296 Canada Ltd. v. Shoppers Realty Inc": "300"
+      },
       "citations": {
         "2015 QCCS 2751": "300"
       },
@@ -370,9 +413,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canada (Information Commissioner) v.\nCanada (Minister of National Defence)",
       "docid": "Canada (Information Commissioner)",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Canada (Information Commissioner) v.\nCanada (Minister of National Defence)": "271"
+      },
       "citations": {
         "2011 SCC 25": "271"
       },
@@ -383,7 +427,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "TEDCO ONSCDC 2006",
       "alternative_titles": {},
       "citations": {

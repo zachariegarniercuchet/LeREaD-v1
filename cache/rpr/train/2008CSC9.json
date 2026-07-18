@@ -3,9 +3,12 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Dunsmuir\n  v. New Brunswick",
       "docid": "Dunsmuir SCC 2008",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Dunsmuir\n  v. New Brunswick": "0",
+        "Dunsmuir v. New Brunswick": "4",
+        "Dunsmuir v.\nNew Brunswick": "8"
+      },
       "citations": {
         "[2008] 1 S.C.R. 190": "0",
         "2008 SCC 9": "0"
@@ -55,11 +58,13 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Public Service Labour Relations Act",
       "docid": "PSLRA",
       "alternative_titles": {
+        "Public Service Labour Relations Act": "12",
         "PSLRA": "23",
         "Act": "27",
+        "Public Service Labour Relations\nAct": "381",
+        "Public\nService Labour Relations Act": "1198",
         "PSLR Act": "1360"
       },
       "citations": {
@@ -112,9 +117,12 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Civil Service Act",
       "docid": "Civil Service Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Civil Service Act": "17",
+        "Civil\nService Act": "509",
+        "Civil Service\nAct": "1115"
+      },
       "citations": {
         "S.N.B. 1984, c. C‑5.1": "17",
         "S.N.B. 1984, c. C-5.1": "489",
@@ -134,9 +142,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Constitution\nAct, 1867",
       "docid": "Constitution Act 1867",
       "alternative_titles": {
+        "Constitution\nAct, 1867": "45",
+        "Constitution Act, 1867": "361",
         "Constitution": "560",
         "British North\nAmerica Act": "594"
       },
@@ -153,10 +162,12 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Knight v. Indian Head School Division No. 19",
       "docid": "Knight",
       "alternative_titles": {
-        "Knight": "66"
+        "Knight v. Indian Head School Division No. 19": "64",
+        "Knight": "66",
+        "Knight v.\nIndian Head School Division No. 19": "128",
+        "Knight v. Indian Head\nSchool Division No. 19": "493"
       },
       "citations": {
         "[1990] 1 S.C.R. 653": "128"
@@ -178,10 +189,12 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Chalmers\n(Dr. Everett) Hospital v. Mills (1989)",
       "docid": "Chalmers",
       "alternative_titles": {
-        "Mills": "543"
+        "Chalmers\n(Dr. Everett) Hospital v. Mills (1989)": "125",
+        "Chalmers (Dr. Everett) Hospital v. Mills\n(1989)": "478",
+        "Mills": "543",
+        "Chalmers (Dr. Everett) Hospital v. Mills": "855"
       },
       "citations": {
         "102 N.B.R. (2d) 1": "125"
@@ -193,9 +206,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Alberta\nUnion of Provincial Employees v. Lethbridge Community College",
       "docid": "Alberta Union",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Alberta\nUnion of Provincial Employees v. Lethbridge Community College": "131",
+        "Alberta Union of Provincial Employees\nv. Lethbridge Community College": "846"
+      },
       "citations": {
         "[2004] 1\nS.C.R. 727": "131",
         "2004 SCC 28": "131"
@@ -207,9 +222,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Crevier v. Attorney General of Quebec",
       "docid": "Crevier",
       "alternative_titles": {
+        "Crevier v. Attorney General of Quebec": "135",
         "Crevier": "584"
       },
       "citations": {
@@ -225,9 +240,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Dr. Q v. College of Physicians and Surgeons of British Columbia",
       "docid": "Dr. Q",
       "alternative_titles": {
+        "Dr. Q v. College of Physicians and Surgeons of British Columbia": "138",
+        "Dr. Q v. College of Physicians and\nSurgeons of British Columbia": "566",
         "Dr. Q": "744"
       },
       "citations": {
@@ -244,9 +260,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Executors of the Woodward Estate v.\nMinister of Finance",
       "docid": "Woodward Estate",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Executors of the Woodward Estate v.\nMinister of Finance": "142"
+      },
       "citations": {
         "[1973] S.C.R. 120": "142"
       },
@@ -259,9 +276,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "U.E.S., Local 298 v. Bibeault",
       "docid": "Bibeault",
       "alternative_titles": {
+        "U.E.S., Local 298 v. Bibeault": "145",
+        "U.E.S.,\nLocal 298 v. Bibeault": "586",
         "Bibeault": "642"
       },
       "citations": {
@@ -279,9 +297,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Baker v. Canada (Minister of Citizenship and\nImmigration)",
       "docid": "Baker",
       "alternative_titles": {
+        "Baker v. Canada (Minister of Citizenship and\nImmigration)": "148",
+        "Baker\nv. Canada (Minister of Citizenship and Immigration)": "311",
+        "Baker v. Canada (Minister of\nCitizenship and Immigration)": "607",
         "Baker": "728"
       },
       "citations": {
@@ -299,10 +319,13 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Suresh v. Canada (Minister of\nCitizenship and Immigration)",
       "docid": "Suresh",
       "alternative_titles": {
-        "Suresh": "747"
+        "Suresh v. Canada (Minister of\nCitizenship and Immigration)": "151",
+        "Suresh v. Canada (Minister of Citizenship and\nImmigration)": "321",
+        "Suresh v. Canada\n(Minister of Citizenship and Immigration)": "610",
+        "Suresh": "747",
+        "Suresh\nv. Canada (Minister of Citizenship and Immigration)": "1272"
       },
       "citations": {
         "[2002] 1 S.C.R. 3": "151",
@@ -318,9 +341,12 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Mount Sinai\nHospital Center v. Quebec (Minister of Health and Social Services)",
       "docid": "Mount Sinai Hospital Center",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Mount Sinai\nHospital Center v. Quebec (Minister of Health and Social Services)": "155",
+        "Mount\nSinai Hospital Center v. Quebec (Minister of Health and Social Services)": "314",
+        "Mount Sinai Hospital\nCenter v. Quebec (Minister of Health and Social Services)": "1252"
+      },
       "citations": {
         "[2001]\n2 S.C.R. 281": "155",
         "2001 SCC 41": "155",
@@ -336,9 +362,13 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "C.U.P.E. v. Ontario (Minister of Labour)",
       "docid": "C.U.P.E.",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "C.U.P.E. v. Ontario (Minister of Labour)": "159",
+        "C.U.P.E.\nv. Ontario (Minister of Labour)": "342",
+        "C.U.P.E. v. Ontario (Minister of\nLabour)": "618",
+        "C.U.P.E. v. Ontario\n(Minister of Labour)": "1309"
+      },
       "citations": {
         "[2003] 1 S.C.R. 539": "159",
         "2003 SCC 29": "159"
@@ -350,9 +380,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Chamberlain v. Surrey School District\nNo. 36",
       "docid": "Chamberlain",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Chamberlain v. Surrey School District\nNo. 36": "163",
+        "Chamberlain\nv. Surrey School District No. 36": "622"
+      },
       "citations": {
         "[2002] 4 S.C.R. 710": "163",
         "2002 SCC 86": "163"
@@ -367,9 +399,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canadian Union of Public\nEmployees, Local 963 v. New Brunswick Liquor Corp.",
       "docid": "New Brunswick Liquor Corp.",
       "alternative_titles": {
+        "Canadian Union of Public\nEmployees, Local 963 v. New Brunswick Liquor Corp.": "167",
+        "Canadian\nUnion of Public Employees, Local 963 v. New Brunswick Liquor Corp.": "294",
+        "Canadian Union of Public Employees, Local 963 v. New\nBrunswick Liquor Corp.": "628",
         "CUPE": "628"
       },
       "citations": {
@@ -387,9 +421,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canada\n(Director of Investigation and Research) v. Southam Inc.",
       "docid": "Southam",
       "alternative_titles": {
+        "Canada\n(Director of Investigation and Research) v. Southam Inc.": "170",
+        "Canada (Director of Investigation and Research) v. Southam\nInc.": "652",
         "Southam": "655"
       },
       "citations": {
@@ -406,9 +441,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Pushpanathan v. Canada (Minister of Citizenship and Immigration)",
       "docid": "Pushpanathan",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Pushpanathan v. Canada (Minister of Citizenship and Immigration)": "173",
+        "Pushpanathan v. Canada (Minister of\nCitizenship and Immigration)": "661"
+      },
       "citations": {
         "[1998] 1 S.C.R. 982": "173"
       },
@@ -419,9 +456,13 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Toronto (City) v. C.U.P.E., Local 79",
       "docid": "Toronto",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Toronto (City) v. C.U.P.E., Local 79": "176",
+        "Toronto (City) v.\nC.U.P.E.": "680",
+        "Toronto (City) v. C.U.P.E.": "696",
+        "Toronto (City)\nv. C.U.P.E.": "801"
+      },
       "citations": {
         "[2003] 3\nS.C.R. 77": "176",
         "2003 SCC 63": "176",
@@ -440,10 +481,13 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Law Society of New Brunswick v. Ryan",
       "docid": "Ryan",
       "alternative_titles": {
-        "Ryan": "731"
+        "Law Society of New Brunswick v. Ryan": "180",
+        "Law Society of New\nBrunswick v. Ryan": "334",
+        "Law Society of New Brunswick v.\nRyan": "671",
+        "Ryan": "731",
+        "Law Society of New Brunswick\nv. Ryan": "1288"
       },
       "citations": {
         "[2003] 1\nS.C.R. 247": "180",
@@ -461,9 +505,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Council of Canadians with Disabilities v. Via Rail\nCanada Inc.",
       "docid": "Via Rail",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Council of Canadians with Disabilities v. Via Rail\nCanada Inc.": "184",
+        "Council of\nCanadians with Disabilities v. Via Rail Canada Inc.": "682"
+      },
       "citations": {
         "[2007] 1 S.C.R. 650": "184",
         "2007 SCC 15": "184"
@@ -477,9 +523,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Voice Construction Ltd.\nv. Construction &amp; General Workers’ Union, Local 92",
       "docid": "Voice Construction",
       "alternative_titles": {
+        "Voice Construction Ltd.\nv. Construction &amp; General Workers’ Union, Local 92": "188",
+        "Voice\nConstruction Ltd. v. Construction &amp; General Workers’ Union, Local 92": "699",
         "Voice Construction": "841"
       },
       "citations": {
@@ -497,9 +544,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canada (Attorney General) v. Mossop",
       "docid": "Mossop",
       "alternative_titles": {
+        "Canada (Attorney General) v. Mossop": "192",
+        "Canada (Attorney General) v.\nMossop": "718",
         "Mossop": "741"
       },
       "citations": {
@@ -516,9 +564,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canadian Broadcasting Corp. v. Canada (Labour Relations Board)",
       "docid": "Canadian Broadcasting Corp.",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Canadian Broadcasting Corp. v. Canada (Labour Relations Board)": "195"
+      },
       "citations": {
         "[1995] 1 S.C.R. 157": "195"
       },
@@ -531,9 +580,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Toronto (City) Board of Education v. O.S.S.T.F.,\nDistrict 15",
       "docid": "O.S.S.T.F.",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Toronto (City) Board of Education v. O.S.S.T.F.,\nDistrict 15": "198",
+        "Toronto (City) Board of Education v.\nO.S.S.T.F., District 15": "754"
+      },
       "citations": {
         "[1997] 1 S.C.R. 487": "198"
       },
@@ -546,9 +597,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "McLeod v. Egan",
       "docid": "McLeod",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "McLeod v. Egan": "201"
+      },
       "citations": {
         "[1975] 1 S.C.R.\n517": "201",
         "[1975] 1 S.C.R. 517": "761"
@@ -560,9 +612,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Cartaway Resources Corp. (Re)",
       "docid": "Cartaway",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Cartaway Resources Corp. (Re)": "204",
+        "Cartaway Resources Corp.\n(Re)": "767"
+      },
       "citations": {
         "[2004] 1 S.C.R. 672": "204",
         "2004 SCC 26": "204"
@@ -574,9 +628,13 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Westcoast\nEnergy Inc. v. Canada (National Energy Board)",
       "docid": "Westcoast Energy",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Westcoast\nEnergy Inc. v. Canada (National Energy Board)": "208",
+        "Westcoast Energy Inc. v.\nCanada (National Energy Board)": "331",
+        "Westcoast Energy\nInc. v. Canada (National Energy Board)": "773",
+        "Westcoast Energy Inc.\nv. Canada (National Energy Board)": "1285"
+      },
       "citations": {
         "[1998] 1 S.C.R. 322": "208"
       },
@@ -587,9 +645,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Nova\nScotia (Workers’ Compensation Board) v. Martin",
       "docid": "Martin",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Nova\nScotia (Workers’ Compensation Board) v. Martin": "211",
+        "Nova Scotia (Workers’ Compensation Board)\nv. Martin": "778"
+      },
       "citations": {
         "[2003] 2 S.C.R. 504": "211",
         "2003\nSCC 54": "211",
@@ -602,9 +662,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "United Taxi Drivers’ Fellowship of Southern Alberta v. Calgary\n(City)",
       "docid": "United Taxi Drivers",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "United Taxi Drivers’ Fellowship of Southern Alberta v. Calgary\n(City)": "215",
+        "United Taxi Drivers’ Fellowship of\nSouthern Alberta v. Calgary (City)": "793"
+      },
       "citations": {
         "[2004] 1 S.C.R. 485": "215",
         "2004 SCC 19": "215"
@@ -618,9 +680,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Regina Police Assn. Inc. v.\nRegina (City) Board of Police Commissioners",
       "docid": "Regina Police",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Regina Police Assn. Inc. v.\nRegina (City) Board of Police Commissioners": "219",
+        "Regina Police Assn. Inc. v. Regina (City) Board of Police\nCommissioners": "808"
+      },
       "citations": {
         "[2000] 1 S.C.R. 360": "219",
         "2000 SCC\n14": "219",
@@ -633,9 +697,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Quebec (Commission des droits de la personne et des droits de la\njeunesse) v. Quebec (Attorney General)",
       "docid": "Quebec (CDPDJ)",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Quebec (Commission des droits de la personne et des droits de la\njeunesse) v. Quebec (Attorney General)": "223",
+        "Quebec (Commission des\ndroits de la personne et des droits de la jeunesse) v. Quebec (Attorney\nGeneral)": "812"
+      },
       "citations": {
         "[2004] 2 S.C.R. 185": "223",
         "2004 SCC 39": "223"
@@ -647,9 +713,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Canada\nSafeway Ltd. v. RWDSU, Local 454",
       "docid": "Canada Safeway",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Canada\nSafeway Ltd. v. RWDSU, Local 454": "227",
+        "Canada Safeway Ltd. v. RWDSU, Local\n454": "837"
+      },
       "citations": {
         "[1998] 1 S.C.R. 1079": "227"
       },
@@ -662,9 +730,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Moreau‑Bérubé\nv. New Brunswick (Judicial Council)",
       "docid": "Moreau-Bérubé",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Moreau‑Bérubé\nv. New Brunswick (Judicial Council)": "230",
+        "Moreau-Bérubé\nv. New Brunswick (Judicial Council)": "1296"
+      },
       "citations": {
         "[2002] 1 S.C.R. 249": "230",
         "2002 SCC 11": "230"
@@ -678,9 +748,12 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Ridge\nv. Baldwin",
       "docid": "Ridge",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Ridge\nv. Baldwin": "234",
+        "Ridge v. Baldwin": "945",
+        "Ridge v.\nBaldwin": "1091"
+      },
       "citations": {
         "[1963] 2 All E.R. 66": "234"
       },
@@ -694,9 +767,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Nicholson v. Haldimand‑Norfolk\nRegional Board of Commissioners of Police",
       "docid": "Nicholson",
       "alternative_titles": {
+        "Nicholson v. Haldimand‑Norfolk\nRegional Board of Commissioners of Police": "237",
+        "Nicholson v. Haldimand‑Norfolk Regional\nBoard of Commissioners of Police": "947",
         "Nicholson": "950"
       },
       "citations": {
@@ -713,9 +787,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Martineau\nv. Matsqui Institution Disciplinary Board",
       "docid": "Martineau",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Martineau\nv. Matsqui Institution Disciplinary Board": "240",
+        "Martineau v. Matsqui Institution\nDisciplinary Board": "965"
+      },
       "citations": {
         "[1980] 1 S.C.R. 602": "240"
       },
@@ -726,9 +802,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Kane v.\nBoard of Governors of the University of British Columbia",
       "docid": "Kane",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Kane v.\nBoard of Governors of the University of British Columbia": "243",
+        "Kane v. Board of Governors of\nthe University of British Columbia": "968"
+      },
       "citations": {
         "[1980] 1 S.C.R.\n1105": "243",
         "[1980] 1 S.C.R. 1105": "968"
@@ -740,9 +818,13 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Attorney General of Canada v. Inuit Tapirisat of Canada",
       "docid": "Inuit Tapirisat",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Attorney General of Canada v. Inuit Tapirisat of Canada": "246",
+        "Attorney General of Canada v. Inuit\nTapirisat of Canada": "328",
+        "Attorney\nGeneral of Canada v. Inuit Tapirisat of Canada": "971",
+        "Attorney General of\nCanada v. Inuit Tapirisat of Canada": "1281"
+      },
       "citations": {
         "[1980] 2\nS.C.R. 735": "246",
         "[1980] 2 S.C.R. 735": "328"
@@ -756,9 +838,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Cardinal v. Director of Kent Institution",
       "docid": "Cardinal",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Cardinal v. Director of Kent Institution": "249"
+      },
       "citations": {
         "[1985] 2 S.C.R.\n643": "249",
         "[1985] 2 S.C.R. 643": "974"
@@ -772,9 +855,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Reglin v. Creston (Town) (2004)",
       "docid": "Reglin",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Reglin v. Creston (Town) (2004)": "252",
+        "Reglin v. Creston (Town) (2004": "1008"
+      },
       "citations": {
         "34 C.C.E.L. (3d) 123": "252",
         "2004 BCSC\n790": "252",
@@ -788,9 +873,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Gismondi v. Toronto (City) (2003)",
       "docid": "Gismondi",
       "alternative_titles": {
+        "Gismondi v. Toronto (City) (2003)": "256",
         "Gismondi": "1044"
       },
       "citations": {
@@ -806,9 +891,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Seshia v.\nHealth Sciences Centre (2001)",
       "docid": "Seshia",
       "alternative_titles": {
+        "Seshia v.\nHealth Sciences Centre (2001)": "259",
+        "Seshia v. Health Sciences Centre (2001)": "1015",
         "Seshia": "1052"
       },
       "citations": {
@@ -823,9 +909,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Rosen\nv. Saskatoon District Health Board (2001)",
       "docid": "Rosen SKCA 2001",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Rosen\nv. Saskatoon District Health Board (2001)": "263",
+        "Rosen v. Saskatoon District Health Board (2001)": "1019"
+      },
       "citations": {
         "202 D.L.R. (4th) 35": "263",
         "2001 SKCA\n83": "263",
@@ -838,9 +926,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Hanis v. Teevan (1998)",
       "docid": "Hanis",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Hanis v. Teevan (1998)": "267"
+      },
       "citations": {
         "111 O.A.C. 91": "267",
         "111\nO.A.C. 91": "1023"
@@ -852,9 +941,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Gerrard v.\nSackville (Town) (1992)",
       "docid": "Gerrard",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Gerrard v.\nSackville (Town) (1992)": "270",
+        "Gerrard v. Sackville (Town) (1992)": "1026"
+      },
       "citations": {
         "124 N.B.R. (2d) 70": "270",
         "124 N.B.R. (2d) 70\n(C.A.)": "1026"
@@ -866,9 +957,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Malloch v. Aberdeen Corp.",
       "docid": "Malloch",
       "alternative_titles": {
+        "Malloch v. Aberdeen Corp.": "273",
         "Malloch": "1088"
       },
       "citations": {
@@ -887,9 +978,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Hughes v. Moncton (City) (1990)",
       "docid": "Hugues NBQB 1990",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Hughes v. Moncton (City) (1990)": "276",
+        "Hughes\nv. Moncton (City) (1990)": "1047"
+      },
       "citations": {
         "111 N.B.R. (2d)\n184": "276",
         "111 N.B.R. (2d) 184 (Q.B.)": "1047"
@@ -901,7 +994,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Hugues NBCA 1991",
       "alternative_titles": {},
       "citations": {
@@ -915,9 +1007,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Rosen v. Saskatoon District Health\nBoard",
       "docid": "Rosen SKQB 2000",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Rosen v. Saskatoon District Health\nBoard": "281",
+        "Rosen v. Saskatoon District Health Board": "1054"
+      },
       "citations": {
         "[2000] 4 W.W.R. 606": "281",
         "2000 SKQB 40": "281",
@@ -930,9 +1024,9 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Wells v. Newfoundland",
       "docid": "Wells",
       "alternative_titles": {
+        "Wells v. Newfoundland": "285",
         "Wells": "1061"
       },
       "citations": {
@@ -951,9 +1045,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "School District No. 5 (Southeast Kootenay) and\nB.C.T.F. (Yellowaga) (Re) (2000)",
       "docid": "School District No. 5",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "School District No. 5 (Southeast Kootenay) and\nB.C.T.F. (Yellowaga) (Re) (2000)": "288",
+        "School District No. 5\n(Southeast Kootenay) and B.C.T.F. (Yellowaga) (Re) (2000)": "1121"
+      },
       "citations": {
         "94 L.A.C. (4th) 56": "288",
         "94 L.A.C. (4th)\n56)": "1121"
@@ -965,9 +1061,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Wallace v. United\nGrain Growers Ltd.",
       "docid": "Wallace",
       "alternative_titles": {
+        "Wallace v. United\nGrain Growers Ltd.": "291",
+        "Wallace\nv. United Grain Growers Ltd.": "1129",
         "Wallace": "1157"
       },
       "citations": {
@@ -983,9 +1080,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Cooper v. Wandsworth Board of Works (1863)",
       "docid": "Cooper",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Cooper v. Wandsworth Board of Works (1863)": "297",
+        "Cooper v.\nWandsworth Board of Works (1863)": "1225"
+      },
       "citations": {
         "14 C.B. (N.S.)\n180": "297",
         "143 E.R. 414": "297",
@@ -1001,9 +1100,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Ocean Port Hotel Ltd. v. British Columbia (General\nManager, Liquor Control and Licensing Branch)",
       "docid": "Ocean Port",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Ocean Port Hotel Ltd. v. British Columbia (General\nManager, Liquor Control and Licensing Branch)": "301",
+        "Ocean Port Hotel Ltd. v.\nBritish Columbia (General Manager, Liquor Control and Licensing Branch)": "1230"
+      },
       "citations": {
         "[2001] 2 S.C.R. 781": "301",
         "2001\nSCC 52": "301",
@@ -1016,9 +1117,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Associated\nProvincial Picture Houses Ltd. v. Wednesbury Corp.",
       "docid": "Associated Provincial Picture Houses",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Associated\nProvincial Picture Houses Ltd. v. Wednesbury Corp.": "308"
+      },
       "citations": {
         "[1947] 2 All E.R. 680": "308",
         "[1947] 2 All E.R. 680\n(C.A.)": "1239"
@@ -1032,9 +1134,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Idziak v. Canada (Minister of Justice)",
       "docid": "Idziak",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Idziak v. Canada (Minister of Justice)": "318"
+      },
       "citations": {
         "[1992] 3 S.C.R. 631": "318"
       },
@@ -1047,9 +1150,10 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Operation Dismantle Inc. v.\nThe Queen",
       "docid": "Operation Dismantle",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Operation Dismantle Inc. v.\nThe Queen": "325"
+      },
       "citations": {
         "[1985] 1 S.C.R. 441": "325"
       },
@@ -1060,9 +1164,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "Roncarelli\nv. Duplessis",
       "docid": "Roncarelli",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Roncarelli\nv. Duplessis": "346",
+        "Roncarelli v. Duplessis": "1315"
+      },
       "citations": {
         "[1959] S.C.R. 121": "346"
       },
@@ -1075,9 +1181,11 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": "H.L. v.\nCanada (Attorney General)",
       "docid": "H.L.",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "H.L. v.\nCanada (Attorney General)": "349",
+        "H.L. v. Canada (Attorney General)": "1330"
+      },
       "citations": {
         "[2005] 1 S.C.R. 401": "349",
         "2005 SCC 25": "349",
@@ -1092,9 +1200,11 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Employment Standards Act",
       "docid": "Employment Standards Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Employment Standards Act": "364",
+        "Employment\nStandards Act": "1166"
+      },
       "citations": {
         "S.N.B. 1982, c. E‑7.2": "364",
         "S.N.B. 1982, c. E‑7.2": "1166"
@@ -1106,9 +1216,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Extradition Act",
       "docid": "Extradition Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Extradition Act": "367"
+      },
       "citations": {
         "R.S.C. 1985, c. E‑23": "367",
         "R.S.C. 1985, c. E-23": "1263"
@@ -1120,9 +1231,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Human Rights Act",
       "docid": "Human Rights Act",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Human Rights Act": "370"
+      },
       "citations": {
         "R.S.N.B. 1973, c. H‑11": "370",
         "R.S.N.B. 1973, c. H‑11": "1163"
@@ -1134,9 +1246,10 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Interpretation Act",
       "docid": "Interpretation Act CA 1985",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Interpretation Act": "373"
+      },
       "citations": {
         "R.S.C. 1985, c. I‑21": "373",
         "R.S.C.\n1985, c. I‑21": "1181"
@@ -1151,9 +1264,11 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Interpretation Act",
       "docid": "Interpretation Act NB 1973",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Interpretation Act": "377",
+        "Interpretation\nAct": "1133"
+      },
       "citations": {
         "R.S.N.B. 1973, c. I‑13": "377",
         "R.S.N.B. 1973, c. I‑13": "1133"
@@ -1168,7 +1283,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Act to Amend the PSLRA",
       "alternative_titles": {},
       "citations": {
@@ -1186,9 +1300,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Black’s Law Dictionary",
       "docid": "Black",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Black’s Law Dictionary": "401"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 1192": "1098"
@@ -1199,9 +1314,12 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Judicial Review of Administrative Action in Canada",
       "docid": "Administrative Action in Canada",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Judicial Review of Administrative Action in Canada": "404",
+        "Judicial\nReview of Administrative Action in Canada": "788",
+        "Judicial Review of Administrative\nAction in Canada": "1215"
+      },
       "citations": {},
       "fragments_mentioned": {
         "pp. 14-3\nto 14-6": "788",
@@ -1221,9 +1339,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Appellate Review:  Policy\nand Pragmatism",
       "docid": "Appellate Review: Policy and Pragmatism",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Appellate Review:  Policy\nand Pragmatism": "408",
+        "Appellate Review: Policy and Pragmatism": "573"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p.\nV-12": "573"
@@ -1237,9 +1357,12 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Judicial Review of\nAdministrative Action",
       "docid": "Judicial Review of Administrative Action",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Judicial Review of\nAdministrative Action": "412",
+        "Judicial Review of Administrative\nAction": "1140",
+        "Judicial Review of Administrative Action": "1304"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 187": "1140",
@@ -1255,9 +1378,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The Politics of Deference: \nJudicial Review and Democracy",
       "docid": "The Politics of Deference",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The Politics of Deference: \nJudicial Review and Democracy": "416",
+        "The Politics of Deference: Judicial Review and Democracy": "724"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 286": "724"
@@ -1271,9 +1396,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Employment Law in Canada",
       "docid": "Employment Law in Canada",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Employment Law in Canada": "420"
+      },
       "citations": {},
       "fragments_mentioned": {
         "para.\n13.3": "1124",
@@ -1289,9 +1415,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Liability\nof the Crown",
       "docid": "Liability of the Crown",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Liability\nof the Crown": "424",
+        "Liability of the Crown": "1075"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 240": "1075"
@@ -1306,9 +1434,10 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Administrative Law",
       "docid": "Administrative Law 2001",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Administrative Law": "428"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 50": "602",
@@ -1324,9 +1453,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Recent Developments in\nStandard of Review",
       "docid": "Recent Developments in Standard of Review",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Recent Developments in\nStandard of Review": "432",
+        "Recent Developments in Standard of Review": "691"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p. 25": "691"
@@ -1341,9 +1472,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Establishing the Standard of\nReview:  The Struggle for Complexity?",
       "docid": "Establishing the Standard of Review",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Establishing the Standard of\nReview:  The Struggle for Complexity?": "436",
+        "Establishing the Standard of\nReview: The Struggle for Complexity?": "736"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p.\n93": "736"
@@ -1358,9 +1491,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "The\nContextual Turn:  Iacobucci’s Legacy and the Standard of Review in\nAdministrative Law",
       "docid": "The Contextual Turn",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "The\nContextual Turn:  Iacobucci’s Legacy and the Standard of Review in\nAdministrative Law": "440",
+        "The Contextual Turn: Iacobucci’s Legacy and the\nStandard of Review in Administrative Law": "706"
+      },
       "citations": {},
       "fragments_mentioned": {},
       "authors": {
@@ -1372,9 +1507,11 @@
     {
       "doc_type": "secondary sources",
       "jurisdiction": null,
-      "main_title": "Administrative\nLaw",
       "docid": "Administrative Law 2000",
-      "alternative_titles": {},
+      "alternative_titles": {
+        "Administrative\nLaw": "444",
+        "Administrative Law": "940"
+      },
       "citations": {},
       "fragments_mentioned": {
         "p.\n438": "940",
@@ -1393,7 +1530,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Dunsmuir NBCA 2006",
       "alternative_titles": {},
       "citations": {
@@ -1416,7 +1552,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Dunsmuir NBQB 2005",
       "alternative_titles": {},
       "citations": {
@@ -1437,7 +1572,6 @@
     {
       "doc_type": "decision",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Farrah",
       "alternative_titles": {
         "Farrah": "592"
@@ -1452,9 +1586,9 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": "Canadian Charter of Rights and Freedoms",
       "docid": "Canadian Charter",
       "alternative_titles": {
+        "Canadian Charter of Rights and Freedoms": "1292",
         "Charter": "1294"
       },
       "citations": {},
@@ -1465,7 +1599,6 @@
     {
       "doc_type": "legislation",
       "jurisdiction": null,
-      "main_title": null,
       "docid": "Civil Code of Québec",
       "alternative_titles": {
         "Civil Code": "1337"
