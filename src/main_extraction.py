@@ -129,7 +129,6 @@ def load_fewshot_examples(
     #        for example in fewshot_file_content["examples"]
     #    ]
     
-    print(source_file)
     fewshot_examples = [
         (example["example"]["input"], example["example"]["output"])
         for example in fewshot_file_content["examples"] if example["source_file"] != source_file
@@ -169,9 +168,6 @@ def load_fewshot_examples(
             total_output_text += "|||" + decode(transformed_output_tokens)
 
     final_fewshot = final_fewshot[:nb_examples]
-
-    for final_fewshot_example in final_fewshot:
-        print(final_fewshot_example[0][:20])
     
     if not spans_in_context:
         parents_dict = _parse_parent_annotations(total_output_text)
@@ -616,7 +612,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     # --data-dir overrides the dataset root (default: DATA_DIR)
     # --variant selects the subfolder under that root (default: "original")
     parser.add_argument("--data-dir", type=Path, default=None,
-                        help="Dataset root, e.g. data/upcoming. Defaults to DATA_DIR.")
+                        help="Dataset root, e.g. data/incoming. Defaults to DATA_DIR.")
     parser.add_argument("--variant", default="original", choices=["original", "annotated"],
                         help="Subfolder variant under the dataset root.")
 
