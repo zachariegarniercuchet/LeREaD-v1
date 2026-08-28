@@ -18,6 +18,9 @@ ANNOTATED_DIR = DATA_DIR / "annotated"
 SUBFOLDERS = ["dev", "incoming", "test", "train"]
 LABEL_TAGS = ["auto_label", "manual_label"]
 
+ANNOTATED_DIR = DATA_DIR / "supplementary"
+SUBFOLDERS = ["llm_extraction", "manual_extraction", "manual_verification"]
+
 
 def add_ids_to_labels(html_file):
     """

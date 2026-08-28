@@ -119,7 +119,7 @@ def extract_split_from_folder_name(folder_name: str) -> Optional[str]:
     Returns the first element (split name) or None if not recognized.
     """
     parts = folder_name.split("_")
-    if parts and parts[0] in ["train", "test", "dev"]:
+    if parts and parts[0] in ["train", "test", "dev", "incoming"]:
         return parts[0]
     return None
 
@@ -157,7 +157,7 @@ def collect_html_pairs_from_batch_folder(
     data_dir : Path
         Root data directory (e.g., ./data)
     split : str
-        The split name (train/test/dev)
+        The split name (train/test/dev/incoming)
     verbose : bool
         Print debug information
     
@@ -343,7 +343,7 @@ def main():
     single_parser.add_argument(
         "--split",
         required=True,
-        choices=["train", "test", "dev"],
+        choices=["train", "test", "dev", "incoming"],
         help="Ground truth split (required for single file evaluation)",
     )
     single_parser.add_argument(
@@ -381,7 +381,7 @@ def main():
     batch_parser.add_argument(
         "--split",
         default=None,
-        choices=["train", "test", "dev"],
+        choices=["train", "test", "dev", "incoming"],
         help="Ground truth split (optional, auto-detected from folder name if not provided)",
     )
     batch_parser.add_argument(

@@ -294,66 +294,379 @@ def evaluate_batch(
     """
     Evaluate a list of (gold_path, system_path) pairs.
 
-    Micro-averaging: raw counts are summed across all documents per label,
-    then P/R/F1 are computed from those sums (each span counts equally).
-
-    Macro F1: mean of per-document F1 scores (each document counts equally).
-
-    Parameters
-    ----------
-    pairs : list of (gold_path, system_path)
-    context_chars : int
-    verbose_per_file : bool
-        Also print per-file tables.
-
-    Returns
-    -------
-    dict  label -> micro-averaged {"P", "R", "F1", "tp", "n_gold", "n_system"}
+    Returns:
+        {
+            "overall": {
+                "tp": ...,
+                "n_gold": ...,
+                "n_system": ...,
+                "P": ...,
+                "R": ...,
+                "F1": ...,
+            },
+            "per_document": {
+                "doc_name": {
+                    "tp": ...,
+                    "n_gold": ...,
+                    "n_system": ...,
+                    "P": ...,
+                    "R": ...,
+                    "F1": ...,
+                },
+                ...
+            },
+            "per_label": {
+                "label": {
+                    "tp": ...,
+                    "n_gold": ...,
+                    "n_system": ...,
+                    "P": ...,
+                    "R": ...,
+                    "F1": ...,
+                },
+                ...
+            }
+        }
     """
-    accumulated: Dict[str, dict] = defaultdict(lambda: {"tp": 0, "n_gold": 0, "n_system": 0})
-    doc_f1s: List[float] = []
+
+    accumulated = defaultdict(
+        lambda: {"tp": 0, "n_gold": 0, "n_system": 0}
+    )
+
+    per_document = {}
+    doc_f1s = []
 
     print(f"\nBatch evaluation — {len(pairs)} file pair(s)")
     print("=" * 60)
 
     for i, (gold_path, system_path) in enumerate(pairs, 1):
+        doc_name = Path(gold_path).stem
+
         print(f"\n[{i}/{len(pairs)}] {Path(gold_path).name}")
 
         try:
             metrics, doc_f1 = evaluate(
-                gold_path, system_path,
+                gold_path,
+                system_path,
                 context_chars=context_chars,
                 verbose=verbose_per_file,
             )
         except Exception as e:
-            print(f"  ⚠ Skipped — {e}")
+            print(
+                f"  ERROR processing "
+                f"{Path(gold_path).name} / {Path(system_path).name}: {e}"
+            )
             continue
 
         doc_f1s.append(doc_f1)
 
-        # Accumulate raw counts per label
+        # ---------------------------------------------------------
+        # Per-document counts across ALL labels
+        # ---------------------------------------------------------
+        doc_tp = sum(m["tp"] for m in metrics.values())
+        doc_n_gold = sum(m["n_gold"] for m in metrics.values())
+        doc_n_system = sum(m["n_system"] for m in metrics.values())
+
+        doc_P, doc_R, doc_F1 = _prf(
+            doc_tp,
+            doc_n_gold,
+            doc_n_system,
+        )
+
+        per_document[doc_name] = {
+            "tp": doc_tp,
+            "n_gold": doc_n_gold,
+            "n_system": doc_n_system,
+            "P": doc_P,
+            "R": doc_R,
+            "F1": doc_F1,
+        }
+
+        # ---------------------------------------------------------
+        # Accumulate counts across documents, per label
+        # ---------------------------------------------------------
+        for label, m in metrics.items():
+            accumulated[label]["tp"] += m["tp"]
+            accumulated[label]["n_gold"] += m["n_gold"]
+            accumulated[label]["n_system"] += m["n_system"]
+
+        if not verbose_per_file:
+            print(
+                f"  TP={doc_tp} | "
+                f"Gold={doc_n_gold} | "
+                f"System={doc_n_system} | "
+                f"F1={doc_F1 * 100:.1f}%"
+            )
+
+    # -------------------------------------------------------------
+    # Overall counts across ALL documents and ALL labels
+    # -------------------------------------------------------------
+    total_tp = sum(d["tp"] for d in per_document.values())
+    total_n_gold = sum(d["n_gold"] for d in per_document.values())
+    total_n_system = sum(d["n_system"] for d in per_document.values())
+
+    total_P, total_R, total_F1 = _prf(
+        total_tp,
+        total_n_gold,
+        total_n_system,
+    )
+
+    overall = {
+        "tp": total_tp,
+        "n_gold": total_n_gold,
+        "n_system": total_n_system,
+        "P": total_P,
+        "R": total_R,
+        "F1": total_F1,
+    }
+
+    # -------------------------------------------------------------
+    # Micro-averaged results per label
+    # -------------------------------------------------------------
+    per_label = {}
+
+    for label, counts in accumulated.items():
+        tp = counts["tp"]
+        n_gold = counts["n_gold"]
+        n_system = counts["n_system"]
+
+        P, R, F = _prf(tp, n_gold, n_system)
+
+        per_label[label] = {
+            "tp": tp,
+            "n_gold": n_gold,
+            "n_system": n_system,
+            "P": P,
+            "R": R,
+            "F1": F,
+        }
+
+    # -------------------------------------------------------------
+    # Print summary
+    # -------------------------------------------------------------
+    print("\n" + "=" * 60)
+    print("RESULTS — PER DOCUMENT")
+    print("=" * 60)
+
+    for doc_name, m in per_document.items():
+        print(
+            f"{doc_name:<40} "
+            f"TP={m['tp']:>4} | "
+            f"Gold={m['n_gold']:>4} | "
+            f"System={m['n_system']:>4} | "
+            f"F1={m['F1'] * 100:>5.1f}%"
+        )
+
+    print("\n" + "=" * 60)
+    print("RESULTS — TOTAL")
+    print("=" * 60)
+
+    print(
+        f"TP={total_tp} | "
+        f"Gold={total_n_gold} | "
+        f"System={total_n_system} | "
+        f"P={total_P * 100:.1f}% | "
+        f"R={total_R * 100:.1f}% | "
+        f"F1={total_F1 * 100:.1f}%"
+    )
+
+    print("\n" + "=" * 60)
+    _print_table(
+        per_label,
+        title="RESULTS — MICRO-AVERAGED PER LABEL",
+        doc_f1s=doc_f1s,
+    )
+
+    return {
+        "overall": overall,
+        "per_document": per_document,
+        "per_label": per_label,
+    }
+
+def _get_unmatched_system(gold: List[Span], system: List[Span]) -> List[Span]:
+    """
+    Same greedy matching as match_spans(), but returns the *system* spans that
+    failed to find a match, instead of just a count. Uses Span.matches() exactly
+    as match_spans() does, so results stay consistent with compute_metrics().
+    """
+    used_system = [False] * len(system)
+    for g in gold:
+        for j, s in enumerate(system):
+            if not used_system[j] and g.matches(s):
+                used_system[j] = True
+                break
+    return [s for j, s in enumerate(system) if not used_system[j]]
+
+
+def evaluate_triple_batch(
+    pairs_h_hllm_llm: List[Tuple[str, str, str]],
+    context_chars: int = CONTEXT_CHARS,
+    verbose_per_file: bool = False,
+    use_id_shortcut: bool = False,
+) -> Dict[str, dict]:
+    """
+    Each item is (human_path, human_llm_path, llm_path).
+
+    Pass 1 (primary):  human = gold, human+llm = system.
+                        Uses compute_metrics(), exactly like evaluate_batch().
+    Pass 2 (anchoring): for the human+llm spans that did NOT match the human
+                        gold in Pass 1, check whether they match the raw LLM
+                        spans (via match_spans() again, per label). A match
+                        means the corrector kept the LLM's original span even
+                        though it disagrees with the independent human —
+                        a direct anchoring signal.
+
+    Returns
+    -------
+    {
+        "human_vs_humanllm": {overall, per_document, per_label}   # same shape as evaluate_batch
+        "anchoring": {
+            "overall_rate": float,          # matches_llm / unmatched_hllm
+            "per_document": {...},
+            "per_label": {...},
+        }
+    }
+    """
+    accumulated  = defaultdict(lambda: {"tp": 0, "n_gold": 0, "n_system": 0})
+    per_document = {}
+    doc_f1s      = []
+
+    anchoring_per_document = {}
+    anchoring_accum = defaultdict(lambda: {"unmatched_hllm": 0, "matches_llm": 0})
+
+    print(f"\nTriple batch evaluation — {len(pairs_h_hllm_llm)} triple(s)")
+    print("=" * 60)
+
+    for i, (human_path, hllm_path, llm_path) in enumerate(pairs_h_hllm_llm, 1):
+        doc_name = Path(human_path).stem
+        print(f"\n[{i}/{len(pairs_h_hllm_llm)}] {doc_name}")
+
+        try:
+            human_spans = extract_spans(human_path, context_chars)
+            hllm_spans  = extract_spans(hllm_path,  context_chars)
+            llm_spans   = extract_spans(llm_path,   context_chars)
+        except Exception as e:
+            print(f"  ERROR reading files for {doc_name}: {e}")
+            continue
+
+        # ---------------- Pass 1: human (gold) vs human+llm (system) ----------------
+        metrics = compute_metrics(human_spans, hllm_spans)   # <- existing function, unchanged
+
+        doc_tp       = sum(m["tp"]       for m in metrics.values())
+        doc_n_gold   = sum(m["n_gold"]   for m in metrics.values())
+        doc_n_system = sum(m["n_system"] for m in metrics.values())
+        doc_P, doc_R, doc_F1 = _prf(doc_tp, doc_n_gold, doc_n_system)
+
+        per_document[doc_name] = {
+            "tp": doc_tp, "n_gold": doc_n_gold, "n_system": doc_n_system,
+            "P": doc_P, "R": doc_R, "F1": doc_F1,
+        }
+        doc_f1s.append(doc_F1)
+
         for label, m in metrics.items():
             accumulated[label]["tp"]       += m["tp"]
             accumulated[label]["n_gold"]   += m["n_gold"]
             accumulated[label]["n_system"] += m["n_system"]
 
-        # One-line summary when not printing full per-file tables
         if not verbose_per_file:
-            print(f"  micro F1: {doc_f1*100:.1f}%")
+            print(f"  [Human vs Human+LLM] TP={doc_tp} | Gold={doc_n_gold} | "
+                  f"System={doc_n_system} | F1={doc_F1*100:.1f}%")
 
-    # Build micro-averaged results
-    final: Dict[str, dict] = {}
+        # ---------------- Pass 2: unmatched human+llm spans vs raw LLM ----------------
+        all_labels = sorted({s.labelname for s in human_spans} | {s.labelname for s in hllm_spans})
+
+        doc_unmatched  = 0
+        doc_matches_llm = 0
+
+        for label in all_labels:
+            g   = [s for s in human_spans if s.labelname == label]
+            sys_ = [s for s in hllm_spans  if s.labelname == label]
+
+            unmatched_sys = _get_unmatched_system(g, sys_)   # spans human+llm added/changed that human's gold doesn't confirm
+            if not unmatched_sys:
+                continue
+
+            llm_label_spans = [s for s in llm_spans if s.labelname == label]
+
+            if use_id_shortcut:
+                llm_ids = {s.attributes.get("id") for s in llm_label_spans}
+                tp_vs_llm = sum(1 for s in unmatched_sys if s.attributes.get("id") in llm_ids)
+            else:
+                # reuse match_spans(): "gold" = unmatched human+llm spans,
+                # "system" = raw LLM spans. tp = identical to the LLM's raw output.
+                tp_vs_llm, n_unmatched, _ = match_spans(unmatched_sys, llm_label_spans)
+
+            n_unmatched = len(unmatched_sys)
+            doc_unmatched   += n_unmatched
+            doc_matches_llm += tp_vs_llm
+
+            anchoring_accum[label]["unmatched_hllm"] += n_unmatched
+            anchoring_accum[label]["matches_llm"]    += tp_vs_llm
+
+        anchor_rate = doc_matches_llm / doc_unmatched if doc_unmatched else 0.0
+        anchoring_per_document[doc_name] = {
+            "unmatched_hllm": doc_unmatched,
+            "matches_llm":    doc_matches_llm,
+            "anchor_rate":    anchor_rate,
+        }
+
+        print(f"  [Anchoring check] Human+LLM spans not matching Human gold: {doc_unmatched} "
+              f"| identical to raw LLM: {doc_matches_llm} ({anchor_rate*100:.1f}%)")
+
+    # ---------------- Overall summary, pass 1 ----------------
+    total_tp       = sum(d["tp"]       for d in per_document.values())
+    total_n_gold   = sum(d["n_gold"]   for d in per_document.values())
+    total_n_system = sum(d["n_system"] for d in per_document.values())
+    total_P, total_R, total_F1 = _prf(total_tp, total_n_gold, total_n_system)
+
+    overall = {"tp": total_tp, "n_gold": total_n_gold, "n_system": total_n_system,
+               "P": total_P, "R": total_R, "F1": total_F1}
+
+    per_label = {}
     for label, counts in accumulated.items():
-        tp, n_gold, n_system = counts["tp"], counts["n_gold"], counts["n_system"]
-        P, R, F = _prf(tp, n_gold, n_system)
-        final[label] = {"tp": tp, "n_gold": n_gold, "n_system": n_system,
-                        "P": P, "R": R, "F1": F}
+        P, R, F = _prf(counts["tp"], counts["n_gold"], counts["n_system"])
+        per_label[label] = {**counts, "P": P, "R": R, "F1": F}
 
-    # Print final summary with macro F1 per document
+    # ---------------- Overall summary, anchoring ----------------
+    total_unmatched   = sum(a["unmatched_hllm"] for a in anchoring_per_document.values())
+    total_matches_llm = sum(a["matches_llm"]    for a in anchoring_per_document.values())
+    overall_anchor_rate = total_matches_llm / total_unmatched if total_unmatched else 0.0
+
+    anchoring_per_label = {}
+    for label, counts in anchoring_accum.items():
+        rate = counts["matches_llm"] / counts["unmatched_hllm"] if counts["unmatched_hllm"] else 0.0
+        anchoring_per_label[label] = {**counts, "anchor_rate": rate}
+
     print("\n" + "=" * 60)
-    _print_table(final, title="RESULTS (all documents)", doc_f1s=doc_f1s)
+    print("RESULTS — HUMAN vs HUMAN+LLM (TOTAL)")
+    print("=" * 60)
+    print(f"TP={total_tp} | Gold={total_n_gold} | System={total_n_system} | "
+          f"P={total_P*100:.1f}% | R={total_R*100:.1f}% | F1={total_F1*100:.1f}%")
 
-    return final
+    print("\n" + "=" * 60)
+    _print_table(per_label, title="RESULTS — MICRO-AVERAGED PER LABEL (Human vs Human+LLM)", doc_f1s=doc_f1s)
+
+    print("=" * 60)
+    print("RESULTS — ANCHORING CHECK (unmatched Human+LLM spans vs raw LLM)")
+    print("=" * 60)
+    print(f"{'Label':<34} {'Unmatched':>10} {'=LLM':>8} {'Rate':>8}")
+    print("─" * 62)
+    for label in sorted(anchoring_per_label):
+        a = anchoring_per_label[label]
+        print(f"{label:<34} {a['unmatched_hllm']:>10} {a['matches_llm']:>8} {a['anchor_rate']*100:>7.1f}%")
+    print("─" * 62)
+    print(f"{'TOTAL':<34} {total_unmatched:>10} {total_matches_llm:>8} {overall_anchor_rate*100:>7.1f}%\n")
+
+    return {
+        "human_vs_humanllm": {"overall": overall, "per_document": per_document, "per_label": per_label},
+        "anchoring": {
+            "overall_rate": overall_anchor_rate,
+            "total_unmatched": total_unmatched,
+            "total_matches_llm": total_matches_llm,
+            "per_document": anchoring_per_document,
+            "per_label": anchoring_per_label,
+        },
+    }
 
 
 # ---------------------------------------------------------------------------

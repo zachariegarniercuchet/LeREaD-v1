@@ -1,6 +1,7 @@
 import re
 from src.tokenizer_utils import tokenize
 from bs4 import BeautifulSoup
+import html
 
 # Tag names accepted as "simplified" tokens, i.e. tokens that drop the
 # manual_label/auto_label wrapper and use the labelname directly as the
@@ -90,7 +91,7 @@ class ReferenceMention:
         for tag in normalized.find_all(SIMPLIFIED_LABELS):
             token = "<" + tag.name
             for key, value in tag.attrs.items():
-                token += f' {key}="{value}"'
+                token += f' {key}="{html.escape(str(value), quote=True)}"'
             token += ">"
 
             # HTMLLabel already knows how to turn a short-form token into a
@@ -260,7 +261,7 @@ class HTMLLabel:
         
         for match in attr_pattern.finditer(inner):
             key, value = match.groups()
-            attributes[key] = value
+            attributes[key] = html.unescape(value)
         
         return attributes
     
@@ -311,10 +312,11 @@ class HTMLLabel:
     
     def _rebuild_token(self):
         """Rebuild the HTML token from the current attributes."""
+        """Rebuild the HTML token from the current attributes."""
         reconstructed = f"<{self._label_type}"
 
         for key, value in self._attributes.items():
-            reconstructed += f' {key}="{value}"'
+            reconstructed += f' {key}="{html.escape(str(value), quote=True)}"'
 
         reconstructed += ">"
         self._token = reconstructed
@@ -398,7 +400,7 @@ class HTMLLabel:
         
         # Add all attributes
         for key, value in self._attributes.items():
-            reconstructed += f' {key}="{value}"'
+            reconstructed += f' {key}="{html.escape(str(value), quote=True)}"'
         
         reconstructed += '>'
         
@@ -443,7 +445,7 @@ class HTMLLabel:
         # Add all attributes except 'labelname'
         for key, value in self._attributes.items():
             if key != 'labelname':
-                simplified += f' {key}="{value}"'
+                simplified += f' {key}="{html.escape(str(value), quote=True)}"'
         
         simplified += '>'
         return simplified

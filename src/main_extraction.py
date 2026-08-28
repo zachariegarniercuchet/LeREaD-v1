@@ -107,8 +107,10 @@ def load_fewshot_examples(
     already_labeled_labels: List[str] = None,
     new_labels: List[str] = None,
     parents: List[str] = None,
+    source_file: Optional[str] = None,
 ) -> List[tuple]:
-    """Load and prepare few-shot examples based on method configuration."""
+    """Load and prepare few-shot examples based on method configuration.
+    if source_file is provided, examples from that file will be excluded."""
     if already_labeled_labels is None:
         already_labeled_labels = []
     if new_labels is None:
@@ -120,10 +122,17 @@ def load_fewshot_examples(
         fewshot_file_content = json.load(f)
 
     print("fewshot examples from :", fewshot_filename)
+
+    # Previussly, 27/08/2026
+    #fewshot_examples = [
+    #        (example["example"]["input"], example["example"]["output"])
+    #        for example in fewshot_file_content["examples"]
+    #    ]
     
+    print(source_file)
     fewshot_examples = [
         (example["example"]["input"], example["example"]["output"])
-        for example in fewshot_file_content["examples"]
+        for example in fewshot_file_content["examples"] if example["source_file"] != source_file
     ]
     
     # Create label configs
@@ -160,6 +169,9 @@ def load_fewshot_examples(
             total_output_text += "|||" + decode(transformed_output_tokens)
 
     final_fewshot = final_fewshot[:nb_examples]
+
+    for final_fewshot_example in final_fewshot:
+        print(final_fewshot_example[0][:20])
     
     if not spans_in_context:
         parents_dict = _parse_parent_annotations(total_output_text)
@@ -429,6 +441,7 @@ def process_file(filename: str, run: RunConfig, assistant, exp_dir: Path):
             already_labeled_labels=config["already_labeled_labels"],
             new_labels=config["new_labels"],
             parents=config["parents"],
+            source_file=filename
         )
         allowed_labels = config["already_labeled_labels"] + config["new_labels"]
         print(f"  ✓ Loaded {len(fewshot_examples)} examples")
@@ -505,6 +518,7 @@ def process_file(filename: str, run: RunConfig, assistant, exp_dir: Path):
                 already_labeled_labels=config["already_labeled_labels"],
                 new_labels=config["new_labels"],
                 parents=config["parents"],
+                source_file=filename,
             )
             allowed_labels = config["already_labeled_labels"] + config["new_labels"]
             print(f"  ✓ Loaded {len(fewshot_examples)} examples")

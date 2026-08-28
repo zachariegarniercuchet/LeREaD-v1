@@ -1,2 +1,2 @@
-from src.evaluation.evaluation_l1_util import evaluate_batch, evaluate, show_errors
+from src.evaluation.evaluation_l1_util import evaluate_batch, evaluate, show_errors, evaluate_triple_batch
 from src.evaluation.evaluation_l2_util import evaluate_attribute, evaluate_attribute_batch
