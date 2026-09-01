@@ -22,11 +22,19 @@ MODEL_REGISTRY = {
     },
     "Qwen3.5-9B": {
         "path": os.path.join(MODELS_DIR, "Qwen3.5-9B"),
-        "type": "openweight",
+        "type": "hybrid",
         "has_system_role": True,
         "trust_remote_code": True,
-        "thinking": True,
-        "default_quantization": "fp16",
+        "thinking": False,
+        "default_quantization": "bf16",  # 3.5B models are released in bf16
+    },
+    "Qwen3.8-27B": {
+        "path": os.path.join(MODELS_DIR, "Qwen3.8-27B"),  # match your actual folder name
+        "type": "hybrid",
+        "has_system_role": True,
+        "trust_remote_code": True,
+        "thinking": False,          # we disable reasoning
+        "default_quantization": "4bit", 
     },
     "SaulLM-7B-Instruct": {
         "path": os.path.join(MODELS_DIR, "SaulLM-7B-Instruct"),

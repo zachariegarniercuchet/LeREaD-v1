@@ -71,21 +71,6 @@ class OpenWeightAssistant(BaseAssistant):
         self.model.config.use_cache = False
         self.model.eval()
 
-    def _format_prompt(self, messages: List[Dict[str, str]]) -> str:
-        if hasattr(self.tokenizer, "chat_template") and self.tokenizer.chat_template:
-            try:
-                # enable_thinking only for models that support it
-                extra = {"enable_thinking": self.thinking} if self.thinking else {}
-                return self.tokenizer.apply_chat_template(
-                    messages, tokenize=False, add_generation_prompt=True, **extra
-                )
-            except Exception as e:
-                print(f"Warning: chat_template failed ({e}), falling back to manual format")
-        # Fallback for models without a chat template
-        parts = [f"{m['role']}: {m['content']}" for m in messages]
-        parts.append("assistant:")
-        return "\n".join(parts)
-
     @staticmethod
     def _strip_think_block(text: str) -> str:
         return re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
@@ -108,16 +93,19 @@ class OpenWeightAssistant(BaseAssistant):
                     ]
             max_new_tokens: Maximum tokens to generate.
         """
-        # Apply chat template - Qwen2.5 handles everything automatically
+        extra = {}
+        if self.tokenizer.chat_template and "enable_thinking" in self.tokenizer.chat_template:
+            extra["enable_thinking"] = self.thinking
+
         text = self.tokenizer.apply_chat_template(
             messages,
             tokenize=False,
             add_generation_prompt=True,
+            **extra,
         )
-        
+
         inputs = self.tokenizer([text], return_tensors="pt").to(self.model.device)
-        
-        # Recommended sampling parameters for Qwen2.5-Instruct[citation:4][citation:9]
+
         with torch.no_grad():
             outputs = self.model.generate(
                 **inputs,
@@ -126,9 +114,11 @@ class OpenWeightAssistant(BaseAssistant):
                 do_sample=True,
                 repetition_penalty=1.05,
             )
-        
-        # Decode only the newly generated tokens
+
         generated_ids = outputs[0][inputs.input_ids.shape[1]:]
         response = self.tokenizer.decode(generated_ids, skip_special_tokens=True)
-        
+
+        if self.strip_thinking:
+            response = self._strip_think_block(response)
+
         return response
