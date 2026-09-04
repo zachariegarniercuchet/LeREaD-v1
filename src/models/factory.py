@@ -1,6 +1,7 @@
 """Factory for creating the appropriate assistant based on model type."""
 from typing import Dict, Any, Literal
 from src.models.base import BaseAssistant
+from src.models.muse_glimmer_assistant import MuseGlimmerAssistant
 from src.models.openai_assistant import OpenAIAssistant
 from src.models.openweight_assistant import OpenWeightAssistant
 from src.models.qwen35_assistant import HybridQwenAssistant
@@ -88,6 +89,18 @@ class AssistantFactory:
 
         elif cfg["type"] == "hybrid":
             return HybridQwenAssistant(
+                model_name=model_name,
+                model_path=cfg["path"],
+                temperature=temperature,
+                quantization=quant,
+                trust_remote_code=cfg["trust_remote_code"],
+                has_system_role=cfg["has_system_role"],
+                thinking=cfg["thinking"],
+                **kwargs,
+            )
+
+        elif cfg["type"] == "multimodal":
+            return MuseGlimmerAssistant(
                 model_name=model_name,
                 model_path=cfg["path"],
                 temperature=temperature,

@@ -68,4 +68,15 @@ MODEL_REGISTRY = {
         "thinking": False,
         "default_quantization": "fp16",
     },
+    "Muse-Glimmer-30B": {
+        "path": os.path.join(MODELS_DIR, "Muse-Glimmer-30B"),
+        "type": "multimodal",
+        "has_system_role": True,
+        "trust_remote_code": True,   # brand-new arch (muse_glimmer); need a transformers
+                                      # build that ships it, upgrade if AutoModelForMultimodalLM
+                                      # / AutoProcessor don't resolve
+        "thinking": "low",          # reasoning strength: low/medium/high/xhigh (not a bool!)
+        "default_quantization": "bf16",  # native release precision; 4bit works but
+                                          # untested against the perception encoder
+    },
 }

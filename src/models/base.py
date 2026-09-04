@@ -70,18 +70,19 @@ def get_messages(system_prompt, user_input, fewshot_examples=None, has_system_ro
         if fewshot_examples is not None and fewshot_examples != []:
             message.append({"role": "user", "content": f"{prefix}{fewshot_examples[0][0]}"})
     else:
-        message = [{"role": "user", "content": f"{system_prompt} \n\n {prefix}{fewshot_examples[0][0]}"}]
+        if fewshot_examples is not None and fewshot_examples != []:
+            message = [{"role": "user", "content": f"{system_prompt} \n\n {prefix}{fewshot_examples[0][0]}"}]
+        else:
+            message = [{"role": "user", "content": f"{system_prompt} \n\n {prefix}{user_input}"}]
+            return message  # already includes user_input, don't fall through
 
-    
     if fewshot_examples is not None and fewshot_examples != []:
         for i, example in enumerate(fewshot_examples):
-
             if i != 0:
                 message.append({"role": "user", "content": f"{prefix}{example[0]}"})
-
             message.append({"role": "assistant", "content": f"{example[1]}"})
 
-        # User input 
-        message.append({"role": "user", "content": f"{prefix}{user_input}"})
-    
+    # User input — always appended, regardless of fewshot examples
+    message.append({"role": "user", "content": f"{prefix}{user_input}"})
+
     return message

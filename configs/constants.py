@@ -5,4 +5,5 @@ MODEL_MAPPING_NAME = {
     "gpt-5.2": "gpt-5.2",
     "phi-4": "phi-4",
     "saul-54b": "SaulLM-54B-Instruct",
+    "muse": "Muse-Glimmer-30B",
 }
