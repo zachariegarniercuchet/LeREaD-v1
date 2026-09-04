@@ -5,6 +5,7 @@ from src.models.muse_glimmer_assistant import MuseGlimmerAssistant
 from src.models.openai_assistant import OpenAIAssistant
 from src.models.openweight_assistant import OpenWeightAssistant
 from src.models.qwen35_assistant import HybridQwenAssistant
+from src.models.gemma4_assistant import Gemma4Assistant
 from src.models.registry import MODEL_REGISTRY
 
 
@@ -101,6 +102,18 @@ class AssistantFactory:
 
         elif cfg["type"] == "multimodal":
             return MuseGlimmerAssistant(
+                model_name=model_name,
+                model_path=cfg["path"],
+                temperature=temperature,
+                quantization=quant,
+                trust_remote_code=cfg["trust_remote_code"],
+                has_system_role=cfg["has_system_role"],
+                thinking=cfg["thinking"],
+                **kwargs,
+            )
+        
+        elif cfg["type"] == "gemma4":
+            return Gemma4Assistant(
                 model_name=model_name,
                 model_path=cfg["path"],
                 temperature=temperature,

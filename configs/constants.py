@@ -6,4 +6,5 @@ MODEL_MAPPING_NAME = {
     "phi-4": "phi-4",
     "saul-54b": "SaulLM-54B-Instruct",
     "muse": "Muse-Glimmer-30B",
+    "gemma4": "Gemma-4-31B",
 }
