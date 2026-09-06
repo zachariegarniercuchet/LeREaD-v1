@@ -117,7 +117,14 @@ class Gemma4Assistant(BaseAssistant):
 
         if self.strip_thinking:
             if hasattr(self.processor, "parse_response"):
-                parsed = self.processor.parse_response(raw)
+                # parse_response needs the prompt text too -- the chat template
+                # pre-writes part of the assistant turn (the empty thought-channel
+                # stub, or <|think|>) before generation starts, and the parser
+                # needs to see that to know what's template vs. model output.
+                prompt_text = self.processor.decode(
+                    inputs["input_ids"][0], skip_special_tokens=False
+                )
+                parsed = self.processor.parse_response(raw, prefix=prompt_text)
                 return parsed.get("content", parsed) if isinstance(parsed, dict) else parsed
             return self._THOUGHT_RE.sub("", raw).strip()
 

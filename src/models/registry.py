@@ -79,8 +79,8 @@ MODEL_REGISTRY = {
         "default_quantization": "bf16",  # native release precision; 4bit works but
                                           # untested against the perception encoder
     },
-        "Gemma-4-31B": {
-        "path": os.path.join(MODELS_DIR, "Gemma-4-31B"),
+        "gemma-4-31B-it": {
+        "path": os.path.join(MODELS_DIR, "gemma-4-31B-it"),
         "type": "gemma4",
         "has_system_role": True,
         "trust_remote_code": True,
