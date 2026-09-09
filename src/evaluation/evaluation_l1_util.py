@@ -28,6 +28,7 @@ from bs4 import BeautifulSoup
 
 CONTEXT_CHARS = 200  # characters before/after a span used to identify its location
 
+PARENT_LABELS = {"decision", "legislation", "secondary sources"}
 
 # ---------------------------------------------------------------------------
 # Span dataclass
@@ -441,6 +442,21 @@ def evaluate_batch(
             "F1": F,
         }
 
+    parent_counts   = {"tp": 0, "n_gold": 0, "n_system": 0}
+    children_counts = {"tp": 0, "n_gold": 0, "n_system": 0}
+
+    for label, counts in accumulated.items():
+        bucket = parent_counts if label in PARENT_LABELS else children_counts
+        bucket["tp"]       += counts["tp"]
+        bucket["n_gold"]   += counts["n_gold"]
+        bucket["n_system"] += counts["n_system"]
+
+    parent_P, parent_R, parent_F1       = _prf(parent_counts["tp"], parent_counts["n_gold"], parent_counts["n_system"])
+    children_P, children_R, children_F1 = _prf(children_counts["tp"], children_counts["n_gold"], children_counts["n_system"])
+
+    parent_metrics   = {**parent_counts,   "P": parent_P,   "R": parent_R,   "F1": parent_F1}
+    children_metrics = {**children_counts, "P": children_P, "R": children_R, "F1": children_F1}
+
     # -------------------------------------------------------------
     # Print summary
     # -------------------------------------------------------------
@@ -477,10 +493,28 @@ def evaluate_batch(
         doc_f1s=doc_f1s,
     )
 
+    print("=" * 60)
+    print("RESULTS — PARENT vs CHILDREN vs TOTAL")
+    print("=" * 60)
+    print(f"{'':<20} {'Gold':>6} {'Sys':>6} {'TP':>6} {'P':>8} {'R':>8} {'F1':>8}")
+    print(f"{'Parent spans':<20} {parent_metrics['n_gold']:>6} {parent_metrics['n_system']:>6} "
+          f"{parent_metrics['tp']:>6} {parent_metrics['P']*100:>7.1f}% "
+          f"{parent_metrics['R']*100:>7.1f}% {parent_metrics['F1']*100:>7.1f}%")
+    print(f"{'Children spans':<20} {children_metrics['n_gold']:>6} {children_metrics['n_system']:>6} "
+          f"{children_metrics['tp']:>6} {children_metrics['P']*100:>7.1f}% "
+          f"{children_metrics['R']*100:>7.1f}% {children_metrics['F1']*100:>7.1f}%")
+    print(f"{'Total':<20} {total_n_gold:>6} {total_n_system:>6} "
+          f"{total_tp:>6} {total_P*100:>7.1f}% {total_R*100:>7.1f}% {total_F1*100:>7.1f}%")
+    print()
+
     return {
         "overall": overall,
         "per_document": per_document,
         "per_label": per_label,
+        "parent_child_breakdown": {
+            "parent": parent_metrics,
+            "children": children_metrics,
+        },
     }
 
 def _get_unmatched_system(gold: List[Span], system: List[Span]) -> List[Span]:

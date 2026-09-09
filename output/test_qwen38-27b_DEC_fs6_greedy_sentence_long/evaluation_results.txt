@@ -103,3 +103,11 @@ TP=760 | Gold=1211 | System=917 | P=82.9% | R=62.8% | F1=71.4%
   MICRO (all labels)                   1211    917    760    82.9%    62.8%    71.4%
   MACRO F1 (mean per-doc F1)                                          65.3%  (over 3 documents)
 
+============================================================
+RESULTS — PARENT vs CHILDREN vs TOTAL
+============================================================
+                       Gold    Sys     TP        P        R       F1
+Parent spans            455    345    279    80.9%    61.3%    69.8%
+Children spans          756    572    481    84.1%    63.6%    72.4%
+Total                  1211    917    760    82.9%    62.8%    71.4%
+
