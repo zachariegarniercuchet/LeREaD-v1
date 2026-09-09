@@ -7,6 +7,7 @@ from src.models.openweight_assistant import OpenWeightAssistant
 from src.models.qwen35_assistant import HybridQwenAssistant
 from src.models.gemma4_assistant import Gemma4Assistant
 from src.models.registry import MODEL_REGISTRY
+from src.models.saul_assistant import SaulAssistant
 
 
 
@@ -114,6 +115,18 @@ class AssistantFactory:
         
         elif cfg["type"] == "gemma4":
             return Gemma4Assistant(
+                model_name=model_name,
+                model_path=cfg["path"],
+                temperature=temperature,
+                quantization=quant,
+                trust_remote_code=cfg["trust_remote_code"],
+                has_system_role=cfg["has_system_role"],
+                thinking=cfg["thinking"],
+                **kwargs,
+            )
+
+        elif cfg["type"] == "saul":
+            return SaulAssistant(
                 model_name=model_name,
                 model_path=cfg["path"],
                 temperature=temperature,

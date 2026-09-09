@@ -38,7 +38,7 @@ MODEL_REGISTRY = {
     },
     "SaulLM-7B-Instruct": {
         "path": os.path.join(MODELS_DIR, "SaulLM-7B-Instruct"),
-        "type": "openweight",
+        "type": "saul",
         "has_system_role": False,
         "trust_remote_code": False,
         "thinking": False,
@@ -46,7 +46,7 @@ MODEL_REGISTRY = {
     },
     "SaulLM-54B-Instruct": {
         "path": os.path.join(MODELS_DIR, "SaulLM-54B-Instruct"),
-        "type": "openweight",
+        "type": "saul",
         "has_system_role": False,
         "trust_remote_code": False,
         "thinking": False,
