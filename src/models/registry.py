@@ -50,7 +50,7 @@ MODEL_REGISTRY = {
         "has_system_role": False,
         "trust_remote_code": False,
         "thinking": False,
-        "default_quantization": "4bit",
+        "default_quantization": "8bit", #4bit or fp16
     },
     "phi-4": {
         "path": os.path.join(MODELS_DIR, "phi-4"),
