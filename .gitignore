@@ -7,3 +7,5 @@ private/
 
 notebooks/test.ipynb
 jobs/
+
+src/models/registry.py

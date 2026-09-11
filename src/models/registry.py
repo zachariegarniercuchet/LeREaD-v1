@@ -1,7 +1,7 @@
 # src/models/registry.py
 import os
 
-MODELS_DIR = "/home/zagar/scratch"  # your scratch dir
+MODELS_DIR = "/home/z/zagar/links/scratch" #"/home/zagar/scratch"  # your scratch dir
 
 MODEL_REGISTRY = {
     "Qwen2.5-7B-Instruct": {
@@ -45,7 +45,7 @@ MODEL_REGISTRY = {
         "default_quantization": "fp16",
     },
     "SaulLM-54B-Instruct": {
-        "path": os.path.join(MODELS_DIR, "SaulLM-54B-Instruct"),
+        "path": os.path.join(MODELS_DIR, "SaulLm-54B-Instruct"),
         "type": "saul",
         "has_system_role": False,
         "trust_remote_code": False,
