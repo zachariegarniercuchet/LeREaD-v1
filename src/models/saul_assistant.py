@@ -102,9 +102,16 @@ class SaulAssistant(BaseAssistant):
                 self.model_path, quantization_config=bnb_cfg, **common_kwargs
             )
         elif self.quantization == "8bit":
+            # MatMul8bitLt only supports fp16 compute; if we let the model load
+            # in its default bfloat16 (Mixtral/SaulLM's config dtype), bnb has to
+            # cast every activation from bf16 -> fp16 on every forward pass and
+            # warns about it. Load in fp16 directly so there's nothing to cast.
             bnb_cfg = BitsAndBytesConfig(load_in_8bit=True)
             self.model = AutoModelForCausalLM.from_pretrained(
-                self.model_path, quantization_config=bnb_cfg, **common_kwargs
+                self.model_path,
+                quantization_config=bnb_cfg,
+                torch_dtype=torch.float16,
+                **common_kwargs,
             )
         else:  # fp16 / bf16
             self.model = AutoModelForCausalLM.from_pretrained(
