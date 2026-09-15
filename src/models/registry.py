@@ -1,7 +1,7 @@
 # src/models/registry.py
 import os
 
-MODELS_DIR = "/home/zagar/scratch" #"/home/z/zagar/links/scratch" #"/home/zagar/scratch"  # your scratch dir
+MODELS_DIR = "/home/z/zagar/links/scratch" #"/home/z/zagar/links/scratch" #"/home/zagar/scratch"  # your scratch dir
 
 MODEL_REGISTRY = {
     "Qwen2.5-7B-Instruct": {
@@ -85,6 +85,6 @@ MODEL_REGISTRY = {
         "has_system_role": True,
         "trust_remote_code": True,
         "thinking": False,           # bool here, unlike Muse Glimmer's low/medium/high/xhigh
-        "default_quantization": "4bit",  # 31B dense, same rationale as your Qwen2.5-32B entry
+        "default_quantization": "bf16",  # 31B dense, same rationale as your Qwen2.5-32B entry
     },
 }
