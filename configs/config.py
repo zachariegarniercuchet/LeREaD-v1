@@ -63,7 +63,7 @@ KEEP_ATRIBUTES = ["labelname"]  # Only keep labelname attribute for fewshot sele
 # For few shot greedy selection there is two types of patterns : surface and structural patterns.
 GREEDY_CONFIG = {
     "surface_pattern": 1.0,
-    "structural_pattern": 0.0,
+    "structural_pattern": 1.0,
 }
 # In LeREaD v1 we used  surface_pattern 1.0 and structural pattern 0.0.
 
