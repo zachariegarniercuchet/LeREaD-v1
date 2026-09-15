@@ -224,6 +224,7 @@ def process_document_coref(
         )
 
         generated = assistant.generate(messages=messages)
+        generated = str(generated)
         docid_generated = extract_docid_from_generation(generated)
 
         if docid_generated is None:
