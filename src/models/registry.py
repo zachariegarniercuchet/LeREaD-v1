@@ -1,7 +1,7 @@
 # src/models/registry.py
 import os
 
-MODELS_DIR = "/home/zagar/scratch" #"/home/z/zagar/links/scratch" #"/home/zagar/scratch"  # your scratch dir
+MODELS_DIR = "/home/z/zagar/links/scratch" #"/home/z/zagar/links/scratch" #"/home/zagar/scratch"  # your scratch dir
 
 MODEL_REGISTRY = {
     "Qwen2.5-7B-Instruct": {
