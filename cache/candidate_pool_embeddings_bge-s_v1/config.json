@@ -1,0 +1,20 @@
+{
+  "version": "v1",
+  "encoder": "bge-s",
+  "input_file": "data\\candidate_pool_metadata.csv",
+  "num_candidates": 504,
+  "embedding_shape": [
+    504,
+    384
+  ],
+  "representation": {
+    "fields": [
+      "id",
+      "docType",
+      "docTitle",
+      "autoCompletions.text"
+    ],
+    "autoCompletions": "Only the text field of each autoCompletion is encoded; the completion type is discarded.",
+    "format": "fields concatenated with ' | '"
+  }
+}
