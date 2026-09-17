@@ -14,7 +14,8 @@ def extract_parent_level_annotations(html_content: str) -> dict:
     """
     soup = BeautifulSoup(html_content, "html.parser")
     parent_labels = soup.find_all(
-        ["manual_label", "auto_label"], attrs={"parent": ""}
+        ["manual_label", "auto_label"],
+        attrs={"parent": "", "docid": True}
     )
 
     return [rm for rm in (ReferenceMention(str(parent)) for parent in parent_labels)]
