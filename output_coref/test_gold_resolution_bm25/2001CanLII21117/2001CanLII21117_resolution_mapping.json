@@ -1,0 +1,1178 @@
+{
+  "Quebec Charter": {
+    "uri": "https://canlii.ca/t/56kkc",
+    "score": 125.94834899902344,
+    "candidate_id": "l5452!5452-current-1",
+    "candidate_title": "Charter of Human Rights and Freedoms",
+    "query_text": "legislation | Charter of human rights and freedoms | Charter\nof human rights and freedoms | Charter | CHARTER | Quebec <i>Charter</i> | Quebec charters | R.S.Q.,\nc. C-12 | R.S.Q. c.\nC-12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 125.94834899902344,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      },
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 79.6671371459961,
+        "candidate_title": "The Constitution Act, 1982"
+      },
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 37.03096389770508,
+        "candidate_title": "Human Rights Code"
+      }
+    ]
+  },
+  "Regulation 14": {
+    "uri": "https://canlii.ca/t/hm3m",
+    "score": 578.4992065429688,
+    "candidate_id": "l9083!9083-current-1",
+    "candidate_title": "By-law respecting standards of the Sûreté du Québec and municipal police forces for the hiring of constables and cadets",
+    "query_text": "legislation | By-law respecting standards of the Sûreté du Québec\nand municipal police forces for the hiring of constables and cadets | Regulation\n14 | Regulation 14 | By-law respecting standards of the Sûreté du Québec and\nmunicipal police forces for the hiring of constables and cadets | By-law respecting standards of the Sûreté du Québec and municipal\npolice forces for the hiring of constables and cadets | By-law respecting standards of the Sûreté du Québec and municipal police\nforces for the hiring of constables and cadets | Bylaw respecting standards of the Sûreté\ndu Québec and municipal police forces for the hiring of constables and cadets | R.R.Q. 1981, c. P- 13, r.14",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hm3m",
+        "score": 578.4992065429688,
+        "candidate_title": "By-law respecting standards of the Sûreté du Québec and municipal police forces for the hiring of constables and cadets"
+      },
+      {
+        "uri": "https://canlii.ca/t/54bvr",
+        "score": 142.43247985839844,
+        "candidate_title": "An Act mainly to promote the efficiency of penal justice and to establish the terms governing the intervention of the Court of Québec with respect to applications for appeal"
+      },
+      {
+        "uri": "https://canlii.ca/t/lfns",
+        "score": 127.42879486083984,
+        "candidate_title": "Regulation respecting the conditions governing the accreditation of manufacturers and wholesalers of medications"
+      }
+    ]
+  },
+  "Police Act": {
+    "uri": "https://canlii.ca/t/hcnw",
+    "score": 73.67140197753906,
+    "candidate_id": "l6095!6095-current-1",
+    "candidate_title": "Police Act",
+    "query_text": "legislation | Police Act | <i>Police Act</i> | Act | Police\nAct | c. P-13 | R.S.Q. c. P-13",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hcnw",
+        "score": 73.67140197753906,
+        "candidate_title": "Police Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/564nl",
+        "score": 51.23038101196289,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/hm3m",
+        "score": 49.02241134643555,
+        "candidate_title": "By-law respecting standards of the Sûreté du Québec and municipal police forces for the hiring of constables and cadets"
+      }
+    ]
+  },
+  "Criminal Code 1985": {
+    "uri": "https://canlii.ca/t/56lsh",
+    "score": 119.5877914428711,
+    "candidate_id": "l12792!12792-current-1",
+    "candidate_title": "Criminal Code",
+    "query_text": "legislation | Criminal Code | <i>Criminal Code</i> | Code | <i>Criminal Cod</i><i>e</i> | Criminal\nCode | Revised Statutes of Canada,\n1985, chapter C-46 | R.S.C., 1985, c. C-46 | R.S.C. (1985) c. C-46",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 119.5877914428711,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 119.5877914428711,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 94.64617919921875,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "Criminal Records Act": {
+    "uri": "https://canlii.ca/t/56lsj",
+    "score": 140.31541442871094,
+    "candidate_id": "l12793!12793-current-1",
+    "candidate_title": "Criminal Records Act",
+    "query_text": "legislation | Criminal Records Act | the Act | <i>Criminal Records Act</i> | Criminal\nRecords Act | C.R.A | C.R.A. | Criminal Records\nAct | R.S.C. (1985) c. C-47 | R.S.C. (1985)\nc. C-47 | R.S.C. 1970, c. 12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lsj",
+        "score": 140.31541442871094,
+        "candidate_title": "Criminal Records Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fmwv",
+        "score": 119.14657592773438,
+        "candidate_title": "Loi sur le casier judiciaire"
+      },
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 84.3487548828125,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      }
+    ]
+  },
+  "Bill C-71": {
+    "uri": "https://canlii.ca/t/5374x",
+    "score": 13.098140716552734,
+    "candidate_id": "l45356!45356-current-1",
+    "candidate_title": "The Rural Municipality Amendment Act, 1992",
+    "query_text": "legislation | Bill C-71",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5374x",
+        "score": 13.098140716552734,
+        "candidate_title": "The Rural Municipality Amendment Act, 1992"
+      },
+      {
+        "uri": "https://canlii.ca/t/52ndn",
+        "score": 12.604330062866211,
+        "candidate_title": "Police Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/546k3",
+        "score": 10.98818588256836,
+        "candidate_title": "An Act to Amend the Public Service Labour Relations Act"
+      }
+    ]
+  },
+  "Criminal Code 1970": {
+    "uri": "https://canlii.ca/t/56lsh",
+    "score": 26.203433990478516,
+    "candidate_id": "l12792!12792-current-1",
+    "candidate_title": "Criminal Code",
+    "query_text": "legislation | Criminal Code | R.S.C. 1970, c. C-34",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 26.203433990478516,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 26.203433990478516,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxm",
+        "score": 19.503862380981445,
+        "candidate_title": "Professional Code"
+      }
+    ]
+  },
+  "National Defence Act": {
+    "uri": "https://canlii.ca/t/56mrx",
+    "score": 21.57406997680664,
+    "candidate_id": "l12899!12899-current-1",
+    "candidate_title": "National Defence Act",
+    "query_text": "legislation | National Defence Act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56mrx",
+        "score": 21.57406997680664,
+        "candidate_title": "National Defence Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/566gg",
+        "score": 7.446099281311035,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/561jt",
+        "score": 7.332220077514648,
+        "candidate_title": "Administrative Tribunals Act"
+      }
+    ]
+  },
+  "Human Rights Code British Columbia": {
+    "uri": "https://canlii.ca/t/563gb",
+    "score": 94.2095718383789,
+    "candidate_id": "l19712!19712-current-1",
+    "candidate_title": "Human Rights Code",
+    "query_text": "legislation | <i>Human Rights Code</i><a href=\"#_ftn16\" name=\"_ftnref16\" title=\"\"><span class=\"MsoFootnoteReference\"><span style='font-size:11.0pt;font-family:\"Arial\",\"sans-serif\";layout-grid-mode:\nline'>[16]</span></span></a><i> </i>of British Columbia | British Columbia <i>Human Rights Code</i> | Human Rights Code | Human Rights Act | R.S.B.C., 1996, c. 210",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 94.2095718383789,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jrm",
+        "score": 79.58457946777344,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/jtj5",
+        "score": 67.62837982177734,
+        "candidate_title": "Human Rights Act"
+      }
+    ]
+  },
+  "Supreme Court Act": {
+    "uri": "https://canlii.ca/t/56jgm",
+    "score": 12.158734321594238,
+    "candidate_id": "l12747!12747-current-1",
+    "candidate_title": "Access to Information Act",
+    "query_text": "legislation | S.C.A",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56jgm",
+        "score": 12.158734321594238,
+        "candidate_title": "Access to Information Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/x6v",
+        "score": 9.637918472290039,
+        "candidate_title": "Tax Administration Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56mpx",
+        "score": 9.093670845031738,
+        "candidate_title": "City of Toronto Act, 2006"
+      }
+    ]
+  },
+  "Young Offenders Act": {
+    "uri": "https://canlii.ca/t/kmfv",
+    "score": 51.39952850341797,
+    "candidate_id": "l12988!12988-current-1",
+    "candidate_title": "Young Offenders Act",
+    "query_text": "legislation | Young Offenders Act | R.S.C.\n1985, c. Y-1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kmfv",
+        "score": 51.39952850341797,
+        "candidate_title": "Young Offenders Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56p8v",
+        "score": 23.732648849487305,
+        "candidate_title": "Income Tax Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jgm",
+        "score": 22.2515926361084,
+        "candidate_title": "Access to Information Act"
+      }
+    ]
+  },
+  "Loi sur le casier judiciaire": {
+    "uri": "https://canlii.ca/t/56lzp",
+    "score": 11.772100448608398,
+    "candidate_id": "l48068!48068-current-1",
+    "candidate_title": "Act respecting the laicity of the State",
+    "query_text": "legislation | French version of the Act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lzp",
+        "score": 11.772100448608398,
+        "candidate_title": "Act respecting the laicity of the State"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lrp",
+        "score": 11.577380180358887,
+        "candidate_title": "The Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/52w1g",
+        "score": 11.092996597290039,
+        "candidate_title": "The Contributory Negligence Act"
+      }
+    ]
+  },
+  "Charter": {
+    "uri": "https://canlii.ca/t/56c77",
+    "score": 6.9040679931640625,
+    "candidate_id": "l12741!12741-current-1",
+    "candidate_title": "Canadian International Trade Tribunal Act",
+    "query_text": "legislation | Canadian",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 6.9040679931640625,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 6.529125690460205,
+        "candidate_title": "The Constitution Act, 1982"
+      },
+      {
+        "uri": "https://canlii.ca/t/566gg",
+        "score": 3.1172361373901367,
+        "candidate_title": "Securities Act"
+      }
+    ]
+  },
+  "Professional Code": {
+    "uri": "https://canlii.ca/t/56lxm",
+    "score": 50.573280334472656,
+    "candidate_id": "l5519!5519-current-1",
+    "candidate_title": "Professional Code",
+    "query_text": "legislation | <i>Professional Code</i> | <i>Professional </i>Code | R.S.Q. c. C-26",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lxm",
+        "score": 50.573280334472656,
+        "candidate_title": "Professional Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 44.363712310791016,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/564nl",
+        "score": 40.08820343017578,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "Act respecting police organization": {
+    "uri": "https://canlii.ca/t/hcnw",
+    "score": 40.217926025390625,
+    "candidate_id": "l6095!6095-current-1",
+    "candidate_title": "Police Act",
+    "query_text": "legislation | Act respecting police\norganization | Act\nrespecting police organization | Act respecting\npolice organization",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hcnw",
+        "score": 40.217926025390625,
+        "candidate_title": "Police Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/hm3m",
+        "score": 39.74952697753906,
+        "candidate_title": "By-law respecting standards of the Sûreté du Québec and municipal police forces for the hiring of constables and cadets"
+      },
+      {
+        "uri": "https://canlii.ca/t/52ndn",
+        "score": 37.30360794067383,
+        "candidate_title": "Police Act"
+      }
+    ]
+  },
+  "By-law 106-114": {
+    "uri": "https://canlii.ca/t/hm3m",
+    "score": 23.88117027282715,
+    "candidate_id": "l9083!9083-current-1",
+    "candidate_title": "By-law respecting standards of the Sûreté du Québec and municipal police forces for the hiring of constables and cadets",
+    "query_text": "legislation | By-law\n106-114 | By-law",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hm3m",
+        "score": 23.88117027282715,
+        "candidate_title": "By-law respecting standards of the Sûreté du Québec and municipal police forces for the hiring of constables and cadets"
+      },
+      {
+        "uri": "https://canlii.ca/t/566gg",
+        "score": 3.1172361373901367,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 3.0554349422454834,
+        "candidate_title": "Human Rights Code"
+      }
+    ]
+  },
+  "Code of ethics": {
+    "uri": "https://canlii.ca/t/5546r",
+    "score": 36.638221740722656,
+    "candidate_id": "l9312!9312-current-1",
+    "candidate_title": "Code of Ethics of Québec Police Officers",
+    "query_text": "legislation | Code\nof ethics | Code of ethics",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5546r",
+        "score": 36.638221740722656,
+        "candidate_title": "Code of Ethics of Québec Police Officers"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxj",
+        "score": 21.999427795410156,
+        "candidate_title": "Civil Code of Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxl",
+        "score": 21.041732788085938,
+        "candidate_title": "Code of Civil Procedure"
+      }
+    ]
+  },
+  "Ontario Human Rights Code": {
+    "uri": "https://canlii.ca/t/563gb",
+    "score": 31.773229598999023,
+    "candidate_id": "l19712!19712-current-1",
+    "candidate_title": "Human Rights Code",
+    "query_text": "legislation | Code | Ontario Human Rights Code",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 31.773229598999023,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jrm",
+        "score": 30.96965980529785,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxm",
+        "score": 18.151960372924805,
+        "candidate_title": "Professional Code"
+      }
+    ]
+  },
+  "An Act respecting ministère du Revenu": {
+    "uri": "https://canlii.ca/t/x6v",
+    "score": 47.51799011230469,
+    "candidate_id": "l5406!5406-current-1",
+    "candidate_title": "Tax Administration Act",
+    "query_text": "legislation | Act\nrespecting the Ministère du Revenu | R.S.Q. c. M-31",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/x6v",
+        "score": 47.51799011230469,
+        "candidate_title": "Tax Administration Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/hm3m",
+        "score": 20.900667190551758,
+        "candidate_title": "By-law respecting standards of the Sûreté du Québec and municipal police forces for the hiring of constables and cadets"
+      },
+      {
+        "uri": "https://canlii.ca/t/55nzg",
+        "score": 20.00558090209961,
+        "candidate_title": "Act respecting the Fonds d'aide aux actions collectives"
+      }
+    ]
+  },
+  "order in council 1659-86": {
+    "uri": "https://canlii.ca/t/52ndn",
+    "score": 10.617026329040527,
+    "candidate_id": "l41517!41517-current-1",
+    "candidate_title": "Police Act",
+    "query_text": "legislation | orders in council 1659-86",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/52ndn",
+        "score": 10.617026329040527,
+        "candidate_title": "Police Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/566gg",
+        "score": 3.1172361373901367,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 3.0554349422454834,
+        "candidate_title": "Human Rights Code"
+      }
+    ]
+  },
+  "order in council 1475-92": {
+    "uri": "https://canlii.ca/t/lfns",
+    "score": 5.74724006652832,
+    "candidate_id": "l8014!8014-current-1",
+    "candidate_title": "Regulation respecting the conditions governing the accreditation of manufacturers and wholesalers of medications",
+    "query_text": "legislation | 1475-92",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/lfns",
+        "score": 5.74724006652832,
+        "candidate_title": "Regulation respecting the conditions governing the accreditation of manufacturers and wholesalers of medications"
+      },
+      {
+        "uri": "https://canlii.ca/t/566gg",
+        "score": 3.1172361373901367,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 3.0554349422454834,
+        "candidate_title": "Human Rights Code"
+      }
+    ]
+  },
+  "Police Act 2000": {
+    "uri": "https://canlii.ca/t/52ndn",
+    "score": 38.390586853027344,
+    "candidate_id": "l41517!41517-current-1",
+    "candidate_title": "Police Act",
+    "query_text": "legislation | Police Act | S.Q. 2000, c. 12 | S.Q.\n2000, C-12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/52ndn",
+        "score": 38.390586853027344,
+        "candidate_title": "Police Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 22.91836929321289,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nc2",
+        "score": 22.366775512695312,
+        "candidate_title": "Municipal Government Act"
+      }
+    ]
+  },
+  "Montréal (Communauté urbaine) QCCS 2000": {
+    "uri": "https://canlii.ca/t/jddbr",
+    "score": 1.9049745798110962,
+    "candidate_id": "1981qccq1000054",
+    "candidate_title": "Mercier c. Beauport (Ville)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jddbr",
+        "score": 1.9049745798110962,
+        "candidate_title": "Mercier c. Beauport (Ville)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gb4qx",
+        "score": 1.8882465362548828,
+        "candidate_title": "R. v. Bonadie"
+      },
+      {
+        "uri": "https://canlii.ca/t/gw2bc",
+        "score": 1.8882465362548828,
+        "candidate_title": "Friedrich c. Friedrich"
+      }
+    ]
+  },
+  "Montréal (Communauté urbaine) QCCA 2000": {
+    "uri": "https://canlii.ca/t/gkbxg",
+    "score": 11.733108520507812,
+    "candidate_id": "2015qcca1224",
+    "candidate_title": "Imperial Tobacco Canada Ltd. c. Conseil québécois sur le tabac et la santé",
+    "query_text": "decision | 500-09-006851-984",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gkbxg",
+        "score": 11.733108520507812,
+        "candidate_title": "Imperial Tobacco Canada Ltd. c. Conseil québécois sur le tabac et la santé"
+      },
+      {
+        "uri": "https://canlii.ca/t/kdzlx",
+        "score": 11.50211238861084,
+        "candidate_title": "Mouvement laïque québécois c. English Montreal School Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/gw2bc",
+        "score": 10.194670677185059,
+        "candidate_title": "Friedrich c. Friedrich"
+      }
+    ]
+  },
+  "Therrien": {
+    "uri": "https://canlii.ca/t/521j",
+    "score": 40.71320724487305,
+    "candidate_id": "2001csc-scc35",
+    "candidate_title": "Therrien (Re)",
+    "query_text": "decision | Therrien | Re Therrien | 2001 SCC 35",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/521j",
+        "score": 40.71320724487305,
+        "candidate_title": "Therrien (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/4t7m",
+        "score": 10.804117202758789,
+        "candidate_title": "Rosen v. Saskatoon (District Health Board)"
+      },
+      {
+        "uri": "https://canlii.ca/t/51z8",
+        "score": 9.733171463012695,
+        "candidate_title": "Van de Perre v. Edwards"
+      }
+    ]
+  },
+  "Maksteel QCCA 2000": {
+    "uri": "https://canlii.ca/t/1fbxk",
+    "score": 90.99282836914062,
+    "candidate_id": "2000qcca620",
+    "candidate_title": "Maksteel inc. c. Québec (Commission des droits de la personne et des droits de la personne)",
+    "query_text": "decision | Maksteel | <i><span style=\"font-size:10.0pt\">Maksteel inc. </span></i><span style=\"font-size:10.0pt\">v.<i> Québec (Commission des droits de la personne et\ndes droits de la jeunesse)</i></span> | <i> </i>[2001] R.J.Q. 28 C.A.Q",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fbxk",
+        "score": 90.99282836914062,
+        "candidate_title": "Maksteel inc. c. Québec (Commission des droits de la personne et des droits de la personne)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fvq6",
+        "score": 64.02604675292969,
+        "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Reeves) c. Fondation Abbé Charles-Émile Gadbois"
+      },
+      {
+        "uri": "https://canlii.ca/t/1h87t",
+        "score": 62.100364685058594,
+        "candidate_title": "Quebec (Commission des droits de la personne et des droits de la jeunesse) v. Quebec (Attorney General)"
+      }
+    ]
+  },
+  "B.C. Human Rights Commission": {
+    "uri": "https://canlii.ca/t/1fndz",
+    "score": 74.47637176513672,
+    "candidate_id": "2000bcca584",
+    "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal",
+    "query_text": "decision | <i>B.C. Human Rights Commission</i> v<i>.\nB.C. Human Rights Tribunal</i> | 2000 BCCA 584",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fndz",
+        "score": 74.47637176513672,
+        "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal"
+      },
+      {
+        "uri": "https://canlii.ca/t/525t",
+        "score": 39.21653747558594,
+        "candidate_title": "Blencoe v. British Columbia (Human Rights Commission)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nfmh",
+        "score": 33.635520935058594,
+        "candidate_title": "Bell v. Ontario Human Rights Com'n."
+      }
+    ]
+  },
+  "Cie Price ltée": {
+    "uri": "https://canlii.ca/t/1fqzp",
+    "score": 41.57516098022461,
+    "candidate_id": "1997csc-scc79",
+    "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I.",
+    "query_text": "decision | <i>Commission des\ndroits de la personne</i> v. <i>Cie Price ltée</i> | J.E. 81-866 (S.C.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 41.57516098022461,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fvg5",
+        "score": 30.887752532958984,
+        "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Perrier) c. Ville d'Alymer"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fbxk",
+        "score": 30.707252502441406,
+        "candidate_title": "Maksteel inc. c. Québec (Commission des droits de la personne et des droits de la personne)"
+      }
+    ]
+  },
+  "Montréal (Ville de)": {
+    "uri": "https://canlii.ca/t/1fvpd",
+    "score": 42.31123352050781,
+    "candidate_id": "2000qctdp306",
+    "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Bichet) c. Centre hospitalier de l'Université de Montréal",
+    "query_text": "decision | <i>Commission\ndes droits de la personne</i> v. <i>Montréal (Ville de)</i> | J.E. 82-662 (S.C.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fvpd",
+        "score": 42.31123352050781,
+        "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Bichet) c. Centre hospitalier de l'Université de Montréal"
+      },
+      {
+        "uri": "https://canlii.ca/t/jdcmm",
+        "score": 42.177146911621094,
+        "candidate_title": "Québec (Comm. des droits de la personne) c. Montréal (Ville)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 39.504669189453125,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      }
+    ]
+  },
+  "Mercier": {
+    "uri": "https://canlii.ca/t/1h87t",
+    "score": 125.16130828857422,
+    "candidate_id": "2004csc-scc39",
+    "candidate_title": "Quebec (Commission des droits de la personne et des droits de la jeunesse) v. Quebec (Attorney General)",
+    "query_text": "decision | <i>Mercier</i>\nv. <i>Beauport (Ville de)</i> | Mercier | Quebec (Commission des droits de la\npersonne et des droits de la jeunesse) v. Montréal (City); Quebec (Commission\ndes droits de la personne et des droits de la jeunesse) v. Boisbriand (City) | [1981] P.C. 292 | [2000] 1 S.C.R. 665",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1h87t",
+        "score": 125.16130828857422,
+        "candidate_title": "Quebec (Commission des droits de la personne et des droits de la jeunesse) v. Quebec (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fvpd",
+        "score": 123.90029907226562,
+        "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Bichet) c. Centre hospitalier de l'Université de Montréal"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fvg5",
+        "score": 118.47650146484375,
+        "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Perrier) c. Ville d'Alymer"
+      }
+    ]
+  },
+  "Syndicat du textile de Montmagny inc.": {
+    "uri": "https://canlii.ca/t/1krj2",
+    "score": 36.074462890625,
+    "candidate_id": "1999qccs11110",
+    "candidate_title": "Syndicat du textile de Montmagny inc. c. Tremblay, ès qualités Arbitre",
+    "query_text": "decision | Syndicat du textile de Montmagny inc.",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1krj2",
+        "score": 36.074462890625,
+        "candidate_title": "Syndicat du textile de Montmagny inc. c. Tremblay, ès qualités Arbitre"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvf8d",
+        "score": 12.754393577575684,
+        "candidate_title": "Chagnon v. Syndicat de la fonction publique et parapublique du Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/gnrhl",
+        "score": 10.063794136047363,
+        "candidate_title": "Commission scolaire de Laval v. Syndicat de l’enseignement de la région de Laval"
+      }
+    ]
+  },
+  "Béliveau St-Jacques": {
+    "uri": "https://canlii.ca/t/1fr87",
+    "score": 148.73907470703125,
+    "candidate_id": "1996csc-scc64",
+    "candidate_title": "Béliveau St-Jacques v. Fédération des employées et employés de services publics inc.",
+    "query_text": "decision | Béliveau-St-Jacques | <i><span style=\"font-size:10.0pt\">Béliveau St-Jacques</span></i><span style=\"font-size:10.0pt\"> v. <i>Fédération des employées et employés\nde services publics inc</i></span><span style=\"font-size:10.0pt\"><i></i>.</span> | [1996] 2 S.C.R. 345",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr87",
+        "score": 148.73907470703125,
+        "candidate_title": "Béliveau St-Jacques v. Fédération des employées et employés de services publics inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 58.17293167114258,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fscl",
+        "score": 37.007415771484375,
+        "candidate_title": "R. v. CIP Inc."
+      }
+    ]
+  },
+  "McLaughlin": {
+    "uri": "https://canlii.ca/t/1fndz",
+    "score": 61.29261779785156,
+    "candidate_id": "2000bcca584",
+    "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal",
+    "query_text": "decision | McLaughlin | <i><span style=\"font-size:10.0pt\">McLaughlin</span></i><span style=\"font-size:\n10.0pt\"> v. <i>Fletcher Challenge Canada Ltd</i></span> | [2000] B.C.J. No 2162, 2000 BCCA\n584",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fndz",
+        "score": 61.29261779785156,
+        "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 34.992576599121094,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/523k",
+        "score": 26.870725631713867,
+        "candidate_title": "Ellis-Don Ltd. v. Ontario (Labour Relations Board)"
+      }
+    ]
+  },
+  "Rozon": {
+    "uri": "https://canlii.ca/t/1kqn5",
+    "score": 40.72732162475586,
+    "candidate_id": "1999qccs10333",
+    "candidate_title": "Rozon c. La Reine",
+    "query_text": "decision | Rozon | <i><span style=\"font-size:10.0pt\"> Rozon</span></i><span style=\"font-size:10.0pt\">\nv. <i>R</i></span> | [1999] R.J.Q. 805",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1kqn5",
+        "score": 40.72732162475586,
+        "candidate_title": "Rozon c. La Reine"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 35.56557083129883,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fscl",
+        "score": 24.440601348876953,
+        "candidate_title": "R. v. CIP Inc."
+      }
+    ]
+  },
+  "Péloquin": {
+    "uri": "https://canlii.ca/t/1fqzp",
+    "score": 49.1827507019043,
+    "candidate_id": "1997csc-scc79",
+    "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I.",
+    "query_text": "decision | Péloquin | <i><span style=\"font-size:10.0pt\">Péloquin</span></i><span style=\"font-size:10.0pt\"> v. <i>Syndicat des agents de la paix en\nservices correctionnels du Québec</i></span> | [2001] R.J.Q. 2215",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 49.1827507019043,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fscl",
+        "score": 27.964139938354492,
+        "candidate_title": "R. v. CIP Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/5200",
+        "score": 26.217309951782227,
+        "candidate_title": "Mount Sinai Hospital Center v. Quebec (Minister of Health and Social Services)"
+      }
+    ]
+  },
+  "Dickason": {
+    "uri": "https://canlii.ca/t/1fs85",
+    "score": 56.84521484375,
+    "candidate_id": "1992csc-scc82",
+    "candidate_title": "Dickason v. University of Alberta",
+    "query_text": "decision | Dickason | <i><span style=\"font-size:10.0pt\">Dickason</span></i><span style=\"font-size:\n10.0pt\"> v. <i>University of Alberta</i></span> | [1992] 2 S.C.R. 1103",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs85",
+        "score": 56.84521484375,
+        "candidate_title": "Dickason v. University of Alberta"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 38.17179870605469,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fscl",
+        "score": 32.31663513183594,
+        "candidate_title": "R. v. CIP Inc."
+      }
+    ]
+  },
+  "Etobicoke": {
+    "uri": "https://canlii.ca/t/1lpbq",
+    "score": 62.90445327758789,
+    "candidate_id": "1982csc-scc10004",
+    "candidate_title": "Ontario Human Rights Commission v. Etobicoke",
+    "query_text": "decision | Etobicoke | <i><span style=\"font-size:10.0pt\">Ontario Human Rights Commission</span></i><span style=\"font-size:10.0pt\"> v. <i>Municipality of Etobicoke</i></span> | [1982] 1 S.C.R.\n202",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpbq",
+        "score": 62.90445327758789,
+        "candidate_title": "Ontario Human Rights Commission v. Etobicoke"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 40.02216339111328,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/fql7l",
+        "score": 39.09770584106445,
+        "candidate_title": "Halifax (Regional Municipality) v. Nova Scotia (Human Rights Commission)"
+      }
+    ]
+  },
+  "Heerspink": {
+    "uri": "https://canlii.ca/t/1lpcj",
+    "score": 63.581260681152344,
+    "candidate_id": "1982csc-scc10016",
+    "candidate_title": "Insurance Corporation of British Columbia v. Heerspink",
+    "query_text": "decision | Heerspink | <i><span style=\"font-size:10.0pt\"> Insurance Corp. of British Columbia</span></i><span style=\"font-size:10.0pt\"> v. <i>Heerspink</i></span> | [1982] 2 S.C.R. 145",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpcj",
+        "score": 63.581260681152344,
+        "candidate_title": "Insurance Corporation of British Columbia v. Heerspink"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 38.17179870605469,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fscl",
+        "score": 25.58819580078125,
+        "candidate_title": "R. v. CIP Inc."
+      }
+    ]
+  },
+  "Craton": {
+    "uri": "https://canlii.ca/t/1ftzq",
+    "score": 72.02702331542969,
+    "candidate_id": "1985csc-scc48",
+    "candidate_title": "Winnipeg School Division No. 1 v. Craton",
+    "query_text": "decision | Craton | <i><span style=\"font-size:10.0pt\">Winnipeg School Division No. 1</span></i><span style=\"font-size:10.0pt\"> v. <i>Craton</i></span> | [1985] 2 S.C.R. 150",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftzq",
+        "score": 72.02702331542969,
+        "candidate_title": "Winnipeg School Division No. 1 v. Craton"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 40.95710372924805,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fscl",
+        "score": 27.439958572387695,
+        "candidate_title": "R. v. CIP Inc."
+      }
+    ]
+  },
+  "Claude Poirier": {
+    "uri": "https://canlii.ca/t/1fqzp",
+    "score": 58.85566329956055,
+    "candidate_id": "1997csc-scc79",
+    "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I.",
+    "query_text": "decision | <i>Claude Poirier</i> v. <i>Ville de Montréal</i> | <i>CDPDJ (Claude Poirier)</i> v. <i>Ville\nde Montréal</i> | [1995] 22 CHRR D/325",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 58.85566329956055,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/jdcmm",
+        "score": 42.33838653564453,
+        "candidate_title": "Québec (Comm. des droits de la personne) c. Montréal (Ville)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gvw9w",
+        "score": 41.902381896972656,
+        "candidate_title": "Montréal (Ville de) c. Lours"
+      }
+    ]
+  },
+  "Perrier": {
+    "uri": "https://canlii.ca/t/1fvg5",
+    "score": 49.785545349121094,
+    "candidate_id": "1998qctdp243",
+    "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Perrier) c. Ville d'Alymer",
+    "query_text": "decision | Perrier | <i>CDPDJ (Perrier)</i> v. <i>Ville\nd'Aylmer</i> | HRTQ, Hull, 500-53-000006-984, September 17, 1998, Rivet J",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fvg5",
+        "score": 49.785545349121094,
+        "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Perrier) c. Ville d'Alymer"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 30.081268310546875,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fscl",
+        "score": 20.455167770385742,
+        "candidate_title": "R. v. CIP Inc."
+      }
+    ]
+  },
+  "Bichet": {
+    "uri": "https://canlii.ca/t/1fvpd",
+    "score": 50.19557189941406,
+    "candidate_id": "2000qctdp306",
+    "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Bichet) c. Centre hospitalier de l'Université de Montréal",
+    "query_text": "decision | Bichet | <i>CDPDJ (Bichet)</i> v. <i>CHUM</i>,\nHRTQ, Montréal | 500-53-000104-982, August 30, 2000, d'Amours J.",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fvpd",
+        "score": 50.19557189941406,
+        "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Bichet) c. Centre hospitalier de l'Université de Montréal"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 28.149538040161133,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1ks2s",
+        "score": 21.361520767211914,
+        "candidate_title": "Montréal (Communauté urbaine) c. Québec (Tribunal des droits de la personne)"
+      }
+    ]
+  },
+  "Compagnie minière Québec Cartier": {
+    "uri": "https://canlii.ca/t/1frjn",
+    "score": 76.3182144165039,
+    "candidate_id": "1995csc-scc64",
+    "candidate_title": "Cie minière Québec Cartier v. Quebec (Grievances arbitrator)",
+    "query_text": "decision | <i>Cie Minière Quebec Cartier</i> v. <i>Quebec\n(Grievances arbitrator)</i> | [1995] 2 S.C.R. 1101",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frjn",
+        "score": 76.3182144165039,
+        "candidate_title": "Cie minière Québec Cartier v. Quebec (Grievances arbitrator)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 35.722774505615234,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fscl",
+        "score": 24.299646377563477,
+        "candidate_title": "R. v. CIP Inc."
+      }
+    ]
+  },
+  "Farber": {
+    "uri": "https://canlii.ca/t/1fqzp",
+    "score": 51.082523345947266,
+    "candidate_id": "1997csc-scc79",
+    "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I.",
+    "query_text": "decision | <i>Farber\n</i>v. <i>Royal Trust Company</i> | <i> </i>[1997] 1 S.C.R. 869",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 51.082523345947266,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fr38",
+        "score": 44.18205261230469,
+        "candidate_title": "Farber v. Royal Trust Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fscl",
+        "score": 34.65093231201172,
+        "candidate_title": "R. v. CIP Inc."
+      }
+    ]
+  },
+  "Maksteel SCC 2001": {
+    "uri": "https://canlii.ca/t/jddbr",
+    "score": 1.9049745798110962,
+    "candidate_id": "1981qccq1000054",
+    "candidate_title": "Mercier c. Beauport (Ville)",
+    "query_text": "decision | case 28402",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jddbr",
+        "score": 1.9049745798110962,
+        "candidate_title": "Mercier c. Beauport (Ville)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gb4qx",
+        "score": 1.8882465362548828,
+        "candidate_title": "R. v. Bonadie"
+      },
+      {
+        "uri": "https://canlii.ca/t/gw2bc",
+        "score": 1.8882465362548828,
+        "candidate_title": "Friedrich c. Friedrich"
+      }
+    ]
+  },
+  "Reeves": {
+    "uri": "https://canlii.ca/t/1fvq6",
+    "score": 79.26078796386719,
+    "candidate_id": "2001qctdp18",
+    "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Reeves) c. Fondation Abbé Charles-Émile Gadbois",
+    "query_text": "decision | <i>CDPDJ (Reeves)</i> v. <i>Fondation\nAbbé Charles-Émile Gadbois et al</i>. | HRTQ, Montréal, 500-53-000149-003,\nAugust 27, 2001, d'Amours J",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fvq6",
+        "score": 79.26078796386719,
+        "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Reeves) c. Fondation Abbé Charles-Émile Gadbois"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 28.69913101196289,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/523k",
+        "score": 23.02825164794922,
+        "candidate_title": "Ellis-Don Ltd. v. Ontario (Labour Relations Board)"
+      }
+    ]
+  },
+  "Pénologie droit canadien": {
+    "uri": "https://canlii.ca/t/1fqzp",
+    "score": 28.02899742126465,
+    "candidate_id": "1997csc-scc79",
+    "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I.",
+    "query_text": "secondary sources | <i>Pénologie - Le\ndroit canadien relatif aux peines et aux sentences</i> | Professor\nDumont | Professor Dumont | Dumont | Hélène DUMONT",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 28.02899742126465,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/55nzg",
+        "score": 19.454345703125,
+        "candidate_title": "Act respecting the Fonds d'aide aux actions collectives"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 18.404144287109375,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "Discrimination fondée sur antécédents": {
+    "uri": "https://canlii.ca/t/x8q1",
+    "score": 130.7985382080078,
+    "candidate_id": "d63861!d63861",
+    "candidate_title": "La discrimination fondée sur le motif des antécédents judiciaires et les instruments anti-discriminatoires canadiens",
+    "query_text": "secondary sources | La discrimination\nfondée sur le motif des antécédents judiciaires et les instruments\nanti-discriminatoires canadiens | Singleton | Thomas J. Singleton",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/x8q1",
+        "score": 130.7985382080078,
+        "candidate_title": "La discrimination fondée sur le motif des antécédents judiciaires et les instruments anti-discriminatoires canadiens"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jgr",
+        "score": 18.564573287963867,
+        "candidate_title": "Excise Tax Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56dxf",
+        "score": 18.027658462524414,
+        "candidate_title": "Juries Act"
+      }
+    ]
+  },
+  "Le casier judiciaire": {
+    "uri": "https://canlii.ca/t/6fmwv",
+    "score": 23.546968460083008,
+    "candidate_id": "l12793!12793-current-1",
+    "candidate_title": "Loi sur le casier judiciaire",
+    "query_text": "secondary sources | Le casier\njudiciaire : criminel un jour, criminel toujours? | Dumont, Hélène",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6fmwv",
+        "score": 23.546968460083008,
+        "candidate_title": "Loi sur le casier judiciaire"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsj",
+        "score": 18.02463722229004,
+        "candidate_title": "Criminal Records Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs4n",
+        "score": 13.889484405517578,
+        "candidate_title": "Rhône (The) v. Peter A.B. Widener (The)"
+      }
+    ]
+  }
+}

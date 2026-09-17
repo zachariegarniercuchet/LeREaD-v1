@@ -13,7 +13,7 @@ Level-3 (uri) batch evaluation — 4 file pair(s)
 ======================================================================
 
 [1/4] 2001CanLII21117.html
-  matched spans:  789  |  uri instances:   322  |  accuracy: 70.5%
+  matched spans:  789  |  uri instances:   322  |  accuracy: 71.7%
 
 [2/4] 2002SCC33.html
   matched spans:  953  |  uri instances:   328  |  accuracy: 75.9%
@@ -22,7 +22,7 @@ Level-3 (uri) batch evaluation — 4 file pair(s)
   matched spans:  312  |  uri instances:   117  |  accuracy: 68.4%
 
 [4/4] 2024NBKB203.html
-  matched spans:  658  |  uri instances:   244  |  accuracy: 86.5%
+  matched spans:  658  |  uri instances:   244  |  accuracy: 88.5%
 
 ======================================================================
 
@@ -40,12 +40,12 @@ Level-3 (uri) batch evaluation — 4 file pair(s)
 
   Matched spans (Level 1)   :   2712
   URI instances compared    :   1011
-  Matching URI values       :    767
-  URI ACCURACY              :     75.87%
+  Matching URI values       :    776
+  URI ACCURACY              :     76.76%
 
   Errors — missing in system:      0
          — missing in gold  :      2
-         — different value  :    242
+         — different value  :    233
 
 ──────────────────────────────────────────────────────────────────────────────
   PER-LABEL BREAKDOWN
@@ -53,9 +53,9 @@ Level-3 (uri) batch evaluation — 4 file pair(s)
 
   Label                                 Total  Match   Accuracy
   ────────────────────────────────────────────────────────────
-  decision                                500    392      78.4%
-  legislation                             441    359      81.4%
-  secondary sources                        69     16      23.2%
+  decision                                500    399      79.8%
+  legislation                             441    360      81.6%
+  secondary sources                        69     17      24.6%
   unable to classify                        1      0       0.0%
 
 ──────────────────────────────────────────────────────────────────────────────
@@ -64,13 +64,13 @@ Level-3 (uri) batch evaluation — 4 file pair(s)
 
   Category                              Total  Match   Accuracy
   ────────────────────────────────────────────────────────────
-  decision                                500    392      78.4%
-  legislation                             441    359      81.4%
+  decision                                500    399      79.8%
+  legislation                             441    360      81.6%
   other                                     1      0       0.0%
-  secondary sources                        69     16      23.2%
+  secondary sources                        69     17      24.6%
 
 ══════════════════════════════════════════════════════════════════════════════
 
-  Macro accuracy (mean per-document uri accuracy): 75.32%
+  Macro accuracy (mean per-document uri accuracy): 76.14%
   Documents evaluated: 4/4
 
