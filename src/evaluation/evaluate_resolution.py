@@ -132,6 +132,14 @@ def _match_spans_l1(gold: List[Span], system: List[Span]) -> List[Tuple[Span, Sp
 # URI helpers
 # ---------------------------------------------------------------------------
 
+# Gold values meaning "there is no URI to resolve to" -> never penalise
+NO_ANSWER_VALUES = {"none"}
+
+
+def _is_no_answer(value: Optional[str]) -> bool:
+    """True if the (already stripped) uri value is the 'no answer' placeholder."""
+    return value is not None and value.strip().lower() in NO_ANSWER_VALUES
+
 def _get_uri(span: Span) -> Optional[str]:
     """Return the raw uri attribute of a span, or None if absent/empty."""
     value = span.attributes.get(URI_ATTR)
@@ -185,6 +193,7 @@ def compute_uri_metrics(gold: List[Span], system: List[Span]) -> Tuple[Dict, Dic
 
     total = matching = 0
     missing_in_system = missing_in_gold = mismatched = 0
+    skipped_gold_none = 0 
 
     per_label_acc: Dict[str, dict] = defaultdict(lambda: {"total": 0, "matching": 0})
     per_cat_acc: Dict[str, dict] = defaultdict(lambda: {"total": 0, "matching": 0})
@@ -192,6 +201,11 @@ def compute_uri_metrics(gold: List[Span], system: List[Span]) -> Tuple[Dict, Dic
     for g, s in matched_pairs:
         u_g = _get_uri(g)
         u_s = _get_uri(s)
+
+        # Gold says "no answer": whatever the system predicted, don't score it
+        if _is_no_answer(u_g):
+            skipped_gold_none += 1
+            continue
 
         if u_g is None and u_s is None:
             continue  # uri simply not applicable to this span
@@ -224,6 +238,7 @@ def compute_uri_metrics(gold: List[Span], system: List[Span]) -> Tuple[Dict, Dic
         "missing_in_system": missing_in_system,
         "missing_in_gold": missing_in_gold,
         "mismatched": mismatched,
+        "skipped_gold_none": skipped_gold_none,
     }
 
     per_label = {
@@ -275,13 +290,14 @@ def print_results(
     print("\n  Evaluated attribute : uri")
     print("  Agreement criterion : exact match (case-insensitive, stripped)")
     print("  Counted instances   : spans matched at Level 1 where uri is present "
-          "on either side")
+          "on either side, excluding gold uri=\"None\" (no answer)")
 
     print(f"\n{_SEP}")
     print("  OVERALL")
     print(_SEP)
     print(f"\n  Matched spans (Level 1)   : {overall['matched_spans']:>6}")
     print(f"  URI instances compared    : {overall['total']:>6}")
+    print(f"  Skipped (gold uri=None)   : {overall['skipped_gold_none']:>6}")
     print(f"  Matching URI values       : {overall['matching']:>6}")
     print(f"  URI ACCURACY              : {overall['accuracy']*100:>9.2f}%")
     print(f"\n  Errors — missing in system: {overall['missing_in_system']:>6}")
@@ -390,6 +406,7 @@ def evaluate_resolution_batch(
         acc_overall["missing_in_system"] += overall["missing_in_system"]
         acc_overall["missing_in_gold"] += overall["missing_in_gold"]
         acc_overall["mismatched"] += overall["mismatched"]
+        acc_overall["skipped_gold_none"] += overall["skipped_gold_none"]
 
         for label, m in per_label.items():
             acc_per_label[label]["total"] += m["total"]
@@ -408,7 +425,7 @@ def evaluate_resolution_batch(
         print("\n  No files could be processed.")
         return (
             {"matched_spans": 0, "total": 0, "matching": 0, "accuracy": 0.0,
-             "missing_in_system": 0, "missing_in_gold": 0, "mismatched": 0},
+             "missing_in_system": 0, "missing_in_gold": 0, "mismatched": 0, "skipped_gold_none": 0},
             {}, {},
         )
 
@@ -421,6 +438,7 @@ def evaluate_resolution_batch(
         "missing_in_system": acc_overall["missing_in_system"],
         "missing_in_gold": acc_overall["missing_in_gold"],
         "mismatched": acc_overall["mismatched"],
+        "skipped_gold_none": acc_overall["skipped_gold_none"],
     }
 
     final_per_label = {

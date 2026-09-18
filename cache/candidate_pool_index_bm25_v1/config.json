@@ -3,13 +3,13 @@
   "retriever": {
     "name": "bm25",
     "score_kind": "score",
-    "size": 504,
+    "size": 1304,
     "k1": 1.5,
     "b": 0.75,
     "tokenizer": "regex"
   },
   "input_file": "data\\candidate_pool_metadata.csv",
-  "num_candidates": 504,
+  "num_candidates": 1304,
   "representation": {
     "fields": [
       "docType",
