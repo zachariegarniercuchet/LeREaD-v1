@@ -1,0 +1,722 @@
+{
+  "Pharmascience": {
+    "uri": "https://canlii.ca/t/521j",
+    "score": 0.9111199975013733,
+    "candidate_id": "2001csc-scc35",
+    "candidate_title": "Therrien (Re)",
+    "query_text": "decision | Pharmascience\n  inc. c. Option Consommateurs | <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"MsoNormalTable\" style=\"border-collapse:collapse\"><tbody><tr style=\"height:12.4pt\"><td style=\"padding:0cm 0cm 0cm 0cm;\n  height:12.4pt\" valign=\"top\"><p class=\"zSoquijdatRefNeutre\" style=\"line-height:14.0pt\"><span lang=\"FR-CA\">2005\n  QCCA 437</span></p></td></tr></tbody></table>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/521j",
+        "score": 0.9111199975013733,
+        "candidate_title": "Therrien (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fr3p",
+        "score": 0.9105067849159241,
+        "candidate_title": "R. v. Carosella"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs0w",
+        "score": 0.9096465706825256,
+        "candidate_title": "R. v. Plant"
+      }
+    ]
+  },
+  "Thompson": {
+    "uri": "https://canlii.ca/t/22wpp",
+    "score": 0.9025474190711975,
+    "candidate_id": "1951csc-scc1000014",
+    "candidate_title": "Woods v. The King",
+    "query_text": "decision | Thompson v. Masson | Thomson | [1993] R.J.Q. 69",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22wpp",
+        "score": 0.9025474190711975,
+        "candidate_title": "Woods v. The King"
+      },
+      {
+        "uri": "https://canlii.ca/t/gw9j1",
+        "score": 0.9016240835189819,
+        "candidate_title": "C.N.R. v. Muller"
+      },
+      {
+        "uri": "https://canlii.ca/t/gd1kv",
+        "score": 0.8956218361854553,
+        "candidate_title": "R. v. McNamara"
+      }
+    ]
+  },
+  "Comité de l’environnement de la Baie Inc": {
+    "uri": "https://canlii.ca/t/1krj2",
+    "score": 0.9155130386352539,
+    "candidate_id": "1999qccs11110",
+    "candidate_title": "Syndicat du textile de Montmagny inc. c. Tremblay, ès qualités Arbitre",
+    "query_text": "decision | Comité\nde l’environnement de la Baie Inc. v. Société d’électrolyse et de chimie Alcan\nltée | [1990] R.J.Q. 655 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1krj2",
+        "score": 0.9155130386352539,
+        "candidate_title": "Syndicat du textile de Montmagny inc. c. Tremblay, ès qualités Arbitre"
+      },
+      {
+        "uri": "https://canlii.ca/t/1pj93",
+        "score": 0.9135607481002808,
+        "candidate_title": "Comité d'environnement de la Baie inc. c. Société d'électrolyse et de chimie Alcan ltée"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nmgf",
+        "score": 0.9129754900932312,
+        "candidate_title": "Lebeuf c. Groupe SNC-Lavalin inc."
+      }
+    ]
+  },
+  "New York Life QCCA 2003": {
+    "uri": "https://canlii.ca/t/22wpp",
+    "score": 0.9153784513473511,
+    "candidate_id": "1951csc-scc1000014",
+    "candidate_title": "Woods v. The King",
+    "query_text": "decision | New York Life v. Vaughan | [2003] J.Q. 89 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22wpp",
+        "score": 0.9153784513473511,
+        "candidate_title": "Woods v. The King"
+      },
+      {
+        "uri": "https://canlii.ca/t/gd1kv",
+        "score": 0.9133539795875549,
+        "candidate_title": "R. v. McNamara"
+      },
+      {
+        "uri": "https://canlii.ca/t/gw9j1",
+        "score": 0.9130387306213379,
+        "candidate_title": "C.N.R. v. Muller"
+      }
+    ]
+  },
+  "Lyons": {
+    "uri": "https://canlii.ca/t/gw9j1",
+    "score": 0.9016449451446533,
+    "candidate_id": "1933csc-scc1000064",
+    "candidate_title": "C.N.R. v. Muller",
+    "query_text": "decision | R. v. Lyons | [1987] 2 S.C.R. 309",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gw9j1",
+        "score": 0.9016449451446533,
+        "candidate_title": "C.N.R. v. Muller"
+      },
+      {
+        "uri": "https://canlii.ca/t/22wpp",
+        "score": 0.8916667103767395,
+        "candidate_title": "Woods v. The King"
+      },
+      {
+        "uri": "https://canlii.ca/t/gd1kv",
+        "score": 0.8909626007080078,
+        "candidate_title": "R. v. McNamara"
+      }
+    ]
+  },
+  "Crane Canada Inc.": {
+    "uri": "https://canlii.ca/t/1fslz",
+    "score": 0.9245935678482056,
+    "candidate_id": "1991csc-scc25",
+    "candidate_title": "Canada (Attorney General) v. Public Service Alliance of Canada",
+    "query_text": "decision | <span lang=\"EN-CA\"><i>Crane Canada Inc. v. Sécurité nationale,\ncompagnie d’assurances and Attorney General of </i></span><i><span lang=\"EN-CA\">Quebec</span></i> | [2004] J.Q. 13746 (Que. C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fslz",
+        "score": 0.9245935678482056,
+        "candidate_title": "Canada (Attorney General) v. Public Service Alliance of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ft89",
+        "score": 0.9241364002227783,
+        "candidate_title": "U.E.S., Local 298 v. Bibeault"
+      },
+      {
+        "uri": "https://canlii.ca/t/1pf2l",
+        "score": 0.9219949245452881,
+        "candidate_title": "Thompson c. Masson"
+      }
+    ]
+  },
+  "Comité de citoyens et d’action municipale de St-Césaire": {
+    "uri": "https://canlii.ca/t/1krj2",
+    "score": 0.9246918559074402,
+    "candidate_id": "1999qccs11110",
+    "candidate_title": "Syndicat du textile de Montmagny inc. c. Tremblay, ès qualités Arbitre",
+    "query_text": "decision | Comité de citoyens et d’action\nmunicipale de St-Césaire v. St-Césaire | [1986] R.J.Q. 101 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1krj2",
+        "score": 0.9246918559074402,
+        "candidate_title": "Syndicat du textile de Montmagny inc. c. Tremblay, ès qualités Arbitre"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nmgf",
+        "score": 0.9187302589416504,
+        "candidate_title": "Lebeuf c. Groupe SNC-Lavalin inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/gnt5z",
+        "score": 0.9143979549407959,
+        "candidate_title": "Dumas c. Mutuelle des fonctionnaires du Québec"
+      }
+    ]
+  },
+  "Société Asbestos Limitée": {
+    "uri": "https://canlii.ca/t/gw9j1",
+    "score": 0.9123116135597229,
+    "candidate_id": "1933csc-scc1000064",
+    "candidate_title": "C.N.R. v. Muller",
+    "query_text": "decision | Société Asbestos Limitée v. Lacroix | [2004] J.Q. no. 9410 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gw9j1",
+        "score": 0.9123116135597229,
+        "candidate_title": "C.N.R. v. Muller"
+      },
+      {
+        "uri": "https://canlii.ca/t/gd1kv",
+        "score": 0.9080206155776978,
+        "candidate_title": "R. v. McNamara"
+      },
+      {
+        "uri": "https://canlii.ca/t/24ccr",
+        "score": 0.9047523140907288,
+        "candidate_title": "R. v. Erickson"
+      }
+    ]
+  },
+  "Dumas": {
+    "uri": "https://canlii.ca/t/gnt5z",
+    "score": 0.928833544254303,
+    "candidate_id": "2002qcca1000812",
+    "candidate_title": "Dumas c. Mutuelle des fonctionnaires du Québec",
+    "query_text": "decision | Dumas v. Mutuelle des fonctionnaires du Québec\n(MFQ-Vie) et la Capitale | [2002] J.Q. 692 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gnt5z",
+        "score": 0.928833544254303,
+        "candidate_title": "Dumas c. Mutuelle des fonctionnaires du Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/jddbr",
+        "score": 0.9137450456619263,
+        "candidate_title": "Mercier c. Beauport (Ville)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1krj2",
+        "score": 0.9102036356925964,
+        "candidate_title": "Syndicat du textile de Montmagny inc. c. Tremblay, ès qualités Arbitre"
+      }
+    ]
+  },
+  "Les Tours Mirabelle Inc.": {
+    "uri": "https://canlii.ca/t/1mvw6",
+    "score": 0.9101465940475464,
+    "candidate_id": "1999qcca10908",
+    "candidate_title": "Hotte c. Servier Canada inc.",
+    "query_text": "decision | Les Tours Mirabelle Inc. and Cabana Airline v. Arsenault | (18\nOctober 1993), Montréal, 500-09-001756-931, (Que. C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mvw6",
+        "score": 0.9101465940475464,
+        "candidate_title": "Hotte c. Servier Canada inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/gjh0l",
+        "score": 0.9082527160644531,
+        "candidate_title": "86296 Canada Ltd. c. Shoppers Realty Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1kqn5",
+        "score": 0.9065877199172974,
+        "candidate_title": "Rozon c. La Reine"
+      }
+    ]
+  },
+  "Ville de Sainte-Anne-de-Beaupré": {
+    "uri": "https://canlii.ca/t/601r",
+    "score": 0.9260774254798889,
+    "candidate_id": "2003qcca10350",
+    "candidate_title": "Hamel c. Sainte-Anne-de-Beaupré (Ville de)",
+    "query_text": "decision | Ville de\nSainte-Anne-de-Beaupré v. Hamel | [2003] J.Q. 11308",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/601r",
+        "score": 0.9260774254798889,
+        "candidate_title": "Hamel c. Sainte-Anne-de-Beaupré (Ville de)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jddbr",
+        "score": 0.9033290147781372,
+        "candidate_title": "Mercier c. Beauport (Ville)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1kqn5",
+        "score": 0.901785135269165,
+        "candidate_title": "Rozon c. La Reine"
+      }
+    ]
+  },
+  "Toyota Canada Inc.": {
+    "uri": "https://canlii.ca/t/22wpp",
+    "score": 0.9060108661651611,
+    "candidate_id": "1951csc-scc1000014",
+    "candidate_title": "Woods v. The King",
+    "query_text": "decision | Toyota Canada\nInc. v. Harmegnie | [2004] J.Q. 2901",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22wpp",
+        "score": 0.9060108661651611,
+        "candidate_title": "Woods v. The King"
+      },
+      {
+        "uri": "https://canlii.ca/t/gw9j1",
+        "score": 0.9039421081542969,
+        "candidate_title": "C.N.R. v. Muller"
+      },
+      {
+        "uri": "https://canlii.ca/t/gd1kv",
+        "score": 0.9037730693817139,
+        "candidate_title": "R. v. McNamara"
+      }
+    ]
+  },
+  "Hotte": {
+    "uri": "https://canlii.ca/t/gd1kv",
+    "score": 0.9259921908378601,
+    "candidate_id": "1981onca1000129",
+    "candidate_title": "R. v. McNamara",
+    "query_text": "decision | <i>Hotte v. Servier Canada Inc</i>. | [1999] R.J.Q. 2598",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gd1kv",
+        "score": 0.9259921908378601,
+        "candidate_title": "R. v. McNamara"
+      },
+      {
+        "uri": "https://canlii.ca/t/24ccr",
+        "score": 0.9221758842468262,
+        "candidate_title": "R. v. Erickson"
+      },
+      {
+        "uri": "https://canlii.ca/t/22wpp",
+        "score": 0.9191527366638184,
+        "candidate_title": "Woods v. The King"
+      }
+    ]
+  },
+  "Comité Régional des Usagers des transports en commun de Québec": {
+    "uri": "https://canlii.ca/t/1fvpd",
+    "score": 0.9301285147666931,
+    "candidate_id": "2000qctdp306",
+    "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Bichet) c. Centre hospitalier de l'Université de Montréal",
+    "query_text": "decision | Comité Régional des Usagers des transports en commun\nde Québec v. Commission des transports de la Communauté urbaine de Québec | Comité régional des usagers des transports en commun\nde Québec v. Commission des transports de la Communauté urbaine de Québec | [1981] 1 S.C.R. 424",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fvpd",
+        "score": 0.9301285147666931,
+        "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Bichet) c. Centre hospitalier de l'Université de Montréal"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fvg5",
+        "score": 0.9239955544471741,
+        "candidate_title": "Commission des droits de la personne et des droits de la jeunesse (Perrier) c. Ville d'Alymer"
+      },
+      {
+        "uri": "https://canlii.ca/t/273mr",
+        "score": 0.9192471504211426,
+        "candidate_title": "Fédération des coopératives funéraires du Québec c. Bureau de normalisation du Québec"
+      }
+    ]
+  },
+  "Guimond": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/2017/2017scc42/2017scc42.html",
+    "score": 0.9312813878059387,
+    "candidate_id": "2017csc-scc42",
+    "candidate_title": "Quebec (Attorney General) v. Guérin",
+    "query_text": "decision | Guimond v. Québec (Attorney General) | <i>Guimond v. Québec (Attorney General</i>) | [1996] 3 S.C.R. 347",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2017/2017scc42/2017scc42.html",
+        "score": 0.9312813878059387,
+        "candidate_title": "Quebec (Attorney General) v. Guérin"
+      },
+      {
+        "uri": "https://canlii.ca/t/g6hpg",
+        "score": 0.9274113774299622,
+        "candidate_title": "D'Errico v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/ghgmz",
+        "score": 0.923454761505127,
+        "candidate_title": "Delios v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "New York Life SCC 2002": {
+    "uri": "https://canlii.ca/t/gw9j1",
+    "score": 0.8823628425598145,
+    "candidate_id": "1933csc-scc1000064",
+    "candidate_title": "C.N.R. v. Muller",
+    "query_text": "decision | [2002] C.S.C.R. no.\n470",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gw9j1",
+        "score": 0.8823628425598145,
+        "candidate_title": "C.N.R. v. Muller"
+      },
+      {
+        "uri": "https://canlii.ca/t/231v2",
+        "score": 0.8725808262825012,
+        "candidate_title": "R. v. C.M."
+      },
+      {
+        "uri": "https://canlii.ca/t/1frmw",
+        "score": 0.8671248555183411,
+        "candidate_title": "R. v. S. (R.J.)"
+      }
+    ]
+  },
+  "Charelli": {
+    "uri": "https://canlii.ca/t/1fslz",
+    "score": 0.9103286862373352,
+    "candidate_id": "1991csc-scc25",
+    "candidate_title": "Canada (Attorney General) v. Public Service Alliance of Canada",
+    "query_text": "decision | <span lang=\"EN-CA\"><i>Charelli v. </i></span><i><span lang=\"EN-CA\">Canada (Minister of Employment and\nImmigration)</span></i> | [1992] 1 S.C.R. 711",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fslz",
+        "score": 0.9103286862373352,
+        "candidate_title": "Canada (Attorney General) v. Public Service Alliance of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2bst3",
+        "score": 0.9097429513931274,
+        "candidate_title": "Canada (Attorney General) v. Almon Equipment Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mjtb",
+        "score": 0.9091801047325134,
+        "candidate_title": "Northern Telecom v. Communications Workers"
+      }
+    ]
+  },
+  "Ruby": {
+    "uri": "https://canlii.ca/t/gpfw3",
+    "score": 0.9089202880859375,
+    "candidate_id": "2016fca115",
+    "candidate_title": "Lloyd v.  Canada (Attorney General)",
+    "query_text": "decision | <span lang=\"EN-CA\"><i>Ruby\nv. </i></span><i><span lang=\"EN-CA\">Canada\n(Attorney General</span></i> | [2002] 4 S.C.R. 3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gpfw3",
+        "score": 0.9089202880859375,
+        "candidate_title": "Lloyd v.  Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs3x",
+        "score": 0.9074300527572632,
+        "candidate_title": "R. v. Goncalves"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mjtb",
+        "score": 0.9066203832626343,
+        "candidate_title": "Northern Telecom v. Communications Workers"
+      }
+    ]
+  },
+  "Dynar": {
+    "uri": "https://canlii.ca/t/gw9j1",
+    "score": 0.9131187200546265,
+    "candidate_id": "1933csc-scc1000064",
+    "candidate_title": "C.N.R. v. Muller",
+    "query_text": "decision | United\nStates of America v. Dynar | [1997] 2 S.C.R. 462",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gw9j1",
+        "score": 0.9131187200546265,
+        "candidate_title": "C.N.R. v. Muller"
+      },
+      {
+        "uri": "https://canlii.ca/t/22wpp",
+        "score": 0.9113426804542542,
+        "candidate_title": "Woods v. The King"
+      },
+      {
+        "uri": "https://canlii.ca/t/24ccr",
+        "score": 0.9088802933692932,
+        "candidate_title": "R. v. Erickson"
+      }
+    ]
+  },
+  "CCP 1965": {
+    "uri": "https://canlii.ca/t/55nzg",
+    "score": 0.8662229776382446,
+    "candidate_id": "l5938!5938-current-1",
+    "candidate_title": "Act respecting the Fonds d'aide aux actions collectives",
+    "query_text": "legislation | C.C.P. | <span lang=\"EN-CA\">C.C.P</span><span lang=\"EN-CA\">.</span> | C.C.P | <span lang=\"EN-CA\">C.C.P</span><span lang=\"EN-CA\">.</span><span lang=\"EN-CA\"> </span> | <span lang=\"EN-CA\"> C.C.P</span><span lang=\"EN-CA\">.</span> | Code\nof Civil Procedure | Code of\nCivil Procedure | Code | <span lang=\"EN-CA\">C.C.P</span><span lang=\"EN-CA\">.</span><span lang=\"EN-CA\"></span><span lang=\"EN-CA\"></span><span lang=\"EN-CA\"> </span> | Code of Civil Procedure | Code of Civil\nProcedure | <i>Code of Civil\nProcedure</i> | Charter",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55nzg",
+        "score": 0.8662229776382446,
+        "candidate_title": "Act respecting the Fonds d'aide aux actions collectives"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxl",
+        "score": 0.8658828735351562,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/x6v",
+        "score": 0.864376425743103,
+        "candidate_title": "Tax Administration Act"
+      }
+    ]
+  },
+  "Quebec Charter": {
+    "uri": "https://canlii.ca/t/56kkc",
+    "score": 0.9162893891334534,
+    "candidate_id": "l5452!5452-current-1",
+    "candidate_title": "Charter of Human Rights and Freedoms",
+    "query_text": "legislation | <i>Charter of human rights and\nfreedoms</i> | <i>Charter of\nhuman rights and freedoms</i> | <span lang=\"EN-CA\">Charter</span> | Charter | Quebec Charter | R.S.Q., c. C-12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56kkc",
+        "score": 0.9162893891334534,
+        "candidate_title": "Charter of Human Rights and Freedoms"
+      },
+      {
+        "uri": "https://canlii.ca/t/5546r",
+        "score": 0.9068095088005066,
+        "candidate_title": "Code of Ethics of Québec Police Officers"
+      },
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 0.8973397016525269,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      }
+    ]
+  },
+  "Regulation respecting manufacturers and wholesalers": {
+    "uri": "https://canlii.ca/t/lfns",
+    "score": 0.9332324862480164,
+    "candidate_id": "l8014!8014-current-1",
+    "candidate_title": "Regulation respecting the conditions governing the accreditation of manufacturers and wholesalers of medications",
+    "query_text": "legislation | regulation | Regulation | Regulation respecting the conditions on which manufacturers and wholesalers\nof medications shall be recognized, | c. A-29.01, r.1.1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/lfns",
+        "score": 0.9332324862480164,
+        "candidate_title": "Regulation respecting the conditions governing the accreditation of manufacturers and wholesalers of medications"
+      },
+      {
+        "uri": "https://canlii.ca/t/564nf",
+        "score": 0.907217264175415,
+        "candidate_title": "Land Titles Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56bjc",
+        "score": 0.9025925397872925,
+        "candidate_title": "Employment Standards Act"
+      }
+    ]
+  },
+  "Act respecting the class action": {
+    "uri": "https://canlii.ca/t/56mjl",
+    "score": 0.9050536155700684,
+    "candidate_id": "l282!282-current-1",
+    "candidate_title": "Marriage Act",
+    "query_text": "legislation | <i>Act respecting the class action</i> | R.S.Q., c. R-2.1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56mjl",
+        "score": 0.9050536155700684,
+        "candidate_title": "Marriage Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/564nf",
+        "score": 0.8990384340286255,
+        "candidate_title": "Land Titles Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/hcnw",
+        "score": 0.8986562490463257,
+        "candidate_title": "Police Act"
+      }
+    ]
+  },
+  "CCP 1866": {
+    "uri": "https://canlii.ca/t/5546r",
+    "score": 0.8873286247253418,
+    "candidate_id": "l9312!9312-current-1",
+    "candidate_title": "Code of Ethics of Québec Police Officers",
+    "query_text": "legislation | <i>Code of Civil Procedure of Lower Canada</i> | <span lang=\"EN-CA\"><i>Code of Civil Procedure of </i></span><i><span lang=\"EN-CA\">Lower Canada</span></i> | Code of Civil Procedure of Lower Canada | 1866",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5546r",
+        "score": 0.8873286247253418,
+        "candidate_title": "Code of Ethics of Québec Police Officers"
+      },
+      {
+        "uri": "https://canlii.ca/t/hcnw",
+        "score": 0.8784065842628479,
+        "candidate_title": "Police Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxj",
+        "score": 0.8744280338287354,
+        "candidate_title": "Civil Code of Québec"
+      }
+    ]
+  },
+  "An Act to Amend CCP 1960": {
+    "uri": "https://canlii.ca/t/56mjl",
+    "score": 0.857054591178894,
+    "candidate_id": "l282!282-current-1",
+    "candidate_title": "Marriage Act",
+    "query_text": "legislation | 1959-60, 8-9\nElizabeth II c.99 | 1959-60,\n8-9 Elizabeth II c.99",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56mjl",
+        "score": 0.857054591178894,
+        "candidate_title": "Marriage Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/5546r",
+        "score": 0.856731653213501,
+        "candidate_title": "Code of Ethics of Québec Police Officers"
+      },
+      {
+        "uri": "https://canlii.ca/t/53p6q",
+        "score": 0.8558489680290222,
+        "candidate_title": "Civil Service Act"
+      }
+    ]
+  },
+  "An Act to Amend CCP 1983": {
+    "uri": "https://canlii.ca/t/5652h",
+    "score": 0.8551087379455566,
+    "candidate_id": "l83!83-current-1",
+    "candidate_title": "Corporations Act",
+    "query_text": "legislation | S.Q., 1983 c. 28",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5652h",
+        "score": 0.8551087379455566,
+        "candidate_title": "Corporations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/566gg",
+        "score": 0.8543520569801331,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/564nl",
+        "score": 0.8505904674530029,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "List of medications": {
+    "uri": "https://canlii.ca/t/56jxm",
+    "score": 0.8913364410400391,
+    "candidate_id": "l29342!29342-current-1",
+    "candidate_title": "The Planning Act",
+    "query_text": "legislation | List of medications covered by the basic prescription drug insurance plan | D-2003-007, 1 June 2003, G.O.Q.\n2003.II.1699A",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56jxm",
+        "score": 0.8913364410400391,
+        "candidate_title": "The Planning Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56bjc",
+        "score": 0.8897817730903625,
+        "candidate_title": "Employment Standards Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/lfns",
+        "score": 0.8861314654350281,
+        "candidate_title": "Regulation respecting the conditions governing the accreditation of manufacturers and wholesalers of medications"
+      }
+    ]
+  },
+  "A New Judicial Culture": {
+    "uri": "https://canlii.ca/t/ss80",
+    "score": 0.8739567399024963,
+    "candidate_id": "d69840!d69840",
+    "candidate_title": "The Constitutional Dimensions of Aboriginal Title",
+    "query_text": "secondary sources | A New Judicial Culture | Civil Procedure Review Committee",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/ss80",
+        "score": 0.8739567399024963,
+        "candidate_title": "The Constitutional Dimensions of Aboriginal Title"
+      },
+      {
+        "uri": "https://canlii.ca/t/t7lt",
+        "score": 0.8707655668258667,
+        "candidate_title": "Collective Bargaining in Ontario: A New Legislative Approach"
+      },
+      {
+        "uri": "https://canlii.ca/t/7n524",
+        "score": 0.8679690361022949,
+        "candidate_title": "Can There Be Too Much Context in Administrative Law: Setting the Standard of Review in Canadian Administrative Law"
+      }
+    ]
+  },
+  "Droit Constitutionnel": {
+    "uri": "https://canlii.ca/t/1pf2l",
+    "score": 0.8981717228889465,
+    "candidate_id": "1992qcca12623",
+    "candidate_title": "Thompson c. Masson",
+    "query_text": "secondary sources | <i>Droit Constitutionnel,</i> | <span lang=\"EN-CA\">Professors\nBrun and Tremblay</span> | Henri Brun &amp; Guy Tremblay",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1pf2l",
+        "score": 0.8981717228889465,
+        "candidate_title": "Thompson c. Masson"
+      },
+      {
+        "uri": "https://canlii.ca/t/56p11",
+        "score": 0.8973804116249084,
+        "candidate_title": "Institutions"
+      },
+      {
+        "uri": "https://canlii.ca/t/t7lt",
+        "score": 0.8963065147399902,
+        "candidate_title": "Collective Bargaining in Ontario: A New Legislative Approach"
+      }
+    ]
+  },
+  "primes illégales pharmaciens": {
+    "uri": "https://canlii.ca/t/566gg",
+    "score": 0.43039822578430176,
+    "candidate_id": "l19940!19940-current-1",
+    "candidate_title": "Securities Act",
+    "query_text": "unable to classify",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/566gg",
+        "score": 0.43039822578430176,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nc2",
+        "score": 0.3961157202720642,
+        "candidate_title": "Municipal Government Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/52w1g",
+        "score": 0.39011654257774353,
+        "candidate_title": "The Contributory Negligence Act"
+      }
+    ]
+  }
+}

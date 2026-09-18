@@ -1,0 +1,578 @@
+{
+  "Excise Tax Act 1970": {
+    "uri": "https://canlii.ca/t/hcnw",
+    "score": 0.9179258942604065,
+    "candidate_id": "l6095!6095-current-1",
+    "candidate_title": "Police Act",
+    "query_text": "legislation | Excise Tax Act | <i>Excise Tax Act</i> | Excise\nTax Act | <i>Excise Tax\nAct</i> | the Act | Act | R.S.C. 1970, c. E-13",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hcnw",
+        "score": 0.9179258942604065,
+        "candidate_title": "Police Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/564nl",
+        "score": 0.9135832786560059,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56mjl",
+        "score": 0.9120532274246216,
+        "candidate_title": "Marriage Act"
+      }
+    ]
+  },
+  "Canadian International Trade Tribunal Act": {
+    "uri": "https://canlii.ca/t/557qs",
+    "score": 0.9080206155776978,
+    "candidate_id": "l79485!79485-current-1",
+    "candidate_title": "The New Brunswick Companies Act",
+    "query_text": "legislation | Canadian\nInternational Trade Tribunal Act | Canadian International Trade Tribunal Act | S.C. 1988, c. 56",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/557qs",
+        "score": 0.9080206155776978,
+        "candidate_title": "The New Brunswick Companies Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/561jt",
+        "score": 0.890099287033081,
+        "candidate_title": "Administrative Tribunals Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/5374x",
+        "score": 0.8891947269439697,
+        "candidate_title": "The Rural Municipality Amendment Act, 1992"
+      }
+    ]
+  },
+  "Customs Tariff": {
+    "uri": "https://canlii.ca/t/56nc2",
+    "score": 0.8139479756355286,
+    "candidate_id": "l17899!17899-current-1",
+    "candidate_title": "Municipal Government Act",
+    "query_text": "legislation | Customs\nTariff | Customs Tariff",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nc2",
+        "score": 0.8139479756355286,
+        "candidate_title": "Municipal Government Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53gqp",
+        "score": 0.8102239966392517,
+        "candidate_title": "The Treaty Land Entitlement Implementation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/566gg",
+        "score": 0.8082075119018555,
+        "candidate_title": "Securities Act"
+      }
+    ]
+  },
+  "Excise Tax Act 1985": {
+    "uri": "https://canlii.ca/t/566gg",
+    "score": 0.8751400709152222,
+    "candidate_id": "l19940!19940-current-1",
+    "candidate_title": "Securities Act",
+    "query_text": "legislation | R.S.C. 1985, c. E-15",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/566gg",
+        "score": 0.8751400709152222,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/52w1g",
+        "score": 0.8739553689956665,
+        "candidate_title": "The Contributory Negligence Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56mjl",
+        "score": 0.8698954582214355,
+        "candidate_title": "Marriage Act"
+      }
+    ]
+  },
+  "City of Chicago": {
+    "uri": "https://canlii.ca/t/gw9j1",
+    "score": 0.8994722366333008,
+    "candidate_id": "1933csc-scc1000064",
+    "candidate_title": "C.N.R. v. Muller",
+    "query_text": "decision | City\nof Chicago v. Pittsburgh | <i>City of Chicago v.\nPittsburgh, Ft. W. &amp; C. R. Co.</i>, (1910) | Ft. W. &amp; C. R. Co. (1910) | 93 N.E. 307",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gw9j1",
+        "score": 0.8994722366333008,
+        "candidate_title": "C.N.R. v. Muller"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mjtd",
+        "score": 0.8993365168571472,
+        "candidate_title": "Volvo Canada Ltd. v. U.A.W., Local 720"
+      },
+      {
+        "uri": "https://canlii.ca/t/g9xd1",
+        "score": 0.8960924744606018,
+        "candidate_title": "R. v. Church of Scientology of Toronto"
+      }
+    ]
+  },
+  "Hunt Foods Export Corp. of Canada Ltd": {
+    "uri": "https://canlii.ca/t/jqr4g",
+    "score": 0.9431695938110352,
+    "candidate_id": "1970exchc-cech1000016",
+    "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise",
+    "query_text": "decision | Hunt\nFoods Export Corp. of Canada Ltd et al. v. The Deputy Minister of National\nRevenue for Customs and Excise (1970) | Hunt Foods Export Corp. of Canada Ltd et al. v. The Deputy\nMinister of National Revenue for Customs and Excise | Ex. C.R. 828 | [1970] Ex. C.R. 828",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqr4g",
+        "score": 0.9431695938110352,
+        "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise"
+      },
+      {
+        "uri": "https://canlii.ca/t/1z6fk",
+        "score": 0.9182398319244385,
+        "candidate_title": "Pfizer Co. Ltd. v. Deputy Minister of National Revenue"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mjtd",
+        "score": 0.9142982959747314,
+        "candidate_title": "Volvo Canada Ltd. v. U.A.W., Local 720"
+      }
+    ]
+  },
+  "Olympia Floor and Wall Tile Company": {
+    "uri": "https://canlii.ca/t/jqr4g",
+    "score": 0.9110040664672852,
+    "candidate_id": "1970exchc-cech1000016",
+    "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise",
+    "query_text": "decision | Olympia Floor and Wall\nTile Company v. The Deputy Minister of National Revenue for Customs and Excise | Olympia Floor and Wall Tile Company v. The Deputy Minister of\nNational Revenue for Customs and Excise | The\nOlympia Floor and Wall Tile Company case | 5 C.E.R. 562 | 5 C.E.R. 562",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqr4g",
+        "score": 0.9110040664672852,
+        "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise"
+      },
+      {
+        "uri": "https://canlii.ca/t/k8t26",
+        "score": 0.9002193212509155,
+        "candidate_title": "St. Catherine's Milling and Lumber Company v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1npn2",
+        "score": 0.8952009677886963,
+        "candidate_title": "Church of Scientology and The Queen (No. 6), Re"
+      }
+    ]
+  },
+  "Pfizer": {
+    "uri": "https://canlii.ca/t/1z6fk",
+    "score": 0.9228889346122742,
+    "candidate_id": "1975csc-scc10177",
+    "candidate_title": "Pfizer Co. Ltd. v. Deputy Minister of National Revenue",
+    "query_text": "decision | Pfizer Company Limited v. The Deputy Minister of\nNational Revenue for Customs and Excise (1977) | Pfizer Company Limited v. The Deputy\nMinister of National Revenue for Customs and Excise | Pfizer case | Pfizer\ncase | 1 S.C.R. 456 | [1977] 1 S.C.R. 456",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z6fk",
+        "score": 0.9228889346122742,
+        "candidate_title": "Pfizer Co. Ltd. v. Deputy Minister of National Revenue"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqr4g",
+        "score": 0.9113122224807739,
+        "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise"
+      },
+      {
+        "uri": "https://canlii.ca/t/k8t26",
+        "score": 0.9095864295959473,
+        "candidate_title": "St. Catherine's Milling and Lumber Company v. The Queen"
+      }
+    ]
+  },
+  "Proprietors of Passaic & Hackensack River Bridges": {
+    "uri": "https://canlii.ca/t/k8t26",
+    "score": 0.9174505472183228,
+    "candidate_id": "1888ukpc1000000",
+    "candidate_title": "St. Catherine's Milling and Lumber Company v. The Queen",
+    "query_text": "decision | Proprietors\nof Passaic &amp; Hackensack River Bridges v. Hoboken Land Imp. Co. (1860) | <i>Proprietors of Passaic &amp;\nHackensack River Bridges v. Hoboken Land Imp. Co.</i> | 13 N.J.Eq. (2 Beasl.) 503 | (1860) 13 N.J.Eq.\n(2 Beasl.) 503",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k8t26",
+        "score": 0.9174505472183228,
+        "candidate_title": "St. Catherine's Milling and Lumber Company v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/fw1wn",
+        "score": 0.9150003790855408,
+        "candidate_title": "Hughes v. Moncton (City)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gdltz",
+        "score": 0.9129484295845032,
+        "candidate_title": "Chalmers (Dr. Everett) Hospital v. Mills"
+      }
+    ]
+  },
+  "Westeel Products Limited": {
+    "uri": "https://canlii.ca/t/jqr4g",
+    "score": 0.8813952207565308,
+    "candidate_id": "1970exchc-cech1000016",
+    "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise",
+    "query_text": "decision | Westeel Products Limited v. The Deputy Minister of\nNational Revenue for Customs and Excise | Westeel Products Limited v. The Deputy Minister of National\nRevenue for Customs and Excise | 2 T.B.R. 106",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqr4g",
+        "score": 0.8813952207565308,
+        "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise"
+      },
+      {
+        "uri": "https://canlii.ca/t/gczln",
+        "score": 0.8638102412223816,
+        "candidate_title": "R. v. Church of Scientology of Toronto"
+      },
+      {
+        "uri": "https://canlii.ca/t/g9xd1",
+        "score": 0.8633467555046082,
+        "candidate_title": "R. v. Church of Scientology of Toronto"
+      }
+    ]
+  },
+  "Wilson": {
+    "uri": "https://canlii.ca/t/1h9tq",
+    "score": 0.9125804901123047,
+    "candidate_id": "2004bcsc790",
+    "candidate_title": "Reglin v Creston (Town) et al.",
+    "query_text": "decision | Wilson v. Town of\nBarnstead (1906) | <i>Wilson v. Town of Barnstead</i>\n(1906) | 74 N.H. 78 | 74 N.H. 78",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1h9tq",
+        "score": 0.9125804901123047,
+        "candidate_title": "Reglin v Creston (Town) et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/hxv39",
+        "score": 0.9070865511894226,
+        "candidate_title": "Atlantic Mining NS Corp. (D.D.V. Gold Limited) v Oakley"
+      },
+      {
+        "uri": "https://canlii.ca/t/fw1wn",
+        "score": 0.9045920372009277,
+        "candidate_title": "Hughes v. Moncton (City)"
+      }
+    ]
+  },
+  "New Standard Dictionary English Language": {
+    "uri": "https://canlii.ca/t/g13wf",
+    "score": 0.8448211550712585,
+    "candidate_id": "1984onca1000084",
+    "candidate_title": "Regina v. Young",
+    "query_text": "secondary sources | Funk\n&amp; Wagnalls New Standard Dictionary of the English Language",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g13wf",
+        "score": 0.8448211550712585,
+        "candidate_title": "Regina v. Young"
+      },
+      {
+        "uri": "https://canlii.ca/t/24ccr",
+        "score": 0.8439643979072571,
+        "candidate_title": "R. v. Erickson"
+      },
+      {
+        "uri": "https://canlii.ca/t/7n8hl",
+        "score": 0.8419065475463867,
+        "candidate_title": "The Limits of the Declaratory Judgment"
+      }
+    ]
+  },
+  "The Oxford English Dictionary": {
+    "uri": "https://canlii.ca/t/1ft89",
+    "score": 0.8806799650192261,
+    "candidate_id": "1988csc-scc106",
+    "candidate_title": "U.E.S., Local 298 v. Bibeault",
+    "query_text": "secondary sources | <u>The Oxford\nEnglish Dictionary</u> | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">The Oxford English Dictionary</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;letter-spacing:-.1pt\"></span></b>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft89",
+        "score": 0.8806799650192261,
+        "candidate_title": "U.E.S., Local 298 v. Bibeault"
+      },
+      {
+        "uri": "https://canlii.ca/t/5546r",
+        "score": 0.8797143697738647,
+        "candidate_title": "Code of Ethics of Québec Police Officers"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fr2l",
+        "score": 0.8792701363563538,
+        "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15"
+      }
+    ]
+  },
+  "Black": {
+    "uri": "https://canlii.ca/t/1ft89",
+    "score": 0.8766387701034546,
+    "candidate_id": "1988csc-scc106",
+    "candidate_title": "U.E.S., Local 298 v. Bibeault",
+    "query_text": "secondary sources | <u>Black's Law Dictionary</u> | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Black's Law Dictionary</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;letter-spacing:-.1pt\"></span></b>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft89",
+        "score": 0.8766387701034546,
+        "candidate_title": "U.E.S., Local 298 v. Bibeault"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fr2l",
+        "score": 0.875740647315979,
+        "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15"
+      },
+      {
+        "uri": "https://canlii.ca/t/fs0v9",
+        "score": 0.872395396232605,
+        "candidate_title": "Rogers Communications Inc. v. Society of Composers, Authors and Music Publishers of Canada"
+      }
+    ]
+  },
+  "The Houghton Mifflin Canadian Dictionary": {
+    "uri": "https://canlii.ca/t/1fr2l",
+    "score": 0.8840140104293823,
+    "candidate_id": "1997csc-scc25",
+    "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15",
+    "query_text": "secondary sources | The Houghton Mifflin Canadian Dictionary of the English\nLanguage | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">T</span></i></b><b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">he Houghton Mifflin Canadian Dictionary of\nthe English Language</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\"></span></b>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr2l",
+        "score": 0.8840140104293823,
+        "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15"
+      },
+      {
+        "uri": "https://canlii.ca/t/1x205",
+        "score": 0.8807397484779358,
+        "candidate_title": "Association des courtiers et agents immobiliers du Québec v. Proprio Direct inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/55nzg",
+        "score": 0.8804870843887329,
+        "candidate_title": "Act respecting the Fonds d'aide aux actions collectives"
+      }
+    ]
+  },
+  "Webster": {
+    "uri": "https://canlii.ca/t/1fr2l",
+    "score": 0.8748225569725037,
+    "candidate_id": "1997csc-scc25",
+    "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15",
+    "query_text": "secondary sources | Webster's Third New International Dictionary of the English Language\nUnabridged | <i><span lang=\"EN-GB\" style=\"font-size:\n12.0pt;letter-spacing:-.4pt\"><u>Webster's New World Dictionary</u></span></i> | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Webster's Third New International Dictionary\nof the English Language Unabridged</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;letter-spacing:-.1pt\"></span></b> | Webster's Third New International Dictionary\nof the English Language Unabridged | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Webster's New World Dictionary</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;letter-spacing:-.1pt\"></span></b>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr2l",
+        "score": 0.8748225569725037,
+        "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15"
+      },
+      {
+        "uri": "https://canlii.ca/t/fs0v9",
+        "score": 0.8734687566757202,
+        "candidate_title": "Rogers Communications Inc. v. Society of Composers, Authors and Music Publishers of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1x205",
+        "score": 0.871631383895874,
+        "candidate_title": "Association des courtiers et agents immobiliers du Québec v. Proprio Direct inc."
+      }
+    ]
+  },
+  "Funk Wagnalls Standard College Dictionary": {
+    "uri": "https://canlii.ca/t/1ft89",
+    "score": 0.8749272227287292,
+    "candidate_id": "1988csc-scc106",
+    "candidate_title": "U.E.S., Local 298 v. Bibeault",
+    "query_text": "secondary sources | Funk\n&amp; Wagnalls Standard College Dictionary | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Funk &amp; Wagnalls New Standard Dictionary\nof the English Language</span></i></b> | <b><i><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\">Funk &amp; Wagnalls Standard College\nDictionary</span></i></b><b><span lang=\"EN-GB\" style=\"font-size:12.0pt;\nletter-spacing:-.1pt\"></span></b>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft89",
+        "score": 0.8749272227287292,
+        "candidate_title": "U.E.S., Local 298 v. Bibeault"
+      },
+      {
+        "uri": "https://canlii.ca/t/fs0v9",
+        "score": 0.8746919631958008,
+        "candidate_title": "Rogers Communications Inc. v. Society of Composers, Authors and Music Publishers of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs2k",
+        "score": 0.874489426612854,
+        "candidate_title": "United Brotherhood of Carpenters and Joiners of America, Local 579 v. Bradco Construction Ltd."
+      }
+    ]
+  },
+  "Construction of Statutes": {
+    "uri": "https://canlii.ca/t/t7lt",
+    "score": 0.8947122693061829,
+    "candidate_id": "d81865!d81865",
+    "candidate_title": "Collective Bargaining in Ontario: A New Legislative Approach",
+    "query_text": "secondary sources | <u>Construction of Statutes</u> | Construction of Statutes | <u>Construction\nof Statutes</u> | Driedger,\nE.A. | Driedger | Driedger, E. A.",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/t7lt",
+        "score": 0.8947122693061829,
+        "candidate_title": "Collective Bargaining in Ontario: A New Legislative Approach"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mjlf",
+        "score": 0.8929540514945984,
+        "candidate_title": "Jaegli Enterprises v. Taylor"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mm2x",
+        "score": 0.8928623199462891,
+        "candidate_title": "C.U.P.E. v. N.B. Liquor Corporation"
+      }
+    ]
+  },
+  "structural support code": {
+    "uri": "https://canlii.ca/t/lfns",
+    "score": 0.8905891180038452,
+    "candidate_id": "l8014!8014-current-1",
+    "candidate_title": "Regulation respecting the conditions governing the accreditation of manufacturers and wholesalers of medications",
+    "query_text": "secondary sources | Standard Specifications for Structural Supports for Highway Signs,\nLuminaires and Traffic Signals | structural support code | American Association of State Highway and Transportation\nOfficials (AASHTO) | AASHTO",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/lfns",
+        "score": 0.8905891180038452,
+        "candidate_title": "Regulation respecting the conditions governing the accreditation of manufacturers and wholesalers of medications"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mjtb",
+        "score": 0.8893401622772217,
+        "candidate_title": "Northern Telecom v. Communications Workers"
+      },
+      {
+        "uri": "https://canlii.ca/t/29q2",
+        "score": 0.8884745240211487,
+        "candidate_title": "Struggling Towards Coherence in Canadian Administrative Law? Recent Cases on Standard of Review and Reasonableness"
+      }
+    ]
+  },
+  "the highway code": {
+    "uri": "https://canlii.ca/t/563gb",
+    "score": 0.8912858963012695,
+    "candidate_id": "l19712!19712-current-1",
+    "candidate_title": "Human Rights Code",
+    "query_text": "secondary sources | Standard Specifications for Highway Bridges | the highway\ncode | AASHTO",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 0.8912858963012695,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/22m7x",
+        "score": 0.8820788264274597,
+        "candidate_title": "Durham (Regional Municipality) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gfx4z",
+        "score": 0.8808708190917969,
+        "candidate_title": "London District Catholic School Board (Re)"
+      }
+    ]
+  },
+  "Ontario Highway Bridge Design Code": {
+    "uri": "https://canlii.ca/t/gfx4z",
+    "score": 0.8721516132354736,
+    "candidate_id": "2014onipc1000310",
+    "candidate_title": "London District Catholic School Board (Re)",
+    "query_text": "secondary sources | Ontario Highway Bridge Design Code | Ontario code | Ontario\nMinistry of Transportation and Communications",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gfx4z",
+        "score": 0.8721516132354736,
+        "candidate_title": "London District Catholic School Board (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/6hxx",
+        "score": 0.8686068058013916,
+        "candidate_title": "R. v. Church of Scientology of Toronto"
+      },
+      {
+        "uri": "https://canlii.ca/t/22m7x",
+        "score": 0.8681190013885498,
+        "candidate_title": "Durham (Regional Municipality) (Re)"
+      }
+    ]
+  },
+  "McGraw-Hill Encyclopedia of Science": {
+    "uri": "https://canlii.ca/t/563gb",
+    "score": 0.8430428504943848,
+    "candidate_id": "l19712!19712-current-1",
+    "candidate_title": "Human Rights Code",
+    "query_text": "secondary sources | McGraw-Hill Encyclopedia of Science and\nTechnology",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 0.8430428504943848,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/gfx4z",
+        "score": 0.8405616283416748,
+        "candidate_title": "London District Catholic School Board (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/ssc3",
+        "score": 0.8388751149177551,
+        "candidate_title": "The Duty to Negotiate and the Ethos of Reconciliation"
+      }
+    ]
+  },
+  "The New Encyclopaedia Britannica": {
+    "uri": "https://canlii.ca/t/56p11",
+    "score": 0.8196295499801636,
+    "candidate_id": "l1732!1732-current-1",
+    "candidate_title": "Institutions",
+    "query_text": "secondary sources | The New Encyclopaedia Britannica",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56p11",
+        "score": 0.8196295499801636,
+        "candidate_title": "Institutions"
+      },
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 0.8185703754425049,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/t7lt",
+        "score": 0.8169593811035156,
+        "candidate_title": "Collective Bargaining in Ontario: A New Legislative Approach"
+      }
+    ]
+  },
+  "Words and Phrases": {
+    "uri": "https://canlii.ca/t/563gb",
+    "score": 0.8157144784927368,
+    "candidate_id": "l19712!19712-current-1",
+    "candidate_title": "Human Rights Code",
+    "query_text": "secondary sources | Words and Phrases. Permanent\nEdition",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 0.8157144784927368,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/53gqp",
+        "score": 0.813698410987854,
+        "candidate_title": "The Treaty Land Entitlement Implementation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/h7lx",
+        "score": 0.811663806438446,
+        "candidate_title": "Rural Municipality Act, 1989"
+      }
+    ]
+  }
+}

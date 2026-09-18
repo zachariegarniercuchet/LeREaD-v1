@@ -19,6 +19,15 @@ def _bge_small(**kwargs) -> Encoder:
     from .bge import BGESmallEncoder
     return BGESmallEncoder(**kwargs)
 
+def _bge_large(**kwargs) -> Encoder:
+    from .bge import BGELargeEncoder
+
+    kwargs.setdefault(
+        "model_name",
+        "/home/z/zagar/links/scratch/bge-large-en-v1.5",
+    )
+    return BGELargeEncoder(**kwargs)
+
 
 def _splade(**kwargs) -> Encoder:
     from .splade import SPLADEEncoder
@@ -27,6 +36,11 @@ def _splade(**kwargs) -> Encoder:
 
 def _legal_bert(**kwargs) -> Encoder:
     from .legal_bert import LegalBertEncoder
+
+    kwargs.setdefault(
+        "model_name",
+        "/home/z/zagar/links/scratch/legal-bert-base-uncased",
+    )
     return LegalBertEncoder(**kwargs)
 
 
@@ -38,13 +52,14 @@ def _qwen3_0_6b(**kwargs) -> Encoder:
 
 def _qwen3_8b(**kwargs) -> Encoder:
     from .qwen import Qwen3EmbeddingEncoder
-    kwargs.setdefault("model_name", "Qwen/Qwen3-Embedding-8B")
+    kwargs.setdefault("model_name", "/home/z/zagar/links/scratch/Qwen3-Embedding-8B")
     kwargs.setdefault("batch_size", 4)
     return Qwen3EmbeddingEncoder(**kwargs)
 
 
 ENCODER_REGISTRY: Dict[str, Callable[..., Encoder]] = {
     "bge-s": _bge_small,
+    "bge-l":_bge_large,
     "splade": _splade,
     "legal-bert": _legal_bert,
     "qwen3-0.6b": _qwen3_0_6b,

@@ -1,0 +1,9 @@
+{
+  "type": "vector",
+  "encoder": "bge-l",
+  "similarity": "cosine",
+  "shape": [
+    504,
+    1024
+  ]
+}

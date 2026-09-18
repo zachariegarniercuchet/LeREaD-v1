@@ -27,6 +27,7 @@ def _vector(encoder_name: str) -> Callable[..., Retriever]:
 RETRIEVER_REGISTRY: Dict[str, Callable[..., Retriever]] = {
     "bm25": lambda **kwargs: BM25Retriever(**kwargs),
     "bge-s": _vector("bge-s"),
+    "bge-l": _vector("bge-l"),
     "splade": _vector("splade"),
     "legal-bert": _vector("legal-bert"),
     "qwen3-0.6b": _vector("qwen3-0.6b"),
