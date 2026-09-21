@@ -1,0 +1,578 @@
+{
+  "Manitoba Motor League Incorporation Act": {
+    "uri": "https://canlii.ca/t/kjjs",
+    "score": 67.13933563232422,
+    "candidate_id": "l32736!32736-current-1",
+    "candidate_title": "The Manitoba Motor League Incorporation Act",
+    "query_text": "legislation | <i>The Manitoba Motor League Incorporation Act</i> | Act | statute | R.S.M 1990,\nc. 99",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kjjs",
+        "score": 67.13933563232422,
+        "candidate_title": "The Manitoba Motor League Incorporation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/hznr",
+        "score": 31.577234268188477,
+        "candidate_title": "Interest Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 30.010154724121094,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "Queen": {
+    "uri": "https://canlii.ca/t/56wgf",
+    "score": 15.205229759216309,
+    "candidate_id": "l28366!28366-current-1",
+    "candidate_title": "Court of King's Bench Rules",
+    "query_text": "legislation | Queen’s Bench\nRule",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56wgf",
+        "score": 15.205229759216309,
+        "candidate_title": "Court of King's Bench Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/5666v",
+        "score": 15.205229759216309,
+        "candidate_title": "Court of King's Bench Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w0m",
+        "score": 13.014472007751465,
+        "candidate_title": "The Court of King's Bench Act"
+      }
+    ]
+  },
+  "Conlin": {
+    "uri": "https://canlii.ca/t/1fr61",
+    "score": 53.27663040161133,
+    "candidate_id": "1996csc-scc96",
+    "candidate_title": "Manulife Bank of Canada v. Conlin",
+    "query_text": "decision | <i>Manulife Bank of Canada v. Conlin</i> | [1996]\n3 S.C.R. 415",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr61",
+        "score": 53.27663040161133,
+        "candidate_title": "Manulife Bank of Canada v. Conlin"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 23.50621223449707,
+        "candidate_title": "Bhatnager v. M.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 22.848228454589844,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      }
+    ]
+  },
+  "Eli Lilly": {
+    "uri": "https://canlii.ca/t/1fqqz",
+    "score": 117.67149353027344,
+    "candidate_id": "1998csc-scc61",
+    "candidate_title": "Eli Lilly & Co. v. Novopharm Ltd.",
+    "query_text": "decision | <i>Eli Lilly &amp; Co. v.\nNovopharm Ltd</i>. | <i>Eli Lilly</i> | <i>Eli\nLilly</i> | [1998] 2 S.C.R. 129",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqqz",
+        "score": 117.67149353027344,
+        "candidate_title": "Eli Lilly & Co. v. Novopharm Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 58.579898834228516,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 55.06876754760742,
+        "candidate_title": "Bhatnager v. M.E.I."
+      }
+    ]
+  },
+  "Mead": {
+    "uri": "https://canlii.ca/t/1fsv3",
+    "score": 54.73424530029297,
+    "candidate_id": "1990csc-scc75",
+    "candidate_title": "National Trust Co. v. Mead",
+    "query_text": "decision | <i>National Trust Co. v. Mead</i> | [1990] 2 S.C.R. 410",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsv3",
+        "score": 54.73424530029297,
+        "candidate_title": "National Trust Co. v. Mead"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 23.52715301513672,
+        "candidate_title": "Bhatnager v. M.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 22.848228454589844,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      }
+    ]
+  },
+  "Scanlon": {
+    "uri": "https://canlii.ca/t/g122g",
+    "score": 55.122989654541016,
+    "candidate_id": "1992onca1000116",
+    "candidate_title": "Scanlon v. Castlepoint Development Corp.",
+    "query_text": "decision | <i>Scanlon v. Castlepoint\nDevelopment Corp.</i> (1992) | 11 O.R. (3d) 744 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g122g",
+        "score": 55.122989654541016,
+        "candidate_title": "Scanlon v. Castlepoint Development Corp."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fscl",
+        "score": 24.236549377441406,
+        "candidate_title": "R. v. CIP Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 22.848228454589844,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      }
+    ]
+  },
+  "Ramco": {
+    "uri": "https://canlii.ca/t/gcvng",
+    "score": 74.4185562133789,
+    "candidate_id": "1999nbca1000074",
+    "candidate_title": "Controls & Equipment Ltd. v. Ramco Contractors Ltd. et al.",
+    "query_text": "decision | <i>Controls &amp; Equipment Ltd.\nv. Ramco Contractors</i> <i>Ltd. et al.</i><i> </i>(1999) | 209 N.B.R. (2d) 1 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gcvng",
+        "score": 74.4185562133789,
+        "candidate_title": "Controls & Equipment Ltd. v. Ramco Contractors Ltd. et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 58.579898834228516,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 53.07032012939453,
+        "candidate_title": "Bhatnager v. M.E.I."
+      }
+    ]
+  },
+  "White": {
+    "uri": "https://canlii.ca/t/gc3wf",
+    "score": 51.926143646240234,
+    "candidate_id": "1984nbca1000005",
+    "candidate_title": "White v. Central Trust Co.",
+    "query_text": "decision | <i>White v. Central Trust Co</i>. (1984) | 7 D.L.R. (4<sup>th</sup>)\n236 (N.B.C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gc3wf",
+        "score": 51.926143646240234,
+        "candidate_title": "White v. Central Trust Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 37.503841400146484,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftsl",
+        "score": 28.658723831176758,
+        "candidate_title": "Central Trust Co. v. Rafuse"
+      }
+    ]
+  },
+  "Hill": {
+    "uri": "https://canlii.ca/t/1fr3m",
+    "score": 43.965606689453125,
+    "candidate_id": "1997csc-scc8",
+    "candidate_title": "Hill v. Nova Scotia (Attorney General)",
+    "query_text": "decision | <i>Hill v. Nova Scotia\n(Attorney General)</i> | [1997] 1 S.C.R. 69",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr3m",
+        "score": 43.965606689453125,
+        "candidate_title": "Hill v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ql98",
+        "score": 29.745098114013672,
+        "candidate_title": "Donham v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hzbj9",
+        "score": 29.17699432373047,
+        "candidate_title": "Nova Scotia (Attorney General) v S&D Smith Central Supplies Limited"
+      }
+    ]
+  },
+  "Inglis": {
+    "uri": "https://canlii.ca/t/23299",
+    "score": 80.92230987548828,
+    "candidate_id": "1999mbca1000010",
+    "candidate_title": "Manitoba Hydro Electric v. John Inglis Co.",
+    "query_text": "decision | <i>Manitoba Hydro Electric v.\nInglis (John) Co. et al.</i> (1999) | 142 Man.R. (2d) 1 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/23299",
+        "score": 80.92230987548828,
+        "candidate_title": "Manitoba Hydro Electric v. John Inglis Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 26.059329986572266,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1h2zx",
+        "score": 23.60295867919922,
+        "candidate_title": "Limneos v. Knispel et al"
+      }
+    ]
+  },
+  "Reardon Smith Line": {
+    "uri": "https://canlii.ca/t/jqtg2",
+    "score": 56.86453628540039,
+    "candidate_id": "1985fcttd1000035",
+    "candidate_title": "Bhatnager v. M.E.I.",
+    "query_text": "decision | <i>Reardon Smith Line Ltd.\nv</i>. <i>Hansen-Tangen</i> | Reardon Smith Line Ltd. | <i>Reardon\nSmith Line Ltd.</i> | [1976] 3 All E.R. 570 (H.L.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 56.86453628540039,
+        "candidate_title": "Bhatnager v. M.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 55.47260665893555,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsnh",
+        "score": 51.5158805847168,
+        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+      }
+    ]
+  },
+  "MacMillan Bloedel": {
+    "uri": "https://canlii.ca/t/1d958",
+    "score": 84.71199798583984,
+    "candidate_id": "1992bcca10482",
+    "candidate_title": "MacMillan Bloedel Ltd. v. B.C. (Hydro and Power Authority)",
+    "query_text": "decision | <span style='font-family:\"TCG Times\"'><i>MacMillan Bloedel Ltd. v.\nBritish Columbia Hydro &amp; Power Authority</i></span><span style='font-family:\"TCG Times\"'><i> </i></span><span style='font-family:\"TCG Times\"'>(1992)</span> | 72 B.C.L.R. (2d) 273\n(C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1d958",
+        "score": 84.71199798583984,
+        "candidate_title": "MacMillan Bloedel Ltd. v. B.C. (Hydro and Power Authority)"
+      },
+      {
+        "uri": "https://canlii.ca/t/22jpz",
+        "score": 47.78550720214844,
+        "candidate_title": "J and J obo R v. B.C. (Ministry of Children and Family Development) and Havens (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1z19v",
+        "score": 45.281639099121094,
+        "candidate_title": "Re: B.C. Family Relations Act"
+      }
+    ]
+  },
+  "Glimmer Resources": {
+    "uri": "https://canlii.ca/t/1f9fd",
+    "score": 69.85012817382812,
+    "candidate_id": "1999onca231",
+    "candidate_title": "Glimmer Resources Inc. v. Exall Resources Limited",
+    "query_text": "decision | <i>Glimmer Resources Inc. v.\nExall Resources Ltd.</i> (1999) | 119 O.A.C. 78",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1f9fd",
+        "score": 69.85012817382812,
+        "candidate_title": "Glimmer Resources Inc. v. Exall Resources Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 26.215085983276367,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/5s19",
+        "score": 25.47624969482422,
+        "candidate_title": "Bank of Montreal v. Enchant Resources Ltd."
+      }
+    ]
+  },
+  "Prenn": {
+    "uri": "https://canlii.ca/t/jqtg2",
+    "score": 43.46791076660156,
+    "candidate_id": "1985fcttd1000035",
+    "candidate_title": "Bhatnager v. M.E.I.",
+    "query_text": "decision | <i>Prenn v. Simmonds</i> | <span style='font-size:13.0pt;font-family:\"CG Times\"'><i>Prenn v. Simmonds</i></span> | [1971] 3 All\nE.R. 237 (H.L.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 43.46791076660156,
+        "candidate_title": "Bhatnager v. M.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 39.45599365234375,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 37.606773376464844,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      }
+    ]
+  },
+  "Langley Lo-Cost Builders": {
+    "uri": "https://canlii.ca/t/539n",
+    "score": 112.67327117919922,
+    "candidate_id": "2000bcca365",
+    "candidate_title": "Langley Lo-Cost Builders Ltd. v. 474835 Ltd.",
+    "query_text": "decision | <i>Langley Lo-Cost Builders Ltd. v.</i><b> </b><i>474835\nB.C. Ltd.</i> | [2000] 7 W.W.R. 46 | 2000 BCCA 365",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/539n",
+        "score": 112.67327117919922,
+        "candidate_title": "Langley Lo-Cost Builders Ltd. v. 474835 Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fndz",
+        "score": 41.17465591430664,
+        "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal"
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 40.71406555175781,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      }
+    ]
+  },
+  "Consolidated-Bathurst": {
+    "uri": "https://canlii.ca/t/1mjts",
+    "score": 38.274356842041016,
+    "candidate_id": "1979csc-scc10008",
+    "candidate_title": "Consolidated-Bathurst v. Mutual Boiler",
+    "query_text": "decision | <i>Consolidated-Bathurst</i> | [[1980]\n1 S.C.R. 888]",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjts",
+        "score": 38.274356842041016,
+        "candidate_title": "Consolidated-Bathurst v. Mutual Boiler"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsz2",
+        "score": 31.085216522216797,
+        "candidate_title": "Iwa v. Consolidated-Bathurst Packaging Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 22.848228454589844,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      }
+    ]
+  },
+  "Paddon Hughes Development": {
+    "uri": "https://canlii.ca/t/5sjd",
+    "score": 78.68891143798828,
+    "candidate_id": "1998abca333",
+    "candidate_title": "Paddon Hughes Development v. Pancontinental Oil",
+    "query_text": "decision | <i>Paddon-Hughes\nDevelopment Co. v.</i> <i>Pancontinental Oil Ltd.</i> | [1999] 5 W.W.R. 726\n(Alta. C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5sjd",
+        "score": 78.68891143798828,
+        "candidate_title": "Paddon Hughes Development v. Pancontinental Oil"
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 40.71406555175781,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 37.29951095581055,
+        "candidate_title": "Bhatnager v. M.E.I."
+      }
+    ]
+  },
+  "Hi-Tech Group": {
+    "uri": "https://canlii.ca/t/1jzqz",
+    "score": 65.31361389160156,
+    "candidate_id": "2005qccs18481",
+    "candidate_title": "I.C.I. Chèque c. Travel Currency Inc.",
+    "query_text": "decision | <i>Hi-Tech Group Inc. v.\nSears</i> <i>Canada Inc.</i><i> </i>(2001) | 52 O.R. (3d) 97 | (C.A.",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 65.31361389160156,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fbkq",
+        "score": 63.297691345214844,
+        "candidate_title": "Hi-Tech Group Inc. v. Sears Canada Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 53.3559684753418,
+        "candidate_title": "Bhatnager v. M.E.I."
+      }
+    ]
+  },
+  "Eco-Zone": {
+    "uri": "https://canlii.ca/t/1n6lt",
+    "score": 102.55628967285156,
+    "candidate_id": "2000nlscad197521",
+    "candidate_title": "Eco-Zone Engineering Ltd. v. Grand Falls - Windsor (Town)",
+    "query_text": "decision | <i>Eco-Zone Engineering Ltd. v. Grand Falls-Windsor\n(Town)</i> (2000) | 5 C.L.R. (3d) 55 | 2000 NFCA 21",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1n6lt",
+        "score": 102.55628967285156,
+        "candidate_title": "Eco-Zone Engineering Ltd. v. Grand Falls - Windsor (Town)"
+      },
+      {
+        "uri": "https://canlii.ca/t/539n",
+        "score": 26.008371353149414,
+        "candidate_title": "Langley Lo-Cost Builders Ltd. v. 474835 Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1l6w0",
+        "score": 24.254852294921875,
+        "candidate_title": "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)"
+      }
+    ]
+  },
+  "Leitch Gold Mines": {
+    "uri": "https://canlii.ca/t/g16b1",
+    "score": 97.76158905029297,
+    "candidate_id": "1968onhcj1000151",
+    "candidate_title": "Leitch Gold Mines Ltd. et al. v. Texas Gulf Sulphur Co. (Incorporated) et al.",
+    "query_text": "decision | <i>Leitch\nGold</i> <i>Mines Ltd. et al. v. Texas Gulf Sulphur Co. (Incorporated) et al.</i> | [1969] 1 O.R. 469",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g16b1",
+        "score": 97.76158905029297,
+        "candidate_title": "Leitch Gold Mines Ltd. et al. v. Texas Gulf Sulphur Co. (Incorporated) et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 37.606773376464844,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 35.6076545715332,
+        "candidate_title": "Bhatnager v. M.E.I."
+      }
+    ]
+  },
+  "London Drugs": {
+    "uri": "https://canlii.ca/t/1jzqz",
+    "score": 85.76760864257812,
+    "candidate_id": "2005qccs18481",
+    "candidate_title": "I.C.I. Chèque c. Travel Currency Inc.",
+    "query_text": "decision | <i>London Drugs Ltd. v. Truscan Realty Ltd. et al.</i><i> </i>(1988) | <i>London Drugs</i> | London Drugs | London Drug[s] | <span style='font-size:13.0pt;font-family:\"CG Times\"'><u>London Drugs</u></span> | 3\nR.P.R. (2d) 60<i> </i>(B.C.S.C.) | [1989] B.C.J. No. 823 (QL) (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 85.76760864257812,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsnh",
+        "score": 75.03455352783203,
+        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 74.84750366210938,
+        "candidate_title": "Bhatnager v. M.E.I."
+      }
+    ]
+  },
+  "Miller": {
+    "uri": "https://canlii.ca/t/1nzqt",
+    "score": 46.427024841308594,
+    "candidate_id": "1990mbca10003",
+    "candidate_title": "Miller v. Toews",
+    "query_text": "decision | <i>Miller v. Toews</i> (1990) | 70 Man.R. (2d) 4 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1nzqt",
+        "score": 46.427024841308594,
+        "candidate_title": "Miller v. Toews"
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 22.848228454589844,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 21.528703689575195,
+        "candidate_title": "Bhatnager v. M.E.I."
+      }
+    ]
+  },
+  "Krahn Enterprises": {
+    "uri": "https://canlii.ca/t/g9515",
+    "score": 82.41311645507812,
+    "candidate_id": "1992mbqb1000030",
+    "candidate_title": "Krahn Enterprises Ltd. v. Big Apple Imports Ltd. et al.",
+    "query_text": "decision | <i>Krahn Enterprises Ltd. v. Big Apple Imports</i>\n<i>Ltd.</i><i> </i>(1992) | 82 Man.R. (2d) 106 (Q.B.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9515",
+        "score": 82.41311645507812,
+        "candidate_title": "Krahn Enterprises Ltd. v. Big Apple Imports Ltd. et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 55.47260665893555,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 51.37845993041992,
+        "candidate_title": "Bhatnager v. M.E.I."
+      }
+    ]
+  },
+  "Law of Contract in Canada": {
+    "uri": "https://canlii.ca/t/75m",
+    "score": 21.340717315673828,
+    "candidate_id": "d469!d469",
+    "candidate_title": "Good Faith as An Organizing Principle in Contract Law: Bhasin v Hrynew – Two Steps Forward & One Look",
+    "query_text": "secondary sources | The Law of\nContract in Canada | G.H.L. Fridman",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/75m",
+        "score": 21.340717315673828,
+        "candidate_title": "Good Faith as An Organizing Principle in Contract Law: Bhasin v Hrynew – Two Steps Forward & One Look"
+      },
+      {
+        "uri": "https://canlii.ca/t/7n524",
+        "score": 18.72248077392578,
+        "candidate_title": "Can There Be Too Much Context in Administrative Law: Setting the Standard of Review in Canadian Administrative Law"
+      },
+      {
+        "uri": "https://canlii.ca/t/td6h",
+        "score": 16.35207748413086,
+        "candidate_title": "The Legal Characterization of Overriding Royalty Interests in Oil and Gas"
+      }
+    ]
+  }
+}

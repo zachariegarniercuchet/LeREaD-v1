@@ -1,0 +1,242 @@
+{
+  "CFO ONFRAAT-2 2013": {
+    "uri": "https://canlii.ca/t/g2ggd",
+    "score": 145.668212890625,
+    "candidate_id": "2013onafraat18",
+    "candidate_title": "Association of Ontario Chicken Processors v CFO [Motion Decision] (With Reasons)",
+    "query_text": "decision | Association\n  of Ontario Chicken Processors v. CFO | Association of Ontario Chicken Processors v. Chicken\nFarmers of Ontario | 2013\n  ONAFRAAT 18 | 2013 ONAFRAAT<a name=\"_GoBack\"></a> 18",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g2ggd",
+        "score": 145.668212890625,
+        "candidate_title": "Association of Ontario Chicken Processors v CFO [Motion Decision] (With Reasons)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g29t4",
+        "score": 133.95697021484375,
+        "candidate_title": "Association of Ontario Chicken Processors v CFO [Motion Decision] (Without Reasons)"
+      },
+      {
+        "uri": "https://canlii.ca/t/fzw43",
+        "score": 49.822113037109375,
+        "candidate_title": "Ontario v. Criminal Lawyers’ Association of Ontario"
+      }
+    ]
+  },
+  "CFO ONFRAAT-1 2013": {
+    "uri": "https://canlii.ca/t/g2ggd",
+    "score": 2.8958520889282227,
+    "candidate_id": "2013onafraat18",
+    "candidate_title": "Association of Ontario Chicken Processors v CFO [Motion Decision] (With Reasons)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g2ggd",
+        "score": 2.8958520889282227,
+        "candidate_title": "Association of Ontario Chicken Processors v CFO [Motion Decision] (With Reasons)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g29t4",
+        "score": 2.8958520889282227,
+        "candidate_title": "Association of Ontario Chicken Processors v CFO [Motion Decision] (Without Reasons)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j4dfd",
+        "score": 2.28814697265625,
+        "candidate_title": "Hutchinson (Re)"
+      }
+    ]
+  },
+  "Children’s Aid Society": {
+    "uri": "https://canlii.ca/t/2fk1b",
+    "score": 89.8372802734375,
+    "candidate_id": "2011onsc744",
+    "candidate_title": "Children’s Aid Society of the County of Renfrew v. J.D.",
+    "query_text": "decision | <i><span style=\"font-size:12.0pt\">Children’s Aid Society of the County of Renfrew</span></i><span style=\"font-size:12.0pt\"> v. <i>J.D.</i></span> | 2011 ONSC <span style='font-size:12.0pt;font-family:\"Times Roman\",\"serif\"'>744</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2fk1b",
+        "score": 89.8372802734375,
+        "candidate_title": "Children’s Aid Society of the County of Renfrew v. J.D."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsnh",
+        "score": 41.7406005859375,
+        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 40.394344329833984,
+        "candidate_title": "Bhatnager v. M.E.I."
+      }
+    ]
+  },
+  "Bloorview Children’s Hospital Foundation": {
+    "uri": "https://canlii.ca/t/5200",
+    "score": 21.883541107177734,
+    "candidate_id": "2001csc-scc41",
+    "candidate_title": "Mount Sinai Hospital Center v. Quebec (Minister of Health and Social Services)",
+    "query_text": "decision | Bloorview\nChildren’s Hospital Foundation v. Bloorview MacMillan Centre | <i>Bloorview</i> | [2001] O.J.\nNo.1700",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5200",
+        "score": 21.883541107177734,
+        "candidate_title": "Mount Sinai Hospital Center v. Quebec (Minister of Health and Social Services)"
+      },
+      {
+        "uri": "https://canlii.ca/t/2fk1b",
+        "score": 21.535791397094727,
+        "candidate_title": "Children’s Aid Society of the County of Renfrew v. J.D."
+      },
+      {
+        "uri": "https://canlii.ca/t/1f8xj",
+        "score": 20.410688400268555,
+        "candidate_title": "Seshia v. Health Sciences Centre"
+      }
+    ]
+  },
+  "M. v. H.": {
+    "uri": "https://canlii.ca/t/1vtm7",
+    "score": 55.823734283447266,
+    "candidate_id": "1994onctgd10174",
+    "candidate_title": "M. v. H.",
+    "query_text": "decision | <i>M. v. H.</i> | 1994 CanLII 7324\n(ON SC) | (1994), 20 O.R. (3d) 70",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1vtm7",
+        "score": 55.823734283447266,
+        "candidate_title": "M. v. H."
+      },
+      {
+        "uri": "https://canlii.ca/t/1frvm",
+        "score": 29.458803176879883,
+        "candidate_title": "Galaske v. O'Donnell"
+      },
+      {
+        "uri": "https://canlii.ca/t/jfxfd",
+        "score": 27.563343048095703,
+        "candidate_title": "Butterfield v. Dickson"
+      }
+    ]
+  },
+  "Food Rural Affairs Act": {
+    "uri": "https://canlii.ca/t/55z3s",
+    "score": 166.84336853027344,
+    "candidate_id": "l267!267-current-1",
+    "candidate_title": "Ministry of Agriculture, Food and Rural Affairs Act",
+    "query_text": "legislation | Ministry\n  of Agriculture, Food and Rural Affairs Act | <span lang=\"EN-GB\" style=\"font-size:12.0pt\"> <i>MINISTRY OF\nAGRICULTURE, </i></span><i><span lang=\"EN-GB\" style=\"font-size:12.0pt\">FOOD\nAND RURAL AFFAIRS ACT</span></i> | Ministry of Agriculture,\nFood and Rural Affairs Act | Act | <span lang=\"EN-GB\" style=\"font-size:\n12.0pt\">R.S.O. 1990</span><span lang=\"EN-GB\" style=\"font-size:\n12.0pt\">, CHAPTER M.16</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55z3s",
+        "score": 166.84336853027344,
+        "candidate_title": "Ministry of Agriculture, Food and Rural Affairs Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/hznr",
+        "score": 53.7835807800293,
+        "candidate_title": "Interest Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 52.387962341308594,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "Statutory Powers Procedure Act": {
+    "uri": "https://canlii.ca/t/56jsg",
+    "score": 34.10451126098633,
+    "candidate_id": "l474!474-current-1",
+    "candidate_title": "Statutory Powers Procedure Act",
+    "query_text": "legislation | Statutory\nPowers and Procedure Act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56jsg",
+        "score": 34.10451126098633,
+        "candidate_title": "Statutory Powers Procedure Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vg3",
+        "score": 14.068641662597656,
+        "candidate_title": "Judicial Review Procedure Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/562xk",
+        "score": 10.50100040435791,
+        "candidate_title": "Court of Justice Civil Procedure Regulation"
+      }
+    ]
+  },
+  "Rules of Procedure ONAFRAAT": {
+    "uri": "https://canlii.ca/t/56nkn",
+    "score": 19.871395111083984,
+    "candidate_id": "l2759!2759-current-1",
+    "candidate_title": "Rules of Civil Procedure",
+    "query_text": "legislation | Rules of Procedure | Rules",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nkn",
+        "score": 19.871395111083984,
+        "candidate_title": "Rules of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 19.647733688354492,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v6x",
+        "score": 15.857589721679688,
+        "candidate_title": "Alberta Rules of Court"
+      }
+    ]
+  },
+  "Rules of Civil Procedure": {
+    "uri": "https://canlii.ca/t/56nxx",
+    "score": 22.33676528930664,
+    "candidate_id": "l36995!36995-current-1",
+    "candidate_title": "Nova Scotia Civil Procedure Rules",
+    "query_text": "legislation | Rules of Civil Procedure",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 22.33676528930664,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nkn",
+        "score": 22.220481872558594,
+        "candidate_title": "Rules of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/562xk",
+        "score": 21.826862335205078,
+        "candidate_title": "Court of Justice Civil Procedure Regulation"
+      }
+    ]
+  },
+  "Merriam-Webster dictionary": {
+    "uri": "https://canlii.ca/t/1fr2l",
+    "score": 7.453432083129883,
+    "candidate_id": "1997csc-scc25",
+    "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15",
+    "query_text": "secondary sources | Merriam-Webster\ndictionary | Merriam-Webster’s dictionary",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr2l",
+        "score": 7.453432083129883,
+        "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15"
+      },
+      {
+        "uri": "https://canlii.ca/t/lgjj",
+        "score": 3.942922353744507,
+        "candidate_title": "State Immunity Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/544lt",
+        "score": 3.942922353744507,
+        "candidate_title": "Supreme Court Act"
+      }
+    ]
+  }
+}

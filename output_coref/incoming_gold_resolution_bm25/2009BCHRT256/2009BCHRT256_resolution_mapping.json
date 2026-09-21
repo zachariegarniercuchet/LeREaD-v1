@@ -1,0 +1,1034 @@
+{
+  "A obo B": {
+    "uri": "https://canlii.ca/t/2504z",
+    "score": 72.46041107177734,
+    "candidate_id": "2009bchrt256",
+    "candidate_title": "A obo B v. School District No. C and another",
+    "query_text": "decision | A obo B v. School\n  District No. C and another | 2009 BCHRT 256",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2504z",
+        "score": 72.46041107177734,
+        "candidate_title": "A obo B v. School District No. C and another"
+      },
+      {
+        "uri": "https://canlii.ca/t/h38dh",
+        "score": 40.55012893676758,
+        "candidate_title": "N obo S v. T and a School District"
+      },
+      {
+        "uri": "https://canlii.ca/t/22kqf",
+        "score": 32.91506576538086,
+        "candidate_title": "Bishop obo Resident Hunters Association of B.C. v. B.C. (Ministry of Environment) (No. 2)"
+      }
+    ]
+  },
+  "Famous Players": {
+    "uri": "https://canlii.ca/t/h08ng",
+    "score": 68.0893325805664,
+    "candidate_id": "2005bchrt432",
+    "candidate_title": "A and B v. Famous Players Films and C",
+    "query_text": "decision | <i>A and B v. Famous Players\nInc. and C</i> | 2005 BCHRT 432",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h08ng",
+        "score": 68.0893325805664,
+        "candidate_title": "A and B v. Famous Players Films and C"
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 30.286787033081055,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/2504z",
+        "score": 26.533540725708008,
+        "candidate_title": "A obo B v. School District No. C and another"
+      }
+    ]
+  },
+  "Freeman": {
+    "uri": "https://canlii.ca/t/h086b",
+    "score": 79.21858215332031,
+    "candidate_id": "2005bchrt15",
+    "candidate_title": "Freeman v. Coast Mountain Bus Company (No. 2)",
+    "query_text": "decision | Freeman v. Coast Mountain Bus Company | Freeman | 2005\nBCHRT 77",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h086b",
+        "score": 79.21858215332031,
+        "candidate_title": "Freeman v. Coast Mountain Bus Company (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h0b1d",
+        "score": 18.802139282226562,
+        "candidate_title": "Schofield v. Towers and Affordable Lazorplus Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/h08sr",
+        "score": 17.176639556884766,
+        "candidate_title": "Fontaine v. Ainsworth Lumber"
+      }
+    ]
+  },
+  "Verslype": {
+    "uri": "https://canlii.ca/t/h088z",
+    "score": 77.0263442993164,
+    "candidate_id": "2005bchrt85",
+    "candidate_title": "Verslype v. Onyx Industrial Services and Crowe",
+    "query_text": "decision | Verslype v. Onyx Industrial Services and Crowe | 2005 BCHRT 85",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h088z",
+        "score": 77.0263442993164,
+        "candidate_title": "Verslype v. Onyx Industrial Services and Crowe"
+      },
+      {
+        "uri": "https://canlii.ca/t/h08ns",
+        "score": 22.97840690612793,
+        "candidate_title": "Alessa v. B.C. (Ministry of Health Services)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h08ng",
+        "score": 18.655780792236328,
+        "candidate_title": "A and B v. Famous Players Films and C"
+      }
+    ]
+  },
+  "Daley": {
+    "uri": "https://canlii.ca/t/h37dk",
+    "score": 72.38458251953125,
+    "candidate_id": "2007bchrt170",
+    "candidate_title": "Daley v. B.C. (Ministry of Health) and others (No. 2)",
+    "query_text": "decision | Daley v. B.C. (Ministry of Health) and others (No.\n2) | 2007 BCHRT 170",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h37dk",
+        "score": 72.38458251953125,
+        "candidate_title": "Daley v. B.C. (Ministry of Health) and others (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h08ns",
+        "score": 35.416786193847656,
+        "candidate_title": "Alessa v. B.C. (Ministry of Health Services)"
+      },
+      {
+        "uri": "https://canlii.ca/t/26prn",
+        "score": 33.77268981933594,
+        "candidate_title": "Brar and others v. B.C. Veterinary Medical Association and Osborne"
+      }
+    ]
+  },
+  "Ehrler": {
+    "uri": "https://canlii.ca/t/h06k8",
+    "score": 103.90162658691406,
+    "candidate_id": "2006bchrt184",
+    "candidate_title": "Ehrler and Ehrler v. B.C. (Min. of Employment and Income Assistance) (No. 3)",
+    "query_text": "decision | Ehrler and Ehrler v. B.C.\n(Min. of Employment and Income Assistance)(No. 3) | 2006 BCHRT 184",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h06k8",
+        "score": 103.90162658691406,
+        "candidate_title": "Ehrler and Ehrler v. B.C. (Min. of Employment and Income Assistance) (No. 3)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h06jq",
+        "score": 34.167884826660156,
+        "candidate_title": "Bailey v. B.C. (Min. of Attorney General) (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/21w2v",
+        "score": 25.803936004638672,
+        "candidate_title": "Jenkins and Jenkins obo Diabetic Drivers of B.C. v. B.C. (Ministry of Public Safety and Solicitor General)"
+      }
+    ]
+  },
+  "Alessa": {
+    "uri": "https://canlii.ca/t/h08ns",
+    "score": 82.28821563720703,
+    "candidate_id": "2005bchrt442",
+    "candidate_title": "Alessa v. B.C. (Ministry of Health Services)",
+    "query_text": "decision | Alessa\nv. British Columbia (Ministry of Health Services) | <i>Alessa,</i> | 2005\nBCHRT 442",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h08ns",
+        "score": 82.28821563720703,
+        "candidate_title": "Alessa v. B.C. (Ministry of Health Services)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h37dk",
+        "score": 33.612937927246094,
+        "candidate_title": "Daley v. B.C. (Ministry of Health) and others (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h088z",
+        "score": 30.937950134277344,
+        "candidate_title": "Verslype v. Onyx Industrial Services and Crowe"
+      }
+    ]
+  },
+  "Bailey": {
+    "uri": "https://canlii.ca/t/h06jq",
+    "score": 56.49643325805664,
+    "candidate_id": "2006bchrt168",
+    "candidate_title": "Bailey v. B.C. (Min. of Attorney General) (No. 2)",
+    "query_text": "decision | Bailey v. B.C. (Ministry of Attorney\nGeneral)(No. 2) | 2006 BCHRT 168",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h06jq",
+        "score": 56.49643325805664,
+        "candidate_title": "Bailey v. B.C. (Min. of Attorney General) (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/21w2v",
+        "score": 31.22256088256836,
+        "candidate_title": "Jenkins and Jenkins obo Diabetic Drivers of B.C. v. B.C. (Ministry of Public Safety and Solicitor General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/22kqf",
+        "score": 31.05413246154785,
+        "candidate_title": "Bishop obo Resident Hunters Association of B.C. v. B.C. (Ministry of Environment) (No. 2)"
+      }
+    ]
+  },
+  "Schofield": {
+    "uri": "https://canlii.ca/t/h0b1d",
+    "score": 77.91415405273438,
+    "candidate_id": "2003bchrt77",
+    "candidate_title": "Schofield v. Towers and Affordable Lazorplus Ltd.",
+    "query_text": "decision | Schofield\nv. Towers and Affordable Lazorplus Ltd. | 2003 BCHRT 77",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h0b1d",
+        "score": 77.91415405273438,
+        "candidate_title": "Schofield v. Towers and Affordable Lazorplus Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/h0b0w",
+        "score": 19.25115966796875,
+        "candidate_title": "Bell v. Dr. Sherk and others"
+      },
+      {
+        "uri": "https://canlii.ca/t/h0b03",
+        "score": 17.039749145507812,
+        "candidate_title": "Chartier v. School District No. 62"
+      }
+    ]
+  },
+  "Paisley": {
+    "uri": "https://canlii.ca/t/h0616",
+    "score": 135.2389678955078,
+    "candidate_id": "2007bchrt390",
+    "candidate_title": "Paisley and Paisley obo Paisley v. Kerry Park Minor Hockey Association and others (No. 2)",
+    "query_text": "decision | Paisley and Paisley obo Paisley v. Kerry\nPark Minor Hockey Association and others (No. 2) | 2007 BCHRT 390",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h0616",
+        "score": 135.2389678955078,
+        "candidate_title": "Paisley and Paisley obo Paisley v. Kerry Park Minor Hockey Association and others (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/26prn",
+        "score": 35.091609954833984,
+        "candidate_title": "Brar and others v. B.C. Veterinary Medical Association and Osborne"
+      },
+      {
+        "uri": "https://canlii.ca/t/h37dk",
+        "score": 32.693546295166016,
+        "candidate_title": "Daley v. B.C. (Ministry of Health) and others (No. 2)"
+      }
+    ]
+  },
+  "Mallenby": {
+    "uri": "https://canlii.ca/t/23znv",
+    "score": 125.66126251220703,
+    "candidate_id": "2009bchrt208",
+    "candidate_title": "Mallenby v. Malaspina University College and others",
+    "query_text": "decision | Mallenby v. Malaspina University College and others | <i>Mallenby v. Malaspina University College and others</i> | 2009 BCHRT 208",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/23znv",
+        "score": 125.66126251220703,
+        "candidate_title": "Mallenby v. Malaspina University College and others"
+      },
+      {
+        "uri": "https://canlii.ca/t/1zjm5",
+        "score": 43.52385330200195,
+        "candidate_title": "Nasute Fauerbach v. College of Physicians and Surgeons and University of British Columbia (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h0619",
+        "score": 36.10685348510742,
+        "candidate_title": "Taylor v. City of Penticton and others"
+      }
+    ]
+  },
+  "Stephenson": {
+    "uri": "https://canlii.ca/t/h05zm",
+    "score": 101.32715606689453,
+    "candidate_id": "2007bchrt341",
+    "candidate_title": "Stephenson v. Sooke Lake Modular Home Co-operative Association",
+    "query_text": "decision | Stephenson v. Sooke Lake Modular Home Co-operative Association | 2007\nBCHRT 341",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h05zm",
+        "score": 101.32715606689453,
+        "candidate_title": "Stephenson v. Sooke Lake Modular Home Co-operative Association"
+      },
+      {
+        "uri": "https://canlii.ca/t/h0616",
+        "score": 22.090837478637695,
+        "candidate_title": "Paisley and Paisley obo Paisley v. Kerry Park Minor Hockey Association and others (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/26prn",
+        "score": 21.932861328125,
+        "candidate_title": "Brar and others v. B.C. Veterinary Medical Association and Osborne"
+      }
+    ]
+  },
+  "Hugues": {
+    "uri": "https://canlii.ca/t/21blq",
+    "score": 63.115997314453125,
+    "candidate_id": "2008bchrt392",
+    "candidate_title": "Hughes v. City of New Westminster",
+    "query_text": "decision | Hughes v. City of New Westminster | 2008\nBCHRT 392",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21blq",
+        "score": 63.115997314453125,
+        "candidate_title": "Hughes v. City of New Westminster"
+      },
+      {
+        "uri": "https://canlii.ca/t/1th9z",
+        "score": 25.04717254638672,
+        "candidate_title": "Hughes v. Moncton (City)"
+      },
+      {
+        "uri": "https://canlii.ca/t/fw1wn",
+        "score": 24.882633209228516,
+        "candidate_title": "Hughes v. Moncton (City)"
+      }
+    ]
+  },
+  "Brar": {
+    "uri": "https://canlii.ca/t/26prn",
+    "score": 93.5408935546875,
+    "candidate_id": "2007bchrt363",
+    "candidate_title": "Brar and others v. B.C. Veterinary Medical Association and Osborne",
+    "query_text": "decision | Brar\nand others v. B.C. Veterinary Medical Association and Osborne | 2007 BCHRT\n363",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/26prn",
+        "score": 93.5408935546875,
+        "candidate_title": "Brar and others v. B.C. Veterinary Medical Association and Osborne"
+      },
+      {
+        "uri": "https://canlii.ca/t/h37dk",
+        "score": 37.29762268066406,
+        "candidate_title": "Daley v. B.C. (Ministry of Health) and others (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h0616",
+        "score": 35.23624038696289,
+        "candidate_title": "Paisley and Paisley obo Paisley v. Kerry Park Minor Hockey Association and others (No. 2)"
+      }
+    ]
+  },
+  "Imperial Parking": {
+    "uri": "https://canlii.ca/t/1k8md",
+    "score": 62.99077606201172,
+    "candidate_id": "2005bcsc643",
+    "candidate_title": "Imperial Parking v. Bali et al",
+    "query_text": "decision | <i>Imperial\nParking v. Bali</i> | 2005 BCSC 643",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1k8md",
+        "score": 62.99077606201172,
+        "candidate_title": "Imperial Parking v. Bali et al"
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 23.812639236450195,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 19.83684539794922,
+        "candidate_title": "Bhatnager v. M.E.I."
+      }
+    ]
+  },
+  "Lynch": {
+    "uri": "https://canlii.ca/t/1fmmj",
+    "score": 55.66617965698242,
+    "candidate_id": "2000bcsc1419",
+    "candidate_title": "David Lynch v. BC Human Rights Commission",
+    "query_text": "decision | Lynch v. B.C. Human Rights Commission | 2000 BCSC 1419",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fmmj",
+        "score": 55.66617965698242,
+        "candidate_title": "David Lynch v. BC Human Rights Commission"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fndz",
+        "score": 33.295623779296875,
+        "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal"
+      },
+      {
+        "uri": "https://canlii.ca/t/525t",
+        "score": 26.27067756652832,
+        "candidate_title": "Blencoe v. British Columbia (Human Rights Commission)"
+      }
+    ]
+  },
+  "Pavlovic": {
+    "uri": "https://canlii.ca/t/h06p1",
+    "score": 76.81512451171875,
+    "candidate_id": "2006bchrt329",
+    "candidate_title": "Pavlovic v. UBC and CUPE Local 116",
+    "query_text": "decision | Pavlovic\nv. UBC and CUPE Local 116 | 2006 BCHRT 329",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h06p1",
+        "score": 76.81512451171875,
+        "candidate_title": "Pavlovic v. UBC and CUPE Local 116"
+      },
+      {
+        "uri": "https://canlii.ca/t/h38dh",
+        "score": 19.890426635742188,
+        "candidate_title": "N obo S v. T and a School District"
+      },
+      {
+        "uri": "https://canlii.ca/t/h06qg",
+        "score": 19.359195709228516,
+        "candidate_title": "Dove v. GVRD and others (No. 3)"
+      }
+    ]
+  },
+  "Dove": {
+    "uri": "https://canlii.ca/t/h06qg",
+    "score": 63.17687225341797,
+    "candidate_id": "2006bchrt374",
+    "candidate_title": "Dove v. GVRD and others (No. 3)",
+    "query_text": "decision | <i>Dove v. GVRD and others (No.\n3)</i> | 2006 BCHRT 374",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h06qg",
+        "score": 63.17687225341797,
+        "candidate_title": "Dove v. GVRD and others (No. 3)"
+      },
+      {
+        "uri": "https://canlii.ca/t/23znv",
+        "score": 22.3147029876709,
+        "candidate_title": "Mallenby v. Malaspina University College and others"
+      },
+      {
+        "uri": "https://canlii.ca/t/h0619",
+        "score": 22.3147029876709,
+        "candidate_title": "Taylor v. City of Penticton and others"
+      }
+    ]
+  },
+  "O": {
+    "uri": "https://canlii.ca/t/5bnn",
+    "score": 146.4840850830078,
+    "candidate_id": "2003bcca139",
+    "candidate_title": "O'Hara v. B.C. (Human Rights Commission)",
+    "query_text": "decision | O’Hara v.\nBritish Columbia (Human Rights Commission) | O’Hara v. British Columbia (Human\nRights Commission) | 2003 B.C.J. No. 709 | 2003\nBCCA 139 | 2002 BCSC 550 | 2003 BCCA 139",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5bnn",
+        "score": 146.4840850830078,
+        "candidate_title": "O'Hara v. B.C. (Human Rights Commission)"
+      },
+      {
+        "uri": "https://canlii.ca/t/4w16",
+        "score": 101.22098541259766,
+        "candidate_title": "O'Hara v. British Columbia (Human Rights Commission)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fndz",
+        "score": 74.21903228759766,
+        "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal"
+      }
+    ]
+  },
+  "Martens": {
+    "uri": "https://canlii.ca/t/h06sc",
+    "score": 63.399105072021484,
+    "candidate_id": "2006bchrt434",
+    "candidate_title": "Martens v. Canadian Cycling Association",
+    "query_text": "decision | Martens v. Canadian Cycling Association | 2006 BCHRT 434",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h06sc",
+        "score": 63.399105072021484,
+        "candidate_title": "Martens v. Canadian Cycling Association"
+      },
+      {
+        "uri": "https://canlii.ca/t/h06p1",
+        "score": 18.121274948120117,
+        "candidate_title": "Pavlovic v. UBC and CUPE Local 116"
+      },
+      {
+        "uri": "https://canlii.ca/t/h38dh",
+        "score": 17.63703155517578,
+        "candidate_title": "N obo S v. T and a School District"
+      }
+    ]
+  },
+  "Fauerbach": {
+    "uri": "https://canlii.ca/t/1zjm5",
+    "score": 68.2977523803711,
+    "candidate_id": "2008bchrt276",
+    "candidate_title": "Nasute Fauerbach v. College of Physicians and Surgeons and University of British Columbia (No. 2)",
+    "query_text": "decision | Fauerbach v. College of Physicians and Surgeons of B.C. and others (No. 2) | 2008 BCHRT 276",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1zjm5",
+        "score": 68.2977523803711,
+        "candidate_title": "Nasute Fauerbach v. College of Physicians and Surgeons and University of British Columbia (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/5fpn",
+        "score": 42.384220123291016,
+        "candidate_title": "College of Physicians of B.C. v. British Columbia (Information and Privacy Commissioner)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1m7r2",
+        "score": 39.12912368774414,
+        "candidate_title": "Litchfield v. College of Physicians and Surgeons of Alberta"
+      }
+    ]
+  },
+  "Dickson": {
+    "uri": "https://canlii.ca/t/h08f3",
+    "score": 74.69400024414062,
+    "candidate_id": "2005bchrt209",
+    "candidate_title": "Dickson v. Vancouver Island Human Rights Coalition",
+    "query_text": "decision | Dickson v.\nVancouver Island Human Rights Coalition | 2005 BCHRT 209",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h08f3",
+        "score": 74.69400024414062,
+        "candidate_title": "Dickson v. Vancouver Island Human Rights Coalition"
+      },
+      {
+        "uri": "https://canlii.ca/t/h088z",
+        "score": 24.839282989501953,
+        "candidate_title": "Verslype v. Onyx Industrial Services and Crowe"
+      },
+      {
+        "uri": "https://canlii.ca/t/h08sr",
+        "score": 24.787513732910156,
+        "candidate_title": "Fontaine v. Ainsworth Lumber"
+      }
+    ]
+  },
+  "Low": {
+    "uri": "https://canlii.ca/t/h09jf",
+    "score": 70.94796752929688,
+    "candidate_id": "2004bchrt70",
+    "candidate_title": "Low v. Registered Nurses' Association of BC and another",
+    "query_text": "decision | Low v. Registered Nurses’ Association of British\nColumbia | 2004 BCHRT 70",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h09jf",
+        "score": 70.94796752929688,
+        "candidate_title": "Low v. Registered Nurses' Association of BC and another"
+      },
+      {
+        "uri": "https://canlii.ca/t/g92m0",
+        "score": 29.526037216186523,
+        "candidate_title": "Vialoux v. Registred Psychiatric Nurses Association of Manitoba"
+      },
+      {
+        "uri": "https://canlii.ca/t/h09n5",
+        "score": 27.738534927368164,
+        "candidate_title": "Jenkins v. Ministry of Attorney General"
+      }
+    ]
+  },
+  "Taylor": {
+    "uri": "https://canlii.ca/t/h0619",
+    "score": 69.3836441040039,
+    "candidate_id": "2007bchrt393",
+    "candidate_title": "Taylor v. City of Penticton and others",
+    "query_text": "decision | Taylor v. City of Penticton and others | 2007 BCHRT 393",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h0619",
+        "score": 69.3836441040039,
+        "candidate_title": "Taylor v. City of Penticton and others"
+      },
+      {
+        "uri": "https://canlii.ca/t/h37dk",
+        "score": 30.494531631469727,
+        "candidate_title": "Daley v. B.C. (Ministry of Health) and others (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h0616",
+        "score": 27.07655906677246,
+        "candidate_title": "Paisley and Paisley obo Paisley v. Kerry Park Minor Hockey Association and others (No. 2)"
+      }
+    ]
+  },
+  "N and N obo S": {
+    "uri": "https://canlii.ca/t/h38dh",
+    "score": 76.73706817626953,
+    "candidate_id": "2006bchrt546",
+    "candidate_title": "N obo S v. T and a School District",
+    "query_text": "decision | N and N obo S v. T and a School\n District, | 2006\nBCHRT 546",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h38dh",
+        "score": 76.73706817626953,
+        "candidate_title": "N obo S v. T and a School District"
+      },
+      {
+        "uri": "https://canlii.ca/t/2504z",
+        "score": 42.256614685058594,
+        "candidate_title": "A obo B v. School District No. C and another"
+      },
+      {
+        "uri": "https://canlii.ca/t/jmwtf",
+        "score": 27.026113510131836,
+        "candidate_title": "School District No. 5 (Southeast Kootenay) and B.C.T.F. (Yellowaga) (Re)"
+      }
+    ]
+  },
+  "Chartier": {
+    "uri": "https://canlii.ca/t/h0b03",
+    "score": 108.5052490234375,
+    "candidate_id": "2003bchrt39",
+    "candidate_title": "Chartier v. School District No. 62",
+    "query_text": "decision | Chartier v. School District No. 62 | Chartier v. School\nDistrict No. 62, | Chartier | 2003 BCHRT 39",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h0b03",
+        "score": 108.5052490234375,
+        "candidate_title": "Chartier v. School District No. 62"
+      },
+      {
+        "uri": "https://canlii.ca/t/2504z",
+        "score": 42.363590240478516,
+        "candidate_title": "A obo B v. School District No. C and another"
+      },
+      {
+        "uri": "https://canlii.ca/t/h38dh",
+        "score": 42.076961517333984,
+        "candidate_title": "N obo S v. T and a School District"
+      }
+    ]
+  },
+  "Earnshaw": {
+    "uri": "https://canlii.ca/t/h08c1",
+    "score": 91.37271118164062,
+    "candidate_id": "2005bchrt146",
+    "candidate_title": "Earnshaw v. Lilydale Cooperative and UFCW, Local 1518",
+    "query_text": "decision | <i>Earnshaw v. Lilydale Cooperative and UFCW, Local </i>1518 | 2005 BCHRT 146",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h08c1",
+        "score": 91.37271118164062,
+        "candidate_title": "Earnshaw v. Lilydale Cooperative and UFCW, Local 1518"
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 23.812639236450195,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 19.83684539794922,
+        "candidate_title": "Bhatnager v. M.E.I."
+      }
+    ]
+  },
+  "Fontaine": {
+    "uri": "https://canlii.ca/t/h08sr",
+    "score": 54.15028762817383,
+    "candidate_id": "2005bchrt565",
+    "candidate_title": "Fontaine v. Ainsworth Lumber",
+    "query_text": "decision | Fontaine\nv. Ainsworth Lumber | 2005 BCHRT 563",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h08sr",
+        "score": 54.15028762817383,
+        "candidate_title": "Fontaine v. Ainsworth Lumber"
+      },
+      {
+        "uri": "https://canlii.ca/t/h088z",
+        "score": 17.078872680664062,
+        "candidate_title": "Verslype v. Onyx Industrial Services and Crowe"
+      },
+      {
+        "uri": "https://canlii.ca/t/h08f3",
+        "score": 17.078872680664062,
+        "candidate_title": "Dickson v. Vancouver Island Human Rights Coalition"
+      }
+    ]
+  },
+  "Bishop": {
+    "uri": "https://canlii.ca/t/22kqf",
+    "score": 106.51344299316406,
+    "candidate_id": "2009bchrt72",
+    "candidate_title": "Bishop obo Resident Hunters Association of B.C. v. B.C. (Ministry of Environment) (No. 2)",
+    "query_text": "decision | <i>Bishop obo Resident Hunters Association of B.C. v. B.C.\nMinistry of Environment (No. 2),</i> | 2009 BCHRT 72",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22kqf",
+        "score": 106.51344299316406,
+        "candidate_title": "Bishop obo Resident Hunters Association of B.C. v. B.C. (Ministry of Environment) (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/22jpz",
+        "score": 50.08824157714844,
+        "candidate_title": "J and J obo R v. B.C. (Ministry of Children and Family Development) and Havens (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/21w2v",
+        "score": 46.95151138305664,
+        "candidate_title": "Jenkins and Jenkins obo Diabetic Drivers of B.C. v. B.C. (Ministry of Public Safety and Solicitor General)"
+      }
+    ]
+  },
+  "Simon Fraser University": {
+    "uri": "https://canlii.ca/t/g9r8w",
+    "score": 92.30835723876953,
+    "candidate_id": "1996bchrt1000021",
+    "candidate_title": "Simon Fraser University International Students v. Simon Fraser University",
+    "query_text": "decision | Simon Fraser University International Students v. Simon Fraser University | [1996] B.C.C.H.R.D. No. 13",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9r8w",
+        "score": 92.30835723876953,
+        "candidate_title": "Simon Fraser University International Students v. Simon Fraser University"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fv04",
+        "score": 32.70008850097656,
+        "candidate_title": "Simon v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/jhh3j",
+        "score": 25.362810134887695,
+        "candidate_title": "Fraser v. Canada (Public Safety and Emergency Preparedness)"
+      }
+    ]
+  },
+  "Jenkins BCHRT 2008": {
+    "uri": "https://canlii.ca/t/21w2v",
+    "score": 117.08139038085938,
+    "candidate_id": "2008bchrt445",
+    "candidate_title": "Jenkins and Jenkins obo Diabetic Drivers of B.C. v. B.C. (Ministry of Public Safety and Solicitor General)",
+    "query_text": "decision | <i>Jenkins and Jenkins obo Diabetic Drivers of BC v. BC (Ministry\nof Public Safety and Solicitor General), </i> | 2008 BCHRT 445",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21w2v",
+        "score": 117.08139038085938,
+        "candidate_title": "Jenkins and Jenkins obo Diabetic Drivers of B.C. v. B.C. (Ministry of Public Safety and Solicitor General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h09n5",
+        "score": 51.8028678894043,
+        "candidate_title": "Jenkins v. Ministry of Attorney General"
+      },
+      {
+        "uri": "https://canlii.ca/t/h2zs1",
+        "score": 35.41033935546875,
+        "candidate_title": "British Columbia (Public Safety and Solicitor General)"
+      }
+    ]
+  },
+  "Berg": {
+    "uri": "https://canlii.ca/t/1fs2m",
+    "score": 57.92015075683594,
+    "candidate_id": "1993csc-scc56",
+    "candidate_title": "University of British Columbia v. Berg",
+    "query_text": "decision | University of British Columbia v. Berg | <i>Berg,</i> | [1993] 2 S.C.R. 353",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs2m",
+        "score": 57.92015075683594,
+        "candidate_title": "University of British Columbia v. Berg"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 25.219011306762695,
+        "candidate_title": "Bhatnager v. M.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/1zjm5",
+        "score": 24.04129409790039,
+        "candidate_title": "Nasute Fauerbach v. College of Physicians and Surgeons and University of British Columbia (No. 2)"
+      }
+    ]
+  },
+  "Jenkins BCHRT 2004": {
+    "uri": "https://canlii.ca/t/h09n5",
+    "score": 57.075958251953125,
+    "candidate_id": "2004bchrt188",
+    "candidate_title": "Jenkins v. Ministry of Attorney General",
+    "query_text": "decision | Jenkins v. Ministry of Attorney General | 2004 BCHRT\n188",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h09n5",
+        "score": 57.075958251953125,
+        "candidate_title": "Jenkins v. Ministry of Attorney General"
+      },
+      {
+        "uri": "https://canlii.ca/t/21w2v",
+        "score": 34.84440994262695,
+        "candidate_title": "Jenkins and Jenkins obo Diabetic Drivers of B.C. v. B.C. (Ministry of Public Safety and Solicitor General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h08ns",
+        "score": 22.033903121948242,
+        "candidate_title": "Alessa v. B.C. (Ministry of Health Services)"
+      }
+    ]
+  },
+  "J and J": {
+    "uri": "https://canlii.ca/t/22jpz",
+    "score": 106.24625396728516,
+    "candidate_id": "2009bchrt61",
+    "candidate_title": "J and J obo R v. B.C. (Ministry of Children and Family Development) and Havens (No. 2)",
+    "query_text": "decision | J and J obo R v. B.C.\n(Ministry of Children and Family Development) and Havens (No. 2) | 2009\nBCHRT 61",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22jpz",
+        "score": 106.24625396728516,
+        "candidate_title": "J and J obo R v. B.C. (Ministry of Children and Family Development) and Havens (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/22kqf",
+        "score": 45.22840118408203,
+        "candidate_title": "Bishop obo Resident Hunters Association of B.C. v. B.C. (Ministry of Environment) (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/21w2v",
+        "score": 43.347591400146484,
+        "candidate_title": "Jenkins and Jenkins obo Diabetic Drivers of B.C. v. B.C. (Ministry of Public Safety and Solicitor General)"
+      }
+    ]
+  },
+  "Wickham": {
+    "uri": "https://canlii.ca/t/h09lg",
+    "score": 109.547119140625,
+    "candidate_id": "2004bchrt134",
+    "candidate_title": "Wickham and Wickham v. Mesa Contemporary Folk Art and others",
+    "query_text": "decision | <i>Wickham\nand Wickham v. Mesa Contemporary Folk Art and others</i> | 2004 BCHRT 134",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h09lg",
+        "score": 109.547119140625,
+        "candidate_title": "Wickham and Wickham v. Mesa Contemporary Folk Art and others"
+      },
+      {
+        "uri": "https://canlii.ca/t/h0619",
+        "score": 24.626625061035156,
+        "candidate_title": "Taylor v. City of Penticton and others"
+      },
+      {
+        "uri": "https://canlii.ca/t/23znv",
+        "score": 24.626625061035156,
+        "candidate_title": "Mallenby v. Malaspina University College and others"
+      }
+    ]
+  },
+  "Bell": {
+    "uri": "https://canlii.ca/t/h0b0w",
+    "score": 113.17938232421875,
+    "candidate_id": "2003bchrt63",
+    "candidate_title": "Bell v. Dr. Sherk and others",
+    "query_text": "decision | Bell v. Dr. Sherk and others | <i>Bell v. Dr. Sherk and others,</i> | 2003 BCHRT 63",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h0b0w",
+        "score": 113.17938232421875,
+        "candidate_title": "Bell v. Dr. Sherk and others"
+      },
+      {
+        "uri": "https://canlii.ca/t/23znv",
+        "score": 36.10685348510742,
+        "candidate_title": "Mallenby v. Malaspina University College and others"
+      },
+      {
+        "uri": "https://canlii.ca/t/h0619",
+        "score": 36.10685348510742,
+        "candidate_title": "Taylor v. City of Penticton and others"
+      }
+    ]
+  },
+  "Berezoutskaia": {
+    "uri": "https://canlii.ca/t/1mp9m",
+    "score": 56.01212692260742,
+    "candidate_id": "2006bcca95",
+    "candidate_title": "Berezoutskaia v. British Columbia (Human Rights Tribunal)",
+    "query_text": "decision | Berezoutskaia\nv. British Columbia (Human Rights Tribunal) | 2006 BCCA 95",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mp9m",
+        "score": 56.01212692260742,
+        "candidate_title": "Berezoutskaia v. British Columbia (Human Rights Tribunal)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fndz",
+        "score": 33.80470275878906,
+        "candidate_title": "B.C. Human Rights Commission v. B.C. Human Rights Tribunal"
+      },
+      {
+        "uri": "https://canlii.ca/t/h06sc",
+        "score": 31.201786041259766,
+        "candidate_title": "Martens v. Canadian Cycling Association"
+      }
+    ]
+  },
+  "Moser": {
+    "uri": "https://canlii.ca/t/h09jh",
+    "score": 60.60124969482422,
+    "candidate_id": "2004bchrt72",
+    "candidate_title": "Moser v. District of Sechelt",
+    "query_text": "decision | Moser v. District of Sechelt | 2004 BCHRT 72",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h09jh",
+        "score": 60.60124969482422,
+        "candidate_title": "Moser v. District of Sechelt"
+      },
+      {
+        "uri": "https://canlii.ca/t/h09jf",
+        "score": 19.910865783691406,
+        "candidate_title": "Low v. Registered Nurses' Association of BC and another"
+      },
+      {
+        "uri": "https://canlii.ca/t/h09n5",
+        "score": 19.864707946777344,
+        "candidate_title": "Jenkins v. Ministry of Attorney General"
+      }
+    ]
+  },
+  "Human Rights Code": {
+    "uri": "https://canlii.ca/t/563gb",
+    "score": 75.8681869506836,
+    "candidate_id": "l19712!19712-current-1",
+    "candidate_title": "Human Rights Code",
+    "query_text": "legislation | HUMAN\n  RIGHTS CODE | <i>Human\nRights Code</i> | Code | <i>Code</i> | <p class=\"ZZCoverPageCentre\"><span lang=\"EN-CA\">R.S.B.C. 1996</span></p><p class=\"ZZCoverPageCentre\"><span lang=\"EN-CA\">, c. 210</span></p>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 75.8681869506836,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jrm",
+        "score": 61.37542724609375,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxl",
+        "score": 60.12250900268555,
+        "candidate_title": "Code of Civil Procedure"
+      }
+    ]
+  },
+  "School Act": {
+    "uri": "https://canlii.ca/t/hznr",
+    "score": 81.659423828125,
+    "candidate_id": "l12858!12858-current-1",
+    "candidate_title": "Interest Act",
+    "query_text": "legislation | <i>School Act, </i> | <i>School Act</i> | <i>School\nAct</i> | School Act, | School\nAct | R.S.B.C.\n1996, c. 210",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hznr",
+        "score": 81.659423828125,
+        "candidate_title": "Interest Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 80.47932434082031,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/564nl",
+        "score": 79.01399230957031,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "Rules of Practice and Procedure": {
+    "uri": "https://canlii.ca/t/56pvt",
+    "score": 49.14147186279297,
+    "candidate_id": "l37442!37442-current-1",
+    "candidate_title": "Alberta Energy Regulator Rules of Practice",
+    "query_text": "legislation | Rules\nof Practice and Procedure | Rules | <i>Rules of Practice\nand Procedure</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56pvt",
+        "score": 49.14147186279297,
+        "candidate_title": "Alberta Energy Regulator Rules of Practice"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nkn",
+        "score": 33.70329284667969,
+        "candidate_title": "Rules of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 32.59882736206055,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      }
+    ]
+  },
+  "Freedom of Information Act": {
+    "uri": "https://canlii.ca/t/56w78",
+    "score": 33.45484924316406,
+    "candidate_id": "l19661!19661-current-1",
+    "candidate_title": "Freedom of Information and Protection of Privacy Act",
+    "query_text": "legislation | Freedom of\nInformation and Personal Privacy Act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56w78",
+        "score": 33.45484924316406,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56gtx",
+        "score": 33.45484924316406,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56flk",
+        "score": 33.22782897949219,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "Human Rights Act": {
+    "uri": "https://canlii.ca/t/566gg",
+    "score": 6.008267879486084,
+    "candidate_id": "l19940!19940-current-1",
+    "candidate_title": "Securities Act",
+    "query_text": "legislation | Act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/566gg",
+        "score": 6.008267879486084,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56hq0",
+        "score": 6.008267879486084,
+        "candidate_title": "Land Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jjd9",
+        "score": 6.008267879486084,
+        "candidate_title": "Condominium Act"
+      }
+    ]
+  }
+}

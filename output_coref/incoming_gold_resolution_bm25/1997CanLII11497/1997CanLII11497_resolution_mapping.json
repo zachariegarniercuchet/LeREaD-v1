@@ -1,0 +1,122 @@
+{
+  "Freedom of Information Act": {
+    "uri": "https://canlii.ca/t/56gtx",
+    "score": 161.81851196289062,
+    "candidate_id": "l22603!22603-current-1",
+    "candidate_title": "Freedom of Information and Protection of Privacy Act",
+    "query_text": "legislation | FREEDOM\nOF INFORMATION AND PROTECTION OF PRIVACY ACT | FREEDOM OF INFORMATION\nAND PROTECTION OF PRIVACY ACT | Freedom of Information and Protection of Privacy Act | Act | <i>Act</i> | ACT | S.N.S.\n1993, c.5 | S.N.S.\n1993, c. 5",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56gtx",
+        "score": 161.81851196289062,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w78",
+        "score": 143.1271209716797,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56flk",
+        "score": 142.17945861816406,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "Judicial Review of Decisions": {
+    "uri": "https://canlii.ca/t/sx35",
+    "score": 29.660011291503906,
+    "candidate_id": "d73295!d73295",
+    "candidate_title": "The Canadian Law of Judicial Review: A Plea for Doctrinal Coherence and Consistency.",
+    "query_text": "secondary sources | Judicial Review of Decisions under Ontario's Information and\nPrivacy Acts | Gerald J. Fahey and David S.\nGoodis",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/sx35",
+        "score": 29.660011291503906,
+        "candidate_title": "The Canadian Law of Judicial Review: A Plea for Doctrinal Coherence and Consistency."
+      },
+      {
+        "uri": "https://canlii.ca/t/ttpb",
+        "score": 25.88431167602539,
+        "candidate_title": "Reverse Vesting Orders – Developing Principles and Guardrails to Inform Judicial Decisions"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pvb",
+        "score": 23.502477645874023,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "Government Information: Access and Privacy": {
+    "uri": "https://canlii.ca/t/56dg7",
+    "score": 23.574440002441406,
+    "candidate_id": "l28161!28161-current-1",
+    "candidate_title": "Access and Privacy Regulation",
+    "query_text": "secondary sources | Government\nInformation: Access and Privacy | McNairn and Woodbury",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56dg7",
+        "score": 23.574440002441406,
+        "candidate_title": "Access and Privacy Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56gtx",
+        "score": 17.617586135864258,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w78",
+        "score": 17.617586135864258,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "McLaughlin": {
+    "uri": "https://canlii.ca/t/1mqwz",
+    "score": 67.1318359375,
+    "candidate_id": "1993nsca10024",
+    "candidate_title": "McLaughlin v. Halifax-Dartmouth Bridge Commission",
+    "query_text": "decision | <i>McLaughlin v.\nHalifax‑Dartmouth Bridge Commission </i>(1993) | 125 N.S.R. (2d) 288",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mqwz",
+        "score": 67.1318359375,
+        "candidate_title": "McLaughlin v. Halifax-Dartmouth Bridge Commission"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 19.83684539794922,
+        "candidate_title": "Bhatnager v. M.E.I."
+      },
+      {
+        "uri": "https://canlii.ca/t/gbg0x",
+        "score": 19.834156036376953,
+        "candidate_title": "GFK Capital Base Corp. v. Fernando"
+      }
+    ]
+  },
+  "Ontario (Workers": {
+    "uri": "https://canlii.ca/t/g1562",
+    "score": 72.76490783691406,
+    "candidate_id": "1995onctgd1000055",
+    "candidate_title": "Ontario (Workers' Compensation Board) v. Ontario (Assistant Information & Privacy Commissioner)",
+    "query_text": "decision | <i>Ontario (Workers'\nCompensation Board) v. Ontario (Assistant Information &amp; Privacy\nCommissioner</i> (1995) | 23 O.R. (3d) 31 (Div. Ct.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1562",
+        "score": 72.76490783691406,
+        "candidate_title": "Ontario (Workers' Compensation Board) v. Ontario (Assistant Information & Privacy Commissioner)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gh0jg",
+        "score": 37.415008544921875,
+        "candidate_title": "Ontario (Finance) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1wvjc",
+        "score": 29.40531349182129,
+        "candidate_title": "City of Toronto Economic Development Corporation v. Information and Privacy Commissioner/Ontario"
+      }
+    ]
+  }
+}

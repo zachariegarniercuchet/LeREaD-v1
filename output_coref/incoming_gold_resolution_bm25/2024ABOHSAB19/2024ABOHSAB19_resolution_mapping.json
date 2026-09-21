@@ -1,0 +1,194 @@
+{
+  "Sherlock Environmental Services": {
+    "uri": "https://canlii.ca/t/k7qlt",
+    "score": 83.93583679199219,
+    "candidate_id": "2024abohsab19",
+    "candidate_title": "Sherlock Environmental Services Ltd. v Occupational Health and Safety",
+    "query_text": "decision | Sherlock\nEnvironmental Services Ltd. v Occupational Health and Safety | 2024 ABOHSAB 19",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k7qlt",
+        "score": 83.93583679199219,
+        "candidate_title": "Sherlock Environmental Services Ltd. v Occupational Health and Safety"
+      },
+      {
+        "uri": "https://canlii.ca/t/k3p9x",
+        "score": 46.99751663208008,
+        "candidate_title": "Ishdorj v Health Watch Medical Clinic Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/k7bzn",
+        "score": 43.32434844970703,
+        "candidate_title": "Thorkelson v Shell Canada Limited"
+      }
+    ]
+  },
+  "Kehewin Cree Nation": {
+    "uri": "https://canlii.ca/t/g0bkf",
+    "score": 66.06367492675781,
+    "candidate_id": "2013abca294",
+    "candidate_title": "Kehewin Cree Nation v Mulvey",
+    "query_text": "decision | <a name=\"_Hlk179982223\"><i>Kehewin</i></a><i> Cree Nation v Mulvey</i> | 2013 ABCA\n294",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g0bkf",
+        "score": 66.06367492675781,
+        "candidate_title": "Kehewin Cree Nation v Mulvey"
+      },
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 37.606773376464844,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jqtg2",
+        "score": 35.6076545715332,
+        "candidate_title": "Bhatnager v. M.E.I."
+      }
+    ]
+  },
+  "Thorkelson": {
+    "uri": "https://canlii.ca/t/k7bzn",
+    "score": 58.66609573364258,
+    "candidate_id": "2024abohsab17",
+    "candidate_title": "Thorkelson v Shell Canada Limited",
+    "query_text": "decision | Thorkelson v Shell\nCanada Limited | 2024 ABOHSAB 17",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k7bzn",
+        "score": 58.66609573364258,
+        "candidate_title": "Thorkelson v Shell Canada Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/k3p9x",
+        "score": 22.444046020507812,
+        "candidate_title": "Ishdorj v Health Watch Medical Clinic Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/k7qlt",
+        "score": 22.00523567199707,
+        "candidate_title": "Sherlock Environmental Services Ltd. v Occupational Health and Safety"
+      }
+    ]
+  },
+  "Ishdorj": {
+    "uri": "https://canlii.ca/t/k3p9x",
+    "score": 71.18358612060547,
+    "candidate_id": "2024abohsab4",
+    "candidate_title": "Ishdorj v Health Watch Medical Clinic Ltd.",
+    "query_text": "decision | Ishdorj v Health Watch Medical\nClinic Ltd. | 2024 ABOSHAB 4",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k3p9x",
+        "score": 71.18358612060547,
+        "candidate_title": "Ishdorj v Health Watch Medical Clinic Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/k7qlt",
+        "score": 21.831743240356445,
+        "candidate_title": "Sherlock Environmental Services Ltd. v Occupational Health and Safety"
+      },
+      {
+        "uri": "https://canlii.ca/t/k7bzn",
+        "score": 17.49549674987793,
+        "candidate_title": "Thorkelson v Shell Canada Limited"
+      }
+    ]
+  },
+  "Occupational Health and Safety Act": {
+    "uri": "https://canlii.ca/t/56jxc",
+    "score": 68.72378540039062,
+    "candidate_id": "l74891!74891-current-1",
+    "candidate_title": "Occupational Health and Safety Act",
+    "query_text": "legislation | Occupational\nHealth and Safety Act | Act | <i>Act</i> | SA 2020, c O-2.2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56jxc",
+        "score": 68.72378540039062,
+        "candidate_title": "Occupational Health and Safety Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 33.19078063964844,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/hznr",
+        "score": 32.89208984375,
+        "candidate_title": "Interest Act"
+      }
+    ]
+  },
+  "Occupational Health and Safety Code": {
+    "uri": "https://canlii.ca/t/56gs3",
+    "score": 69.73013305664062,
+    "candidate_id": "l79202!79202-current-1",
+    "candidate_title": "Occupational Health and Safety Code",
+    "query_text": "legislation | Occupational Health and\nSafety Code | OHS Code | Alta Reg 191/2021",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56gs3",
+        "score": 69.73013305664062,
+        "candidate_title": "Occupational Health and Safety Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jxc",
+        "score": 30.490467071533203,
+        "candidate_title": "Occupational Health and Safety Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 18.077205657958984,
+        "candidate_title": "Human Rights Code"
+      }
+    ]
+  },
+  "OHS Rules": {
+    "uri": "https://canlii.ca/t/kcvt",
+    "score": 26.737844467163086,
+    "candidate_id": "l29969!29969-current-1",
+    "candidate_title": "Rules of the Court of Appeal Respecting Civil Appeals",
+    "query_text": "legislation | Board’s <i>Rules of Procedure for OHS Appeals </i> | OHS\nRules | OHS Rules",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kcvt",
+        "score": 26.737844467163086,
+        "candidate_title": "Rules of the Court of Appeal Respecting Civil Appeals"
+      },
+      {
+        "uri": "https://canlii.ca/t/kh81",
+        "score": 26.582416534423828,
+        "candidate_title": "Rules of the Court of Appeal Respecting Civil Appeals"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nkn",
+        "score": 26.541475296020508,
+        "candidate_title": "Rules of Civil Procedure"
+      }
+    ]
+  },
+  "Labour Relations Code": {
+    "uri": "https://canlii.ca/t/56nbs",
+    "score": 67.778564453125,
+    "candidate_id": "l17790!17790-current-1",
+    "candidate_title": "Labour Relations Code",
+    "query_text": "legislation | Labour Relations Code | Labour\nRelations Code | RSA 2000, c L-1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nbs",
+        "score": 67.778564453125,
+        "candidate_title": "Labour Relations Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56k1n",
+        "score": 38.64958572387695,
+        "candidate_title": "Labour Relations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/55zl8",
+        "score": 37.7032470703125,
+        "candidate_title": "Labour Relations Amendment Act, 2000"
+      }
+    ]
+  }
+}

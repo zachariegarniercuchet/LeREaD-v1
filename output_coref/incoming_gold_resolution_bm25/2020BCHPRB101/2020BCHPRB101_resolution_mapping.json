@@ -1,0 +1,602 @@
+{
+  "College of Chiropractors BCHPRB 2020": {
+    "uri": "https://canlii.ca/t/jc7pl",
+    "score": 65.8433837890625,
+    "candidate_id": "2020bchprb101",
+    "candidate_title": "Complainant v. College of Chiropractors of British Columbia (No. 1)",
+    "query_text": "decision | <span style='font-family:\"Arial\",sans-serif;color:black'>Complainant</span><span style='font-family:\"Arial\",sans-serif'> v. College of Chiropractors\nof British Columbia (No. 1</span> | 2020 BCHPRB 101",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jc7pl",
+        "score": 65.8433837890625,
+        "candidate_title": "Complainant v. College of Chiropractors of British Columbia (No. 1)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvshw",
+        "score": 52.63311004638672,
+        "candidate_title": "Complainant v. College of Chiropractors of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsz4",
+        "score": 41.79228591918945,
+        "candidate_title": "Complainant v. College of Dental Surgeons of British Columbia"
+      }
+    ]
+  },
+  "Moore BCSC 2013": {
+    "uri": "https://canlii.ca/t/g1wl9",
+    "score": 76.40693664550781,
+    "candidate_id": "2013bcsc2081",
+    "candidate_title": "Moore v. College of Physicians and Surgeons of British Columbia",
+    "query_text": "decision | Moore v. College of Physicians and Surgeons\nof British Columbia | 2013 BCSC 2081",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1wl9",
+        "score": 76.40693664550781,
+        "candidate_title": "Moore v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/gfk07",
+        "score": 51.10085678100586,
+        "candidate_title": "Moore v. College of Physicians and Surgeons of  British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsm3",
+        "score": 48.44144821166992,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      }
+    ]
+  },
+  "Moore BCCA 2014": {
+    "uri": "https://canlii.ca/t/gfk07",
+    "score": 23.27381134033203,
+    "candidate_id": "2014bcca466",
+    "candidate_title": "Moore v. College of Physicians and Surgeons of  British Columbia",
+    "query_text": "decision | 2014 BCCA 466",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gfk07",
+        "score": 23.27381134033203,
+        "candidate_title": "Moore v. College of Physicians and Surgeons of  British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/jr8k9",
+        "score": 9.703640937805176,
+        "candidate_title": "Canada (Attorney General) v. Scow"
+      },
+      {
+        "uri": "https://canlii.ca/t/g91dq",
+        "score": 9.45719051361084,
+        "candidate_title": "Bank of Montreal v. Marcotte"
+      }
+    ]
+  },
+  "Moore SCC 2015": {
+    "uri": "https://canlii.ca/t/gjfc0",
+    "score": 15.867300987243652,
+    "candidate_id": "2015csc-scc-al145932",
+    "candidate_title": "Health Professions Review Board v. Alan Moore, et al.",
+    "query_text": "decision | 2015 SCC 36272",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gjfc0",
+        "score": 15.867300987243652,
+        "candidate_title": "Health Professions Review Board v. Alan Moore, et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/glb0g",
+        "score": 10.134908676147461,
+        "candidate_title": "ATCO Gas and Pipelines Ltd. v. Alberta (Utilities Commission)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gg19b",
+        "score": 10.06379508972168,
+        "candidate_title": "Tervita Corp. v. Canada (Commissioner of Competition)"
+      }
+    ]
+  },
+  "College of Chiropractors BCHPRB 2014": {
+    "uri": "https://canlii.ca/t/hvshw",
+    "score": 63.642818450927734,
+    "candidate_id": "2014bchprb25",
+    "candidate_title": "Complainant v. College of Chiropractors of British Columbia",
+    "query_text": "decision | <i>Complainant v. College of Chiropractors of British Columbia</i> | 2014 BCHPRB\n25",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hvshw",
+        "score": 63.642818450927734,
+        "candidate_title": "Complainant v. College of Chiropractors of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/jc7pl",
+        "score": 51.77249526977539,
+        "candidate_title": "Complainant v. College of Chiropractors of British Columbia (No. 1)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvszr",
+        "score": 46.36222457885742,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      }
+    ]
+  },
+  "College of Physicians BCSC 2018": {
+    "uri": "https://canlii.ca/t/hw4sk",
+    "score": 87.1288070678711,
+    "candidate_id": "2018bcsc2021",
+    "candidate_title": "The College of Physicians and Surgeons of British Columbia v The Health Professions Review Board",
+    "query_text": "decision | The College of Physicians and Surgeons of British Columbia v The\nHealth Professions Review Board | 2018 BCSC 2021",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hw4sk",
+        "score": 87.1288070678711,
+        "candidate_title": "The College of Physicians and Surgeons of British Columbia v The Health Professions Review Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsm3",
+        "score": 59.063232421875,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsxw",
+        "score": 59.063232421875,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      }
+    ]
+  },
+  "College of Physicians BCHPRB 2012": {
+    "uri": "https://canlii.ca/t/hvsrx",
+    "score": 66.32947540283203,
+    "candidate_id": "2012bchprb2",
+    "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia",
+    "query_text": "decision | Complainant v.\nCollege of Physicians and Surgeons of British Columbia | 2012 BCHPRB 2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hvsrx",
+        "score": 66.32947540283203,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsm3",
+        "score": 58.209354400634766,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsz7",
+        "score": 58.209354400634766,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      }
+    ]
+  },
+  "Vavilov": {
+    "uri": "https://canlii.ca/t/j46kb",
+    "score": 53.46614456176758,
+    "candidate_id": "2019csc-scc65",
+    "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov",
+    "query_text": "decision | Canada (Minister of Citizenship\nand Immigration) v. Vavilov | <i>Vavilov</i> | 2019 SCC 65",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j46kb",
+        "score": 53.46614456176758,
+        "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov"
+      },
+      {
+        "uri": "https://canlii.ca/t/gkr9s",
+        "score": 37.84091567993164,
+        "candidate_title": "Vavilov v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h4j13",
+        "score": 37.440673828125,
+        "candidate_title": "Vavilov v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "College of Physicians BCHPRB 2011-1": {
+    "uri": "https://canlii.ca/t/hvswn",
+    "score": 41.574642181396484,
+    "candidate_id": "2011bchprb31",
+    "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia",
+    "query_text": "decision | No. 2009-HPA-0045(a) | 2011 BCHPRB 31",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hvswn",
+        "score": 41.574642181396484,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsxw",
+        "score": 24.522876739501953,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsz4",
+        "score": 24.11739730834961,
+        "candidate_title": "Complainant v. College of Dental Surgeons of British Columbia"
+      }
+    ]
+  },
+  "College of Physicians BCHPRB 2010-1": {
+    "uri": "https://canlii.ca/t/hvsz7",
+    "score": 89.75074768066406,
+    "candidate_id": "2010bchprb10",
+    "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia",
+    "query_text": "decision | Complainant\nv. College of Physicians and Surgeons of British Columbia | 2010 BCHPRB 10 | No. 2009-HPA-0057(a)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hvsz7",
+        "score": 89.75074768066406,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvszr",
+        "score": 73.37220001220703,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvswn",
+        "score": 71.33926391601562,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      }
+    ]
+  },
+  "College of Physicians BCHPRB 2011-2": {
+    "uri": "https://canlii.ca/t/hvsxw",
+    "score": 70.3530502319336,
+    "candidate_id": "2011bchprb65",
+    "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia",
+    "query_text": "decision | <i>Complainant v. College of Physicians and Surgeons of British Columbia</i> | 2011 BCHPRB 65",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hvsxw",
+        "score": 70.3530502319336,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvswn",
+        "score": 63.642478942871094,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsrx",
+        "score": 62.183448791503906,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      }
+    ]
+  },
+  "College of Physicians BCHPRB 2010-2": {
+    "uri": "https://canlii.ca/t/hvszr",
+    "score": 44.415863037109375,
+    "candidate_id": "2010bchprb25",
+    "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia",
+    "query_text": "decision | No. 2010-HPA-0073(a) | 2010 BCHPRB\n25",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hvszr",
+        "score": 44.415863037109375,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsz7",
+        "score": 29.79912757873535,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsz4",
+        "score": 27.156625747680664,
+        "candidate_title": "Complainant v. College of Dental Surgeons of British Columbia"
+      }
+    ]
+  },
+  "College of Dental Surgeons BCHPRB 2011-1": {
+    "uri": "https://canlii.ca/t/hvsw5",
+    "score": 70.03778839111328,
+    "candidate_id": "2011bchprb18",
+    "candidate_title": "Complainant v. College of Dental Surgeons of British Columbia",
+    "query_text": "decision | Complainant v.\nCollege of Dental Surgeons of British Columbia | 2011 BCHPRB 18",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hvsw5",
+        "score": 70.03778839111328,
+        "candidate_title": "Complainant v. College of Dental Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsz4",
+        "score": 64.88361358642578,
+        "candidate_title": "Complainant v. College of Dental Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsxw",
+        "score": 54.782623291015625,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      }
+    ]
+  },
+  "College of Dental Surgeons BCHPRB 2011-2": {
+    "uri": "https://canlii.ca/t/hvsz4",
+    "score": 69.95439910888672,
+    "candidate_id": "2011bchprb8",
+    "candidate_title": "Complainant v. College of Dental Surgeons of British Columbia",
+    "query_text": "decision | Complainant v. College of Dental Surgeons of British Columbia | 2011\nBCHPRB 8",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hvsz4",
+        "score": 69.95439910888672,
+        "candidate_title": "Complainant v. College of Dental Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsw5",
+        "score": 64.88361358642578,
+        "candidate_title": "Complainant v. College of Dental Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsxw",
+        "score": 54.782623291015625,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      }
+    ]
+  },
+  "College of Physicians BCHPRB 2013": {
+    "uri": "https://canlii.ca/t/hvsm3",
+    "score": 70.80429077148438,
+    "candidate_id": "2013bchprb106",
+    "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia",
+    "query_text": "decision | <i>Complainant v. College of Physicians and Surgeons of British Columbia</i> | 2013 BCHPRB 106",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hvsm3",
+        "score": 70.80429077148438,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsrx",
+        "score": 58.209354400634766,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvswn",
+        "score": 58.209354400634766,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      }
+    ]
+  },
+  "Salway": {
+    "uri": "https://canlii.ca/t/2876m",
+    "score": 84.39925384521484,
+    "candidate_id": "2010bcca94",
+    "candidate_title": "Salway v. Association of Professional Engineers and Geoscientists of British Columbia",
+    "query_text": "decision | Salway v. Association of Professional Engineers\nand Geoscientists of British Columbia | 2010 BCCA 94",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2876m",
+        "score": 84.39925384521484,
+        "candidate_title": "Salway v. Association of Professional Engineers and Geoscientists of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/gfk07",
+        "score": 28.103609085083008,
+        "candidate_title": "Moore v. College of Physicians and Surgeons of  British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvszr",
+        "score": 27.81769561767578,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      }
+    ]
+  },
+  "Health Professions Act": {
+    "uri": "https://canlii.ca/t/534hx",
+    "score": 61.63949203491211,
+    "candidate_id": "l19681!19681-current-1",
+    "candidate_title": "Health Professions Act",
+    "query_text": "legislation | <i>Health Professions Act, </i> | Act | HPA | Health Professions Act | R.S.B.C.\n1996, c. 183",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/534hx",
+        "score": 61.63949203491211,
+        "candidate_title": "Health Professions Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/564nl",
+        "score": 38.855857849121094,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/568rq",
+        "score": 37.995182037353516,
+        "candidate_title": "Industrial Relations Act"
+      }
+    ]
+  },
+  "CCBC Bylaws": {
+    "uri": "https://canlii.ca/t/544lt",
+    "score": 5.583775043487549,
+    "candidate_id": "l12957!12957-current-1",
+    "candidate_title": "Supreme Court Act",
+    "query_text": "legislation | College's bylaws | CCBC Bylaws | bylaws | Bylaws | College Bylaws",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/544lt",
+        "score": 5.583775043487549,
+        "candidate_title": "Supreme Court Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/lgjj",
+        "score": 5.583775043487549,
+        "candidate_title": "State Immunity Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56l4v",
+        "score": 5.407228946685791,
+        "candidate_title": "Securities Act"
+      }
+    ]
+  },
+  "Code of Ethics": {
+    "uri": "https://canlii.ca/t/5546r",
+    "score": 71.44630432128906,
+    "candidate_id": "l9312!9312-current-1",
+    "candidate_title": "Code of Ethics of Québec Police Officers",
+    "query_text": "legislation | Code of Ethics | Code of Ethics and Standards | code of ethics | Code of\nEthics",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5546r",
+        "score": 71.44630432128906,
+        "candidate_title": "Code of Ethics of Québec Police Officers"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v3w",
+        "score": 41.459102630615234,
+        "candidate_title": "Civil Code of Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxj",
+        "score": 41.459102630615234,
+        "candidate_title": "Civil Code of Québec"
+      }
+    ]
+  },
+  "CMTBC Bylaws": {
+    "uri": "https://canlii.ca/t/h69r",
+    "score": 4.639471530914307,
+    "candidate_id": "l4747!4747-current-1",
+    "candidate_title": "The Limitations Act",
+    "query_text": "legislation | bylaws | CMTBC bylaws | CMTBC Bylaws | bylaws from the CMTBC",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h69r",
+        "score": 4.639471530914307,
+        "candidate_title": "The Limitations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56f73",
+        "score": 4.639471530914307,
+        "candidate_title": "The Cities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56khs",
+        "score": 4.596485137939453,
+        "candidate_title": "The Cities Regulations"
+      }
+    ]
+  },
+  "Rules of Practice": {
+    "uri": "https://canlii.ca/t/hznr",
+    "score": 50.23454666137695,
+    "candidate_id": "l12858!12858-current-1",
+    "candidate_title": "Interest Act",
+    "query_text": "legislation | <i>Rules of Practice and Procedure for Reviews under\nthe Health Professions Act</i> | <i>Rules of Practice and Procedure</i> | R.S.B.C. 1996, c. 183",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hznr",
+        "score": 50.23454666137695,
+        "candidate_title": "Interest Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 48.77553939819336,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/564nl",
+        "score": 48.465415954589844,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "RMTBC Bylaws": {
+    "uri": "https://canlii.ca/t/56w78",
+    "score": 5.272981643676758,
+    "candidate_id": "l19661!19661-current-1",
+    "candidate_title": "Freedom of Information and Protection of Privacy Act",
+    "query_text": "legislation | Registered Massage\nTherapists’ Association of British Columbia (“RMTBC”) Bylaws",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56w78",
+        "score": 5.272981643676758,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56gtx",
+        "score": 5.272981643676758,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56flk",
+        "score": 5.238979816436768,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "Professional Conduct Handbook": {
+    "uri": "https://canlii.ca/t/56lxm",
+    "score": 30.54840087890625,
+    "candidate_id": "l5519!5519-current-1",
+    "candidate_title": "Professional Code",
+    "query_text": "legislation | Professional Conduct\nHandbook | professional conduct\nhandbook | Professional Conduct Handbook | Handbook | College's Handbook",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56lxm",
+        "score": 30.54840087890625,
+        "candidate_title": "Professional Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fn1z",
+        "score": 23.02623748779297,
+        "candidate_title": "Code des professions"
+      },
+      {
+        "uri": "https://canlii.ca/t/544lt",
+        "score": 5.583775043487549,
+        "candidate_title": "Supreme Court Act"
+      }
+    ]
+  },
+  "Limits and Conditions of Practice": {
+    "uri": "https://canlii.ca/t/56pvt",
+    "score": 17.78763198852539,
+    "candidate_id": "l37442!37442-current-1",
+    "candidate_title": "Alberta Energy Regulator Rules of Practice",
+    "query_text": "legislation | Limits and Conditions of Practice",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56pvt",
+        "score": 17.78763198852539,
+        "candidate_title": "Alberta Energy Regulator Rules of Practice"
+      },
+      {
+        "uri": "https://canlii.ca/t/lfns",
+        "score": 15.150196075439453,
+        "candidate_title": "Regulation respecting the conditions governing the accreditation of manufacturers and wholesalers of medications"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w78",
+        "score": 7.728394985198975,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "Personal Information Protection Act": {
+    "uri": "https://canlii.ca/t/566gk",
+    "score": 44.98020935058594,
+    "candidate_id": "l20184!20184-current-1",
+    "candidate_title": "Personal Information Protection Act",
+    "query_text": "legislation | PIPA | Personal Information Protection Act | SBC 2003, c63",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/566gk",
+        "score": 44.98020935058594,
+        "candidate_title": "Personal Information Protection Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56cq3",
+        "score": 23.663497924804688,
+        "candidate_title": "Act respecting the protection of personal information in the private sector"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lg1",
+        "score": 22.06985855102539,
+        "candidate_title": "Act respecting Access to documents held by public bodies and the Protection of personal information"
+      }
+    ]
+  }
+}
