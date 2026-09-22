@@ -1,601 +1,601 @@
 {
   "Manitoba MBCA 1983": {
     "uri": "https://canlii.ca/t/g9tvb",
-    "score": 35.92953109741211,
+    "score": 39.00199890136719,
     "candidate_id": "1983mbca1000024",
     "candidate_title": "Manitoba v. Manitoba Human Rights Commission",
     "query_text": "decision | Manitoba v. Manitoba Human Rights Commission",
     "topk": [
       {
         "uri": "https://canlii.ca/t/g9tvb",
-        "score": 35.92953109741211,
+        "score": 39.00199890136719,
         "candidate_title": "Manitoba v. Manitoba Human Rights Commission"
       },
       {
         "uri": "https://canlii.ca/t/g9jb5",
-        "score": 35.681907653808594,
+        "score": 38.64692306518555,
         "candidate_title": "Manitoba v. Manitoba Human Rights Commission"
       },
       {
         "uri": "https://canlii.ca/t/g9zpc",
-        "score": 35.2828483581543,
+        "score": 38.334041595458984,
         "candidate_title": "Manitoba (Human Rights Commission) v. Winnipeg"
       }
     ]
   },
   "Newport": {
     "uri": "https://canlii.ca/t/gb9bv",
-    "score": 94.8329849243164,
+    "score": 101.86079406738281,
     "candidate_id": "1982mbca1000019",
     "candidate_title": "Newport v. Manitoba",
     "query_text": "decision | <i>Re\nNewport and Government of Manitoba</i> (1982) | Newport | 131 D L.R. (3d) 564 | [1982] 2\nW.W.R. 254, 13 Man. R. (2d) 292",
     "topk": [
       {
         "uri": "https://canlii.ca/t/gb9bv",
-        "score": 94.8329849243164,
+        "score": 101.86079406738281,
         "candidate_title": "Newport v. Manitoba"
       },
       {
         "uri": "https://canlii.ca/t/1fqzp",
-        "score": 41.203983306884766,
+        "score": 40.1947021484375,
         "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
       },
       {
         "uri": "https://canlii.ca/t/gb3gd",
-        "score": 34.87610626220703,
+        "score": 38.85224533081055,
         "candidate_title": "R. v. D."
       }
     ]
   },
   "Winnipeg MBQB 1982": {
     "uri": "https://canlii.ca/t/gc4l3",
-    "score": 122.22362518310547,
+    "score": 130.362060546875,
     "candidate_id": "1982mbqb1000027",
     "candidate_title": "Manitoba Human Rights Commission v. Winnipeg (City)",
     "query_text": "decision | <i>Re Manitoba Human Rights Com'n et\nal. and City of Winnipeg et al.</i> (1982) | Re Manitoba Human Rights Com'n | Re Manitoba Human Rights Com'n et al. and\nCity of Winnipeg et al. | 135 D.L.R. 641 | 16 Man.\nR. (2d) 94 | [1982] 4 W.W.R. 715",
     "topk": [
       {
         "uri": "https://canlii.ca/t/gc4l3",
-        "score": 122.22362518310547,
+        "score": 130.362060546875,
         "candidate_title": "Manitoba Human Rights Commission v. Winnipeg (City)"
       },
       {
         "uri": "https://canlii.ca/t/g9zpc",
-        "score": 93.43775177001953,
+        "score": 102.33494567871094,
         "candidate_title": "Manitoba (Human Rights Commission) v. Winnipeg"
       },
       {
-        "uri": "https://canlii.ca/t/1nfmh",
-        "score": 75.63614654541016,
-        "candidate_title": "Bell v. Ontario Human Rights Com'n."
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2012/2012mbca108/2012mbca108.html",
+        "score": 90.0143814086914,
+        "candidate_title": "Korsch v. Human Rights Commission (Man.) et al."
       }
     ]
   },
   "Winnipeg MBCA 1983": {
     "uri": "https://canlii.ca/t/g9zpc",
-    "score": 45.61158752441406,
+    "score": 46.774574279785156,
     "candidate_id": "1983mbca1000014",
     "candidate_title": "Manitoba (Human Rights Commission) v. Winnipeg",
     "query_text": "decision | 144\nD.L.R. (3d) 353 | [1983] 3 W.W.R. 117 | 20 Man. R. (2d) 200",
     "topk": [
       {
         "uri": "https://canlii.ca/t/g9zpc",
-        "score": 45.61158752441406,
+        "score": 46.774574279785156,
         "candidate_title": "Manitoba (Human Rights Commission) v. Winnipeg"
       },
       {
         "uri": "https://canlii.ca/t/1fs0k",
-        "score": 36.62730026245117,
+        "score": 37.31771469116211,
         "candidate_title": "R. v. E. (A.W.)"
       },
       {
-        "uri": "https://canlii.ca/t/1fr32",
-        "score": 27.444753646850586,
-        "candidate_title": "R. v. Stillman"
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2000/2000abca333/2000abca333.html",
+        "score": 28.798173904418945,
+        "candidate_title": "R. v. G.W.C."
       }
     ]
   },
   "Manitoba MBQB 1982": {
     "uri": "https://canlii.ca/t/g9jb5",
-    "score": 28.780071258544922,
+    "score": 29.866586685180664,
     "candidate_id": "1983mbqb1000033",
     "candidate_title": "Manitoba v. Manitoba Human Rights Commission",
     "query_text": "decision | 150 D.L.R. (3d) 524 | 1983] 6 W.W.R. 18",
     "topk": [
       {
         "uri": "https://canlii.ca/t/g9jb5",
-        "score": 28.780071258544922,
+        "score": 29.866586685180664,
         "candidate_title": "Manitoba v. Manitoba Human Rights Commission"
       },
       {
-        "uri": "https://canlii.ca/t/1fs0k",
-        "score": 23.492534637451172,
-        "candidate_title": "R. v. E. (A.W.)"
+        "uri": "https://www.canlii.org/en/ca/tmob/doc/2006/2006canlii93707/2006canlii93707.html",
+        "score": 26.51651954650879,
+        "candidate_title": "Michaels & Associates v. W.L. Smith & Associates Ltd."
       },
       {
-        "uri": "https://canlii.ca/t/2f0gt",
-        "score": 20.12055206298828,
-        "candidate_title": "W-4 Industrial Park (Sturgeon Industrial Estates) v. Alberta (Environment)"
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2000/2000abca333/2000abca333.html",
+        "score": 26.214677810668945,
+        "candidate_title": "R. v. G.W.C."
       }
     ]
   },
   "Burns": {
     "uri": "https://canlii.ca/t/gbqhg",
-    "score": 104.67516326904297,
+    "score": 106.71377563476562,
     "candidate_id": "1977bcsc1000163",
     "candidate_title": "Burns v. United Association of Journeyman of Plumbing and Pipefitting Industry, Local 170",
     "query_text": "decision | <i>Re Burns\nand United Ass'n of Journeymen of Plumbing &amp; Pipefitting Industry, Local\n170 et al.</i> (1977) | 82 D.L.R. (3d) 488 | [1978] 2 W.W.R. 22 | 78 C.L.L.C. | (B.C.S.C.)",
     "topk": [
       {
         "uri": "https://canlii.ca/t/gbqhg",
-        "score": 104.67516326904297,
+        "score": 106.71377563476562,
         "candidate_title": "Burns v. United Association of Journeyman of Plumbing and Pipefitting Industry, Local 170"
       },
       {
         "uri": "https://canlii.ca/t/1fsqw",
-        "score": 83.01325988769531,
+        "score": 79.26899719238281,
         "candidate_title": "Lester (W.W.) (1978) Ltd. v. United Association of Journeymen and Apprentices of the Plumbing and Pipefitting Industry, Local 740"
       },
       {
-        "uri": "https://canlii.ca/t/1fqzp",
-        "score": 41.553070068359375,
-        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2009/2009abca84/2009abca84.html",
+        "score": 66.06546020507812,
+        "candidate_title": "United Association of Journeymen and Apprentices of the Plumbing and Pipefitting Industry of the United States and Canada, Local 488 v. Bantrel Constructors Co."
       }
     ]
   },
   "United Glass and Ceramic Workers of North America": {
     "uri": "https://canlii.ca/t/g136m",
-    "score": 159.7830810546875,
+    "score": 163.22547912597656,
     "candidate_id": "1973onca1000099",
     "candidate_title": "Re United Glass and Ceramic Workers of North America (AFL-CIO-CLC), Local 246 and Dominion Glass Co. Ltd. et al.",
     "query_text": "decision | <i>Re United Glass &amp; Ceramic Workers of North\nAmerica (AFL-CIO-CLC), Local 246 and Dominion Glass Co. Ltd. et al.</i> (1973) | 40 D.L.R. (3d) 496 | 1 O.R. (2d) 408 | 5 L.A.C. (2d) 224<i>n</i> (Ont. C.A.)",
     "topk": [
       {
         "uri": "https://canlii.ca/t/g136m",
-        "score": 159.7830810546875,
+        "score": 163.22547912597656,
         "candidate_title": "Re United Glass and Ceramic Workers of North America (AFL-CIO-CLC), Local 246 and Dominion Glass Co. Ltd. et al."
       },
       {
-        "uri": "https://canlii.ca/t/1fqzp",
-        "score": 46.977142333984375,
-        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2012/2012scc5/2012scc5.html",
+        "score": 56.726829528808594,
+        "candidate_title": "R. v. D.A.I."
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 43.821353912353516,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/on/onla/doc/1992/1992canlii14636/1992canlii14636.html",
+        "score": 53.52334976196289,
+        "candidate_title": "North American Lumber Ltd. and I.W.A., Loc. 2693, Re"
       }
     ]
   },
   "Hiscott": {
     "uri": "https://canlii.ca/t/23299",
-    "score": 23.387834548950195,
+    "score": 22.909326553344727,
     "candidate_id": "1999mbca1000010",
     "candidate_title": "Manitoba Hydro Electric v. John Inglis Co.",
     "query_text": "decision | Hiscott\nv. General Electric Co. | (1975), 521 F. 2d 632",
     "topk": [
       {
         "uri": "https://canlii.ca/t/23299",
-        "score": 23.387834548950195,
+        "score": 22.909326553344727,
         "candidate_title": "Manitoba Hydro Electric v. John Inglis Co."
       },
       {
         "uri": "https://canlii.ca/t/1mzjb",
-        "score": 18.40605354309082,
+        "score": 20.923046112060547,
         "candidate_title": "Nova Scotia Board of Censors v. McNeil"
       },
       {
-        "uri": "https://canlii.ca/t/1z6fk",
-        "score": 17.245128631591797,
-        "candidate_title": "Pfizer Co. Ltd. v. Deputy Minister of National Revenue"
+        "uri": "https://www.canlii.org/en/ca/fct/doc/1975/1975canlii2598/1975canlii2598.html",
+        "score": 20.24941635131836,
+        "candidate_title": "American Cyanamid Co. et al. v. Ethicon Inc. et al."
       }
     ]
   },
   "Woodburn": {
-    "uri": "https://canlii.ca/t/k407z",
-    "score": 15.389154434204102,
-    "candidate_id": "2024bcsc585",
-    "candidate_title": "Royal Bank of Canada v Canwest Aerospace Inc.",
+    "uri": "https://www.canlii.org/en/mb/mbca/doc/2006/2006mbca111/2006mbca111.html",
+    "score": 18.640790939331055,
+    "candidate_id": "2006mbca111",
+    "candidate_title": "National Automobile, Aerospace, Transportation and General Workers Unions of Canada v. Bristol Aerospace Ltd.",
     "query_text": "decision | Woodburn v. LTV Aerospace\nCorp. | (1976), 531 F. 2d. 750",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/k407z",
-        "score": 15.389154434204102,
-        "candidate_title": "Royal Bank of Canada v Canwest Aerospace Inc."
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2006/2006mbca111/2006mbca111.html",
+        "score": 18.640790939331055,
+        "candidate_title": "National Automobile, Aerospace, Transportation and General Workers Unions of Canada v. Bristol Aerospace Ltd."
       },
       {
-        "uri": "https://canlii.ca/t/jqrkg",
-        "score": 15.106876373291016,
-        "candidate_title": "Rossi v. The Queen"
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2016/2016onsc6732/2016onsc6732.html",
+        "score": 18.406797409057617,
+        "candidate_title": "L.C.F. v G.F."
       },
       {
-        "uri": "https://canlii.ca/t/g8jxk",
-        "score": 13.81888484954834,
-        "candidate_title": "Gonzalez v. Canada (Citizenship and Immigration)"
+        "uri": "https://www.canlii.org/en/ca/fca/doc/1976/1976canlii2410/1976canlii2410.html",
+        "score": 18.250499725341797,
+        "candidate_title": "Champion Packaging Corp. v. Triumph Packaging Corp."
       }
     ]
   },
   "Charlier": {
-    "uri": "https://canlii.ca/t/1jzqz",
-    "score": 26.215085983276367,
-    "candidate_id": "2005qccs18481",
-    "candidate_title": "I.C.I. Chèque c. Travel Currency Inc.",
+    "uri": "https://www.canlii.org/en/ca/scc/doc/1979/1979canlii171/1979canlii171.html",
+    "score": 32.889427185058594,
+    "candidate_id": "1979csc-scc10149",
+    "candidate_title": "Johnson (S.C.) and Son, Ltd. et al. v. Marketing International Ltd.",
     "query_text": "decision | <i>Charlier et al. v. S.C. Johnson &amp; Son,\nInc.</i> (1977) | 556 F. 2d 761",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 26.215085983276367,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1979/1979canlii171/1979canlii171.html",
+        "score": 32.889427185058594,
+        "candidate_title": "Johnson (S.C.) and Son, Ltd. et al. v. Marketing International Ltd."
       },
       {
-        "uri": "https://canlii.ca/t/1z6dr",
-        "score": 21.74625587463379,
-        "candidate_title": "Tomko v. Labour Relations Board (N.S.) et al."
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1986/1986canlii2827/1986canlii2827.html",
+        "score": 26.08208656311035,
+        "candidate_title": "Re Friction Division Products, Inc. and E. I. Du Pont de Nemours & Co. Inc. et al. (No. 2)"
       },
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 21.528703689575195,
-        "candidate_title": "Bhatnager v. M.E.I."
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1995/1995canlii7420/1995canlii7420.html",
+        "score": 24.77442741394043,
+        "candidate_title": "C.I.B.C. v. Bramalea Inc."
       }
     ]
   },
   "Goldman": {
-    "uri": "https://canlii.ca/t/jqtg2",
-    "score": 19.83684539794922,
-    "candidate_id": "1985fcttd1000035",
-    "candidate_title": "Bhatnager v. M.E.I.",
+    "uri": "https://www.canlii.org/en/ca/scc/doc/1979/1979canlii60/1979canlii60.html",
+    "score": 28.88896369934082,
+    "candidate_id": "1979csc-scc10043",
+    "candidate_title": "Goldman v. R.",
     "query_text": "decision | <i>Goldman v. Sears, Roebuck &amp; Co.</i>\n(1979) | 607 F. 2d 1014",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 19.83684539794922,
-        "candidate_title": "Bhatnager v. M.E.I."
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1979/1979canlii60/1979canlii60.html",
+        "score": 28.88896369934082,
+        "candidate_title": "Goldman v. R."
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 19.740936279296875,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/on/onhrt/doc/2010/2010hrto1979/2010hrto1979.html",
+        "score": 24.175533294677734,
+        "candidate_title": "Wood v. Director, Ontario Disability Support Program"
       },
       {
-        "uri": "https://canlii.ca/t/gh0jg",
-        "score": 18.805219650268555,
-        "candidate_title": "Ontario (Finance) (Re)"
+        "uri": "https://www.canlii.org/en/ca/fct/doc/1992/1992canlii14802/1992canlii14802.html",
+        "score": 23.505680084228516,
+        "candidate_title": "Clorox Co. v. Sears Canada Inc. (T.D.)"
       }
     ]
   },
   "Wright": {
-    "uri": "https://canlii.ca/t/jqtg2",
-    "score": 21.528703689575195,
-    "candidate_id": "1985fcttd1000035",
-    "candidate_title": "Bhatnager v. M.E.I.",
+    "uri": "https://www.canlii.org/en/bc/bcca/doc/1986/1986canlii1048/1986canlii1048.html",
+    "score": 25.103246688842773,
+    "candidate_id": "1986bcca1000130",
+    "candidate_title": "Lee v. I.C.B.C",
     "query_text": "decision | <i>Wright v. State of Tennessee et al.</i> (1980) | 628 F.\n2d 949",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 21.528703689575195,
-        "candidate_title": "Bhatnager v. M.E.I."
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1986/1986canlii1048/1986canlii1048.html",
+        "score": 25.103246688842773,
+        "candidate_title": "Lee v. I.C.B.C"
       },
       {
-        "uri": "https://canlii.ca/t/1mjvm",
-        "score": 20.283050537109375,
-        "candidate_title": "Att. Gen. of Can. v. Inuit Tapirisat et al."
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1986/1986canlii2827/1986canlii2827.html",
+        "score": 24.094284057617188,
+        "candidate_title": "Re Friction Division Products, Inc. and E. I. Du Pont de Nemours & Co. Inc. et al. (No. 2)"
       },
       {
-        "uri": "https://canlii.ca/t/1fqzp",
-        "score": 19.79364776611328,
-        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1995/1995canlii7420/1995canlii7420.html",
+        "score": 23.945905685424805,
+        "candidate_title": "C.I.B.C. v. Bramalea Inc."
       }
     ]
   },
   "Parking Authority of Toronto": {
     "uri": "https://canlii.ca/t/g1jr7",
-    "score": 56.151851654052734,
+    "score": 58.54762649536133,
     "candidate_id": "1974onhcjdc1000014",
     "candidate_title": "Re Parking Authority of Toronto and Toronto Civic Employees' Union Local 43, Canadian Union of Public Employees",
     "query_text": "decision | <i>Re Parking Authority of Toronto and C.U.P.E., Local 43</i> (1974) | 5\nL.A.C. (2d) 150",
     "topk": [
       {
         "uri": "https://canlii.ca/t/g1jr7",
-        "score": 56.151851654052734,
+        "score": 58.54762649536133,
         "candidate_title": "Re Parking Authority of Toronto and Toronto Civic Employees' Union Local 43, Canadian Union of Public Employees"
       },
       {
         "uri": "https://canlii.ca/t/1fqzp",
-        "score": 34.89828109741211,
+        "score": 35.126529693603516,
         "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
       },
       {
         "uri": "https://canlii.ca/t/1fsnh",
-        "score": 33.87779235839844,
+        "score": 34.316017150878906,
         "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
       }
     ]
   },
   "Dressler": {
     "uri": "https://canlii.ca/t/gdlsg",
-    "score": 80.11376190185547,
+    "score": 82.40980529785156,
     "candidate_id": "1962mbca1000010",
     "candidate_title": "Dressler v. Tallman Gravel & Sand Supply Ltd.",
     "query_text": "decision | Dressier v. Tollman Gravel &amp; Sand Supply Ltd. | (1962), 36 D.L.R. (2d) 398 | [1963] 2 C.C.C. 25 | 40 W.W.R. 449",
     "topk": [
       {
         "uri": "https://canlii.ca/t/gdlsg",
-        "score": 80.11376190185547,
+        "score": 82.40980529785156,
         "candidate_title": "Dressler v. Tallman Gravel & Sand Supply Ltd."
       },
       {
-        "uri": "https://canlii.ca/t/1fs0k",
-        "score": 30.461435317993164,
-        "candidate_title": "R. v. E. (A.W.)"
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1963/1963canlii10/1963canlii10.html",
+        "score": 34.87812042236328,
+        "candidate_title": "W.J. Crowe Ltd. v. Pigott Construction Co."
       },
       {
-        "uri": "https://canlii.ca/t/g9n42",
-        "score": 29.981346130371094,
-        "candidate_title": "Kelson v. MacPhail (A.W.) Ltd."
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/1973/1973canlii940/1973canlii940.html",
+        "score": 33.47146987915039,
+        "candidate_title": "Saskatoon Sand & Gravel Ltd v Steve et at"
       }
     ]
   },
   "Hole": {
-    "uri": "https://canlii.ca/t/1jzqz",
-    "score": 25.50365447998047,
-    "candidate_id": "2005qccs18481",
-    "candidate_title": "I.C.I. Chèque c. Travel Currency Inc.",
+    "uri": "https://www.canlii.org/en/bc/bcca/doc/1986/1986canlii1048/1986canlii1048.html",
+    "score": 26.51370620727539,
+    "candidate_id": "1986bcca1000130",
+    "candidate_title": "Lee v. I.C.B.C",
     "query_text": "decision | <i>Hole v. Chard Union</i> | [1894]\n1 Ch. 293",
     "topk": [
       {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1986/1986canlii1048/1986canlii1048.html",
+        "score": 26.51370620727539,
+        "candidate_title": "Lee v. I.C.B.C"
+      },
+      {
         "uri": "https://canlii.ca/t/1jzqz",
-        "score": 25.50365447998047,
+        "score": 26.43085289001465,
         "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
       },
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 19.83684539794922,
-        "candidate_title": "Bhatnager v. M.E.I."
-      },
-      {
-        "uri": "https://canlii.ca/t/hvd7z",
-        "score": 17.27528953552246,
-        "candidate_title": "AB v. Ontario (Education)"
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2006/2006bcca58/2006bcca58.html",
+        "score": 22.970462799072266,
+        "candidate_title": "Kemess Mines Ltd. v. International Union of Operating Engineers, Local 115"
       }
     ]
   },
   "Vialoux": {
     "uri": "https://canlii.ca/t/g92m0",
-    "score": 53.729835510253906,
+    "score": 57.93244934082031,
     "candidate_id": "1983mbca1000035",
     "candidate_title": "Vialoux v. Registred Psychiatric Nurses Association of Manitoba",
     "query_text": "decision | Vialoux v. Registered Psychiatric Nurses Ass'n of Manitoba",
     "topk": [
       {
         "uri": "https://canlii.ca/t/g92m0",
-        "score": 53.729835510253906,
+        "score": 57.93244934082031,
         "candidate_title": "Vialoux v. Registred Psychiatric Nurses Association of Manitoba"
       },
       {
-        "uri": "https://canlii.ca/t/h09jf",
-        "score": 27.093997955322266,
-        "candidate_title": "Low v. Registered Nurses' Association of BC and another"
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2017/2017mbca111/2017mbca111.html",
+        "score": 36.027931213378906,
+        "candidate_title": "Kuny v College of Registered Nurses of Manitoba"
       },
       {
-        "uri": "https://canlii.ca/t/hw1xc",
-        "score": 16.54590606689453,
-        "candidate_title": "Duteil v British Columbia Nurses’ Union"
+        "uri": "https://canlii.ca/t/h09jf",
+        "score": 28.45123863220215,
+        "candidate_title": "Low v. Registered Nurses' Association of BC and another"
       }
     ]
   },
   "Metropolitan Toronto Board of Commissioners of Police": {
     "uri": "https://canlii.ca/t/g17zd",
-    "score": 84.88972473144531,
+    "score": 88.462890625,
     "candidate_id": "1971onca1000091",
     "candidate_title": "Regina v. Metropolitan Toronto Board of Commissioners of Police, Ex parte Prosser",
     "query_text": "decision | <i>R. v. Metropolitan Toronto Board of Com'rs of\nPolice, Ex p. Prosser</i> (1971) | 20 D.L.R. (3d) 403 | [1971] 3 O.R. 353 (Ont. C.A.)",
     "topk": [
       {
         "uri": "https://canlii.ca/t/g17zd",
-        "score": 84.88972473144531,
+        "score": 88.462890625,
         "candidate_title": "Regina v. Metropolitan Toronto Board of Commissioners of Police, Ex parte Prosser"
       },
       {
-        "uri": "https://canlii.ca/t/1nfmh",
-        "score": 41.63604736328125,
-        "candidate_title": "Bell v. Ontario Human Rights Com'n."
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1971/1971canlii3/1971canlii3.html",
+        "score": 47.797088623046875,
+        "candidate_title": "Grillas v. Minister of Manpower and Immigration"
       },
       {
-        "uri": "https://canlii.ca/t/1fqzp",
-        "score": 35.4818115234375,
-        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1971/1971altascad25/1971altascad25.html",
+        "score": 42.918827056884766,
+        "candidate_title": "R. v. Handy"
       }
     ]
   },
   "Man of Aran": {
     "uri": "https://canlii.ca/t/g1f6t",
-    "score": 119.77371978759766,
+    "score": 130.07904052734375,
     "candidate_id": "1973onhcjdc1000106",
     "candidate_title": "Re International Beverage Dispensers' & Bartenders' Union Local 280 and Man of Aran Ltd.",
     "query_text": "decision | <i>Re Int'l Beverage Dispensers' &amp; Bartenders' Union Local 280 and Man\nof Aran Ltd.</i> | <i>Man of Aran Ltd.</i>, | (1973), 41 D.L.R. (3d) 699 | 2 O.R. (2d) 54 (Ont. Div. Ct.) | D.L.R. | O.R.",
     "topk": [
       {
         "uri": "https://canlii.ca/t/g1f6t",
-        "score": 119.77371978759766,
+        "score": 130.07904052734375,
         "candidate_title": "Re International Beverage Dispensers' & Bartenders' Union Local 280 and Man of Aran Ltd."
       },
       {
-        "uri": "https://canlii.ca/t/1fqzp",
-        "score": 58.82324981689453,
-        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2006/2006bcca58/2006bcca58.html",
+        "score": 58.642738342285156,
+        "candidate_title": "Kemess Mines Ltd. v. International Union of Operating Engineers, Local 115"
       },
       {
-        "uri": "https://canlii.ca/t/1fsnh",
-        "score": 41.2878532409668,
-        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 58.18865203857422,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
       }
     ]
   },
   "Torchinsky": {
     "uri": "https://canlii.ca/t/gbkgp",
-    "score": 64.87450408935547,
+    "score": 69.65975952148438,
     "candidate_id": "1981mbqb1000010",
     "candidate_title": "Winnipeg (City) v. Torchinsky",
     "query_text": "decision | <i>Re City of Winnipeg and Torchinsky</i> (1981) | 129 D.L.R. (3d) 170 | 13 Man. R. (2d) 369",
     "topk": [
       {
         "uri": "https://canlii.ca/t/gbkgp",
-        "score": 64.87450408935547,
+        "score": 69.65975952148438,
         "candidate_title": "Winnipeg (City) v. Torchinsky"
       },
       {
-        "uri": "https://canlii.ca/t/1fqzp",
-        "score": 31.166336059570312,
-        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+        "uri": "https://www.canlii.org/en/mb/mbqb/doc/2015/2015mbqb188/2015mbqb188.html",
+        "score": 32.41927719116211,
+        "candidate_title": "The City of Winnipeg v."
       },
       {
-        "uri": "https://canlii.ca/t/gc4l3",
-        "score": 25.090211868286133,
-        "candidate_title": "Manitoba Human Rights Commission v. Winnipeg (City)"
+        "uri": "https://canlii.ca/t/1fqzp",
+        "score": 30.796796798706055,
+        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
       }
     ]
   },
   "Human Rights Act": {
-    "uri": "https://canlii.ca/t/56fd8",
-    "score": 30.010154724121094,
-    "candidate_id": "l12864!12864-current-1",
+    "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+    "score": 31.188032150268555,
+    "candidate_id": "l5679!5679-current-1",
     "candidate_title": "Interpretation Act",
     "query_text": "legislation | <i>Human Rights\nAct</i> | Act | 1974 (Man.), c. 65",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 30.010154724121094,
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+        "score": 31.188032150268555,
         "candidate_title": "Interpretation Act"
       },
       {
-        "uri": "https://canlii.ca/t/hznr",
-        "score": 29.751220703125,
-        "candidate_title": "Interest Act"
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-8/latest/cqlr-c-i-8.html",
+        "score": 30.552888870239258,
+        "candidate_title": "Nurses Act"
       },
       {
-        "uri": "https://canlii.ca/t/564nl",
-        "score": 28.416772842407227,
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 30.060184478759766,
         "candidate_title": "Interpretation Act"
       }
     ]
   },
   "Human Rights Code": {
     "uri": "https://canlii.ca/t/56jgg",
-    "score": 19.813716888427734,
+    "score": 17.268346786499023,
     "candidate_id": "l29121!29121-current-1",
     "candidate_title": "The Human Rights Code",
     "query_text": "legislation | C.C.S.M., H175",
     "topk": [
       {
         "uri": "https://canlii.ca/t/56jgg",
-        "score": 19.813716888427734,
+        "score": 17.268346786499023,
         "candidate_title": "The Human Rights Code"
       },
       {
         "uri": "https://canlii.ca/t/52xx6",
-        "score": 16.64251136779785,
+        "score": 13.016351699829102,
         "candidate_title": "Municipalities Act"
       },
       {
-        "uri": "https://canlii.ca/t/56mjl",
-        "score": 14.145049095153809,
-        "candidate_title": "Marriage Act"
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-m-13/latest/rsc-1985-c-m-13.html",
+        "score": 12.125432968139648,
+        "candidate_title": "Payments in Lieu of Taxes Act"
       }
     ]
   },
   "Civil Service Superannuation Act": {
     "uri": "https://canlii.ca/t/53p6q",
-    "score": 42.73802185058594,
+    "score": 45.42242431640625,
     "candidate_id": "l23624!23624-current-1",
     "candidate_title": "Civil Service Act",
     "query_text": "legislation | <i>Civil Service\nSuperannuation Act</i> | Civil Service Superannuation Act | R.S.M. 1970, c. C120",
     "topk": [
       {
         "uri": "https://canlii.ca/t/53p6q",
-        "score": 42.73802185058594,
+        "score": 45.42242431640625,
         "candidate_title": "Civil Service Act"
       },
       {
-        "uri": "https://canlii.ca/t/hznr",
-        "score": 31.577234268188477,
-        "candidate_title": "Interest Act"
+        "uri": "https://canlii.ca/t/56p73",
+        "score": 33.595638275146484,
+        "candidate_title": "Civil Resolution Tribunal Act"
       },
       {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 30.010154724121094,
-        "candidate_title": "Interpretation Act"
+        "uri": "https://canlii.ca/t/hznr",
+        "score": 31.515342712402344,
+        "candidate_title": "Interest Act"
       }
     ]
   },
   "English Rule": {
-    "uri": "https://canlii.ca/t/56jxc",
-    "score": 8.268197059631348,
-    "candidate_id": "l74891!74891-current-1",
-    "candidate_title": "Occupational Health and Safety Act",
+    "uri": "https://www.canlii.org/en/on/laws/stat/rso-1990-c-c37/latest/rso-1990-c-c37.html",
+    "score": 10.218443870544434,
+    "candidate_id": "l82!82-current-1",
+    "candidate_title": "Coroners Act",
     "query_text": "legislation | O. 37",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/56jxc",
-        "score": 8.268197059631348,
-        "candidate_title": "Occupational Health and Safety Act"
+        "uri": "https://www.canlii.org/en/on/laws/stat/rso-1990-c-c37/latest/rso-1990-c-c37.html",
+        "score": 10.218443870544434,
+        "candidate_title": "Coroners Act"
       },
       {
-        "uri": "https://canlii.ca/t/56p11",
-        "score": 8.086066246032715,
-        "candidate_title": "Institutions"
+        "uri": "https://www.canlii.org/en/on/laws/regu/o-reg-253-07/latest/o-reg-253-07.html",
+        "score": 9.99221420288086,
+        "candidate_title": "Firefighters"
       },
       {
-        "uri": "https://canlii.ca/t/5450m",
-        "score": 7.283829689025879,
-        "candidate_title": "Small Claims Court Jurisdiction"
+        "uri": "https://www.canlii.org/en/on/laws/regu/o-reg-865-93/latest/o-reg-865-93.html",
+        "score": 9.99221420288086,
+        "candidate_title": "Registration"
       }
     ]
   },
   "City of Winnipeg Act": {
     "uri": "https://canlii.ca/t/8llp",
-    "score": 22.19352149963379,
-    "candidate_id": "l32761!32761-current-4",
+    "score": 26.79404067993164,
+    "candidate_id": "l32761!32761-current-10",
     "candidate_title": "The City of Winnipeg Act",
     "query_text": "legislation | City of Winnipeg Act",
     "topk": [
       {
         "uri": "https://canlii.ca/t/8llp",
-        "score": 22.19352149963379,
+        "score": 26.79404067993164,
         "candidate_title": "The City of Winnipeg Act"
       },
       {
         "uri": "https://canlii.ca/t/8llp",
-        "score": 22.19352149963379,
+        "score": 26.79404067993164,
         "candidate_title": "The City of Winnipeg Act"
       },
       {
         "uri": "https://canlii.ca/t/8llp",
-        "score": 22.19352149963379,
+        "score": 26.79404067993164,
         "candidate_title": "The City of Winnipeg Act"
       }
     ]
   },
   "Interpretation of Statutes": {
     "uri": "https://canlii.ca/t/2bpn",
-    "score": 13.319653511047363,
+    "score": 13.46285343170166,
     "candidate_id": "d3650!d3650",
     "candidate_title": "Rethinking the Ramifications of Reasonableness Review: Stare Decisis and Reasonableness Review on Questions of Law",
     "query_text": "secondary sources | on Interpretation of\nStatutes | Maxwell",
     "topk": [
       {
         "uri": "https://canlii.ca/t/2bpn",
-        "score": 13.319653511047363,
+        "score": 13.46285343170166,
         "candidate_title": "Rethinking the Ramifications of Reasonableness Review: Stare Decisis and Reasonableness Review on Questions of Law"
       },
       {
-        "uri": "https://canlii.ca/t/53m25",
-        "score": 11.537785530090332,
-        "candidate_title": "Statutes Amendment Act, 2015"
+        "uri": "https://canlii.ca/t/56kzw",
+        "score": 12.952204704284668,
+        "candidate_title": "Interpretation Act"
       },
       {
-        "uri": "https://canlii.ca/t/56kzw",
-        "score": 11.337186813354492,
-        "candidate_title": "Interpretation Act"
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 12.697785377502441,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
       }
     ]
   }

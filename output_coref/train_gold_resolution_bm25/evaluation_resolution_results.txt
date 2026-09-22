@@ -13,10 +13,10 @@ Level-3 (uri) batch evaluation — 4 file pair(s)
 ======================================================================
 
 [1/4] 1994CanLII4528NLCA.html
-  matched spans:  424  |  uri instances:   166  |  accuracy: 4.2%
+  matched spans:  424  |  uri instances:   166  |  accuracy: 7.8%
 
 [2/4] 1997CanLII16226ONCA.html
-  matched spans: 1911  |  uri instances:   555  |  accuracy: 45.8%
+  matched spans: 1911  |  uri instances:   555  |  accuracy: 46.5%
 
 [3/4] 2008CSC9.html
   matched spans: 1399  |  uri instances:   417  |  accuracy: 98.6%
@@ -41,12 +41,12 @@ Level-3 (uri) batch evaluation — 4 file pair(s)
   Matched spans (Level 1)   :   8392
   URI instances compared    :   2320
   Skipped (gold uri=None)   :    400
-  Matching URI values       :   1519
-  URI ACCURACY              :     65.47%
+  Matching URI values       :   1529
+  URI ACCURACY              :     65.91%
 
   Errors — missing in system:     34
          — missing in gold  :      7
-         — different value  :    760
+         — different value  :    750
 
 ──────────────────────────────────────────────────────────────────────────────
   PER-LABEL BREAKDOWN
@@ -54,7 +54,7 @@ Level-3 (uri) batch evaluation — 4 file pair(s)
 
   Label                                 Total  Match   Accuracy
   ────────────────────────────────────────────────────────────
-  decision                               1451   1278      88.1%
+  decision                               1451   1288      88.8%
   legislation                             835    217      26.0%
   secondary sources                        34     24      70.6%
 
@@ -64,12 +64,12 @@ Level-3 (uri) batch evaluation — 4 file pair(s)
 
   Category                              Total  Match   Accuracy
   ────────────────────────────────────────────────────────────
-  decision                               1451   1278      88.1%
+  decision                               1451   1288      88.8%
   legislation                             835    217      26.0%
   secondary sources                        34     24      70.6%
 
 ══════════════════════════════════════════════════════════════════════════════
 
-  Macro accuracy (mean per-document uri accuracy): 55.05%
+  Macro accuracy (mean per-document uri accuracy): 56.13%
   Documents evaluated: 4/4
 

@@ -1,1081 +1,1081 @@
 {
   "Aquilini": {
     "uri": "https://canlii.ca/t/k4gg2",
-    "score": 114.64361572265625,
+    "score": 116.83147430419922,
     "candidate_id": "2024bcsc764",
     "candidate_title": "Aquilini Development Limited Partnership v Garibaldi at Squamish Limited Partnership",
     "query_text": "decision | Aquilini Development Limited\n  Partnership v. Garibaldi at Squamish Limited Partnership | <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"MsoNormalTable\" style=\"border-collapse:collapse\"><tbody><tr><td style=\"padding:0in 5.4pt 0in 5.4pt\" valign=\"top\"><p class=\"SCJNormal\">2024 BCSC 764</p></td></tr><tr><td style=\"padding:0in 5.4pt 0in 5.4pt\" valign=\"top\"><p class=\"SCJNormal\"></p>\n</td>\n</tr>\n</tbody></table>",
     "topk": [
       {
         "uri": "https://canlii.ca/t/k4gg2",
-        "score": 114.64361572265625,
+        "score": 116.83147430419922,
         "candidate_title": "Aquilini Development Limited Partnership v Garibaldi at Squamish Limited Partnership"
       },
       {
-        "uri": "https://canlii.ca/t/jzvnl",
-        "score": 40.98117446899414,
-        "candidate_title": "Peakhill Capital Inc. v Southview Gardens Limited Partnership"
+        "uri": "https://www.canlii.org/en/on/onca/doc/2024/2024onca439/2024onca439.html",
+        "score": 56.49018478393555,
+        "candidate_title": "Legault v. TD General Insurance Company"
       },
       {
-        "uri": "https://canlii.ca/t/51s6",
-        "score": 39.10540008544922,
-        "candidate_title": "Bell ExpressVu Limited Partnership v. Rex"
+        "uri": "https://www.canlii.org/en/on/onlat/doc/2019/2019canlii43918/2019canlii43918.html",
+        "score": 52.847774505615234,
+        "candidate_title": "18-002397 v TD Insurance"
       }
     ]
   },
   "PaySlate BCSC 2023-1": {
-    "uri": "https://canlii.ca/t/1jzqz",
-    "score": 94.57113647460938,
-    "candidate_id": "2005qccs18481",
-    "candidate_title": "I.C.I. Chèque c. Travel Currency Inc.",
+    "uri": "https://canlii.ca/t/jwqkd",
+    "score": 100.9969711303711,
+    "candidate_id": "2023bcsc608",
+    "candidate_title": "PaySlate Inc. (Re)",
     "query_text": "decision | <i>PaySlate Inc. (Re)</i> | PaySlate #1 | <i>PaySlate #1</i> | <i>PaySlate\n#1</i> | <i>PaySlate</i> #<i>1</i> | 2023 BCSC 608",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 94.57113647460938,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
-      },
-      {
         "uri": "https://canlii.ca/t/jwqkd",
-        "score": 93.87066650390625,
+        "score": 100.9969711303711,
         "candidate_title": "PaySlate Inc. (Re)"
       },
       {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 92.07027435302734,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
         "uri": "https://canlii.ca/t/jxjmg",
-        "score": 84.6071548461914,
+        "score": 90.33331298828125,
         "candidate_title": "PaySlate Inc. (Re)"
       }
     ]
   },
   "PaySlate BCSC 2023-2": {
     "uri": "https://canlii.ca/t/jxjmg",
-    "score": 64.38584899902344,
+    "score": 66.6917953491211,
     "candidate_id": "2023bcsc977",
     "candidate_title": "PaySlate Inc. (Re)",
     "query_text": "decision | PaySlate #2 | <i>PaySlate #2</i> | <i>PaySlate\n#2</i> | 2023 BCSC 977",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jxjmg",
-        "score": 64.38584899902344,
+        "score": 66.6917953491211,
         "candidate_title": "PaySlate Inc. (Re)"
       },
       {
         "uri": "https://canlii.ca/t/jwqkd",
-        "score": 53.5298957824707,
+        "score": 55.011959075927734,
         "candidate_title": "PaySlate Inc. (Re)"
       },
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 39.22882080078125,
-        "candidate_title": "Bhatnager v. M.E.I."
+        "uri": "https://www.canlii.org/en/sk/skort/doc/2016/2016skort2/2016skort2.html",
+        "score": 43.30250549316406,
+        "candidate_title": "ICR Property Management Inc. v O.I."
       }
     ]
   },
   "Peakhill": {
     "uri": "https://canlii.ca/t/jzvnl",
-    "score": 113.30615234375,
+    "score": 117.87467193603516,
     "candidate_id": "2023bcsc1476",
     "candidate_title": "Peakhill Capital Inc. v Southview Gardens Limited Partnership",
     "query_text": "decision | <i>Peakhill Capital Inc. v. Southview\nGardens Limited Partnership</i> | <i>Peakhill</i> | Peakhill | 2023 BCSC 1476",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jzvnl",
-        "score": 113.30615234375,
+        "score": 117.87467193603516,
         "candidate_title": "Peakhill Capital Inc. v Southview Gardens Limited Partnership"
       },
       {
         "uri": "https://canlii.ca/t/1jzqz",
-        "score": 40.973628997802734,
+        "score": 40.10075378417969,
         "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
       },
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 35.6076545715332,
-        "candidate_title": "Bhatnager v. M.E.I."
+        "uri": "https://www.canlii.org/en/sk/skort/doc/2016/2016skort2/2016skort2.html",
+        "score": 39.16632843017578,
+        "candidate_title": "ICR Property Management Inc. v O.I."
       }
     ]
   },
   "Port Capital": {
-    "uri": "https://canlii.ca/t/1jzqz",
-    "score": 118.3919906616211,
-    "candidate_id": "2005qccs18481",
-    "candidate_title": "I.C.I. Chèque c. Travel Currency Inc.",
+    "uri": "https://www.canlii.org/en/bc/bcca/doc/1986/1986canlii1048/1986canlii1048.html",
+    "score": 113.17058563232422,
+    "candidate_id": "1986bcca1000130",
+    "candidate_title": "Lee v. I.C.B.C",
     "query_text": "decision | <i>1351486 B.C. Ltd. v. <a name=\"_Hlk165461522\">Living Beachside Development Limited Partnership</a></i><i>, </i><i>Port\nCapital, et al.</i> | Port Capital | <i>Port Capital</i> | <i>Port\nCapital</i> | (27 October 2023),<i> </i>Vancouver S229506 (B.C.S.C.)",
     "topk": [
       {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1986/1986canlii1048/1986canlii1048.html",
+        "score": 113.17058563232422,
+        "candidate_title": "Lee v. I.C.B.C"
+      },
+      {
         "uri": "https://canlii.ca/t/1jzqz",
-        "score": 118.3919906616211,
+        "score": 107.65497589111328,
         "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
       },
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 103.7664566040039,
-        "candidate_title": "Bhatnager v. M.E.I."
-      },
-      {
-        "uri": "https://canlii.ca/t/1fsnh",
-        "score": 93.54373168945312,
-        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+        "uri": "https://www.canlii.org/en/on/oncj/doc/2016/2016oncj615/2016oncj615.html",
+        "score": 106.44011688232422,
+        "candidate_title": "I.A. v. M.Z."
       }
     ]
   },
   "Canwest": {
     "uri": "https://canlii.ca/t/k407z",
-    "score": 98.27483367919922,
+    "score": 100.6224594116211,
     "candidate_id": "2024bcsc585",
     "candidate_title": "Royal Bank of Canada v Canwest Aerospace Inc.",
     "query_text": "decision | <i>Royal Bank of Canada v. Canwest Aerospace Inc</i>. | <i>Canwest</i> | Canwest | 2024 BCSC 585",
     "topk": [
       {
         "uri": "https://canlii.ca/t/k407z",
-        "score": 98.27483367919922,
+        "score": 100.6224594116211,
         "candidate_title": "Royal Bank of Canada v Canwest Aerospace Inc."
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 40.973628997802734,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2016/2016fc606/2016fc606.html",
+        "score": 41.759765625,
+        "candidate_title": "The Regents of University of California v. I-Med Pharma Inc."
       },
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 37.58515930175781,
-        "candidate_title": "Bhatnager v. M.E.I."
+        "uri": "https://www.canlii.org/en/sk/skort/doc/2016/2016skort2/2016skort2.html",
+        "score": 41.56575012207031,
+        "candidate_title": "ICR Property Management Inc. v O.I."
       }
     ]
   },
   "Hansard Spruce Mills": {
     "uri": "https://canlii.ca/t/gbvxl",
-    "score": 254.27597045898438,
+    "score": 278.4574890136719,
     "candidate_id": "1954bcsc1000003",
     "candidate_title": "Hansard Spruce Mills Limited (Re)",
     "query_text": "decision | <i>Hansard Spruce Mills (Re)</i> | <i>Hansard\nSpruce Mills</i> | <i>Re Hansard Spruce Mills</i> | <i>Spruce\nMills</i> | <i>Spruce Mills</i> | Hansard Spruce Mills (Re) | [1954] 4 D.L.R. 590 | 1954 CanLII\n253 (B.C.S.C.) | 1954 CanLII 253\n(B.C.S.C.)",
     "topk": [
       {
         "uri": "https://canlii.ca/t/gbvxl",
-        "score": 254.27597045898438,
+        "score": 278.4574890136719,
         "candidate_title": "Hansard Spruce Mills Limited (Re)"
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 107.38365173339844,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/on/onccb/doc/2002/2002canlii33965/2002canlii33965.html",
+        "score": 104.8664321899414,
+        "candidate_title": "C.I. (Re)"
       },
       {
-        "uri": "https://canlii.ca/t/1fsnh",
-        "score": 96.92658996582031,
-        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1986/1986canlii1048/1986canlii1048.html",
+        "score": 98.5264892578125,
+        "candidate_title": "Lee v. I.C.B.C"
       }
     ]
   },
   "Sullivan": {
     "uri": "https://canlii.ca/t/jp64b",
-    "score": 57.318485260009766,
+    "score": 59.29929733276367,
     "candidate_id": "2022csc-scc19",
     "candidate_title": "R. v. Sullivan",
     "query_text": "decision | <i>R. v. Sullivan</i> | <i>Sullivan</i> | R. v. Sullivan | 2022 SCC 19",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jp64b",
-        "score": 57.318485260009766,
+        "score": 59.29929733276367,
         "candidate_title": "R. v. Sullivan"
       },
       {
         "uri": "https://canlii.ca/t/fsxn2",
-        "score": 44.57731628417969,
+        "score": 49.374855041503906,
         "candidate_title": "R v Sullivan"
       },
       {
-        "uri": "https://canlii.ca/t/56fk",
-        "score": 41.374488830566406,
-        "candidate_title": "Sterling v. Sullivan"
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2020/2020skca26/2020skca26.html",
+        "score": 46.51243209838867,
+        "candidate_title": "R v R.I.G"
       }
     ]
   },
   "Harte Gold": {
     "uri": "https://canlii.ca/t/jmdl6",
-    "score": 120.5107650756836,
+    "score": 122.76929473876953,
     "candidate_id": "2022onsc653",
     "candidate_title": "Harte Gold Corp. (Re)",
     "query_text": "decision | <i><span style='font-family:\"Arial\",sans-serif;color:black'>Harte Gold Corp.\n(Re)</span></i> | <i>Harte Gold</i> | <i>Harte\nGold</i> | <span style='font-family:\"Arial\",sans-serif'><i>Harte Gold</i></span> | <span style='font-family:\"Arial\",sans-serif;\ncolor:black'>2022 ONSC 653</span>",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jmdl6",
-        "score": 120.5107650756836,
+        "score": 122.76929473876953,
         "candidate_title": "Harte Gold Corp. (Re)"
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 73.33843994140625,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/on/onccb/doc/2002/2002canlii33965/2002canlii33965.html",
+        "score": 72.21168518066406,
+        "candidate_title": "C.I. (Re)"
       },
       {
-        "uri": "https://canlii.ca/t/1fsnh",
-        "score": 65.62986755371094,
-        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 71.44470977783203,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
       }
     ]
   },
   "Blackrock Metals": {
     "uri": "https://canlii.ca/t/jr2n4",
-    "score": 123.05294799804688,
+    "score": 132.3651123046875,
     "candidate_id": "2022qccs2828",
     "candidate_title": "Arrangement relatif à Blackrock Metals Inc.",
     "query_text": "decision | <i>Arrangement relatif à\nBlackrock Metals Inc</i>. | <i>Blackrock Metals</i> | <i>Blackrock\nMetals</i> | 2022 QCCS 2828",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jr2n4",
-        "score": 123.05294799804688,
+        "score": 132.3651123046875,
         "candidate_title": "Arrangement relatif à Blackrock Metals Inc."
       },
       {
         "uri": "https://canlii.ca/t/1jzqz",
-        "score": 58.83946228027344,
+        "score": 57.423927307128906,
         "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
       },
       {
-        "uri": "https://canlii.ca/t/1fsnh",
-        "score": 49.73136520385742,
-        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+        "uri": "https://www.canlii.org/en/on/onccb/doc/2002/2002canlii33965/2002canlii33965.html",
+        "score": 51.4500617980957,
+        "candidate_title": "C.I. (Re)"
       }
     ]
   },
   "Just Energy": {
     "uri": "https://canlii.ca/t/jt3xw",
-    "score": 124.84938049316406,
+    "score": 124.17436981201172,
     "candidate_id": "2022onsc6354",
     "candidate_title": "Just Energy Group Inc. et. al. v. Morgan Stanley Capital Group Inc. et. al.",
     "query_text": "decision | <i><span style='font-family:\"Arial\",sans-serif;color:black'>Just Energy Group Inc. et.\nal. v. Morgan Stanley Capital Group Inc. et. al.</span></i> | <i>Just Energy</i> | <span style='font-family:\"Arial\",sans-serif;color:black'>2022 ONSC 6354</span>",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jt3xw",
-        "score": 124.84938049316406,
+        "score": 124.17436981201172,
         "candidate_title": "Just Energy Group Inc. et. al. v. Morgan Stanley Capital Group Inc. et. al."
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 44.340484619140625,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1986/1986canlii2827/1986canlii2827.html",
+        "score": 46.77113342285156,
+        "candidate_title": "Re Friction Division Products, Inc. and E. I. Du Pont de Nemours & Co. Inc. et al. (No. 2)"
       },
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 35.6076545715332,
-        "candidate_title": "Bhatnager v. M.E.I."
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 43.40314483642578,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
       }
     ]
   },
   "Quest": {
     "uri": "https://canlii.ca/t/jbwpw",
-    "score": 53.07411575317383,
+    "score": 54.33407974243164,
     "candidate_id": "2020bcsc1883",
     "candidate_title": "Quest University Canada (Re)",
     "query_text": "decision | <i>Quest University Canada (Re)</i> | 2020 BCSC 1883",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jbwpw",
-        "score": 53.07411575317383,
+        "score": 54.33407974243164,
         "candidate_title": "Quest University Canada (Re)"
       },
       {
-        "uri": "https://canlii.ca/t/1fsnh",
-        "score": 20.75040054321289,
-        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2016/2016fc606/2016fc606.html",
+        "score": 24.648759841918945,
+        "candidate_title": "The Regents of University of California v. I-Med Pharma Inc."
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 19.740936279296875,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/on/onhrt/doc/2015/2015hrto125/2015hrto125.html",
+        "score": 24.587745666503906,
+        "candidate_title": "Taucar v. University of Western Ontario"
       }
     ]
   },
   "Century Services": {
     "uri": "https://canlii.ca/t/2dz21",
-    "score": 56.49861526489258,
+    "score": 56.731388092041016,
     "candidate_id": "2010csc-scc60",
     "candidate_title": "Century Services Inc. v. Canada (Attorney General)",
     "query_text": "decision | <i>Century Services Inc. v. Canada (Attorney General)</i> | <i>Century Services</i> | 2010 SCC 60",
     "topk": [
       {
         "uri": "https://canlii.ca/t/2dz21",
-        "score": 56.49861526489258,
+        "score": 56.731388092041016,
         "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 40.973628997802734,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/on/onhrt/doc/2011/2011hrto1660/2011hrto1660.html",
+        "score": 43.85347366333008,
+        "candidate_title": "Cadarette v. Peel Regional Police Services Board"
       },
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 35.89330291748047,
-        "candidate_title": "Bhatnager v. M.E.I."
+        "uri": "https://www.canlii.org/en/on/onhrt/doc/2024/2024hrto1684/2024hrto1684.html",
+        "score": 40.616573333740234,
+        "candidate_title": "Green v. Hamilton Police Services Board"
       }
     ]
   },
   "Canada North Group": {
     "uri": "https://canlii.ca/t/jh6m8",
-    "score": 41.141929626464844,
+    "score": 41.189083099365234,
     "candidate_id": "2021csc-scc30",
     "candidate_title": "Canada v. Canada North Group Inc.",
     "query_text": "decision | <i>Canada\nv. Canada North Group Inc</i>. | 2021 SCC 30",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jh6m8",
-        "score": 41.141929626464844,
+        "score": 41.189083099365234,
         "candidate_title": "Canada v. Canada North Group Inc."
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 23.1077938079834,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc241/2022fc241.html",
+        "score": 24.63458251953125,
+        "candidate_title": "Nia Wine Group Co., Ltd. v. North 42 Degrees Estate Winery Inc."
       },
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 20.408143997192383,
-        "candidate_title": "Bhatnager v. M.E.I."
+        "uri": "https://www.canlii.org/en/sk/skort/doc/2016/2016skort2/2016skort2.html",
+        "score": 24.177902221679688,
+        "candidate_title": "ICR Property Management Inc. v O.I."
       }
     ]
   },
   "Lemare Lake": {
     "uri": "https://canlii.ca/t/gm22q",
-    "score": 86.95903015136719,
+    "score": 89.70742797851562,
     "candidate_id": "2015csc-scc53",
     "candidate_title": "Saskatchewan (Attorney General) v. Lemare Lake Logging Ltd.",
     "query_text": "decision | <i>Saskatchewan (Attorney General)\nv. Lemare Lake Logging Ltd</i>. | <i>Lemare Lake\nLogging</i> | 2015 SCC 53",
     "topk": [
       {
         "uri": "https://canlii.ca/t/gm22q",
-        "score": 86.95903015136719,
+        "score": 89.70742797851562,
         "candidate_title": "Saskatchewan (Attorney General) v. Lemare Lake Logging Ltd."
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 37.606773376464844,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/sk/skort/doc/2018/2018skort198/2018skort198.html",
+        "score": 44.91453170776367,
+        "candidate_title": "Broadstreet Properties Ltd. v I.T"
       },
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 35.6076545715332,
-        "candidate_title": "Bhatnager v. M.E.I."
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2020/2020skca26/2020skca26.html",
+        "score": 42.12803268432617,
+        "candidate_title": "R v R.I.G"
       }
     ]
   },
   "T.C.T. Logistics": {
     "uri": "https://canlii.ca/t/1p0ml",
-    "score": 160.17457580566406,
+    "score": 148.2306671142578,
     "candidate_id": "2006csc-scc35",
     "candidate_title": "GMAC Commercial Credit Corporation - Canada v. T.C.T. Logistics Inc.",
     "query_text": "decision | <i>GMAC Commercial Credit\nCorporation - Canada v. T.C.T. Logistics Inc</i>. | <i>T.C.T.\nLogistics</i> | <i>T.C.T. Logistics</i> | <i>T.C.T\nLogistics</i> | 2006 SCC 35",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1p0ml",
-        "score": 160.17457580566406,
+        "score": 148.2306671142578,
         "candidate_title": "GMAC Commercial Credit Corporation - Canada v. T.C.T. Logistics Inc."
       },
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 100.30131530761719,
-        "candidate_title": "Bhatnager v. M.E.I."
+        "uri": "https://www.canlii.org/en/sk/skort/doc/2016/2016skort464/2016skort464.html",
+        "score": 107.13188934326172,
+        "candidate_title": "M.T. v I.T."
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 89.13446807861328,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/sk/skort/doc/2018/2018skort198/2018skort198.html",
+        "score": 100.91572570800781,
+        "candidate_title": "Broadstreet Properties Ltd. v I.T"
       }
     ]
   },
   "Third Eye Capital": {
     "uri": "https://canlii.ca/t/j12dh",
-    "score": 137.30714416503906,
+    "score": 151.75344848632812,
     "candidate_id": "2019onca508",
     "candidate_title": "Third Eye Capital Corporation v. Ressources Dianor Inc./Dianor Resources Inc.",
     "query_text": "decision | <i>Third Eye\nCapital Corporation v. Ressources Dianor Inc./Dianor Resources Inc.</i> | <i>Third Eye Capital</i> | <i>Dianor</i> | 2019\nONCA 508",
     "topk": [
       {
         "uri": "https://canlii.ca/t/j12dh",
-        "score": 137.30714416503906,
+        "score": 151.75344848632812,
         "candidate_title": "Third Eye Capital Corporation v. Ressources Dianor Inc./Dianor Resources Inc."
       },
       {
         "uri": "https://canlii.ca/t/hr0wb",
-        "score": 103.26105499267578,
+        "score": 114.88845825195312,
         "candidate_title": "Third Eye Capital Corporation v. Ressources Dianor Inc."
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 62.206321716308594,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://canlii.ca/t/jggc4",
+        "score": 66.50959777832031,
+        "candidate_title": "DGDP-BC Holdings Ltd v Third Eye Capital Corporation"
       }
     ]
   },
   "Yukon Zinc": {
     "uri": "https://canlii.ca/t/jdkn0",
-    "score": 180.94146728515625,
+    "score": 191.18690490722656,
     "candidate_id": "2021ykca2",
     "candidate_title": "Yukon (Government of) v. Yukon Zinc",
     "query_text": "decision | <i>Yukon (Government of) v. Yukon Zinc Corporation</i> | Yukon\nZinc | Yukon Zinc | <i>Yukon Zinc</i> | <i>Yukon\nZinc</i> | 2021 YKCA 2",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jdkn0",
-        "score": 180.94146728515625,
+        "score": 191.18690490722656,
         "candidate_title": "Yukon (Government of) v. Yukon Zinc"
       },
       {
-        "uri": "https://canlii.ca/t/hp2d8",
-        "score": 72.67556762695312,
-        "candidate_title": "First Nation of Nacho Nyak Dun v. Yukon"
+        "uri": "https://www.canlii.org/en/yk/yksc/doc/2021/2021yksc34/2021yksc34.html",
+        "score": 101.41902923583984,
+        "candidate_title": "Grove v Yukon (Government of)"
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 55.47260665893555,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/yk/yksc/doc/2013/2013yksc8/2013yksc8.html",
+        "score": 97.80552673339844,
+        "candidate_title": "Yukon Government (Registrar of Societies) v. Humane Society of Yukon"
       }
     ]
   },
   "Curragh": {
     "uri": "https://canlii.ca/t/1wb98",
-    "score": 254.57823181152344,
+    "score": 261.810791015625,
     "candidate_id": "1994onctgd10317",
     "candidate_title": "Canada (Minister of Indian Affairs & Northern Development) v. Curragh Inc.",
     "query_text": "decision | <i>Canada\n(Minister of Indian Affairs &amp; Northern Development) v. Curragh Inc.</i> | <i><span style=\"border:none windowtext 1.0pt;\npadding:0in\">Canada (Minister of Indian Affairs &amp; Northern Development) v.\nCurragh Inc.</span></i> | <i>Canada\n(Minister of Indian Affairs and Northern Development) v. Curragh</i> <i>Inc.</i><i> </i>(1994) | 1994),\n114 D.L.R. (4th) 176 | 1994 CanLII 7468 (Ont. C.J. (Gen. Div.) [Commercial List]) | <a href=\"https://nextcanada.westlaw.com/Link/Document/FullText?findType=Y&amp;pubNum=6407&amp;serNum=1994399283&amp;originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=8dfef70cdca8493598805ec33b0b6896&amp;contextData=(sc.UserEnteredCitation)\"><span style=\"color:windowtext;border:none windowtext 1.0pt;padding:0in;text-decoration:\nnone\">(1994)</span><span style=\"color:windowtext;border:none windowtext 1.0pt;padding:0in;text-decoration:\nnone\">, </span><span style=\"color:windowtext;border:none windowtext 1.0pt;padding:0in;text-decoration:\nnone\">114 D.L.R. (4th) 176</span></a> (Ont.\nGen. Div. [Commercial List]) | <span style=\"color:windowtext;text-decoration:none\">1994 CanLII 7468 (ON SC)</span> | 114 D.L.R. (4th) 176 (Ont. C.J. (Gen. Div.))",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1wb98",
-        "score": 254.57823181152344,
+        "score": 261.810791015625,
         "candidate_title": "Canada (Minister of Indian Affairs & Northern Development) v. Curragh Inc."
       },
       {
-        "uri": "https://canlii.ca/t/1z1cx",
-        "score": 124.12296295166016,
-        "candidate_title": "Minister of Indian Affairs and Northern Development v. Ranville et al."
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2004/2004fc1264/2004fc1264.html",
+        "score": 135.7537078857422,
+        "candidate_title": "CanZinco Ltd. v. Canada (Minister of Indian Affairs and Northern Development) (F.C.)"
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 111.2696304321289,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2001/2001fca67/2001fca67.html",
+        "score": 128.90943908691406,
+        "candidate_title": "Blueberry River Indian Band v. Canada (Department of Indian Affairs and Northern Development) (C.A.)"
       }
     ]
   },
   "Loewen Group": {
-    "uri": "https://canlii.ca/t/1jzqz",
-    "score": 26.215085983276367,
-    "candidate_id": "2005qccs18481",
-    "candidate_title": "I.C.I. Chèque c. Travel Currency Inc.",
+    "uri": "https://www.canlii.org/en/ca/chrt/doc/2020/2020chrt1/2020chrt1.html",
+    "score": 28.584213256835938,
+    "candidate_id": "2020chrt1",
+    "candidate_title": "Turner v. Canada Border Services Agency",
     "query_text": "decision | <i><span style=\"border:none windowtext 1.0pt;\npadding:0in\">Loewen Group Inc., Re</span></i> | <span style=\"color:windowtext;border:none windowtext 1.0pt;padding:0in;text-decoration:\nnone\">(2001), 22 B.L.R. (3d) 134</span> | (Ont.\nS.C.J. [Commercial List])",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 26.215085983276367,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/ca/chrt/doc/2020/2020chrt1/2020chrt1.html",
+        "score": 28.584213256835938,
+        "candidate_title": "Turner v. Canada Border Services Agency"
       },
       {
         "uri": "https://canlii.ca/t/1fqzp",
-        "score": 24.423734664916992,
+        "score": 25.9892520904541,
         "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
       },
       {
-        "uri": "https://canlii.ca/t/1fsnh",
-        "score": 24.349071502685547,
-        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1995/1995canlii7420/1995canlii7420.html",
+        "score": 25.287057876586914,
+        "candidate_title": "C.I.B.C. v. Bramalea Inc."
       }
     ]
   },
   "ATCO Gas": {
     "uri": "https://canlii.ca/t/1mj7l",
-    "score": 91.2511215209961,
+    "score": 96.47847747802734,
     "candidate_id": "2006csc-scc4",
     "candidate_title": "ATCO Gas & Pipelines Ltd. v. Alberta (Energy & Utilities Board)",
     "query_text": "decision | <span style=\"background:white\"><i><span style=\"border:none windowtext 1.0pt;padding:0in\">ATCO Gas &amp; Pipelines Ltd.\nv. Alberta (Energy &amp; Utilities Board)</span></i></span> | <span style=\"color:windowtext;border:none windowtext 1.0pt;padding:0in;background:\nwhite;text-decoration:none\">2006 SCC 4</span> | <a href=\"https://nextcanada.westlaw.com/Link/Document/FullText?findType=Y&amp;pubNum=6407&amp;serNum=2008062690&amp;originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=8dfef70cdca8493598805ec33b0b6896&amp;contextData=(sc.UserEnteredCitation)\"><span style=\"color:windowtext;border:none windowtext 1.0pt;padding:0in;background:\nwhite;text-decoration:none\">[2006] 1 S.C.R. 140</span></a><span style=\"background:white\"> </span><span style=\"background:white\">(S.C.C.)</span>",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1mj7l",
-        "score": 91.2511215209961,
+        "score": 96.47847747802734,
         "candidate_title": "ATCO Gas & Pipelines Ltd. v. Alberta (Energy & Utilities Board)"
       },
       {
-        "uri": "https://canlii.ca/t/gc3wf",
-        "score": 61.23158645629883,
-        "candidate_title": "White v. Central Trust Co."
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2006/2006fca190/2006fca190.html",
+        "score": 76.26969909667969,
+        "candidate_title": "Peter G. White Management Ltd. v. Canada (Minister of Canadian Heritage) (F.C.A.)"
       },
       {
-        "uri": "https://canlii.ca/t/glb0g",
-        "score": 55.31378936767578,
-        "candidate_title": "ATCO Gas and Pipelines Ltd. v. Alberta (Utilities Commission)"
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1948/1948canlii54/1948canlii54.html",
+        "score": 72.16329956054688,
+        "candidate_title": "Bennett and White Construction Co. v. Minister of National Revenue"
       }
     ]
   },
   "Petrowest": {
     "uri": "https://canlii.ca/t/jswl7",
-    "score": 86.54798889160156,
+    "score": 91.68787384033203,
     "candidate_id": "2022csc-scc41",
     "candidate_title": "Peace River Hydro Partners v. Petrowest Corp.",
     "query_text": "decision | Peace River Hydro Partners v. Petrowest Corp. | <i>Petrowest</i> | 2022 SCC 41",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jswl7",
-        "score": 86.54798889160156,
+        "score": 91.68787384033203,
         "candidate_title": "Peace River Hydro Partners v. Petrowest Corp."
       },
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 19.83684539794922,
-        "candidate_title": "Bhatnager v. M.E.I."
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/1990/1990canlii8001/1990canlii8001.html",
+        "score": 22.611553192138672,
+        "candidate_title": "Thiessen v. M.P.I.C."
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 19.740936279296875,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1986/1986canlii1048/1986canlii1048.html",
+        "score": 21.404863357543945,
+        "candidate_title": "Lee v. I.C.B.C"
       }
     ]
   },
   "DGDP-BC Holdings": {
     "uri": "https://canlii.ca/t/jggc4",
-    "score": 95.56891632080078,
+    "score": 97.43814086914062,
     "candidate_id": "2021abca226",
     "candidate_title": "DGDP-BC Holdings Ltd v Third Eye Capital Corporation",
     "query_text": "decision | <i>DGDP-BC Holdings Ltd. v. Third Eye Capital Corporation</i> | <span style=\"color:windowtext;text-decoration:none\">2021 ABCA 226</span> | 459\nD.L.R. (4th) 538",
     "topk": [
       {
         "uri": "https://canlii.ca/t/jggc4",
-        "score": 95.56891632080078,
+        "score": 97.43814086914062,
         "candidate_title": "DGDP-BC Holdings Ltd v Third Eye Capital Corporation"
       },
       {
         "uri": "https://canlii.ca/t/j12dh",
-        "score": 33.67648696899414,
+        "score": 38.96955108642578,
         "candidate_title": "Third Eye Capital Corporation v. Ressources Dianor Inc./Dianor Resources Inc."
       },
       {
         "uri": "https://canlii.ca/t/hr0wb",
-        "score": 32.58207702636719,
+        "score": 37.66283416748047,
         "candidate_title": "Third Eye Capital Corporation v. Ressources Dianor Inc."
       }
     ]
   },
   "Vert Infrastructure": {
-    "uri": "https://canlii.ca/t/jmdl6",
-    "score": 33.673587799072266,
-    "candidate_id": "2022onsc653",
-    "candidate_title": "Harte Gold Corp. (Re)",
+    "uri": "https://www.canlii.org/en/on/onca/doc/2014/2014onca215/2014onca215.html",
+    "score": 29.174198150634766,
+    "candidate_id": "2014onca215",
+    "candidate_title": "King Lofts Toronto I Ltd. v. Emmons",
     "query_text": "decision | <i>Vert\nInfrastructure Ltd. (Re)</i> | (8 June 2021), ONSC [Commercial List], Court file\nNo. Toronto CV-20-00642256-00CL",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/jmdl6",
-        "score": 33.673587799072266,
-        "candidate_title": "Harte Gold Corp. (Re)"
+        "uri": "https://www.canlii.org/en/on/onca/doc/2014/2014onca215/2014onca215.html",
+        "score": 29.174198150634766,
+        "candidate_title": "King Lofts Toronto I Ltd. v. Emmons"
       },
       {
-        "uri": "https://canlii.ca/t/jt3xw",
-        "score": 26.200185775756836,
-        "candidate_title": "Just Energy Group Inc. et. al. v. Morgan Stanley Capital Group Inc. et. al."
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2012/2012onsc1301/2012onsc1301.html",
+        "score": 27.07456398010254,
+        "candidate_title": "Cle Leasing Enterprises Ltd. (Re)"
       },
       {
-        "uri": "https://canlii.ca/t/1fsnh",
-        "score": 22.36492156982422,
-        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2022/2022onsc301/2022onsc301.html",
+        "score": 25.50324249267578,
+        "candidate_title": "Bluemoon v. Ceridian"
       }
     ]
   },
   "2056706 Ontario": {
-    "uri": "https://canlii.ca/t/jt3xw",
-    "score": 39.47654342651367,
-    "candidate_id": "2022onsc6354",
-    "candidate_title": "Just Energy Group Inc. et. al. v. Morgan Stanley Capital Group Inc. et. al.",
+    "uri": "https://www.canlii.org/en/on/onsc/doc/2020/2020onsc4708/2020onsc4708.html",
+    "score": 32.51789855957031,
+    "candidate_id": "2020onsc4708",
+    "candidate_title": "Sanctuary et al v. Toronto (City) et al.",
     "query_text": "decision | <i>2056706 Ontario Inc et al (Re)</i> | (7 January\n2021), ONSC [Commercial List], Court file No. Toronto CV-20-00638503-00CL",
     "topk": [
       {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2020/2020onsc4708/2020onsc4708.html",
+        "score": 32.51789855957031,
+        "candidate_title": "Sanctuary et al v. Toronto (City) et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1986/1986canlii2827/1986canlii2827.html",
+        "score": 31.093198776245117,
+        "candidate_title": "Re Friction Division Products, Inc. and E. I. Du Pont de Nemours & Co. Inc. et al. (No. 2)"
+      },
+      {
         "uri": "https://canlii.ca/t/jt3xw",
-        "score": 39.47654342651367,
+        "score": 30.295690536499023,
         "candidate_title": "Just Energy Group Inc. et. al. v. Morgan Stanley Capital Group Inc. et. al."
-      },
-      {
-        "uri": "https://canlii.ca/t/jmdl6",
-        "score": 36.97487258911133,
-        "candidate_title": "Harte Gold Corp. (Re)"
-      },
-      {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 23.1077938079834,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
       }
     ]
   },
   "Jameson House Ventures": {
     "uri": "https://canlii.ca/t/hmw8t",
-    "score": 120.77471160888672,
+    "score": 122.97307586669922,
     "candidate_id": "2017bcsc1988",
     "candidate_title": "The Owners, Strata Plan BCS 4006 v Jameson House Ventures Ltd.",
     "query_text": "decision | <i>The Owners, Strata Plan BCS 4006 v. Jameson House\nVentures Ltd.</i> | 2017 BCSC 1988 | 4 B.C.L.R. (6th) 370",
     "topk": [
       {
         "uri": "https://canlii.ca/t/hmw8t",
-        "score": 120.77471160888672,
+        "score": 122.97307586669922,
         "candidate_title": "The Owners, Strata Plan BCS 4006 v Jameson House Ventures Ltd."
       },
       {
-        "uri": "https://canlii.ca/t/5884",
-        "score": 37.8548583984375,
-        "candidate_title": "John Campbell Law Corp. v. Owners, Strata Plan 1350"
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2016/2016bcca370/2016bcca370.html",
+        "score": 52.46128845214844,
+        "candidate_title": "The Owners, Strata Plan KAS 3549 v. 0738039 B.C. Ltd."
       },
       {
-        "uri": "https://canlii.ca/t/1f1w4",
-        "score": 34.8316650390625,
-        "candidate_title": "Wright v. The Owners, Strata Plan #205"
+        "uri": "https://www.canlii.org/en/bc/bccrt/doc/2017/2017bccrt69/2017bccrt69.html",
+        "score": 41.63264846801758,
+        "candidate_title": "Pritchard v. The Owners, Strata Plan VIS3743"
       }
     ]
   },
   "Metcalfe": {
     "uri": "https://canlii.ca/t/20bks",
-    "score": 90.22064208984375,
+    "score": 94.80216979980469,
     "candidate_id": "2008onca587",
     "candidate_title": "Metcalfe & Mansfield Alternative Investments II Corp., (Re) ",
     "query_text": "decision | <i>Metcalfe &amp; Mansfield Alternative\nInvestments II Corp., (Re)</i> | 2008 ONCA 587",
     "topk": [
       {
         "uri": "https://canlii.ca/t/20bks",
-        "score": 90.22064208984375,
+        "score": 94.80216979980469,
         "candidate_title": "Metcalfe & Mansfield Alternative Investments II Corp., (Re) "
       },
       {
-        "uri": "https://canlii.ca/t/1fsnh",
-        "score": 20.458110809326172,
-        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+        "uri": "https://www.canlii.org/en/on/onccb/doc/2002/2002canlii33965/2002canlii33965.html",
+        "score": 23.47272491455078,
+        "candidate_title": "C.I. (Re)"
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 19.740936279296875,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/on/onca/doc/2014/2014onca215/2014onca215.html",
+        "score": 21.126359939575195,
+        "candidate_title": "King Lofts Toronto I Ltd. v. Emmons"
       }
     ]
   },
   "Soundair": {
     "uri": "https://canlii.ca/t/1p78p",
-    "score": 85.22362518310547,
+    "score": 93.73031616210938,
     "candidate_id": "1991onca10007",
     "candidate_title": "Royal Bank of Canada v. Soundair Corp.",
     "query_text": "decision | <i>Royal\nBank of Canada v. Soundair Corp</i>. | <span style='font-family:\"Arial\",sans-serif'><i>Soundair Corp.</i></span> | 1991), 4 O.R. (3d) 1 | 1991 CanLII 2727 (C.A.)",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1p78p",
-        "score": 85.22362518310547,
+        "score": 93.73031616210938,
         "candidate_title": "Royal Bank of Canada v. Soundair Corp."
       },
       {
-        "uri": "https://canlii.ca/t/1fsnh",
-        "score": 46.77247619628906,
-        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1990/1990canlii230/1990canlii230.html",
+        "score": 51.474857330322266,
+        "candidate_title": "Canadian Imperial Bank of Commerce v. Insurance Corp. of Ireland Ltd."
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 42.58916473388672,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/sk/skort/doc/2016/2016skort2/2016skort2.html",
+        "score": 47.95243453979492,
+        "candidate_title": "ICR Property Management Inc. v O.I."
       }
     ]
   },
   "BIA": {
     "uri": "https://canlii.ca/t/hznr",
-    "score": 149.83982849121094,
+    "score": 148.5133514404297,
     "candidate_id": "l12858!12858-current-1",
     "candidate_title": "Interest Act",
     "query_text": "legislation | <i>BIA</i> | <i>Bankruptcy\nand Insolvency Act</i> | Act | <i><u>Bankruptcy and Insolvency Act</u></i> | BIA | <span style=\"color:windowtext;border:none windowtext 1.0pt;padding:0in;background:\nwhite;text-decoration:none\">BIA</span> | <a href=\"https://nextcanada.westlaw.com/Link/Document/FullText?findType=Y&amp;serNum=0280329932&amp;pubNum=134158&amp;originatingDoc=I8bc97fb55eec36bae0540010e03eefe2&amp;refType=IG&amp;docFamilyGuid=Idba2ccabf42f11d99f28ffa0ae8c2575&amp;targetPreference=DocLanguage%3aEN&amp;originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=8dfef70cdca8493598805ec33b0b6896&amp;contextData=(sc.UserEnteredCitation)\"><span style=\"color:windowtext;border:none windowtext 1.0pt;padding:0in;text-decoration:\nnone\">BIA</span></a> | <a href=\"https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-b-3/latest/rsc-1985-c-b-3.html\"><i><span style=\"color:windowtext;text-decoration:none\">BIA</span></i></a> | <span style='font-family:\"Arial\",sans-serif'><i>BIA</i></span> | R.S.C., 1985, c. B-3",
     "topk": [
       {
         "uri": "https://canlii.ca/t/hznr",
-        "score": 149.83982849121094,
+        "score": 148.5133514404297,
         "candidate_title": "Interest Act"
       },
       {
         "uri": "https://canlii.ca/t/56fd8",
-        "score": 149.19461059570312,
+        "score": 148.15460205078125,
         "candidate_title": "Interpretation Act"
       },
       {
         "uri": "https://canlii.ca/t/56q4x",
-        "score": 126.43452453613281,
+        "score": 137.37982177734375,
         "candidate_title": "Bankruptcy and Insolvency Act"
       }
     ]
   },
   "Environmental Assessment Act": {
     "uri": "https://canlii.ca/t/56q11",
-    "score": 50.19707107543945,
+    "score": 51.593910217285156,
     "candidate_id": "l48596!48596-current-1",
     "candidate_title": "Environmental Assessment Act",
     "query_text": "legislation | Environmental Assessment Act | E.A. Act | <i>E.A. Act</i> | S.B.C. 2018, c. 51",
     "topk": [
       {
         "uri": "https://canlii.ca/t/56q11",
-        "score": 50.19707107543945,
+        "score": 51.593910217285156,
         "candidate_title": "Environmental Assessment Act"
       },
       {
-        "uri": "https://canlii.ca/t/564nl",
-        "score": 38.855857849121094,
-        "candidate_title": "Interpretation Act"
+        "uri": "https://www.canlii.org/en/pe/laws/stat/rspei-1988-c-e-9/latest/rspei-1988-c-e-9.html",
+        "score": 40.50825500488281,
+        "candidate_title": "Environmental Protection Act"
       },
       {
-        "uri": "https://canlii.ca/t/568rq",
-        "score": 37.995182037353516,
-        "candidate_title": "Industrial Relations Act"
+        "uri": "https://canlii.ca/t/564nl",
+        "score": 38.8486213684082,
+        "candidate_title": "Interpretation Act"
       }
     ]
   },
   "Law and Equity Act": {
     "uri": "https://canlii.ca/t/563zb",
-    "score": 44.637451171875,
+    "score": 45.56303787231445,
     "candidate_id": "l19759!19759-current-1",
     "candidate_title": "Law and Equity Act",
     "query_text": "legislation | <i>Law and\nEquity Act</i> | R.S.B.C. 1996, c. 253",
     "topk": [
       {
         "uri": "https://canlii.ca/t/563zb",
-        "score": 44.637451171875,
+        "score": 45.56303787231445,
         "candidate_title": "Law and Equity Act"
       },
       {
         "uri": "https://canlii.ca/t/564nl",
-        "score": 31.876184463500977,
+        "score": 29.50629234313965,
         "candidate_title": "Interpretation Act"
       },
       {
-        "uri": "https://canlii.ca/t/hznr",
-        "score": 31.373151779174805,
-        "candidate_title": "Interest Act"
+        "uri": "https://canlii.ca/t/568rq",
+        "score": 28.689170837402344,
+        "candidate_title": "Industrial Relations Act"
       }
     ]
   },
   "Environmental Management Act": {
-    "uri": "https://canlii.ca/t/56fd8",
-    "score": 51.9561653137207,
-    "candidate_id": "l12864!12864-current-1",
+    "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+    "score": 51.09751510620117,
+    "candidate_id": "l5679!5679-current-1",
     "candidate_title": "Interpretation Act",
     "query_text": "legislation | <i>Environmental Management Act</i> | <i>Env. Mgmt. Act</i> | S.B.C. 2003, c. 53",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 51.9561653137207,
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+        "score": 51.09751510620117,
         "candidate_title": "Interpretation Act"
       },
       {
         "uri": "https://canlii.ca/t/564nl",
-        "score": 51.95525360107422,
+        "score": 50.28856658935547,
         "candidate_title": "Interpretation Act"
       },
       {
-        "uri": "https://canlii.ca/t/hznr",
-        "score": 51.54940414428711,
-        "candidate_title": "Interest Act"
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-8/latest/cqlr-c-i-8.html",
+        "score": 50.19752883911133,
+        "candidate_title": "Nurses Act"
       }
     ]
   },
   "CCAA": {
-    "uri": "https://canlii.ca/t/hznr",
-    "score": 63.345947265625,
-    "candidate_id": "l12858!12858-current-1",
-    "candidate_title": "Interest Act",
+    "uri": "https://canlii.ca/t/56fc5",
+    "score": 59.894412994384766,
+    "candidate_id": "l12787!12787-current-1",
+    "candidate_title": "Companies' Creditors Arrangement Act",
     "query_text": "legislation | <i>Companies’ Creditors\nArrangement Act</i> | <i>CCAA</i> | Act | R.S.C. 1985, c. C-36",
     "topk": [
       {
+        "uri": "https://canlii.ca/t/56fc5",
+        "score": 59.894412994384766,
+        "candidate_title": "Companies' Creditors Arrangement Act"
+      },
+      {
         "uri": "https://canlii.ca/t/hznr",
-        "score": 63.345947265625,
+        "score": 59.61549758911133,
         "candidate_title": "Interest Act"
       },
       {
         "uri": "https://canlii.ca/t/56fd8",
-        "score": 61.99934387207031,
+        "score": 58.379539489746094,
         "candidate_title": "Interpretation Act"
-      },
-      {
-        "uri": "https://canlii.ca/t/56fc5",
-        "score": 60.998130798339844,
-        "candidate_title": "Companies' Creditors Arrangement Act"
       }
     ]
   },
   "Winding-up and Restructuring Act": {
     "uri": "https://canlii.ca/t/562sb",
-    "score": 38.36341857910156,
+    "score": 43.06432342529297,
     "candidate_id": "l12982!12982-current-1",
     "candidate_title": "Winding-up and Restructuring Act",
     "query_text": "legislation | <i><u>Winding-up\nand Restructuring Act</u></i>",
     "topk": [
       {
         "uri": "https://canlii.ca/t/562sb",
-        "score": 38.36341857910156,
+        "score": 43.06432342529297,
         "candidate_title": "Winding-up and Restructuring Act"
       },
       {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 23.86480140686035,
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+        "score": 26.367979049682617,
         "candidate_title": "Interpretation Act"
       },
       {
-        "uri": "https://canlii.ca/t/hznr",
-        "score": 23.673561096191406,
-        "candidate_title": "Interest Act"
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-8/latest/cqlr-c-i-8.html",
+        "score": 25.869338989257812,
+        "candidate_title": "Nurses Act"
       }
     ]
   },
   "Insolvency Reform Act 2005": {
-    "uri": "https://canlii.ca/t/56fd8",
-    "score": 23.86480140686035,
-    "candidate_id": "l12864!12864-current-1",
+    "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+    "score": 26.367979049682617,
+    "candidate_id": "l5679!5679-current-1",
     "candidate_title": "Interpretation Act",
     "query_text": "legislation | <span style=\"background:white\"><i><span style=\"border:none windowtext 1.0pt;\npadding:0in\">Insolvency Reform Act</span></i> 2005</span>",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 23.86480140686035,
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+        "score": 26.367979049682617,
         "candidate_title": "Interpretation Act"
       },
       {
-        "uri": "https://canlii.ca/t/hznr",
-        "score": 23.673561096191406,
-        "candidate_title": "Interest Act"
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-8/latest/cqlr-c-i-8.html",
+        "score": 25.869338989257812,
+        "candidate_title": "Nurses Act"
       },
       {
-        "uri": "https://canlii.ca/t/564nl",
-        "score": 22.041675567626953,
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 25.38091278076172,
         "candidate_title": "Interpretation Act"
       }
     ]
   },
   "Insolvency Reform Act 2007": {
-    "uri": "https://canlii.ca/t/56fd8",
-    "score": 23.86480140686035,
-    "candidate_id": "l12864!12864-current-1",
+    "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+    "score": 26.367979049682617,
+    "candidate_id": "l5679!5679-current-1",
     "candidate_title": "Interpretation Act",
     "query_text": "legislation | <span style=\"background:white\"><i><span style=\"border:none windowtext 1.0pt;padding:0in\">Insolvency Reform Act</span></i>\n2007</span>",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 23.86480140686035,
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+        "score": 26.367979049682617,
         "candidate_title": "Interpretation Act"
       },
       {
-        "uri": "https://canlii.ca/t/hznr",
-        "score": 23.673561096191406,
-        "candidate_title": "Interest Act"
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-8/latest/cqlr-c-i-8.html",
+        "score": 25.869338989257812,
+        "candidate_title": "Nurses Act"
       },
       {
-        "uri": "https://canlii.ca/t/564nl",
-        "score": 22.041675567626953,
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 25.38091278076172,
         "candidate_title": "Interpretation Act"
       }
     ]
   },
   "Land Act": {
-    "uri": "https://canlii.ca/t/hznr",
-    "score": 53.37541580200195,
-    "candidate_id": "l12858!12858-current-1",
-    "candidate_title": "Interest Act",
+    "uri": "https://canlii.ca/t/56hq0",
+    "score": 52.086055755615234,
+    "candidate_id": "l19750!19750-current-1",
+    "candidate_title": "Land Act",
     "query_text": "legislation | <i>Land Act</i> | <i>Land\nAct</i> | R.S.B.C. 1996, c. 245",
     "topk": [
       {
+        "uri": "https://canlii.ca/t/56hq0",
+        "score": 52.086055755615234,
+        "candidate_title": "Land Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+        "score": 51.09751510620117,
+        "candidate_title": "Interpretation Act"
+      },
+      {
         "uri": "https://canlii.ca/t/hznr",
-        "score": 53.37541580200195,
+        "score": 50.43014907836914,
         "candidate_title": "Interest Act"
-      },
-      {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 51.9561653137207,
-        "candidate_title": "Interpretation Act"
-      },
-      {
-        "uri": "https://canlii.ca/t/564nl",
-        "score": 51.95525360107422,
-        "candidate_title": "Interpretation Act"
       }
     ]
   },
   "Reverse Vesting Orders": {
     "uri": "https://canlii.ca/t/ttpb",
-    "score": 148.44406127929688,
+    "score": 164.48793029785156,
     "candidate_id": "d98140!d98140",
     "candidate_title": "Reverse Vesting Orders – Developing Principles and Guardrails to Inform Judicial Decisions",
     "query_text": "secondary sources | Reverse Vesting Orders – Developing Principles and Guardrails\nto Inform Judicial Decisions | Janis P. Sarra | Sarra | Janis Sarra",
     "topk": [
       {
         "uri": "https://canlii.ca/t/ttpb",
-        "score": 148.44406127929688,
+        "score": 164.48793029785156,
         "candidate_title": "Reverse Vesting Orders – Developing Principles and Guardrails to Inform Judicial Decisions"
       },
       {
-        "uri": "https://canlii.ca/t/2d2z",
-        "score": 15.734070777893066,
-        "candidate_title": "Recent Judicial Developments of Interest to Oil and Gas Lawyers"
+        "uri": "https://www.canlii.org/en/commentary/doc/2006CanLIIDocs691",
+        "score": 18.420669555664062,
+        "candidate_title": "Statement of Principles on Self-represented Litigants and Accused Persons"
       },
       {
-        "uri": "https://canlii.ca/t/54bvr",
-        "score": 11.103422164916992,
-        "candidate_title": "An Act mainly to promote the efficiency of penal justice and to establish the terms governing the intervention of the Court of Québec with respect to applications for appeal"
+        "uri": "https://canlii.ca/t/2d2z",
+        "score": 16.582517623901367,
+        "candidate_title": "Recent Judicial Developments of Interest to Oil and Gas Lawyers"
       }
     ]
   },
   "A Hill Too Far": {
     "uri": "https://canlii.ca/t/ttpb",
-    "score": 29.77787971496582,
+    "score": 33.504432678222656,
     "candidate_id": "d98140!d98140",
     "candidate_title": "Reverse Vesting Orders – Developing Principles and Guardrails to Inform Judicial Decisions",
     "query_text": "secondary sources | A Hill Too Far: Reverse Vesting orders\nin BIA Receiverships | Aminollah Sabzervari",
     "topk": [
       {
         "uri": "https://canlii.ca/t/ttpb",
-        "score": 29.77787971496582,
+        "score": 33.504432678222656,
         "candidate_title": "Reverse Vesting Orders – Developing Principles and Guardrails to Inform Judicial Decisions"
       },
       {
         "uri": "https://canlii.ca/t/7n524",
-        "score": 17.843814849853516,
+        "score": 20.192092895507812,
         "candidate_title": "Can There Be Too Much Context in Administrative Law: Setting the Standard of Review in Canadian Administrative Law"
       },
       {
-        "uri": "https://canlii.ca/t/t1wq",
-        "score": 11.213733673095703,
-        "candidate_title": "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land"
+        "uri": "https://www.canlii.org/en/on/onca/doc/1990/1990canlii6856/1990canlii6856.html",
+        "score": 14.108613967895508,
+        "candidate_title": "S & A Strasser Ltd. v. Richmond Hill (Town) (C.A.)"
       }
     ]
   },
   "Anything You Can Do": {
     "uri": "https://canlii.ca/t/7n177",
-    "score": 198.9943084716797,
+    "score": 213.05572509765625,
     "candidate_id": "d211117!d211117",
     "candidate_title": "Anything You Can Do, I Can Do Better: Does the CCAA Provide Broader Discretionary Relief than the BIA?",
     "query_text": "secondary sources | Anything You Can Do, I Can Do Better: Does the <i>CCAA</i>\nProvide Broader Discretionary Relief than the <i>BIA</i>? | Eamonn Watson et al. | Watson",
     "topk": [
       {
         "uri": "https://canlii.ca/t/7n177",
-        "score": 198.9943084716797,
+        "score": 213.05572509765625,
         "candidate_title": "Anything You Can Do, I Can Do Better: Does the CCAA Provide Broader Discretionary Relief than the BIA?"
       },
       {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 47.453208923339844,
-        "candidate_title": "Interpretation Act"
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-8/latest/cqlr-c-i-8.html",
+        "score": 49.23781967163086,
+        "candidate_title": "Nurses Act"
       },
       {
-        "uri": "https://canlii.ca/t/hznr",
-        "score": 47.15348815917969,
-        "candidate_title": "Interest Act"
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+        "score": 48.422054290771484,
+        "candidate_title": "Interpretation Act"
       }
     ]
   },
   "Bennett on Bankruptcy": {
-    "uri": "https://canlii.ca/t/56fd8",
-    "score": 18.98128318786621,
-    "candidate_id": "l12864!12864-current-1",
-    "candidate_title": "Interpretation Act",
+    "uri": "https://www.canlii.org/en/ca/scc/doc/1948/1948canlii54/1948canlii54.html",
+    "score": 24.198984146118164,
+    "candidate_id": "1948csc-scc1000038",
+    "candidate_title": "Bennett and White Construction Co. v. Minister of National Revenue",
     "query_text": "secondary sources | <i><span style=\"border:none windowtext 1.0pt;padding:0in\">Bennett on Bankruptcy</span></i> | Frank Bennett",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 18.98128318786621,
-        "candidate_title": "Interpretation Act"
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1948/1948canlii54/1948canlii54.html",
+        "score": 24.198984146118164,
+        "candidate_title": "Bennett and White Construction Co. v. Minister of National Revenue"
       },
       {
-        "uri": "https://canlii.ca/t/hznr",
-        "score": 18.86139488220215,
-        "candidate_title": "Interest Act"
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2021/2021onsc2585/2021onsc2585.html",
+        "score": 22.44111442565918,
+        "candidate_title": "Bennett v. Swift"
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 17.865835189819336,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2002/2002abqb96/2002abqb96.html",
+        "score": 21.992624282836914,
+        "candidate_title": "Bennett v. Alberta (The Workers’ Compensation Board Appeals Commission)"
       }
     ]
   },
   "Bankruptcy and Insolvency Law": {
-    "uri": "https://canlii.ca/t/7n177",
-    "score": 22.77137565612793,
-    "candidate_id": "d211117!d211117",
-    "candidate_title": "Anything You Can Do, I Can Do Better: Does the CCAA Provide Broader Discretionary Relief than the BIA?",
+    "uri": "https://canlii.ca/t/56q4x",
+    "score": 24.251718521118164,
+    "candidate_id": "l12759!12759-current-1",
+    "candidate_title": "Bankruptcy and Insolvency Act",
     "query_text": "secondary sources | <i><span style=\"border:none windowtext 1.0pt;padding:0in\">Bankruptcy and Insolvency Law</span></i> | Roderick J. Wood",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/7n177",
-        "score": 22.77137565612793,
-        "candidate_title": "Anything You Can Do, I Can Do Better: Does the CCAA Provide Broader Discretionary Relief than the BIA?"
-      },
-      {
         "uri": "https://canlii.ca/t/56q4x",
-        "score": 22.712324142456055,
+        "score": 24.251718521118164,
         "candidate_title": "Bankruptcy and Insolvency Act"
       },
       {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 18.98128318786621,
-        "candidate_title": "Interpretation Act"
+        "uri": "https://canlii.ca/t/7n177",
+        "score": 22.233583450317383,
+        "candidate_title": "Anything You Can Do, I Can Do Better: Does the CCAA Provide Broader Discretionary Relief than the BIA?"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onhrt/doc/2010/2010hrto1979/2010hrto1979.html",
+        "score": 21.554229736328125,
+        "candidate_title": "Wood v. Director, Ontario Disability Support Program"
       }
     ]
   },
   "Insolvency Law of Canada": {
     "uri": "https://canlii.ca/t/ttpb",
-    "score": 12.206198692321777,
+    "score": 13.025829315185547,
     "candidate_id": "d98140!d98140",
     "candidate_title": "Reverse Vesting Orders – Developing Principles and Guardrails to Inform Judicial Decisions",
     "query_text": "secondary sources | Houlden,\nMorawetz and Sarra",
     "topk": [
       {
         "uri": "https://canlii.ca/t/ttpb",
-        "score": 12.206198692321777,
+        "score": 13.025829315185547,
         "candidate_title": "Reverse Vesting Orders – Developing Principles and Guardrails to Inform Judicial Decisions"
       },
       {
         "uri": "https://canlii.ca/t/1fr2l",
-        "score": 4.265000343322754,
+        "score": 4.460696220397949,
         "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15"
       },
       {
-        "uri": "https://canlii.ca/t/22jpz",
-        "score": 2.75396728515625,
-        "candidate_title": "J and J obo R v. B.C. (Ministry of Children and Family Development) and Havens (No. 2)"
+        "uri": "https://www.canlii.org/en/nl/nlsc/doc/2020/2020nlsc102/2020nlsc102.html",
+        "score": 2.441577911376953,
+        "candidate_title": "Oxford v. Newfoundland and Labrador (Municipal Affairs and Environment)"
       }
     ]
   },
   "Practical Guide to Stare Decisis": {
-    "uri": "https://canlii.ca/t/g1z1v",
-    "score": 10.51737117767334,
-    "candidate_id": "2013csc-scc64",
-    "candidate_title": "Katz Group Canada Inc. v. Ontario (Health and Long‑Term Care)",
+    "uri": "https://www.canlii.org/en/ca/fct/doc/2025/2025fc179/2025fc179.html",
+    "score": 13.003154754638672,
+    "candidate_id": "2025fct179",
+    "candidate_title": "T. Rowe Price Group, Inc. v. Glidepath Technologies Inc.",
     "query_text": "secondary sources | Rowe and Katz",
     "topk": [
       {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2025/2025fc179/2025fc179.html",
+        "score": 13.003154754638672,
+        "candidate_title": "T. Rowe Price Group, Inc. v. Glidepath Technologies Inc."
+      },
+      {
         "uri": "https://canlii.ca/t/g1z1v",
-        "score": 10.51737117767334,
+        "score": 11.315011024475098,
         "candidate_title": "Katz Group Canada Inc. v. Ontario (Health and Long‑Term Care)"
       },
       {
         "uri": "https://canlii.ca/t/7n8hl",
-        "score": 9.338379859924316,
+        "score": 9.34775161743164,
         "candidate_title": "The Limits of the Declaratory Judgment"
-      },
-      {
-        "uri": "https://www.canlii.org/en/commentary/doc/1976CanLIIDocs22#Discovery__Production_of_Documents__Claim_of_Privilege_to_Prevent_Disclosure_",
-        "score": 8.065264701843262,
-        "candidate_title": "Comments"
       }
     ]
   },
   "Stare Decisis in the BCCS": {
     "uri": "https://canlii.ca/t/1fr2l",
-    "score": 4.265000343322754,
+    "score": 4.460696220397949,
     "candidate_id": "1997csc-scc25",
     "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15",
     "query_text": "secondary sources | Kerwin",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1fr2l",
-        "score": 4.265000343322754,
+        "score": 4.460696220397949,
         "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15"
       },
       {
-        "uri": "https://canlii.ca/t/sx35",
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2016/2016abca154/2016abca154.html",
         "score": 0.0,
-        "candidate_title": "The Canadian Law of Judicial Review: A Plea for Doctrinal Coherence and Consistency."
+        "candidate_title": "Lum v Alberta Dental Association and College (Review Panel)"
       },
       {
-        "uri": "https://canlii.ca/t/ssc3",
+        "uri": "https://www.canlii.org/en/ab/abkb/doc/2023/2023abkb736/2023abkb736.html",
         "score": 0.0,
-        "candidate_title": "The Duty to Negotiate and the Ethos of Reconciliation"
+        "candidate_title": "Pacific Atlantic Pipeline Construction Ltd v Coastal Gaslink Pipeline Ltd"
       }
     ]
   }

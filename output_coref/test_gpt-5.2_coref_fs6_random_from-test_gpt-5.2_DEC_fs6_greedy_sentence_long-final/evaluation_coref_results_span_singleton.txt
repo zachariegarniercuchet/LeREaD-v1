@@ -1,0 +1,27 @@
+
+======================================================================
+BATCH COREF EVALUATION
+======================================================================
+Batch folder: output_coref\test_gpt-5.2_coref_fs6_random_from-test_gpt-5.2_DEC_fs6_greedy_sentence_long-final
+Split: test
+Match mode: span (unmatched=singleton)
+======================================================================
+Found 4 evaluation pair(s)
+
+Mention alignment (total over 4 document(s))
+  gold mentions: 1011 | system mentions: 1027 | matched: 828
+  gold-only (missed): 183 | system-only (spurious): 199
+  mention-level  P=0.806  R=0.819  F1=0.813
+
+
+=== Aggregate over 4 document(s) ===
+┌──────────┬────────────┬────────────┬────────────┐
+│ Metric   │ Precision  │ Recall     │ F1         │
+├──────────┼────────────┼────────────┼────────────┤
+│ MUC      │ 0.7553     │ 0.7581     │ 0.7567     │
+│ B3       │ 0.7459     │ 0.7668     │ 0.7562     │
+│ CEAF_e   │ 0.5225     │ 0.5187     │ 0.5206     │
+│ LEA      │ 0.5572     │ 0.5737     │ 0.5653     │
+└──────────┴────────────┴────────────┴────────────┘
+CoNLL average F1 (MUC/B3/CEAF_e): 0.6778
+

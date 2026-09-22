@@ -19,7 +19,7 @@ Level-3 (uri) batch evaluation — 34 file pair(s)
   matched spans:  418  |  uri instances:    89  |  accuracy: 96.6%
 
 [3/34] 1993CanLII3004FCA.html
-  matched spans: 1536  |  uri instances:   365  |  accuracy: 84.4%
+  matched spans: 1536  |  uri instances:   365  |  accuracy: 91.2%
 
 [4/34] 1993NSSC71.html
   matched spans:  195  |  uri instances:    37  |  accuracy: 100.0%
@@ -34,46 +34,46 @@ Level-3 (uri) batch evaluation — 34 file pair(s)
   matched spans:  254  |  uri instances:    29  |  accuracy: 69.0%
 
 [8/34] 2003MBCA71.html
-  matched spans:  134  |  uri instances:    31  |  accuracy: 90.3%
+  matched spans:  134  |  uri instances:    31  |  accuracy: 93.5%
 
 [9/34] 2005NLTD57.html
   matched spans:  215  |  uri instances:    46  |  accuracy: 97.8%
 
 [10/34] 2009BCHRT256.html
-  matched spans:  421  |  uri instances:   124  |  accuracy: 91.9%
+  matched spans:  421  |  uri instances:   124  |  accuracy: 97.6%
 
 [11/34] 2009NUCA3.html
-  matched spans:  142  |  uri instances:    15  |  accuracy: 80.0%
+  matched spans:  142  |  uri instances:    15  |  accuracy: 86.7%
 
 [12/34] 2009PECA12.html
   matched spans:  256  |  uri instances:    87  |  accuracy: 100.0%
 
 [13/34] 2010SKQB255.html
-  matched spans:  278  |  uri instances:    90  |  accuracy: 90.0%
+  matched spans:  278  |  uri instances:    90  |  accuracy: 100.0%
 
 [14/34] 2012SKCA24.html
-  matched spans:  129  |  uri instances:    44  |  accuracy: 100.0%
+  matched spans:  129  |  uri instances:    44  |  accuracy: 97.7%
 
 [15/34] 2013ONAFRAAT18.html
   matched spans:   96  |  uri instances:    31  |  accuracy: 61.3%
 
 [16/34] 2014CanLII36807PELRB.html
-  matched spans:  651  |  uri instances:   197  |  accuracy: 38.1%
+  matched spans:  651  |  uri instances:   197  |  accuracy: 37.6%
 
 [17/34] 2015NSSC25.html
-  matched spans:  712  |  uri instances:   212  |  accuracy: 43.4%
+  matched spans:  712  |  uri instances:   212  |  accuracy: 42.0%
 
 [18/34] 2016QCCS1184.html
-  matched spans:  251  |  uri instances:    70  |  accuracy: 50.0%
+  matched spans:  251  |  uri instances:    70  |  accuracy: 61.4%
 
 [19/34] 2017ABCA157.html
-  matched spans: 1021  |  uri instances:   270  |  accuracy: 97.8%
+  matched spans: 1021  |  uri instances:   270  |  accuracy: 96.7%
 
 [20/34] 2018NSOIPC2.html
-  matched spans:  724  |  uri instances:   269  |  accuracy: 93.7%
+  matched spans:  724  |  uri instances:   269  |  accuracy: 92.9%
 
 [21/34] 2019QCCA1492.html
-  matched spans: 4429  |  uri instances:  1228  |  accuracy: 92.0%
+  matched spans: 4429  |  uri instances:  1228  |  accuracy: 90.2%
 
 [22/34] 2020ABPLAB11.html
   matched spans:  203  |  uri instances:    58  |  accuracy: 96.6%
@@ -82,10 +82,10 @@ Level-3 (uri) batch evaluation — 34 file pair(s)
   matched spans:  388  |  uri instances:   104  |  accuracy: 100.0%
 
 [24/34] 2020FCA63.html
-  matched spans:  536  |  uri instances:   179  |  accuracy: 83.8%
+  matched spans:  536  |  uri instances:   179  |  accuracy: 89.4%
 
 [25/34] 2022BCSC135.html
-  matched spans: 2791  |  uri instances:   984  |  accuracy: 69.4%
+  matched spans: 2791  |  uri instances:   984  |  accuracy: 70.5%
 
 [26/34] 2022ONCMT32.html
   matched spans:  491  |  uri instances:   152  |  accuracy: 100.0%
@@ -94,25 +94,25 @@ Level-3 (uri) batch evaluation — 34 file pair(s)
   matched spans:  144  |  uri instances:    41  |  accuracy: 100.0%
 
 [28/34] 2024BCSC764.html
-  matched spans:  597  |  uri instances:   218  |  accuracy: 50.9%
+  matched spans:  597  |  uri instances:   218  |  accuracy: 61.0%
 
 [29/34] 2024NUCA9.html
   matched spans:  311  |  uri instances:   115  |  accuracy: 98.3%
 
 [30/34] 2025ABAER7.html
-  matched spans:  352  |  uri instances:   142  |  accuracy: 45.8%
+  matched spans:  352  |  uri instances:   142  |  accuracy: 100.0%
 
 [31/34] 2025ABKB246.html
-  matched spans:  148  |  uri instances:    57  |  accuracy: 100.0%
+  matched spans:  148  |  uri instances:    57  |  accuracy: 64.9%
 
 [32/34] 2025MBKB136.html
-  matched spans:  123  |  uri instances:    44  |  accuracy: 59.1%
+  matched spans:  123  |  uri instances:    44  |  accuracy: 54.5%
 
 [33/34] 2025NBEUB1.html
   matched spans:   57  |  uri instances:    21  |  accuracy: 9.5%
 
 [34/34] 2026ABCA2L.html
-  matched spans:  148  |  uri instances:    43  |  accuracy: 97.7%
+  matched spans:  148  |  uri instances:    43  |  accuracy: 88.4%
 
 ======================================================================
 
@@ -131,12 +131,12 @@ Level-3 (uri) batch evaluation — 34 file pair(s)
   Matched spans (Level 1)   :  19679
   URI instances compared    :   5692
   Skipped (gold uri=None)   :   1302
-  Matching URI values       :   4617
-  URI ACCURACY              :     81.11%
+  Matching URI values       :   4730
+  URI ACCURACY              :     83.10%
 
   Errors — missing in system:     65
          — missing in gold  :     30
-         — different value  :    980
+         — different value  :    867
 
 ──────────────────────────────────────────────────────────────────────────────
   PER-LABEL BREAKDOWN
@@ -144,8 +144,8 @@ Level-3 (uri) batch evaluation — 34 file pair(s)
 
   Label                                 Total  Match   Accuracy
   ────────────────────────────────────────────────────────────
-  decision                               2988   2549      85.3%
-  legislation                            2630   2029      77.1%
+  decision                               2988   2469      82.6%
+  legislation                            2630   2222      84.5%
   secondary sources                        56     39      69.6%
   unable to classify                       18      0       0.0%
 
@@ -155,13 +155,13 @@ Level-3 (uri) batch evaluation — 34 file pair(s)
 
   Category                              Total  Match   Accuracy
   ────────────────────────────────────────────────────────────
-  decision                               2988   2549      85.3%
-  legislation                            2630   2029      77.1%
+  decision                               2988   2469      82.6%
+  legislation                            2630   2222      84.5%
   other                                    18      0       0.0%
   secondary sources                        56     39      69.6%
 
 ══════════════════════════════════════════════════════════════════════════════
 
-  Macro accuracy (mean per-document uri accuracy): 81.61%
+  Macro accuracy (mean per-document uri accuracy): 83.32%
   Documents evaluated: 34/34
 

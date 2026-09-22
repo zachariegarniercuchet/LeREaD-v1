@@ -9,39 +9,74 @@ evaluate.py: coref inputs (JSON clusters / docid-annotated HTML) and metrics
 (span HTML, span-F1) that a shared CLI would just be two disjoint arg sets
 glued together.
 
-System output can be either a `*_coref_clusters.json` file or a
-`*_coref.html` file (docid attributes are read straight off the tags) —
-both are produced by main_coref.py. Gold clusters are always derived live
-from the annotated split (DATA_DIR/annotated/<split>/<filename>.html), by
-reading each mention's ground-truth `docid` attribute — no separate gold
-cluster file needs to be maintained.
+Two matching modes (--match-mode)
+---------------------------------
+id   (default, GOLD setting)
+     Gold and system share the same mention ids (the coref step was run on
+     the gold extraction). Clusters are compared directly by id. System
+     output can be `*_coref_clusters.json` or `*_coref.html`.
+     This is the historical behaviour; results are unchanged.
+
+span (PIPELINE setting)
+     The system extracted its own spans, so ids are NOT shared with gold.
+     Both sides are read as docid-annotated HTML (gold: annotated split;
+     system: `*_coref.html`). Every tag carrying `id` + `docid` is a mention.
+     System mentions are aligned to gold mentions by exact span match
+     (labelname + start/end offsets in whitespace-normalised plain text),
+     and both clusterings are re-expressed with the shared span key before
+     scoring. Only the *grouping* by docid matters, never the docid string.
+
+     Mentions found on one side only (extraction errors) are handled by
+     --unmatched:
+       singleton (default, end-to-end): a gold mention with no system twin
+                 is added to the system as a singleton; a system mention
+                 with no gold twin is added to gold as a singleton
+                 (Cai & Strube 2010 "twinless" handling). Extraction errors
+                 therefore cost recall / precision.
+       drop      score only the mentions present on both sides (isolates the
+                 coreference step from extraction errors).
 
 Usage:
-    # Single file evaluation (requires split parameter)
+    # Gold setting (unchanged)
     python evaluate_coref.py single --split test \\
         --system-file output_coref/.../1989CanLII1415ONCA_coref_clusters.json
 
-    # Batch folder evaluation (auto-detects split from folder name)
     python evaluate_coref.py batch \\
         --batch-folder output_coref/test_gpt-5.2_coref_fs6_random_gold/
 
-    # Batch folder evaluation with explicit split
-    python evaluate_coref.py batch \\
-        --batch-folder output_coref/test_gpt-5.2_coref_fs6_random_gold/ --split test
+    # Pipeline setting (span alignment, end-to-end)
+    python evaluate_coref.py batch --match-mode span \\
+        --batch-folder output_coref/test_gpt-5.2_coref_fs6_greedy_from-<extraction_folder>-final/
+
+    # Pipeline setting, coreference step only
+    python evaluate_coref.py batch --match-mode span --unmatched drop \\
+        --batch-folder output_coref/test_..._from-<extraction_folder>-final/
+
+
+# Gold setting: unchanged, still the default
+python -m src.evaluation.evaluate_coref batch --batch-folder output_coref/test_..._gold/ --verbose
+
+# Pipeline setting, end-to-end (extraction errors are penalised)
+python -m src.evaluation.evaluate_coref batch --match-mode span --batch-folder output_coref/test_..._from-<extraction>-final/
+
+# Pipeline setting, coreference step only
+python -m src.evaluation.evaluate_coref batch --match-mode span --unmatched drop --batch-folder ...
 """
 
 import argparse
 import sys
 import json
 import io
+import re
 import contextlib
 import importlib.util
+from collections import defaultdict
 from pathlib import Path
 from typing import List, Tuple, Optional, Dict
 from dataclasses import dataclass
 from datetime import datetime
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 
 from configs.config import SPLITS
 
@@ -83,16 +118,33 @@ class CorefEvaluationConfig:
     batch_folder: Optional[str] = None
     data_dir: Path = Path("./data")
     verbose_per_file: bool = False
+    match_mode: str = "id"        # "id" (gold setting) | "span" (pipeline setting)
+    unmatched: str = "singleton"  # span mode only: "singleton" | "drop"
 
     def get_ground_truth_dir(self) -> Path:
         return Path(self.data_dir) / "annotated" / self.split
 
+    def results_filename(self) -> str:
+        # id mode keeps the historical filename so old logs are never overwritten
+        if self.match_mode == "id":
+            return "evaluation_coref_results.txt"
+        return f"evaluation_coref_results_span_{self.unmatched}.txt"
+
     def validate(self) -> None:
+        if self.match_mode not in ("id", "span"):
+            raise ValueError(f"Unknown match_mode: {self.match_mode}")
+        if self.unmatched not in ("singleton", "drop"):
+            raise ValueError(f"Unknown unmatched policy: {self.unmatched}")
         if self.mode == "single":
             if not self.split:
                 raise ValueError("--split is required for single file evaluation")
             if not self.system_file:
                 raise ValueError("--system-file is required for single file evaluation")
+            if self.match_mode == "span" and not str(self.system_file).endswith(".html"):
+                raise ValueError(
+                    "--match-mode span needs the system *_coref.html file "
+                    "(ids in the JSON clusters cannot be aligned to gold spans)"
+                )
         elif self.mode == "batch":
             if not self.batch_folder:
                 raise ValueError("--batch-folder is required for batch evaluation")
@@ -101,7 +153,7 @@ class CorefEvaluationConfig:
 
 
 # =============================================================================
-# HTML / cluster helpers
+# HTML / cluster helpers  (id mode -- unchanged)
 # =============================================================================
 
 def extract_mention_docid_mapping(html_content: str, parser: str = "html.parser") -> Dict[str, str]:
@@ -146,17 +198,182 @@ def extract_split_from_folder_name(folder_name: str) -> Optional[str]:
     'test_gpt-5.2_coref_fs6_random_gold' or
     'dev_gpt-5.2_coref_fs6_greedy_from-<extraction_folder>-final'."""
     parts = folder_name.split("_")
-    if parts and parts[0] in ["train", "test", "dev"]:
+    if parts and parts[0] in ["train", "test", "dev", "incoming", "extended_test"]:
         return parts[0]
     return None
+
+
+# =============================================================================
+# Span alignment (span mode -- pipeline setting)
+# =============================================================================
+
+@dataclass
+class Mention:
+    key: str      # shared key used as the mention id after alignment
+    docid: str    # cluster label (only used to group mentions)
+    label: str    # labelname attribute (e.g. "decision")
+    start: int    # offsets in whitespace-normalised plain text
+    end: int
+    text: str
+
+
+def extract_mentions_with_offsets(html_content: str, parser: str = "html.parser") -> List[Mention]:
+    """Return every tag carrying both `id` and `docid` as a Mention whose
+    identity is (labelname, start, end) in the whitespace-normalised plain
+    text of the document.
+
+    Offsets ignore markup, so they are identical between the gold HTML and a
+    system HTML built from the same source text, whatever the ids are.
+    Whitespace runs are collapsed and span boundaries are trimmed so that
+    `<x> Foo</x>` and `<x>Foo</x>` (or an inner newline) still match.
+    """
+    soup = BeautifulSoup(html_content, parser)
+
+    pieces: List[str] = []
+    found = []  # (tag, raw_start, raw_end)
+    pos = 0
+
+    def walk(node) -> None:
+        nonlocal pos
+        for child in node.children:
+            if isinstance(child, NavigableString):
+                # exact NavigableString only: skips comments, doctype, scripts...
+                if type(child) is NavigableString:
+                    pieces.append(str(child))
+                    pos += len(child)
+            else:
+                start = pos
+                walk(child)
+                if child.has_attr("docid") and child.has_attr("id"):
+                    found.append((child, start, pos))
+
+    walk(soup)
+    raw = "".join(pieces)
+
+    # raw offset -> whitespace-normalised offset
+    norm_pos = [0] * (len(raw) + 1)
+    norm_chars: List[str] = []
+    prev_ws = False
+    for i, ch in enumerate(raw):
+        norm_pos[i] = len(norm_chars)
+        if ch.isspace():
+            if not prev_ws:
+                norm_chars.append(" ")
+            prev_ws = True
+        else:
+            norm_chars.append(ch)
+            prev_ws = False
+    norm_pos[len(raw)] = len(norm_chars)
+    norm_text = "".join(norm_chars)
+
+    mentions: List[Mention] = []
+    seen: Dict[str, int] = defaultdict(int)
+    for tag, s, e in found:
+        while s < e and raw[s].isspace():
+            s += 1
+        while e > s and raw[e - 1].isspace():
+            e -= 1
+        start, end = norm_pos[s], norm_pos[e]
+        label = tag.get("labelname", "")
+        base = f"{label}|{start}|{end}"
+        n = seen[base]
+        seen[base] += 1
+        key = base if n == 0 else f"{base}#{n}"  # nested spans with identical extent
+        mentions.append(Mention(
+            key=key,
+            docid=(tag.get("docid") or "").strip(),
+            label=label,
+            start=start,
+            end=end,
+            text=norm_text[start:end],
+        ))
+    return mentions
+
+
+def _group_by_docid(mentions: List[Mention]) -> List[List[str]]:
+    groups: Dict[str, List[str]] = defaultdict(list)
+    clusters: List[List[str]] = []
+    for m in mentions:
+        if m.docid:
+            groups[m.docid].append(m.key)
+        else:
+            clusters.append([m.key])  # no docid -> singleton
+    return list(groups.values()) + clusters
+
+
+def align_and_build_clusters(
+    gold_mentions: List[Mention],
+    system_mentions: List[Mention],
+    unmatched: str = "singleton",
+) -> Tuple[List[List[str]], List[List[str]], Dict[str, int]]:
+    """Re-express gold and system clusters over a shared mention space.
+
+    unmatched="singleton": twinless mentions are added as singletons to the
+        opposite side, so both sides score over the union of mentions.
+    unmatched="drop": only mentions present on both sides are scored.
+    """
+    gold_keys = {m.key for m in gold_mentions}
+    sys_keys = {m.key for m in system_mentions}
+    matched = gold_keys & sys_keys
+    gold_only = gold_keys - sys_keys
+    sys_only = sys_keys - gold_keys
+
+    stats = {
+        "gold": len(gold_keys),
+        "system": len(sys_keys),
+        "matched": len(matched),
+        "gold_only": len(gold_only),
+        "system_only": len(sys_only),
+    }
+
+    if unmatched == "drop":
+        gold_clusters = _group_by_docid([m for m in gold_mentions if m.key in matched])
+        system_clusters = _group_by_docid([m for m in system_mentions if m.key in matched])
+    else:
+        gold_clusters = _group_by_docid(gold_mentions) + [[k] for k in sorted(sys_only)]
+        system_clusters = _group_by_docid(system_mentions) + [[k] for k in sorted(gold_only)]
+
+    return gold_clusters, system_clusters, stats
+
+
+def format_alignment_stats(stats: Dict[str, int], title: str = "Mention alignment") -> str:
+    m, g, s = stats["matched"], stats["gold"], stats["system"]
+    p = m / s if s else 0.0
+    r = m / g if g else 0.0
+    f = 2 * p * r / (p + r) if (p + r) else 0.0
+    return (
+        f"{title}\n"
+        f"  gold mentions: {g} | system mentions: {s} | matched: {m}\n"
+        f"  gold-only (missed): {stats['gold_only']} | system-only (spurious): {stats['system_only']}\n"
+        f"  mention-level  P={p:.3f}  R={r:.3f}  F1={f:.3f}\n"
+    )
+
+
+def _read(path: Path) -> str:
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read()
+
+
+def load_cluster_pair(
+    gold_path: Path, system_path: Path, config: CorefEvaluationConfig
+) -> Tuple[List[List[str]], List[List[str]], Optional[Dict[str, int]]]:
+    """Return (gold_clusters, system_clusters, alignment_stats_or_None)."""
+    if config.match_mode == "id":
+        return load_clusters(gold_path), load_clusters(system_path), None
+
+    if system_path.suffix != ".html":
+        raise ValueError(f"span mode needs a system *_coref.html file, got: {system_path}")
+    gold_mentions = extract_mentions_with_offsets(_read(gold_path))
+    system_mentions = extract_mentions_with_offsets(_read(system_path))
+    return align_and_build_clusters(gold_mentions, system_mentions, config.unmatched)
 
 
 # =============================================================================
 # Logging helpers
 # =============================================================================
 
-def save_evaluation_log(folder_path: Path, log_content: str) -> None:
-    log_file = folder_path / "evaluation_coref_results.txt"
+def save_evaluation_log(folder_path: Path, log_content: str, filename: str = "evaluation_coref_results.txt") -> None:
+    log_file = folder_path / filename
     with open(log_file, "w", encoding="utf-8") as f:
         f.write(log_content)
     print(f"✓ Saved evaluation results to: {log_file}")
@@ -169,7 +386,9 @@ def save_version_info(folder_path: Path, config: CorefEvaluationConfig, mode: st
         "================================\n"
         f"Timestamp: {datetime.now().isoformat()}\n"
         f"Mode: {mode}\n"
-        f"Split: {config.split}\n\n"
+        f"Split: {config.split}\n"
+        f"Match mode: {config.match_mode}\n"
+        f"Unmatched policy: {config.unmatched}\n\n"
     )
     if details:
         content += f"Details:\n{details}\n"
@@ -198,17 +417,20 @@ def run_single_file_evaluation(config: CorefEvaluationConfig):
         f"SINGLE FILE COREF EVALUATION\n"
         f"{'='*70}\n"
         f"Split: {config.split}\n"
+        f"Match mode: {config.match_mode}"
+        + (f" (unmatched={config.unmatched})" if config.match_mode == "span" else "") + "\n"
         f"Gold:   {gold_path}\n"
         f"System: {system_path}\n"
         f"{'='*70}\n"
     )
     print(header)
 
-    gold_clusters = load_clusters(gold_path)
-    system_clusters = load_clusters(system_path)
+    gold_clusters, system_clusters, stats = load_cluster_pair(gold_path, system_path, config)
 
     buffer = io.StringIO()
     with contextlib.redirect_stdout(buffer):
+        if stats is not None:
+            print(format_alignment_stats(stats))
         raw = evaluate_coref_raw(gold_clusters, system_clusters)
         scores = finalize_raw(raw)
         print_evaluation_table(scores, title=f"Coreference Evaluation — {doc_stem}")
@@ -216,27 +438,40 @@ def run_single_file_evaluation(config: CorefEvaluationConfig):
     print(captured)
 
     full_log = header + captured
-    save_evaluation_log(system_path.parent, full_log)
+    save_evaluation_log(system_path.parent, full_log, config.results_filename())
 
 
 # =============================================================================
 # Batch evaluation
 # =============================================================================
 
+def _first_nonempty_glob(folder: Path, patterns: List[str]) -> List[Path]:
+    for pattern in patterns:
+        files = [f for f in folder.glob(pattern) if f.is_file()]
+        if files:
+            return files
+    return []
+
+
 def collect_cluster_pairs_from_batch_folder(
     batch_folder: Path,
     data_dir: Path,
     split: str,
     verbose: bool = False,
+    match_mode: str = "id",
 ) -> List[Tuple[Path, Path]]:
     """Collect (gold_path, system_path) pairs from a batch folder.
 
     Handles two structures (same convention as evaluate.py):
-    1. Direct files: `*_coref_clusters.json` (preferred) or `*_coref.html`
-       directly inside batch_folder
+    1. Direct files inside batch_folder
     2. Subfolder-per-file structure, as produced by main_coref.py's split
-       mode: batch_folder/<filename>/<filename>_coref_clusters.json
+       mode: batch_folder/<filename>/<filename>_coref*.{json,html}
+
+    id mode:   `*_coref_clusters.json` (preferred) or `*_coref.html`
+    span mode: `*_coref.html` only (ids in the JSON can't be aligned to gold)
     """
+    patterns = ["*_coref.html"] if match_mode == "span" else ["*_coref_clusters.json", "*_coref.html"]
+
     gold_dir = data_dir / "annotated" / split
     if not gold_dir.exists():
         raise ValueError(f"Gold directory does not exist: {gold_dir}")
@@ -258,10 +493,7 @@ def collect_cluster_pairs_from_batch_folder(
         return pairs
 
     # Strategy 1: direct files
-    direct_files = list(batch_folder.glob("*_coref_clusters.json"))
-    if not direct_files:
-        direct_files = list(batch_folder.glob("*_coref.html"))
-    direct_files = [f for f in direct_files if f.is_file()]
+    direct_files = _first_nonempty_glob(batch_folder, patterns)
     if direct_files:
         if verbose:
             print(f"Found {len(direct_files)} direct coref output files")
@@ -274,7 +506,7 @@ def collect_cluster_pairs_from_batch_folder(
             print(f"Found {len(subfolders)} subfolders")
         system_files = []
         for subfolder in subfolders:
-            candidates = list(subfolder.glob("*_coref_clusters.json")) or list(subfolder.glob("*_coref.html"))
+            candidates = _first_nonempty_glob(subfolder, patterns)
             if candidates:
                 system_files.append(candidates[0])
             elif verbose:
@@ -307,11 +539,15 @@ def run_batch_evaluation(config: CorefEvaluationConfig):
         f"{'='*70}\n"
         f"Batch folder: {batch_folder}\n"
         f"Split: {split}\n"
+        f"Match mode: {config.match_mode}"
+        + (f" (unmatched={config.unmatched})" if config.match_mode == "span" else "") + "\n"
         f"{'='*70}\n"
     )
     print(header)
 
-    pairs = collect_cluster_pairs_from_batch_folder(batch_folder, config.data_dir, split, verbose=False)
+    pairs = collect_cluster_pairs_from_batch_folder(
+        batch_folder, config.data_dir, split, verbose=False, match_mode=config.match_mode
+    )
     if not pairs:
         raise ValueError(f"No file pairs found in batch folder: {batch_folder}")
     print(f"Found {len(pairs)} evaluation pair(s)\n")
@@ -319,25 +555,32 @@ def run_batch_evaluation(config: CorefEvaluationConfig):
     buffer = io.StringIO()
     with contextlib.redirect_stdout(buffer):
         per_file_raws = []
+        total_stats: Dict[str, int] = defaultdict(int)
         for gold_path, system_path in pairs:
-            gold_clusters = load_clusters(gold_path)
-            system_clusters = load_clusters(system_path)
+            gold_clusters, system_clusters, stats = load_cluster_pair(gold_path, system_path, config)
             raw = evaluate_coref_raw(gold_clusters, system_clusters)
             per_file_raws.append(raw)
+            if stats is not None:
+                for k, v in stats.items():
+                    total_stats[k] += v
             if config.verbose_per_file:
+                if stats is not None:
+                    print(format_alignment_stats(stats, title=f"Mention alignment — {gold_path.stem}"))
                 print_evaluation_table(finalize_raw(raw), title=f"{gold_path.stem}")
 
         # Corpus-level aggregation: sum raw counts, then compute one overall
         # P/R/F per metric (standard CoNLL-scorer convention), rather than
         # averaging per-document F1s.
         aggregated_scores = finalize_raw(aggregate_raw(per_file_raws))
+        if config.match_mode == "span":
+            print(format_alignment_stats(dict(total_stats), title=f"Mention alignment (total over {len(pairs)} document(s))"))
         print_evaluation_table(aggregated_scores, title=f"Aggregate over {len(pairs)} document(s)")
     captured = buffer.getvalue()
 
     print(captured)
 
     full_log = header + f"Found {len(pairs)} evaluation pair(s)\n\n" + captured
-    save_evaluation_log(batch_folder, full_log)
+    save_evaluation_log(batch_folder, full_log, config.results_filename())
 
     return aggregated_scores
 
@@ -345,6 +588,15 @@ def run_batch_evaluation(config: CorefEvaluationConfig):
 # =============================================================================
 # CLI
 # =============================================================================
+
+def _add_match_args(p: argparse.ArgumentParser) -> None:
+    p.add_argument("--match-mode", choices=["id", "span"], default="id",
+                   help="id: gold and system share mention ids (gold setting, default). "
+                        "span: align system spans to gold spans (pipeline setting; needs *_coref.html)")
+    p.add_argument("--unmatched", choices=["singleton", "drop"], default="singleton",
+                   help="span mode only. singleton: unmatched mentions become singletons on the other side "
+                        "(end-to-end, default). drop: score only mentions present on both sides")
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -363,6 +615,7 @@ def main():
                                 help="Path to a *_coref_clusters.json or *_coref.html system output file")
     single_parser.add_argument("--data-dir", default="./data", help="Root data directory (default: ./data)")
     single_parser.add_argument("--verbose", action="store_true", help="Verbose output")
+    _add_match_args(single_parser)
 
     # ========== BATCH EVALUATION ==========
     batch_parser = subparsers.add_parser("batch", help="Evaluate a batch folder with multiple documents")
@@ -372,6 +625,7 @@ def main():
     batch_parser.add_argument("--data-dir", default="./data", help="Root data directory (default: ./data)")
     batch_parser.add_argument("--verbose", action="store_true",
                                help="Also print a per-document table before the aggregate")
+    _add_match_args(batch_parser)
 
     args = parser.parse_args()
 
@@ -386,6 +640,8 @@ def main():
             system_file=args.system_file,
             data_dir=Path(args.data_dir),
             verbose_per_file=args.verbose,
+            match_mode=args.match_mode,
+            unmatched=args.unmatched,
         )
         config.validate()
         run_single_file_evaluation(config)
@@ -397,6 +653,8 @@ def main():
             batch_folder=args.batch_folder,
             data_dir=Path(args.data_dir),
             verbose_per_file=args.verbose,
+            match_mode=args.match_mode,
+            unmatched=args.unmatched,
         )
         config.validate()
         run_batch_evaluation(config)

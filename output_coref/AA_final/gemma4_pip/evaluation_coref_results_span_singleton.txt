@@ -1,0 +1,27 @@
+
+======================================================================
+BATCH COREF EVALUATION
+======================================================================
+Batch folder: output_coref\AA_final\gemma4_pip
+Split: extended_test
+Match mode: span (unmatched=singleton)
+======================================================================
+Found 4 evaluation pair(s)
+
+Mention alignment (total over 4 document(s))
+  gold mentions: 1011 | system mentions: 894 | matched: 779
+  gold-only (missed): 232 | system-only (spurious): 115
+  mention-level  P=0.871  R=0.771  F1=0.818
+
+
+=== Aggregate over 4 document(s) ===
+┌──────────┬────────────┬────────────┬────────────┐
+│ Metric   │ Precision  │ Recall     │ F1         │
+├──────────┼────────────┼────────────┼────────────┤
+│ MUC      │ 0.8304     │ 0.7020     │ 0.7608     │
+│ B3       │ 0.8310     │ 0.7032     │ 0.7618     │
+│ CEAF_e   │ 0.4360     │ 0.6029     │ 0.5060     │
+│ LEA      │ 0.5731     │ 0.5392     │ 0.5556     │
+└──────────┴────────────┴────────────┴────────────┘
+CoNLL average F1 (MUC/B3/CEAF_e): 0.6762
+

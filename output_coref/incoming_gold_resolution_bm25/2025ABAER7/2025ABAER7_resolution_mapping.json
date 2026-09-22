@@ -1,313 +1,313 @@
 {
   "Canadian Natural Resources": {
     "uri": "https://canlii.ca/t/kfpl2",
-    "score": 96.96038055419922,
+    "score": 100.16065979003906,
     "candidate_id": "2025abaer7",
     "candidate_title": "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch",
     "query_text": "decision | Canadian Natural Resources\nLimited v. AER Regulatory Compliance Branch | 2025 ABAER 007",
     "topk": [
       {
         "uri": "https://canlii.ca/t/kfpl2",
-        "score": 96.96038055419922,
+        "score": 100.16065979003906,
         "candidate_title": "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch"
       },
       {
-        "uri": "https://canlii.ca/t/1f9fd",
-        "score": 18.57671356201172,
-        "candidate_title": "Glimmer Resources Inc. v. Exall Resources Limited"
+        "uri": "https://www.canlii.org/en/ab/ablprt/doc/2022/2022ablprt1192/2022ablprt1192.html",
+        "score": 34.872108459472656,
+        "candidate_title": "Canadian Natural Resources Limited v Chrupka"
       },
       {
-        "uri": "https://canlii.ca/t/gc049",
-        "score": 17.012033462524414,
-        "candidate_title": "Central Canada Potash Company Limited v. Saskatchewan (Mineral Resources)"
+        "uri": "https://www.canlii.org/en/ab/absrb/doc/2014/2014absrb276/2014absrb276.html",
+        "score": 34.322998046875,
+        "candidate_title": "Canadian Natural Resources Limited v. Sanderson"
       }
     ]
   },
   "Syncrude ABPC-1 2010": {
     "uri": "https://canlii.ca/t/2bb02",
-    "score": 53.80425262451172,
+    "score": 51.96250534057617,
     "candidate_id": "2010abpc229",
     "candidate_title": "R. v. Syncrude Canada Ltd.",
     "query_text": "decision | R v Syncrude | Syncrude judgement | 2010 ABPC 229",
     "topk": [
       {
         "uri": "https://canlii.ca/t/2bb02",
-        "score": 53.80425262451172,
+        "score": 51.96250534057617,
         "candidate_title": "R. v. Syncrude Canada Ltd."
       },
       {
         "uri": "https://canlii.ca/t/29wsb",
-        "score": 45.76106643676758,
+        "score": 45.39168930053711,
         "candidate_title": "R. v. Syncrude Canada Ltd."
       },
       {
-        "uri": "https://canlii.ca/t/5qsn",
-        "score": 14.677168846130371,
-        "candidate_title": "Stachniak v. Thorhild (County No. 7)"
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1989/1989canlii129/1989canlii129.html",
+        "score": 28.62312126159668,
+        "candidate_title": "Hunter Engineering Co. v. Syncrude Canada Ltd."
       }
     ]
   },
   "Rizzo Shoes": {
     "uri": "https://canlii.ca/t/1fqwt",
-    "score": 88.1481704711914,
+    "score": 98.99597930908203,
     "candidate_id": "1998csc-scc5",
     "candidate_title": "Rizzo & Rizzo Shoes Ltd. (Re)",
     "query_text": "decision | Rizzo\n&amp; Rizzo Shoes Ltd. (Re) | Rizzo Shoes | [1998] 1 SCR 27",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1fqwt",
-        "score": 88.1481704711914,
+        "score": 98.99597930908203,
         "candidate_title": "Rizzo & Rizzo Shoes Ltd. (Re)"
       },
       {
-        "uri": "https://canlii.ca/t/j1pkm",
-        "score": 15.989298820495605,
-        "candidate_title": "Ava Trade Ltd. (Re)"
+        "uri": "https://www.canlii.org/en/on/onca/doc/1999/1999canlii1345/1999canlii1345.html",
+        "score": 30.255413055419922,
+        "candidate_title": "Buland Empire Development Inc. v. Quinto SHoes Imports Ltd."
       },
       {
-        "uri": "https://canlii.ca/t/1fqsz",
-        "score": 14.537712097167969,
-        "candidate_title": "Westcoast Energy Inc. v. Canada (National Energy Board)"
+        "uri": "https://canlii.ca/t/j1pkm",
+        "score": 17.328243255615234,
+        "candidate_title": "Ava Trade Ltd. (Re)"
       }
     ]
   },
   "Vavilov": {
     "uri": "https://canlii.ca/t/j46kb",
-    "score": 45.041622161865234,
+    "score": 40.99976348876953,
     "candidate_id": "2019csc-scc65",
     "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov",
     "query_text": "decision | Canada\n(Minister of Citizenship and Immigration) v Vavilov | 2019 SCC 65",
     "topk": [
       {
         "uri": "https://canlii.ca/t/j46kb",
-        "score": 45.041622161865234,
+        "score": 40.99976348876953,
         "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov"
       },
       {
-        "uri": "https://canlii.ca/t/h4j13",
-        "score": 28.051342010498047,
-        "candidate_title": "Vavilov v. Canada (Citizenship and Immigration)"
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2000/2000canlii16197/2000canlii16197.html",
+        "score": 23.85541534423828,
+        "candidate_title": "Vairamuthu v. Canada (Minister of Citizenship and Immigration)"
       },
       {
-        "uri": "https://canlii.ca/t/gkr9s",
-        "score": 28.025184631347656,
+        "uri": "https://canlii.ca/t/h4j13",
+        "score": 23.59337615966797,
         "candidate_title": "Vavilov v. Canada (Citizenship and Immigration)"
       }
     ]
   },
   "Syncrude ABPC-2 2010": {
     "uri": "https://canlii.ca/t/29wsb",
-    "score": 64.87274932861328,
+    "score": 65.5422592163086,
     "candidate_id": "2010abpc154",
     "candidate_title": "R. v. Syncrude Canada Ltd.",
     "query_text": "decision | R v Syncrude | Syncrude non-suit ruling | Syncrude\nnon-suit ruling | 2010 ABPC 154",
     "topk": [
       {
         "uri": "https://canlii.ca/t/29wsb",
-        "score": 64.87274932861328,
+        "score": 65.5422592163086,
         "candidate_title": "R. v. Syncrude Canada Ltd."
       },
       {
         "uri": "https://canlii.ca/t/2bb02",
-        "score": 54.75357437133789,
+        "score": 54.42399978637695,
         "candidate_title": "R. v. Syncrude Canada Ltd."
       },
       {
-        "uri": "https://canlii.ca/t/5qsn",
-        "score": 14.677168846130371,
-        "candidate_title": "Stachniak v. Thorhild (County No. 7)"
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1989/1989canlii129/1989canlii129.html",
+        "score": 40.694820404052734,
+        "candidate_title": "Hunter Engineering Co. v. Syncrude Canada Ltd."
       }
     ]
   },
   "Dekker": {
     "uri": "https://canlii.ca/t/fnbk1",
-    "score": 38.231475830078125,
+    "score": 39.25176239013672,
     "candidate_id": "2011ablrb1000033",
     "candidate_title": "Dekker v Communications, Energy and Paperworkers Union of Canada",
     "query_text": "decision | <i>Dekker v C.E.P.</i> | [2011] Alta. L.R.B.R. LD-011 (Alberta Labour Relations Board)",
     "topk": [
       {
         "uri": "https://canlii.ca/t/fnbk1",
-        "score": 38.231475830078125,
+        "score": 39.25176239013672,
         "candidate_title": "Dekker v Communications, Energy and Paperworkers Union of Canada"
       },
       {
         "uri": "https://canlii.ca/t/523k",
-        "score": 35.1750602722168,
+        "score": 34.00910568237305,
         "candidate_title": "Ellis-Don Ltd. v. Ontario (Labour Relations Board)"
       },
       {
-        "uri": "https://canlii.ca/t/1fqzp",
-        "score": 29.201034545898438,
-        "candidate_title": "Ref re Remuneration of Judges of the Prov. Court of P.E.I.; Ref re Independence and Impartiality of Judges of the Prov. Court of P.E.I."
+        "uri": "https://www.canlii.org/en/ab/abeab/doc/2011/2011abeab23/2011abeab23.html",
+        "score": 32.429588317871094,
+        "candidate_title": "Visscher v. Director, Northern Region, Environmental Management, Alberta Environment, re: Provident Energy Ltd., 10-011-R"
       }
     ]
   },
   "ASL Paving": {
     "uri": "https://canlii.ca/t/2dcdb",
-    "score": 50.12364959716797,
+    "score": 54.268619537353516,
     "candidate_id": "1995abca118",
     "candidate_title": "Alberta v. ASL Paving Ltd.",
     "query_text": "decision | <i>R v ASL Paving Ltd.</i> | [1995] AWLD 430\n(ABCA)",
     "topk": [
       {
         "uri": "https://canlii.ca/t/2dcdb",
-        "score": 50.12364959716797,
+        "score": 54.268619537353516,
         "candidate_title": "Alberta v. ASL Paving Ltd."
       },
       {
-        "uri": "https://canlii.ca/t/jqtg2",
-        "score": 19.83684539794922,
-        "candidate_title": "Bhatnager v. M.E.I."
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2020/2020skca26/2020skca26.html",
+        "score": 24.513755798339844,
+        "candidate_title": "R v R.I.G"
       },
       {
-        "uri": "https://canlii.ca/t/1jzqz",
-        "score": 19.740936279296875,
-        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+        "uri": "https://www.canlii.org/en/sk/skort/doc/2018/2018skort198/2018skort198.html",
+        "score": 24.43162727355957,
+        "candidate_title": "Broadstreet Properties Ltd. v I.T"
       }
     ]
   },
   "EPEA": {
-    "uri": "https://canlii.ca/t/56vzq",
-    "score": 34.710052490234375,
+    "uri": "https://canlii.ca/t/56wh2",
+    "score": 40.12156295776367,
     "candidate_id": "l17678!17678-current-1",
     "candidate_title": "Environmental Protection and Enhancement Act",
     "query_text": "legislation | EPEA | Environmental Protection and Enhancement Act | <i>EPEA</i>",
     "topk": [
       {
-        "uri": "https://canlii.ca/t/56vzq",
-        "score": 34.710052490234375,
-        "candidate_title": "Environmental Protection and Enhancement Act"
-      },
-      {
         "uri": "https://canlii.ca/t/56wh2",
-        "score": 34.710052490234375,
+        "score": 40.12156295776367,
         "candidate_title": "Environmental Protection and Enhancement Act"
       },
       {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 23.86480140686035,
-        "candidate_title": "Interpretation Act"
+        "uri": "https://canlii.ca/t/56vzq",
+        "score": 40.12156295776367,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/pe/laws/stat/rspei-1988-c-e-9/latest/rspei-1988-c-e-9.html",
+        "score": 26.4201717376709,
+        "candidate_title": "Environmental Protection Act"
       }
     ]
   },
   "Administrative Penalty Regulation": {
     "uri": "https://canlii.ca/t/56w7m",
-    "score": 166.32452392578125,
+    "score": 194.52664184570312,
     "candidate_id": "l18667!18667-current-1",
     "candidate_title": "Administrative Penalty Regulation",
     "query_text": "legislation | <i>Administrative\nPenalty Regulation</i> | Administrative Penalty Regulation | Administrative\nPenalty Regulation | regulation | <i>Administrative Penalty Regulation</i> | <i>Administrative Penalty\nRegulation</i>",
     "topk": [
       {
         "uri": "https://canlii.ca/t/56w7m",
-        "score": 166.32452392578125,
+        "score": 194.52664184570312,
         "candidate_title": "Administrative Penalty Regulation"
       },
       {
         "uri": "https://canlii.ca/t/56wnv",
-        "score": 95.13249206542969,
+        "score": 109.08009338378906,
         "candidate_title": "Administrative penalties (Environmental Management Act) Regulation"
       },
       {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 58.6467399597168,
-        "candidate_title": "Interpretation Act"
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-143-1996/latest/alta-reg-143-1996.html",
+        "score": 61.99609375,
+        "candidate_title": "Gaming, Liquor and Cannabis Regulation"
       }
     ]
   },
   "REDA": {
     "uri": "https://canlii.ca/t/56k8d",
-    "score": 34.90803527832031,
+    "score": 40.42469787597656,
     "candidate_id": "l36872!36872-current-1",
     "candidate_title": "Responsible Energy Development Act",
     "query_text": "legislation | Responsible\nEnergy Development Act | REDA",
     "topk": [
       {
         "uri": "https://canlii.ca/t/56k8d",
-        "score": 34.90803527832031,
+        "score": 40.42469787597656,
         "candidate_title": "Responsible Energy Development Act"
       },
       {
-        "uri": "https://canlii.ca/t/kzbn",
-        "score": 13.296907424926758,
-        "candidate_title": "Energy Resources Conservation Act"
+        "uri": "https://www.canlii.org/en/bc/laws/stat/sbc-2010-c-22/latest/sbc-2010-c-22.html",
+        "score": 16.893892288208008,
+        "candidate_title": "Clean Energy Act"
       },
       {
-        "uri": "https://canlii.ca/t/56pvt",
-        "score": 9.42365550994873,
-        "candidate_title": "Alberta Energy Regulator Rules of Practice"
+        "uri": "https://www.canlii.org/en/sk/laws/stat/ss-2007-c-p-13.2/latest/ss-2007-c-p-13.2.html",
+        "score": 16.406597137451172,
+        "candidate_title": "The Planning and Development Act, 2007"
       }
     ]
   },
   "Alberta Energy Regulator Rules of Practice": {
     "uri": "https://canlii.ca/t/56pvt",
-    "score": 46.335391998291016,
+    "score": 53.24943923950195,
     "candidate_id": "l37442!37442-current-1",
     "candidate_title": "Alberta Energy Regulator Rules of Practice",
     "query_text": "legislation | <i>Alberta Energy Regulator Rules of Practice</i>",
     "topk": [
       {
         "uri": "https://canlii.ca/t/56pvt",
-        "score": 46.335391998291016,
+        "score": 53.24943923950195,
         "candidate_title": "Alberta Energy Regulator Rules of Practice"
       },
       {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 20.684175491333008,
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+        "score": 22.088586807250977,
         "candidate_title": "Interpretation Act"
       },
       {
-        "uri": "https://canlii.ca/t/hznr",
-        "score": 20.532691955566406,
-        "candidate_title": "Interest Act"
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-8/latest/cqlr-c-i-8.html",
+        "score": 21.716598510742188,
+        "candidate_title": "Nurses Act"
       }
     ]
   },
   "Interpretation Act": {
     "uri": "https://canlii.ca/t/56kzw",
-    "score": 32.37744140625,
+    "score": 39.65473175048828,
     "candidate_id": "l17918!17918-current-1",
     "candidate_title": "Interpretation Act",
     "query_text": "legislation | Interpretation Act | Interpretation\nAct",
     "topk": [
       {
         "uri": "https://canlii.ca/t/56kzw",
-        "score": 32.37744140625,
+        "score": 39.65473175048828,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/yk/laws/stat/rsy-2002-c-125/latest/rsy-2002-c-125.html",
+        "score": 37.165740966796875,
         "candidate_title": "Interpretation Act"
       },
       {
         "uri": "https://canlii.ca/t/564nl",
-        "score": 30.042133331298828,
-        "candidate_title": "Interpretation Act"
-      },
-      {
-        "uri": "https://canlii.ca/t/56fd8",
-        "score": 27.294483184814453,
+        "score": 36.194217681884766,
         "candidate_title": "Interpretation Act"
       }
     ]
   },
   "Merriam-Webster Online Dictionary": {
     "uri": "https://canlii.ca/t/1fr2l",
-    "score": 4.265000343322754,
+    "score": 4.460696220397949,
     "candidate_id": "1997csc-scc25",
     "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15",
     "query_text": "secondary sources | Merriam-Webster Online Dictionary",
     "topk": [
       {
         "uri": "https://canlii.ca/t/1fr2l",
-        "score": 4.265000343322754,
+        "score": 4.460696220397949,
         "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15"
       },
       {
-        "uri": "https://canlii.ca/t/sx35",
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2016/2016abca154/2016abca154.html",
         "score": 0.0,
-        "candidate_title": "The Canadian Law of Judicial Review: A Plea for Doctrinal Coherence and Consistency."
+        "candidate_title": "Lum v Alberta Dental Association and College (Review Panel)"
       },
       {
-        "uri": "https://canlii.ca/t/ssc3",
+        "uri": "https://www.canlii.org/en/ab/abkb/doc/2023/2023abkb736/2023abkb736.html",
         "score": 0.0,
-        "candidate_title": "The Duty to Negotiate and the Ethos of Reconciliation"
+        "candidate_title": "Pacific Atlantic Pipeline Construction Ltd v Coastal Gaslink Pipeline Ltd"
       }
     ]
   }
