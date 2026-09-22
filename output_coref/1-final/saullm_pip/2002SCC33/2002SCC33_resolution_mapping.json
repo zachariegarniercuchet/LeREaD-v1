@@ -1,0 +1,1202 @@
+{
+  "Woods Manufacturing Co. v. The King": {
+    "uri": "https://canlii.ca/t/22wpp",
+    "score": 0.6899654269218445,
+    "candidate_id": "1951csc-scc1000014",
+    "candidate_title": "Woods v. The King",
+    "query_text": "decision | <i>Woods Manufacturing Co. v. The King</i> | [1951] S.C.R. 504",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22wpp",
+        "score": 0.6899654269218445,
+        "candidate_title": "Woods v. The King"
+      },
+      {
+        "uri": "https://canlii.ca/t/1tvn6",
+        "score": 0.5817140340805054,
+        "candidate_title": "Howard Smith Paper Mills Ltd. et al. v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1948/1948canlii54/1948canlii54.html",
+        "score": 0.5607854127883911,
+        "candidate_title": "Bennett and White Construction Co. v. Minister of National Revenue"
+      }
+    ]
+  },
+  "Consolboard Inc. v. MacMillan Bloedel (Saskatchewan) Ltd.": {
+    "uri": "https://canlii.ca/t/1lpbb",
+    "score": 0.8691089749336243,
+    "candidate_id": "1981csc-scc10006",
+    "candidate_title": "Consolboard Inc. v. MacMillan Bloedel (Sask.) Ltd.",
+    "query_text": "decision | <i>Consolboard Inc. v. MacMillan Bloedel (Saskatchewan) Ltd.</i> | [1981] 1 S.C.R. 504",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpbb",
+        "score": 0.8691089749336243,
+        "candidate_title": "Consolboard Inc. v. MacMillan Bloedel (Sask.) Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1frdw",
+        "score": 0.6660730242729187,
+        "candidate_title": "MacMillan Bloedel Ltd. v. Simpson"
+      },
+      {
+        "uri": "https://canlii.ca/t/1d958",
+        "score": 0.5901716947555542,
+        "candidate_title": "MacMillan Bloedel Ltd. v. B.C. (Hydro and Power Authority)"
+      }
+    ]
+  },
+  "Anderson v. Bessemer City": {
+    "uri": "https://www.canlii.org/en/on/onsc/doc/2009/2009canlii72107/2009canlii72107.html",
+    "score": 0.4977221190929413,
+    "candidate_id": "2009onsc2000202",
+    "candidate_title": "Anderson v. Hamilton (City)",
+    "query_text": "decision | <i>Anderson v. Bessemer City</i> | 470 U.S. 564 (1985)",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2009/2009canlii72107/2009canlii72107.html",
+        "score": 0.4977221190929413,
+        "candidate_title": "Anderson v. Hamilton (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2014/2014scc41/2014scc41.html",
+        "score": 0.46636542677879333,
+        "candidate_title": "R. v. Anderson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2017/2017nbca51/2017nbca51.html",
+        "score": 0.453233003616333,
+        "candidate_title": "Anderson v. R"
+      }
+    ]
+  },
+  "Schreiber Brothers Ltd. v. Currie Products Ltd.": {
+    "uri": "https://canlii.ca/t/1mjv0",
+    "score": 0.8644415736198425,
+    "candidate_id": "1980csc-scc10003",
+    "candidate_title": "Schreiber Brothers Ltd. v. Currie Products Ltd. et al.",
+    "query_text": "decision | <i>Schreiber Brothers Ltd. v. Currie Products Ltd.</i> | [1980] 2 S.C.R. 78",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjv0",
+        "score": 0.8644415736198425,
+        "candidate_title": "Schreiber Brothers Ltd. v. Currie Products Ltd. et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1998/1998canlii828/1998canlii828.html",
+        "score": 0.6080580949783325,
+        "candidate_title": "Schreiber v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/1978/1978canlii4094/1978canlii4094.html",
+        "score": 0.5742136240005493,
+        "candidate_title": "Reeves Brothers Inc. v. Toronto Quilting & Embroidery Ltd."
+      }
+    ]
+  },
+  "Métivier v. Cadorette": {
+    "uri": "https://canlii.ca/t/1mx4h",
+    "score": 0.7994319200515747,
+    "candidate_id": "1975csc-scc10001",
+    "candidate_title": "Métivier v. Cadorette",
+    "query_text": "decision | <i>Métivier v. Cadorette</i> | [1977] 1 S.C.R. 371",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mx4h",
+        "score": 0.7994319200515747,
+        "candidate_title": "Métivier v. Cadorette"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1971/1971canlii52/1971canlii52.html",
+        "score": 0.5575258731842041,
+        "candidate_title": "McCormick v. Marcotte"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nmz7",
+        "score": 0.5378925800323486,
+        "candidate_title": "McCannell v. Mclean"
+      }
+    ]
+  },
+  "Palsky v. Humphrey": {
+    "uri": "https://canlii.ca/t/22xwz",
+    "score": 0.7890533804893494,
+    "candidate_id": "1964csc-scc1000055",
+    "candidate_title": "Palsky et al. v. Humphrey et al./ Sillito et al. v. Humphrey et al.",
+    "query_text": "decision | <i>Palsky v. Humphrey</i> | [1964] S.C.R. 580",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22xwz",
+        "score": 0.7890533804893494,
+        "candidate_title": "Palsky et al. v. Humphrey et al./ Sillito et al. v. Humphrey et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1z18x",
+        "score": 0.5033801794052124,
+        "candidate_title": "A.G. for British Columbia et al. v. Parklane Private Hospital Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1945/1945canlii23/1945canlii23.html",
+        "score": 0.5002633333206177,
+        "candidate_title": "Pahara v. Pahara"
+      }
+    ]
+  },
+  "Schwartz": {
+    "uri": "https://canlii.ca/t/1frcq",
+    "score": 0.7731929421424866,
+    "candidate_id": "1996csc-scc15",
+    "candidate_title": "Schwartz v. Canada",
+    "query_text": "decision | <i>Schwartz</i> | <i>Schwartz v. Canada</i> | [1996] 1 S.C.R. 254",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frcq",
+        "score": 0.7731929421424866,
+        "candidate_title": "Schwartz v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1998/1998canlii828/1998canlii828.html",
+        "score": 0.6075600981712341,
+        "candidate_title": "Schreiber v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1lpcg",
+        "score": 0.5917450189590454,
+        "candidate_title": "Schneider v. The Queen"
+      }
+    ]
+  },
+  "Hodgkinson v. Simms": {
+    "uri": "https://canlii.ca/t/1frpl",
+    "score": 0.7729310393333435,
+    "candidate_id": "1994csc-scc81",
+    "candidate_title": "Hodgkinson v. Simms",
+    "query_text": "decision | <i>Hodgkinson v. Simms</i> | [1994] 3 S.C.R. 377",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frpl",
+        "score": 0.7729310393333435,
+        "candidate_title": "Hodgkinson v. Simms"
+      },
+      {
+        "uri": "https://canlii.ca/t/1p6qc",
+        "score": 0.6850147843360901,
+        "candidate_title": "Hodgkinson v. Simms"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fv04",
+        "score": 0.5361818075180054,
+        "candidate_title": "Simon v. The Queen"
+      }
+    ]
+  },
+  "Anderson": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/2014/2014scc41/2014scc41.html",
+    "score": 0.6617963910102844,
+    "candidate_id": "2014csc-scc41",
+    "candidate_title": "R. v. Anderson",
+    "query_text": "decision | <i>Anderson</i>",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2014/2014scc41/2014scc41.html",
+        "score": 0.6617963910102844,
+        "candidate_title": "R. v. Anderson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/1997/1997canlii10893/1997canlii10893.html",
+        "score": 0.6535112857818604,
+        "candidate_title": "Anderson v. Lambert"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2009/2009canlii72107/2009canlii72107.html",
+        "score": 0.6367756724357605,
+        "candidate_title": "Anderson v. Hamilton (City)"
+      }
+    ]
+  },
+  "Woods_Manufacturing_Co_v_The_King": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739340782165527,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739340782165527,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5710585117340088,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620054006576538,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Toneguzzo-Norvell": {
+    "uri": "https://canlii.ca/t/1frwb",
+    "score": 0.8530408143997192,
+    "candidate_id": "1994csc-scc4",
+    "candidate_title": "Toneguzzo-Norvell (Guardian ad litem of) v. Burnaby Hospital",
+    "query_text": "decision | Toneguzzo-Norvell | <i>Toneguzzo-Norvell</i>,<i> supra</i> | <i>Toneguzzo-Norvell (Guardian ad litem of) v. Burnaby Hospital</i> | at <auto_label fragmentid=\"\" id=\"206\" labelname=\"fragment\" non_standard=\"false\" parent=\"citation\" style=\"background-color: rgb(142, 124, 195); color: black;\" verified=\"false\">p. 123</auto_label> | [1994] 1 S.C.R. 114",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frwb",
+        "score": 0.8530408143997192,
+        "candidate_title": "Toneguzzo-Norvell (Guardian ad litem of) v. Burnaby Hospital"
+      },
+      {
+        "uri": "https://canlii.ca/t/1z18x",
+        "score": 0.5658987164497375,
+        "candidate_title": "A.G. for British Columbia et al. v. Parklane Private Hospital Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1998/1998canlii4906/1998canlii4906.html",
+        "score": 0.5654714703559875,
+        "candidate_title": "Moore v. Castlegar & District Hospital"
+      }
+    ]
+  },
+  "Southam Inc.": {
+    "uri": "https://canlii.ca/t/1fr34",
+    "score": 0.8272970914840698,
+    "candidate_id": "1997csc-scc33",
+    "candidate_title": "Canada (Director of Investigation and Research) v. Southam Inc.",
+    "query_text": "decision | <i>Canada (Director of Investigation and Research) v. Southam Inc.</i> | [1997] 1 S.C.R. 748",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr34",
+        "score": 0.8272970914840698,
+        "candidate_title": "Canada (Director of Investigation and Research) v. Southam Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1989/1989canlii92/1989canlii92.html",
+        "score": 0.6293362975120544,
+        "candidate_title": "Slaight Communications Inc. v. Davidson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1986/1986canlii2527/1986canlii2527.html",
+        "score": 0.6088188290596008,
+        "candidate_title": "Thomson Newspapers Ltd. et al. v. Director of Investigation and Research et al."
+      }
+    ]
+  },
+  "placeholder": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5748350024223328,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5748350024223328,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5722848773002625,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5630649924278259,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Southam": {
+    "uri": "https://canlii.ca/t/1fr34",
+    "score": 0.6537184715270996,
+    "candidate_id": "1997csc-scc33",
+    "candidate_title": "Canada (Director of Investigation and Research) v. Southam Inc.",
+    "query_text": "decision | Southam | <i>Southam</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr34",
+        "score": 0.6537184715270996,
+        "candidate_title": "Canada (Director of Investigation and Research) v. Southam Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2004/2004bcca245/2004bcca245.html",
+        "score": 0.6083427667617798,
+        "candidate_title": "Southam Inc. (Pacific Newspaper Group Inc.) v. British Columbia (Assessor of Area No. 14 - Surrey/White Rock)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1dm9",
+        "score": 0.5610684156417847,
+        "candidate_title": "Re Mulroney et al. and Coates et al. Re Southam et al. and Mulroney et al."
+      }
+    ]
+  },
+  "Jaegli_Enterprises_Ltd_v_Taylor": {
+    "uri": "https://canlii.ca/t/1mjlf",
+    "score": 0.8162758350372314,
+    "candidate_id": "1981csc-scc10016",
+    "candidate_title": "Jaegli Enterprises v. Taylor",
+    "query_text": "decision | <i>Jaegli Enterprises Ltd. v. Taylor</i> | [1981] 2 S.C.R. 2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjlf",
+        "score": 0.8162758350372314,
+        "candidate_title": "Jaegli Enterprises v. Taylor"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1879/1879canlii1/1879canlii1.html",
+        "score": 0.5449349880218506,
+        "candidate_title": "Taylor v. Wallbridge"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqp0",
+        "score": 0.5375324487686157,
+        "candidate_title": "M.J.B. Enterprises Ltd. v. Defence Construction (1951) Ltd."
+      }
+    ]
+  },
+  "McCannell v. McLean": {
+    "uri": "https://canlii.ca/t/1nmz7",
+    "score": 0.7165690064430237,
+    "candidate_id": "1937csc-scc10000",
+    "candidate_title": "McCannell v. Mclean",
+    "query_text": "decision | McCannell v. McLean",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1nmz7",
+        "score": 0.7165690064430237,
+        "candidate_title": "McCannell v. Mclean"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc1075/2019fc1075.html",
+        "score": 0.6092400550842285,
+        "candidate_title": "McLean v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2009/2009canlii28892/2009canlii28892.html",
+        "score": 0.5949081182479858,
+        "candidate_title": "McLean v. Danicic"
+      }
+    ]
+  },
+  "Dube_v_Labar": {
+    "uri": "https://canlii.ca/t/1fttd",
+    "score": 0.7289917469024658,
+    "candidate_id": "1986csc-scc28",
+    "candidate_title": "Dube v. Labar",
+    "query_text": "decision | Dube v. Labar",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fttd",
+        "score": 0.7289917469024658,
+        "candidate_title": "Dube v. Labar"
+      },
+      {
+        "uri": "https://canlii.ca/t/1vxsm",
+        "score": 0.5088743567466736,
+        "candidate_title": "Dunsmuir v. New Brunswick"
+      },
+      {
+        "uri": "https://canlii.ca/t/fqn88",
+        "score": 0.5072798728942871,
+        "candidate_title": "Doré v. Barreau du Québec"
+      }
+    ]
+  },
+  "CNR v. Muller": {
+    "uri": "https://canlii.ca/t/gw9j1",
+    "score": 0.8049852848052979,
+    "candidate_id": "1933csc-scc1000064",
+    "candidate_title": "C.N.R. v. Muller",
+    "query_text": "decision | <i>C.N.R. v. Muller</i> | [1934] 1 D.L.R. 768 (S.C.C.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gw9j1",
+        "score": 0.8049852848052979,
+        "candidate_title": "C.N.R. v. Muller"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nmz7",
+        "score": 0.5699434280395508,
+        "candidate_title": "McCannell v. Mclean"
+      },
+      {
+        "uri": "https://canlii.ca/t/g6z0w",
+        "score": 0.5697183012962341,
+        "candidate_title": "Canadian National Railway Co. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Galaske_v_O": {
+    "uri": "https://canlii.ca/t/1frvm",
+    "score": 0.708669126033783,
+    "candidate_id": "1994csc-scc26",
+    "candidate_title": "Galaske v. O'Donnell",
+    "query_text": "decision | Galaske v. O’Donnell",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frvm",
+        "score": 0.708669126033783,
+        "candidate_title": "Galaske v. O'Donnell"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2012/2012onca240/2012onca240.html",
+        "score": 0.5291386842727661,
+        "candidate_title": "Donnell v. Joseph"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2004/2004nbca23/2004nbca23.html",
+        "score": 0.5250990986824036,
+        "candidate_title": "O'Donnell v. O'Blenis"
+      }
+    ]
+  },
+  "St-Jean_v_Mercier": {
+    "uri": "https://canlii.ca/t/51vg",
+    "score": 0.8061804175376892,
+    "candidate_id": "2002csc-scc15",
+    "candidate_title": "St-Jean v. Mercier",
+    "query_text": "decision | <i>St-Jean v. Mercier</i> | [2002] 1 S.C.R. 491 | 2002 SCC 15",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51vg",
+        "score": 0.8061804175376892,
+        "candidate_title": "St-Jean v. Mercier"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1988/1988canlii107/1988canlii107.html",
+        "score": 0.5578043460845947,
+        "candidate_title": "R. v. Mercure"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1998/1998canlii828/1998canlii828.html",
+        "score": 0.5555006265640259,
+        "candidate_title": "Schreiber v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Rhone_v_Widener": {
+    "uri": "https://canlii.ca/t/1fs4n",
+    "score": 0.8041108250617981,
+    "candidate_id": "1993csc-scc20",
+    "candidate_title": "Rhône (The) v. Peter A.B. Widener (The)",
+    "query_text": "decision | <i>Rhône (The) v.  Peter A.B. Widener (The)</i> | [1993] 1 S.C.R. 497",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs4n",
+        "score": 0.8041108250617981,
+        "candidate_title": "Rhône (The) v. Peter A.B. Widener (The)"
+      },
+      {
+        "uri": "https://canlii.ca/t/fzwp7",
+        "score": 0.498751699924469,
+        "candidate_title": "Marine Services International Ltd. v. Ryan Estate"
+      },
+      {
+        "uri": "https://canlii.ca/t/21v1x",
+        "score": 0.49256977438926697,
+        "candidate_title": "Cartwright & Crickmore Ltd. v. MacInnes"
+      }
+    ]
+  },
+  "Van Mol (Guardian ad Litem of) v. Ashmore": {
+    "uri": "https://canlii.ca/t/54n2",
+    "score": 0.7474491596221924,
+    "candidate_id": "1999bcca6",
+    "candidate_title": "Van  Mol v. Ashmore",
+    "query_text": "decision | <i>Van Mol (Guardian ad Litem of) v. Ashmore</i> | 168 D.L.R. (4th) 637 (B.C.C.A.) | [2000] 1 S.C.R. vi",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/54n2",
+        "score": 0.7474491596221924,
+        "candidate_title": "Van  Mol v. Ashmore"
+      },
+      {
+        "uri": "https://canlii.ca/t/hrlfk",
+        "score": 0.5430026054382324,
+        "candidate_title": "Office of the Children’s Lawyer v. Balev"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2020/2020bcca261/2020bcca261.html",
+        "score": 0.5261501669883728,
+        "candidate_title": "M.K. v. British Columbia (Attorney General)"
+      }
+    ]
+  },
+  "Example Decision Title": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5748350024223328,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5748350024223328,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5722848773002625,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5630649924278259,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Van de Perre": {
+    "uri": "https://canlii.ca/t/51z8",
+    "score": 0.6982625722885132,
+    "candidate_id": "2001csc-scc60",
+    "candidate_title": "Van de Perre v. Edwards",
+    "query_text": "decision | Van de Perre | <i>Van de Perre</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51z8",
+        "score": 0.6982625722885132,
+        "candidate_title": "Van de Perre v. Edwards"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2021/2021onsc2256/2021onsc2256.html",
+        "score": 0.5404664278030396,
+        "candidate_title": "Perreault v. Peel Police Services Board"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2023/2023fc1051/2023fc1051.html",
+        "score": 0.5329123139381409,
+        "candidate_title": "Perreault v. Canada (Foreign Affairs)"
+      }
+    ]
+  },
+  "St-Jean v. Mercier": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739340782165527,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739340782165527,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5710585117340088,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620054006576538,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Profile X": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5748350024223328,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5748350024223328,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5722848773002625,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5630649924278259,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Ryan": {
+    "uri": "https://canlii.ca/t/1fqpf",
+    "score": 0.6193195581436157,
+    "candidate_id": "1999csc-scc6",
+    "candidate_title": "Ryan v. Victoria (City)",
+    "query_text": "decision | Ryan | <i>Ryan</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqpf",
+        "score": 0.6193195581436157,
+        "candidate_title": "Ryan v. Victoria (City)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1g5lm",
+        "score": 0.6147800087928772,
+        "candidate_title": "Law Society of New Brunswick v. Ryan"
+      },
+      {
+        "uri": "https://canlii.ca/t/fzwp7",
+        "score": 0.5814322233200073,
+        "candidate_title": "Marine Services International Ltd. v. Ryan Estate"
+      }
+    ]
+  },
+  "Stein_v_The_Ship": {
+    "uri": "https://canlii.ca/t/1z9xr",
+    "score": 0.8005803823471069,
+    "candidate_id": "1975csc-scc10129",
+    "candidate_title": "Stein et al. v. ‘Kathy K’ et al. (The Ship)",
+    "query_text": "decision | <i>Stein v. The Ship“Kathy K”</i> | [1976] 2 S.C.R. 802",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z9xr",
+        "score": 0.8005803823471069,
+        "candidate_title": "Stein et al. v. ‘Kathy K’ et al. (The Ship)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1906/1906canlii80/1906canlii80.html",
+        "score": 0.5969540476799011,
+        "candidate_title": "The Ship \"North\" v. The King"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2008/2008bcsc1371/2008bcsc1371.html",
+        "score": 0.5557917356491089,
+        "candidate_title": "Steeves v. Oak Bay Marina Ltd."
+      }
+    ]
+  },
+  "Geffen_v_Goodman_Estate": {
+    "uri": "https://canlii.ca/t/1fsjz",
+    "score": 0.8367060422897339,
+    "candidate_id": "1991csc-scc61",
+    "candidate_title": "Geffen v. Goodman Estate",
+    "query_text": "decision | <i>Geffen v. Goodman Estate</i> | [1991] 2 S.C.R. 353",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsjz",
+        "score": 0.8367060422897339,
+        "candidate_title": "Geffen v. Goodman Estate"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2015/2015onca206/2015onca206.html",
+        "score": 0.5645948052406311,
+        "candidate_title": "Westerhof v. Gee Estate"
+      },
+      {
+        "uri": "https://canlii.ca/t/jgc4w",
+        "score": 0.5316744446754456,
+        "candidate_title": "Sherman Estate v. Donovan"
+      }
+    ]
+  },
+  "Toronto_City_Board_of_Education_v_O_S_S_T_F__District_15": {
+    "uri": "https://canlii.ca/t/1fr2l",
+    "score": 0.8008442521095276,
+    "candidate_id": "1997csc-scc25",
+    "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15",
+    "query_text": "decision | <i>Toronto (City) Board of Education v. O.S.S.T.F., District 15</i> | [1997] 1 S.C.R. 487",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr2l",
+        "score": 0.8008442521095276,
+        "candidate_title": "Toronto (City) Board of Education v. O.S.S.T.F., District 15"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftn6",
+        "score": 0.6059670448303223,
+        "candidate_title": "Ontario (Attorney General) v. OPSEU"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frbr",
+        "score": 0.5946028232574463,
+        "candidate_title": "Ross v. New Brunswick School District No. 15"
+      }
+    ]
+  },
+  "Moge": {
+    "uri": "https://canlii.ca/t/1fs7v",
+    "score": 0.7640161514282227,
+    "candidate_id": "1992csc-scc111",
+    "candidate_title": "Moge v. Moge",
+    "query_text": "decision | <i>Moge v. Moge</i> | [1992] 3 S.C.R. 813",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs7v",
+        "score": 0.7640161514282227,
+        "candidate_title": "Moge v. Moge"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs89",
+        "score": 0.6024876236915588,
+        "candidate_title": "M.(K.) v. M.(H.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1986/1986canlii23/1986canlii23.html",
+        "score": 0.539831280708313,
+        "candidate_title": "Sorochan v. Sorochan"
+      }
+    ]
+  },
+  "R_v_Nova_Scotia_Pharmaceutical_Society": {
+    "uri": "https://canlii.ca/t/1fs9g",
+    "score": 0.8157958388328552,
+    "candidate_id": "1992csc-scc69",
+    "candidate_title": "R. v. Nova Scotia Pharmaceutical Society",
+    "query_text": "decision | <i>R. v. Nova Scotia Pharmaceutical Society</i> | [1992] 2 S.C.R. 606",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs9g",
+        "score": 0.8157958388328552,
+        "candidate_title": "R. v. Nova Scotia Pharmaceutical Society"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fv2b",
+        "score": 0.6465656757354736,
+        "candidate_title": "R. v. Big M Drug Mart Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2013/2013nsca26/2013nsca26.html",
+        "score": 0.5837031602859497,
+        "candidate_title": "Fadelle v. Nova Scotia College of Pharmacists"
+      }
+    ]
+  },
+  "New_Case_Title": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739340782165527,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739340782165527,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5710585117340088,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620054006576538,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Williams_v_Town_of_North_Battleford": {
+    "uri": "https://canlii.ca/t/g74k0",
+    "score": 0.7626190781593323,
+    "candidate_id": "1911sksceb1000022",
+    "candidate_title": "Williams v. Town of North Battleford",
+    "query_text": "decision | Williams v. Town of North Battleford",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g74k0",
+        "score": 0.7626190781593323,
+        "candidate_title": "Williams v. Town of North Battleford"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2019/2019skca77/2019skca77.html",
+        "score": 0.5330951809883118,
+        "candidate_title": "994552 N.W.T. Ltd. v Kindersley (Town)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1903/1903canlii22/1903canlii22.html",
+        "score": 0.5292090177536011,
+        "candidate_title": "Williams v. Stephenson"
+      }
+    ]
+  },
+  "Nelson_v_Waverley_(Rural_Municipality)": {
+    "uri": "https://canlii.ca/t/g8d73",
+    "score": 0.8285236358642578,
+    "candidate_id": "1988skqb1000212",
+    "candidate_title": "Nelson v. Waverley (Rural Municipality)",
+    "query_text": "decision | Nelson v. Waverley (Rural Municipality) | (1988), 65 Sask. R. 260 (Q.B.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g8d73",
+        "score": 0.8285236358642578,
+        "candidate_title": "Nelson v. Waverley (Rural Municipality)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g76jn",
+        "score": 0.5862098932266235,
+        "candidate_title": "Levy v. Rural Municipality of Rodgers, No 133"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/1993/1993canlii3403/1993canlii3403.html",
+        "score": 0.5785810947418213,
+        "candidate_title": "Waverley (Village Commissioners) v. Nova Scotia (Minister of Municipal Affairs)"
+      }
+    ]
+  },
+  "Rural Municipality Act Section 192 Decision": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739340782165527,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739340782165527,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5710585117340088,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620054006576538,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Rural_Municipality_Act_Section_192_Decision": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739700198173523,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739700198173523,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5713099241256714,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5625860095024109,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Ryan_v_Victoria_(City)": {
+    "uri": "https://canlii.ca/t/1fqpf",
+    "score": 0.7399832606315613,
+    "candidate_id": "1999csc-scc6",
+    "candidate_title": "Ryan v. Victoria (City)",
+    "query_text": "decision | Ryan v. Victoria (City)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqpf",
+        "score": 0.7399832606315613,
+        "candidate_title": "Ryan v. Victoria (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2020/2020bcsc454/2020bcsc454.html",
+        "score": 0.6071625351905823,
+        "candidate_title": "Yu v City of Richmond"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2021/2021bcca226/2021bcca226.html",
+        "score": 0.5854647755622864,
+        "candidate_title": "Yu v. Richmond (City)"
+      }
+    ]
+  },
+  "Joseph Brant Memorial Hospital v. Koziol": {
+    "uri": "https://canlii.ca/t/1mk9p",
+    "score": 0.7969223856925964,
+    "candidate_id": "1977csc-scc10005",
+    "candidate_title": "Joseph Brant Memorial Hospital v. Koziol",
+    "query_text": "decision | Joseph Brant Memorial Hospital v. Koziol",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mk9p",
+        "score": 0.7969223856925964,
+        "candidate_title": "Joseph Brant Memorial Hospital v. Koziol"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2007/2007canlii45921/2007canlii45921.html",
+        "score": 0.5630664229393005,
+        "candidate_title": "Ladd v. Brantford General Hospital"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/1991/1991canlii8235/1991canlii8235.html",
+        "score": 0.5468517541885376,
+        "candidate_title": "Desai v. Brantford General Hospital"
+      }
+    ]
+  },
+  "Just": {
+    "uri": "https://canlii.ca/t/1cff2",
+    "score": 0.6487579941749573,
+    "candidate_id": "1989csc-scc127",
+    "candidate_title": "Just v. British Columbia",
+    "query_text": "decision | Just",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1cff2",
+        "score": 0.6487579941749573,
+        "candidate_title": "Just v. British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/jt3xw",
+        "score": 0.54156494140625,
+        "candidate_title": "Just Energy Group Inc. et. al. v. Morgan Stanley Capital Group Inc. et. al."
+      },
+      {
+        "uri": "https://canlii.ca/t/2fnqv",
+        "score": 0.5130943655967712,
+        "candidate_title": "Smith v. Alliance Pipeline Ltd."
+      }
+    ]
+  },
+  "Brown": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739700198173523,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739700198173523,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5713099241256714,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5625860095024109,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Swinamer_v_Nova_Scotia_(Attorney_General)": {
+    "uri": "https://canlii.ca/t/1frv7",
+    "score": 0.7921169400215149,
+    "candidate_id": "1994csc-scc20",
+    "candidate_title": "Swinamer v. Nova Scotia (Attorney General)",
+    "query_text": "decision | <i>Swinamer v. Nova Scotia (Attorney General)</i> | [1994] 1 S.C.R. 445",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1frv7",
+        "score": 0.7921169400215149,
+        "candidate_title": "Swinamer v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsks",
+        "score": 0.6188002228736877,
+        "candidate_title": "R. v. Swain"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1994/1994canlii71/1994canlii71.html",
+        "score": 0.6028136610984802,
+        "candidate_title": "R. v. Swietlinski"
+      }
+    ]
+  },
+  "Consolboard": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739700198173523,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739700198173523,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5713099241256714,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5625860095024109,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "HighwayTrafficAct": {
+    "uri": "https://canlii.ca/t/h7lx",
+    "score": 0.8260072469711304,
+    "candidate_id": "l5306!5306-current-1",
+    "candidate_title": "Rural Municipality Act, 1989",
+    "query_text": "legislation | The Rural Municipality Act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h7lx",
+        "score": 0.8260072469711304,
+        "candidate_title": "Rural Municipality Act, 1989"
+      },
+      {
+        "uri": "https://canlii.ca/t/5374x",
+        "score": 0.7462629079818726,
+        "candidate_title": "The Rural Municipality Amendment Act, 1992"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nc2",
+        "score": 0.629913330078125,
+        "candidate_title": "Municipal Government Act"
+      }
+    ]
+  },
+  "Rural Municipality Act": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.6464992165565491,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.6464992165565491,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6361480951309204,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.617656946182251,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "Rural Municipality Act 1989": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.5991511344909668,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation | .  Although",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.5991511344909668,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.5990262031555176,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.5894088745117188,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "Interpretation Act CA 1985": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.6463826298713684,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.6463826298713684,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6363588571548462,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6179417371749878,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "Rural_Municipality_Act_1989": {
+    "uri": "https://canlii.ca/t/h7lx",
+    "score": 0.8716543316841125,
+    "candidate_id": "l5306!5306-current-1",
+    "candidate_title": "Rural Municipality Act, 1989",
+    "query_text": "legislation | The Rural Municipality Act | , 1989",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h7lx",
+        "score": 0.8716543316841125,
+        "candidate_title": "Rural Municipality Act, 1989"
+      },
+      {
+        "uri": "https://canlii.ca/t/5374x",
+        "score": 0.7414366006851196,
+        "candidate_title": "The Rural Municipality Amendment Act, 1992"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/hstat/rsa-1980-c-m-26/latest/rsa-1980-c-m-26.html",
+        "score": 0.6136361360549927,
+        "candidate_title": "Municipal Government Act"
+      }
+    ]
+  },
+  "Kerans": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/1996/1996canlii171/1996canlii171.html",
+    "score": 0.4451761245727539,
+    "candidate_id": "1996csc-scc85",
+    "candidate_title": "R. v. Knox",
+    "query_text": "secondary sources | R. P. Kerans",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1996/1996canlii171/1996canlii171.html",
+        "score": 0.4451761245727539,
+        "candidate_title": "R. v. Knox"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1978/1978canlii20/1978canlii20.html",
+        "score": 0.44437769055366516,
+        "candidate_title": "Cherneskey v. Armadale Publishers Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1981/1981canlii1696/1981canlii1696.html",
+        "score": 0.43417325615882874,
+        "candidate_title": "Rapp et al. v. McClelland & Stewart Ltd. et al."
+      }
+    ]
+  },
+  "SnakeHillRoad": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/2004/2004scc13/2004scc13.html",
+    "score": 0.4642007648944855,
+    "candidate_id": "2004csc-scc13",
+    "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada",
+    "query_text": "secondary sources",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2004/2004scc13/2004scc13.html",
+        "score": 0.4642007648944855,
+        "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqp9",
+        "score": 0.44438982009887695,
+        "candidate_title": "Smith v. Jones"
+      },
+      {
+        "uri": "https://canlii.ca/t/g2s18",
+        "score": 0.4367627501487732,
+        "candidate_title": "Hryniak v. Mauldin"
+      }
+    ]
+  }
+}

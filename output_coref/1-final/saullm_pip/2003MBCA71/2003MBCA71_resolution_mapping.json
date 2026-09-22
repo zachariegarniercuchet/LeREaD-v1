@@ -1,0 +1,194 @@
+{
+  "Eli Lilly v Novopharm": {
+    "uri": "https://canlii.ca/t/1fqqz",
+    "score": 0.855452299118042,
+    "candidate_id": "1998csc-scc61",
+    "candidate_title": "Eli Lilly & Co. v. Novopharm Ltd.",
+    "query_text": "decision | <i>Eli Lilly &amp; Co. v.\nNovopharm Ltd</i>. | Eli Lilly | [1998] 2 S.C.R. 129",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqqz",
+        "score": 0.855452299118042,
+        "candidate_title": "Eli Lilly & Co. v. Novopharm Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2000/2000canlii16795/2000canlii16795.html",
+        "score": 0.7963496446609497,
+        "candidate_title": "Eli Lilly and Co. v. Novopharm Ltd. (C.A.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2007/2007fca359/2007fca359.html",
+        "score": 0.7864573001861572,
+        "candidate_title": "Eli Lilly Canada Inc. v. Novopharm Limited (F.C.A.)"
+      }
+    ]
+  },
+  "Hill v Nova Scotia AG": {
+    "uri": "https://canlii.ca/t/1fr3m",
+    "score": 0.6775112748146057,
+    "candidate_id": "1997csc-scc8",
+    "candidate_title": "Hill v. Nova Scotia (Attorney General)",
+    "query_text": "decision | <i>Hill v. Nova Scotia\n(Attorney General)</i> | Reardon Smith Line Ltd.\nv | [1997] 1 S.C.R. 69",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr3m",
+        "score": 0.6775112748146057,
+        "candidate_title": "Hill v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2007/2007scc41/2007scc41.html",
+        "score": 0.5827361345291138,
+        "candidate_title": "Hill v. Hamilton-Wentworth Regional Police Services Board"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1988/1988canlii67/1988canlii67.html",
+        "score": 0.5755180716514587,
+        "candidate_title": "Hills v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Langley Lo-Cost Builders Ltd. v. 474835 B.C. Ltd.": {
+    "uri": "https://canlii.ca/t/539n",
+    "score": 0.8566283583641052,
+    "candidate_id": "2000bcca365",
+    "candidate_title": "Langley Lo-Cost Builders Ltd. v. 474835 Ltd.",
+    "query_text": "decision | <i>Langley Lo-Cost Builders Ltd. v. 474835\nB.C. Ltd.</i> | [2000] 7 W.W.R. 46 | 2000 BCCA 365",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/539n",
+        "score": 0.8566283583641052,
+        "candidate_title": "Langley Lo-Cost Builders Ltd. v. 474835 Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1994/1994canlii963/1994canlii963.html",
+        "score": 0.5531439781188965,
+        "candidate_title": "S-244 holdings Ltd. v. Seymour Building Systems Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2015/2015bcca89/2015bcca89.html",
+        "score": 0.5509054660797119,
+        "candidate_title": "Moulton Contracting Ltd. v. British Columbia"
+      }
+    ]
+  },
+  "Prenn v. Simmonds": {
+    "uri": "https://www.canlii.org/en/bc/bcca/doc/2018/2018bcca205/2018bcca205.html",
+    "score": 0.5401044487953186,
+    "candidate_id": "2018bcca205",
+    "candidate_title": "R. v. Simmonds",
+    "query_text": "decision | Prenn v. Simmonds",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2018/2018bcca205/2018bcca205.html",
+        "score": 0.5401044487953186,
+        "candidate_title": "R. v. Simmonds"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fv04",
+        "score": 0.5023284554481506,
+        "candidate_title": "Simon v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frpl",
+        "score": 0.49777132272720337,
+        "candidate_title": "Hodgkinson v. Simms"
+      }
+    ]
+  },
+  "Paddon-Hughes Development Co. v. Pancontinental Oil Ltd.": {
+    "uri": "https://canlii.ca/t/5sjd",
+    "score": 0.7887923717498779,
+    "candidate_id": "1998abca333",
+    "candidate_title": "Paddon Hughes Development v. Pancontinental Oil",
+    "query_text": "decision | <i>Paddon-Hughes\nDevelopment Co. v. Pancontinental Oil Ltd.</i> | [1999] 5 W.W.R. 726",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5sjd",
+        "score": 0.7887923717498779,
+        "candidate_title": "Paddon Hughes Development v. Pancontinental Oil"
+      },
+      {
+        "uri": "https://canlii.ca/t/5q9j",
+        "score": 0.5762465596199036,
+        "candidate_title": "Anderson Exploration Ltd. v. Pan-Alberta Gas Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1959/1959canlii56/1959canlii56.html",
+        "score": 0.5399901866912842,
+        "candidate_title": "Calvan Consolidated Oil & Gas Co. v. Manning"
+      }
+    ]
+  },
+  "Hi-Tech Group Inc. v. Sears Canada Inc.": {
+    "uri": "https://canlii.ca/t/1fbkq",
+    "score": 0.8177327513694763,
+    "candidate_id": "2001onca14",
+    "candidate_title": "Hi-Tech Group Inc. v. Sears Canada Inc.",
+    "query_text": "decision | <i>Hi-Tech Group Inc. v.\nSears Canada Inc. </i> | 52 O.R. (3d) 97",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fbkq",
+        "score": 0.8177327513694763,
+        "candidate_title": "Hi-Tech Group Inc. v. Sears Canada Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2020/2020onsc7968/2020onsc7968.html",
+        "score": 0.5726314783096313,
+        "candidate_title": "Sears v. Coristine"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2003/2003fca71/2003fca71.html",
+        "score": 0.5308187007904053,
+        "candidate_title": "Seprotech Systems Inc. v. Peacock Inc."
+      }
+    ]
+  },
+  "Eco-Zone Engineering Ltd. v. Grand Falls-Windsor (Town)": {
+    "uri": "https://canlii.ca/t/1n6lt",
+    "score": 0.7868245244026184,
+    "candidate_id": "2000nlscad197521",
+    "candidate_title": "Eco-Zone Engineering Ltd. v. Grand Falls - Windsor (Town)",
+    "query_text": "decision | Eco-Zone Engineering Ltd. v. Grand Falls-Windsor\n(Town)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1n6lt",
+        "score": 0.7868245244026184,
+        "candidate_title": "Eco-Zone Engineering Ltd. v. Grand Falls - Windsor (Town)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1k3m",
+        "score": 0.5177546143531799,
+        "candidate_title": "Megatech Contracting Ltd. v. Ottawa-Carleton (Regional Municipality) (H.C.J.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2017/2017onsc795/2017onsc795.html",
+        "score": 0.5158141851425171,
+        "candidate_title": "Nylene Canada Inc. v Corporation of the Town of Arnprior"
+      }
+    ]
+  },
+  "London Drugs": {
+    "uri": "https://canlii.ca/t/g8685",
+    "score": 0.5880445241928101,
+    "candidate_id": "2014bcsc1414",
+    "candidate_title": "Sobeys West Inc. v. College of Pharmacists of British Columbia",
+    "query_text": "decision | London Drugs",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g8685",
+        "score": 0.5880445241928101,
+        "candidate_title": "Sobeys West Inc. v. College of Pharmacists of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fv2b",
+        "score": 0.5783392190933228,
+        "candidate_title": "R. v. Big M Drug Mart Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1945/1945canlii49/1945canlii49.html",
+        "score": 0.550536036491394,
+        "candidate_title": "Battle Pharmaceuticals v. The British Drug Houses Ltd."
+      }
+    ]
+  }
+}

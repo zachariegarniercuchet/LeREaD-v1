@@ -1,9 +1,0 @@
-{
-  "type": "vector",
-  "encoder": "splade",
-  "similarity": "dot",
-  "shape": [
-    504,
-    30522
-  ]
-}

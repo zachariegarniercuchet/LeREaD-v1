@@ -1,0 +1,362 @@
+{
+  "Delgamuukw": {
+    "uri": "https://canlii.ca/t/1fqz8",
+    "score": 0.7971659898757935,
+    "candidate_id": "1997csc-scc105",
+    "candidate_title": "Delgamuukw v. British Columbia",
+    "query_text": "decision | <i>Delgamuukw v. British Columbia</i> | [1997] 3 S.C.R. 1010",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqz8",
+        "score": 0.7971659898757935,
+        "candidate_title": "Delgamuukw v. British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/g7mt9",
+        "score": 0.6425765156745911,
+        "candidate_title": "Tsilhqot’in Nation v. British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/fnr69",
+        "score": 0.6117603778839111,
+        "candidate_title": "Lax Kw'alaams Indian Band v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Haida Nation v. British Columbia": {
+    "uri": "https://canlii.ca/t/1j4tq",
+    "score": 0.7984753251075745,
+    "candidate_id": "2004csc-scc73",
+    "candidate_title": "Haida Nation v. British Columbia (Minister of Forests)",
+    "query_text": "decision | <i>Haida Nation v. British Columbia</i> | <i>Haida</i> | 2004 SCC 73",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1j4tq",
+        "score": 0.7984753251075745,
+        "candidate_title": "Haida Nation v. British Columbia (Minister of Forests)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h67tb",
+        "score": 0.7092618942260742,
+        "candidate_title": "The Council of the Haida Nation v British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/g7mt9",
+        "score": 0.686012864112854,
+        "candidate_title": "Tsilhqot’in Nation v. British Columbia"
+      }
+    ]
+  },
+  "Tsilhqot": {
+    "uri": "https://canlii.ca/t/g7mt9",
+    "score": 0.7811555862426758,
+    "candidate_id": "2014csc-scc44",
+    "candidate_title": "Tsilhqot’in Nation v. British Columbia",
+    "query_text": "decision | <i>Tsilhqot’in\nv. British Columbia</i> | <i>Tsilhqot’in</i> | Tsilhqot’in | 2014 SCC 44 | at <auto_label fragmentid=\"\" id=\"163\" labelname=\"fragment\" non_standard=\"false\" parent=\"citation\" style=\"background-color: rgb(142, 124, 195); color: black;\" verified=\"false\">para.\n17</auto_label>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g7mt9",
+        "score": 0.7811555862426758,
+        "candidate_title": "Tsilhqot’in Nation v. British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/g7mtb",
+        "score": 0.7198209762573242,
+        "candidate_title": "Nation Tsilhqot’in c. Colombie‑Britannique"
+      },
+      {
+        "uri": "https://canlii.ca/t/1j4tq",
+        "score": 0.628176212310791,
+        "candidate_title": "Haida Nation v. British Columbia (Minister of Forests)"
+      }
+    ]
+  },
+  "AboriginalRightsLitigation": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5745638608932495,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5745638608932495,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5714739561080933,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5619269609451294,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "NewDecision": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5739340782165527,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5739340782165527,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5710585117340088,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620052814483643,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Lax Kw’alaams": {
+    "uri": "https://canlii.ca/t/fnr69",
+    "score": 0.6984642744064331,
+    "candidate_id": "2011csc-scc56",
+    "candidate_title": "Lax Kw'alaams Indian Band v. Canada (Attorney General)",
+    "query_text": "decision | Lax Kw’alaams",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fnr69",
+        "score": 0.6984642744064331,
+        "candidate_title": "Lax Kw'alaams Indian Band v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hq5df",
+        "score": 0.585202157497406,
+        "candidate_title": "Williams Lake Indian Band v. Canada (Aboriginal Affairs and Northern Development)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2008/2008bcsc1505/2008bcsc1505.html",
+        "score": 0.5828005075454712,
+        "candidate_title": "Ke-Kin-Is-Uqs v. British Columbia (Minister of Forests)"
+      }
+    ]
+  },
+  "Tingley": {
+    "uri": "https://canlii.ca/t/jfjrk",
+    "score": 0.6122140288352966,
+    "candidate_id": "2021nbca18",
+    "candidate_title": "Tingley v. The Attorney General of Canada et al.",
+    "query_text": "decision | Tingley",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jfjrk",
+        "score": 0.6122140288352966,
+        "candidate_title": "Tingley v. The Attorney General of Canada et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2021/2021onsc8306/2021onsc8306.html",
+        "score": 0.48169654607772827,
+        "candidate_title": "Tamming v. Paterson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2021/2021onsc6523/2021onsc6523.html",
+        "score": 0.478501558303833,
+        "candidate_title": "Tang v. Human Rights Tribunal of Ontario"
+      }
+    ]
+  },
+  "Ewert": {
+    "uri": "https://canlii.ca/t/hshjz",
+    "score": 0.8483532667160034,
+    "candidate_id": "2018csc-scc30",
+    "candidate_title": "Ewert v. Canada",
+    "query_text": "decision | <i>Ewert v. Canada</i> | 2018 SCC 30",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hshjz",
+        "score": 0.8483532667160034,
+        "candidate_title": "Ewert v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/hshvb",
+        "score": 0.6248995065689087,
+        "candidate_title": "Canada (Canadian Human Rights Commission) v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2018/2018scc40/2018scc40.html",
+        "score": 0.5559560656547546,
+        "candidate_title": "Mikisew Cree First Nation v. Canada (Governor General in Council)"
+      }
+    ]
+  },
+  "Rules of Court": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.573934018611908,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.573934018611908,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.571058452129364,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620052814483643,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Mikisew Cree First Nation v. Canada (Minister of Canadian Heritage)": {
+    "uri": "https://canlii.ca/t/1m1zn",
+    "score": 0.8078975081443787,
+    "candidate_id": "2005csc-scc69",
+    "candidate_title": "Mikisew Cree First Nation v. Canada (Minister of Canadian Heritage)",
+    "query_text": "decision | Mikisew Cree\nFirst Nation v. Canada (Minister of Canadian Heritage)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1m1zn",
+        "score": 0.8078975081443787,
+        "candidate_title": "Mikisew Cree First Nation v. Canada (Minister of Canadian Heritage)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2018/2018scc40/2018scc40.html",
+        "score": 0.7537115812301636,
+        "candidate_title": "Mikisew Cree First Nation v. Canada (Governor General in Council)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abkb/doc/2023/2023abkb321/2023abkb321.html",
+        "score": 0.6750298142433167,
+        "candidate_title": "Mikisew Cree First Nation v Rath"
+      }
+    ]
+  },
+  "AnnapolisGroupIncVHalifaxRegionalMunicipality": {
+    "uri": "https://canlii.ca/t/jshfv",
+    "score": 0.8764340281486511,
+    "candidate_id": "2022csc-scc36",
+    "candidate_title": "Annapolis Group Inc. v. Halifax Regional Municipality",
+    "query_text": "decision | <i>Annapolis Group Inc. v. Halifax Regional Municipality</i> | 2022 SCC 36",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jshfv",
+        "score": 0.8764340281486511,
+        "candidate_title": "Annapolis Group Inc. v. Halifax Regional Municipality"
+      },
+      {
+        "uri": "https://canlii.ca/t/fql7l",
+        "score": 0.6457998752593994,
+        "candidate_title": "Halifax (Regional Municipality) v. Nova Scotia (Human Rights Commission)"
+      },
+      {
+        "uri": "https://canlii.ca/t/frpvf",
+        "score": 0.6072094440460205,
+        "candidate_title": "Halifax (Regional Municipality) v. Canada (Public Works and Government Services)"
+      }
+    ]
+  },
+  "Southwind v. Canada": {
+    "uri": "https://canlii.ca/t/jh0pr",
+    "score": 0.8382015228271484,
+    "candidate_id": "2021csc-scc28",
+    "candidate_title": "Southwind v. Canada",
+    "query_text": "decision | <i>Southwind v. Canada</i> | 2021 SCC 28",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jh0pr",
+        "score": 0.8382015228271484,
+        "candidate_title": "Southwind v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/jh6m8",
+        "score": 0.5934281349182129,
+        "candidate_title": "Canada v. Canada North Group Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/hshvb",
+        "score": 0.5712599754333496,
+        "candidate_title": "Canada (Canadian Human Rights Commission) v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Uashaunnuat": {
+    "uri": "https://canlii.ca/t/j5cbg",
+    "score": 0.6664954423904419,
+    "candidate_id": "2020csc-scc4",
+    "candidate_title": "Newfoundland and Labrador (Attorney General) v. Uashaunnuat (Innu of Uashat and of Mani‑Utenam)",
+    "query_text": "decision | <i>Uashaunnuat,</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j5cbg",
+        "score": 0.6664954423904419,
+        "candidate_title": "Newfoundland and Labrador (Attorney General) v. Uashaunnuat (Innu of Uashat and of Mani‑Utenam)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jvwmz",
+        "score": 0.5879935026168823,
+        "candidate_title": "Nunavut Tunngavik Incorporated et. al. v The Commissioner of Nunavut et. al."
+      },
+      {
+        "uri": "https://canlii.ca/t/k6hrp",
+        "score": 0.5789641737937927,
+        "candidate_title": "Nunavut Tunngavik Incorporated et al v The Commissioner of Nunavut et al"
+      }
+    ]
+  },
+  "Restoule": {
+    "uri": "https://www.canlii.org/en/on/onsc/doc/2020/2020onsc3932/2020onsc3932.html",
+    "score": 0.7470465898513794,
+    "candidate_id": "2020onsc3932",
+    "candidate_title": "Restoule v. Canada (Attorney General)",
+    "query_text": "decision | <i>Restoule</i> | Restoule",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2020/2020onsc3932/2020onsc3932.html",
+        "score": 0.7470465898513794,
+        "candidate_title": "Restoule v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/k60vs",
+        "score": 0.7122114896774292,
+        "candidate_title": "Ontario (Attorney General) v. Restoule"
+      },
+      {
+        "uri": "https://canlii.ca/t/fnr69",
+        "score": 0.547976016998291,
+        "candidate_title": "Lax Kw'alaams Indian Band v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Interpretation Act CA 1985": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.646382749080658,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.646382749080658,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6363587975502014,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6179416179656982,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  }
+}

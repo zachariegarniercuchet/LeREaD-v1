@@ -1,0 +1,290 @@
+{
+  "Labour Act, R.S.P.E.I. 1988, Cap. L-1": {
+    "uri": "https://canlii.ca/t/53grw",
+    "score": 0.47949308156967163,
+    "candidate_id": "l23003!23003-current-1",
+    "candidate_title": "Trade Union Act",
+    "query_text": "legislation | Act | <i>United Food and Commercial Workers Union, Local 864, et. al. v.\nPolar Foods International Inc., et. al.</i> | in his words",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/53grw",
+        "score": 0.47949308156967163,
+        "candidate_title": "Trade Union Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 0.455208957195282,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/regu/sor-2001-520/latest/sor-2001-520.html",
+        "score": 0.4532570242881775,
+        "candidate_title": "Canada Industrial Relations Board Regulations, 2012"
+      }
+    ]
+  },
+  "Eastern School District, 2012 CanLII13522 (P.E.L.R.B.)": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.573934018611908,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.573934018611908,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.571058452129364,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620052814483643,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "2012 CanLII13522 (P.E.L.R.B.)": {
+    "uri": "https://www.canlii.org/en/on/onsbt/doc/2021/2021onsbt1783/2021onsbt1783.html",
+    "score": 0.4784843921661377,
+    "candidate_id": "2021onsbt1783",
+    "candidate_title": "2001-00878 (Re)",
+    "query_text": "decision | 01-012",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onsbt/doc/2021/2021onsbt1783/2021onsbt1783.html",
+        "score": 0.4784843921661377,
+        "candidate_title": "2001-00878 (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jjglp",
+        "score": 0.475533664226532,
+        "candidate_title": "Jane Doe v Government of Nunavut"
+      },
+      {
+        "uri": "https://canlii.ca/t/fqn88",
+        "score": 0.47547081112861633,
+        "candidate_title": "Doré v. Barreau du Québec"
+      }
+    ]
+  },
+  "Labour Decision": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5755969285964966,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5755969285964966,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5723577737808228,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5635186433792114,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "PEILRB 2002": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/2002/2002scc32/2002scc32.html",
+    "score": 0.5965076088905334,
+    "candidate_id": "2002csc-scc32",
+    "candidate_title": "R. v. Brown",
+    "query_text": "decision | (2002)",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2002/2002scc32/2002scc32.html",
+        "score": 0.5965076088905334,
+        "candidate_title": "R. v. Brown"
+      },
+      {
+        "uri": "https://canlii.ca/t/1chp8",
+        "score": 0.5881744027137756,
+        "candidate_title": "L.(V.) c. S.(B.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/51s6",
+        "score": 0.5687391757965088,
+        "candidate_title": "Bell ExpressVu Limited Partnership v. Rex"
+      }
+    ]
+  },
+  "Local 1079A Construction and General Labourers Union v. Fuller Construction Limited": {
+    "uri": "https://canlii.ca/t/1cvp1",
+    "score": 0.6391113996505737,
+    "candidate_id": "1998pesctd198710011",
+    "candidate_title": "APM Construction Inc. v. Construction and General Labourers Union",
+    "query_text": "decision | <i>Local 1079A\nConstruction and General Labourers Union v. Fuller Construction Limited</i> | Fuller Construction | (1979) P.E.I.L.R.B.",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1cvp1",
+        "score": 0.6391113996505737,
+        "candidate_title": "APM Construction Inc. v. Construction and General Labourers Union"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs2k",
+        "score": 0.5846052169799805,
+        "candidate_title": "United Brotherhood of Carpenters and Joiners of America, Local 579 v. Bradco Construction Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onlrb/doc/2012/2012canlii53019/2012canlii53019.html",
+        "score": 0.5823010802268982,
+        "candidate_title": "Labourers’ International Union of North America, Local 183 v Jarlian Construction Inc"
+      }
+    ]
+  },
+  "Page Realty Management": {
+    "uri": "https://www.canlii.org/en/on/onsc/doc/2005/2005canlii40371/2005canlii40371.html",
+    "score": 0.5506006479263306,
+    "candidate_id": "2005onsc14937",
+    "candidate_title": "Page v. Primeau",
+    "query_text": "decision | Page Realty Management",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2005/2005canlii40371/2005canlii40371.html",
+        "score": 0.5506006479263306,
+        "candidate_title": "Page v. Primeau"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/ablprt/doc/2022/2022ablprt844/2022ablprt844.html",
+        "score": 0.5453389883041382,
+        "candidate_title": "Page v Canstone Energy Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/ablprt/doc/2022/2022ablprt848/2022ablprt848.html",
+        "score": 0.5448429584503174,
+        "candidate_title": "Page v Canstone Energy Ltd."
+      }
+    ]
+  },
+  "LRB 1622C": {
+    "uri": "https://canlii.ca/t/j69w3",
+    "score": 0.7941339015960693,
+    "candidate_id": "1995nslrb1000000",
+    "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited",
+    "query_text": "decision | LRB 1622C United Brotherhood of Carpenters and\nJoiners of America, Local 83 and Quinpool Properties Ltd",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j69w3",
+        "score": 0.7941339015960693,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/j69x5",
+        "score": 0.7135202884674072,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Page Realty Management"
+      },
+      {
+        "uri": "https://canlii.ca/t/j69ts",
+        "score": 0.6738190650939941,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v The Governors of Dalhousie College & University"
+      }
+    ]
+  },
+  "United Brotherhood of Carpenters & Joiners of America, Local 1988 v. Tops Marina Motor Hotel": {
+    "uri": "https://canlii.ca/t/j69w3",
+    "score": 0.6094814538955688,
+    "candidate_id": "1995nslrb1000000",
+    "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited",
+    "query_text": "decision | United Brotherhood of Carpenters &amp; Joiners of America, Local 1988\nv. Tops Marina Motor Hotel",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j69w3",
+        "score": 0.6094814538955688,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Quinpool Properties Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/j69x5",
+        "score": 0.6021665334701538,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v Page Realty Management"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs2k",
+        "score": 0.5980551242828369,
+        "candidate_title": "United Brotherhood of Carpenters and Joiners of America, Local 579 v. Bradco Construction Ltd."
+      }
+    ]
+  },
+  "Sheet Metal Workers’ International Association, Local 562 v. Ridsdale Steel Fabricators Inc.": {
+    "uri": "https://canlii.ca/t/281xt",
+    "score": 0.8034846782684326,
+    "candidate_id": "1987onlrb1000202",
+    "candidate_title": "Sheet Metal Workers' International Association, Local 562 v. Ridsdale Steel Fabricators Inc.",
+    "query_text": "decision | <i>Sheet Metal Workers’ International\nAssociation, Local 562 v. Ridsdale Steel Fabricators Inc.</i> | [1987] OLRB Rep.\nApril 601 at 604",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/281xt",
+        "score": 0.8034846782684326,
+        "candidate_title": "Sheet Metal Workers' International Association, Local 562 v. Ridsdale Steel Fabricators Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbleb/doc/2023/2023canlii56190/2023canlii56190.html",
+        "score": 0.5911209583282471,
+        "candidate_title": "Shopmen’s Local Union No. 809 of the International Association of Bridge, Structural, Ornamental, and Reinforcing IronWorkers v Metaltech Ltd./Ltée"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/1977/1977canlii1634/1977canlii1634.html",
+        "score": 0.5857429504394531,
+        "candidate_title": "Griffin Steel Foundries Ltd. v. Canadian Association of Industrial, Mechanical and Allied Workers"
+      }
+    ]
+  },
+  "placeholder": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/2004/2004scc13/2004scc13.html",
+    "score": 0.46276092529296875,
+    "candidate_id": "2004csc-scc13",
+    "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada",
+    "query_text": "secondary sources",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2004/2004scc13/2004scc13.html",
+        "score": 0.46276092529296875,
+        "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqp9",
+        "score": 0.4427361488342285,
+        "candidate_title": "Smith v. Jones"
+      },
+      {
+        "uri": "https://canlii.ca/t/g2s18",
+        "score": 0.435272216796875,
+        "candidate_title": "Hryniak v. Mauldin"
+      }
+    ]
+  },
+  "Administrative Law in Canada": {
+    "uri": "https://canlii.ca/t/7n0vt",
+    "score": 0.5693256855010986,
+    "candidate_id": "d210805!d210805",
+    "candidate_title": "Annual Survey of Canadian Law – Administrative Law",
+    "query_text": "secondary sources | Administrative Law in Canada",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/7n0vt",
+        "score": 0.5693256855010986,
+        "candidate_title": "Annual Survey of Canadian Law – Administrative Law"
+      },
+      {
+        "uri": "https://canlii.ca/t/7n524",
+        "score": 0.5537304282188416,
+        "candidate_title": "Can There Be Too Much Context in Administrative Law: Setting the Standard of Review in Canadian Administrative Law"
+      },
+      {
+        "uri": "https://canlii.ca/t/29q2",
+        "score": 0.5505390763282776,
+        "candidate_title": "Struggling Towards Coherence in Canadian Administrative Law? Recent Cases on Standard of Review and Reasonableness"
+      }
+    ]
+  }
+}

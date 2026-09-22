@@ -1,0 +1,50 @@
+{
+  "Mining Act": {
+    "uri": "https://canlii.ca/t/56f38",
+    "score": 0.7622304558753967,
+    "candidate_id": "l23667!23667-current-1",
+    "candidate_title": "Mining Act",
+    "query_text": "legislation | MINING ACT | Mining Act | S.N.B., c. M-14.1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56f38",
+        "score": 0.7622304558753967,
+        "candidate_title": "Mining Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-m-12/latest/rsnl-1990-c-m-12.html",
+        "score": 0.6833052039146423,
+        "candidate_title": "Mineral Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-m-17/latest/rsa-2000-c-m-17.html",
+        "score": 0.6589540839195251,
+        "candidate_title": "Mines and Minerals Act"
+      }
+    ]
+  },
+  "Cadillac": {
+    "uri": "https://www.canlii.org/en/ab/abqb/doc/1988/1988canlii3874/1988canlii3874.html",
+    "score": 0.572777271270752,
+    "candidate_id": "1988abqb1000247",
+    "candidate_title": "Cadillac Fairview Corp. v. Great Pretenders Sparkle Tree",
+    "query_text": "decision | Cadillac",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/1988/1988canlii3874/1988canlii3874.html",
+        "score": 0.572777271270752,
+        "candidate_title": "Cadillac Fairview Corp. v. Great Pretenders Sparkle Tree"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2021/2021onsc4138/2021onsc4138.html",
+        "score": 0.5485226511955261,
+        "candidate_title": "Carter v. Ford Motor Company of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2017/2017onca545/2017onca545.html",
+        "score": 0.5355971455574036,
+        "candidate_title": "Trillium Motor World Ltd. v. General Motors of Canada Limited"
+      }
+    ]
+  }
+}

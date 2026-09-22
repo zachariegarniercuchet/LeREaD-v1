@@ -1,0 +1,170 @@
+{
+  "Freedom of Information and Protection of Privacy Act": {
+    "uri": "https://canlii.ca/t/56gtx",
+    "score": 0.7184289693832397,
+    "candidate_id": "l22603!22603-current-1",
+    "candidate_title": "Freedom of Information and Protection of Privacy Act",
+    "query_text": "legislation | FREEDOM\nOF INFORMATION AND PROTECTION OF PRIVACY ACT | FREEDOM OF INFORMATION\nAND PROTECTION OF PRIVACY ACT | Freedom of Information and Protection of Privacy Act, | Act | <i>Act</i> | ACT | Freedom of Information and Protection of Privacy Act (Nova\nScotia) | 1993, c.5 | S.N.S.\n1993, c. 5",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56gtx",
+        "score": 0.7184289693832397,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56flk",
+        "score": 0.6891351342201233,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pvb",
+        "score": 0.6754862070083618,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "Omnibus Agreement": {
+    "uri": "https://canlii.ca/t/56c77",
+    "score": 0.49635082483291626,
+    "candidate_id": "l12741!12741-current-1",
+    "candidate_title": "Canadian International Trade Tribunal Act",
+    "query_text": "legislation | Omnibus Agreement",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 0.49635082483291626,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/regu/sor-91-499/latest/sor-91-499.html",
+        "score": 0.47149717807769775,
+        "candidate_title": "Canadian International Trade Tribunal Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.46912699937820435,
+        "candidate_title": "The Constitution Act, 1867"
+      }
+    ]
+  },
+  "Fahey and Goodis, Judicial Review of Decisions under Ontario": {
+    "uri": "https://canlii.ca/t/hppfj",
+    "score": 0.5804111957550049,
+    "candidate_id": "2017onipc1000261",
+    "candidate_title": "Ontario (Attorney General) (Re)",
+    "query_text": "secondary sources | Judicial Review of Decisions under Ontario's Information and\nPrivacy Acts | Gerald J. Fahey and David S.\nGoodis",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hppfj",
+        "score": 0.5804111957550049,
+        "candidate_title": "Ontario (Attorney General) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2022/2022onsc1755/2022onsc1755.html",
+        "score": 0.5788591504096985,
+        "candidate_title": "YUDC v. Information and Privacy Commissioner"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/1993/1993canlii9373/1993canlii9373.html",
+        "score": 0.5686366558074951,
+        "candidate_title": "Ontario (Solicitor-General) v. Ontario (Assistant Information and Privacy Commissioner)"
+      }
+    ]
+  },
+  "McNairn and Woodbury, Government Information: Access and Privacy": {
+    "uri": "https://canlii.ca/t/56dg7",
+    "score": 0.5544059872627258,
+    "candidate_id": "l28161!28161-current-1",
+    "candidate_title": "Access and Privacy Regulation",
+    "query_text": "secondary sources | Government\nInformation: Access and Privacy | McNairn and Woodbury",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56dg7",
+        "score": 0.5544059872627258,
+        "candidate_title": "Access and Privacy Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fmkc",
+        "score": 0.5413989424705505,
+        "candidate_title": "Loi sur l'accès aux documents des organismes publics et sur la protection des renseignements personnels"
+      },
+      {
+        "uri": "https://canlii.ca/t/566ls",
+        "score": 0.5333313941955566,
+        "candidate_title": "Right to Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "McLaughlin v. Halifax-Dartmouth Bridge Commission": {
+    "uri": "https://canlii.ca/t/1mqwz",
+    "score": 0.7929825186729431,
+    "candidate_id": "1993nsca10024",
+    "candidate_title": "McLaughlin v. Halifax-Dartmouth Bridge Commission",
+    "query_text": "decision | <i>McLaughlin v.\nHalifax‑Dartmouth Bridge Commission </i>(1993) | 125 N.S.R. (2d) 288",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mqwz",
+        "score": 0.7929825186729431,
+        "candidate_title": "McLaughlin v. Halifax-Dartmouth Bridge Commission"
+      },
+      {
+        "uri": "https://canlii.ca/t/g9cdd",
+        "score": 0.5260807275772095,
+        "candidate_title": "McCaig v. Trentowsky"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/2010/2010nssc168/2010nssc168.html",
+        "score": 0.5219501256942749,
+        "candidate_title": "Mawdsley v. McCarthy's Towing and Recovery Ltd."
+      }
+    ]
+  },
+  "Ontario (Workers": {
+    "uri": "https://canlii.ca/t/g1562",
+    "score": 0.8739829659461975,
+    "candidate_id": "1995onctgd1000055",
+    "candidate_title": "Ontario (Workers' Compensation Board) v. Ontario (Assistant Information & Privacy Commissioner)",
+    "query_text": "decision | <i>Ontario (Workers'\nCompensation Board) v. Ontario (Assistant Information &amp; Privacy\nCommissioner</i> (1995) | 23 O.R. (3d) 31 (Div. Ct.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1562",
+        "score": 0.8739829659461975,
+        "candidate_title": "Ontario (Workers' Compensation Board) v. Ontario (Assistant Information & Privacy Commissioner)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/1999/1999canlii4017/1999canlii4017.html",
+        "score": 0.7423461675643921,
+        "candidate_title": "Workers' Compensation Board, Re"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2000/2000canlii14403/2000canlii14403.html",
+        "score": 0.7346943616867065,
+        "candidate_title": "Workers' Compensation Board Record, Re"
+      }
+    ]
+  },
+  "...": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5728511810302734,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5728511810302734,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5696333646774292,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5607314109802246,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  }
+}

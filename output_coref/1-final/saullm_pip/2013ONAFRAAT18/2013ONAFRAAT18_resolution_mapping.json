@@ -1,0 +1,26 @@
+{
+  "Bloorview Children’s Hospital Foundation v. Bloorview MacMillan Centre": {
+    "uri": "https://www.canlii.org/en/on/onsc/doc/2007/2007canlii21595/2007canlii21595.html",
+    "score": 0.49119699001312256,
+    "candidate_id": "2007onsc11352",
+    "candidate_title": "City Front Developments Inc. v. Toronto District School Board",
+    "query_text": "decision | <i>Bloorview\nChildren’s Hospital Foundation v. Bloorview MacMillan Centre</i> | [2001] O.J.\nNo.1700",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2007/2007canlii21595/2007canlii21595.html",
+        "score": 0.49119699001312256,
+        "candidate_title": "City Front Developments Inc. v. Toronto District School Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1gs6",
+        "score": 0.48812296986579895,
+        "candidate_title": "Metropolitan Toronto Condominium Corporation No. 706 v. Bardmore Developments Ltd. (C.A.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2010/2010onca310/2010onca310.html",
+        "score": 0.4860490560531616,
+        "candidate_title": "Southcott Estates Inc. v. Toronto Catholic School Board"
+      }
+    ]
+  }
+}

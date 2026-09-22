@@ -1,0 +1,794 @@
+{
+  "Instrubel, n.v. c. Ministry of Industry of The Republic of Iraq": {
+    "uri": "https://canlii.ca/t/gmkfv",
+    "score": 0.8539073467254639,
+    "candidate_id": "2015qccs5857",
+    "candidate_title": "Instrubel, n.v. c. Ministry of Industry of the Republic of Iraq",
+    "query_text": "decision | Instrubel, n.v. c. Ministry of\n  Industry of The Republic of Iraq",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gmkfv",
+        "score": 0.8539073467254639,
+        "candidate_title": "Instrubel, n.v. c. Ministry of Industry of the Republic of Iraq"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1xv6",
+        "score": 0.8350613117218018,
+        "candidate_title": "Instrubel, n.v. c. Iraq (Ministry of Industry of the Republic of)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gnz7s",
+        "score": 0.8025504946708679,
+        "candidate_title": "Instrubel, n.v. c. Ministry of Industry of The Republic of Iraq"
+      }
+    ]
+  },
+  "Chevron Corp. v. Yaiguaje": {
+    "uri": "https://canlii.ca/t/gkzns",
+    "score": 0.7900804877281189,
+    "candidate_id": "2015csc-scc42",
+    "candidate_title": "Chevron Corp. v. Yaiguaje",
+    "query_text": "decision | Chevron Corp. | Yaiguaje",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gkzns",
+        "score": 0.7900804877281189,
+        "candidate_title": "Chevron Corp. v. Yaiguaje"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2017/2017onca827/2017onca827.html",
+        "score": 0.7784121632575989,
+        "candidate_title": "Yaiguaje v. Chevron Corporation"
+      },
+      {
+        "uri": "https://canlii.ca/t/j5k5j",
+        "score": 0.49790072441101074,
+        "candidate_title": "Nevsun Resources Ltd. v. Araya"
+      }
+    ]
+  },
+  "Pro Swing Inc. v. Canada (Attorney General)": {
+    "uri": "https://canlii.ca/t/1q0dw",
+    "score": 0.6553548574447632,
+    "candidate_id": "2006csc-scc52",
+    "candidate_title": "Pro Swing Inc. v. Elta Golf Inc.",
+    "query_text": "decision | Pro Swing",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1q0dw",
+        "score": 0.6553548574447632,
+        "candidate_title": "Pro Swing Inc. v. Elta Golf Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1frv7",
+        "score": 0.4673536419868469,
+        "candidate_title": "Swinamer v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2006/2006canlii42254/2006canlii42254.html",
+        "score": 0.4619162678718567,
+        "candidate_title": "Club Pro Adult Entertainment Inc. v. Ontario (Attorney General)"
+      }
+    ]
+  },
+  "Mareva Compania Naviera SA v Northern Bank Ltd": {
+    "uri": "https://canlii.ca/t/g91dq",
+    "score": 0.4736630320549011,
+    "candidate_id": "2014csc-scc55",
+    "candidate_title": "Bank of Montreal v. Marcotte",
+    "query_text": "decision | <i>Mareva</i> injunction | <i>Mareva</i>\ninjunction",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g91dq",
+        "score": 0.4736630320549011,
+        "candidate_title": "Bank of Montreal v. Marcotte"
+      },
+      {
+        "uri": "https://canlii.ca/t/g2s18",
+        "score": 0.4734967052936554,
+        "candidate_title": "Hryniak v. Mauldin"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsv3",
+        "score": 0.4731157720088959,
+        "candidate_title": "National Trust Co. v. Mead"
+      }
+    ]
+  },
+  "Cinar Corporation v. Robinson": {
+    "uri": "https://canlii.ca/t/1lc3w",
+    "score": 0.717237651348114,
+    "candidate_id": "2005qccs59537",
+    "candidate_title": "Cinar Corp. c. Weinberg",
+    "query_text": "decision | Cinar",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lc3w",
+        "score": 0.717237651348114,
+        "candidate_title": "Cinar Corp. c. Weinberg"
+      },
+      {
+        "uri": "https://canlii.ca/t/1l3wm",
+        "score": 0.6951795816421509,
+        "candidate_title": "Cinar Corporation c. Xanthoudakis"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2004/2004canlii6224/2004canlii6224.html",
+        "score": 0.5303130149841309,
+        "candidate_title": "CIT Financial Ltd. v. 1153461 Ontario Inc."
+      }
+    ]
+  },
+  "Van Den Brink": {
+    "uri": "https://www.canlii.org/en/ca/fca/doc/2024/2024fca43/2024fca43.html",
+    "score": 0.5479110479354858,
+    "candidate_id": "2024fca43",
+    "candidate_title": "Brink v. Canada",
+    "query_text": "decision | Van Den Brink | G. Van Den Brink B.V. | Heringer | J.E. 94-413\n(C.S.)",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2024/2024fca43/2024fca43.html",
+        "score": 0.5479110479354858,
+        "candidate_title": "Brink v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1990/1990abca103/1990abca103.html",
+        "score": 0.5018227100372314,
+        "candidate_title": "Ben Vanden Brink Professional Corporation v. Anderson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc1231/2022fc1231.html",
+        "score": 0.49226751923561096,
+        "candidate_title": "Brink v. Canada"
+      }
+    ]
+  },
+  "2015 QCCS 5857": {
+    "uri": "https://canlii.ca/t/1vcs5",
+    "score": 0.5751577615737915,
+    "candidate_id": "2007qccs6226",
+    "candidate_title": "Laporte c. Lauzon",
+    "query_text": "decision | 2015 QCCS 5857",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1vcs5",
+        "score": 0.5751577615737915,
+        "candidate_title": "Laporte c. Lauzon"
+      },
+      {
+        "uri": "https://canlii.ca/t/gjh0l",
+        "score": 0.5698724985122681,
+        "candidate_title": "86296 Canada Ltd. c. Shoppers Realty Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/29h9c",
+        "score": 0.5126180052757263,
+        "candidate_title": "Gignac c. Marcotte"
+      }
+    ]
+  },
+  "Deloitte & Touche Inc. c. Banque Laurentienne du Canada": {
+    "uri": "https://canlii.ca/t/1nmmj",
+    "score": 0.8675569891929626,
+    "candidate_id": "1995qcca10924",
+    "candidate_title": "Deloitte & Touche inc. c. Banque laurentienne du Canada",
+    "query_text": "decision | Deloitte &amp; Touche Inc. | Banque\nLaurentienne du Canada | Deloitte &amp; Touche | 1995 CanLII 5463 (QC CA)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1nmmj",
+        "score": 0.8675569891929626,
+        "candidate_title": "Deloitte & Touche inc. c. Banque laurentienne du Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1991/1991canlii7366/1991canlii7366.html",
+        "score": 0.6663160920143127,
+        "candidate_title": "Toronto-Dominion Bank v. Deloitte Haskins & Sells (Gen. Div.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nmgf",
+        "score": 0.5690031051635742,
+        "candidate_title": "Lebeuf c. Groupe SNC-Lavalin inc."
+      }
+    ]
+  },
+  "Martin c. Espinhal": {
+    "uri": "https://canlii.ca/t/1ff19",
+    "score": 0.7400516867637634,
+    "candidate_id": "2001qccq371",
+    "candidate_title": "Martin c. Espinhal",
+    "query_text": "decision | Martin | Espinhal | J.E.\n2001-1193 (C.Q.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ff19",
+        "score": 0.7400516867637634,
+        "candidate_title": "Martin c. Espinhal"
+      },
+      {
+        "uri": "https://canlii.ca/t/50dn",
+        "score": 0.48225659132003784,
+        "candidate_title": "Nova Scotia (Workers' Compensation Board) v. Martin; Nova Scotia (Workers' Compensation Board) v. Laseur"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mjtm",
+        "score": 0.4713626205921173,
+        "candidate_title": "Martineau v. Matsqui Institution"
+      }
+    ]
+  },
+  "Corp. De Ste-Angèle de Monnoir c. Bérubé": {
+    "uri": "https://canlii.ca/t/gpl3j",
+    "score": 0.8253319263458252,
+    "candidate_id": "1986qcca1000300",
+    "candidate_title": "Corporation de Ste-Angèle de Monnoir c Bérubé",
+    "query_text": "decision | Ste-Angèle de Monnoir (Corp. De) | Bérubé | [1986] R.D.J. 590 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gpl3j",
+        "score": 0.8253319263458252,
+        "candidate_title": "Corporation de Ste-Angèle de Monnoir c Bérubé"
+      },
+      {
+        "uri": "https://canlii.ca/t/5221",
+        "score": 0.5315504670143127,
+        "candidate_title": "Moreau-Bérubé v. New Brunswick (Judicial Council)"
+      },
+      {
+        "uri": "https://canlii.ca/t/601r",
+        "score": 0.49777019023895264,
+        "candidate_title": "Hamel c. Sainte-Anne-de-Beaupré (Ville de)"
+      }
+    ]
+  },
+  "Mayville c. Union canadienne des travailleurs en communication (unité 4)": {
+    "uri": "https://canlii.ca/t/1fc4n",
+    "score": 0.8386269807815552,
+    "candidate_id": "2001qcca64",
+    "candidate_title": "Union canadienne des travailleurs en communication c. Mayville",
+    "query_text": "decision | Mayville | Union\ncanadienne des travailleurs en communication (unité 4) | 2001 CanLII 13212\n(QC CA)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fc4n",
+        "score": 0.8386269807815552,
+        "candidate_title": "Union canadienne des travailleurs en communication c. Mayville"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/1981/1981canlii2758/1981canlii2758.html",
+        "score": 0.615631103515625,
+        "candidate_title": "Canadian Telecommunications Union v. Canadian Brotherhood of Transport & General Workers"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2005/2005fca262/2005fca262.html",
+        "score": 0.6081652045249939,
+        "candidate_title": "Telus Communications Inc. v. Telecommunications Workers Union"
+      }
+    ]
+  },
+  "V.L. c. B.S.": {
+    "uri": "https://canlii.ca/t/1chp8",
+    "score": 0.5884574055671692,
+    "candidate_id": "2002qcca10491",
+    "candidate_title": "L.(V.) c. S.(B.)",
+    "query_text": "decision | REJB 2002-35448 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1chp8",
+        "score": 0.5884574055671692,
+        "candidate_title": "L.(V.) c. S.(B.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/glx31",
+        "score": 0.5301056504249573,
+        "candidate_title": "Air Canada c. Québec (Procureure générale)"
+      },
+      {
+        "uri": "https://canlii.ca/t/51vg",
+        "score": 0.5233594179153442,
+        "candidate_title": "St-Jean v. Mercier"
+      }
+    ]
+  },
+  "2015 SCC 42": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/2015/2015scc4/2015scc4.html",
+    "score": 0.6239011287689209,
+    "candidate_id": "2015csc-scc4",
+    "candidate_title": "Saskatchewan Federation of Labour v. Saskatchewan",
+    "query_text": "decision | 2015 SCC 42",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2015/2015scc4/2015scc4.html",
+        "score": 0.6239011287689209,
+        "candidate_title": "Saskatchewan Federation of Labour v. Saskatchewan"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2015/2015scc33/2015scc33.html",
+        "score": 0.622507631778717,
+        "candidate_title": "R. v. Tatton"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2014/2014scc50/2014scc50.html",
+        "score": 0.6149014830589294,
+        "candidate_title": "R. v. Taylor"
+      }
+    ]
+  },
+  "Victuni v. Minister of Revenue (Québec)": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/1980/1980canlii212/1980canlii212.html",
+    "score": 0.6254516839981079,
+    "candidate_id": "1980csc-scc10176",
+    "candidate_title": "R. v. McLaughlin",
+    "query_text": "decision | [1980] 1\nS.C.R. 580",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1980/1980canlii212/1980canlii212.html",
+        "score": 0.6254516839981079,
+        "candidate_title": "R. v. McLaughlin"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mjv0",
+        "score": 0.6094279289245605,
+        "candidate_title": "Schreiber Brothers Ltd. v. Currie Products Ltd. et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1980/1980canlii23/1980canlii23.html",
+        "score": 0.6014596223831177,
+        "candidate_title": "Reibl v. Hughes"
+      }
+    ]
+  },
+  "Centre de traitement d’information de crédit (CTIC) inc. (Syndic de)": {
+    "uri": "https://canlii.ca/t/29bw8",
+    "score": 0.8845050930976868,
+    "candidate_id": "2010qccs1514",
+    "candidate_title": "Centre de traitement d'information de crédit (CTIC) inc. (Syndic de)",
+    "query_text": "decision | Centre de\ntraitement d’information de crédit (CTIC) inc. (Syndic de) | 2010 QCCS 1514",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/29bw8",
+        "score": 0.8845050930976868,
+        "candidate_title": "Centre de traitement d'information de crédit (CTIC) inc. (Syndic de)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j54ch",
+        "score": 0.5576990842819214,
+        "candidate_title": "CTI Capital valeurs mobilières inc. c. Nassif"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onlat/doc/2019/2019canlii34619/2019canlii34619.html",
+        "score": 0.537266194820404,
+        "candidate_title": "18-004786 v Unifund Claims Inc."
+      }
+    ]
+  },
+  "Harp Investments Inc. (Syndic de)": {
+    "uri": "https://www.canlii.org/en/sk/skca/doc/2017/2017skca34/2017skca34.html",
+    "score": 0.5104646682739258,
+    "candidate_id": "2017skca34",
+    "candidate_title": "Harvard Property Management Inc. v Saskatoon (City)",
+    "query_text": "decision | Harp Investments Inc. (Syndic de) | [1992] R.J.Q. 1581\n(C.S.)",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2017/2017skca34/2017skca34.html",
+        "score": 0.5104646682739258,
+        "candidate_title": "Harvard Property Management Inc. v Saskatoon (City)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1j5mv",
+        "score": 0.5062277913093567,
+        "candidate_title": "Swap-T Inc. (Faillite), Re"
+      },
+      {
+        "uri": "https://canlii.ca/t/j3xk2",
+        "score": 0.5059065818786621,
+        "candidate_title": "Hak c. Procureure générale du Québec"
+      }
+    ]
+  },
+  "Yachting & sports Pigeon inc. (Syndic de)": {
+    "uri": "https://canlii.ca/t/5wdr",
+    "score": 0.592714250087738,
+    "candidate_id": "2003qcca10364",
+    "candidate_title": "Pigeon c. Proprio Direct Inc.",
+    "query_text": "decision | Yachting\n&amp; sports Pigeon inc. | J.E. 95-832 (C.S.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5wdr",
+        "score": 0.592714250087738,
+        "candidate_title": "Pigeon c. Proprio Direct Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/7cxr",
+        "score": 0.5884049534797668,
+        "candidate_title": "Pigeon c. Daigneault"
+      },
+      {
+        "uri": "https://canlii.ca/t/1sqcd",
+        "score": 0.544514000415802,
+        "candidate_title": "Proprio Direct inc. c. Pigeon"
+      }
+    ]
+  },
+  "Swap-T inc. (Syndic de)": {
+    "uri": "https://canlii.ca/t/1j5mv",
+    "score": 0.7207039594650269,
+    "candidate_id": "2004qccs16098",
+    "candidate_title": "Swap-T Inc. (Faillite), Re",
+    "query_text": "decision | Swap-T inc. | J.E. 2004-2117 (C.S.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1j5mv",
+        "score": 0.7207039594650269,
+        "candidate_title": "Swap-T Inc. (Faillite), Re"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frv7",
+        "score": 0.4979552626609802,
+        "candidate_title": "Swinamer v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1q0dw",
+        "score": 0.4893271028995514,
+        "candidate_title": "Pro Swing Inc. v. Elta Golf Inc."
+      }
+    ]
+  },
+  "Laporte c. Lauzon": {
+    "uri": "https://canlii.ca/t/1vcs5",
+    "score": 0.838699221611023,
+    "candidate_id": "2007qccs6226",
+    "candidate_title": "Laporte c. Lauzon",
+    "query_text": "decision | Laporte | Lauzon | 2007 QCCS 6226",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1vcs5",
+        "score": 0.838699221611023,
+        "candidate_title": "Laporte c. Lauzon"
+      },
+      {
+        "uri": "https://www.canlii.org/en/qc/qcca/doc/2021/2021qcca360/2021qcca360.html",
+        "score": 0.5127051472663879,
+        "candidate_title": "R. v. Lapointe"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/1993/1993canlii9145/1993canlii9145.html",
+        "score": 0.5043208599090576,
+        "candidate_title": "Laporte v. Saskatchewan"
+      }
+    ]
+  },
+  "Lussier Centre du Camion ltée c. GDM Transport inc.": {
+    "uri": "https://canlii.ca/t/1fkzj",
+    "score": 0.8521063327789307,
+    "candidate_id": "2002qccq10275",
+    "candidate_title": "Lussier Centre du camion Ltée c. GDM Transport Inc.",
+    "query_text": "decision | Lussier Centre du Camion ltée | GDM Transport inc. | (2002), AZ-50110541 (C.Q.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fkzj",
+        "score": 0.8521063327789307,
+        "candidate_title": "Lussier Centre du camion Ltée c. GDM Transport Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1chp8",
+        "score": 0.5381027460098267,
+        "candidate_title": "L.(V.) c. S.(B.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1979/1979canlii1776/1979canlii1776.html",
+        "score": 0.5203552842140198,
+        "candidate_title": "Leitch Transport Ltd. v. Neonex International Ltd. et al."
+      }
+    ]
+  },
+  "ICI Chèque c. Travel Currency Inc.": {
+    "uri": "https://canlii.ca/t/1jzqz",
+    "score": 0.8621988892555237,
+    "candidate_id": "2005qccs18481",
+    "candidate_title": "I.C.I. Chèque c. Travel Currency Inc.",
+    "query_text": "decision | ICI Chèque | Travel Currency Inc. | 2005 CanLII 7020 (QC CS)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1jzqz",
+        "score": 0.8621988892555237,
+        "candidate_title": "I.C.I. Chèque c. Travel Currency Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2008/2008bcsc405/2008bcsc405.html",
+        "score": 0.5256150960922241,
+        "candidate_title": "Carter v. Travelex Canada Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2020/2020fc161/2020fc161.html",
+        "score": 0.5134927034378052,
+        "candidate_title": "9255-2504 Québec Inc. v. Canada"
+      }
+    ]
+  },
+  "Italsav, s.r.l. c. Dynafund Ltd.": {
+    "uri": "https://canlii.ca/t/fmdfk",
+    "score": 0.8650310635566711,
+    "candidate_id": "2011qccs3643",
+    "candidate_title": "Italsav, s.r.l. c. Dynafund Ltd.",
+    "query_text": "decision | Italsav, s.r.l. | Dynafund Ltd. | 2011\nQCCS 3643",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fmdfk",
+        "score": 0.8650310635566711,
+        "candidate_title": "Italsav, s.r.l. c. Dynafund Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqdm",
+        "score": 0.47092074155807495,
+        "candidate_title": "États-Unis d'Amérique c. Dynar"
+      },
+      {
+        "uri": "https://canlii.ca/t/51tw",
+        "score": 0.4472273886203766,
+        "candidate_title": "Bank of Montreal v. Dynex Petroleum Ltd."
+      }
+    ]
+  },
+  "Cinar Corporation c. Weinberg": {
+    "uri": "https://canlii.ca/t/1lc3w",
+    "score": 0.8601421117782593,
+    "candidate_id": "2005qccs59537",
+    "candidate_title": "Cinar Corp. c. Weinberg",
+    "query_text": "decision | Cinar Corporation | Weinberg | Cinar | 2005 CanLII 27867\n(QC CS)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lc3w",
+        "score": 0.8601421117782593,
+        "candidate_title": "Cinar Corp. c. Weinberg"
+      },
+      {
+        "uri": "https://canlii.ca/t/1l3wm",
+        "score": 0.7416039109230042,
+        "candidate_title": "Cinar Corporation c. Xanthoudakis"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2017/2017bcsc303/2017bcsc303.html",
+        "score": 0.5440530776977539,
+        "candidate_title": "8640025 Canada Inc. (Re)"
+      }
+    ]
+  },
+  "Impulsora Turistica de Occidente, S.A. de C.V. v. Transat Tours Canada Inc.": {
+    "uri": "https://canlii.ca/t/1rkd9",
+    "score": 0.8827566504478455,
+    "candidate_id": "2007csc-scc20",
+    "candidate_title": "Impulsora Turistica de Occidente, S.A. de C.V. v. Transat Tours Canada Inc.",
+    "query_text": "decision | Impulsora Turistica de Occidente, S.A.\nde C.V. | Transat Tours Canada Inc. | 2007 SCC 20",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1rkd9",
+        "score": 0.8827566504478455,
+        "candidate_title": "Impulsora Turistica de Occidente, S.A. de C.V. v. Transat Tours Canada Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2007/2007nsca11/2007nsca11.html",
+        "score": 0.551746129989624,
+        "candidate_title": "Maritime Travel Inc. v. Go Travel Direct Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/hpv4d",
+        "score": 0.5251789093017578,
+        "candidate_title": "Delta Air Lines Inc. v. Lukács"
+      }
+    ]
+  },
+  "Cinar Corporation c. Xanthoudakis": {
+    "uri": "https://canlii.ca/t/1l3wm",
+    "score": 0.8309447169303894,
+    "candidate_id": "2005qccs58869",
+    "candidate_title": "Cinar Corporation c. Xanthoudakis",
+    "query_text": "decision | Cinar Corporation | Xanthoudakis | 2005 CanLII\n23655 (C.S.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l3wm",
+        "score": 0.8309447169303894,
+        "candidate_title": "Cinar Corporation c. Xanthoudakis"
+      },
+      {
+        "uri": "https://canlii.ca/t/1lc3w",
+        "score": 0.7221209406852722,
+        "candidate_title": "Cinar Corp. c. Weinberg"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2017/2017bcsc303/2017bcsc303.html",
+        "score": 0.5261053442955017,
+        "candidate_title": "8640025 Canada Inc. (Re)"
+      }
+    ]
+  },
+  "Kuwait Airways Corporation c. Iraqi Airways Company": {
+    "uri": "https://canlii.ca/t/27g99",
+    "score": 0.8775889873504639,
+    "candidate_id": "2010qccs53",
+    "candidate_title": "Kuwait Airways Corporation c. Iraqi Airways Company",
+    "query_text": "decision | Kuwait Airways Corporation | Iraqi Airways Company | 2010 QCCS 53",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/27g99",
+        "score": 0.8775889873504639,
+        "candidate_title": "Kuwait Airways Corporation c. Iraqi Airways Company"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1xv6",
+        "score": 0.5366401672363281,
+        "candidate_title": "Instrubel, n.v. c. Iraq (Ministry of Industry of the Republic of)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/qc/qcca/doc/2019/2019qcca78/2019qcca78.html",
+        "score": 0.5333455801010132,
+        "candidate_title": "Instrubel c. Republic of Iraq"
+      }
+    ]
+  },
+  "State Immunity Act": {
+    "uri": "https://canlii.ca/t/lgjj",
+    "score": 0.8273940682411194,
+    "candidate_id": "l12950!12950-current-1",
+    "candidate_title": "State Immunity Act",
+    "query_text": "legislation | State Immunity Act | RSC 1985, c. S-18",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/lgjj",
+        "score": 0.8273940682411194,
+        "candidate_title": "State Immunity Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/544lt",
+        "score": 0.531478762626648,
+        "candidate_title": "Supreme Court Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53406",
+        "score": 0.5213029384613037,
+        "candidate_title": "Foreign Missions and International Organizations Act"
+      }
+    ]
+  },
+  "Code of Civil Procedure of Quebec": {
+    "uri": "https://canlii.ca/t/56pg2",
+    "score": 0.7363174557685852,
+    "candidate_id": "l38186!38186-current-1",
+    "candidate_title": "Code of Civil Procedure",
+    "query_text": "legislation | The Code | C.C.P. | C.C.P | Code of Civil Procedure | old C.C.P. | <auto_label id=\"107\" labelname=\"title\" parent=\"citation\" style=\"background-color: rgb(147, 196, 125); color: black;\" titletype=\"official\" verified=\"false\">C.C.P</auto_label> | <auto_label id=\"209\" labelname=\"title\" parent=\"citation\" style=\"background-color: rgb(147, 196, 125); color: black;\" titletype=\"official\" verified=\"false\">C.C.P.</auto_label> | <auto_label id=\"225\" labelname=\"title\" parent=\"citation\" style=\"background-color: rgb(147, 196, 125); color: black;\" titletype=\"official\" verified=\"false\">C.C.P.</auto_label> | <auto_label id=\"249\" labelname=\"title\" parent=\"citation\" style=\"background-color: rgb(147, 196, 125); color: black;\" titletype=\"official\" verified=\"false\">C.C.P.</auto_label> | <auto_label id=\"253\" labelname=\"title\" parent=\"citation\" style=\"background-color: rgb(147, 196, 125); color: black;\" titletype=\"official\" verified=\"false\">C.C.P.</auto_label> | <auto_label id=\"257\" labelname=\"title\" parent=\"citation\" style=\"background-color: rgb(147, 196, 125); color: black;\" titletype=\"official\" verified=\"false\">C.C.P.</auto_label> | <auto_label id=\"261\" labelname=\"title\" parent=\"citation\" style=\"background-color: rgb(147, 196, 125); color: black;\" titletype=\"official\" verified=\"false\">C.C.P.</auto_label>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56pg2",
+        "score": 0.7363174557685852,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxl",
+        "score": 0.7345739006996155,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/69m2c",
+        "score": 0.7265511751174927,
+        "candidate_title": "Code de procédure civile"
+      }
+    ]
+  },
+  "Civil Code of Québec": {
+    "uri": "https://canlii.ca/t/56v3w",
+    "score": 0.782084584236145,
+    "candidate_id": "l6195!6195-current-1",
+    "candidate_title": "Civil Code of Québec",
+    "query_text": "legislation | Civil\nCode of Québec | <auto_label id=\"27\" labelname=\"title\" parent=\"citation\" style=\"background-color: rgb(147, 196, 125); color: black;\" titletype=\"official\" verified=\"false\">C.C.Q.</auto_label> | <i>C.C., </i> | <auto_label id=\"143\" labelname=\"title\" parent=\"citation\" style=\"background-color: rgb(147, 196, 125); color: black;\" titletype=\"official\" verified=\"false\">C.C.Q.</auto_label> | <auto_label id=\"147\" labelname=\"title\" parent=\"citation\" style=\"background-color: rgb(147, 196, 125); color: black;\" titletype=\"official\" verified=\"false\">C.C.Q.</auto_label> | <auto_label id=\"237\" labelname=\"title\" parent=\"citation\" style=\"background-color: rgb(147, 196, 125); color: black;\" titletype=\"official\" verified=\"false\">C.C.Q.</auto_label>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56v3w",
+        "score": 0.782084584236145,
+        "candidate_title": "Civil Code of Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxj",
+        "score": 0.782084584236145,
+        "candidate_title": "Civil Code of Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fw77",
+        "score": 0.7510643005371094,
+        "candidate_title": "Code civil du Québec"
+      }
+    ]
+  },
+  "Castel & Walker: Canadian Conflict of Laws": {
+    "uri": "https://www.canlii.org/en/on/onsc/doc/1970/1970canlii953/1970canlii953.html",
+    "score": 0.48634254932403564,
+    "candidate_id": "1970onhcj1000223",
+    "candidate_title": "Re Walker et al. and Attorney-General for Ontario",
+    "query_text": "secondary sources | Castel &amp; Walker: Canadian Conflict of Laws | J. Walker | Walker | Professor Castel",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1970/1970canlii953/1970canlii953.html",
+        "score": 0.48634254932403564,
+        "candidate_title": "Re Walker et al. and Attorney-General for Ontario"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2004/2004scc13/2004scc13.html",
+        "score": 0.4573461711406708,
+        "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nmz7",
+        "score": 0.4532833695411682,
+        "candidate_title": "McCannell v. Mclean"
+      }
+    ]
+  },
+  "Walter S. Johnson, Conflict of Laws": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/1979/1979canlii171/1979canlii171.html",
+    "score": 0.46368408203125,
+    "candidate_id": "1979csc-scc10149",
+    "candidate_title": "Johnson (S.C.) and Son, Ltd. et al. v. Marketing International Ltd.",
+    "query_text": "secondary sources | Conflict of Laws | Walter S. JOHNSON | JOHNSON",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1979/1979canlii171/1979canlii171.html",
+        "score": 0.46368408203125,
+        "candidate_title": "Johnson (S.C.) and Son, Ltd. et al. v. Marketing International Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1986/1986canlii6256/1986canlii6256.html",
+        "score": 0.4611507058143616,
+        "candidate_title": "Johnson v. Johnson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/1985/1985canlii1412/1985canlii1412.html",
+        "score": 0.4471260607242584,
+        "candidate_title": "Johnson v. Law Society (Alberta)"
+      }
+    ]
+  },
+  "Droit international privé québécois": {
+    "uri": "https://canlii.ca/t/6fw77",
+    "score": 0.49919718503952026,
+    "candidate_id": "l6195!6195-current-1",
+    "candidate_title": "Code civil du Québec",
+    "query_text": "secondary sources | Droit international privé québecois | J.-G. CASTEL",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/6fw77",
+        "score": 0.49919718503952026,
+        "candidate_title": "Code civil du Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqr3",
+        "score": 0.4981382191181183,
+        "candidate_title": "Reference re Secession of Quebec"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxj",
+        "score": 0.49359214305877686,
+        "candidate_title": "Civil Code of Québec"
+      }
+    ]
+  },
+  "Droit international privé, Tome II – Règles spécifiques": {
+    "uri": "https://www.canlii.org/en/ca/laws/regu/sor-91-499/latest/sor-91-499.html",
+    "score": 0.47559311985969543,
+    "candidate_id": "l16095!16095-current-1",
+    "candidate_title": "Canadian International Trade Tribunal Rules",
+    "query_text": "secondary sources | Droit international\nprivé, Tome II – Règles spécifiques | Gérald GOLDSTEIN and Ethel GROFFIER",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/regu/sor-91-499/latest/sor-91-499.html",
+        "score": 0.47559311985969543,
+        "candidate_title": "Canadian International Trade Tribunal Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56ndw",
+        "score": 0.43747687339782715,
+        "candidate_title": "Rules of Court"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dh4",
+        "score": 0.4332878887653351,
+        "candidate_title": "Solicitor-Client Privilege and Litigation Privilege in Civil Litigation"
+      }
+    ]
+  }
+}

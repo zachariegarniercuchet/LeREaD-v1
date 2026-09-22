@@ -1,0 +1,290 @@
+{
+  "2012 SKCA 24": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.573934018611908,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.573934018611908,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.571058452129364,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620052814483643,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Regina (City) v. Laing Property Corp.": {
+    "uri": "https://canlii.ca/t/1nqqv",
+    "score": 0.8189405798912048,
+    "candidate_id": "1994skca10181",
+    "candidate_title": "Regina (City) v. Laing Property Corp.",
+    "query_text": "decision | <i>Regina (City)</i> v. <i>Laing Property Corp</i>. | [1995] 3\nW.W.R. 551 (Sask. C.A) | 128 Sask R.29",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1nqqv",
+        "score": 0.8189405798912048,
+        "candidate_title": "Regina (City) v. Laing Property Corp."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2017/2017skca34/2017skca34.html",
+        "score": 0.6010909080505371,
+        "candidate_title": "Harvard Property Management Inc. v Saskatoon (City)"
+      },
+      {
+        "uri": "https://canlii.ca/t/fqhtx",
+        "score": 0.5985736846923828,
+        "candidate_title": "Sasco Developments Ltd v Moose Jaw (City)"
+      }
+    ]
+  },
+  "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)": {
+    "uri": "https://canlii.ca/t/1l6w0",
+    "score": 0.8830968141555786,
+    "candidate_id": "2000skca82",
+    "candidate_title": "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)",
+    "query_text": "decision | <i>Estevan Coal Corp.</i> v. <i>Estevan (Rural Municipality No. 5),</i> | <i>Estevan Coal Corp.</i> v. <i>Estevan\n(Rural Municipality No. 5)</i> | 2000 SKCA 82 | 199 Sask. R. 57",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l6w0",
+        "score": 0.8830968141555786,
+        "candidate_title": "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2023/2023skca5/2023skca5.html",
+        "score": 0.611532986164093,
+        "candidate_title": "Brandt Properties Ltd. v Sherwood (Rural Municipality)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skmb/doc/2025/2025skmb45/2025skmb45.html",
+        "score": 0.5979177355766296,
+        "candidate_title": "Britannia (Rural Municipality) v Cenovus Energy Inc."
+      }
+    ]
+  },
+  "Assessor Area #09 (Vancouver) v. Bramalea Limited": {
+    "uri": "https://canlii.ca/t/1drbl",
+    "score": 0.8474944829940796,
+    "candidate_id": "1995bcsc11687",
+    "candidate_title": "British Columbia (Assessor of Area #09 - Vancouver) v. Bramalea Ltd.",
+    "query_text": "decision | <i>Assessor\nArea #09 (Vancouver)</i> v<i>. Bramalea Limited</i> | 1995 Canlii (BCSC)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1drbl",
+        "score": 0.8474944829940796,
+        "candidate_title": "British Columbia (Assessor of Area #09 - Vancouver) v. Bramalea Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/1998/1998canlii3367/1998canlii3367.html",
+        "score": 0.6348700523376465,
+        "candidate_title": "Musqueam Holdings Ltd. v. British Columbia (Assessor of Area #09 - Vancouver)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2000/2000bcsc866/2000bcsc866.html",
+        "score": 0.5982285737991333,
+        "candidate_title": "Assessor of Area #21 - Nelson/Trail v. Nealho Holdings Ltd."
+      }
+    ]
+  },
+  "697604 Alberta Ltd v. Calgary (City)": {
+    "uri": "https://canlii.ca/t/1l5d5",
+    "score": 0.8299976587295532,
+    "candidate_id": "2005abqb512",
+    "candidate_title": "697604 Alberta Ltd. v. Calgary (City of)",
+    "query_text": "decision | <i>697604\nAlberta Ltd</i> v. <i>Calgary (City),</i> | 2005 ABQB 512",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l5d5",
+        "score": 0.8299976587295532,
+        "candidate_title": "697604 Alberta Ltd. v. Calgary (City of)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2011/2011abca84/2011abca84.html",
+        "score": 0.7158938646316528,
+        "candidate_title": "1447743 Alberta Ltd. v. Calgary (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2018/2018abqb519/2018abqb519.html",
+        "score": 0.6991629600524902,
+        "candidate_title": "Cidex Developments Ltd v Calgary (City)"
+      }
+    ]
+  },
+  "Chateau Lake Louise Corp. v. Improvement District No. 9": {
+    "uri": "https://canlii.ca/t/1jb31",
+    "score": 0.8386245369911194,
+    "candidate_id": "2004abqb579",
+    "candidate_title": "Chateau Lake Louise Corporation v. Improvement District No. 9",
+    "query_text": "decision | <i>Chateau Lake Louise\nCorp</i>. v. <i>Improvement District No. 9,</i> | <i>Chateau Lake Louise Corp</i>. v. <i>Improvement\nDistrict No. 9</i> | 2004 ABQB 579 | 366 A.R. 318",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1jb31",
+        "score": 0.8386245369911194,
+        "candidate_title": "Chateau Lake Louise Corporation v. Improvement District No. 9"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2009/2009abqb464/2009abqb464.html",
+        "score": 0.5785162448883057,
+        "candidate_title": "Ziegler Estate v. Green Acres (Pine Lake) Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2012/2012abqb579/2012abqb579.html",
+        "score": 0.5571008920669556,
+        "candidate_title": "Cold Lake First Nation v. Alberta (Tourism, Parks and Recreation)"
+      }
+    ]
+  },
+  "Edcyn Inc. v. Nova Scotia": {
+    "uri": "https://canlii.ca/t/4tv4",
+    "score": 0.7746779322624207,
+    "candidate_id": "2000nsuarb35",
+    "candidate_title": "Edcyn Inc. v. Nova Scotia (Director of Assessment)",
+    "query_text": "decision | <i>Edcyn\nInc</i>. v. <i>Nova Scotia</i> | 2000 NSUARB 35",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/4tv4",
+        "score": 0.7746779322624207,
+        "candidate_title": "Edcyn Inc. v. Nova Scotia (Director of Assessment)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsuarb/doc/2020/2020nsuarb18/2020nsuarb18.html",
+        "score": 0.6202530860900879,
+        "candidate_title": "Maceachern (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsuarb/doc/2011/2011nsuarb99/2011nsuarb99.html",
+        "score": 0.6126778721809387,
+        "candidate_title": "Efficiency Nova Scotia Corporation (Re)"
+      }
+    ]
+  },
+  "Mountain View (County) v. Alberta (Municipal Government Board)": {
+    "uri": "https://canlii.ca/t/5n0r",
+    "score": 0.8526895046234131,
+    "candidate_id": "2000abqb594",
+    "candidate_title": "Mountain View (County of) v. Alberta (Municipal Government Board)",
+    "query_text": "decision | <i>Mountain View (County)</i>\nv. <i>Alberta (Municipal Government Board),</i> | 2000 ABQB 594 | [2001] 2 W.W.R.\n398",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5n0r",
+        "score": 0.8526895046234131,
+        "candidate_title": "Mountain View (County of) v. Alberta (Municipal Government Board)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2000/2000abca237/2000abca237.html",
+        "score": 0.6089606285095215,
+        "candidate_title": "698114 Alberta Ltd. v. Banff (Town of)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2015/2015abca254/2015abca254.html",
+        "score": 0.6040541529655457,
+        "candidate_title": "Money v Bonnyville (Municipal District No. 87)"
+      }
+    ]
+  },
+  "Nova Scotia (Director of Assessment) v. van Driel": {
+    "uri": "https://canlii.ca/t/2db7p",
+    "score": 0.7934879660606384,
+    "candidate_id": "2010nsca87",
+    "candidate_title": "Nova Scotia (Assessment) v. van Driel",
+    "query_text": "decision | <i>Nova Scotia (Director of Assessment v. van Driel,</i> | 2010 NSCA 87 | 296 N.S.R. (2d) 244",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2db7p",
+        "score": 0.7934879660606384,
+        "candidate_title": "Nova Scotia (Assessment) v. van Driel"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2007/2007nsca104/2007nsca104.html",
+        "score": 0.6468204259872437,
+        "candidate_title": "Nova Scotia (Director of Assessment) v. Knickle"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2016/2016onsc8138/2016onsc8138.html",
+        "score": 0.5372620820999146,
+        "candidate_title": "R. v Assessment Direct Inc."
+      }
+    ]
+  },
+  "Municipal Board Act": {
+    "uri": "https://canlii.ca/t/56bgk",
+    "score": 0.8422836065292358,
+    "candidate_id": "l5162!5162-current-1",
+    "candidate_title": "Municipal Board Act",
+    "query_text": "legislation | The Municipal Board Act | S.S. 1988-89, c. M -23.2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56bgk",
+        "score": 0.8422836065292358,
+        "candidate_title": "Municipal Board Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/astat/ss-1988-89-c-m-23.2/latest/ss-1988-89-c-m-23.2.html",
+        "score": 0.6593059301376343,
+        "candidate_title": "An Act respecting the Saskatchewan Municipal Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/52xx6",
+        "score": 0.65237957239151,
+        "candidate_title": "Municipalities Act"
+      }
+    ]
+  },
+  "The Cities Act": {
+    "uri": "https://canlii.ca/t/56f73",
+    "score": 0.824151873588562,
+    "candidate_id": "l5009!5009-current-1",
+    "candidate_title": "The Cities Act",
+    "query_text": "legislation | The\nCities Act | Act | The Cities Act | The Cities Act Regulations | <i>Act</i> | The Cities\nAct | S.S. 2002, c. C-11.1 | R.R.S., c. C-11.1, Reg 1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56f73",
+        "score": 0.824151873588562,
+        "candidate_title": "The Cities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53886",
+        "score": 0.6979261636734009,
+        "candidate_title": "The Cities Amendment Act, 2006"
+      },
+      {
+        "uri": "https://canlii.ca/t/56khs",
+        "score": 0.6945590972900391,
+        "candidate_title": "The Cities Regulations"
+      }
+    ]
+  },
+  "Saskatchewan Assessment Manual": {
+    "uri": "https://www.canlii.org/en/mb/mbca/doc/1994/1994canlii10953/1994canlii10953.html",
+    "score": 0.5391616225242615,
+    "candidate_id": "1994mbca1000000",
+    "candidate_title": "Skeena Cellulose Inc. v. Manitoba (Provincial Municipal Assessor)",
+    "query_text": "secondary sources | Saskatchewan Assessment Manual",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/1994/1994canlii10953/1994canlii10953.html",
+        "score": 0.5391616225242615,
+        "candidate_title": "Skeena Cellulose Inc. v. Manitoba (Provincial Municipal Assessor)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/laws/stat/ccsm-c-m226/latest/ccsm-c-m226.html",
+        "score": 0.5058739185333252,
+        "candidate_title": "The Municipal Assessment Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/sklrb/doc/2009/2009canlii72366/2009canlii72366.html",
+        "score": 0.4899275600910187,
+        "candidate_title": "Saskatchewan Institute of Applied Science and Technology v. Saskatchewan Government and General Employees’ Union"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "College of Physicians and Surgeons of British Columbia v Health Professions Review Board": {
+    "uri": "https://canlii.ca/t/hw4sk",
+    "score": 0.8438886404037476,
+    "candidate_id": "2018bcsc2021",
+    "candidate_title": "The College of Physicians and Surgeons of British Columbia v The Health Professions Review Board",
+    "query_text": "decision | <i>The College of Physicians and Surgeons of British Columbia v The\nHealth Professions Review Board</i> | 2018 BCSC 2021",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hw4sk",
+        "score": 0.8438886404037476,
+        "candidate_title": "The College of Physicians and Surgeons of British Columbia v The Health Professions Review Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/hvsrx",
+        "score": 0.7679202556610107,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bchprb/doc/2021/2021bchprb17/2021bchprb17.html",
+        "score": 0.7661322355270386,
+        "candidate_title": "Complainant v. College of Physicians and Surgeons of British Columbia (No. 1)"
+      }
+    ]
+  },
+  "Review of the College Decision": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5735630989074707,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5735630989074707,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5707622170448303,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5614609718322754,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Health Professions Act BC": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.6463826298713684,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.6463826298713684,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6363588571548462,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6179417371749878,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "PIPA": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.6463826298713684,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.6463826298713684,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6363588571548462,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6179417371749878,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  }
+}

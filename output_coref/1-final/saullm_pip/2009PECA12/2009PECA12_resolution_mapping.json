@@ -1,0 +1,194 @@
+{
+  "Divorce Act": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.573934018611908,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.573934018611908,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.571058452129364,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620052814483643,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Divorce Act Decision": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.573934018611908,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.573934018611908,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.571058452129364,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620052814483643,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Gordon v. Goertz": {
+    "uri": "https://canlii.ca/t/1fr99",
+    "score": 0.74350905418396,
+    "candidate_id": "1996csc-scc47",
+    "candidate_title": "Gordon v. Goertz",
+    "query_text": "decision | Gordon v. Goertz | , supra",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr99",
+        "score": 0.74350905418396,
+        "candidate_title": "Gordon v. Goertz"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2022/2022onsc4388/2022onsc4388.html",
+        "score": 0.5745483636856079,
+        "candidate_title": "Goetz et al. v. The Corp. of the Municipality of South Bruce"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncj/doc/2015/2015oncj318/2015oncj318.html",
+        "score": 0.5450993776321411,
+        "candidate_title": "Goryn v. Neisner"
+      }
+    ]
+  },
+  "Unspecified Divorce Act Decision": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.573934018611908,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.573934018611908,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.571058452129364,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620052814483643,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Nunweiler v. Nunweiler": {
+    "uri": "https://canlii.ca/t/53cf",
+    "score": 0.6788302659988403,
+    "candidate_id": "2000bcca300",
+    "candidate_title": "Nunweiler v. Nunweiler",
+    "query_text": "decision | Nunweiler v. Nunweiler",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/53cf",
+        "score": 0.6788302659988403,
+        "candidate_title": "Nunweiler v. Nunweiler"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2022/2022onsc904/2022onsc904.html",
+        "score": 0.5735939741134644,
+        "candidate_title": "Nault v. Nault"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2012/2012onsc7262/2012onsc7262.html",
+        "score": 0.5725746154785156,
+        "candidate_title": "Weig v. Weig"
+      }
+    ]
+  },
+  "D.P. v. R.B.": {
+    "uri": "https://canlii.ca/t/1zvwz",
+    "score": 0.8102209568023682,
+    "candidate_id": "2007pesctd198725",
+    "candidate_title": "D.P. v. R.B.",
+    "query_text": "decision | <span class=\"Citation\">D.P. v. R.B.</span> | 2007 PESCTD 25 | 269 Nfld. &amp; P.E.I.R. 1 | 269 Nfld. &amp;\nP.E.I.R. 1.",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1zvwz",
+        "score": 0.8102209568023682,
+        "candidate_title": "D.P. v. R.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/20174",
+        "score": 0.7515468597412109,
+        "candidate_title": "D.P. v. R.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/1trd3",
+        "score": 0.7448022365570068,
+        "candidate_title": "D.P. v. R.B."
+      }
+    ]
+  },
+  "DPRBAppeal": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.573934018611908,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.573934018611908,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.571058452129364,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5620052814483643,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Hickey v. Hickey": {
+    "uri": "https://canlii.ca/t/1fqlr",
+    "score": 0.6621018648147583,
+    "candidate_id": "1999csc-scc33",
+    "candidate_title": "Hickey v. Hickey",
+    "query_text": "decision | Hickey v.\nHickey",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqlr",
+        "score": 0.6621018648147583,
+        "candidate_title": "Hickey v. Hickey"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2021/2021fc298/2021fc298.html",
+        "score": 0.5562514662742615,
+        "candidate_title": "Hicks v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2021/2021bcsc1981/2021bcsc1981.html",
+        "score": 0.5259292721748352,
+        "candidate_title": "McKee v Hicks"
+      }
+    ]
+  }
+}

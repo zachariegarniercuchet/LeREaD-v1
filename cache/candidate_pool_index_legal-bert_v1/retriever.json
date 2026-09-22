@@ -1,9 +1,0 @@
-{
-  "type": "vector",
-  "encoder": "legal-bert",
-  "similarity": "cosine",
-  "shape": [
-    6519,
-    768
-  ]
-}

@@ -1,0 +1,74 @@
+{
+  "MegumaGold Corp. (Re)": {
+    "uri": "https://canlii.ca/t/k9zcz",
+    "score": 0.8124272227287292,
+    "candidate_id": "2025nbeub1",
+    "candidate_title": "MegumaGold Corp. (Re)",
+    "query_text": "decision | MegumaGold Corp. (Re) | 2025 NBEUB 1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k9zcz",
+        "score": 0.8124272227287292,
+        "candidate_title": "MegumaGold Corp. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jmdl6",
+        "score": 0.5383328795433044,
+        "candidate_title": "Harte Gold Corp. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/jc6xj",
+        "score": 0.5229136347770691,
+        "candidate_title": "MOAG Copper Gold Resources Inc (Re)"
+      }
+    ]
+  },
+  "Cadillac": {
+    "uri": "https://www.canlii.org/en/ab/abqb/doc/1988/1988canlii3874/1988canlii3874.html",
+    "score": 0.5736714601516724,
+    "candidate_id": "1988abqb1000247",
+    "candidate_title": "Cadillac Fairview Corp. v. Great Pretenders Sparkle Tree",
+    "query_text": "decision | Cadillac",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/1988/1988canlii3874/1988canlii3874.html",
+        "score": 0.5736714601516724,
+        "candidate_title": "Cadillac Fairview Corp. v. Great Pretenders Sparkle Tree"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2021/2021onsc4138/2021onsc4138.html",
+        "score": 0.549140453338623,
+        "candidate_title": "Carter v. Ford Motor Company of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2017/2017onca545/2017onca545.html",
+        "score": 0.536138653755188,
+        "candidate_title": "Trillium Motor World Ltd. v. General Motors of Canada Limited"
+      }
+    ]
+  },
+  "Mining Act": {
+    "uri": "https://canlii.ca/t/56f38",
+    "score": 0.7594194412231445,
+    "candidate_id": "l23667!23667-current-1",
+    "candidate_title": "Mining Act",
+    "query_text": "legislation | MINING ACT | Mining Act | Act | S.N.B., c. M-14.1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56f38",
+        "score": 0.7594194412231445,
+        "candidate_title": "Mining Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-m-12/latest/rsnl-1990-c-m-12.html",
+        "score": 0.6827484965324402,
+        "candidate_title": "Mineral Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-m-17/latest/rsa-2000-c-m-17.html",
+        "score": 0.6631165146827698,
+        "candidate_title": "Mines and Minerals Act"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "Cities Act Saskatchewan": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.6466516256332397,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.6466516256332397,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6358247995376587,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6174254417419434,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "Cities Act": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.6466516256332397,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.6466516256332397,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6358247995376587,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6174254417419434,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "Property Assessment and Appeals in Saskatchewan": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.6466516256332397,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.6466516256332397,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6358247995376587,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6174254417419434,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "Estevan Coal Corp. v Estevan (Rural Municipality No. 5)": {
+    "uri": "https://canlii.ca/t/1l6w0",
+    "score": 0.8789493441581726,
+    "candidate_id": "2000skca82",
+    "candidate_title": "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)",
+    "query_text": "decision | <i>Estevan Coal Corp.</i> v. <i>Estevan (Rural Municipality No. 5),</i> | 2000 SKCA 82 | 199 Sask. R. 57",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l6w0",
+        "score": 0.8789493441581726,
+        "candidate_title": "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2023/2023skca5/2023skca5.html",
+        "score": 0.5946862101554871,
+        "candidate_title": "Brandt Properties Ltd. v Sherwood (Rural Municipality)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skmb/doc/2025/2025skmb45/2025skmb45.html",
+        "score": 0.5912958979606628,
+        "candidate_title": "Britannia (Rural Municipality) v Cenovus Energy Inc."
+      }
+    ]
+  }
+}

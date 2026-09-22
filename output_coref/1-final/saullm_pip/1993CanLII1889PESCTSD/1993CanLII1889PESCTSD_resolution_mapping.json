@@ -1,0 +1,458 @@
+{
+  "Ron Engineering": {
+    "uri": "https://canlii.ca/t/1lpk8",
+    "score": 0.6749525666236877,
+    "candidate_id": "1981csc-scc10008",
+    "candidate_title": "The Queen (Ont.) v. Ron Engineering",
+    "query_text": "decision | . | Ron Engineering | Ron\nEngineering",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpk8",
+        "score": 0.6749525666236877,
+        "candidate_title": "The Queen (Ont.) v. Ron Engineering"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1983/1983canlii142/1983canlii142.html",
+        "score": 0.5451564192771912,
+        "candidate_title": "Engineered Homes Ltd. v. Mason et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2019/2019onca971/2019onca971.html",
+        "score": 0.5358915328979492,
+        "candidate_title": "R. v. Ronald"
+      }
+    ]
+  },
+  "Canamerican Auto Lease": {
+    "uri": "https://canlii.ca/t/1ft82",
+    "score": 0.6548086404800415,
+    "candidate_id": "1989csc-scc29",
+    "candidate_title": "General Motors of Canada Ltd. v. City National Leasing",
+    "query_text": "decision | Canamerican Auto Lease",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ft82",
+        "score": 0.6548086404800415,
+        "candidate_title": "General Motors of Canada Ltd. v. City National Leasing"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2012/2012onsc1301/2012onsc1301.html",
+        "score": 0.6027234792709351,
+        "candidate_title": "Cle Leasing Enterprises Ltd. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2013/2013onsc851/2013onsc851.html",
+        "score": 0.6005919575691223,
+        "candidate_title": "Can-Win Leasing v. Moncayo"
+      }
+    ]
+  },
+  "Spencer v. Harding": {
+    "uri": "https://www.canlii.org/en/ab/abkb/doc/2024/2024abkb274/2024abkb274.html",
+    "score": 0.5016001462936401,
+    "candidate_id": "2024abkb274",
+    "candidate_title": "Spencer v Spencer",
+    "query_text": "decision | Spencer v. Harding | Spencer\nv. Harding | [1870] L.R. 4 C.P. 561 | 39\nL.J.C.P. 332 | 23 L.T. 237 | 19 W.R. 48",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ab/abkb/doc/2024/2024abkb274/2024abkb274.html",
+        "score": 0.5016001462936401,
+        "candidate_title": "Spencer v Spencer"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2017/2017bcca171/2017bcca171.html",
+        "score": 0.49361294507980347,
+        "candidate_title": "Harding v. Law Society of British Columbia"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1970/1970canlii390/1970canlii390.html",
+        "score": 0.45718085765838623,
+        "candidate_title": "Regina v. Spatola"
+      }
+    ]
+  },
+  "Carlill v. Carbolic Smoke Ball Co.": {
+    "uri": "https://canlii.ca/t/21v1x",
+    "score": 0.5154249668121338,
+    "candidate_id": "1931csc-scc1000000",
+    "candidate_title": "Cartwright & Crickmore Ltd. v. MacInnes",
+    "query_text": "decision | Carlill v. Carbolic Smoke Ball Co. | [1893]\n1 Q.B. 256 | 62 L.J.Q.B. 257 | 67 L.J. 837 | (1891-4) All E.R. Rep.\n127 (C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21v1x",
+        "score": 0.5154249668121338,
+        "candidate_title": "Cartwright & Crickmore Ltd. v. MacInnes"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1921/1921canlii25/1921canlii25.html",
+        "score": 0.4786606729030609,
+        "candidate_title": "Gold Seal Ltd. v. Alberta (Attorney-General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frgz",
+        "score": 0.4739187955856323,
+        "candidate_title": "RJR-MacDonald Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Globe Heating & Plumbing Ltd. v. Northern Construction Co.": {
+    "uri": "https://canlii.ca/t/2dk33",
+    "score": 0.8040953278541565,
+    "candidate_id": "1986abca3",
+    "candidate_title": "Gloge Heating & Plumbing Ltd. v. Northern Construction Company Ltd.",
+    "query_text": "decision | Globe Heating &amp; Plumbing Ltd. v. Northern Construction Co. | [1986] 2 W.W.R.\n649 (Alta. C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2dk33",
+        "score": 0.8040953278541565,
+        "candidate_title": "Gloge Heating & Plumbing Ltd. v. Northern Construction Company Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1982/1982abca133/1982abca133.html",
+        "score": 0.6377891302108765,
+        "candidate_title": "Northwestern Mechanical Installations Ltd. v. Yukon Construction Co. Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/1988/1988canlii3491/1988canlii3491.html",
+        "score": 0.6002071499824524,
+        "candidate_title": "Nova, an Alberta Corp. v. Guelph Engineering Co."
+      }
+    ]
+  },
+  "M.S.K. Financial Services Ltd. v. The Queen in Right of Alberta et al.": {
+    "uri": "https://canlii.ca/t/2bn1h",
+    "score": 0.7920910120010376,
+    "candidate_id": "1987abqb1000217",
+    "candidate_title": "M.S.K. Financial Services Ltd. v. Alberta (Minister of Public Works)",
+    "query_text": "decision | M.S.K. Financial Services Ltd. v. The Queen in\nRight of Alberta et al. | 23 C.L.R. 172 (Alta. S.C.),",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2bn1h",
+        "score": 0.7920910120010376,
+        "candidate_title": "M.S.K. Financial Services Ltd. v. Alberta (Minister of Public Works)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1rmr1",
+        "score": 0.6119266748428345,
+        "candidate_title": "Canadian Western Bank v. Alberta"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2010/2010abca226/2010abca226.html",
+        "score": 0.5935171842575073,
+        "candidate_title": "783783 Alberta Ltd. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Ben Bruinsma & Sons Ltd. v. the Corporation of the City of Chatham et al.": {
+    "uri": "https://www.canlii.org/en/on/onscdc/doc/2022/2022onsc4388/2022onsc4388.html",
+    "score": 0.5521434545516968,
+    "candidate_id": "2022onscdc4388",
+    "candidate_title": "Goetz et al. v. The Corp. of the Municipality of South Bruce",
+    "query_text": "decision | Ben Bruinsma &amp; Sons Ltd. v. the Corporation of the City of Chatham et\nal. | 11 C.L.R. 37 (Ont. S.C.), (\"Bruinsma\")",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2022/2022onsc4388/2022onsc4388.html",
+        "score": 0.5521434545516968,
+        "candidate_title": "Goetz et al. v. The Corp. of the Municipality of South Bruce"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ttsd",
+        "score": 0.5485321283340454,
+        "candidate_title": "Aluminum Company of Canada Ltd. v. City of Toronto"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2017/2017onsc795/2017onsc795.html",
+        "score": 0.5419613718986511,
+        "candidate_title": "Nylene Canada Inc. v Corporation of the Town of Arnprior"
+      }
+    ]
+  },
+  "Slave Lake (Town) v. Appleton Construction Ltd. et al.": {
+    "uri": "https://canlii.ca/t/28lgz",
+    "score": 0.8303912878036499,
+    "candidate_id": "1987abqb1000166",
+    "candidate_title": "Slave Lake (Town) v. Appleton Construction Ltd.",
+    "query_text": "decision | Slave Lake (Town) v. Appleton Con- struction Ltd. et\nal. | 80 A.R. 276 (Alta. Q.B.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/28lgz",
+        "score": 0.8303912878036499,
+        "candidate_title": "Slave Lake (Town) v. Appleton Construction Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2020/2020abqb106/2020abqb106.html",
+        "score": 0.6274258494377136,
+        "candidate_title": "Cove Contracting Ltd v Condominium Corporation No 012 5598 (Ravine Park)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h6p1d",
+        "score": 0.5925875902175903,
+        "candidate_title": "Aski Construction Ltd v Markos"
+      }
+    ]
+  },
+  "Chinook Aggregates Ltd. v. Abbotsford Municipal District": {
+    "uri": "https://canlii.ca/t/1p6r2",
+    "score": 0.850981593132019,
+    "candidate_id": "1989bcca10012",
+    "candidate_title": "Chinook Aggregates Ltd. v. Abbotsford (District)",
+    "query_text": "decision | Chinook\nAggregates Ltd. v. Abbotsford Municipal District | (1989), 40 B.C.L.R. (2d) 345\n(B.C.C.A.),",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1p6r2",
+        "score": 0.850981593132019,
+        "candidate_title": "Chinook Aggregates Ltd. v. Abbotsford (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2014/2014bcca369/2014bcca369.html",
+        "score": 0.5858895182609558,
+        "candidate_title": "Kelowna Mountain Development Services Ltd. v. Central Okanagan (Regional District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2010/2010bcca199/2010bcca199.html",
+        "score": 0.5607276558876038,
+        "candidate_title": "Catalyst Paper Corporation v. North Cowichan (District)"
+      }
+    ]
+  },
+  "Best Cleaners & Contractors Ltd. v. Canada": {
+    "uri": "https://canlii.ca/t/jqtg0",
+    "score": 0.7905237078666687,
+    "candidate_id": "1985fctad1000042",
+    "candidate_title": "Best Cleaners and Contractors Ltd. v. The Queen",
+    "query_text": "decision | Best Cleaners &amp; Contractors Ltd. v. Canada | 58 N.R. 295",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jqtg0",
+        "score": 0.7905237078666687,
+        "candidate_title": "Best Cleaners and Contractors Ltd. v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1999/1999canlii639/1999canlii639.html",
+        "score": 0.58498215675354,
+        "candidate_title": "65302 British Columbia Ltd. v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftpf",
+        "score": 0.5730445384979248,
+        "candidate_title": "Finlay v. Canada (Minister of Finance)"
+      }
+    ]
+  },
+  "Martselos Services Ltd.; Whistler": {
+    "uri": "https://canlii.ca/t/1dt9j",
+    "score": 0.6624872088432312,
+    "candidate_id": "1990bcsc10799",
+    "candidate_title": "Whistler Service Park Ltd. v. Whistler (Resort Municipality of)",
+    "query_text": "decision | Martselos Services Ltd.;\nWhistler",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1dt9j",
+        "score": 0.6624872088432312,
+        "candidate_title": "Whistler Service Park Ltd. v. Whistler (Resort Municipality of)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1994/1994canlii803/1994canlii803.html",
+        "score": 0.5811684727668762,
+        "candidate_title": "Whistler Mountain Ski Corp. v. Projex Management Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2010/2010bcsc1618/2010bcsc1618.html",
+        "score": 0.5256688594818115,
+        "candidate_title": "Maguire v. Revelstoke Mountain Resort Limited Partnership"
+      }
+    ]
+  },
+  "Bruinsma": {
+    "uri": "https://www.canlii.org/en/bc/bcsc/doc/1985/1985canlii466/1985canlii466.html",
+    "score": 0.494916707277298,
+    "candidate_id": "1985bcsc1000142",
+    "candidate_title": "Broekman Ten Brink v. Block Bros. Realty Ltd.",
+    "query_text": "decision | Bruinsma",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/1985/1985canlii466/1985canlii466.html",
+        "score": 0.494916707277298,
+        "candidate_title": "Broekman Ten Brink v. Block Bros. Realty Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2007/2007scc54/2007scc54.html",
+        "score": 0.49209803342819214,
+        "candidate_title": "Bruker v. Marcovitz"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2016/2016onca325/2016onca325.html",
+        "score": 0.48112621903419495,
+        "candidate_title": "Brown v. Baum"
+      }
+    ]
+  },
+  "Best Cleaners": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5743204951286316,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5743204951286316,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5712905526161194,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5628493428230286,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Kencor Holdings": {
+    "uri": "https://canlii.ca/t/g9f6x",
+    "score": 0.6943084001541138,
+    "candidate_id": "1991skqb1000325",
+    "candidate_title": "Kencor Holdings Ltd. v. Saskatchewan",
+    "query_text": "decision | Kencor Holdings",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9f6x",
+        "score": 0.6943084001541138,
+        "candidate_title": "Kencor Holdings Ltd. v. Saskatchewan"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2016/2016onsc7125/2016onsc7125.html",
+        "score": 0.4987454116344452,
+        "candidate_title": "Jade-Kennedy Development Corporation (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/qc/qcca/doc/2022/2022qcca1611/2022qcca1611.html",
+        "score": 0.49187344312667847,
+        "candidate_title": "K.C. c. R."
+      }
+    ]
+  },
+  "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc.": {
+    "uri": "https://canlii.ca/t/1p8z3",
+    "score": 0.831865668296814,
+    "candidate_id": "1991pescad198710005",
+    "candidate_title": "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc.",
+    "query_text": "decision | Hawes v. Sherwood-Parkdale Metro Junior Hockey Club\nInc. | (1991), 96 Nfld. &amp; P.E.I.R. 169 (P.E.I.S.C.T.D.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1p8z3",
+        "score": 0.831865668296814,
+        "candidate_title": "Hawes v. Sherwood-Parkdale Metro Junior Hockey Club Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2021/2021fc488/2021fc488.html",
+        "score": 0.5391940474510193,
+        "candidate_title": "Mohr v. National Hockey League"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2004/2004canlii48698/2004canlii48698.html",
+        "score": 0.519576907157898,
+        "candidate_title": "Beauchamp v. North Central Predators AAA Hockey Assn."
+      }
+    ]
+  },
+  "Georgia Construction Co. v. Pacific Great Eastern Railway": {
+    "uri": "https://canlii.ca/t/21v1l",
+    "score": 0.8255419731140137,
+    "candidate_id": "1929csc-scc1000004",
+    "candidate_title": "Georgia Construction Co. v. Pacific Great Eastern Railway Co.",
+    "query_text": "decision | Georgia\nConstruction Co. v. Pacific Great Eastern Railway | [1929] S.C.R. 630",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21v1l",
+        "score": 0.8255419731140137,
+        "candidate_title": "Georgia Construction Co. v. Pacific Great Eastern Railway Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/1txg3",
+        "score": 0.6069939732551575,
+        "candidate_title": "Carman Construction Ltd. v. Canadian Pacific Railway Co."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1909/1909canlii10/1909canlii10.html",
+        "score": 0.5766422152519226,
+        "candidate_title": "Toronto Ry. Co. v. Paget"
+      }
+    ]
+  },
+  "M.J. Peddlesden Ltd. v. Liddle Construction, Ltd.": {
+    "uri": "https://canlii.ca/t/23pbl",
+    "score": 0.8022058010101318,
+    "candidate_id": "1981bcsc1000170",
+    "candidate_title": "Peddlesden Ltd. v. Liddell Construction Ltd.",
+    "query_text": "decision | M.J. Peddlesden Ltd. v. Liddle Construction, Ltd. | (1981), 128 D.L.R. (3d) 360",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/23pbl",
+        "score": 0.8022058010101318,
+        "candidate_title": "Peddlesden Ltd. v. Liddell Construction Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1961/1961canlii23/1961canlii23.html",
+        "score": 0.574085533618927,
+        "candidate_title": "W.J. Crowe Ltd. v. Pigott Construction Co."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1963/1963canlii10/1963canlii10.html",
+        "score": 0.5626369118690491,
+        "candidate_title": "W.J. Crowe Ltd. v. Pigott Construction Co."
+      }
+    ]
+  },
+  "Zutphen Bros.": {
+    "uri": "https://www.canlii.org/en/on/onsc/doc/2015/2015onsc2632/2015onsc2632.html",
+    "score": 0.5079434514045715,
+    "candidate_id": "2015onsc2632",
+    "candidate_title": "Cross Bridges Inc. v Z-Teca Foods Inc.",
+    "query_text": "decision | Zutphen Bros.",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2015/2015onsc2632/2015onsc2632.html",
+        "score": 0.5079434514045715,
+        "candidate_title": "Cross Bridges Inc. v Z-Teca Foods Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1mjv0",
+        "score": 0.48350197076797485,
+        "candidate_title": "Schreiber Brothers Ltd. v. Currie Products Ltd. et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1922/1922canlii3/1922canlii3.html",
+        "score": 0.47836607694625854,
+        "candidate_title": "The Dominion Canners Ltd. v. Costanza"
+      }
+    ]
+  },
+  "Ontario Construction Lien Act": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.646382749080658,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.646382749080658,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6363587975502014,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6179416179656982,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  }
+}

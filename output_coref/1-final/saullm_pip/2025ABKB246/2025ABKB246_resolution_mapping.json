@@ -1,0 +1,26 @@
+{
+  "Dynex SCC": {
+    "uri": "https://www.canlii.org/en/bc/bcca/doc/2010/2010bcca239/2010bcca239.html",
+    "score": 0.8338204622268677,
+    "candidate_id": "2010bcca239",
+    "candidate_title": "Creston Moly Corp. v. Sattva Capital Corp.",
+    "query_text": "decision | Creston Moly Corp v Sattva Capital Corp",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2010/2010bcca239/2010bcca239.html",
+        "score": 0.8338204622268677,
+        "candidate_title": "Creston Moly Corp. v. Sattva Capital Corp."
+      },
+      {
+        "uri": "https://canlii.ca/t/g88q1",
+        "score": 0.7994326949119568,
+        "candidate_title": "Sattva Capital Corp. v. Creston Moly Corp."
+      },
+      {
+        "uri": "https://canlii.ca/t/21xpk",
+        "score": 0.5374253988265991,
+        "candidate_title": "BCE Inc. v. 1976 Debentureholders"
+      }
+    ]
+  }
+}

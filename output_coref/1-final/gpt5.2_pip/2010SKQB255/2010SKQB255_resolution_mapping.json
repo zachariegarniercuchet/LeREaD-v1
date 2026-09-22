@@ -1,0 +1,818 @@
+{
+  "2010 SKQB 255": {
+    "uri": "https://www.canlii.org/en/sk/skqb/doc/2018/2018skqb17/2018skqb17.html",
+    "score": 0.6098311543464661,
+    "candidate_id": "2018skqb17",
+    "candidate_title": "J.E.S. v J.G.B.",
+    "query_text": "decision | 2010 SKQB 255",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/2018/2018skqb17/2018skqb17.html",
+        "score": 0.6098311543464661,
+        "candidate_title": "J.E.S. v J.G.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/2bt10",
+        "score": 0.5988366603851318,
+        "candidate_title": "Big Sky Farms inc. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/2015/2015skqb49/2015skqb49.html",
+        "score": 0.5794878005981445,
+        "candidate_title": "Singh v Hans"
+      }
+    ]
+  },
+  "Housen v. Nikolaisen": {
+    "uri": "https://canlii.ca/t/51tl",
+    "score": 0.8511865735054016,
+    "candidate_id": "2002csc-scc33",
+    "candidate_title": "Housen v. Nikolaisen",
+    "query_text": "decision | Housen v. Nikolaisen | [2002] 2 S.C.R. 235 | 2002 SCC 33",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51tl",
+        "score": 0.8511865735054016,
+        "candidate_title": "Housen v. Nikolaisen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nszq",
+        "score": 0.7312319874763489,
+        "candidate_title": "Housen v. Nikolaisen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1l6s3",
+        "score": 0.6606771349906921,
+        "candidate_title": "Shellbrook (Rural Municipality No. 493) v. Housen"
+      }
+    ]
+  },
+  "Re 1587930 Ontario Inc.": {
+    "uri": "https://canlii.ca/t/1prvh",
+    "score": 0.7787201404571533,
+    "candidate_id": "2006onsc16351",
+    "candidate_title": "1587930 Ontario Inc., Re",
+    "query_text": "decision | Re\n1587930 Ontario Inc. | (2006), 25 C.B.R. (5th) 264 (Ont. S.C.J.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1prvh",
+        "score": 0.7787201404571533,
+        "candidate_title": "1587930 Ontario Inc., Re"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2017/2017bcsc303/2017bcsc303.html",
+        "score": 0.5703480839729309,
+        "candidate_title": "8640025 Canada Inc. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2015/2015onsc6735/2015onsc6735.html",
+        "score": 0.5376220345497131,
+        "candidate_title": "Re: 144 Park Ltd."
+      }
+    ]
+  },
+  "Triton Tubular Components Corp. v. Steelcase Inc.": {
+    "uri": "https://canlii.ca/t/1lmgq",
+    "score": 0.8587198257446289,
+    "candidate_id": "2005onsc14605",
+    "candidate_title": "Triton Tubular Components Corp. v. Steelcase Inc.",
+    "query_text": "decision | Triton\nTubular Components Corp. v. Steelcase Inc. | (2005), 14 C.B.R. (5th) 264\n(Ont. S.C.J.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lmgq",
+        "score": 0.8587198257446289,
+        "candidate_title": "Triton Tubular Components Corp. v. Steelcase Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2018/2018onsc4308/2018onsc4308.html",
+        "score": 0.5281872749328613,
+        "candidate_title": "Tricar Developments Inc. et al. v. Terex Corporation et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2002/2002fct829/2002fct829.html",
+        "score": 0.5244843363761902,
+        "candidate_title": "Illinois Tool Works Inc. v. Cobra Fixations Cie Ltée. - Cobra Anchors Co. Ltd."
+      }
+    ]
+  },
+  "F.H. v. McDougall": {
+    "uri": "https://canlii.ca/t/20xm8",
+    "score": 0.8237974643707275,
+    "candidate_id": "2008csc-scc53",
+    "candidate_title": "F.H. v. McDougall",
+    "query_text": "decision | <i>F.H.\nv. McDougall</i> | [2008] 3 S.C.R. 41 | 2008 SCC 53",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/20xm8",
+        "score": 0.8237974643707275,
+        "candidate_title": "F.H. v. McDougall"
+      },
+      {
+        "uri": "https://canlii.ca/t/1k864",
+        "score": 0.5846936106681824,
+        "candidate_title": "H.L. v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hshvb",
+        "score": 0.5751913785934448,
+        "candidate_title": "Canada (Canadian Human Rights Commission) v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Dwyer v. Mark II Innovations Ltd.": {
+    "uri": "https://canlii.ca/t/1mx5x",
+    "score": 0.8207419514656067,
+    "candidate_id": "2006onca10223",
+    "candidate_title": "Dwyer v. Mark II Innovations Ltd.",
+    "query_text": "decision | Dwyer v. Mark II Innovations Ltd. | (2006), 208 O.A.C. 305 (Ont. C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mx5x",
+        "score": 0.8207419514656067,
+        "candidate_title": "Dwyer v. Mark II Innovations Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/1996/1996canlii4805/1996canlii4805.html",
+        "score": 0.564434826374054,
+        "candidate_title": "Dwyer v. Workplace Health, Safety and Compensation Commission"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2012/2012onca512/2012onca512.html",
+        "score": 0.5095618963241577,
+        "candidate_title": "Kowal v. Shyiak"
+      }
+    ]
+  },
+  "Murray v. Saskatoon": {
+    "uri": "https://canlii.ca/t/g79k9",
+    "score": 0.7618224620819092,
+    "candidate_id": "1951skca1000022",
+    "candidate_title": "Murray v. Saskatoon (City)",
+    "query_text": "decision | Murray v.\nSaskatoon | [1952] 2 D.L.R. 499 (Sask. C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g79k9",
+        "score": 0.7618224620819092,
+        "candidate_title": "Murray v. Saskatoon (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2005/2005canlii46626/2005canlii46626.html",
+        "score": 0.5653707385063171,
+        "candidate_title": "Murray v. Murray"
+      },
+      {
+        "uri": "https://canlii.ca/t/fqhtx",
+        "score": 0.5581680536270142,
+        "candidate_title": "Sasco Developments Ltd v Moose Jaw (City)"
+      }
+    ]
+  },
+  "Harmony Shopping Co. S.A. v. Davis": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/1979/1979canlii42/1979canlii42.html",
+    "score": 0.5187819004058838,
+    "candidate_id": "1979csc-scc10025",
+    "candidate_title": "Davies & Davies Ltd. v. Kott",
+    "query_text": "decision | <i>Harmony\nShopping Co. S.A. v. Davis</i> | [1979] 3 All E.R. 177",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1979/1979canlii42/1979canlii42.html",
+        "score": 0.5187819004058838,
+        "candidate_title": "Davies & Davies Ltd. v. Kott"
+      },
+      {
+        "uri": "https://canlii.ca/t/g9s0r",
+        "score": 0.48445820808410645,
+        "candidate_title": "Davies v. Harrington"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1953/1953canlii148/1953canlii148.html",
+        "score": 0.4827115833759308,
+        "candidate_title": "Davis v. Davis"
+      }
+    ]
+  },
+  "S.M. v. Canada (Attorney General)": {
+    "uri": "https://canlii.ca/t/1lm59",
+    "score": 0.7472279667854309,
+    "candidate_id": "2005skqb351",
+    "candidate_title": "M. (S.) v. Canada (Attorney General)",
+    "query_text": "decision | S.M. v.\nCanada (Attorney General) | 2005 SKQB 351 | 271 Sask. R. 123",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lm59",
+        "score": 0.7472279667854309,
+        "candidate_title": "M. (S.) v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2022/2022onca765/2022onca765.html",
+        "score": 0.5988472104072571,
+        "candidate_title": "R. v. S.M."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2021/2021skca1/2021skca1.html",
+        "score": 0.5931463837623596,
+        "candidate_title": "R v M.G.S"
+      }
+    ]
+  },
+  "M.(K.) v. M.(H.)": {
+    "uri": "https://canlii.ca/t/1fs89",
+    "score": 0.748746395111084,
+    "candidate_id": "1992csc-scc84",
+    "candidate_title": "M.(K.) v. M.(H.)",
+    "query_text": "decision | <i>M.(K.)\nv. M.(H.)</i> | [1992] 3 S.C.R. 6",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fs89",
+        "score": 0.748746395111084,
+        "candidate_title": "M.(K.) v. M.(H.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1vtm7",
+        "score": 0.6199995279312134,
+        "candidate_title": "M. v. H."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs7v",
+        "score": 0.6121290922164917,
+        "candidate_title": "Moge v. Moge"
+      }
+    ]
+  },
+  "Doe on the demise of Count Duroure v. Jones": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/1991/1991canlii31/1991canlii31.html",
+    "score": 0.43828925490379333,
+    "candidate_id": "1991csc-scc77",
+    "candidate_title": "R. v. Jones",
+    "query_text": "decision | <i>Doe on the demise of Count\nDuroure v. Jones</i> | (1791), 4 T.R. 301 | 100 E.R. 1031",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1991/1991canlii31/1991canlii31.html",
+        "score": 0.43828925490379333,
+        "candidate_title": "R. v. Jones"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1921/1921canlii444/1921canlii444.html",
+        "score": 0.4214145243167877,
+        "candidate_title": "Graydon v. Graydon"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1961/1961canlii157/1961canlii157.html",
+        "score": 0.4136471748352051,
+        "candidate_title": "Re Weil"
+      }
+    ]
+  },
+  "A’Court v. Cross": {
+    "uri": "https://canlii.ca/t/21v1x",
+    "score": 0.5291483998298645,
+    "candidate_id": "1931csc-scc1000000",
+    "candidate_title": "Cartwright & Crickmore Ltd. v. MacInnes",
+    "query_text": "decision | A’Court v.\nCross | 3 Bing. 329 | 130 E.R. 540",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21v1x",
+        "score": 0.5291483998298645,
+        "candidate_title": "Cartwright & Crickmore Ltd. v. MacInnes"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2015/2015onsc2632/2015onsc2632.html",
+        "score": 0.503339946269989,
+        "candidate_title": "Cross Bridges Inc. v Z-Teca Foods Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1924/1924canlii70/1924canlii70.html",
+        "score": 0.49861517548561096,
+        "candidate_title": "Smith v. Nevins"
+      }
+    ]
+  },
+  "Dundee Harbour Trustees v. Dougall": {
+    "uri": "https://canlii.ca/t/1tvnt",
+    "score": 0.5029775500297546,
+    "candidate_id": "1958csc-scc101225",
+    "candidate_title": "Dupont et al. v. Inglis et al.",
+    "query_text": "decision | Dundee Harbour Trustees v. Dougall | (1852), 1 Macq. 317\n(H.L.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1tvnt",
+        "score": 0.5029775500297546,
+        "candidate_title": "Dupont et al. v. Inglis et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/21v1x",
+        "score": 0.488010436296463,
+        "candidate_title": "Cartwright & Crickmore Ltd. v. MacInnes"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fv17",
+        "score": 0.4778047502040863,
+        "candidate_title": "Canadian Dredge & Dock Co. v. The Queen"
+      }
+    ]
+  },
+  "Deaville v. Boegeman": {
+    "uri": "https://canlii.ca/t/g1fmq",
+    "score": 0.7934657335281372,
+    "candidate_id": "1984onca1000030",
+    "candidate_title": "Deaville v. Boegeman",
+    "query_text": "decision | <i>Deaville v. Boegeman</i> (1984) | 48 O.R. (2d) 725\n(C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1fmq",
+        "score": 0.7934657335281372,
+        "candidate_title": "Deaville v. Boegeman"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1924/1924canlii70/1924canlii70.html",
+        "score": 0.5218486785888672,
+        "candidate_title": "Smith v. Nevins"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2005/2005canlii39862/2005canlii39862.html",
+        "score": 0.5084624886512756,
+        "candidate_title": "1193430 Ontario Inc. v. Boa-Franc Inc."
+      }
+    ]
+  },
+  "Josvanger v. Folk": {
+    "uri": "https://canlii.ca/t/1m5z7",
+    "score": 0.8387014865875244,
+    "candidate_id": "2005skca138",
+    "candidate_title": "Josvanger v. Folk",
+    "query_text": "decision | <i>Josvanger v. Folk</i> | 2005 SKCA 138 | 275 Sask. R. 101",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1m5z7",
+        "score": 0.8387014865875244,
+        "candidate_title": "Josvanger v. Folk"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/2018/2018skqb17/2018skqb17.html",
+        "score": 0.5481461882591248,
+        "candidate_title": "J.E.S. v J.G.B."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2019/2019skca52/2019skca52.html",
+        "score": 0.5397893190383911,
+        "candidate_title": "Johannson v Saskatchewan Government Insurance"
+      }
+    ]
+  },
+  "Reference re the Debt Adjustment Act, 1937 (Alta.)": {
+    "uri": "https://canlii.ca/t/gwbh2",
+    "score": 0.799476683139801,
+    "candidate_id": "1943ukpc1000002",
+    "candidate_title": "Reference Re the Debt Adjuistment Act, 1937 (Alberta). Attorney-General for Alberta v. Attorney-General for Canada et al.",
+    "query_text": "decision | Reference re the Debt Adjustment\nAct, 1937 (Alb.) | [1943] 2 D.L.R. 1 (P.C.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gwbh2",
+        "score": 0.799476683139801,
+        "candidate_title": "Reference Re the Debt Adjuistment Act, 1937 (Alberta). Attorney-General for Alberta v. Attorney-General for Canada et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/gb1v7",
+        "score": 0.5711496472358704,
+        "candidate_title": "Alberta (Attorney General) v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsk9",
+        "score": 0.5442176461219788,
+        "candidate_title": "Reference Re Canada Assistance Plan (B.C.)"
+      }
+    ]
+  },
+  "Re Hamar (1921)": {
+    "uri": "https://canlii.ca/t/g8mdq",
+    "score": 0.7049271464347839,
+    "candidate_id": "1921skkb19181000139",
+    "candidate_title": "Hamar, Re; Ex parte McGuinty & Co.",
+    "query_text": "decision | <i>Re\nHamar</i> (1921) | 63 D.L.R. 241 (Sask. K.B.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g8mdq",
+        "score": 0.7049271464347839,
+        "candidate_title": "Hamar, Re; Ex parte McGuinty & Co."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/1931/1931canlii211/1931canlii211.html",
+        "score": 0.5555237531661987,
+        "candidate_title": "Hayes, In re"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2016/2016abqb440/2016abqb440.html",
+        "score": 0.5504546761512756,
+        "candidate_title": "Hamm v Attorney General of Canada (Edmonton Institution)"
+      }
+    ]
+  },
+  "Ex parte Dewdney; Ex parte Seaman (1808)": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/1880/1880canlii1/1880canlii1.html",
+    "score": 0.4828479290008545,
+    "candidate_id": "1880csc-scc10000",
+    "candidate_title": "McConaghy v. Denmark",
+    "query_text": "decision | <i>Ex parte Dewdney; Ex parte Seaman</i>\n(1808) | 15 Ves. Jun. 479 | 33 E.R. 836",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1880/1880canlii1/1880canlii1.html",
+        "score": 0.4828479290008545,
+        "candidate_title": "McConaghy v. Denmark"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1906/1906canlii80/1906canlii80.html",
+        "score": 0.4793776273727417,
+        "candidate_title": "The Ship \"North\" v. The King"
+      },
+      {
+        "uri": "https://canlii.ca/t/1tvnt",
+        "score": 0.4771715998649597,
+        "candidate_title": "Dupont et al. v. Inglis et al."
+      }
+    ]
+  },
+  "Ex parte Roffey (1815)": {
+    "uri": "https://canlii.ca/t/1ftsl",
+    "score": 0.45765480399131775,
+    "candidate_id": "1986csc-scc50",
+    "candidate_title": "Central Trust Co. v. Rafuse",
+    "query_text": "decision | <i>Ex parte Roffey</i> (1815) | 2 Rose\n245",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftsl",
+        "score": 0.45765480399131775,
+        "candidate_title": "Central Trust Co. v. Rafuse"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1947/1947canlii71/1947canlii71.html",
+        "score": 0.4567989408969879,
+        "candidate_title": "Re Lofsky; Ex parte Lofsky"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2015/2015onca173/2015onca173.html",
+        "score": 0.456362247467041,
+        "candidate_title": "H.B. Fuller Company v. Rogers (Rogers Law Office)"
+      }
+    ]
+  },
+  "Farm Credit Corp. v. Holowach (Trustee of)": {
+    "uri": "https://canlii.ca/t/1nnxp",
+    "score": 0.8103941679000854,
+    "candidate_id": "1988abca216",
+    "candidate_title": "Farm Credit Corporation v. Dunwoody Limited",
+    "query_text": "decision | Farm Credit Corp. v. Holowach (Trustee of) | (1988), 51 D.L.R. (4th)\n501 (Alta. C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1nnxp",
+        "score": 0.8103941679000854,
+        "candidate_title": "Farm Credit Corporation v. Dunwoody Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1998/1998abca189/1998abca189.html",
+        "score": 0.5676791071891785,
+        "candidate_title": "Agriculture Financial Services Corporation v. Redmond"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2014/2014nbca34/2014nbca34.html",
+        "score": 0.5372560024261475,
+        "candidate_title": "Bossé v. Farm Credit Canada"
+      }
+    ]
+  },
+  "Re Morton (1922)": {
+    "uri": "https://canlii.ca/t/g76jc",
+    "score": 0.7201276421546936,
+    "candidate_id": "1922skkb19181000030",
+    "candidate_title": "Morton, In re ;Morton, Bartling and Company Limited, Ex Parte",
+    "query_text": "decision | <i>Re Morton</i> | (1922), 66 D.L.R. 378 (Sask. K.B.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g76jc",
+        "score": 0.7201276421546936,
+        "candidate_title": "Morton, In re ;Morton, Bartling and Company Limited, Ex Parte"
+      },
+      {
+        "uri": "https://canlii.ca/t/g8mdq",
+        "score": 0.5393155813217163,
+        "candidate_title": "Hamar, Re; Ex parte McGuinty & Co."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/2012/2012skqb236/2012skqb236.html",
+        "score": 0.5349147915840149,
+        "candidate_title": "MFI AG Services Ltd v Sotkowy"
+      }
+    ]
+  },
+  "Kamloops (City) v. Nielsen": {
+    "uri": "https://canlii.ca/t/1lpfd",
+    "score": 0.8087075352668762,
+    "candidate_id": "1984csc-scc10005",
+    "candidate_title": "Kamloops v. Nielsen",
+    "query_text": "decision | <i>Kamloops (City) v. Nielsen</i> | <i>Kamloops (City of) v. Nielsen</i> | [1984] 2 S.C.R. 2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpfd",
+        "score": 0.8087075352668762,
+        "candidate_title": "Kamloops v. Nielsen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/1987/1987canlii2801/1987canlii2801.html",
+        "score": 0.5835940837860107,
+        "candidate_title": "Nielsen v. Soc. of Notaries Pub. of B.C."
+      },
+      {
+        "uri": "https://canlii.ca/t/1j5fr",
+        "score": 0.5582400560379028,
+        "candidate_title": "Pacific National Investments Ltd. v. Victoria (City)"
+      }
+    ]
+  },
+  "Central Trust Co. v. Rafuse": {
+    "uri": "https://canlii.ca/t/1ftsl",
+    "score": 0.8390696048736572,
+    "candidate_id": "1986csc-scc50",
+    "candidate_title": "Central Trust Co. v. Rafuse",
+    "query_text": "decision | Central Trustco v. Rafuse | <i>Central Trust Co. v. Rafuse</i> | [1986] 2 S.C.R. 147 | [1986] 2 S.C.R.\n147",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftsl",
+        "score": 0.8390696048736572,
+        "candidate_title": "Central Trust Co. v. Rafuse"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsv3",
+        "score": 0.5749089121818542,
+        "candidate_title": "National Trust Co. v. Mead"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1986/1986canlii34/1986canlii34.html",
+        "score": 0.5662021636962891,
+        "candidate_title": "Royal Trust v. Potash"
+      }
+    ]
+  },
+  "Placzek v. Green": {
+    "uri": "https://canlii.ca/t/228tn",
+    "score": 0.794047474861145,
+    "candidate_id": "2009onca83",
+    "candidate_title": "Placzek v. Green",
+    "query_text": "decision | <i>Placzek v. Green</i> | 2009 ONCA 83 | 307\nD.L.R. (4th) 441",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/228tn",
+        "score": 0.794047474861145,
+        "candidate_title": "Placzek v. Green"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2023/2023onsc6701/2023onsc6701.html",
+        "score": 0.5393450260162354,
+        "candidate_title": "Bell v. Placidi"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2019/2019onca682/2019onca682.html",
+        "score": 0.5329232215881348,
+        "candidate_title": "Hearn v. McLeod Estate"
+      }
+    ]
+  },
+  "Pusch v. Freshair Enterprises Ltd.": {
+    "uri": "https://canlii.ca/t/1rrg2",
+    "score": 0.8102797865867615,
+    "candidate_id": "2007skca60",
+    "candidate_title": "Freshair Enterprises Ltd. v. Pusch",
+    "query_text": "decision | Pusch\nv. Freshair Enterprises Ltd. | 2007 SKCA 60 | [2007] 11 W.W.R. 1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1rrg2",
+        "score": 0.8102797865867615,
+        "candidate_title": "Freshair Enterprises Ltd. v. Pusch"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skkb/doc/2023/2023skkb241/2023skkb241.html",
+        "score": 0.5507965087890625,
+        "candidate_title": "Ketch v Meadow Lake Mechanical Pulp Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzl",
+        "score": 0.5428556203842163,
+        "candidate_title": "Pasiechnyk v. Saskatchewan (Workers’ Compensation Board)"
+      }
+    ]
+  },
+  "Stomp Pork Farm Ltd. v. Lombard General Insurance Co. of Canada": {
+    "uri": "https://canlii.ca/t/215c0",
+    "score": 0.8665483593940735,
+    "candidate_id": "2008skqb405",
+    "candidate_title": "Stomp Pork Farm Ltd. v. Lombard General Insurance Company of Canada",
+    "query_text": "decision | Stomp\nPork Farm Ltd. v. Lombard General Insurance Co. of Canada | 2008 SKQB 405 | [2009] 4 W.W.R. 483",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/215c0",
+        "score": 0.8665483593940735,
+        "candidate_title": "Stomp Pork Farm Ltd. v. Lombard General Insurance Company of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2002/2002canlii45070/2002canlii45070.html",
+        "score": 0.5934345126152039,
+        "candidate_title": "Ferme Gérald Laplante & Fils Ltée. v. Grenville Patron Mutual Fire Insurance Co."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/2008/2008skqb346/2008skqb346.html",
+        "score": 0.562238872051239,
+        "candidate_title": "Lancer Enterprises Ltd. v. Saskatchewan Government Insurance (SGI Canada)"
+      }
+    ]
+  },
+  "Companies": {
+    "uri": "https://canlii.ca/t/56fc5",
+    "score": 0.8105857372283936,
+    "candidate_id": "l12787!12787-current-1",
+    "candidate_title": "Companies' Creditors Arrangement Act",
+    "query_text": "legislation | <i>COMPANIES’ CREDITORS ARRANGEMENT ACT</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56fc5",
+        "score": 0.8105857372283936,
+        "candidate_title": "Companies' Creditors Arrangement Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/562sb",
+        "score": 0.6154557466506958,
+        "candidate_title": "Winding-up and Restructuring Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56q4x",
+        "score": 0.5861191749572754,
+        "candidate_title": "Bankruptcy and Insolvency Act"
+      }
+    ]
+  },
+  "Companies’ Creditors Arrangement Act": {
+    "uri": "https://canlii.ca/t/56fc5",
+    "score": 0.7930871248245239,
+    "candidate_id": "l12787!12787-current-1",
+    "candidate_title": "Companies' Creditors Arrangement Act",
+    "query_text": "legislation | <i>Companies’ Creditors Arrangement Act</i> (Canada) | <i>CCAA</i> | CCAA | Act | R.S.C. 1985, c. C‑36",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56fc5",
+        "score": 0.7930871248245239,
+        "candidate_title": "Companies' Creditors Arrangement Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/562sb",
+        "score": 0.6472369432449341,
+        "candidate_title": "Winding-up and Restructuring Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56q4x",
+        "score": 0.6333024501800537,
+        "candidate_title": "Bankruptcy and Insolvency Act"
+      }
+    ]
+  },
+  "Claims Process Order": {
+    "uri": "https://canlii.ca/t/55j57",
+    "score": 0.5112136006355286,
+    "candidate_id": "l48522!48522-current-1",
+    "candidate_title": "Tribunal Small Claims Regulation",
+    "query_text": "legislation | Claims Process Order | Claims\nProcess",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55j57",
+        "score": 0.5112136006355286,
+        "candidate_title": "Tribunal Small Claims Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/53jbd",
+        "score": 0.5031532049179077,
+        "candidate_title": "Small Claims Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/stat/so-1992-c-6/latest/so-1992-c-6.html",
+        "score": 0.5027127265930176,
+        "candidate_title": "Class Proceedings Act, 1992"
+      }
+    ]
+  },
+  "The Limitations Act (Saskatchewan)": {
+    "uri": "https://canlii.ca/t/h69r",
+    "score": 0.747338056564331,
+    "candidate_id": "l4747!4747-current-1",
+    "candidate_title": "The Limitations Act",
+    "query_text": "legislation | <i>The\nLimitations Act</i> | The Limitations Act | Act | The\nLimitations Act | Limitations Act | Statute of Limitations | <i>The Limitations Act</i> | Discovery of claim | new Act | S.S. 2004, c. L‑16.1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h69r",
+        "score": 0.747338056564331,
+        "candidate_title": "The Limitations Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/hstat/rsa-1980-c-l-15/latest/rsa-1980-c-l-15.html",
+        "score": 0.6676276326179504,
+        "candidate_title": "Limitation of Actions Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/stat/so-2002-c-24-sch-b/latest/so-2002-c-24-sch-b.html",
+        "score": 0.6317070126533508,
+        "candidate_title": "Limitations Act, 2002"
+      }
+    ]
+  },
+  "Bankruptcy and Insolvency Act": {
+    "uri": "https://canlii.ca/t/56q4x",
+    "score": 0.7586629390716553,
+    "candidate_id": "l12759!12759-current-1",
+    "candidate_title": "Bankruptcy and Insolvency Act",
+    "query_text": "legislation | <i>Bankruptcy and Insolvency Act</i> | <i>BIA</i> | BIA | <i>Bankruptcy\nand Insolvency Act</i> | R.S.C. 1985, c. B‑3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56q4x",
+        "score": 0.7586629390716553,
+        "candidate_title": "Bankruptcy and Insolvency Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/562sb",
+        "score": 0.6346687078475952,
+        "candidate_title": "Winding-up and Restructuring Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fc5",
+        "score": 0.6168876886367798,
+        "candidate_title": "Companies' Creditors Arrangement Act"
+      }
+    ]
+  },
+  "English Bankruptcy Acts": {
+    "uri": "https://canlii.ca/t/56q4x",
+    "score": 0.6776468753814697,
+    "candidate_id": "l12759!12759-current-1",
+    "candidate_title": "Bankruptcy and Insolvency Act",
+    "query_text": "legislation | <i>Bankruptcy Acts</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56q4x",
+        "score": 0.6776468753814697,
+        "candidate_title": "Bankruptcy and Insolvency Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/562sb",
+        "score": 0.5899503231048584,
+        "candidate_title": "Winding-up and Restructuring Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fc5",
+        "score": 0.5787815451622009,
+        "candidate_title": "Companies' Creditors Arrangement Act"
+      }
+    ]
+  },
+  "Wigmore on Evidence": {
+    "uri": "https://canlii.ca/t/56cjm",
+    "score": 0.46310412883758545,
+    "candidate_id": "l12795!12795-current-1",
+    "candidate_title": "Canada Evidence Act",
+    "query_text": "secondary sources | Wigmore on Evidence | Wigmore\non Evidence",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56cjm",
+        "score": 0.46310412883758545,
+        "candidate_title": "Canada Evidence Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/laws/stat/ccsm-c-e150/latest/ccsm-c-e150.html",
+        "score": 0.4621519446372986,
+        "candidate_title": "The Manitoba Evidence Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/smmg",
+        "score": 0.40570035576820374,
+        "candidate_title": "Discovery of Civil Litigation Trial Preparation in Canada"
+      }
+    ]
+  },
+  "Halsbury": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/2004/2004scc13/2004scc13.html",
+    "score": 0.46262747049331665,
+    "candidate_id": "2004csc-scc13",
+    "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada",
+    "query_text": "secondary sources",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2004/2004scc13/2004scc13.html",
+        "score": 0.46262747049331665,
+        "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqp9",
+        "score": 0.44277411699295044,
+        "candidate_title": "Smith v. Jones"
+      },
+      {
+        "uri": "https://canlii.ca/t/g2s18",
+        "score": 0.4350823163986206,
+        "candidate_title": "Hryniak v. Mauldin"
+      }
+    ]
+  }
+}

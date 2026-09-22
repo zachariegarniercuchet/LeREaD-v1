@@ -1,0 +1,50 @@
+{
+  "MiningLawsDecision": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.574608564376831,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.574608564376831,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5722153186798096,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.5631693601608276,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Cadillac": {
+    "uri": "https://www.canlii.org/en/ab/abqb/doc/1988/1988canlii3874/1988canlii3874.html",
+    "score": 0.5715686678886414,
+    "candidate_id": "1988abqb1000247",
+    "candidate_title": "Cadillac Fairview Corp. v. Great Pretenders Sparkle Tree",
+    "query_text": "decision | Cadillac",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/1988/1988canlii3874/1988canlii3874.html",
+        "score": 0.5715686678886414,
+        "candidate_title": "Cadillac Fairview Corp. v. Great Pretenders Sparkle Tree"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2021/2021onsc4138/2021onsc4138.html",
+        "score": 0.545930802822113,
+        "candidate_title": "Carter v. Ford Motor Company of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2017/2017onca545/2017onca545.html",
+        "score": 0.5329247713088989,
+        "candidate_title": "Trillium Motor World Ltd. v. General Motors of Canada Limited"
+      }
+    ]
+  }
+}

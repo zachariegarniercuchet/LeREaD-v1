@@ -1,0 +1,50 @@
+{
+  "McLaughlin v Halifax-Dartmouth Bridge Commission": {
+    "uri": "https://canlii.ca/t/1mqwz",
+    "score": 0.7790689468383789,
+    "candidate_id": "1993nsca10024",
+    "candidate_title": "McLaughlin v. Halifax-Dartmouth Bridge Commission",
+    "query_text": "decision | <i>McLaughlin v.\nHalifax‑Dartmouth Bridge Commission </i> | 125 N.S.R. (2d) 288",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mqwz",
+        "score": 0.7790689468383789,
+        "candidate_title": "McLaughlin v. Halifax-Dartmouth Bridge Commission"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/2010/2010nssc168/2010nssc168.html",
+        "score": 0.5289226174354553,
+        "candidate_title": "Mawdsley v. McCarthy's Towing and Recovery Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1txg3",
+        "score": 0.5217104554176331,
+        "candidate_title": "Carman Construction Ltd. v. Canadian Pacific Railway Co."
+      }
+    ]
+  },
+  "Freedom of Information and Protection of Privacy Act NS": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.646382749080658,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.646382749080658,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6363587975502014,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6179416179656982,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  }
+}

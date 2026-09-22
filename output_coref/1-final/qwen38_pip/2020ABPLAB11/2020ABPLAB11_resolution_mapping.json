@@ -1,0 +1,314 @@
+{
+  "Public Lands Act": {
+    "uri": "https://canlii.ca/t/56fdf",
+    "score": 0.7878260016441345,
+    "candidate_id": "l17935!17935-current-1",
+    "candidate_title": "Public Lands Act",
+    "query_text": "legislation | Public Lands Act | Act | R.S.A. 2000,\nc. P-40 | R.S.A. 2000, c. P-40",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56fdf",
+        "score": 0.7878260016441345,
+        "candidate_title": "Public Lands Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jpq",
+        "score": 0.6187467575073242,
+        "candidate_title": "Public Lands Administration Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/stat/ss-1986-c-p-1.1/latest/ss-1986-c-p-1.1.html",
+        "score": 0.5917478799819946,
+        "candidate_title": "Parks Act"
+      }
+    ]
+  },
+  "Public Lands Administration Regulation": {
+    "uri": "https://canlii.ca/t/56jpq",
+    "score": 0.7955561876296997,
+    "candidate_id": "l35592!35592-current-1",
+    "candidate_title": "Public Lands Administration Regulation",
+    "query_text": "legislation | Public Lands Administration\nRegulation | Public Lands Administration Regulation | PLAR | Alta. Reg. 187/2011 | Alta.Reg. 187/2011",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56jpq",
+        "score": 0.7955561876296997,
+        "candidate_title": "Public Lands Administration Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fdf",
+        "score": 0.6559290289878845,
+        "candidate_title": "Public Lands Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/stat/ss-1986-c-p-1.1/latest/ss-1986-c-p-1.1.html",
+        "score": 0.5620421171188354,
+        "candidate_title": "Parks Act"
+      }
+    ]
+  },
+  "Freedom of Information and Protection of Privacy Act": {
+    "uri": "https://canlii.ca/t/56flk",
+    "score": 0.791862428188324,
+    "candidate_id": "l17855!17855-current-1",
+    "candidate_title": "Freedom of Information and Protection of Privacy Act",
+    "query_text": "legislation | <i>Freedom of Information and Protection of Privacy\nAct</i> | Freedom of Information and Protection of\nPrivacy Act | FOIP | R.S.A. 2000, c. F-25",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56flk",
+        "score": 0.791862428188324,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pvb",
+        "score": 0.7249163389205933,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w78",
+        "score": 0.7056980133056641,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      }
+    ]
+  },
+  "JH Drilling Inc. v. Director, Regional Compliance, Peace Region, Alberta Environment and Parks": {
+    "uri": "https://canlii.ca/t/j8x8b",
+    "score": 0.8558498620986938,
+    "candidate_id": "2020abplab11",
+    "candidate_title": "JH Drilling Inc. v. Director, Regional Compliance, Peace Region, Alberta Environment and Parks",
+    "query_text": "decision | <i><span style=\"layout-grid-mode:both\">JH Drilling Inc. </span></i><span style=\"layout-grid-mode:both\">v. </span><i>Director, Regional\nCompliance, Peace Region, Alberta Environment and Parks</i> (24 July 2020) | Appeal No. 19-0247-ID1 (A.P.L.A.B.) | 2020 ABPLAB 11",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j8x8b",
+        "score": 0.8558498620986938,
+        "candidate_title": "JH Drilling Inc. v. Director, Regional Compliance, Peace Region, Alberta Environment and Parks"
+      },
+      {
+        "uri": "https://canlii.ca/t/j8x7w",
+        "score": 0.6689551472663879,
+        "candidate_title": "Colette Benson and CRC Open Camp and Catering Ltd. v. Director, Regional Compliance, Lower Athabasca Region, Alberta Environment and Parks"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abplab/doc/2018/2018canlii144877/2018canlii144877.html",
+        "score": 0.6615984439849854,
+        "candidate_title": "Gionet et al. v. Director, Lower Athabasca Region, Alberta Environment and Parks"
+      }
+    ]
+  },
+  "Litchfield v. College of Physicians & Surgeons (Alberta)": {
+    "uri": "https://canlii.ca/t/1m7r2",
+    "score": 0.8421208262443542,
+    "candidate_id": "2005abqb962",
+    "candidate_title": "Litchfield v. College of Physicians and Surgeons of Alberta",
+    "query_text": "decision | <i>Litchfield</i> v. <i>College of Physicians &amp;\nSurgeons (Alberta)</i> | Litchfield | <i>Litchfield\nv. College of Physicians &amp; Surgeons (Alberta)</i> | 2005 ABQB 962",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1m7r2",
+        "score": 0.8421208262443542,
+        "candidate_title": "Litchfield v. College of Physicians and Surgeons of Alberta"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2018/2018abqb539/2018abqb539.html",
+        "score": 0.7185754776000977,
+        "candidate_title": "Alfahem v College of Physicians & Surgeons of Alberta"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/1984/1984canlii1159/1984canlii1159.html",
+        "score": 0.6912789344787598,
+        "candidate_title": "Reich v. Alberta College of Physicians and Surgeons"
+      }
+    ]
+  },
+  "Colette Benson and CRC Open Camp and Catering Ltd. v. Director, Regional Compliance, Lower Athabasca Region, Alberta Environment and Parks": {
+    "uri": "https://canlii.ca/t/j8x7w",
+    "score": 0.8228769302368164,
+    "candidate_id": "2019abplab25",
+    "candidate_title": "Colette Benson and CRC Open Camp and Catering Ltd. v. Director, Regional Compliance, Lower Athabasca Region, Alberta Environment and Parks",
+    "query_text": "decision | Reconsideration Decision: <i>Colette Benson\nand CRC Open Camp and Catering Ltd.</i> v. <i>Director, Regional Compliance,\nLower Athabasca Region, Alberta Environment and Parks</i> (20 December 2019) | Reconsideration Decision: <i>Colette Benson and CRC Open Camp and\nCatering Ltd.</i> v. <i>Director, Regional Compliance, Lower Athabasca Region,\nAlberta Environment and Parks</i> (20 December 2019) | Appeal No. 18-0015-RD (A.P.L.A.B.) | 2019 ABPLAB 25 | Appeal No. 18-0015-RD\n(A.P.L.A.B.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j8x7w",
+        "score": 0.8228769302368164,
+        "candidate_title": "Colette Benson and CRC Open Camp and Catering Ltd. v. Director, Regional Compliance, Lower Athabasca Region, Alberta Environment and Parks"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abplab/doc/2018/2018canlii144877/2018canlii144877.html",
+        "score": 0.6447030901908875,
+        "candidate_title": "Gionet et al. v. Director, Lower Athabasca Region, Alberta Environment and Parks"
+      },
+      {
+        "uri": "https://canlii.ca/t/j8x8b",
+        "score": 0.6147277355194092,
+        "candidate_title": "JH Drilling Inc. v. Director, Regional Compliance, Peace Region, Alberta Environment and Parks"
+      }
+    ]
+  },
+  "Board’s Letter, May 27, 2020": {
+    "uri": "https://www.canlii.org/en/ab/abwcac/doc/2021/2021canlii9250/2021canlii9250.html",
+    "score": 0.519180417060852,
+    "candidate_id": "2021abwcac1000052",
+    "candidate_title": "Decision No.: 2020-0555",
+    "query_text": "decision | Board’s\nLetter, May 27, 2020",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ab/abwcac/doc/2021/2021canlii9250/2021canlii9250.html",
+        "score": 0.519180417060852,
+        "candidate_title": "Decision No.: 2020-0555"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/irb/doc/2020/2020canlii93765/2020canlii93765.html",
+        "score": 0.5147144794464111,
+        "candidate_title": "X (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2025/2025bcsc376/2025bcsc376.html",
+        "score": 0.5079776048660278,
+        "candidate_title": "Pickering v Workers’ Compensation Board"
+      }
+    ]
+  },
+  "B.C. Ltd., Re": {
+    "uri": "https://www.canlii.org/en/bc/bcsc/doc/2017/2017bcsc303/2017bcsc303.html",
+    "score": 0.6276941299438477,
+    "candidate_id": "2017bcsc303",
+    "candidate_title": "8640025 Canada Inc. (Re)",
+    "query_text": "decision | <i>B.C. Ltd., Re</i> | 2016 CarswellBC 2711",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2017/2017bcsc303/2017bcsc303.html",
+        "score": 0.6276941299438477,
+        "candidate_title": "8640025 Canada Inc. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2018/2018bcca38/2018bcca38.html",
+        "score": 0.6195501089096069,
+        "candidate_title": "667895 B.C. Ltd. v. Delta (Corporation)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2020/2020bcca70/2020bcca70.html",
+        "score": 0.6141380667686462,
+        "candidate_title": "Forjay Management Ltd. v. 625536 B.C. Ltd."
+      }
+    ]
+  },
+  "Baker v. Canada (Minister of Citizenship and Immigration)": {
+    "uri": "https://canlii.ca/t/1fqlk",
+    "score": 0.8515254855155945,
+    "candidate_id": "1999csc-scc41",
+    "candidate_title": "Baker v. Canada (Minister of Citizenship and Immigration)",
+    "query_text": "decision | <i>Baker</i> v. <i>Canada (Minister of Citizenship and\nImmigration)</i> | <i>Baker\nv. Canada (Minister of Citizenship and Immigration)</i> | [1999] 2 S.C.R. 817",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqlk",
+        "score": 0.8515254855155945,
+        "candidate_title": "Baker v. Canada (Minister of Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqlj",
+        "score": 0.8217248916625977,
+        "candidate_title": "Baker c. Canada (Ministre de la Citoyenneté et de l'Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/51wf",
+        "score": 0.6852908134460449,
+        "candidate_title": "Suresh v. Canada (Minister of Citizenship and Immigration)"
+      }
+    ]
+  },
+  "London (City) and CUPE, Local 101 (Idzkowski), Re": {
+    "uri": "https://www.canlii.org/en/on/onla/doc/2002/2002canlii78933/2002canlii78933.html",
+    "score": 0.5771573781967163,
+    "candidate_id": "2002onla1000054",
+    "candidate_title": "Toronto (City) and C.U.P.E., Loc. 79 (Wilson) (Re)",
+    "query_text": "decision | <i>London\n(City) and CUPE, Local 101 (Idzkowski), Re</i> | [2017] O.L.A.A. No. 150",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onla/doc/2002/2002canlii78933/2002canlii78933.html",
+        "score": 0.5771573781967163,
+        "candidate_title": "Toronto (City) and C.U.P.E., Loc. 79 (Wilson) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/dlx",
+        "score": 0.5711307525634766,
+        "candidate_title": "Toronto (City) v. C.U.P.E., Local 79"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2006/2006canlii8711/2006canlii8711.html",
+        "score": 0.540778636932373,
+        "candidate_title": "National Automobile, Aerospace Trans-portation and General Workers Union of Canada (C.A.W. - Canada) Local No. 27 v. London Machinery Inc."
+      }
+    ]
+  },
+  "Knight v. Indian Head School Division, No. 19": {
+    "uri": "https://canlii.ca/t/1fszg",
+    "score": 0.8413451910018921,
+    "candidate_id": "1990csc-scc27",
+    "candidate_title": "Knight v. Indian Head School Division No. 19",
+    "query_text": "decision | <i>Knight\n</i>v<i>. Indian Head School Division, No. 19</i> | [1990] 1 S.C.R. 653",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fszg",
+        "score": 0.8413451910018921,
+        "candidate_title": "Knight v. Indian Head School Division No. 19"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftzq",
+        "score": 0.552328884601593,
+        "candidate_title": "Winnipeg School Division No. 1 v. Craton"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1978/1978canlii12/1978canlii12.html",
+        "score": 0.5517375469207764,
+        "candidate_title": "Thornton v. School Dist. No. 57 (Prince George) et al."
+      }
+    ]
+  },
+  "Administrative Law in Canada": {
+    "uri": "https://canlii.ca/t/7n0vt",
+    "score": 0.5139248967170715,
+    "candidate_id": "d210805!d210805",
+    "candidate_title": "Annual Survey of Canadian Law – Administrative Law",
+    "query_text": "secondary sources | Administrative Law in Canada | Sara, Blake | Sara\nBlake",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/7n0vt",
+        "score": 0.5139248967170715,
+        "candidate_title": "Annual Survey of Canadian Law – Administrative Law"
+      },
+      {
+        "uri": "https://canlii.ca/t/29q2",
+        "score": 0.5007251501083374,
+        "candidate_title": "Struggling Towards Coherence in Canadian Administrative Law? Recent Cases on Standard of Review and Reasonableness"
+      },
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2016CanLIIDocs275",
+        "score": 0.5007100701332092,
+        "candidate_title": "The Signal and the Noise in Administrative Law"
+      }
+    ]
+  },
+  "Principles of Administrative Law": {
+    "uri": "https://www.canlii.org/en/commentary/doc/1984CanLIIDocs4",
+    "score": 0.5100417137145996,
+    "candidate_id": "d5345!d5345",
+    "candidate_title": "Judicial Review of Administrative Action: Application for Judicial Review",
+    "query_text": "secondary sources | Principles of Administrative Law | Principles of\nAdministrative Law | Phillip Jones, Q.C., and Anne S. de Villars, Q.C. | David\nPhillip Jones, Q.C., and Anne S. de Villars, Q.C.",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/1984CanLIIDocs4",
+        "score": 0.5100417137145996,
+        "candidate_title": "Judicial Review of Administrative Action: Application for Judicial Review"
+      },
+      {
+        "uri": "https://canlii.ca/t/29q2",
+        "score": 0.5090171694755554,
+        "candidate_title": "Struggling Towards Coherence in Canadian Administrative Law? Recent Cases on Standard of Review and Reasonableness"
+      },
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2025CanLIIDocs2593",
+        "score": 0.5024195313453674,
+        "candidate_title": "The Scope and Meaning of Reasonableness Review After Vavilov"
+      }
+    ]
+  }
+}

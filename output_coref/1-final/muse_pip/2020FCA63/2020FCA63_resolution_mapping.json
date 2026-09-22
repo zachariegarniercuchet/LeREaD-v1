@@ -1,0 +1,578 @@
+{
+  "Treaty 6": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.6463651657104492,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.6463651657104492,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6361972093582153,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6175463199615479,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "Pension Benefits Standards Act, 1985": {
+    "uri": "https://canlii.ca/t/5697p",
+    "score": 0.8173716068267822,
+    "candidate_id": "l12730!12730-current-1",
+    "candidate_title": "Pension Benefits Standards Act, 1985",
+    "query_text": "legislation | Pension Benefits Standards Act, 1985 | Pension Benefits Standards\nAct, 1985 | Pension\nBenefits Standards Act, 1985 | Pension Benefits Standards Act | R.S.C., 1985 (2nd\nSupp.), c. 32 | 1985",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5697p",
+        "score": 0.8173716068267822,
+        "candidate_title": "Pension Benefits Standards Act, 1985"
+      },
+      {
+        "uri": "https://canlii.ca/t/56bn8",
+        "score": 0.7274160385131836,
+        "candidate_title": "Pension Benefits Act, 1992"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/laws/stat/snb-1987-c-p-5.1/latest/snb-1987-c-p-5.1.html",
+        "score": 0.6609362959861755,
+        "candidate_title": "Pension Benefits Act"
+      }
+    ]
+  },
+  "Treaties": {
+    "uri": "https://canlii.ca/t/56c77",
+    "score": 0.5819756984710693,
+    "candidate_id": "l12741!12741-current-1",
+    "candidate_title": "Canadian International Trade Tribunal Act",
+    "query_text": "legislation | Treaties",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 0.5819756984710693,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.5529213547706604,
+        "candidate_title": "The Constitution Act, 1867"
+      },
+      {
+        "uri": "https://canlii.ca/t/53406",
+        "score": 0.5491538047790527,
+        "candidate_title": "Foreign Missions and International Organizations Act"
+      }
+    ]
+  },
+  "Constitution Act, 1982": {
+    "uri": "https://canlii.ca/t/ldsx",
+    "score": 0.7189803123474121,
+    "candidate_id": "l36028!36028-current-1",
+    "candidate_title": "The Constitution Act, 1982",
+    "query_text": "legislation | Constitution Act, 1982 | Constitution\nAct, 1982",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 0.7189803123474121,
+        "candidate_title": "The Constitution Act, 1982"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.6531568765640259,
+        "candidate_title": "The Constitution Act, 1867"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fhd6",
+        "score": 0.601642370223999,
+        "candidate_title": "Loi constitutionnelle de 1867"
+      }
+    ]
+  },
+  "Constitution Act, 1867": {
+    "uri": "https://canlii.ca/t/56g8v",
+    "score": 0.6781061887741089,
+    "candidate_id": "l36027!36027-current-1",
+    "candidate_title": "The Constitution Act, 1867",
+    "query_text": "legislation | Constitution Act, 1867 | <i>Constitution Act, 1867</i> | <i>Canada Act 1982</i> | <i>Constitution Act, 1982</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.6781061887741089,
+        "candidate_title": "The Constitution Act, 1867"
+      },
+      {
+        "uri": "https://canlii.ca/t/ldsx",
+        "score": 0.6346642374992371,
+        "candidate_title": "The Constitution Act, 1982"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fhd6",
+        "score": 0.6152330636978149,
+        "candidate_title": "Loi constitutionnelle de 1867"
+      }
+    ]
+  },
+  "Pension Benefits Act, 1992": {
+    "uri": "https://canlii.ca/t/56bn8",
+    "score": 0.8502392768859863,
+    "candidate_id": "l5146!5146-current-1",
+    "candidate_title": "Pension Benefits Act, 1992",
+    "query_text": "legislation | Pension\nBenefits Act, 1992 | S.S. 1992, c. P-6.001",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56bn8",
+        "score": 0.8502392768859863,
+        "candidate_title": "Pension Benefits Act, 1992"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/laws/stat/snb-1987-c-p-5.1/latest/snb-1987-c-p-5.1.html",
+        "score": 0.6728031039237976,
+        "candidate_title": "Pension Benefits Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/5697p",
+        "score": 0.6634114980697632,
+        "candidate_title": "Pension Benefits Standards Act, 1985"
+      }
+    ]
+  },
+  "Federal Courts Rules": {
+    "uri": "https://canlii.ca/t/56nfx",
+    "score": 0.7526748180389404,
+    "candidate_id": "l16654!16654-current-1",
+    "candidate_title": "Federal Courts Rules",
+    "query_text": "legislation | Federal Courts Rules | SOR/98-106",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nfx",
+        "score": 0.7526748180389404,
+        "candidate_title": "Federal Courts Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56bzl",
+        "score": 0.6472245454788208,
+        "candidate_title": "Federal Courts Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.5957098007202148,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      }
+    ]
+  },
+  "NIL/TU,O Child and Family Services Society v. B.C. Government and Service Employees’ Union": {
+    "uri": "https://canlii.ca/t/2d60s",
+    "score": 0.882521390914917,
+    "candidate_id": "2010csc-scc45",
+    "candidate_title": "NIL/TU,O Child and Family Services Society v. B.C. Government and Service Employees' Union",
+    "query_text": "decision | NIL/TU,O Child and Family Services Society\nv. B.C. Government and Service Employees’ Union | NIL/TU, O | NIL/TU,\nO | NIL/TU,O | <i>NIL/TU,O Child and Family Services Society v. B.C. Government\nand Service Employees’ Union</i> | <i>NIL/TU,O</i> | <i>NIL/TU,O</i> decision | 2010 SCC 45 | [2010] 2 S.C.R. 696",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2d60s",
+        "score": 0.882521390914917,
+        "candidate_title": "NIL/TU,O Child and Family Services Society v. B.C. Government and Service Employees' Union"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcla/doc/2010/2010canlii86347/2010canlii86347.html",
+        "score": 0.6298062205314636,
+        "candidate_title": "BC Public Service Agency v. B.C. Government And Service Employees’ Union"
+      },
+      {
+        "uri": "https://canlii.ca/t/fpbh9",
+        "score": 0.6246665120124817,
+        "candidate_title": "Newfoundland and Labrador Nurses' Union v. Newfoundland and Labrador (Treasury Board)"
+      }
+    ]
+  },
+  "2018 FC 1180": {
+    "uri": "https://www.canlii.org/en/ca/fct/doc/2008/2008fc218/2008fc218.html",
+    "score": 0.6014283299446106,
+    "candidate_id": "2008fct218",
+    "candidate_title": "Telfer v. Canada (Canada Revenue Agency)",
+    "query_text": "decision | judgment dated November 28, 2018 of the Federal\nCourt in file T-1315-17 | 2018\nFC 1180 | [2019] 2\nF.C.R. 174 | 2018 FC 1180 | 47 Admin. L.R. (6th) 165",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2008/2008fc218/2008fc218.html",
+        "score": 0.6014283299446106,
+        "candidate_title": "Telfer v. Canada (Canada Revenue Agency)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2023/2023fc313/2023fc313.html",
+        "score": 0.5845996737480164,
+        "candidate_title": "Ossai v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2018/2018fc865/2018fc865.html",
+        "score": 0.5814912915229797,
+        "candidate_title": "Girouard v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Delios v. Canada (Attorney General)": {
+    "uri": "https://www.canlii.org/en/ca/fca/doc/2014/2014fca187/2014fca187.html",
+    "score": 0.6211743950843811,
+    "candidate_id": "2014fca187",
+    "candidate_title": "Atkinson v. Canada (Attorney General)",
+    "query_text": "decision | 2015 FCA\n117 | 472 N.R. 171 | 2015 FCA 150 | 474 N.R. 121 | 2016 FCA\n300 | [2017] 3\nF.C.R. 263",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2014/2014fca187/2014fca187.html",
+        "score": 0.6211743950843811,
+        "candidate_title": "Atkinson v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2012/2012fca45/2012fca45.html",
+        "score": 0.6192018389701843,
+        "candidate_title": "Campbell v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2015/2015fca281/2015fca281.html",
+        "score": 0.6102326512336731,
+        "candidate_title": "Collins v. Canada"
+      }
+    ]
+  },
+  "Agraira v. Canada (Public Safety and Emergency Preparedness)": {
+    "uri": "https://canlii.ca/t/fz8c4",
+    "score": 0.8418537378311157,
+    "candidate_id": "2013csc-scc36",
+    "candidate_title": "Agraira v. Canada (Public Safety and Emergency Preparedness)",
+    "query_text": "decision | Agraira v. Canada (Public Safety and Emergency Preparedness) | 2013 SCC 36 | [2013] 2 S.C.R. 559",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fz8c4",
+        "score": 0.8418537378311157,
+        "candidate_title": "Agraira v. Canada (Public Safety and Emergency Preparedness)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2023/2023fc737/2023fc737.html",
+        "score": 0.6721361875534058,
+        "candidate_title": "Paja v. Canada (Public Safety and Emergency Preparedness)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc1394/2022fc1394.html",
+        "score": 0.6396163702011108,
+        "candidate_title": "Massroua v. Canada (Public Safety and Emergency Preparedness)"
+      }
+    ]
+  },
+  "Syndicat des agents de sécurité Garda, Section CPI-CSN v. Garda Canada Security Corporation": {
+    "uri": "https://canlii.ca/t/fr7wt",
+    "score": 0.8821049928665161,
+    "candidate_id": "2011fca302",
+    "candidate_title": "Syndicat des agents de sécurité Garda, Section CPI-CSN v. Garda Canada Security Corporation",
+    "query_text": "decision | <i>Syndicat des agents de sécurité Garda, Section CPI-CSN\nv. Garda Canada Security Corporation</i> | 2011\nFCA 302 | 430 N.R. 84",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fr7wt",
+        "score": 0.8821049928665161,
+        "candidate_title": "Syndicat des agents de sécurité Garda, Section CPI-CSN v. Garda Canada Security Corporation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2023/2023fca104/2023fca104.html",
+        "score": 0.5516077280044556,
+        "candidate_title": "Perrin v. Canadian Union of Public Employees"
+      },
+      {
+        "uri": "https://canlii.ca/t/glhcf",
+        "score": 0.5481042265892029,
+        "candidate_title": "Nishnawbe-Aski Police Service Board v. Public Service Alliance of Canada"
+      }
+    ]
+  },
+  "Nishnawbe-Aski Police Service Board v. Public Service Alliance of Canada": {
+    "uri": "https://canlii.ca/t/glhcf",
+    "score": 0.8629387617111206,
+    "candidate_id": "2015fca211",
+    "candidate_title": "Nishnawbe-Aski Police Service Board v. Public Service Alliance of Canada",
+    "query_text": "decision | <i>Nishnawbe-Aski\nPolice Service Board v. Public Service Alliance of Canada</i> | Nishnawbe-Aski | 2015 FCA\n211 | [2016] 2\nF.C.R. 351",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/glhcf",
+        "score": 0.8629387617111206,
+        "candidate_title": "Nishnawbe-Aski Police Service Board v. Public Service Alliance of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2010/2010fca158/2010fca158.html",
+        "score": 0.6334811449050903,
+        "candidate_title": "Vancouver International Airport Authority v. Public Service Alliance of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1982/1982canlii195/1982canlii195.html",
+        "score": 0.6209291219711304,
+        "candidate_title": "Public Service Alliance of Canada v. Francis et al."
+      }
+    ]
+  },
+  "Telecon Inc. v. International Brotherhood of Electrical Workers, Local Union No. 213": {
+    "uri": "https://canlii.ca/t/j2nxr",
+    "score": 0.842458188533783,
+    "candidate_id": "2019fca244",
+    "candidate_title": "Telecon Inc. v. International Brotherhood of Electrical Workers (Local Union 213)",
+    "query_text": "decision | Telecon Inc. v.\nInternational Brotherhood of Electrical Workers, Local Union No. 213 | Telecon | 2019\nFCA 244 | 439 D.L.R. (4th) 558",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j2nxr",
+        "score": 0.842458188533783,
+        "candidate_title": "Telecon Inc. v. International Brotherhood of Electrical Workers (Local Union 213)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2005/2005fca262/2005fca262.html",
+        "score": 0.646781861782074,
+        "candidate_title": "Telus Communications Inc. v. Telecommunications Workers Union"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/1981/1981canlii2758/1981canlii2758.html",
+        "score": 0.6258557438850403,
+        "candidate_title": "Canadian Telecommunications Union v. Canadian Brotherhood of Transport & General Workers"
+      }
+    ]
+  },
+  "Canada (Minister of Citizenship and Immigration) v. Vavilov": {
+    "uri": "https://canlii.ca/t/j46kb",
+    "score": 0.8704039454460144,
+    "candidate_id": "2019csc-scc65",
+    "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov",
+    "query_text": "decision | Canada (Minister of\nCitizenship and Immigration) v. Vavilov | <i>Vavilov</i> | Vavilov | 2019 SCC 65 | 59 Admin. L.R. (6th) 1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j46kb",
+        "score": 0.8704039454460144,
+        "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov"
+      },
+      {
+        "uri": "https://canlii.ca/t/h4j13",
+        "score": 0.770621120929718,
+        "candidate_title": "Vavilov v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gkr9s",
+        "score": 0.7611780166625977,
+        "candidate_title": "Vavilov v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "Innu Matimekush-Lac John Nation Council v. Association of Employees of Northern Quebec (CSQ)": {
+    "uri": "https://canlii.ca/t/hvqd7",
+    "score": 0.8543642163276672,
+    "candidate_id": "2017fca212",
+    "candidate_title": "Conseil de la Nation Innu Matimekush-Lac John v. Association of Employees of Northern Quebec (CSQ)",
+    "query_text": "decision | Innu Matimekush-Lac\nJohn Nation Council v. Association of Employees of Northern Quebec (CSQ) | 2017 FCA 212",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hvqd7",
+        "score": 0.8543642163276672,
+        "candidate_title": "Conseil de la Nation Innu Matimekush-Lac John v. Association of Employees of Northern Quebec (CSQ)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/cirb/doc/2016/2016cirb843/2016cirb843.html",
+        "score": 0.7054008841514587,
+        "candidate_title": "Association of employees of Northern Quebec v Matimekush-Lac John Innu Nation Band Council,"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2014/2014fca271/2014fca271.html",
+        "score": 0.6343522071838379,
+        "candidate_title": "Innu Nation v. Pokue"
+      }
+    ]
+  },
+  "Northern Telecom Ltd. v. Communications Workers of Canada": {
+    "uri": "https://canlii.ca/t/1mjtb",
+    "score": 0.8299844264984131,
+    "candidate_id": "1979csc-scc10001",
+    "candidate_title": "Northern Telecom v. Communications Workers",
+    "query_text": "decision | <i>Northern Telecom v. Communications Workers</i> | <i>Northern\nTelecom</i> | [1980] 1 S.C.R. 115 | 98 D.L.R. (3d) 1.",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjtb",
+        "score": 0.8299844264984131,
+        "candidate_title": "Northern Telecom v. Communications Workers"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1983/1983canlii25/1983canlii25.html",
+        "score": 0.8202710151672363,
+        "candidate_title": "Northern Telecom v. Communication Workers"
+      },
+      {
+        "uri": "https://canlii.ca/t/1z6dr",
+        "score": 0.6329033374786377,
+        "candidate_title": "Tomko v. Labour Relations Board (N.S.) et al."
+      }
+    ]
+  },
+  "Construction Montcalm Inc. v. Minister of Labour (New Brunswick)": {
+    "uri": "https://canlii.ca/t/1mjtq",
+    "score": 0.5843926668167114,
+    "candidate_id": "1979csc-scc10007",
+    "candidate_title": "Solosky v. The Queen",
+    "query_text": "decision | [1979] 1 S.C.R. 754",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1mjtq",
+        "score": 0.5843926668167114,
+        "candidate_title": "Solosky v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftwc",
+        "score": 0.5655046105384827,
+        "candidate_title": "Dick v. La Reine"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1975/1975canlii8/1975canlii8.html",
+        "score": 0.5590919256210327,
+        "candidate_title": "Morgentaler v. The Queen"
+      }
+    ]
+  },
+  "Tessier Ltée v. Quebec (Commission de la santé et de la sécurité du travail)": {
+    "uri": "https://canlii.ca/t/frc5f",
+    "score": 0.8490085601806641,
+    "candidate_id": "2012csc-scc23",
+    "candidate_title": "Tessier Ltée v. Quebec (Commission de la santé et de la sécurité du travail)",
+    "query_text": "decision | <i>Tessier Ltée v. Quebec (Commission de la santé\net de la sécurité du travail)</i> | 2012 SCC 23 | [2012] 2 S.C.R. 3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/frc5f",
+        "score": 0.8490085601806641,
+        "candidate_title": "Tessier Ltée v. Quebec (Commission de la santé et de la sécurité du travail)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2022/2022scc35/2022scc35.html",
+        "score": 0.6847860217094421,
+        "candidate_title": "R. v. Tessier"
+      },
+      {
+        "uri": "https://canlii.ca/t/hs39j",
+        "score": 0.6463996767997742,
+        "candidate_title": "West Fraser Mills Ltd. v. British Columbia (Workers’ Compensation Appeal Tribunal)"
+      }
+    ]
+  },
+  "Consolidated Fastfrate Inc. v. Western Canada Council of Teamsters": {
+    "uri": "https://canlii.ca/t/26s7t",
+    "score": 0.8851820230484009,
+    "candidate_id": "2009csc-scc53",
+    "candidate_title": "Consolidated Fastfrate Inc. v. Western Canada Council of Teamsters",
+    "query_text": "decision | <i>Consolidated Fastfrate Inc. v. Western Canada Council of Teamsters</i> | 2009\nSCC 53 | [2009] 3 S.C.R. 407",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/26s7t",
+        "score": 0.8851820230484009,
+        "candidate_title": "Consolidated Fastfrate Inc. v. Western Canada Council of Teamsters"
+      },
+      {
+        "uri": "https://canlii.ca/t/1gv2m",
+        "score": 0.6302582621574402,
+        "candidate_title": "Voice Construction Ltd. v. Construction & General Workers' Union, Local 92"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2015/2015scc4/2015scc4.html",
+        "score": 0.6202467083930969,
+        "candidate_title": "Saskatchewan Federation of Labour v. Saskatchewan"
+      }
+    ]
+  },
+  "Reference Re Canada Assistance Plan (B.C.)": {
+    "uri": "https://canlii.ca/t/1fsk9",
+    "score": 0.8240319490432739,
+    "candidate_id": "1991csc-scc66",
+    "candidate_title": "Reference Re Canada Assistance Plan (B.C.)",
+    "query_text": "decision | Reference Re Canada Assistance Plan (B.C.) | [1991] 2 S.C.R. 525 | (1991), 83 D.L.R.\n(4th) 297",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fsk9",
+        "score": 0.8240319490432739,
+        "candidate_title": "Reference Re Canada Assistance Plan (B.C.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1991/1991canlii119/1991canlii119.html",
+        "score": 0.6259486675262451,
+        "candidate_title": "Committee for the Commonwealth of Canada v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftpf",
+        "score": 0.5961109399795532,
+        "candidate_title": "Finlay v. Canada (Minister of Finance)"
+      }
+    ]
+  },
+  "Paul v. British Columbia (Forest Appeals Commission)": {
+    "uri": "https://canlii.ca/t/50dq",
+    "score": 0.8291513323783875,
+    "candidate_id": "2003csc-scc55",
+    "candidate_title": "Paul v. British Columbia (Forest Appeals Commission)",
+    "query_text": "decision | Paul v. British Columbia\n(Forest Appeals Commission) | 2003 SCC 55 | [2003] 2 S.C.R. 585",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/50dq",
+        "score": 0.8291513323783875,
+        "candidate_title": "Paul v. British Columbia (Forest Appeals Commission)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2015/2015bcca345/2015bcca345.html",
+        "score": 0.6651057004928589,
+        "candidate_title": "Chartrand v. British Columbia (Forests, Lands and Natural Resource Operations)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1g5kv",
+        "score": 0.651299238204956,
+        "candidate_title": "British Columbia (Minister of Forests) v. Okanagan Indian Band"
+      }
+    ]
+  },
+  "Adler v. Ontario": {
+    "uri": "https://canlii.ca/t/1fr6t",
+    "score": 0.7730167508125305,
+    "candidate_id": "1996csc-scc108",
+    "candidate_title": "Adler v. Ontario",
+    "query_text": "decision | <i>Adler v. Ontario</i> | [1996] 3 S.C.R. 609 | (1996), 140 D.L.R. (4th)\n385",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr6t",
+        "score": 0.7730167508125305,
+        "candidate_title": "Adler v. Ontario"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2008/2008canlii47017/2008canlii47017.html",
+        "score": 0.6733020544052124,
+        "candidate_title": "Adler (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftph",
+        "score": 0.5718796253204346,
+        "candidate_title": "Carey v. Ontario"
+      }
+    ]
+  },
+  "Gosselin (Tutor of) v. Quebec (Attorney General)": {
+    "uri": "https://canlii.ca/t/1k1bm",
+    "score": 0.8440331816673279,
+    "candidate_id": "2005csc-scc15",
+    "candidate_title": "Gosselin (Tutor of) v. Quebec (Attorney General)",
+    "query_text": "decision | <i>Gosselin (Tutor of) v. Quebec (Attorney General)</i> | 2005 SCC 15 | [2005] 1 S.C.R. 238",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1k1bm",
+        "score": 0.8440331816673279,
+        "candidate_title": "Gosselin (Tutor of) v. Quebec (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1kxrh",
+        "score": 0.6527469754219055,
+        "candidate_title": "Chaoulli v. Quebec (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/fvsc0",
+        "score": 0.6438060998916626,
+        "candidate_title": "Quebec (Attorney General) v. A"
+      }
+    ]
+  }
+}

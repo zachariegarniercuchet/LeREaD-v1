@@ -1,0 +1,122 @@
+{
+  "Environmental Management Act BC": {
+    "uri": "https://canlii.ca/t/56c1p",
+    "score": 0.7988607883453369,
+    "candidate_id": "l20180!20180-current-1",
+    "candidate_title": "Environmental Management Act",
+    "query_text": "legislation | <i>Environmental Management Act</i> | Act | S.B.C. 2003, c. 53 [",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56c1p",
+        "score": 0.7988607883453369,
+        "candidate_title": "Environmental Management Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/55kd4",
+        "score": 0.6606448292732239,
+        "candidate_title": "Environmental Management Amendment Act, 2016"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wnv",
+        "score": 0.6515945792198181,
+        "candidate_title": "Administrative penalties (Environmental Management Act) Regulation"
+      }
+    ]
+  },
+  "Bankruptcy and Insolvency Act": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.6451452970504761,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.6451452970504761,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6352373361587524,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6167085766792297,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "Loewen Group Inc Re": {
+    "uri": "https://canlii.ca/t/jh6m8",
+    "score": 0.5020169019699097,
+    "candidate_id": "2021csc-scc30",
+    "candidate_title": "Canada v. Canada North Group Inc.",
+    "query_text": "decision | <i><span style=\"border:none windowtext 1.0pt;\npadding:0in\">Loewen Group Inc., Re</span></i><a href=\"https://nextcanada.westlaw.com/Link/Document/FullText?findType=Y&amp;pubNum=6407&amp;serNum=2001602267&amp;originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=8dfef70cdca8493598805ec33b0b6896&amp;contextData=(sc.UserEnteredCitation)\"></a> | 22 B.L.R. (3d) 134 | contractual",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jh6m8",
+        "score": 0.5020169019699097,
+        "candidate_title": "Canada v. Canada North Group Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/539n",
+        "score": 0.4908616542816162,
+        "candidate_title": "Langley Lo-Cost Builders Ltd. v. 474835 Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2013/2013scc26/2013scc26.html",
+        "score": 0.4787326753139496,
+        "candidate_title": "Behn v. Moulton Contracting Ltd."
+      }
+    ]
+  },
+  "Peace River Hydro Partners v. Petrowest Corp.": {
+    "uri": "https://canlii.ca/t/jswl7",
+    "score": 0.86965012550354,
+    "candidate_id": "2022csc-scc41",
+    "candidate_title": "Peace River Hydro Partners v. Petrowest Corp.",
+    "query_text": "decision | <i>Peace River Hydro Partners v. Petrowest Corp.</i> | 2022 SCC 41",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jswl7",
+        "score": 0.86965012550354,
+        "candidate_title": "Peace River Hydro Partners v. Petrowest Corp."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2018/2018scc46/2018scc46.html",
+        "score": 0.5449515581130981,
+        "candidate_title": "Churchill Falls (Labrador) Corp. v. Hydro‑Québec"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqsz",
+        "score": 0.541162371635437,
+        "candidate_title": "Westcoast Energy Inc. v. Canada (National Energy Board)"
+      }
+    ]
+  },
+  "Soundair Corp.": {
+    "uri": "https://canlii.ca/t/fpph9",
+    "score": 0.5721286535263062,
+    "candidate_id": "2012csc-scc2",
+    "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpph9",
+        "score": 0.5721286535263062,
+        "candidate_title": "Catalyst Paper Corp. v. North Cowichan (District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc5780/2019onsc5780.html",
+        "score": 0.5688966512680054,
+        "candidate_title": "Fercan Developments Inc. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dz21",
+        "score": 0.560012936592102,
+        "candidate_title": "Century Services Inc. v. Canada (Attorney General)"
+      }
+    ]
+  }
+}
