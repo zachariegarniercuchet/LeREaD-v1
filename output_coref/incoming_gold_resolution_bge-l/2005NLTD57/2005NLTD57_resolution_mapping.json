@@ -1,0 +1,1005 @@
+{
+  "Abitibi Consolidated NLTD 2005": {
+    "uri": "https://canlii.ca/t/1k0rx",
+    "score": 0.9273932576179504,
+    "candidate_id": "2005nlsctd200157",
+    "candidate_title": "Abitibi Consolidated Co. of Canada v. Communications, Energy & Paperworkers Union of Canada, Local 60N",
+    "query_text": "decision | Abitibi Consolidated Co. of Canada v.\nCommunications, Energy &amp; Paperworkers Union of Canada, Local 60N | 2005 NLTD 57",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1k0rx",
+        "score": 0.9273932576179504,
+        "candidate_title": "Abitibi Consolidated Co. of Canada v. Communications, Energy & Paperworkers Union of Canada, Local 60N"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2011/2011nbca58/2011nbca58.html",
+        "score": 0.7651532888412476,
+        "candidate_title": "Syndicat canadien des communications, de l’énergie et du papier, section locale 30 c. Les Pâtes et Papier Irving, Limitée"
+      },
+      {
+        "uri": "https://canlii.ca/t/fz5d5",
+        "score": 0.755591630935669,
+        "candidate_title": "Communications, Energy and Paperworkers Union of Canada, Local 30 v. Irving Pulp & Paper, Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2002/2002nbca30/2002nbca30.html",
+        "score": 0.749610424041748,
+        "candidate_title": "Communications, Energy and Paperworkers Union of Canada v. Irving Pulp & Paper Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/fnbk1",
+        "score": 0.7267139554023743,
+        "candidate_title": "Dekker v Communications, Energy and Paperworkers Union of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2009/2009nsca60/2009nsca60.html",
+        "score": 0.7224484086036682,
+        "candidate_title": "Communications, Energy and Paperworkers' Union, Local 1520 v. Maritime Paper Products Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onlrb/doc/2011/2011canlii81930/2011canlii81930.html",
+        "score": 0.7180064916610718,
+        "candidate_title": "Communications, Energy and Paperworkers Union of Canada v Reliance Comfort Limited Partnership (Reliance Yanch Heating and Air Conditioning)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abgaa/doc/2013/2013canlii71716/2013canlii71716.html",
+        "score": 0.7109259963035583,
+        "candidate_title": "Communications, Energy, and Paperworkers Union, Local 707 v SMS Equipment Inc"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcla/doc/1978/1978canlii3523/1978canlii3523.html",
+        "score": 0.705386757850647,
+        "candidate_title": "Re Corporation of the City of Penticton and Canadian Union of Public Employees, Local 608"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2013/2013nbca53/2013nbca53.html",
+        "score": 0.6897198557853699,
+        "candidate_title": "Dieppe v. Canadian Union of Public Employees, Local 4679 and Morin"
+      }
+    ]
+  },
+  "Flamborough": {
+    "uri": "https://canlii.ca/t/g0tq9",
+    "score": 0.6707665920257568,
+    "candidate_id": "2013fca236",
+    "candidate_title": "Forest Ethics Advocacy Association v. Canada (National Energy Board)",
+    "query_text": "decision | Flamborough (Township) v. Canada\n(National Energy Board) | Flamborough (Township) v. Canada (National Energy Board) | Flamborough | [1984] F.C.J. No. 526 | [1984]\nF.C.J. No. 526",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g0tq9",
+        "score": 0.6707665920257568,
+        "candidate_title": "Forest Ethics Advocacy Association v. Canada (National Energy Board)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2014/2014fca245/2014fca245.html",
+        "score": 0.6695161461830139,
+        "candidate_title": "Forest Ethics Advocacy Association v. Canada (National Energy Board)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc849/2022fc849.html",
+        "score": 0.6636124849319458,
+        "candidate_title": "Citizens Against Radioactive Neighbourhoods v. BWXT Nuclear Energy Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2010/2010nsca24/2010nsca24.html",
+        "score": 0.6634790897369385,
+        "candidate_title": "Homburg Canada Inc. v. Nova Scotia (Utility and Review Board)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2012/2012onsc3520/2012onsc3520.html",
+        "score": 0.6623542904853821,
+        "candidate_title": "Natural Resource Gas Limited v. Ontario Energy Board"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2014/2014fca88/2014fca88.html",
+        "score": 0.6615853309631348,
+        "candidate_title": "Forest Ethics Advocacy Association v. National Energy Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqsz",
+        "score": 0.6604026556015015,
+        "candidate_title": "Westcoast Energy Inc. v. Canada (National Energy Board)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2010/2010onca185/2010onca185.html",
+        "score": 0.656414270401001,
+        "candidate_title": "Clark v. North Kawartha (Township)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/1999/1999canlii8615/1999canlii8615.html",
+        "score": 0.6546517610549927,
+        "candidate_title": "Rocky Mountain Ecosystem Coalition v. Canada (National Energy Board)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2005/2005canlii2763/2005canlii2763.html",
+        "score": 0.6541670560836792,
+        "candidate_title": "Graywood Investments Ltd. v. Ontario (Energy Board)"
+      }
+    ]
+  },
+  "Saint John": {
+    "uri": "https://canlii.ca/t/jmm2b",
+    "score": 0.8338252305984497,
+    "candidate_id": "1986nbla1000004",
+    "candidate_title": "Re City of Saint John and Canadian Union of Public Employees, Local 18",
+    "query_text": "decision | <b>Re City of Saint John v.\nThe Canadian Union of Public Employees, Local 18</b> (1986) | <i>City of Saint John and Canadian Union of Public\nEmployees</i>, Local 18 (1986) | Saint\nJohn | Saint John | <b>Re City of Saint John v. The Canadian Union of Public Employees,\nLocal 18</b> (1986) | Re City of Saint John | Re City of Saint\nJohn | 24 L.A.C. (3d) 152\n(Collier) | 24 L.A.C. (3d) 152, (Collier) | 24 L.A.C. (3d) 152 (Collier)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jmm2b",
+        "score": 0.8338252305984497,
+        "candidate_title": "Re City of Saint John and Canadian Union of Public Employees, Local 18"
+      },
+      {
+        "uri": "https://canlii.ca/t/dlx",
+        "score": 0.7487149238586426,
+        "candidate_title": "Toronto (City) v. C.U.P.E., Local 79"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/1988/1988canlii4424/1988canlii4424.html",
+        "score": 0.7367364168167114,
+        "candidate_title": "Newterm Ltd v St John's (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1966/1966canlii64/1966canlii64.html",
+        "score": 0.7244230508804321,
+        "candidate_title": "City of Saint John v. Irving Oil Co. Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/2005/2005nltd32/2005nltd32.html",
+        "score": 0.7211546301841736,
+        "candidate_title": "the Assessment Review Court - City of St. John’s."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2020/2020fca29/2020fca29.html",
+        "score": 0.7096006870269775,
+        "candidate_title": "Maritime Employers Association v. Longshoremen’s Union, Local 375 (Canadian Union of Public Employees)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ft1m",
+        "score": 0.709488570690155,
+        "candidate_title": "Tock v. St. John's Metropolitan Area Board"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/2000/2000canlii28392/2000canlii28392.html",
+        "score": 0.708870530128479,
+        "candidate_title": "Memorial University of Newfoundland v. Canadian Union of Public Employees (Local 1615)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1g5m4",
+        "score": 0.7084943056106567,
+        "candidate_title": "C.U.P.E. v. Ontario (Minister of Labour)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2013/2013nbca53/2013nbca53.html",
+        "score": 0.7065588235855103,
+        "candidate_title": "Dieppe v. Canadian Union of Public Employees, Local 4679 and Morin"
+      }
+    ]
+  },
+  "MacDonalds Consolidated": {
+    "uri": "https://canlii.ca/t/g8d6z",
+    "score": 0.9593163728713989,
+    "candidate_id": "1988skqb1000214",
+    "candidate_title": "MacDonalds Consolidated Ltd. v. Saskatchewan Joint Board, Retail, Wholesale and Department Store Union and Dickinson",
+    "query_text": "decision | <b>MacDonalds Consolidated Ltd. v. Saskatchewan Joint Board, Retail,\nWholesale and Department Store Union and Dickinson </b>(1988) | <b>MacDonalds Consolidated Ltd.\nv. Saskatchewan Joint Board, Retail, Wholesale and Department Store Union and\nDickinson </b>(1988) | 65 Sask. R. 224\n(Sask. Q.B.) | 65 Sask. R. 224 (Sask. Q.B.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g8d6z",
+        "score": 0.9593163728713989,
+        "candidate_title": "MacDonalds Consolidated Ltd. v. Saskatchewan Joint Board, Retail, Wholesale and Department Store Union and Dickinson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/2005/2005skqb264/2005skqb264.html",
+        "score": 0.7625365853309631,
+        "candidate_title": "Canadian Linen and Uniform Service Co. v. Saskatchewan Joint Board, Retail, Wholesale and Department Store Union"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2013/2013skca119/2013skca119.html",
+        "score": 0.7345398664474487,
+        "candidate_title": "Sherwood Co-operative Association Limited v Retail, Wholesale and Department Store Union, Local 539"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/sklrb/doc/2016/2016canlii30539/2016canlii30539.html",
+        "score": 0.7287278175354004,
+        "candidate_title": "Retail, Wholesale and Department Store Union, Local 568 v.  Saskatchewan Association of Health Organizations Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/sklrb/doc/2007/2007canlii68775/2007canlii68775.html",
+        "score": 0.7257645726203918,
+        "candidate_title": "Saskatchewan Joint Board, Retail, Wholesale and Department Store Union v. Temple Gardens Mineral Spa Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftq5",
+        "score": 0.7007890343666077,
+        "candidate_title": "Manitoba (A.G.) v. Metropolitan Stores Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/1988/1988canlii5096/1988canlii5096.html",
+        "score": 0.6967605352401733,
+        "candidate_title": "Olson v. Olson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/2010/2010skqb61/2010skqb61.html",
+        "score": 0.6963487267494202,
+        "candidate_title": "United Food and Commercial Workers, Local 1400 v. Wal-Mart Canada Corp"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/2007/2007skqb76/2007skqb76.html",
+        "score": 0.692231297492981,
+        "candidate_title": "Warner v. Saskatchewan (Workers' Compensation Board)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g8d73",
+        "score": 0.6919947266578674,
+        "candidate_title": "Nelson v. Waverley (Rural Municipality)"
+      }
+    ]
+  },
+  "Szilard": {
+    "uri": "https://canlii.ca/t/1nlk9",
+    "score": 0.869792640209198,
+    "candidate_id": "1954csc-scc10003",
+    "candidate_title": "Szilard v. Szasz",
+    "query_text": "decision | Szilard v. Szasz | <b>Szilard v. Szasz</b> | [1955] S.C.R. 3 | [1955] 1 D.L.R. 370 (S.C.C.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1nlk9",
+        "score": 0.869792640209198,
+        "candidate_title": "Szilard v. Szasz"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1986/1986canlii2508/1986canlii2508.html",
+        "score": 0.6670975685119629,
+        "candidate_title": "Szarfer v. Chodos"
+      },
+      {
+        "uri": "https://canlii.ca/t/gdbtn",
+        "score": 0.6390318274497986,
+        "candidate_title": "De Rzonca v. Kummerfield"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2015/2015abqb573/2015abqb573.html",
+        "score": 0.6336933970451355,
+        "candidate_title": "Mraz v Herman"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2003/2003scc75/2003scc75.html",
+        "score": 0.6270508766174316,
+        "candidate_title": "R. v. Clay"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1979/1979canlii60/1979canlii60.html",
+        "score": 0.6261186599731445,
+        "candidate_title": "Goldman v. R."
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftpt",
+        "score": 0.6249915957450867,
+        "candidate_title": "R. v. Edwards Books and Art Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1954/1954canlii60/1954canlii60.html",
+        "score": 0.6238352656364441,
+        "candidate_title": "Arnott v. College of Physicians"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2019/2019scc47/2019scc47.html",
+        "score": 0.6218728423118591,
+        "candidate_title": "R. v. Poulin"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fslt",
+        "score": 0.6205729246139526,
+        "candidate_title": "R. v. Sherratt"
+      }
+    ]
+  },
+  "Newfoundland Association of Public Employees": {
+    "uri": "https://canlii.ca/t/g8xqj",
+    "score": 0.8844814300537109,
+    "candidate_id": "1991nlsctd19751000118",
+    "candidate_title": "Newfoundland Association of Public Employees and Scaplen v. Medical Care Commission (Nfld.)",
+    "query_text": "decision | <b>Newfoundland\nAssociation of Public Employees and Scaplan v. Medical Care Commission (Nfld.)</b>\n(1991) | 90 Nfld. &amp; P.E.I.R. 17",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g8xqj",
+        "score": 0.8844814300537109,
+        "candidate_title": "Newfoundland Association of Public Employees and Scaplen v. Medical Care Commission (Nfld.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/2000/2000canlii28320/2000canlii28320.html",
+        "score": 0.7370573282241821,
+        "candidate_title": "Health Care Corp. of St. John's v. Newfoundland and Labrador Association of Public and Private Employees"
+      },
+      {
+        "uri": "https://canlii.ca/t/g8xr6",
+        "score": 0.7312403321266174,
+        "candidate_title": "Power Agencies Co. and Du Pont Canada Inc. v. Newfoundland Hospital and Nursing Home Assoc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2009/2009nlca15/2009nlca15.html",
+        "score": 0.7211344242095947,
+        "candidate_title": "Newfoundland and Labrador Association of Public and Private Employees v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/fww5v",
+        "score": 0.7208129167556763,
+        "candidate_title": "Newfoundland (Treasury Board) v. Newfoundland Association of Public Employees"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2013/2013nbca53/2013nbca53.html",
+        "score": 0.7164477109909058,
+        "candidate_title": "Dieppe v. Canadian Union of Public Employees, Local 4679 and Morin"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/1982/1982canlii2899/1982canlii2899.html",
+        "score": 0.7068737745285034,
+        "candidate_title": "Canadian Union of Public Employees, Local 879 v. St. Patrick's Mercy Home"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/2000/2000canlii28392/2000canlii28392.html",
+        "score": 0.7054241895675659,
+        "candidate_title": "Memorial University of Newfoundland v. Canadian Union of Public Employees (Local 1615)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/1991/1991canlii6983/1991canlii6983.html",
+        "score": 0.7044888734817505,
+        "candidate_title": "Conception Bay South (Town) et al. v. Board of Commissioners of Public Utilities (Nfld.) et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2013/2013nlca9/2013nlca9.html",
+        "score": 0.7011867761611938,
+        "candidate_title": "Long Harbour Employers Association Inc."
+      }
+    ]
+  },
+  "Abitibi Consolidated AB 2004": {
+    "uri": "https://www.canlii.org/en/bc/bcla/doc/2006/2006canlii93349/2006canlii93349.html",
+    "score": 0.6644680500030518,
+    "candidate_id": "2006bcla1000015",
+    "candidate_title": "Vancouver Island Health Authority and B.C.N.U. (N. (S.)) (Re)",
+    "query_text": "decision | decision | Award | Arbitration Award",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/bc/bcla/doc/2006/2006canlii93349/2006canlii93349.html",
+        "score": 0.6644680500030518,
+        "candidate_title": "Vancouver Island Health Authority and B.C.N.U. (N. (S.)) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onla/doc/2005/2005canlii94069/2005canlii94069.html",
+        "score": 0.6626376509666443,
+        "candidate_title": "Toronto Catholic District School Board and O.E.C.T.A. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcla/doc/1982/1982canlii5068/1982canlii5068.html",
+        "score": 0.661524772644043,
+        "candidate_title": "Re Edith Cavell Private Hospital and Hospital Employees' Union, Local 180"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abgaa/doc/2022/2022canlii34981/2022canlii34981.html",
+        "score": 0.6529950499534607,
+        "candidate_title": "Health Sciences Association of Alberta v Siksika Health Services"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onla/doc/2002/2002canlii78933/2002canlii78933.html",
+        "score": 0.6461484432220459,
+        "candidate_title": "Toronto (City) and C.U.P.E., Loc. 79 (Wilson) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onla/doc/1999/1999canlii35973/1999canlii35973.html",
+        "score": 0.6415262818336487,
+        "candidate_title": "St. Clair Catholic District School Board and O.E.C.T.A. (Odrcich) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onla/doc/2004/2004canlii94774/2004canlii94774.html",
+        "score": 0.6410839557647705,
+        "candidate_title": "Centre for Addiction and Mental Health and O.P.S.E.U. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abgaa/doc/1995/1995canlii18304/1995canlii18304.html",
+        "score": 0.6391925811767578,
+        "candidate_title": "Royal Alexandra Hospital and U.N.A., Loc. 33, Re"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abgaa/doc/2006/2006canlii93302/2006canlii93302.html",
+        "score": 0.6368632912635803,
+        "candidate_title": "Sealy Canada Ltd. and U.S.W.A., Loc. 5885 (Bender) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onla/doc/2004/2004canlii94664/2004canlii94664.html",
+        "score": 0.6348662376403809,
+        "candidate_title": "Bombardier Aerospace and C.A.W.-Canada, Loc. 112 (Hussey) (Re)"
+      }
+    ]
+  },
+  "UFCW": {
+    "uri": "https://canlii.ca/t/g8x59",
+    "score": 0.8493416905403137,
+    "candidate_id": "1989nlsctd19751000173",
+    "candidate_title": "United Food and Commercial Workers, Local 1252 v. Lewisporte Wholesalers Ltd.",
+    "query_text": "decision | <i>U.F.C.W., Local 1252 v. Lewisporte\nWholesalers</i> | <i></i>(1989) 79 Nfld. &amp; P.E.I.R. 237 (Nfld. S.C.T.D.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g8x59",
+        "score": 0.8493416905403137,
+        "candidate_title": "United Food and Commercial Workers, Local 1252 v. Lewisporte Wholesalers Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1mm2x",
+        "score": 0.6830124855041504,
+        "candidate_title": "C.U.P.E. v. N.B. Liquor Corporation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/1994/1994canlii9756/1994canlii9756.html",
+        "score": 0.6822899580001831,
+        "candidate_title": "United Food and Commercial Workers, Fishermen's Union (Local 1252) v. Cashin"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mblb/doc/2020/2020canlii55888/2020canlii55888.html",
+        "score": 0.659441351890564,
+        "candidate_title": "R.C.A. v United Food and Commercial Workers Union, Local No. 832"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/1989/1989canlii201/1989canlii201.html",
+        "score": 0.6586727499961853,
+        "candidate_title": "R. v. Marshall"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsqw",
+        "score": 0.6529597043991089,
+        "candidate_title": "Lester (W.W.) (1978) Ltd. v. United Association of Journeymen and Apprentices of the Plumbing and Pipefitting Industry, Local 740"
+      },
+      {
+        "uri": "https://canlii.ca/t/1p8xp",
+        "score": 0.6504102945327759,
+        "candidate_title": "United Brotherhood of Carpenters and Joiners of America, Local 1388 v. Prince Edward Island (Labour Relations Board)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g136m",
+        "score": 0.6502199769020081,
+        "candidate_title": "Re United Glass and Ceramic Workers of North America (AFL-CIO-CLC), Local 246 and Dominion Glass Co. Ltd. et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1ft89",
+        "score": 0.6493664979934692,
+        "candidate_title": "U.E.S., Local 298 v. Bibeault"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsz2",
+        "score": 0.6492631435394287,
+        "candidate_title": "Iwa v. Consolidated-Bathurst Packaging Ltd."
+      }
+    ]
+  },
+  "MCP": {
+    "uri": "https://canlii.ca/t/g8xqj",
+    "score": 0.8354153633117676,
+    "candidate_id": "1991nlsctd19751000118",
+    "candidate_title": "Newfoundland Association of Public Employees and Scaplen v. Medical Care Commission (Nfld.)",
+    "query_text": "decision | <i>NAPE v. Newfoundland Medical Care Commission</i> | MCP | <i>MCP</i> | (1991) 90 Nfld. &amp; P.E.I.R.\n17 (Nfld S.C.T.D.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g8xqj",
+        "score": 0.8354153633117676,
+        "candidate_title": "Newfoundland Association of Public Employees and Scaplen v. Medical Care Commission (Nfld.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2002/2002nlca74/2002nlca74.html",
+        "score": 0.713356614112854,
+        "candidate_title": "Mc Grath v. Newfoundland (Royal Constabulary Public Complaints Commission)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/2000/2000canlii28754/2000canlii28754.html",
+        "score": 0.7000356316566467,
+        "candidate_title": "Human Rights Commission (Nfld.) v. Newfoundland Liquor Corp."
+      },
+      {
+        "uri": "https://canlii.ca/t/g8xr6",
+        "score": 0.6905926465988159,
+        "candidate_title": "Power Agencies Co. and Du Pont Canada Inc. v. Newfoundland Hospital and Nursing Home Assoc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/1991/1991canlii6983/1991canlii6983.html",
+        "score": 0.6887782216072083,
+        "candidate_title": "Conception Bay South (Town) et al. v. Board of Commissioners of Public Utilities (Nfld.) et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2015/2015nlca40/2015nlca40.html",
+        "score": 0.6819198131561279,
+        "candidate_title": "Workplace Health, Safety and Compensation Commission v Reid"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/1993/1993canlii7775/1993canlii7775.html",
+        "score": 0.6776237487792969,
+        "candidate_title": "Lasade Enterprises Ltd. v. Newfoundland"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/2000/2000canlii28320/2000canlii28320.html",
+        "score": 0.6706980466842651,
+        "candidate_title": "Health Care Corp. of St. John's v. Newfoundland and Labrador Association of Public and Private Employees"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2012/2012nlca38/2012nlca38.html",
+        "score": 0.6645503044128418,
+        "candidate_title": "Newfoundland and Labrador Hydro v. Newfoundland and Labrador (Board of Commissioners of Public Utilities)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frtq",
+        "score": 0.6632105112075806,
+        "candidate_title": "Mobil Oil Canada Ltd. v. Canada-Newfoundland Offshore Petroleum Board"
+      }
+    ]
+  },
+  "Treasury Board": {
+    "uri": "https://canlii.ca/t/fww5v",
+    "score": 0.7965227961540222,
+    "candidate_id": "1999nlsctd19751000203",
+    "candidate_title": "Newfoundland (Treasury Board) v. Newfoundland Association of Public Employees",
+    "query_text": "decision | Newfoundland (Treasury Board) v.\nNAPE | Treasury\nBoard | (1999) 184 Nfld. &amp; P.E.I.R. 231 (Nfld. S.C.T.D.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fww5v",
+        "score": 0.7965227961540222,
+        "candidate_title": "Newfoundland (Treasury Board) v. Newfoundland Association of Public Employees"
+      },
+      {
+        "uri": "https://canlii.ca/t/g8xqj",
+        "score": 0.7811785340309143,
+        "candidate_title": "Newfoundland Association of Public Employees and Scaplen v. Medical Care Commission (Nfld.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2009/2009nlca15/2009nlca15.html",
+        "score": 0.729214072227478,
+        "candidate_title": "Newfoundland and Labrador Association of Public and Private Employees v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqjf",
+        "score": 0.7164766788482666,
+        "candidate_title": "Wells v. Newfoundland"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/1993/1993canlii3371/1993canlii3371.html",
+        "score": 0.7130038738250732,
+        "candidate_title": "Furey v. Conception Bay Centre Roman Catholic School Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/fpbh9",
+        "score": 0.7035888433456421,
+        "candidate_title": "Newfoundland and Labrador Nurses' Union v. Newfoundland and Labrador (Treasury Board)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/1999/1999canlii13905/1999canlii13905.html",
+        "score": 0.7016458511352539,
+        "candidate_title": "R. v. Collins"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/1991/1991canlii6983/1991canlii6983.html",
+        "score": 0.6957414150238037,
+        "candidate_title": "Conception Bay South (Town) et al. v. Board of Commissioners of Public Utilities (Nfld.) et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/2000/2000canlii28320/2000canlii28320.html",
+        "score": 0.6924275755882263,
+        "candidate_title": "Health Care Corp. of St. John's v. Newfoundland and Labrador Association of Public and Private Employees"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2001/2001nfca27/2001nfca27.html",
+        "score": 0.6864936351776123,
+        "candidate_title": "Standard Trust Co. v. Bank of Nova Scotia"
+      }
+    ]
+  },
+  "NCLR": {
+    "uri": "https://canlii.ca/t/fwwf7",
+    "score": 0.9143490791320801,
+    "candidate_id": "2000nlsctd19751000119",
+    "candidate_title": "Transport and Allied Workers Union, Local 855 v. Newfoundland Construction Labour Relations Association et al.",
+    "query_text": "decision | <i>Transport and Allied Workers Union, Local 855 v.\nNewfoundland Construction Labour Relations Association</i> (2000) | NCLR | 187 Nfld.\n&amp; P.E.I.R. 118 (Nfld. S.C.T.D.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fwwf7",
+        "score": 0.9143490791320801,
+        "candidate_title": "Transport and Allied Workers Union, Local 855 v. Newfoundland Construction Labour Relations Association et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/2000/2000canlii28392/2000canlii28392.html",
+        "score": 0.7609834671020508,
+        "candidate_title": "Memorial University of Newfoundland v. Canadian Union of Public Employees (Local 1615)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlla/doc/2018/2018canlii37249/2018canlii37249.html",
+        "score": 0.7570260167121887,
+        "candidate_title": "Teamsters, Transport And Allied Workers Union, Local 855 v Agropur Dairy Cooperative"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2007/2007nlca75/2007nlca75.html",
+        "score": 0.7492436170578003,
+        "candidate_title": "Newfoundland and Labrador v. Labrador Métis Nation"
+      },
+      {
+        "uri": "https://canlii.ca/t/1cvp1",
+        "score": 0.7307815551757812,
+        "candidate_title": "APM Construction Inc. v. Construction and General Labourers Union"
+      },
+      {
+        "uri": "https://canlii.ca/t/fww5v",
+        "score": 0.7270169258117676,
+        "candidate_title": "Newfoundland (Treasury Board) v. Newfoundland Association of Public Employees"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2015/2015nlca40/2015nlca40.html",
+        "score": 0.7184849381446838,
+        "candidate_title": "Workplace Health, Safety and Compensation Commission v Reid"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/2000/2000canlii28320/2000canlii28320.html",
+        "score": 0.7158565521240234,
+        "candidate_title": "Health Care Corp. of St. John's v. Newfoundland and Labrador Association of Public and Private Employees"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2010/2010nlca12/2010nlca12.html",
+        "score": 0.7137551307678223,
+        "candidate_title": "Burke v. Newfoundland and Labrador Association of Public and Private Employees"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2006/2006mbca111/2006mbca111.html",
+        "score": 0.7126847505569458,
+        "candidate_title": "National Automobile, Aerospace, Transportation and General Workers Unions of Canada v. Bristol Aerospace Ltd."
+      }
+    ]
+  },
+  "Labour Relations Act": {
+    "uri": "https://canlii.ca/t/56k1n",
+    "score": 0.9785028696060181,
+    "candidate_id": "l24965!24965-current-1",
+    "candidate_title": "Labour Relations Act",
+    "query_text": "legislation | Labour Relations Act | Labour\nRelations Act | RSNL 1990 c. L-1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56k1n",
+        "score": 0.9785028696060181,
+        "candidate_title": "Labour Relations Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/stat/rso-1990-c-l2/latest/rso-1990-c-l2.html",
+        "score": 0.869598925113678,
+        "candidate_title": "Labour Relations Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-s-13/latest/rsnl-1990-c-s-13.html",
+        "score": 0.7943987846374512,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-a-14/latest/rsnl-1990-c-a-14.html",
+        "score": 0.7936310768127441,
+        "candidate_title": "Arbitration Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-h-14/latest/rsnl-1990-c-h-14.html",
+        "score": 0.7681732773780823,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-e-19/latest/rsnl-1990-c-e-19.html",
+        "score": 0.7633695602416992,
+        "candidate_title": "Expropriation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nbs",
+        "score": 0.758551836013794,
+        "candidate_title": "Labour Relations Code"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/laws/stat/rsns-1989-c-246/latest/rsns-1989-c-246.html",
+        "score": 0.7558856010437012,
+        "candidate_title": "Labour Standards Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/568rq",
+        "score": 0.7507514953613281,
+        "candidate_title": "Industrial Relations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/546k3",
+        "score": 0.7495641112327576,
+        "candidate_title": "An Act to Amend the Public Service Labour Relations Act"
+      }
+    ]
+  },
+  "Industrial Relations Act": {
+    "uri": "https://canlii.ca/t/568rq",
+    "score": 0.9094641208648682,
+    "candidate_id": "l23871!23871-current-1",
+    "candidate_title": "Industrial Relations Act",
+    "query_text": "legislation | <i>Industrial Relations Act</i> | Industrial Relations Act | Act | <i>Industrial\nRelations Act</i> | R.S.N.B.\n1973, c. I-4",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/568rq",
+        "score": 0.9094641208648682,
+        "candidate_title": "Industrial Relations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kgx",
+        "score": 0.7710533142089844,
+        "candidate_title": "Public Service Labour Relations Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/laws/stat/rsnb-1973-c-j-2/latest/rsnb-1973-c-j-2.html",
+        "score": 0.7370388507843018,
+        "candidate_title": "Judicature Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56tln",
+        "score": 0.7279804944992065,
+        "candidate_title": "Labour Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56bjc",
+        "score": 0.7090006470680237,
+        "candidate_title": "Employment Standards Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vqm",
+        "score": 0.7083475589752197,
+        "candidate_title": "Provincial Court Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/stat/rso-1990-c-l2/latest/rso-1990-c-l2.html",
+        "score": 0.7083356380462646,
+        "candidate_title": "Labour Relations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56k1n",
+        "score": 0.7059783935546875,
+        "candidate_title": "Labour Relations Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-1973-c-87/latest/sa-1973-c-87.html",
+        "score": 0.6969274282455444,
+        "candidate_title": "The Workers' Compensation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/564nl",
+        "score": 0.6854009628295898,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "Rules of Court": {
+    "uri": "https://canlii.ca/t/56ndw",
+    "score": 0.7963459491729736,
+    "candidate_id": "l23977!23977-current-1",
+    "candidate_title": "Rules of Court",
+    "query_text": "legislation | Rules of Court",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56ndw",
+        "score": 0.7963459491729736,
+        "candidate_title": "Rules of Court"
+      },
+      {
+        "uri": "https://canlii.ca/t/5666v",
+        "score": 0.7642817497253418,
+        "candidate_title": "Court of King's Bench Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wgf",
+        "score": 0.7642817497253418,
+        "candidate_title": "Court of King's Bench Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.7503073215484619,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.7503073215484619,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.7503073215484619,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.7503073215484619,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.7503073215484619,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.7503073215484619,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.7503073215484619,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      }
+    ]
+  },
+  "Canadian Labour Arbitration": {
+    "uri": "https://canlii.ca/t/grlg9",
+    "score": 0.6298385858535767,
+    "candidate_id": "1937ukpc1000012",
+    "candidate_title": "Canada (Attorney General) / Ontario (Attorney General)",
+    "query_text": "secondary sources | Canadian Labour\nArbitration | Canadian Labour Arbitration | Brown and Beatty | Brown &amp; Beatty",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/grlg9",
+        "score": 0.6298385858535767,
+        "candidate_title": "Canada (Attorney General) / Ontario (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2006/2006canlii8711/2006canlii8711.html",
+        "score": 0.6219378709793091,
+        "candidate_title": "National Automobile, Aerospace Trans-portation and General Workers Union of Canada (C.A.W. - Canada) Local No. 27 v. London Machinery Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2024/2024fc458/2024fc458.html",
+        "score": 0.6172167062759399,
+        "candidate_title": "Brown v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onla/doc/1999/1999canlii35973/1999canlii35973.html",
+        "score": 0.6150649785995483,
+        "candidate_title": "St. Clair Catholic District School Board and O.E.C.T.A. (Odrcich) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onlrb/doc/2016/2016canlii1756/2016canlii1756.html",
+        "score": 0.6118472814559937,
+        "candidate_title": "Canadian Construction Workers Union v. Newton Group Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2013CanLIIDocs427#Acquired_Expertise_of_Administrative_Tritors_and_Human_Rights_Law____Finn_Makela",
+        "score": 0.6113928556442261,
+        "candidate_title": "Canadian Labour and Employment Law Journal"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2006/2006mbca111/2006mbca111.html",
+        "score": 0.6098792552947998,
+        "candidate_title": "National Automobile, Aerospace, Transportation and General Workers Unions of Canada v. Bristol Aerospace Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onla/doc/2005/2005canlii94069/2005canlii94069.html",
+        "score": 0.6092767715454102,
+        "candidate_title": "Toronto Catholic District School Board and O.E.C.T.A. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2025/2025fc1943/2025fc1943.html",
+        "score": 0.6084818840026855,
+        "candidate_title": "Brown v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2014/2014bcca152/2014bcca152.html",
+        "score": 0.6070457696914673,
+        "candidate_title": "Brown v. Brown"
+      }
+    ]
+  },
+  "Collective Agreement Arbitration in Canada": {
+    "uri": "https://canlii.ca/t/jmwtf",
+    "score": 0.6282945871353149,
+    "candidate_id": "2000bcla1000135",
+    "candidate_title": "School District No. 5 (Southeast Kootenay) and B.C.T.F. (Yellowaga) (Re)",
+    "query_text": "secondary sources | Collective Agreement\nArbitration in Canada | Collective Agreement Arbitration in Canada, | Palmer",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jmwtf",
+        "score": 0.6282945871353149,
+        "candidate_title": "School District No. 5 (Southeast Kootenay) and B.C.T.F. (Yellowaga) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/cirb/doc/2002/2002canlii53086/2002canlii53086.html",
+        "score": 0.6203734278678894,
+        "candidate_title": "Lacelle"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcla/doc/1978/1978canlii3523/1978canlii3523.html",
+        "score": 0.6184832453727722,
+        "candidate_title": "Re Corporation of the City of Penticton and Canadian Union of Public Employees, Local 608"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2006/2006mbca111/2006mbca111.html",
+        "score": 0.6167430877685547,
+        "candidate_title": "National Automobile, Aerospace, Transportation and General Workers Unions of Canada v. Bristol Aerospace Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onla/doc/2005/2005canlii94069/2005canlii94069.html",
+        "score": 0.616028904914856,
+        "candidate_title": "Toronto Catholic District School Board and O.E.C.T.A. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abgaa/doc/2013/2013canlii71716/2013canlii71716.html",
+        "score": 0.6148412227630615,
+        "candidate_title": "Communications, Energy, and Paperworkers Union, Local 707 v SMS Equipment Inc"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcla/doc/2006/2006canlii93349/2006canlii93349.html",
+        "score": 0.6147669553756714,
+        "candidate_title": "Vancouver Island Health Authority and B.C.N.U. (N. (S.)) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/t7lt",
+        "score": 0.6135796308517456,
+        "candidate_title": "Collective Bargaining in Ontario: A New Legislative Approach"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2010/2010nsca19/2010nsca19.html",
+        "score": 0.6131733059883118,
+        "candidate_title": "Communications, Energy and Paperworkers Union of Canada Local 141 v. Bowater Mersey Paper Co. Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abgaa/doc/2006/2006canlii93302/2006canlii93302.html",
+        "score": 0.6130191087722778,
+        "candidate_title": "Sealy Canada Ltd. and U.S.W.A., Loc. 5885 (Bender) (Re)"
+      }
+    ]
+  },
+  "Principles of Administrative Law": {
+    "uri": "https://www.canlii.org/en/commentary/doc/2016CanLIIDocs275",
+    "score": 0.6074761152267456,
+    "candidate_id": "d1423!d1423",
+    "candidate_title": "The Signal and the Noise in Administrative Law",
+    "query_text": "secondary sources | Principles\nof Administrative Law | Jones and deVillars | Jones and de Villars",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2016CanLIIDocs275",
+        "score": 0.6074761152267456,
+        "candidate_title": "The Signal and the Noise in Administrative Law"
+      },
+      {
+        "uri": "https://canlii.ca/t/8wjk6",
+        "score": 0.6036099791526794,
+        "candidate_title": "L'indépendance judiciaire et la Cour suprême: reconstruction historique douteuse et théorie constitutionnelle de complaisance"
+      },
+      {
+        "uri": "https://canlii.ca/t/t5tt",
+        "score": 0.5839418172836304,
+        "candidate_title": "The Independence of the Judiciary"
+      },
+      {
+        "uri": "https://canlii.ca/t/sk90",
+        "score": 0.57844078540802,
+        "candidate_title": "Unreasonable Interpretations of Law"
+      },
+      {
+        "uri": "https://canlii.ca/t/7n0vt",
+        "score": 0.5773547291755676,
+        "candidate_title": "Annual Survey of Canadian Law – Administrative Law"
+      },
+      {
+        "uri": "https://canlii.ca/t/sx35",
+        "score": 0.5729495286941528,
+        "candidate_title": "The Canadian Law of Judicial Review: A Plea for Doctrinal Coherence and Consistency."
+      },
+      {
+        "uri": "https://canlii.ca/t/ttpb",
+        "score": 0.5724205374717712,
+        "candidate_title": "Reverse Vesting Orders – Developing Principles and Guardrails to Inform Judicial Decisions"
+      },
+      {
+        "uri": "https://canlii.ca/t/7n524",
+        "score": 0.5718386173248291,
+        "candidate_title": "Can There Be Too Much Context in Administrative Law: Setting the Standard of Review in Canadian Administrative Law"
+      },
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/1984CanLIIDocs4",
+        "score": 0.5638010501861572,
+        "candidate_title": "Judicial Review of Administrative Action: Application for Judicial Review"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/regu/sor-2002-416/latest/sor-2002-416.html",
+        "score": 0.5611029863357544,
+        "candidate_title": "Regulations Respecting Applications for Ministerial Review — Miscarriages of Justice"
+      }
+    ]
+  }
+}

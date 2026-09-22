@@ -1,0 +1,769 @@
+{
+  "Canadian Natural Resources": {
+    "uri": "https://canlii.ca/t/kfpl2",
+    "score": 0.9353844523429871,
+    "candidate_id": "2025abaer7",
+    "candidate_title": "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch",
+    "query_text": "decision | Canadian Natural Resources\nLimited v. AER Regulatory Compliance Branch | 2025 ABAER 007",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kfpl2",
+        "score": 0.9353844523429871,
+        "candidate_title": "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/ablprt/doc/2022/2022ablprt1192/2022ablprt1192.html",
+        "score": 0.9232500791549683,
+        "candidate_title": "Canadian Natural Resources Limited v Chrupka"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/ablprt/doc/2025/2025ablprt818/2025ablprt818.html",
+        "score": 0.9122214317321777,
+        "candidate_title": "Hangar 11 Corp."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/absrb/doc/2014/2014absrb276/2014absrb276.html",
+        "score": 0.9106770753860474,
+        "candidate_title": "Canadian Natural Resources Limited v. Sanderson"
+      },
+      {
+        "uri": "https://canlii.ca/t/h4svg",
+        "score": 0.9104795455932617,
+        "candidate_title": "Blue Gold Holdings Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2024/2024abca346/2024abca346.html",
+        "score": 0.9100078344345093,
+        "candidate_title": "R v Clarke"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2016/2016abca355/2016abca355.html",
+        "score": 0.9091963768005371,
+        "candidate_title": "R v TR"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2025/2025abca115/2025abca115.html",
+        "score": 0.9080594778060913,
+        "candidate_title": "WestJet v ELS Marketing Inc"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncmt/doc/2009/2009onsec15/2009onsec15.html",
+        "score": 0.9077117443084717,
+        "candidate_title": "Hudbay Minerals Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abpc/doc/2010/2010abpc30/2010abpc30.html",
+        "score": 0.907446026802063,
+        "candidate_title": "R. v. Hyde"
+      }
+    ]
+  },
+  "Syncrude ABPC-1 2010": {
+    "uri": "https://www.canlii.org/en/ab/abca/doc/2022/2022abca49/2022abca49.html",
+    "score": 0.9095418453216553,
+    "candidate_id": "2022abca49",
+    "candidate_title": "JM v EM",
+    "query_text": "decision | R v Syncrude | Syncrude judgement | 2010 ABPC 229",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2022/2022abca49/2022abca49.html",
+        "score": 0.9095418453216553,
+        "candidate_title": "JM v EM"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abpc/doc/2016/2016abpc82/2016abpc82.html",
+        "score": 0.9086334705352783,
+        "candidate_title": "R. v. Dyck"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abpc/doc/2020/2020abpc212/2020abpc212.html",
+        "score": 0.9079450368881226,
+        "candidate_title": "R v Harvey"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2012/2012abca80/2012abca80.html",
+        "score": 0.9079442620277405,
+        "candidate_title": "R. v Biccum"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2024/2024abca2/2024abca2.html",
+        "score": 0.9044015407562256,
+        "candidate_title": "R v Bakko"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abpc/doc/2014/2014abpc98/2014abpc98.html",
+        "score": 0.9040800333023071,
+        "candidate_title": "R v Bernesky"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2009/2009bcsc53/2009bcsc53.html",
+        "score": 0.9037997722625732,
+        "candidate_title": "Westcoast Landfill v. CVRD"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncj/doc/2009/2009oncj471/2009oncj471.html",
+        "score": 0.9033026695251465,
+        "candidate_title": "R. v. Cuttell"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/absra/doc/2021/2021absra102/2021absra102.html",
+        "score": 0.9032885432243347,
+        "candidate_title": "Pettis (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2022/2022abca135/2022abca135.html",
+        "score": 0.9030997157096863,
+        "candidate_title": "R v KN"
+      }
+    ]
+  },
+  "Rizzo Shoes": {
+    "uri": "https://www.canlii.org/en/ab/abca/doc/2024/2024abca2/2024abca2.html",
+    "score": 0.9150441884994507,
+    "candidate_id": "2024abca2",
+    "candidate_title": "R v Bakko",
+    "query_text": "decision | Rizzo\n&amp; Rizzo Shoes Ltd. (Re) | Rizzo Shoes | [1998] 1 SCR 27",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2024/2024abca2/2024abca2.html",
+        "score": 0.9150441884994507,
+        "candidate_title": "R v Bakko"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2005/2005canlii16614/2005canlii16614.html",
+        "score": 0.9129980206489563,
+        "candidate_title": "R. v. Hatcher"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2012/2012onca18/2012onca18.html",
+        "score": 0.9126126766204834,
+        "candidate_title": "R. v. Tran"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2008/2008canlii47017/2008canlii47017.html",
+        "score": 0.9121881127357483,
+        "candidate_title": "Adler (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1999/1999canlii14868/1999canlii14868.html",
+        "score": 0.91197270154953,
+        "candidate_title": "Edac Inc. v. Tullo"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2012/2012onsc1301/2012onsc1301.html",
+        "score": 0.9118368029594421,
+        "candidate_title": "Cle Leasing Enterprises Ltd. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2017/2017onsc47/2017onsc47.html",
+        "score": 0.9112111330032349,
+        "candidate_title": "Cook v Hatch Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncj/doc/2009/2009oncj471/2009oncj471.html",
+        "score": 0.910774827003479,
+        "candidate_title": "R. v. Cuttell"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2004/2004canlii11271/2004canlii11271.html",
+        "score": 0.9105877876281738,
+        "candidate_title": "Dagarsho Holdings Ltd. v. Bluestone"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1997/1997canlii12342/1997canlii12342.html",
+        "score": 0.9102349281311035,
+        "candidate_title": "Guerra v. Alexander Metal Products (1965) Ltd."
+      }
+    ]
+  },
+  "Vavilov": {
+    "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc1544/2019fc1544.html",
+    "score": 0.9173800945281982,
+    "candidate_id": "2019fct1544",
+    "candidate_title": "Li v. Canada (Citizenship and Immigration)",
+    "query_text": "decision | Canada\n(Minister of Citizenship and Immigration) v Vavilov | 2019 SCC 65",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc1544/2019fc1544.html",
+        "score": 0.9173800945281982,
+        "candidate_title": "Li v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc880/2019fc880.html",
+        "score": 0.9163593053817749,
+        "candidate_title": "Okojie v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc870/2019fc870.html",
+        "score": 0.9158896207809448,
+        "candidate_title": "Zhang v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2016/2016onsc4191/2016onsc4191.html",
+        "score": 0.9152016639709473,
+        "candidate_title": "Bryce v Ontario (The Environment and Climate Change)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2024/2024fc385/2024fc385.html",
+        "score": 0.9136553406715393,
+        "candidate_title": "Yang v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc341/2019fc341.html",
+        "score": 0.9127740859985352,
+        "candidate_title": "Shang v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc938/2019fc938.html",
+        "score": 0.91260826587677,
+        "candidate_title": "Zhang v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc95/2019fc95.html",
+        "score": 0.9121048450469971,
+        "candidate_title": "Li v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2004/2004fc1482/2004fc1482.html",
+        "score": 0.9117677211761475,
+        "candidate_title": "Perez v. Canada (Minister of Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2015/2015fc1043/2015fc1043.html",
+        "score": 0.9111994504928589,
+        "candidate_title": "De Azeem v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "Syncrude ABPC-2 2010": {
+    "uri": "https://www.canlii.org/en/mb/mbca/doc/2019/2019mbca109/2019mbca109.html",
+    "score": 0.8912523984909058,
+    "candidate_id": "2019mbca109",
+    "candidate_title": "R v Weldekidan",
+    "query_text": "decision | R v Syncrude | Syncrude non-suit ruling | Syncrude\nnon-suit ruling | 2010 ABPC 154",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2019/2019mbca109/2019mbca109.html",
+        "score": 0.8912523984909058,
+        "candidate_title": "R v Weldekidan"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsuarb/doc/2020/2020nsuarb18/2020nsuarb18.html",
+        "score": 0.890227198600769,
+        "candidate_title": "Maceachern (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncat/doc/2021/2021oncat72/2021oncat72.html",
+        "score": 0.8883053660392761,
+        "candidate_title": "Mawji v. York Condominium Corporation No. 415"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/absra/doc/2021/2021absra592/2021absra592.html",
+        "score": 0.8877819776535034,
+        "candidate_title": "Korecki (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2009/2009bcsc53/2009bcsc53.html",
+        "score": 0.8870229721069336,
+        "candidate_title": "Westcoast Landfill v. CVRD"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2001/2001bcsc367/2001bcsc367.html",
+        "score": 0.8867231607437134,
+        "candidate_title": "Taberner v. Ernest & Twins Developments"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2006/2006bcsc12/2006bcsc12.html",
+        "score": 0.8863252401351929,
+        "candidate_title": "Telus Communications Re: Ruling No. 1"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abtsb/doc/2018/2018abtsb1115/2018abtsb1115.html",
+        "score": 0.8856840133666992,
+        "candidate_title": "MacKinnon (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2017/2017mbca117/2017mbca117.html",
+        "score": 0.8856433629989624,
+        "candidate_title": "G (JD) v G (SL)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2022/2022mbca7/2022mbca7.html",
+        "score": 0.8851698637008667,
+        "candidate_title": "Dhalla v College of Physicians and Surgeons of Manitoba"
+      }
+    ]
+  },
+  "Dekker": {
+    "uri": "https://www.canlii.org/en/on/onhparb/doc/2019/2019canlii45562/2019canlii45562.html",
+    "score": 0.9340389966964722,
+    "candidate_id": "2019onhparb1000178",
+    "candidate_title": "A.L.W. v T.B.",
+    "query_text": "decision | <i>Dekker v C.E.P.</i> | [2011] Alta. L.R.B.R. LD-011 (Alberta Labour Relations Board)",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onhparb/doc/2019/2019canlii45562/2019canlii45562.html",
+        "score": 0.9340389966964722,
+        "candidate_title": "A.L.W. v T.B."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncj/doc/2015/2015oncj94/2015oncj94.html",
+        "score": 0.9305858612060547,
+        "candidate_title": "F.D.M. v. K.O.W."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncj/doc/2007/2007oncj170/2007oncj170.html",
+        "score": 0.9284058213233948,
+        "candidate_title": "H.F. v. P.F."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2014/2014onca141/2014onca141.html",
+        "score": 0.9261277318000793,
+        "candidate_title": "R. v. T.A.P."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2012/2012onsc2748/2012onsc2748.html",
+        "score": 0.9244730472564697,
+        "candidate_title": "R. v. Dunn"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1983/1983canlii5316/1983canlii5316.html",
+        "score": 0.9230445623397827,
+        "candidate_title": "R. v. P.M."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncj/doc/2015/2015oncj399/2015oncj399.html",
+        "score": 0.9214216470718384,
+        "candidate_title": "A.C. v. G.K."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2018/2018onsc2731/2018onsc2731.html",
+        "score": 0.9211496114730835,
+        "candidate_title": "R. v. Sibbert"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2011/2011onsc683/2011onsc683.html",
+        "score": 0.9211000800132751,
+        "candidate_title": "K.T. v. Vranich"
+      },
+      {
+        "uri": "https://canlii.ca/t/1vtm7",
+        "score": 0.9206090569496155,
+        "candidate_title": "M. v. H."
+      }
+    ]
+  },
+  "ASL Paving": {
+    "uri": "https://www.canlii.org/en/on/onlat/doc/2022/2022canlii84682/2022canlii84682.html",
+    "score": 0.9254329204559326,
+    "candidate_id": "2022onlat1002946",
+    "candidate_title": "J. D. v Intact Insurance Company",
+    "query_text": "decision | <i>R v ASL Paving Ltd.</i> | [1995] AWLD 430\n(ABCA)",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onlat/doc/2022/2022canlii84682/2022canlii84682.html",
+        "score": 0.9254329204559326,
+        "candidate_title": "J. D. v Intact Insurance Company"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1996/1996abca310/1996abca310.html",
+        "score": 0.9246417284011841,
+        "candidate_title": "R. v. Lucier"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncj/doc/2008/2008oncj615/2008oncj615.html",
+        "score": 0.9232950806617737,
+        "candidate_title": "Peers v. Poupore"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1998/1998canlii14950/1998canlii14950.html",
+        "score": 0.9232844710350037,
+        "candidate_title": "R. v. Duong"
+      },
+      {
+        "uri": "https://canlii.ca/t/1vtm7",
+        "score": 0.9226380586624146,
+        "candidate_title": "M. v. H."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2003/2003canlii64244/2003canlii64244.html",
+        "score": 0.9224278330802917,
+        "candidate_title": "R. v. Clarke"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1998/1998canlii5811/1998canlii5811.html",
+        "score": 0.9219026565551758,
+        "candidate_title": "Budd v. Gentra Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2004/2004canlii11271/2004canlii11271.html",
+        "score": 0.921805202960968,
+        "candidate_title": "Dagarsho Holdings Ltd. v. Bluestone"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2014/2014onca871/2014onca871.html",
+        "score": 0.9215091466903687,
+        "candidate_title": "Kara v. Arnold"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2004/2004canlii46216/2004canlii46216.html",
+        "score": 0.9213185906410217,
+        "candidate_title": "R. v. Hall"
+      }
+    ]
+  },
+  "EPEA": {
+    "uri": "https://www.canlii.org/en/pe/laws/stat/rspei-1988-c-e-9/latest/rspei-1988-c-e-9.html",
+    "score": 0.9125958681106567,
+    "candidate_id": "l26878!26878-current-1",
+    "candidate_title": "Environmental Protection Act",
+    "query_text": "legislation | EPEA | Environmental Protection and Enhancement Act | <i>EPEA</i>",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/pe/laws/stat/rspei-1988-c-e-9/latest/rspei-1988-c-e-9.html",
+        "score": 0.9125958681106567,
+        "candidate_title": "Environmental Protection Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-111/latest/rsbc-1996-c-111.html",
+        "score": 0.906565248966217,
+        "candidate_title": "Emergency Program Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wh2",
+        "score": 0.9051615595817566,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vzq",
+        "score": 0.9051615595817566,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/laws/stat/sns-2004-c-4/latest/sns-2004-c-4.html",
+        "score": 0.9025632739067078,
+        "candidate_title": "Health Protection Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/laws/astat/sns-2014-c-13/latest/sns-2014-c-13.html",
+        "score": 0.9016987681388855,
+        "candidate_title": "Education Act (amended)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-433/latest/rsbc-1996-c-433.html",
+        "score": 0.9009531140327454,
+        "candidate_title": "Society Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-468/latest/rsbc-1996-c-468.html",
+        "score": 0.9004298448562622,
+        "candidate_title": "University Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56q11",
+        "score": 0.8989355564117432,
+        "candidate_title": "Environmental Assessment Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-72/latest/rsbc-1996-c-72.html",
+        "score": 0.8984748125076294,
+        "candidate_title": "Coroners Act"
+      }
+    ]
+  },
+  "Administrative Penalty Regulation": {
+    "uri": "https://canlii.ca/t/56w7m",
+    "score": 0.9001762866973877,
+    "candidate_id": "l18667!18667-current-1",
+    "candidate_title": "Administrative Penalty Regulation",
+    "query_text": "legislation | <i>Administrative\nPenalty Regulation</i> | Administrative Penalty Regulation | Administrative\nPenalty Regulation | regulation | <i>Administrative Penalty Regulation</i> | <i>Administrative Penalty\nRegulation</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56w7m",
+        "score": 0.9001762866973877,
+        "candidate_title": "Administrative Penalty Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wnv",
+        "score": 0.8761316537857056,
+        "candidate_title": "Administrative penalties (Environmental Management Act) Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/regu/bc-reg-9-98/latest/bc-reg-9-98.html",
+        "score": 0.8682408332824707,
+        "candidate_title": "Drug Schedules Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/laws/regu/nb-reg-2009-24/latest/nb-reg-2009-24.html",
+        "score": 0.8663305044174194,
+        "candidate_title": "Casino Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-276-1995/latest/alta-reg-276-1995.html",
+        "score": 0.8656241297721863,
+        "candidate_title": "Civil Enforcement Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/qc/laws/regu/cqlr-c-v-1.1-r-21/latest/cqlr-c-v-1.1-r-21.html",
+        "score": 0.8650912046432495,
+        "candidate_title": "Regulation 45-106 respecting prospectus and registration exemptions"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vxx",
+        "score": 0.8611595630645752,
+        "candidate_title": "General Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g20",
+        "score": 0.860919713973999,
+        "candidate_title": "Customs Tariff"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w3x",
+        "score": 0.8604798913002014,
+        "candidate_title": "Police Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+        "score": 0.8604587912559509,
+        "candidate_title": "Interpretation Act"
+      }
+    ]
+  },
+  "REDA": {
+    "uri": "https://canlii.ca/t/56k8d",
+    "score": 0.9257849454879761,
+    "candidate_id": "l36872!36872-current-1",
+    "candidate_title": "Responsible Energy Development Act",
+    "query_text": "legislation | Responsible\nEnergy Development Act | REDA",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56k8d",
+        "score": 0.9257849454879761,
+        "candidate_title": "Responsible Energy Development Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/sbc-2010-c-22/latest/sbc-2010-c-22.html",
+        "score": 0.9079334735870361,
+        "candidate_title": "Clean Energy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/kzbn",
+        "score": 0.8938784599304199,
+        "candidate_title": "Energy Resources Conservation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-125/latest/rsbc-1996-c-125.html",
+        "score": 0.8922709822654724,
+        "candidate_title": "Expropriation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-111/latest/rsbc-1996-c-111.html",
+        "score": 0.8913729190826416,
+        "candidate_title": "Emergency Program Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53q4n",
+        "score": 0.8906906843185425,
+        "candidate_title": "Clean Water Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-a-1/latest/rsa-2000-c-a-1.html",
+        "score": 0.8897309899330139,
+        "candidate_title": "ABC Benefits Corporation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/sbc-2002-c-24/latest/sbc-2002-c-24.html",
+        "score": 0.8888880610466003,
+        "candidate_title": "Degree Authorization Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-163/latest/rsbc-1996-c-163.html",
+        "score": 0.8881784677505493,
+        "candidate_title": "Fraudulent Conveyance Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56c1p",
+        "score": 0.8880751132965088,
+        "candidate_title": "Environmental Management Act"
+      }
+    ]
+  },
+  "Alberta Energy Regulator Rules of Practice": {
+    "uri": "https://canlii.ca/t/56pvt",
+    "score": 0.9133094549179077,
+    "candidate_id": "l37442!37442-current-1",
+    "candidate_title": "Alberta Energy Regulator Rules of Practice",
+    "query_text": "legislation | <i>Alberta Energy Regulator Rules of Practice</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56pvt",
+        "score": 0.9133094549179077,
+        "candidate_title": "Alberta Energy Regulator Rules of Practice"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/regu/rrs-c-r-8.2-reg-5/latest/rrs-c-r-8.2-reg-5.html",
+        "score": 0.8942193984985352,
+        "candidate_title": "Practitioner Staff Appeals Regulations"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v6x",
+        "score": 0.8929305672645569,
+        "candidate_title": "Alberta Rules of Court"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/snl-1996-c-j-1.1/latest/snl-1996-c-j-1.1.html",
+        "score": 0.8871802091598511,
+        "candidate_title": "Judgment Enforcement Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/regu/bc-reg-9-98/latest/bc-reg-9-98.html",
+        "score": 0.8859075307846069,
+        "candidate_title": "Drug Schedules Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-14-1997/latest/alta-reg-14-1997.html",
+        "score": 0.8852186799049377,
+        "candidate_title": "Employment Standards Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/pe/laws/stat/rspei-1988-c-e-9/latest/rspei-1988-c-e-9.html",
+        "score": 0.8847824335098267,
+        "candidate_title": "Environmental Protection Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-468/latest/rsbc-1996-c-468.html",
+        "score": 0.8845461010932922,
+        "candidate_title": "University Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-125/latest/rsbc-1996-c-125.html",
+        "score": 0.8833760619163513,
+        "candidate_title": "Expropriation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-h-14/latest/rsnl-1990-c-h-14.html",
+        "score": 0.8831608891487122,
+        "candidate_title": "Human Rights Code"
+      }
+    ]
+  },
+  "Interpretation Act": {
+    "uri": "https://canlii.ca/t/56kzw",
+    "score": 0.8646639585494995,
+    "candidate_id": "l17918!17918-current-1",
+    "candidate_title": "Interpretation Act",
+    "query_text": "legislation | Interpretation Act | Interpretation\nAct",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56kzw",
+        "score": 0.8646639585494995,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/566gg",
+        "score": 0.8521799445152283,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56p19",
+        "score": 0.8496805429458618,
+        "candidate_title": "Election Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vg3",
+        "score": 0.8472874164581299,
+        "candidate_title": "Judicial Review Procedure Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56q11",
+        "score": 0.8468705415725708,
+        "candidate_title": "Environmental Assessment Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vxm",
+        "score": 0.8458011150360107,
+        "candidate_title": "School Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/sbc-2010-c-22/latest/sbc-2010-c-22.html",
+        "score": 0.8448745012283325,
+        "candidate_title": "Clean Energy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/jjd9",
+        "score": 0.8446142673492432,
+        "candidate_title": "Condominium Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-a-14/latest/rsnl-1990-c-a-14.html",
+        "score": 0.8440569043159485,
+        "candidate_title": "Arbitration Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56c1p",
+        "score": 0.8433239459991455,
+        "candidate_title": "Environmental Management Act"
+      }
+    ]
+  },
+  "Merriam-Webster Online Dictionary": {
+    "uri": "https://www.canlii.org/en/nl/nlipc/doc/2017/2017canlii37267/2017canlii37267.html",
+    "score": 0.8036845922470093,
+    "candidate_id": "2017nlipc1000014",
+    "candidate_title": "Memorial University of Newfoundland (Re)",
+    "query_text": "secondary sources | Merriam-Webster Online Dictionary",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/nl/nlipc/doc/2017/2017canlii37267/2017canlii37267.html",
+        "score": 0.8036845922470093,
+        "candidate_title": "Memorial University of Newfoundland (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-h-14/latest/rsnl-1990-c-h-14.html",
+        "score": 0.7980111837387085,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 0.7959808707237244,
+        "candidate_title": "Human Rights Code"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onipc/doc/2001/2001canlii26085/2001canlii26085.html",
+        "score": 0.7955992817878723,
+        "candidate_title": "Royal Ontario Museum (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2021/2021bcipc15/2021bcipc15.html",
+        "score": 0.7947321534156799,
+        "candidate_title": "White Rock (City) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/sx35",
+        "score": 0.7947047352790833,
+        "candidate_title": "The Canadian Law of Judicial Review: A Plea for Doctrinal Coherence and Consistency."
+      },
+      {
+        "uri": "https://canlii.ca/t/gfx4z",
+        "score": 0.7942650318145752,
+        "candidate_title": "London District Catholic School Board (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2021CanLIIDocs13058",
+        "score": 0.7936002612113953,
+        "candidate_title": "Les certitudes du droit - The Plain Meaning Rule and Other Ways to Cheat at Statutory Interpretation"
+      },
+      {
+        "uri": "https://canlii.ca/t/k9zcz",
+        "score": 0.7932406067848206,
+        "candidate_title": "MegumaGold Corp. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/sk90",
+        "score": 0.7921130657196045,
+        "candidate_title": "Unreasonable Interpretations of Law"
+      }
+    ]
+  }
+}

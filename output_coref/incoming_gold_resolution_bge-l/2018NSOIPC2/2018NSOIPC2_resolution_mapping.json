@@ -1,0 +1,2244 @@
+{
+  "Department of Community Services": {
+    "uri": "https://canlii.ca/t/hrx0s",
+    "score": 0.7767238616943359,
+    "candidate_id": "2018nsfoipop2",
+    "candidate_title": "Department of Community Services (Re)",
+    "query_text": "decision | 2018\nNSOIPC 02",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hrx0s",
+        "score": 0.7767238616943359,
+        "candidate_title": "Department of Community Services (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gx00h",
+        "score": 0.7382386326789856,
+        "candidate_title": "Nova Scotia (Justice) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsfoipop/doc/2019/2019nsoipc19/2019nsoipc19.html",
+        "score": 0.7192162275314331,
+        "candidate_title": "Department of Intergovernmental Affairs (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h4dfc",
+        "score": 0.6934500336647034,
+        "candidate_title": "Halifax Regional Municipality (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsfoipop/doc/2016/2016nsoipc1/2016nsoipc1.html",
+        "score": 0.6920667290687561,
+        "candidate_title": "Nova Scotia Business Inc. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gvjlb",
+        "score": 0.6915903687477112,
+        "candidate_title": "Department of Business (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gvjld",
+        "score": 0.6896524429321289,
+        "candidate_title": "South Shore Regional School Board (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsuarb/doc/2020/2020nsuarb18/2020nsuarb18.html",
+        "score": 0.6759716272354126,
+        "candidate_title": "Maceachern (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2011/2011nsca12/2011nsca12.html",
+        "score": 0.6736109256744385,
+        "candidate_title": "R. v. Barton"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsuarb/doc/2020/2020nsuarb15/2020nsuarb15.html",
+        "score": 0.6675184965133667,
+        "candidate_title": "Curry (Re)"
+      }
+    ]
+  },
+  "Ministry of Agriculture and Food": {
+    "uri": "https://canlii.ca/t/1gd9b",
+    "score": 0.8310510516166687,
+    "candidate_id": "2001bcipc10015",
+    "candidate_title": "Ministry of Agriculture and Food, Re",
+    "query_text": "decision | F01-15 | 2001 CanLII\n21569 (BC IPC) | Order 01-15 | 2001 CanLII 21569\n(BC IPC)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1gd9b",
+        "score": 0.8310510516166687,
+        "candidate_title": "Ministry of Agriculture and Food, Re"
+      },
+      {
+        "uri": "https://canlii.ca/t/gh0jg",
+        "score": 0.7468370795249939,
+        "candidate_title": "Ontario (Finance) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2015/2015fc1210/2015fc1210.html",
+        "score": 0.7396280765533447,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2001/2001fct789/2001fct789.html",
+        "score": 0.7356008291244507,
+        "candidate_title": "Allard c. Canada (Procureur Général)"
+      },
+      {
+        "uri": "https://canlii.ca/t/58tw",
+        "score": 0.7305997610092163,
+        "candidate_title": "K.L.B. v. British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ff19",
+        "score": 0.7277343273162842,
+        "candidate_title": "Martin c. Espinhal"
+      },
+      {
+        "uri": "https://canlii.ca/t/4jzb",
+        "score": 0.7267056703567505,
+        "candidate_title": "3430901 Canada Inc. v. Canada (Minister of Industry) (C.A.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2021/2021fc459/2021fc459.html",
+        "score": 0.7255629301071167,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gm8wn",
+        "score": 0.7236498594284058,
+        "candidate_title": "B010 v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2001/2001fct1329/2001fct1329.html",
+        "score": 0.7228545546531677,
+        "candidate_title": "Cooper v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Victoria": {
+    "uri": "https://canlii.ca/t/g0hd8",
+    "score": 0.8044036030769348,
+    "candidate_id": "2013bcipc22",
+    "candidate_title": "Victoria (City) (Re)",
+    "query_text": "decision | F13-17 | 2013 BCIPC 22\n(CanLII) | Order\nF13-17 | 2013 BCIPC 22 (CanLII)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g0hd8",
+        "score": 0.8044036030769348,
+        "candidate_title": "Victoria (City) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h50wj",
+        "score": 0.746404230594635,
+        "candidate_title": "Chartered Professional Accountants of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2013/2013fc1023/2013fc1023.html",
+        "score": 0.745322585105896,
+        "candidate_title": "Kaur v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2018/2018bcipc36/2018bcipc36.html",
+        "score": 0.7437880635261536,
+        "candidate_title": "Law Society of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2020/2020fc161/2020fc161.html",
+        "score": 0.7435266375541687,
+        "candidate_title": "9255-2504 Québec Inc. v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc287/2017fc287.html",
+        "score": 0.7434685230255127,
+        "candidate_title": "Liang v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2018/2018fc22/2018fc22.html",
+        "score": 0.7409244179725647,
+        "candidate_title": "Ferraro v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hp4jt",
+        "score": 0.7404281497001648,
+        "candidate_title": "University of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2013/2013fc686/2013fc686.html",
+        "score": 0.7362686395645142,
+        "candidate_title": "Villamil v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h3pm1",
+        "score": 0.7362138032913208,
+        "candidate_title": "Worksafebc (Re)"
+      }
+    ]
+  },
+  "British Columbia (Jobs, Tourism and Skills Training)": {
+    "uri": "https://canlii.ca/t/glvnv",
+    "score": 0.7783306837081909,
+    "candidate_id": "2015bcipc62",
+    "candidate_title": "British Columbia (Jobs, Tourism and Skills Training) (Re)",
+    "query_text": "decision | F15-59 | 2015\nBCIPC 62 (CanLII) | Order F15-59",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/glvnv",
+        "score": 0.7783306837081909,
+        "candidate_title": "British Columbia (Jobs, Tourism and Skills Training) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc915/2019fc915.html",
+        "score": 0.7557710409164429,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2015/2015fc1061/2015fc1061.html",
+        "score": 0.7511346936225891,
+        "candidate_title": "Ali v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc595/2017fc595.html",
+        "score": 0.7491766810417175,
+        "candidate_title": "Pascal v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2015/2015fc871/2015fc871.html",
+        "score": 0.7487448453903198,
+        "candidate_title": "Kachi v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc1638/2022fc1638.html",
+        "score": 0.746052622795105,
+        "candidate_title": "Ali v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2015/2015fc1210/2015fc1210.html",
+        "score": 0.7432897686958313,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2015/2015fc459/2015fc459.html",
+        "score": 0.7429844737052917,
+        "candidate_title": "Li v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2015/2015fc80/2015fc80.html",
+        "score": 0.7404530644416809,
+        "candidate_title": "Devadawson  v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2020/2020fc595/2020fc595.html",
+        "score": 0.73960942029953,
+        "candidate_title": "Nti v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "Vancouver Island Health Authority BCIPC 2015": {
+    "uri": "https://canlii.ca/t/gjvjk",
+    "score": 0.7725114822387695,
+    "candidate_id": "2015bcipc25",
+    "candidate_title": "Vancouver Island Health Authority (Re)",
+    "query_text": "decision | F15-23 | 2015 BCIPC 25\n(CanLII) | Order F15-23 | 2015 BCIPC 25 (CanLII) | BC Order 15-23",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gjvjk",
+        "score": 0.7725114822387695,
+        "candidate_title": "Vancouver Island Health Authority (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2015/2015fc1210/2015fc1210.html",
+        "score": 0.750066876411438,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2017/2017bcipc47/2017bcipc47.html",
+        "score": 0.7470199465751648,
+        "candidate_title": "British Columbia (Finance) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2025/2025fc1846/2025fc1846.html",
+        "score": 0.7426530122756958,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h3pm1",
+        "score": 0.7405538558959961,
+        "candidate_title": "Worksafebc (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/glvnv",
+        "score": 0.7405096888542175,
+        "candidate_title": "British Columbia (Jobs, Tourism and Skills Training) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc915/2019fc915.html",
+        "score": 0.739687979221344,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2017/2017bcsc303/2017bcsc303.html",
+        "score": 0.7382718324661255,
+        "candidate_title": "8640025 Canada Inc. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2015/2015fc459/2015fc459.html",
+        "score": 0.7365331649780273,
+        "candidate_title": "Li v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc1638/2022fc1638.html",
+        "score": 0.7362247705459595,
+        "candidate_title": "Ali v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "British Columbia (Public Safety and Solicitor General)": {
+    "uri": "https://canlii.ca/t/h2zs1",
+    "score": 0.7741367816925049,
+    "candidate_id": "2017bcipc9",
+    "candidate_title": "British Columbia (Public Safety and Solicitor General)",
+    "query_text": "decision | F17-08 | 2017 BCIPC 9\n(CanLII) | Order F17-08 | 2017 BCIPC 9 (CanLII)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h2zs1",
+        "score": 0.7741367816925049,
+        "candidate_title": "British Columbia (Public Safety and Solicitor General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2017/2017bcipc47/2017bcipc47.html",
+        "score": 0.7594413757324219,
+        "candidate_title": "British Columbia (Finance) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hp4jt",
+        "score": 0.7577459812164307,
+        "candidate_title": "University of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc1188/2017fc1188.html",
+        "score": 0.7550675868988037,
+        "candidate_title": "Bilbili v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2018/2018bcipc36/2018bcipc36.html",
+        "score": 0.7540045380592346,
+        "candidate_title": "Law Society of British Columbia (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h50wj",
+        "score": 0.7530813813209534,
+        "candidate_title": "Chartered Professional Accountants of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc719/2017fc719.html",
+        "score": 0.7440569400787354,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h3pm1",
+        "score": 0.7377216815948486,
+        "candidate_title": "Worksafebc (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h3g0c",
+        "score": 0.7368171215057373,
+        "candidate_title": "Vancouver (City) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2008/2008fc797/2008fc797.html",
+        "score": 0.7366611957550049,
+        "candidate_title": "MCI v. Singh Dhaliwal"
+      }
+    ]
+  },
+  "Vancouver Island Health Authority BCIPC 2017": {
+    "uri": "https://www.canlii.org/en/bc/bcipc/doc/2017/2017bcipc47/2017bcipc47.html",
+    "score": 0.7752627730369568,
+    "candidate_id": "2017bcipc47",
+    "candidate_title": "British Columbia (Finance) (Re)",
+    "query_text": "decision | F17-13 | 2017 BCIPC 14 (CanLII) | Order F17-13 | Order F17-19",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2017/2017bcipc47/2017bcipc47.html",
+        "score": 0.7752627730369568,
+        "candidate_title": "British Columbia (Finance) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hp4jt",
+        "score": 0.7616680860519409,
+        "candidate_title": "University of British Columbia (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h3g0c",
+        "score": 0.7583208680152893,
+        "candidate_title": "Vancouver (City) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h50wj",
+        "score": 0.7576107382774353,
+        "candidate_title": "Chartered Professional Accountants of British Columbia (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h3pm1",
+        "score": 0.7566229104995728,
+        "candidate_title": "Worksafebc (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2020/2020fc161/2020fc161.html",
+        "score": 0.7556424140930176,
+        "candidate_title": "9255-2504 Québec Inc. v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc165/2022fc165.html",
+        "score": 0.7535713911056519,
+        "candidate_title": "Payrovedennabi v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2018/2018fc687/2018fc687.html",
+        "score": 0.7522622346878052,
+        "candidate_title": "Francois v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc1188/2017fc1188.html",
+        "score": 0.7493482828140259,
+        "candidate_title": "Bilbili v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc719/2017fc719.html",
+        "score": 0.7466039657592773,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "Vancouver (City)": {
+    "uri": "https://canlii.ca/t/h3g0c",
+    "score": 0.7718155980110168,
+    "candidate_id": "2017bcipc20",
+    "candidate_title": "Vancouver (City) (Re)",
+    "query_text": "decision | F17-19 | 2017 BCIPC 20\n(CanLII) | Order F17-19 | 2017\nBCIPC 20 (CanLII) | Order\nF17-19 | 2017 BCIPC 20 (CanLII)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h3g0c",
+        "score": 0.7718155980110168,
+        "candidate_title": "Vancouver (City) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2017/2017bcipc47/2017bcipc47.html",
+        "score": 0.7652320861816406,
+        "candidate_title": "British Columbia (Finance) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc1597/2019fc1597.html",
+        "score": 0.7575587630271912,
+        "candidate_title": "Holder v. UBS Bank (Canada)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2023/2023fc159/2023fc159.html",
+        "score": 0.7529824376106262,
+        "candidate_title": "Tehrani v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc266/2022fc266.html",
+        "score": 0.7500705718994141,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2018/2018fc687/2018fc687.html",
+        "score": 0.7475194931030273,
+        "candidate_title": "Francois v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hp4jt",
+        "score": 0.7463834285736084,
+        "candidate_title": "University of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc165/2022fc165.html",
+        "score": 0.74628746509552,
+        "candidate_title": "Payrovedennabi v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2023/2023scc20/2023scc20.html",
+        "score": 0.7435824275016785,
+        "candidate_title": "R. v. Kahsai"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2020/2020fc161/2020fc161.html",
+        "score": 0.7428548336029053,
+        "candidate_title": "9255-2504 Québec Inc. v. Canada"
+      }
+    ]
+  },
+  "Worksafebc": {
+    "uri": "https://www.canlii.org/en/ca/fct/doc/2021/2021fc229/2021fc229.html",
+    "score": 0.7548905611038208,
+    "candidate_id": "2021fct229",
+    "candidate_title": "Constantinescu c. Canada (Correctional Service)",
+    "query_text": "decision | F17-22 | <a href=\"http://canlii.ca/t/h3pm1\"><span style='font-size:12.0pt;\nfont-family:\"Times New Roman\",\"serif\"'>2017 BCIPC 23 (CanLII)</span></a> | Order F17-22 | 2017 BCIPC 23 (CanLII)",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2021/2021fc229/2021fc229.html",
+        "score": 0.7548905611038208,
+        "candidate_title": "Constantinescu c. Canada (Correctional Service)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2020/2020fc161/2020fc161.html",
+        "score": 0.7518512010574341,
+        "candidate_title": "9255-2504 Québec Inc. v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/h3pm1",
+        "score": 0.7495812773704529,
+        "candidate_title": "Worksafebc (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2018/2018fca23/2018fca23.html",
+        "score": 0.747006356716156,
+        "candidate_title": "Bernard v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2018/2018fc22/2018fc22.html",
+        "score": 0.7469438910484314,
+        "candidate_title": "Ferraro v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2023/2023fc1382/2023fc1382.html",
+        "score": 0.7430332899093628,
+        "candidate_title": "Hussain v. Canada (Revenue Agency)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc287/2017fc287.html",
+        "score": 0.7424923181533813,
+        "candidate_title": "Liang v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc165/2022fc165.html",
+        "score": 0.7369146347045898,
+        "candidate_title": "Payrovedennabi v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2017/2017bcipc47/2017bcipc47.html",
+        "score": 0.7363079786300659,
+        "candidate_title": "British Columbia (Finance) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc1645/2022fc1645.html",
+        "score": 0.7362260222434998,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "Chartered Professional Accountants": {
+    "uri": "https://canlii.ca/t/h50wj",
+    "score": 0.8090747594833374,
+    "candidate_id": "2017bcipc35",
+    "candidate_title": "Chartered Professional Accountants of British Columbia (Re)",
+    "query_text": "decision | F17-33 | 2017\nBCIPC 35 (CanLII) | Order F17-33 | 2017 BCIPC 35 (CanLII)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h50wj",
+        "score": 0.8090747594833374,
+        "candidate_title": "Chartered Professional Accountants of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2018/2018bcipc36/2018bcipc36.html",
+        "score": 0.7720825672149658,
+        "candidate_title": "Law Society of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2017/2017bcipc47/2017bcipc47.html",
+        "score": 0.7414276599884033,
+        "candidate_title": "British Columbia (Finance) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hp4jt",
+        "score": 0.7408287525177002,
+        "candidate_title": "University of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2017/2017bcsc303/2017bcsc303.html",
+        "score": 0.7377725839614868,
+        "candidate_title": "8640025 Canada Inc. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h3pm1",
+        "score": 0.734939455986023,
+        "candidate_title": "Worksafebc (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsec/doc/2017/2017bcseccom27/2017bcseccom27.html",
+        "score": 0.7341963052749634,
+        "candidate_title": "Re Cerisse"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2016/2016fca233/2016fca233.html",
+        "score": 0.7329216003417969,
+        "candidate_title": "3488063 Canada Inc. v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/lsbc/doc/2020/2020lsbc33/2020lsbc33.html",
+        "score": 0.7314172983169556,
+        "candidate_title": "Mcleod (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gvv12",
+        "score": 0.7291175127029419,
+        "candidate_title": "Canada (Citizenship and Immigration) v. Singh"
+      }
+    ]
+  },
+  "University of British Columbia": {
+    "uri": "https://canlii.ca/t/hp4jt",
+    "score": 0.8325960636138916,
+    "candidate_id": "2017bcipc56",
+    "candidate_title": "University of British Columbia (Re)",
+    "query_text": "decision | F17-51 | 2017 BCIPC 56\n(CanLII) | Order F17-51 | 2017 BCIPC 56 (CanLII)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hp4jt",
+        "score": 0.8325960636138916,
+        "candidate_title": "University of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2017/2017bcipc47/2017bcipc47.html",
+        "score": 0.7975625395774841,
+        "candidate_title": "British Columbia (Finance) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h3pm1",
+        "score": 0.7737739086151123,
+        "candidate_title": "Worksafebc (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h50wj",
+        "score": 0.7526334524154663,
+        "candidate_title": "Chartered Professional Accountants of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc165/2022fc165.html",
+        "score": 0.7490927577018738,
+        "candidate_title": "Payrovedennabi v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc266/2022fc266.html",
+        "score": 0.7489588856697083,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2018/2018fc687/2018fc687.html",
+        "score": 0.7472131848335266,
+        "candidate_title": "Francois v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h3g0c",
+        "score": 0.7445955276489258,
+        "candidate_title": "Vancouver (City) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2018/2018fc1127/2018fc1127.html",
+        "score": 0.742713451385498,
+        "candidate_title": "Ahmedin v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc719/2017fc719.html",
+        "score": 0.7420870065689087,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "Halifax Regional Municipality": {
+    "uri": "https://canlii.ca/t/h4dfc",
+    "score": 0.7978189587593079,
+    "candidate_id": "2017nsfoipop5",
+    "candidate_title": "Halifax Regional Municipality (Re)",
+    "query_text": "decision | FI-10-71 | 2017 NSOIPC 5\n(CanLII) | 17-05 | 2017 NSOIPC 5 (CanLII) | NS Review <a name=\"_Hlk511311215\">Report FI-10-71</a> | 2017\nNSOIPC 5 (CanLII) | NS\nReview Report <a name=\"_Hlk511312422\">17-05</a>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h4dfc",
+        "score": 0.7978189587593079,
+        "candidate_title": "Halifax Regional Municipality (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc165/2022fc165.html",
+        "score": 0.7546965479850769,
+        "candidate_title": "Payrovedennabi v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gx00h",
+        "score": 0.7544299364089966,
+        "candidate_title": "Nova Scotia (Justice) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc1125/2022fc1125.html",
+        "score": 0.7487480640411377,
+        "candidate_title": "Canada (Citizenship and Immigration) v. Safi"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc719/2017fc719.html",
+        "score": 0.7379342317581177,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc595/2017fc595.html",
+        "score": 0.7376576662063599,
+        "candidate_title": "Pascal v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc715/2017fc715.html",
+        "score": 0.7362738847732544,
+        "candidate_title": "Torres v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2020/2020fc595/2020fc595.html",
+        "score": 0.7344310879707336,
+        "candidate_title": "Nti v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h6ppd",
+        "score": 0.7337530255317688,
+        "candidate_title": "Nova Scotia (Health and Wellness) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc915/2019fc915.html",
+        "score": 0.7291629910469055,
+        "candidate_title": "Singh v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "Department of Business": {
+    "uri": "https://canlii.ca/t/gvjlb",
+    "score": 0.8179231286048889,
+    "candidate_id": "2016nsfoipop10",
+    "candidate_title": "Department of Business (Re)",
+    "query_text": "decision | 16-10 | <a name=\"_Hlk511656919\"></a><a href=\"http://canlii.ca/t/gvjlb\">2016 NSOIPC 10\n(CanLII)</a> | NS Review Report 16-10 | NS Review Report\n16-10 | 2016 NSOIPC 10\n(CanLII)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gvjlb",
+        "score": 0.8179231286048889,
+        "candidate_title": "Department of Business (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsfoipop/doc/2016/2016nsoipc1/2016nsoipc1.html",
+        "score": 0.7708284854888916,
+        "candidate_title": "Nova Scotia Business Inc. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gvjld",
+        "score": 0.7620797753334045,
+        "candidate_title": "South Shore Regional School Board (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nu/nuipc/doc/2016/2016nuipc12/2016nuipc12.html",
+        "score": 0.7441472411155701,
+        "candidate_title": "Review Report 16-108 (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gx00h",
+        "score": 0.7348634004592896,
+        "candidate_title": "Nova Scotia (Justice) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc165/2022fc165.html",
+        "score": 0.7342777252197266,
+        "candidate_title": "Payrovedennabi v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsfoipop/doc/2016/2016nsoipc3/2016nsoipc3.html",
+        "score": 0.7327010631561279,
+        "candidate_title": "Department of Community Services (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gpfth",
+        "score": 0.7272326350212097,
+        "candidate_title": "Daniels v. Canada (Indian Affairs and Northern Development)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsuarb/doc/2011/2011nsuarb99/2011nsuarb99.html",
+        "score": 0.727069079875946,
+        "candidate_title": "Efficiency Nova Scotia Corporation (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h4dfc",
+        "score": 0.7251660823822021,
+        "candidate_title": "Halifax Regional Municipality (Re)"
+      }
+    ]
+  },
+  "South Shore Regional School Board": {
+    "uri": "https://canlii.ca/t/gvjld",
+    "score": 0.8141869902610779,
+    "candidate_id": "2016nsfoipop12",
+    "candidate_title": "South Shore Regional School Board (Re)",
+    "query_text": "decision | 16-12 | 2016 NSOIPC 12\n(CanLII) | NS Review\nReport 16-12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gvjld",
+        "score": 0.8141869902610779,
+        "candidate_title": "South Shore Regional School Board (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsfoipop/doc/2016/2016nsoipc1/2016nsoipc1.html",
+        "score": 0.7926722764968872,
+        "candidate_title": "Nova Scotia Business Inc. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nu/nuipc/doc/2016/2016nuipc12/2016nuipc12.html",
+        "score": 0.7887248396873474,
+        "candidate_title": "Review Report 16-108 (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gvjlb",
+        "score": 0.7758926153182983,
+        "candidate_title": "Department of Business (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gpfth",
+        "score": 0.7645164728164673,
+        "candidate_title": "Daniels v. Canada (Indian Affairs and Northern Development)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gx00h",
+        "score": 0.7585881948471069,
+        "candidate_title": "Nova Scotia (Justice) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsfoipop/doc/2016/2016nsoipc3/2016nsoipc3.html",
+        "score": 0.7583886981010437,
+        "candidate_title": "Department of Community Services (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hrx0s",
+        "score": 0.7331376671791077,
+        "candidate_title": "Department of Community Services (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h4dfc",
+        "score": 0.728636622428894,
+        "candidate_title": "Halifax Regional Municipality (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc165/2022fc165.html",
+        "score": 0.7252936959266663,
+        "candidate_title": "Payrovedennabi v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "Nova Scotia (Justice)": {
+    "uri": "https://canlii.ca/t/gx00h",
+    "score": 0.8597676753997803,
+    "candidate_id": "2017nsfoipop1",
+    "candidate_title": "Nova Scotia (Justice) (Re)",
+    "query_text": "decision | 17-01 | 2017\nNSOIPC 1 (CanLII) | NS Review Report\n17-01 | 2017 NSOIPC 1 (CanLII)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gx00h",
+        "score": 0.8597676753997803,
+        "candidate_title": "Nova Scotia (Justice) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsfoipop/doc/2016/2016nsoipc1/2016nsoipc1.html",
+        "score": 0.7732656598091125,
+        "candidate_title": "Nova Scotia Business Inc. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h4dfc",
+        "score": 0.7722783088684082,
+        "candidate_title": "Halifax Regional Municipality (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h6ppd",
+        "score": 0.7580052614212036,
+        "candidate_title": "Nova Scotia (Health and Wellness) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsfoipop/doc/2019/2019nsoipc19/2019nsoipc19.html",
+        "score": 0.7488737106323242,
+        "candidate_title": "Department of Intergovernmental Affairs (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hrx0s",
+        "score": 0.7312003970146179,
+        "candidate_title": "Department of Community Services (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onwsiat/doc/2017/2017onwsiat2495/2017onwsiat2495.html",
+        "score": 0.7108671069145203,
+        "candidate_title": "Decision No. 2347/17"
+      },
+      {
+        "uri": "https://canlii.ca/t/gvjlb",
+        "score": 0.7072609663009644,
+        "candidate_title": "Department of Business (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc165/2022fc165.html",
+        "score": 0.7066718935966492,
+        "candidate_title": "Payrovedennabi v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2023/2023skca17/2023skca17.html",
+        "score": 0.7062250375747681,
+        "candidate_title": "Bouvier v Bouvier"
+      }
+    ]
+  },
+  "Nova Scotia (Health and Wellness)": {
+    "uri": "https://canlii.ca/t/h6ppd",
+    "score": 0.8317496180534363,
+    "candidate_id": "2017nsfoipop8",
+    "candidate_title": "Nova Scotia (Health and Wellness) (Re)",
+    "query_text": "decision | 17-08 | 2017 NSOIPC 8\n(CanLII) | NS Review Report\n17-08 | 2017 NSOIPC 8 (CanLII)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h6ppd",
+        "score": 0.8317496180534363,
+        "candidate_title": "Nova Scotia (Health and Wellness) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gx00h",
+        "score": 0.7992178201675415,
+        "candidate_title": "Nova Scotia (Justice) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h4dfc",
+        "score": 0.7764158248901367,
+        "candidate_title": "Halifax Regional Municipality (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsuarb/doc/2020/2020nsuarb18/2020nsuarb18.html",
+        "score": 0.7236008644104004,
+        "candidate_title": "Maceachern (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc868/2017fc868.html",
+        "score": 0.7175582051277161,
+        "candidate_title": "Loonskin v. Tallcree"
+      },
+      {
+        "uri": "https://canlii.ca/t/hrx0s",
+        "score": 0.7163847088813782,
+        "candidate_title": "Department of Community Services (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onwsiat/doc/2017/2017onwsiat2495/2017onwsiat2495.html",
+        "score": 0.7129179239273071,
+        "candidate_title": "Decision No. 2347/17"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsfoipop/doc/2019/2019nsoipc19/2019nsoipc19.html",
+        "score": 0.7128027677536011,
+        "candidate_title": "Department of Intergovernmental Affairs (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsfoipop/doc/2016/2016nsoipc1/2016nsoipc1.html",
+        "score": 0.7127803564071655,
+        "candidate_title": "Nova Scotia Business Inc. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onwsiat/doc/2022/2022onwsiat1997/2022onwsiat1997.html",
+        "score": 0.7106242179870605,
+        "candidate_title": "Decision No. 1498/20"
+      }
+    ]
+  },
+  "Ontario (Attorney General)": {
+    "uri": "https://canlii.ca/t/hppfj",
+    "score": 0.7917954921722412,
+    "candidate_id": "2017onipc1000261",
+    "candidate_title": "Ontario (Attorney General) (Re)",
+    "query_text": "decision | <a name=\"Jurisdiction\">P</a>O-3799 | 2017\nCanLII 89962 (ON IPC) | Order PO-3799 | 2017 CanLII\n89962 (ON IPC)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hppfj",
+        "score": 0.7917954921722412,
+        "candidate_title": "Ontario (Attorney General) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gh0jg",
+        "score": 0.7716508507728577,
+        "candidate_title": "Ontario (Finance) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hnvg4",
+        "score": 0.7298378944396973,
+        "candidate_title": "Ontario (Environment and Climate Change) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc827/2017fc827.html",
+        "score": 0.7209030985832214,
+        "candidate_title": "Canada (Office of the Information Commissioner) v. Canada (Prime Minister)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc1559/2019onsc1559.html",
+        "score": 0.7167160511016846,
+        "candidate_title": "A.C.V.P. v. A.M.T."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2018/2018fc762/2018fc762.html",
+        "score": 0.714431643486023,
+        "candidate_title": "Apura v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gx8g3",
+        "score": 0.7096617221832275,
+        "candidate_title": "Deslongchamps c. Commissaire à la déontologie policière"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc862/2019fc862.html",
+        "score": 0.7074435949325562,
+        "candidate_title": "Lin v. Canada (Public Safety and Emergency Preparedness)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2018/2018bcipc36/2018bcipc36.html",
+        "score": 0.7054698467254639,
+        "candidate_title": "Law Society of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc165/2022fc165.html",
+        "score": 0.703554630279541,
+        "candidate_title": "Payrovedennabi v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "Ontario (Environment and Climate Change)": {
+    "uri": "https://canlii.ca/t/gh0jg",
+    "score": 0.7680667042732239,
+    "candidate_id": "2015onipc1000332",
+    "candidate_title": "Ontario (Finance) (Re)",
+    "query_text": "decision | PO-3778 | 2017 CanLII 78779 (ON IPC) | Order PO-3778 | 2017\nCanLII 78779 (ON IPC)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gh0jg",
+        "score": 0.7680667042732239,
+        "candidate_title": "Ontario (Finance) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hnvg4",
+        "score": 0.7635505199432373,
+        "candidate_title": "Ontario (Environment and Climate Change) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hppfj",
+        "score": 0.754561722278595,
+        "candidate_title": "Ontario (Attorney General) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h38b8",
+        "score": 0.7135798335075378,
+        "candidate_title": "Ontario (Municipal Affairs and Housing) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1r6x",
+        "score": 0.7131561636924744,
+        "candidate_title": "Ontario (Health and Long-Term Care) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2018/2018bcipc36/2018bcipc36.html",
+        "score": 0.708933413028717,
+        "candidate_title": "Law Society of British Columbia (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h50wj",
+        "score": 0.7035759687423706,
+        "candidate_title": "Chartered Professional Accountants of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2019/2019onca738/2019onca738.html",
+        "score": 0.7018934488296509,
+        "candidate_title": "Davies (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2017/2017bcipc47/2017bcipc47.html",
+        "score": 0.7011334300041199,
+        "candidate_title": "British Columbia (Finance) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gx8g3",
+        "score": 0.7001186609268188,
+        "candidate_title": "Deslongchamps c. Commissaire à la déontologie policière"
+      }
+    ]
+  },
+  "Ontario (Finance)": {
+    "uri": "https://canlii.ca/t/gh0jg",
+    "score": 0.8590766191482544,
+    "candidate_id": "2015onipc1000332",
+    "candidate_title": "Ontario (Finance) (Re)",
+    "query_text": "decision | PO-2901-F | 2015 CanLII 15989 (ON IPC) | 2015 CanLII\n15989 (ON IPC) | Ontario Order PO\n2901F",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gh0jg",
+        "score": 0.8590766191482544,
+        "candidate_title": "Ontario (Finance) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hppfj",
+        "score": 0.7704157829284668,
+        "candidate_title": "Ontario (Attorney General) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hnvg4",
+        "score": 0.7406131029129028,
+        "candidate_title": "Ontario (Environment and Climate Change) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1r6x",
+        "score": 0.7324362397193909,
+        "candidate_title": "Ontario (Health and Long-Term Care) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onhparb/doc/2015/2015canlii2671/2015canlii2671.html",
+        "score": 0.7306873202323914,
+        "candidate_title": "A.M. v S.P."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2019/2019onca971/2019onca971.html",
+        "score": 0.724148154258728,
+        "candidate_title": "R. v. Ronald"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2023/2023fc925/2023fc925.html",
+        "score": 0.7224577069282532,
+        "candidate_title": "Fromfroid S.A. v. 1048547 Ontario Inc"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncj/doc/2015/2015oncj94/2015oncj94.html",
+        "score": 0.7218452095985413,
+        "candidate_title": "F.D.M. v. K.O.W."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2015/2015onca5/2015onca5.html",
+        "score": 0.7215110063552856,
+        "candidate_title": "1250264 Ontario Inc. v. Pet Valu Canada Inc"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncj/doc/2015/2015oncj197/2015oncj197.html",
+        "score": 0.7174475193023682,
+        "candidate_title": "R. v. Andrianov"
+      }
+    ]
+  },
+  "Ontario (Health and Long-Term Care)": {
+    "uri": "https://canlii.ca/t/g1r6x",
+    "score": 0.7925139665603638,
+    "candidate_id": "2013onipc1000514",
+    "candidate_title": "Ontario (Health and Long-Term Care) (Re)",
+    "query_text": "decision | PO-3270 | 2013 CanLII 70444 (ON IPC) | Order PO-3270 | 2013\nCanLII 70444 (ON IPC)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1r6x",
+        "score": 0.7925139665603638,
+        "candidate_title": "Ontario (Health and Long-Term Care) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gh0jg",
+        "score": 0.7393795251846313,
+        "candidate_title": "Ontario (Finance) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1qzdl",
+        "score": 0.715211808681488,
+        "candidate_title": "Toronto (City) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2013/2013onca451/2013onca451.html",
+        "score": 0.714907705783844,
+        "candidate_title": "R. v. Malcolm"
+      },
+      {
+        "uri": "https://canlii.ca/t/hnvg4",
+        "score": 0.7143644094467163,
+        "candidate_title": "Ontario (Environment and Climate Change) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onipc/doc/2005/2005canlii56347/2005canlii56347.html",
+        "score": 0.714163064956665,
+        "candidate_title": "Ontario (Health and Long-Term Care) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hppfj",
+        "score": 0.7043864727020264,
+        "candidate_title": "Ontario (Attorney General) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncmt/doc/2009/2009onsec42/2009onsec42.html",
+        "score": 0.6942887902259827,
+        "candidate_title": "Independent Financial Brokers Of Canada et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/h4ss0",
+        "score": 0.6939316987991333,
+        "candidate_title": "Rezwealth Financial Services Inc. et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2009/2009canlii42409/2009canlii42409.html",
+        "score": 0.6931484341621399,
+        "candidate_title": "Canada Line Rapid Transit Inc. (Re)"
+      }
+    ]
+  },
+  "Ontario (Municipal Affairs and Housing)": {
+    "uri": "https://canlii.ca/t/h38b8",
+    "score": 0.7690418362617493,
+    "candidate_id": "2017onipc1000050",
+    "candidate_title": "Ontario (Municipal Affairs and Housing) (Re)",
+    "query_text": "decision | PO-3714 | 2017 CanLII 21451 (ON IPC) | Order PO-3714 | 2017\nCanLII 21451 (ON IPC)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h38b8",
+        "score": 0.7690418362617493,
+        "candidate_title": "Ontario (Municipal Affairs and Housing) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gh0jg",
+        "score": 0.758244514465332,
+        "candidate_title": "Ontario (Finance) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hppfj",
+        "score": 0.7458181977272034,
+        "candidate_title": "Ontario (Attorney General) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onipc/doc/2005/2005canlii56347/2005canlii56347.html",
+        "score": 0.7341820597648621,
+        "candidate_title": "Ontario (Health and Long-Term Care) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hnvg4",
+        "score": 0.7213999032974243,
+        "candidate_title": "Ontario (Environment and Climate Change) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc827/2017fc827.html",
+        "score": 0.7193613648414612,
+        "candidate_title": "Canada (Office of the Information Commissioner) v. Canada (Prime Minister)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/oic/doc/2024/2024oic7/2024oic7.html",
+        "score": 0.7169097661972046,
+        "candidate_title": "Public Health Agency of Canada (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h50wj",
+        "score": 0.7149040102958679,
+        "candidate_title": "Chartered Professional Accountants of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2005/2005canlii24734/2005canlii24734.html",
+        "score": 0.7119152545928955,
+        "candidate_title": "College of Pyschologists of British Columbia, Re"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/oic/doc/2025/2025oic34/2025oic34.html",
+        "score": 0.7098866701126099,
+        "candidate_title": "Health Canada (Re)"
+      }
+    ]
+  },
+  "English Language School Board": {
+    "uri": "https://canlii.ca/t/gsr8t",
+    "score": 0.8021193742752075,
+    "candidate_id": "2016peipc1000004",
+    "candidate_title": "English Language School Board (Re)",
+    "query_text": "decision | FI-16-003 | 2016 CanLII\n48834 (PE IPC) | PEI Order FI-16-003 | 2016 CanLII 48834 (PE IPC)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gsr8t",
+        "score": 0.8021193742752075,
+        "candidate_title": "English Language School Board (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/pe/peipc/doc/2016/2016canlii94001/2016canlii94001.html",
+        "score": 0.7746134996414185,
+        "candidate_title": "Prince Edward Island (Health) (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gh0jg",
+        "score": 0.7450841069221497,
+        "candidate_title": "Ontario (Finance) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2016/2016fca233/2016fca233.html",
+        "score": 0.733900785446167,
+        "candidate_title": "3488063 Canada Inc. v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/pe/peipc/doc/2017/2017canlii49927/2017canlii49927.html",
+        "score": 0.7227757573127747,
+        "candidate_title": "Prince Edward Island (Communities, Land and Environment) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2020/2020fc816/2020fc816.html",
+        "score": 0.7187317609786987,
+        "candidate_title": "Eli Lilly Canada Inc. v. Mylan Pharmaceuticals ULC"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2016/2016fc32/2016fc32.html",
+        "score": 0.7166951298713684,
+        "candidate_title": "Higgins v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlipc/doc/2016/2016canlii9490/2016canlii9490.html",
+        "score": 0.7133411765098572,
+        "candidate_title": "Office of the Chief Information Officer (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2019/2019fca16/2019fca16.html",
+        "score": 0.7101879715919495,
+        "candidate_title": "Apotex Inc. v. Pfizer Canada Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/pe/pescad/doc/2016/2016peca10/2016peca10.html",
+        "score": 0.7088445425033569,
+        "candidate_title": "Workers Comp. of P.E.I. v. Dyment"
+      }
+    ]
+  },
+  "College of Physicians of B.C.": {
+    "uri": "https://canlii.ca/t/5fpn",
+    "score": 0.9291046857833862,
+    "candidate_id": "2002bcca665",
+    "candidate_title": "College of Physicians of B.C. v. British Columbia (Information and Privacy Commissioner)",
+    "query_text": "decision | College of Physicians of B.C. v. British\nColumbia (Information and Privacy Commissioner) | College of Physicians of B.C. v. British Columbia\n(Information and Privacy Commissioner) | College of Physicians of B.C. v. British Columbia\n(Information and Privacy Commissioner, | 2002 BCCA 665 (CanLII)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5fpn",
+        "score": 0.9291046857833862,
+        "candidate_title": "College of Physicians of B.C. v. British Columbia (Information and Privacy Commissioner)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2011/2011bcipc13/2011bcipc13.html",
+        "score": 0.8118076324462891,
+        "candidate_title": "College of Physicians and Surgeons of British Columbia (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/h50wj",
+        "score": 0.7973135709762573,
+        "candidate_title": "Chartered Professional Accountants of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2005/2005canlii24734/2005canlii24734.html",
+        "score": 0.7872393131256104,
+        "candidate_title": "College of Pyschologists of British Columbia, Re"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2018/2018bcipc36/2018bcipc36.html",
+        "score": 0.7748527526855469,
+        "candidate_title": "Law Society of British Columbia (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2022/2022bcipc13/2022bcipc13.html",
+        "score": 0.7740922570228577,
+        "candidate_title": "Conservative Party of Canada (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2019/2019bcsc1132/2019bcsc1132.html",
+        "score": 0.7738655805587769,
+        "candidate_title": "British Columbia (Attorney General) v British Columbia (Information and Privacy Commissioner)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gjvjk",
+        "score": 0.7725303769111633,
+        "candidate_title": "Vancouver Island Health Authority (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcipc/doc/2016/2016bcipc42/2016bcipc42.html",
+        "score": 0.7657675743103027,
+        "candidate_title": "British Columbia (Insurance Corporation) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2004/2004bcsc217/2004bcsc217.html",
+        "score": 0.7641216516494751,
+        "candidate_title": "Architectural Institute of B.C. v. Information and Privacy Commissioner for B.C."
+      }
+    ]
+  },
+  "Donham": {
+    "uri": "https://canlii.ca/t/1ql98",
+    "score": 0.8127278089523315,
+    "candidate_id": "1993nssc10129",
+    "candidate_title": "Donham v. Nova Scotia (Attorney General)",
+    "query_text": "decision | Donham v. Nova\nScotia (Attorney General) | Donham v. Nova Scotia\n(Attorney General) | Donham | 1993 CanLII 4541 (NS SC) | <span style='font-size:10.0pt;font-family:\"Times New Roman\",\"serif\"'><i><span style=\"background:white\"> </span></i></span><a href=\"http://canlii.ca/t/1ql98\"><span style='font-size:10.0pt;\nfont-family:\"Times New Roman\",\"serif\";background:white'>1993 CanLII 4541 (NS\nSC)</span></a>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ql98",
+        "score": 0.8127278089523315,
+        "candidate_title": "Donham v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fr3m",
+        "score": 0.7109106779098511,
+        "candidate_title": "Hill v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frv7",
+        "score": 0.6920232772827148,
+        "candidate_title": "Swinamer v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2018/2018fca199/2018fca199.html",
+        "score": 0.6860800981521606,
+        "candidate_title": "Wenham v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1lpbn",
+        "score": 0.681131899356842,
+        "candidate_title": "A.G. (Nova Scotia) v. MacIntyre"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2009/2009canlii2319/2009canlii2319.html",
+        "score": 0.6793359518051147,
+        "candidate_title": "Bank of Nova Scotia v. Huronia Precision Plastics Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1nh1h",
+        "score": 0.6781548857688904,
+        "candidate_title": "Maritime Steel and Foundries Ltd. v. Whitman Benn & Associates"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2021/2021onsc3621/2021onsc3621.html",
+        "score": 0.6766682267189026,
+        "candidate_title": "The Bank of Nova Scotia v. Jarada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/1996/1996canlii5397/1996canlii5397.html",
+        "score": 0.6754327416419983,
+        "candidate_title": "Canada Life Assurance Company v. Nova Scotia (Minister of Municipal Affairs)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2016/2016nsca38/2016nsca38.html",
+        "score": 0.6743049621582031,
+        "candidate_title": "Homburg v Stichting Autoriteit Financiële Markten"
+      }
+    ]
+  },
+  "Sobeys": {
+    "uri": "https://canlii.ca/t/1h38q",
+    "score": 0.8836301565170288,
+    "candidate_id": "2004nssc86",
+    "candidate_title": "Fuller v. R. et al. v. Sobeys",
+    "query_text": "decision | Fuller v.\nR. et al. v. Sobeys | Fuller v. R. et al. v. Sobeys | <i>Fuller v. R. et\nal. v. Sobeys</i> | 2004 NSSC 86 (CanLII) | 2004\nNSSC 86 | 2004 NSSC 86",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1h38q",
+        "score": 0.8836301565170288,
+        "candidate_title": "Fuller v. R. et al. v. Sobeys"
+      },
+      {
+        "uri": "https://canlii.ca/t/5cd6",
+        "score": 0.7723206877708435,
+        "candidate_title": "R. v. Fuller"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ft92",
+        "score": 0.7217101454734802,
+        "candidate_title": "Sobeys Stores Ltd. v. Yeomans and Labour Standards Tribunal (N.S.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2005/2005nsca142/2005nsca142.html",
+        "score": 0.7071181535720825,
+        "candidate_title": "Coleman v. Sobeys Group Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2005/2005nsca47/2005nsca47.html",
+        "score": 0.7054494619369507,
+        "candidate_title": "R. v. Cooper"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2016/2016scc26/2016scc26.html",
+        "score": 0.7026746273040771,
+        "candidate_title": "R. v. Vassell"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2007/2007nsca103/2007nsca103.html",
+        "score": 0.7018804550170898,
+        "candidate_title": "R. v. Hope"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2004/2004nsca83/2004nsca83.html",
+        "score": 0.699479341506958,
+        "candidate_title": "Nurnber v. Workers' Compensation Board (N.S.) et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1gzjp",
+        "score": 0.6981196403503418,
+        "candidate_title": "Cartaway Resources Corp. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1980/1980canlii212/1980canlii212.html",
+        "score": 0.6971887946128845,
+        "candidate_title": "R. v. McLaughlin"
+      }
+    ]
+  },
+  "Gaetz": {
+    "uri": "https://canlii.ca/t/1ljd3",
+    "score": 0.9115551710128784,
+    "candidate_id": "2005nssc215",
+    "candidate_title": "Gaetz v. Nova Scotia (Attorney General)",
+    "query_text": "decision | Gaetz v. Nova Scotia (Attorney General) | Gaetz\nv. Nova Scotia (Attorney General) | Gaetz | <i>Gaetz</i> | 2005 NSSC 215 (CanLII)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ljd3",
+        "score": 0.9115551710128784,
+        "candidate_title": "Gaetz v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/2020/2020nssc188/2020nssc188.html",
+        "score": 0.7242554426193237,
+        "candidate_title": "Nagle-Cummings v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fr3m",
+        "score": 0.7102688550949097,
+        "candidate_title": "Hill v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frv7",
+        "score": 0.7099774479866028,
+        "candidate_title": "Swinamer v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1k864",
+        "score": 0.7056342959403992,
+        "candidate_title": "H.L. v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/pe/pesctd/doc/2005/2005pesctd57/2005pesctd57.html",
+        "score": 0.6951149106025696,
+        "candidate_title": "Prince Edward Island et al. v. Canada (Attorney General) et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2011/2011nsca74/2011nsca74.html",
+        "score": 0.6926917433738708,
+        "candidate_title": "2420188 Nova Scotia Ltd. v. Hiltz"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/2005/2005nssc311/2005nssc311.html",
+        "score": 0.6891509890556335,
+        "candidate_title": "R. v. Lewis"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/2020/2020nssc276/2020nssc276.html",
+        "score": 0.6862870454788208,
+        "candidate_title": "Alcorn v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/2004/2004nssc190/2004nssc190.html",
+        "score": 0.6861634850502014,
+        "candidate_title": "Deal & Rand v. Palmeter & George"
+      }
+    ]
+  },
+  "John Doe": {
+    "uri": "https://canlii.ca/t/g6sg3",
+    "score": 0.8605774641036987,
+    "candidate_id": "2014csc-scc36",
+    "candidate_title": "John Doe v. Ontario (Finance)",
+    "query_text": "decision | John Doe v.\nOntario (Finance) | John Doe v. Ontario (Finance) | John Doe | <i>John Doe v. Ontario (Finance), </i> | John\nDoe | <i>John Doe</i> | <i>John\nDoe</i> | <i>Jo</i>h<i>n\nDoe</i> | <a name=\"_Hlk511395870\"><i><span style='font-size:12.0pt;font-family:\"Times New Roman\",\"serif\"'> </span></i></a><a name=\"_Hlk511395810\"></a><a href=\"http://canlii.ca/t/g6sg3\"><span style='font-size:12.0pt;font-family:\"Times New Roman\",\"serif\"'>[2014]\n2 SCR 3</span></a> | 2014 SCC 36 (CanLII) | 2014 SCC 36 | [2014] 2 SCR 3 | 2014 SCC 36\n(CanLII)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g6sg3",
+        "score": 0.8605774641036987,
+        "candidate_title": "John Doe v. Ontario (Finance)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2014/2014fc161/2014fc161.html",
+        "score": 0.7256039381027222,
+        "candidate_title": "Voltage Pictures LLC v. John Doe"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2006/2006fc980/2006fc980.html",
+        "score": 0.7079485654830933,
+        "candidate_title": "Film City Entertainment Ltd. v. John Doe"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2013/2013onsc628/2013onsc628.html",
+        "score": 0.7043129801750183,
+        "candidate_title": "Manson v. John Doe"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2024/2024onca362/2024onca362.html",
+        "score": 0.7004349827766418,
+        "candidate_title": "J.J.W. v. K.F."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2016/2016fc518/2016fc518.html",
+        "score": 0.6976258158683777,
+        "candidate_title": "Doe v. Canada (Public Safety and Emergency Preparedness)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2021/2021onsc2990/2021onsc2990.html",
+        "score": 0.6869877576828003,
+        "candidate_title": "Doe v. the University of Windsor"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2004/2004canlii6224/2004canlii6224.html",
+        "score": 0.6850230693817139,
+        "candidate_title": "CIT Financial Ltd. v. 1153461 Ontario Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2023/2023fc925/2023fc925.html",
+        "score": 0.6849101781845093,
+        "candidate_title": "Fromfroid S.A. v. 1048547 Ontario Inc"
+      },
+      {
+        "uri": "https://canlii.ca/t/fzw43",
+        "score": 0.6846129894256592,
+        "candidate_title": "Ontario v. Criminal Lawyers’ Association of Ontario"
+      }
+    ]
+  },
+  "O": {
+    "uri": "https://canlii.ca/t/1f8qz",
+    "score": 0.8913258910179138,
+    "candidate_id": "2001nsca132",
+    "candidate_title": "O'Connor v. Nova Scotia",
+    "query_text": "decision | O’Connor v. Nova Scotia | <i>O’Connor v.\nNova Scotia, </i> | O’Connor | <i>O’Connor</i> v. <i>Nova Scotia (Minister of\nthe Priorities and Planning Secretariat) </i><span class=\"reflex3-block\">(2001)</span> | 2001 NSCA 132 | 2001\nNSSC 6 (CanLII) | 2001\nNSCA 132 (CanLII) | 2001 NSSC 6 (CanLII) | 2001 NSCA 132 (CanLII) | [2001] S.C.C.A. No. 582",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1f8qz",
+        "score": 0.8913258910179138,
+        "candidate_title": "O'Connor v. Nova Scotia"
+      },
+      {
+        "uri": "https://canlii.ca/t/4tzw",
+        "score": 0.8642066717147827,
+        "candidate_title": "O'Connor v. Nova Scotia (Priorities and Planning Secretariat)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2021/2021nsca58/2021nsca58.html",
+        "score": 0.7364665865898132,
+        "candidate_title": "R. v. C.T.B."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2001/2001nsca123/2001nsca123.html",
+        "score": 0.732966959476471,
+        "candidate_title": "MacDonnell v. Campbell"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2003/2003nsca119/2003nsca119.html",
+        "score": 0.7329571843147278,
+        "candidate_title": "Minister of Community Services v. B.F."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/2020/2020nssc188/2020nssc188.html",
+        "score": 0.7260059118270874,
+        "candidate_title": "Nagle-Cummings v. Nova Scotia (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2001/2001nsca69/2001nsca69.html",
+        "score": 0.7251381874084473,
+        "candidate_title": "Atwood v. Stoddard"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frdh",
+        "score": 0.7248460054397583,
+        "candidate_title": "R. v. O'Connor"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2011/2011nsca12/2011nsca12.html",
+        "score": 0.724626898765564,
+        "candidate_title": "R. v. Barton"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2017/2017nsca1/2017nsca1.html",
+        "score": 0.7233438491821289,
+        "candidate_title": "A.C. v Nova Scotia (Community Services)"
+      }
+    ]
+  },
+  "CSCS": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/2022/2022scc14/2022scc14.html",
+    "score": 0.7683126926422119,
+    "candidate_id": "2022csc-scc14",
+    "candidate_title": "R. v. Alas",
+    "query_text": "decision | <i>Ontario (CSCS) v Ontario (IPC)</i> | <i>Ontario (CSCS) v.\nOntario (IPC)</i> | 2014\nSCC 31 | [2014] 1 SCR 674 | 2014 SCC 31 | [2014] 1\nSCR 674",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2022/2022scc14/2022scc14.html",
+        "score": 0.7683126926422119,
+        "candidate_title": "R. v. Alas"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2014/2014scc19/2014scc19.html",
+        "score": 0.7682213187217712,
+        "candidate_title": "R. v. Hutchinson"
+      },
+      {
+        "uri": "https://canlii.ca/t/fzw43",
+        "score": 0.766039252281189,
+        "candidate_title": "Ontario v. Criminal Lawyers’ Association of Ontario"
+      },
+      {
+        "uri": "https://canlii.ca/t/g6sg3",
+        "score": 0.7653859853744507,
+        "candidate_title": "John Doe v. Ontario (Finance)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gf84s",
+        "score": 0.7631590366363525,
+        "candidate_title": "Bhasin v. Hrynew"
+      },
+      {
+        "uri": "https://canlii.ca/t/g6xlp",
+        "score": 0.7576104402542114,
+        "candidate_title": "McCormick v. Fasken Martineau DuMoulin LLP"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2014/2014scc50/2014scc50.html",
+        "score": 0.7543142437934875,
+        "candidate_title": "R. v. Taylor"
+      },
+      {
+        "uri": "https://canlii.ca/t/k60vs",
+        "score": 0.7515257596969604,
+        "candidate_title": "Ontario (Attorney General) v. Restoule"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frjh",
+        "score": 0.7499212622642517,
+        "candidate_title": "Ontario v. Canadian Pacific Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2014/2014scc41/2014scc41.html",
+        "score": 0.7483880519866943,
+        "candidate_title": "R. v. Anderson"
+      }
+    ]
+  },
+  "CLA": {
+    "uri": "https://canlii.ca/t/2b5ss",
+    "score": 0.9343428611755371,
+    "candidate_id": "2010csc-scc23",
+    "candidate_title": "Ontario (Public Safety and Security) v. Criminal Lawyers' Association",
+    "query_text": "decision | Ontario (Public Safety and\nSecurity) v. Criminal Lawyers’ Association | <i>Ontario v. CLA</i> | Ontario v. CLA | <i>Ontario (Public Safety and Security) v. Criminal\nLawyers’ Association</i> | [2010] 1 SCR\n815 | 2010 SCC 23 (CanLII) | [2010] 1 SCR 815 | 2010 SCC 23\n(CanLII)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2b5ss",
+        "score": 0.9343428611755371,
+        "candidate_title": "Ontario (Public Safety and Security) v. Criminal Lawyers' Association"
+      },
+      {
+        "uri": "https://canlii.ca/t/fzw43",
+        "score": 0.7878047823905945,
+        "candidate_title": "Ontario v. Criminal Lawyers’ Association of Ontario"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dp6k",
+        "score": 0.7327274680137634,
+        "candidate_title": "Bedford v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2008/2008canlii2308/2008canlii2308.html",
+        "score": 0.7286743521690369,
+        "candidate_title": "Ottawa Police Association v. Ottawa Police Services Board"
+      },
+      {
+        "uri": "https://canlii.ca/t/2cxpd",
+        "score": 0.7270999550819397,
+        "candidate_title": "Quebec (Attorney General) v. Canadian Owners and Pilots Association"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2017/2017fc1151/2017fc1151.html",
+        "score": 0.7246184349060059,
+        "candidate_title": "Li v. Canada (Public Safety and Emergency Preparedness)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc862/2019fc862.html",
+        "score": 0.7170034050941467,
+        "candidate_title": "Lin v. Canada (Public Safety and Emergency Preparedness)"
+      },
+      {
+        "uri": "https://canlii.ca/t/2f3vx",
+        "score": 0.713364839553833,
+        "candidate_title": "Canada (Attorney General) v. McArthur"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2022/2022fca113/2022fca113.html",
+        "score": 0.71258944272995,
+        "candidate_title": "Canada (Public Safety and Emergency Preparedness) v. XY"
+      },
+      {
+        "uri": "https://canlii.ca/t/2cxpb",
+        "score": 0.7125493288040161,
+        "candidate_title": "Quebec (Attorney General) v. Lacombe"
+      }
+    ]
+  },
+  "Fuller": {
+    "uri": "https://canlii.ca/t/5cd6",
+    "score": 0.8824542164802551,
+    "candidate_id": "2003nssc58",
+    "candidate_title": "R. v. Fuller",
+    "query_text": "decision | R. v.\nFuller | R. v. Fuller | 2003 NSSC 58 (CanLII) | 2003\nNSSC 58 (CanLII) | 2003 NSSC 58",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5cd6",
+        "score": 0.8824542164802551,
+        "candidate_title": "R. v. Fuller"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2003/2003scc60/2003scc60.html",
+        "score": 0.7692754864692688,
+        "candidate_title": "R. v. S.A.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/1h38q",
+        "score": 0.7678624391555786,
+        "candidate_title": "Fuller v. R. et al. v. Sobeys"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2003/2003scc49/2003scc49.html",
+        "score": 0.7226703763008118,
+        "candidate_title": "R. v. Mitchell"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs0w",
+        "score": 0.7108026742935181,
+        "candidate_title": "R. v. Plant"
+      },
+      {
+        "uri": "https://canlii.ca/t/fvbrr",
+        "score": 0.7057045698165894,
+        "candidate_title": "R. v. N.S."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2015/2015bcsc943/2015bcsc943.html",
+        "score": 0.7028982043266296,
+        "candidate_title": "R. v. Nuttall"
+      },
+      {
+        "uri": "https://canlii.ca/t/1g6pb",
+        "score": 0.7018048763275146,
+        "candidate_title": "R. v. Owen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1g5lm",
+        "score": 0.7016416788101196,
+        "candidate_title": "Law Society of New Brunswick v. Ryan"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2003/2003scc75/2003scc75.html",
+        "score": 0.6984235048294067,
+        "candidate_title": "R. v. Clay"
+      }
+    ]
+  },
+  "Osborne": {
+    "uri": "https://canlii.ca/t/1fslg",
+    "score": 0.872700572013855,
+    "candidate_id": "1991csc-scc51",
+    "candidate_title": "Osborne v. Canada (Treasury Board)",
+    "query_text": "decision | <i>Osborne\nv. Canada (Treasury Board)</i> | [1991] 2 S.C.R. 69",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fslg",
+        "score": 0.872700572013855,
+        "candidate_title": "Osborne v. Canada (Treasury Board)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1992/1992canlii56/1992canlii56.html",
+        "score": 0.6910380125045776,
+        "candidate_title": "R. v. W. (R.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsnh",
+        "score": 0.6748589873313904,
+        "candidate_title": "Reference Re Young Offenders Act (P.E.I.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1991/1991canlii119/1991canlii119.html",
+        "score": 0.6663415431976318,
+        "candidate_title": "Committee for the Commonwealth of Canada v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1975/1975canlii356/1975canlii356.html",
+        "score": 0.6662544012069702,
+        "candidate_title": "Regina v. Armco Canada Ltd. and 9 other Corporations (No.2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/21xpk",
+        "score": 0.6659588813781738,
+        "candidate_title": "BCE Inc. v. 1976 Debentureholders"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/exch/doc/1961/1961canlii376/1961canlii376.html",
+        "score": 0.6633424758911133,
+        "candidate_title": "Bank of Nova Scotia v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1996/1996abca22/1996abca22.html",
+        "score": 0.6613410711288452,
+        "candidate_title": "Alberta Treasury Branch v. Wilson"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs50",
+        "score": 0.6602325439453125,
+        "candidate_title": "R. v. B. (K.G.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs62",
+        "score": 0.65825355052948,
+        "candidate_title": "Reid Crowther & Partners Ltd. v. Simcoe & Erie General Insurance Co."
+      }
+    ]
+  },
+  "OPSEU": {
+    "uri": "https://canlii.ca/t/1ftn6",
+    "score": 0.851014256477356,
+    "candidate_id": "1987csc-scc43",
+    "candidate_title": "Ontario (Attorney General) v. OPSEU",
+    "query_text": "decision | OPSEU v.\nOntario (Attorney General) | [1987] 2 S.C.R. 2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftn6",
+        "score": 0.851014256477356,
+        "candidate_title": "Ontario (Attorney General) v. OPSEU"
+      },
+      {
+        "uri": "https://canlii.ca/t/hppfj",
+        "score": 0.7079338431358337,
+        "candidate_title": "Ontario (Attorney General) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2006/2006canlii42254/2006canlii42254.html",
+        "score": 0.7033803462982178,
+        "candidate_title": "Club Pro Adult Entertainment Inc. v. Ontario (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2019/2019scc36/2019scc36.html",
+        "score": 0.6881532669067383,
+        "candidate_title": "Ontario (Attorney General) v. G"
+      },
+      {
+        "uri": "https://canlii.ca/t/gbnp5",
+        "score": 0.6835796236991882,
+        "candidate_title": "C.E. Jamieson & Co. (Dominion) v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1984/1984canlii1988/1984canlii1988.html",
+        "score": 0.682796061038971,
+        "candidate_title": "Re Landau and Official Guardian"
+      },
+      {
+        "uri": "https://canlii.ca/t/1g5m4",
+        "score": 0.6818505525588989,
+        "candidate_title": "C.U.P.E. v. Ontario (Minister of Labour)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1984/1984canlii85/1984canlii85.html",
+        "score": 0.6804059743881226,
+        "candidate_title": "Attorney General (Ontario) v. Fatehi"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2008/2008onca892/2008onca892.html",
+        "score": 0.6792560815811157,
+        "candidate_title": "TeleZone Inc. v. Attorney General (Canada)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2022/2022onca814/2022onca814.html",
+        "score": 0.6778979301452637,
+        "candidate_title": "Obodo v. Trans Union of Canada, Inc."
+      }
+    ]
+  },
+  "Telezone": {
+    "uri": "https://www.canlii.org/en/on/onca/doc/2008/2008onca892/2008onca892.html",
+    "score": 0.7131667137145996,
+    "candidate_id": "2008onca892",
+    "candidate_title": "TeleZone Inc. v. Attorney General (Canada)",
+    "query_text": "decision | <i>Telezone</i>",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2008/2008onca892/2008onca892.html",
+        "score": 0.7131667137145996,
+        "candidate_title": "TeleZone Inc. v. Attorney General (Canada)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gnt5z",
+        "score": 0.6117643117904663,
+        "candidate_title": "Dumas c. Mutuelle des fonctionnaires du Québec"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2025/2025onsc5880/2025onsc5880.html",
+        "score": 0.6023260354995728,
+        "candidate_title": "X.L. v. Z.L. et al"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fc4n",
+        "score": 0.5967569351196289,
+        "candidate_title": "Union canadienne des travailleurs en communication c. Mayville"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2006/2006bcsc12/2006bcsc12.html",
+        "score": 0.5799649953842163,
+        "candidate_title": "Telus Communications Re: Ruling No. 1"
+      },
+      {
+        "uri": "https://canlii.ca/t/273mr",
+        "score": 0.5780733823776245,
+        "candidate_title": "Fédération des coopératives funéraires du Québec c. Bureau de normalisation du Québec"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2013/2013scc16/2013scc16.html",
+        "score": 0.5779324173927307,
+        "candidate_title": "R. v. TELUS Communications Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/29bw8",
+        "score": 0.5775361657142639,
+        "candidate_title": "Centre de traitement d'information de crédit (CTIC) inc. (Syndic de)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2010/2010bcsc1429/2010bcsc1429.html",
+        "score": 0.5735169649124146,
+        "candidate_title": "TELUS Communications Inc. v. Telecommunications Workers Union"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlipc/doc/2016/2016canlii9490/2016canlii9490.html",
+        "score": 0.5729187726974487,
+        "candidate_title": "Office of the Chief Information Officer (Re)"
+      }
+    ]
+  },
+  "Merck Frosst": {
+    "uri": "https://canlii.ca/t/fpvd1",
+    "score": 0.7388994693756104,
+    "candidate_id": "2012csc-scc3",
+    "candidate_title": "Merck Frosst Canada Ltd. v. Canada (Health)",
+    "query_text": "decision | Merck Frosst | Merck\nFrosst",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fpvd1",
+        "score": 0.7388994693756104,
+        "candidate_title": "Merck Frosst Canada Ltd. v. Canada (Health)"
+      },
+      {
+        "uri": "https://canlii.ca/t/4nmr",
+        "score": 0.6794737577438354,
+        "candidate_title": "Apotex Inc. v. Canada (Attorney General) (C.A.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/1993/1993canlii17518/1993canlii17518.html",
+        "score": 0.6733782291412354,
+        "candidate_title": "Apotex Inc. v. Canada (Attorney-General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2012/2012fc454/2012fc454.html",
+        "score": 0.6623918414115906,
+        "candidate_title": "Merck & Co., Inc. v. Apotex Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2006/2006fca323/2006fca323.html",
+        "score": 0.6587845087051392,
+        "candidate_title": "Merck & Co., Inc. v. Apotex Inc. (F.C.A.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/1994/1994canlii19548/1994canlii19548.html",
+        "score": 0.648822546005249,
+        "candidate_title": "Merck & Co. v. Apotex Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2014/2014fc883/2014fc883.html",
+        "score": 0.646191418170929,
+        "candidate_title": "Merck & Co. Inc. v. Apotex Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2007/2007fca140/2007fca140.html",
+        "score": 0.6303521394729614,
+        "candidate_title": "Pharmascience Inc. v. Canada (Health)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/1999/1999canlii9384/1999canlii9384.html",
+        "score": 0.6195088624954224,
+        "candidate_title": "Novopharm Ltd. v. Bayer Inc. (T.D.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gnt5z",
+        "score": 0.6185154318809509,
+        "candidate_title": "Dumas c. Mutuelle des fonctionnaires du Québec"
+      }
+    ]
+  },
+  "FOIPOP NS 1993": {
+    "uri": "https://canlii.ca/t/56gtx",
+    "score": 0.9054275751113892,
+    "candidate_id": "l22603!22603-current-1",
+    "candidate_title": "Freedom of Information and Protection of Privacy Act",
+    "query_text": "legislation | Freedom of Information and Protection of\nPrivacy Act | Freedom\nof Information and Protection of Privacy Act | FOIPOP | <i>FOIPOP</i> | SNS 1993, c 5",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56gtx",
+        "score": 0.9054275751113892,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lrp",
+        "score": 0.7961060404777527,
+        "candidate_title": "The Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/566ls",
+        "score": 0.7834852933883667,
+        "candidate_title": "Right to Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pvb",
+        "score": 0.7829286456108093,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56flk",
+        "score": 0.774741530418396,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w78",
+        "score": 0.763677716255188,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/568d0",
+        "score": 0.7208703756332397,
+        "candidate_title": "Municipal Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/566gk",
+        "score": 0.704702615737915,
+        "candidate_title": "Personal Information Protection Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/sa-2003-c-p-6.5/latest/sa-2003-c-p-6.5.html",
+        "score": 0.702021062374115,
+        "candidate_title": "Personal Information Protection Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jgm",
+        "score": 0.6929959058761597,
+        "candidate_title": "Access to Information Act"
+      }
+    ]
+  },
+  "FOIPOP ON 1990": {
+    "uri": "https://www.canlii.org/en/on/laws/regu/rro-1990-reg-709/latest/rro-1990-reg-709.html",
+    "score": 0.7468635439872742,
+    "candidate_id": "l3099!3099-current-1",
+    "candidate_title": "Law Foundation",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/laws/regu/rro-1990-reg-709/latest/rro-1990-reg-709.html",
+        "score": 0.7468635439872742,
+        "candidate_title": "Law Foundation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/regu/o-reg-378-07/latest/o-reg-378-07.html",
+        "score": 0.7434114217758179,
+        "candidate_title": "Public Service Grievance Board: Complaints and Hearings"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxm",
+        "score": 0.7263236045837402,
+        "candidate_title": "Professional Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56gs3",
+        "score": 0.7153211832046509,
+        "candidate_title": "Occupational Health and Safety Code"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/laws/stat/ccsm-c-t10/latest/ccsm-c-t10.html",
+        "score": 0.7127519845962524,
+        "candidate_title": "The Taxicab Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/qc/laws/astat/sq-2017-c-11/latest/sq-2017-c-11.html",
+        "score": 0.7047368288040161,
+        "candidate_title": "An Act to amend various legislation mainly with respect to admission to professions and the governance of the professional system"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fn1z",
+        "score": 0.7004225254058838,
+        "candidate_title": "Code des professions"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vxx",
+        "score": 0.7003090977668762,
+        "candidate_title": "General Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nfx",
+        "score": 0.699683666229248,
+        "candidate_title": "Federal Courts Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fn28",
+        "score": 0.699156641960144,
+        "candidate_title": "Loi sur l'encadrement du secteur financier"
+      }
+    ]
+  },
+  "Freedom of Information Act NS 1990": {
+    "uri": "https://canlii.ca/t/56pvb",
+    "score": 0.7914427518844604,
+    "candidate_id": "l169!169-current-1",
+    "candidate_title": "Freedom of Information and Protection of Privacy Act",
+    "query_text": "legislation | <i>Freedom of Information Act</i> | R.S.N.S. 1990,\nc. 11",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56pvb",
+        "score": 0.7914427518844604,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56gtx",
+        "score": 0.7622845768928528,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/568d0",
+        "score": 0.7601218223571777,
+        "candidate_title": "Municipal Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w78",
+        "score": 0.7416585683822632,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lrp",
+        "score": 0.7351241707801819,
+        "candidate_title": "The Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jgm",
+        "score": 0.7347551584243774,
+        "candidate_title": "Access to Information Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56flk",
+        "score": 0.7093532085418701,
+        "candidate_title": "Freedom of Information and Protection of Privacy Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/stat/rso-1990-c-c11/latest/rso-1990-c-c11.html",
+        "score": 0.7070711851119995,
+        "candidate_title": "Child and Family Services Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56l4v",
+        "score": 0.7007449865341187,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-h-14/latest/rsnl-1990-c-h-14.html",
+        "score": 0.6993570327758789,
+        "candidate_title": "Human Rights Code"
+      }
+    ]
+  }
+}

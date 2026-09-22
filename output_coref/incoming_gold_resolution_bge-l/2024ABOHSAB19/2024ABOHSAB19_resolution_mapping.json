@@ -1,0 +1,474 @@
+{
+  "Sherlock Environmental Services": {
+    "uri": "https://canlii.ca/t/k7qlt",
+    "score": 0.9130597114562988,
+    "candidate_id": "2024abohsab19",
+    "candidate_title": "Sherlock Environmental Services Ltd. v Occupational Health and Safety",
+    "query_text": "decision | Sherlock\nEnvironmental Services Ltd. v Occupational Health and Safety | 2024 ABOHSAB 19",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k7qlt",
+        "score": 0.9130597114562988,
+        "candidate_title": "Sherlock Environmental Services Ltd. v Occupational Health and Safety"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2024/2024nbca22/2024nbca22.html",
+        "score": 0.7148540019989014,
+        "candidate_title": "Bulger v. Workplace Health, Safety and Compensation Commission"
+      },
+      {
+        "uri": "https://canlii.ca/t/k7bzn",
+        "score": 0.7122479677200317,
+        "candidate_title": "Thorkelson v Shell Canada Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/k3p9x",
+        "score": 0.7023870944976807,
+        "candidate_title": "Ishdorj v Health Watch Medical Clinic Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2021/2021nbca41/2021nbca41.html",
+        "score": 0.6986108422279358,
+        "candidate_title": "Workplace Health, Safety and Compensation Commission v. Boudreau et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2015/2015nlca40/2015nlca40.html",
+        "score": 0.694643497467041,
+        "candidate_title": "Workplace Health, Safety and Compensation Commission v Reid"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2021/2021abqb252/2021abqb252.html",
+        "score": 0.694167971611023,
+        "candidate_title": "DIRTT Environmental Solutions Ltd v Falkbuilt Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2022/2022bcsc385/2022bcsc385.html",
+        "score": 0.6831526756286621,
+        "candidate_title": "Gibraltar Mines Ltd. v Harvey"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/sst/doc/2020/2020sst22/2020sst22.html",
+        "score": 0.6819997429847717,
+        "candidate_title": "MB v Minister of Employment and Social Development"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2006/2006nbca95/2006nbca95.html",
+        "score": 0.6779175996780396,
+        "candidate_title": "Page v. Workplace Health, Safety and Compensation Commission of New Brunswick"
+      }
+    ]
+  },
+  "Kehewin Cree Nation": {
+    "uri": "https://canlii.ca/t/g0bkf",
+    "score": 0.9095554351806641,
+    "candidate_id": "2013abca294",
+    "candidate_title": "Kehewin Cree Nation v Mulvey",
+    "query_text": "decision | <a name=\"_Hlk179982223\"><i>Kehewin</i></a><i> Cree Nation v Mulvey</i> | 2013 ABCA\n294",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g0bkf",
+        "score": 0.9095554351806641,
+        "candidate_title": "Kehewin Cree Nation v Mulvey"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2020/2020abca183/2020abca183.html",
+        "score": 0.7439608573913574,
+        "candidate_title": "Piikani Nation v McMullen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2014/2014abca268/2014abca268.html",
+        "score": 0.7064239978790283,
+        "candidate_title": "Samson Cree Nation v O’Reilly & Associés"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mbqb/doc/2015/2015mbqb35/2015mbqb35.html",
+        "score": 0.7005147933959961,
+        "candidate_title": "Sapotaweyak Cree Nation et al. v. Manitoba et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc969/2022fc969.html",
+        "score": 0.6955654621124268,
+        "candidate_title": "McCallum v. Canoe Lake Cree First Nation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1992/1992canlii736/1992canlii736.html",
+        "score": 0.6915903091430664,
+        "candidate_title": "R. v. Keshane"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abkb/doc/2023/2023abkb321/2023abkb321.html",
+        "score": 0.6896274089813232,
+        "candidate_title": "Mikisew Cree First Nation v Rath"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2008/2008bcsc1505/2008bcsc1505.html",
+        "score": 0.6890819072723389,
+        "candidate_title": "Ke-Kin-Is-Uqs v. British Columbia (Minister of Forests)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2015/2015abca60/2015abca60.html",
+        "score": 0.6880755424499512,
+        "candidate_title": "Piikani Nation v Kostic"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2017/2017mbca2/2017mbca2.html",
+        "score": 0.687885582447052,
+        "candidate_title": "Assembly of Manitoba Chiefs v Canada (Attorney General) et al"
+      }
+    ]
+  },
+  "Thorkelson": {
+    "uri": "https://canlii.ca/t/k7bzn",
+    "score": 0.9099616408348083,
+    "candidate_id": "2024abohsab17",
+    "candidate_title": "Thorkelson v Shell Canada Limited",
+    "query_text": "decision | Thorkelson v Shell\nCanada Limited | 2024 ABOHSAB 17",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k7bzn",
+        "score": 0.9099616408348083,
+        "candidate_title": "Thorkelson v Shell Canada Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/1975/1975canlii1052/1975canlii1052.html",
+        "score": 0.7364705204963684,
+        "candidate_title": "Re Director of Investigation and Research and Shell Canada Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1frtq",
+        "score": 0.7221969366073608,
+        "candidate_title": "Mobil Oil Canada Ltd. v. Canada-Newfoundland Offshore Petroleum Board"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/tcc/doc/1996/1996canlii21371/1996canlii21371.html",
+        "score": 0.7194904088973999,
+        "candidate_title": "Shell Canada Ltd. v. R."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2008/2008fca279/2008fca279.html",
+        "score": 0.7175200581550598,
+        "candidate_title": "Shell Canada Limited v. P.T. Sari Incofood Corporation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2024/2024fc453/2024fc453.html",
+        "score": 0.7075780034065247,
+        "candidate_title": "McDowell v. A Drip of Honey"
+      },
+      {
+        "uri": "https://canlii.ca/t/1twxf",
+        "score": 0.7064217329025269,
+        "candidate_title": "Thorson v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2021/2021onca36/2021onca36.html",
+        "score": 0.7034313082695007,
+        "candidate_title": "Kaynes v. BP p.l.c."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2022/2022bcsc385/2022bcsc385.html",
+        "score": 0.7011825442314148,
+        "candidate_title": "Gibraltar Mines Ltd. v Harvey"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2022/2022bcca184/2022bcca184.html",
+        "score": 0.7007377743721008,
+        "candidate_title": "Forrest v. Aerin"
+      }
+    ]
+  },
+  "Ishdorj": {
+    "uri": "https://canlii.ca/t/k3p9x",
+    "score": 0.9079369306564331,
+    "candidate_id": "2024abohsab4",
+    "candidate_title": "Ishdorj v Health Watch Medical Clinic Ltd.",
+    "query_text": "decision | Ishdorj v Health Watch Medical\nClinic Ltd. | 2024 ABOSHAB 4",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k3p9x",
+        "score": 0.9079369306564331,
+        "candidate_title": "Ishdorj v Health Watch Medical Clinic Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2022/2022mbca7/2022mbca7.html",
+        "score": 0.6610298752784729,
+        "candidate_title": "Dhalla v College of Physicians and Surgeons of Manitoba"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2009/2009abqb79/2009abqb79.html",
+        "score": 0.6586894989013672,
+        "candidate_title": "Business Watch International Inc. v. Alberta (Information and Privacy Commissioner)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2021/2021abca118/2021abca118.html",
+        "score": 0.6586893796920776,
+        "candidate_title": "R v HMH"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2024/2024scc40/2024scc40.html",
+        "score": 0.6559650897979736,
+        "candidate_title": "Sanis Health Inc. v. British Columbia"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2007/2007fca140/2007fca140.html",
+        "score": 0.6511685848236084,
+        "candidate_title": "Pharmascience Inc. v. Canada (Health)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abgaa/doc/2022/2022canlii34981/2022canlii34981.html",
+        "score": 0.6511411070823669,
+        "candidate_title": "Health Sciences Association of Alberta v Siksika Health Services"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2023/2023onsc742/2023onsc742.html",
+        "score": 0.6499631404876709,
+        "candidate_title": "Gao v. Health Profession Appeal and Review Board"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2024/2024bcsc2006/2024bcsc2006.html",
+        "score": 0.6496981382369995,
+        "candidate_title": "Dentalcorp Health Services Ltd. v Dr. J.S. Minhas Dental Corp."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsc/doc/2019/2019nlsc52/2019nlsc52.html",
+        "score": 0.6486870050430298,
+        "candidate_title": "Health Quest Inc. v. Arizona Heat Inc."
+      }
+    ]
+  },
+  "Occupational Health and Safety Act": {
+    "uri": "https://canlii.ca/t/56jxc",
+    "score": 0.9610912799835205,
+    "candidate_id": "l74891!74891-current-1",
+    "candidate_title": "Occupational Health and Safety Act",
+    "query_text": "legislation | Occupational\nHealth and Safety Act | Act | <i>Act</i> | SA 2020, c O-2.2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56jxc",
+        "score": 0.9610912799835205,
+        "candidate_title": "Occupational Health and Safety Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56gs3",
+        "score": 0.7703607082366943,
+        "candidate_title": "Occupational Health and Safety Code"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/stat/ss-1993-c-o-1.1/latest/ss-1993-c-o-1.1.html",
+        "score": 0.7575764656066895,
+        "candidate_title": "Occupational Health and Safety Act, 1993"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2020-c-39/latest/sa-2020-c-39.html",
+        "score": 0.7469741106033325,
+        "candidate_title": "Red Tape Reduction Implementation Act, 2020 (No. 2)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2022-c-16/latest/sa-2022-c-16.html",
+        "score": 0.7340172529220581,
+        "candidate_title": "Red Tape Reduction Statutes Amendment Act, 2022"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-1973-c-87/latest/sa-1973-c-87.html",
+        "score": 0.7315004467964172,
+        "candidate_title": "The Workers' Compensation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-62-2003/latest/alta-reg-62-2003.html",
+        "score": 0.7213305234909058,
+        "candidate_title": "Occupational Health and Safety Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/sa-2007-c-a-40.2/latest/sa-2007-c-a-40.2.html",
+        "score": 0.7187193036079407,
+        "candidate_title": "Animal Health Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-321-2003/latest/alta-reg-321-2003.html",
+        "score": 0.7163183689117432,
+        "candidate_title": "Occupational Health and Safety Code Order"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2020-c-21/latest/sa-2020-c-21.html",
+        "score": 0.711838960647583,
+        "candidate_title": "Environmental Protection Statutes Amendment Act, 2020"
+      }
+    ]
+  },
+  "Occupational Health and Safety Code": {
+    "uri": "https://canlii.ca/t/56gs3",
+    "score": 0.9485327005386353,
+    "candidate_id": "l79202!79202-current-1",
+    "candidate_title": "Occupational Health and Safety Code",
+    "query_text": "legislation | Occupational Health and\nSafety Code | OHS Code | Alta Reg 191/2021",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56gs3",
+        "score": 0.9485327005386353,
+        "candidate_title": "Occupational Health and Safety Code"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-321-2003/latest/alta-reg-321-2003.html",
+        "score": 0.8580377101898193,
+        "candidate_title": "Occupational Health and Safety Code Order"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-62-2003/latest/alta-reg-62-2003.html",
+        "score": 0.8401554822921753,
+        "candidate_title": "Occupational Health and Safety Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-14-1997/latest/alta-reg-14-1997.html",
+        "score": 0.7765474319458008,
+        "candidate_title": "Employment Standards Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-448-1983/latest/alta-reg-448-1983.html",
+        "score": 0.7732883095741272,
+        "candidate_title": "General Safety Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jxc",
+        "score": 0.7376362681388855,
+        "candidate_title": "Occupational Health and Safety Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-246-2006/latest/alta-reg-246-2006.html",
+        "score": 0.7337251901626587,
+        "candidate_title": "Minister's Guidelines Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-3-2012/latest/alta-reg-3-2012.html",
+        "score": 0.7313513159751892,
+        "candidate_title": "Vital Statistics Information Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-276-1995/latest/alta-reg-276-1995.html",
+        "score": 0.7298572063446045,
+        "candidate_title": "Civil Enforcement Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/regu/o-reg-164-99/latest/o-reg-164-99.html",
+        "score": 0.7262086272239685,
+        "candidate_title": "Electrical Safety Code"
+      }
+    ]
+  },
+  "OHS Rules": {
+    "uri": "https://canlii.ca/t/kcvt",
+    "score": 0.6696382761001587,
+    "candidate_id": "l29969!29969-current-1",
+    "candidate_title": "Rules of the Court of Appeal Respecting Civil Appeals",
+    "query_text": "legislation | Board’s <i>Rules of Procedure for OHS Appeals </i> | OHS\nRules | OHS Rules",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kcvt",
+        "score": 0.6696382761001587,
+        "candidate_title": "Rules of the Court of Appeal Respecting Civil Appeals"
+      },
+      {
+        "uri": "https://canlii.ca/t/56gs3",
+        "score": 0.6680259108543396,
+        "candidate_title": "Occupational Health and Safety Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56ndw",
+        "score": 0.6636918783187866,
+        "candidate_title": "Rules of Court"
+      },
+      {
+        "uri": "https://canlii.ca/t/kh81",
+        "score": 0.6603132486343384,
+        "candidate_title": "Rules of the Court of Appeal Respecting Civil Appeals"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-62-2003/latest/alta-reg-62-2003.html",
+        "score": 0.6509866118431091,
+        "candidate_title": "Occupational Health and Safety Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/regu/o-reg-164-99/latest/o-reg-164-99.html",
+        "score": 0.649928092956543,
+        "candidate_title": "Electrical Safety Code"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-321-2003/latest/alta-reg-321-2003.html",
+        "score": 0.6465311050415039,
+        "candidate_title": "Occupational Health and Safety Code Order"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/stat/so-1999-c-12-sch-g/latest/so-1999-c-12-sch-g.html",
+        "score": 0.6453069448471069,
+        "candidate_title": "Licence Appeal Tribunal Act, 1999"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/stat/ss-1993-c-o-1.1/latest/ss-1993-c-o-1.1.html",
+        "score": 0.6439781188964844,
+        "candidate_title": "Occupational Health and Safety Act, 1993"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/regu/o-reg-378-07/latest/o-reg-378-07.html",
+        "score": 0.6405622959136963,
+        "candidate_title": "Public Service Grievance Board: Complaints and Hearings"
+      }
+    ]
+  },
+  "Labour Relations Code": {
+    "uri": "https://canlii.ca/t/56nbs",
+    "score": 0.9806556105613708,
+    "candidate_id": "l17790!17790-current-1",
+    "candidate_title": "Labour Relations Code",
+    "query_text": "legislation | Labour Relations Code | Labour\nRelations Code | RSA 2000, c L-1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nbs",
+        "score": 0.9806556105613708,
+        "candidate_title": "Labour Relations Code"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-d-14/latest/rsa-2000-c-d-14.html",
+        "score": 0.7780004739761353,
+        "candidate_title": "Domestic Relations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56k1n",
+        "score": 0.7589763402938843,
+        "candidate_title": "Labour Relations Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-i-3/latest/rsa-2000-c-i-3.html",
+        "score": 0.7507914900779724,
+        "candidate_title": "Insurance Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-a-1/latest/rsa-2000-c-a-1.html",
+        "score": 0.7477127313613892,
+        "candidate_title": "ABC Benefits Corporation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-t-6/latest/rsa-2000-c-t-6.html",
+        "score": 0.7460138201713562,
+        "candidate_title": "Traffic Safety Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/55zl8",
+        "score": 0.7452584505081177,
+        "candidate_title": "Labour Relations Amendment Act, 2000"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/stat/rso-1990-c-l2/latest/rso-1990-c-l2.html",
+        "score": 0.7410022616386414,
+        "candidate_title": "Labour Relations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kzw",
+        "score": 0.7360694408416748,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-p-1/latest/rsa-2000-c-p-1.html",
+        "score": 0.7274282574653625,
+        "candidate_title": "Parentage and Maintenance Act"
+      }
+    ]
+  }
+}

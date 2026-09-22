@@ -1,0 +1,769 @@
+{
+  "Canadian Natural Resources": {
+    "uri": "https://canlii.ca/t/kfpl2",
+    "score": 0.8884492516517639,
+    "candidate_id": "2025abaer7",
+    "candidate_title": "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch",
+    "query_text": "decision | Canadian Natural Resources\nLimited v. AER Regulatory Compliance Branch | 2025 ABAER 007",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kfpl2",
+        "score": 0.8884492516517639,
+        "candidate_title": "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/ablprt/doc/2022/2022ablprt1192/2022ablprt1192.html",
+        "score": 0.6444923877716064,
+        "candidate_title": "Canadian Natural Resources Limited v Chrupka"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/absrb/doc/2014/2014absrb276/2014absrb276.html",
+        "score": 0.5948125720024109,
+        "candidate_title": "Canadian Natural Resources Limited v. Sanderson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2023/2023abca221/2023abca221.html",
+        "score": 0.5828355550765991,
+        "candidate_title": "AlphaBow Energy Ltd v Alberta Energy Regulator"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2019/2019abqb698/2019abqb698.html",
+        "score": 0.5761152505874634,
+        "candidate_title": "Whitecap Resources Inc. v Canadian Natural Resources Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2013/2013abqb230/2013abqb230.html",
+        "score": 0.5740489959716797,
+        "candidate_title": "Canadian Natural Resources Limited v. ShawCor Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/gwvg7",
+        "score": 0.5709551572799683,
+        "candidate_title": "Ernst v. Alberta Energy Regulator"
+      },
+      {
+        "uri": "https://canlii.ca/t/g90hw",
+        "score": 0.5665051937103271,
+        "candidate_title": "Ernst v Alberta (Energy Resources Conservation Board)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2019/2019abqb301/2019abqb301.html",
+        "score": 0.5562795400619507,
+        "candidate_title": "Cenovus TL ULC v Alberta (Energy)"
+      },
+      {
+        "uri": "https://canlii.ca/t/j8x7w",
+        "score": 0.5534495115280151,
+        "candidate_title": "Colette Benson and CRC Open Camp and Catering Ltd. v. Director, Regional Compliance, Lower Athabasca Region, Alberta Environment and Parks"
+      }
+    ]
+  },
+  "Syncrude ABPC-1 2010": {
+    "uri": "https://canlii.ca/t/2bb02",
+    "score": 0.7956664562225342,
+    "candidate_id": "2010abpc229",
+    "candidate_title": "R. v. Syncrude Canada Ltd.",
+    "query_text": "decision | R v Syncrude | Syncrude judgement | 2010 ABPC 229",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2bb02",
+        "score": 0.7956664562225342,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/29wsb",
+        "score": 0.7839996814727783,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2016/2016fca160/2016fca160.html",
+        "score": 0.6213247776031494,
+        "candidate_title": "Syncrude Canada Ltd. v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2010/2010scc35/2010scc35.html",
+        "score": 0.5769195556640625,
+        "candidate_title": "R. v. Sinclair"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abpc/doc/2010/2010abpc30/2010abpc30.html",
+        "score": 0.5745066404342651,
+        "candidate_title": "R. v. Hyde"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abpc/doc/2000/2000abpc97/2000abpc97.html",
+        "score": 0.5741305351257324,
+        "candidate_title": "R. v. Cargill Limited -Cargill Limitee"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1989/1989canlii129/1989canlii129.html",
+        "score": 0.5721045136451721,
+        "candidate_title": "Hunter Engineering Co. v. Syncrude Canada Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1992/1992abca300/1992abca300.html",
+        "score": 0.5678368210792542,
+        "candidate_title": "Syncrude Canada Ltd. v. Babcock & Wilcox Canada Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abpc/doc/2010/2010abpc68/2010abpc68.html",
+        "score": 0.5481712222099304,
+        "candidate_title": "R. v. Bull"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2019/2019abca170/2019abca170.html",
+        "score": 0.5462202429771423,
+        "candidate_title": "R v WCR"
+      }
+    ]
+  },
+  "Rizzo Shoes": {
+    "uri": "https://canlii.ca/t/1fqwt",
+    "score": 0.8163740634918213,
+    "candidate_id": "1998csc-scc5",
+    "candidate_title": "Rizzo & Rizzo Shoes Ltd. (Re)",
+    "query_text": "decision | Rizzo\n&amp; Rizzo Shoes Ltd. (Re) | Rizzo Shoes | [1998] 1 SCR 27",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqwt",
+        "score": 0.8163740634918213,
+        "candidate_title": "Rizzo & Rizzo Shoes Ltd. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1999/1999canlii639/1999canlii639.html",
+        "score": 0.54380863904953,
+        "candidate_title": "65302 British Columbia Ltd. v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mjv0",
+        "score": 0.5386544466018677,
+        "candidate_title": "Schreiber Brothers Ltd. v. Currie Products Ltd. et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1998/1998canlii794/1998canlii794.html",
+        "score": 0.5376932621002197,
+        "candidate_title": "Continental Bank Leasing Corp. v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/jh6m8",
+        "score": 0.5358096361160278,
+        "candidate_title": "Canada v. Canada North Group Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/1lpd8",
+        "score": 0.5348877310752869,
+        "candidate_title": "Thorne's Hardware Ltd. v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1tvn6",
+        "score": 0.5295102000236511,
+        "candidate_title": "Howard Smith Paper Mills Ltd. et al. v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1998/1998canlii828/1998canlii828.html",
+        "score": 0.5286346673965454,
+        "candidate_title": "Schreiber v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1990/1990canlii139/1990canlii139.html",
+        "score": 0.5279422402381897,
+        "candidate_title": "Rudolph Wolff & Co. v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftpf",
+        "score": 0.5271000266075134,
+        "candidate_title": "Finlay v. Canada (Minister of Finance)"
+      }
+    ]
+  },
+  "Vavilov": {
+    "uri": "https://canlii.ca/t/j46kb",
+    "score": 0.8936277627944946,
+    "candidate_id": "2019csc-scc65",
+    "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov",
+    "query_text": "decision | Canada\n(Minister of Citizenship and Immigration) v Vavilov | 2019 SCC 65",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/j46kb",
+        "score": 0.8936277627944946,
+        "candidate_title": "Canada (Minister of Citizenship and Immigration) v. Vavilov"
+      },
+      {
+        "uri": "https://canlii.ca/t/h4j13",
+        "score": 0.7965587973594666,
+        "candidate_title": "Vavilov v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/gkr9s",
+        "score": 0.782630443572998,
+        "candidate_title": "Vavilov v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2024/2024fc768/2024fc768.html",
+        "score": 0.7046151161193848,
+        "candidate_title": "Vashist v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2023/2023fc670/2023fc670.html",
+        "score": 0.6816844940185547,
+        "candidate_title": "Validzic v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2025/2025fc987/2025fc987.html",
+        "score": 0.6622130870819092,
+        "candidate_title": "Javed v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqlk",
+        "score": 0.6581725478172302,
+        "candidate_title": "Baker v. Canada (Minister of Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2022/2022fc1184/2022fc1184.html",
+        "score": 0.6550496220588684,
+        "candidate_title": "Grewal v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2019/2019fc706/2019fc706.html",
+        "score": 0.6536458134651184,
+        "candidate_title": "Kallab v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2021/2021fc90/2021fc90.html",
+        "score": 0.6520687341690063,
+        "candidate_title": "A.B. v. Canada (Citizenship and Immigration)"
+      }
+    ]
+  },
+  "Syncrude ABPC-2 2010": {
+    "uri": "https://canlii.ca/t/2bb02",
+    "score": 0.7513092756271362,
+    "candidate_id": "2010abpc229",
+    "candidate_title": "R. v. Syncrude Canada Ltd.",
+    "query_text": "decision | R v Syncrude | Syncrude non-suit ruling | Syncrude\nnon-suit ruling | 2010 ABPC 154",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2bb02",
+        "score": 0.7513092756271362,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/29wsb",
+        "score": 0.7489687204360962,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/2016/2016fca160/2016fca160.html",
+        "score": 0.6051896810531616,
+        "candidate_title": "Syncrude Canada Ltd. v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1992/1992abca300/1992abca300.html",
+        "score": 0.5912092924118042,
+        "candidate_title": "Syncrude Canada Ltd. v. Babcock & Wilcox Canada Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1989/1989canlii129/1989canlii129.html",
+        "score": 0.57402104139328,
+        "candidate_title": "Hunter Engineering Co. v. Syncrude Canada Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abpc/doc/2010/2010abpc30/2010abpc30.html",
+        "score": 0.558163583278656,
+        "candidate_title": "R. v. Hyde"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abpc/doc/2000/2000abpc97/2000abpc97.html",
+        "score": 0.5566685795783997,
+        "candidate_title": "R. v. Cargill Limited -Cargill Limitee"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2010/2010scc35/2010scc35.html",
+        "score": 0.5304026007652283,
+        "candidate_title": "R. v. Sinclair"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2019/2019abca170/2019abca170.html",
+        "score": 0.5300133228302002,
+        "candidate_title": "R v WCR"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abpc/doc/2010/2010abpc68/2010abpc68.html",
+        "score": 0.5281521677970886,
+        "candidate_title": "R. v. Bull"
+      }
+    ]
+  },
+  "Dekker": {
+    "uri": "https://canlii.ca/t/fnbk1",
+    "score": 0.7634754180908203,
+    "candidate_id": "2011ablrb1000033",
+    "candidate_title": "Dekker v Communications, Energy and Paperworkers Union of Canada",
+    "query_text": "decision | <i>Dekker v C.E.P.</i> | [2011] Alta. L.R.B.R. LD-011 (Alberta Labour Relations Board)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/fnbk1",
+        "score": 0.7634754180908203,
+        "candidate_title": "Dekker v Communications, Energy and Paperworkers Union of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/ablrb/doc/2011/2011canlii62466/2011canlii62466.html",
+        "score": 0.5795745849609375,
+        "candidate_title": "Firestone Energy Corporation v Construction Workers Union, Local No 63"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/ablrb/doc/2011/2011canlii62485/2011canlii62485.html",
+        "score": 0.5691494345664978,
+        "candidate_title": "United Nurses of Alberta v Aakom-Kiyii (Peigan/Piikani) Health Services"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/ablrb/doc/2022/2022canlii30038/2022canlii30038.html",
+        "score": 0.563511848449707,
+        "candidate_title": "Canadian Union of Public Employees, Local 1099 v Bike Edmonton Society"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onlrb/doc/2011/2011canlii81930/2011canlii81930.html",
+        "score": 0.5546437501907349,
+        "candidate_title": "Communications, Energy and Paperworkers Union of Canada v Reliance Comfort Limited Partnership (Reliance Yanch Heating and Air Conditioning)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2021/2021abqb673/2021abqb673.html",
+        "score": 0.552578866481781,
+        "candidate_title": "Wilson v Alberta (Labour Relations Board)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/sklrb/doc/2018/2018canlii8571/2018canlii8571.html",
+        "score": 0.549467146396637,
+        "candidate_title": "101254226 Saskatchewan Ltd. v Douglas Klymchuk and Government of Saskatchewan"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2022/2022abca139/2022abca139.html",
+        "score": 0.5331343412399292,
+        "candidate_title": "International Brotherhood of Boilermakers v Alberta Labour Relations Board"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abkb/doc/2023/2023abkb18/2023abkb18.html",
+        "score": 0.5280836820602417,
+        "candidate_title": "Duffek v Alberta (Appeals Commission for Alberta Workers' Compensation)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abwcac/doc/2021/2021canlii9250/2021canlii9250.html",
+        "score": 0.5271509289741516,
+        "candidate_title": "Decision No.: 2020-0555"
+      }
+    ]
+  },
+  "ASL Paving": {
+    "uri": "https://canlii.ca/t/2dcdb",
+    "score": 0.812246561050415,
+    "candidate_id": "1995abca118",
+    "candidate_title": "Alberta v. ASL Paving Ltd.",
+    "query_text": "decision | <i>R v ASL Paving Ltd.</i> | [1995] AWLD 430\n(ABCA)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2dcdb",
+        "score": 0.812246561050415,
+        "candidate_title": "Alberta v. ASL Paving Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1963/1963canlii721/1963canlii721.html",
+        "score": 0.6174613237380981,
+        "candidate_title": "Regina v. Vulcan Asphalt & Supply Co. Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/h6p1d",
+        "score": 0.579498291015625,
+        "candidate_title": "Aski Construction Ltd v Markos"
+      },
+      {
+        "uri": "https://canlii.ca/t/2bb02",
+        "score": 0.5694712400436401,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/1969/1969canlii578/1969canlii578.html",
+        "score": 0.5677539110183716,
+        "candidate_title": "R. v. W. C. Wells Construction Company Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/29wsb",
+        "score": 0.5672282576560974,
+        "candidate_title": "R. v. Syncrude Canada Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2020/2020abqb106/2020abqb106.html",
+        "score": 0.5671079158782959,
+        "candidate_title": "Cove Contracting Ltd v Condominium Corporation No 012 5598 (Ravine Park)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abpc/doc/2000/2000abpc97/2000abpc97.html",
+        "score": 0.5651588439941406,
+        "candidate_title": "R. v. Cargill Limited -Cargill Limitee"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/absra/doc/2021/2021absra821/2021absra821.html",
+        "score": 0.5629177689552307,
+        "candidate_title": "Culp (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/2dg9z",
+        "score": 0.5538520812988281,
+        "candidate_title": "Nova v. Guelph Engineering Company"
+      }
+    ]
+  },
+  "EPEA": {
+    "uri": "https://canlii.ca/t/56wh2",
+    "score": 0.6778167486190796,
+    "candidate_id": "l17678!17678-current-1",
+    "candidate_title": "Environmental Protection and Enhancement Act",
+    "query_text": "legislation | EPEA | Environmental Protection and Enhancement Act | <i>EPEA</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56wh2",
+        "score": 0.6778167486190796,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vzq",
+        "score": 0.6735947132110596,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/pe/laws/stat/rspei-1988-c-e-9/latest/rspei-1988-c-e-9.html",
+        "score": 0.6448631286621094,
+        "candidate_title": "Environmental Protection Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2020-c-21/latest/sa-2020-c-21.html",
+        "score": 0.5755874514579773,
+        "candidate_title": "Environmental Protection Statutes Amendment Act, 2020"
+      },
+      {
+        "uri": "https://canlii.ca/t/56q11",
+        "score": 0.5438337922096252,
+        "candidate_title": "Environmental Assessment Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/55kd4",
+        "score": 0.5322650074958801,
+        "candidate_title": "Environmental Management Amendment Act, 2016"
+      },
+      {
+        "uri": "https://canlii.ca/t/56c1p",
+        "score": 0.5219419598579407,
+        "candidate_title": "Environmental Management Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/laws/stat/ccsm-c-e125/latest/ccsm-c-e125.html",
+        "score": 0.5102989673614502,
+        "candidate_title": "The Environment Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/astat/sc-2019-c-28/latest/sc-2019-c-28.html",
+        "score": 0.49225908517837524,
+        "candidate_title": "An Act to enact the Impact Assessment Act and the Canadian Energy Regulator Act, to amend the Navigation Protection Act and to make consequential amendments to other Acts"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wnv",
+        "score": 0.4883929491043091,
+        "candidate_title": "Administrative penalties (Environmental Management Act) Regulation"
+      }
+    ]
+  },
+  "Administrative Penalty Regulation": {
+    "uri": "https://canlii.ca/t/56w7m",
+    "score": 0.7161775231361389,
+    "candidate_id": "l18667!18667-current-1",
+    "candidate_title": "Administrative Penalty Regulation",
+    "query_text": "legislation | <i>Administrative\nPenalty Regulation</i> | Administrative Penalty Regulation | Administrative\nPenalty Regulation | regulation | <i>Administrative Penalty Regulation</i> | <i>Administrative Penalty\nRegulation</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56w7m",
+        "score": 0.7161775231361389,
+        "candidate_title": "Administrative Penalty Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wnv",
+        "score": 0.6962168216705322,
+        "candidate_title": "Administrative penalties (Environmental Management Act) Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56w3t",
+        "score": 0.5300772190093994,
+        "candidate_title": "Act respecting administrative justice"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jpq",
+        "score": 0.5094314813613892,
+        "candidate_title": "Public Lands Administration Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-276-1995/latest/alta-reg-276-1995.html",
+        "score": 0.5086124539375305,
+        "candidate_title": "Civil Enforcement Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/x6v",
+        "score": 0.5044156312942505,
+        "candidate_title": "Tax Administration Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/561jt",
+        "score": 0.49699175357818604,
+        "candidate_title": "Administrative Tribunals Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pvt",
+        "score": 0.4966488480567932,
+        "candidate_title": "Alberta Energy Regulator Rules of Practice"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-44-2019/latest/alta-reg-44-2019.html",
+        "score": 0.4811907410621643,
+        "candidate_title": "Designation and Transfer of Responsibility Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-80-2012/latest/alta-reg-80-2012.html",
+        "score": 0.48067015409469604,
+        "candidate_title": "Designation and Transfer of Responsibility Regulation"
+      }
+    ]
+  },
+  "REDA": {
+    "uri": "https://canlii.ca/t/56k8d",
+    "score": 0.7419575452804565,
+    "candidate_id": "l36872!36872-current-1",
+    "candidate_title": "Responsible Energy Development Act",
+    "query_text": "legislation | Responsible\nEnergy Development Act | REDA",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56k8d",
+        "score": 0.7419575452804565,
+        "candidate_title": "Responsible Energy Development Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/kzbn",
+        "score": 0.5639894008636475,
+        "candidate_title": "Energy Resources Conservation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/sbc-2010-c-22/latest/sbc-2010-c-22.html",
+        "score": 0.5257002711296082,
+        "candidate_title": "Clean Energy Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2022-c-16/latest/sa-2022-c-16.html",
+        "score": 0.5143564939498901,
+        "candidate_title": "Red Tape Reduction Statutes Amendment Act, 2022"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/stat/ss-2007-c-p-13.2/latest/ss-2007-c-p-13.2.html",
+        "score": 0.5014675855636597,
+        "candidate_title": "The Planning and Development Act, 2007"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/laws/stat/sns-2009-c-3/latest/sns-2009-c-3.html",
+        "score": 0.49676376581192017,
+        "candidate_title": "Efficiency Nova Scotia Corporation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/astat/sc-2019-c-28/latest/sc-2019-c-28.html",
+        "score": 0.4959680140018463,
+        "candidate_title": "An Act to enact the Impact Assessment Act and the Canadian Energy Regulator Act, to amend the Navigation Protection Act and to make consequential amendments to other Acts"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2020-c-39/latest/sa-2020-c-39.html",
+        "score": 0.4903101325035095,
+        "candidate_title": "Red Tape Reduction Implementation Act, 2020 (No. 2)"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pvt",
+        "score": 0.4822927713394165,
+        "candidate_title": "Alberta Energy Regulator Rules of Practice"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/regu/bc-reg-529-2004/latest/bc-reg-529-2004.html",
+        "score": 0.4800240993499756,
+        "candidate_title": "Mineral Tenure Act Regulation"
+      }
+    ]
+  },
+  "Alberta Energy Regulator Rules of Practice": {
+    "uri": "https://canlii.ca/t/56pvt",
+    "score": 0.8051488399505615,
+    "candidate_id": "l37442!37442-current-1",
+    "candidate_title": "Alberta Energy Regulator Rules of Practice",
+    "query_text": "legislation | <i>Alberta Energy Regulator Rules of Practice</i>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56pvt",
+        "score": 0.8051488399505615,
+        "candidate_title": "Alberta Energy Regulator Rules of Practice"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v6x",
+        "score": 0.6460599899291992,
+        "candidate_title": "Alberta Rules of Court"
+      },
+      {
+        "uri": "https://canlii.ca/t/kcvt",
+        "score": 0.5490280389785767,
+        "candidate_title": "Rules of the Court of Appeal Respecting Civil Appeals"
+      },
+      {
+        "uri": "https://canlii.ca/t/kh81",
+        "score": 0.5451630353927612,
+        "candidate_title": "Rules of the Court of Appeal Respecting Civil Appeals"
+      },
+      {
+        "uri": "https://canlii.ca/t/khbp",
+        "score": 0.5289961099624634,
+        "candidate_title": "Rules of the Supreme Court of the Northwest Territories"
+      },
+      {
+        "uri": "https://canlii.ca/t/56k8d",
+        "score": 0.5225910544395447,
+        "candidate_title": "Responsible Energy Development Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/sc-1930-c-3/latest/sc-1930-c-3.html",
+        "score": 0.5218967795372009,
+        "candidate_title": "Alberta Natural Resources Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kbt",
+        "score": 0.5192457437515259,
+        "candidate_title": "Petroleum and Natural gas Tenure Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/regu/sor-91-499/latest/sor-91-499.html",
+        "score": 0.5173113346099854,
+        "candidate_title": "Canadian International Trade Tribunal Rules"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-98-2006/latest/alta-reg-98-2006.html",
+        "score": 0.5146648287773132,
+        "candidate_title": "Residential Tenancy Dispute Resolution Service Regulation"
+      }
+    ]
+  },
+  "Interpretation Act": {
+    "uri": "https://canlii.ca/t/56fd8",
+    "score": 0.7281261682510376,
+    "candidate_id": "l12864!12864-current-1",
+    "candidate_title": "Interpretation Act",
+    "query_text": "legislation | Interpretation Act | Interpretation\nAct",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 0.7281261682510376,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/yk/laws/stat/rsy-2002-c-125/latest/rsy-2002-c-125.html",
+        "score": 0.7199282646179199,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kzw",
+        "score": 0.703534722328186,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+        "score": 0.7029776573181152,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/564nl",
+        "score": 0.694580614566803,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 0.520986795425415,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/hznr",
+        "score": 0.5160583853721619,
+        "candidate_title": "Interest Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/55vz4",
+        "score": 0.5158795118331909,
+        "candidate_title": "Interim Language of Instruction Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.5132033228874207,
+        "candidate_title": "The Constitution Act, 1867"
+      },
+      {
+        "uri": "https://canlii.ca/t/56p4b",
+        "score": 0.5046733021736145,
+        "candidate_title": "Judicature Act"
+      }
+    ]
+  },
+  "Merriam-Webster Online Dictionary": {
+    "uri": "https://www.canlii.org/en/commentary/doc/2021CanLIIDocs13058",
+    "score": 0.3907242715358734,
+    "candidate_id": "d96665!d96665",
+    "candidate_title": "Les certitudes du droit - The Plain Meaning Rule and Other Ways to Cheat at Statutory Interpretation",
+    "query_text": "secondary sources | Merriam-Webster Online Dictionary",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2021CanLIIDocs13058",
+        "score": 0.3907242715358734,
+        "candidate_title": "Les certitudes du droit - The Plain Meaning Rule and Other Ways to Cheat at Statutory Interpretation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2004/2004scc13/2004scc13.html",
+        "score": 0.3763248920440674,
+        "candidate_title": "CCH Canadian Ltd. v. Law Society of Upper Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/51vg",
+        "score": 0.3762989938259125,
+        "candidate_title": "St-Jean v. Mercier"
+      },
+      {
+        "uri": "https://canlii.ca/t/k97fc",
+        "score": 0.37531188130378723,
+        "candidate_title": "Merck & Co. Inc. v. Sherman & Ulster Ltd.; Attorney-General of Canada, Intervenant"
+      },
+      {
+        "uri": "https://canlii.ca/t/fvbrr",
+        "score": 0.37291058897972107,
+        "candidate_title": "R. v. N.S."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1995/1995canlii108/1995canlii108.html",
+        "score": 0.37120431661605835,
+        "candidate_title": "Weber v. Ontario Hydro"
+      },
+      {
+        "uri": "https://canlii.ca/t/jp64b",
+        "score": 0.3707995116710663,
+        "candidate_title": "R. v. Sullivan"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/laws/stat/ccsm-c-e150/latest/ccsm-c-e150.html",
+        "score": 0.3688649833202362,
+        "candidate_title": "The Manitoba Evidence Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/fpvd1",
+        "score": 0.36705678701400757,
+        "candidate_title": "Merck Frosst Canada Ltd. v. Canada (Health)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1998/1998canlii828/1998canlii828.html",
+        "score": 0.3650563657283783,
+        "candidate_title": "Schreiber v. Canada (Attorney General)"
+      }
+    ]
+  }
+}

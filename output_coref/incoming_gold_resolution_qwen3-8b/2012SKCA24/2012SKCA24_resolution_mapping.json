@@ -1,0 +1,769 @@
+{
+  "Sasco Developments": {
+    "uri": "https://www.canlii.org/en/sk/skca/doc/2024/2024skca72/2024skca72.html",
+    "score": 0.6143070459365845,
+    "candidate_id": "2024skca72",
+    "candidate_title": "R v McKay",
+    "query_text": "decision | 2012 SKCA 24",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2024/2024skca72/2024skca72.html",
+        "score": 0.6143070459365845,
+        "candidate_title": "R v McKay"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2022/2022skca83/2022skca83.html",
+        "score": 0.6138951182365417,
+        "candidate_title": "Affinity Holdings Ltd. v Shaunavon (Town)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2014/2014skca87/2014skca87.html",
+        "score": 0.6065022349357605,
+        "candidate_title": "Linn v Frank"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2014/2014skca111/2014skca111.html",
+        "score": 0.6030482649803162,
+        "candidate_title": "Thompson v Bear"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2022/2022skca56/2022skca56.html",
+        "score": 0.5990850925445557,
+        "candidate_title": "McCabe v Kowalyshyn"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2024/2024skca111/2024skca111.html",
+        "score": 0.5960378646850586,
+        "candidate_title": "Buchanan (Rural Municipality) v Veldman"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2023/2023skca17/2023skca17.html",
+        "score": 0.5956465005874634,
+        "candidate_title": "Bouvier v Bouvier"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2023/2023skca8/2023skca8.html",
+        "score": 0.5903570055961609,
+        "candidate_title": "O.M.S. v E.J.S"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2019/2019skca77/2019skca77.html",
+        "score": 0.5885269045829773,
+        "candidate_title": "994552 N.W.T. Ltd. v Kindersley (Town)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2024/2024skca54/2024skca54.html",
+        "score": 0.5869725942611694,
+        "candidate_title": "Friedrick v Kelturn Drywall Ltd."
+      }
+    ]
+  },
+  "Laing Property": {
+    "uri": "https://canlii.ca/t/1nqqv",
+    "score": 0.8187128901481628,
+    "candidate_id": "1994skca10181",
+    "candidate_title": "Regina (City) v. Laing Property Corp.",
+    "query_text": "decision | <i>Regina (City)</i> v. <i>Laing Property Corp</i>. | [1995] 3\nW.W.R. 551 (Sask. C.A) | 128 Sask R.29",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1nqqv",
+        "score": 0.8187128901481628,
+        "candidate_title": "Regina (City) v. Laing Property Corp."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2017/2017skca34/2017skca34.html",
+        "score": 0.6012418866157532,
+        "candidate_title": "Harvard Property Management Inc. v Saskatoon (City)"
+      },
+      {
+        "uri": "https://canlii.ca/t/fqhtx",
+        "score": 0.5987932682037354,
+        "candidate_title": "Sasco Developments Ltd v Moose Jaw (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1983/1983canlii33/1983canlii33.html",
+        "score": 0.5902421474456787,
+        "candidate_title": "Morguard Properties Ltd. v. City of Winnipeg"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skmb/doc/2020/2020skmb22/2020skmb22.html",
+        "score": 0.586962878704071,
+        "candidate_title": "SBLP Southland Mall Inc. v Regina (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2003/2003skca74/2003skca74.html",
+        "score": 0.582761287689209,
+        "candidate_title": "Kolitsas Holdings Ltd. v. Regina (City)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g79k9",
+        "score": 0.5826259255409241,
+        "candidate_title": "Murray v. Saskatoon (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2019/2019skca77/2019skca77.html",
+        "score": 0.5791606903076172,
+        "candidate_title": "994552 N.W.T. Ltd. v Kindersley (Town)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2023/2023skca5/2023skca5.html",
+        "score": 0.5689760446548462,
+        "candidate_title": "Brandt Properties Ltd. v Sherwood (Rural Municipality)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skmb/doc/2022/2022skmb78/2022skmb78.html",
+        "score": 0.565418004989624,
+        "candidate_title": "Various (Altus Group Limited) v Saskatoon (City)"
+      }
+    ]
+  },
+  "Estevan Coal": {
+    "uri": "https://canlii.ca/t/1l6w0",
+    "score": 0.8840920329093933,
+    "candidate_id": "2000skca82",
+    "candidate_title": "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)",
+    "query_text": "decision | <i>Estevan Coal Corp.</i> v. <i>Estevan (Rural Municipality No. 5)</i> | <i>Estevan Coal Corp.</i> v. <i>Estevan\n(Rural Municipality No. 5)</i> | 2000 SKCA 82 | 199 Sask. R. 57",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l6w0",
+        "score": 0.8840920329093933,
+        "candidate_title": "Estevan Coal Corp. v. Estevan (Rural Municipality No. 5)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2023/2023skca5/2023skca5.html",
+        "score": 0.6136617660522461,
+        "candidate_title": "Brandt Properties Ltd. v Sherwood (Rural Municipality)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skmb/doc/2025/2025skmb45/2025skmb45.html",
+        "score": 0.6000038981437683,
+        "candidate_title": "Britannia (Rural Municipality) v Cenovus Energy Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2024/2024skca111/2024skca111.html",
+        "score": 0.5919198393821716,
+        "candidate_title": "Buchanan (Rural Municipality) v Veldman"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2019/2019skca77/2019skca77.html",
+        "score": 0.5894284844398499,
+        "candidate_title": "994552 N.W.T. Ltd. v Kindersley (Town)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ns66",
+        "score": 0.5890172123908997,
+        "candidate_title": "Diebel Estate v. Pinto Creek (Rural Municipality No. 75)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1l6s3",
+        "score": 0.5870475769042969,
+        "candidate_title": "Shellbrook (Rural Municipality No. 493) v. Housen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skmb/doc/2025/2025skmb48/2025skmb48.html",
+        "score": 0.5829544067382812,
+        "candidate_title": "Various Municipalities v Cenovus Energy Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/g76jn",
+        "score": 0.5780773162841797,
+        "candidate_title": "Levy v. Rural Municipality of Rodgers, No 133"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1945/1945canlii27/1945canlii27.html",
+        "score": 0.5671236515045166,
+        "candidate_title": "Kuchma v. Rural Municipality of Tache"
+      }
+    ]
+  },
+  "Bramalea": {
+    "uri": "https://canlii.ca/t/1drbl",
+    "score": 0.8472146391868591,
+    "candidate_id": "1995bcsc11687",
+    "candidate_title": "British Columbia (Assessor of Area #09 - Vancouver) v. Bramalea Ltd.",
+    "query_text": "decision | <i>Assessor\nArea #09 (Vancouver)</i> v<i>. Bramalea Limited</i> | 1995 Canlii (BCSC)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1drbl",
+        "score": 0.8472146391868591,
+        "candidate_title": "British Columbia (Assessor of Area #09 - Vancouver) v. Bramalea Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/1998/1998canlii3367/1998canlii3367.html",
+        "score": 0.6344739198684692,
+        "candidate_title": "Musqueam Holdings Ltd. v. British Columbia (Assessor of Area #09 - Vancouver)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2000/2000bcsc866/2000bcsc866.html",
+        "score": 0.5978423357009888,
+        "candidate_title": "Assessor of Area #21 - Nelson/Trail v. Nealho Holdings Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1995/1995canlii7420/1995canlii7420.html",
+        "score": 0.5918232202529907,
+        "candidate_title": "C.I.B.C. v. Bramalea Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/1985/1985canlii466/1985canlii466.html",
+        "score": 0.589287281036377,
+        "candidate_title": "Broekman Ten Brink v. Block Bros. Realty Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2010/2010bcsc193/2010bcsc193.html",
+        "score": 0.5782694816589355,
+        "candidate_title": "Assessor Area #01 – Capital v. Lehigh Portland Cement Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2007/2007bcca45/2007bcca45.html",
+        "score": 0.5676934719085693,
+        "candidate_title": "Arts Umbrella v. British Columbia (Assessor of Area 09 - Vancouver)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1997/1997canlii4012/1997canlii4012.html",
+        "score": 0.5581859350204468,
+        "candidate_title": "Standard Life Assurance Co. v. British Columbia (Assessor area #01 - Capital)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2018/2018bcsc113/2018bcsc113.html",
+        "score": 0.5577950477600098,
+        "candidate_title": "Telus Communications (BC) Inc. v Assessor of Area #09"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2011/2011bcca16/2011bcca16.html",
+        "score": 0.5565589666366577,
+        "candidate_title": "British Columbia (Assessor of Area #10 - North Fraser) v. Sherkat"
+      }
+    ]
+  },
+  "697604 Alberta": {
+    "uri": "https://canlii.ca/t/1l5d5",
+    "score": 0.8307117223739624,
+    "candidate_id": "2005abqb512",
+    "candidate_title": "697604 Alberta Ltd. v. Calgary (City of)",
+    "query_text": "decision | <i>697604\nAlberta Ltd</i> v. <i>Calgary (City),</i> | 2005 ABQB 512",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l5d5",
+        "score": 0.8307117223739624,
+        "candidate_title": "697604 Alberta Ltd. v. Calgary (City of)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2011/2011abca84/2011abca84.html",
+        "score": 0.7170010209083557,
+        "candidate_title": "1447743 Alberta Ltd. v. Calgary (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2018/2018abqb519/2018abqb519.html",
+        "score": 0.7006899118423462,
+        "candidate_title": "Cidex Developments Ltd v Calgary (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2016/2016abqb200/2016abqb200.html",
+        "score": 0.6514794826507568,
+        "candidate_title": "Canada Safeway Ltd v Calgary (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2014/2014abqb223/2014abqb223.html",
+        "score": 0.6514179706573486,
+        "candidate_title": "Anterra Sunridge Power Centre Ltd v Calgary (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2011/2011abqb39/2011abqb39.html",
+        "score": 0.6389235258102417,
+        "candidate_title": "581257 Alberta Ltd. v. Aujla"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2000/2000abca237/2000abca237.html",
+        "score": 0.6382626295089722,
+        "candidate_title": "698114 Alberta Ltd. v. Banff (Town of)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2025/2025abca67/2025abca67.html",
+        "score": 0.6367617845535278,
+        "candidate_title": "Westcan Recyclers Ltd v Calgary (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2022/2022abca348/2022abca348.html",
+        "score": 0.632440447807312,
+        "candidate_title": "Glamorgan Landing Estates GP Inc. v Calgary (City of)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2012/2012abqb651/2012abqb651.html",
+        "score": 0.6230071783065796,
+        "candidate_title": "Globexx Properties Inc. v Edmonton (City)"
+      }
+    ]
+  },
+  "Chateau Lake Louise": {
+    "uri": "https://canlii.ca/t/1jb31",
+    "score": 0.8403788805007935,
+    "candidate_id": "2004abqb579",
+    "candidate_title": "Chateau Lake Louise Corporation v. Improvement District No. 9",
+    "query_text": "decision | <i>Chateau Lake Louise\nCorp</i>. v. <i>Improvement District No. 9,</i> | <i>Chateau Lake Louise Corp</i>. v. <i>Improvement\nDistrict No. 9</i> | 2004 ABQB 579 | 366 A.R. 318",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1jb31",
+        "score": 0.8403788805007935,
+        "candidate_title": "Chateau Lake Louise Corporation v. Improvement District No. 9"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2009/2009abqb464/2009abqb464.html",
+        "score": 0.5798318386077881,
+        "candidate_title": "Ziegler Estate v. Green Acres (Pine Lake) Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2012/2012abqb579/2012abqb579.html",
+        "score": 0.5589348077774048,
+        "candidate_title": "Cold Lake First Nation v. Alberta (Tourism, Parks and Recreation)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2020/2020abqb106/2020abqb106.html",
+        "score": 0.5536117553710938,
+        "candidate_title": "Cove Contracting Ltd v Condominium Corporation No 012 5598 (Ravine Park)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2019/2019abqb249/2019abqb249.html",
+        "score": 0.5455739498138428,
+        "candidate_title": "Sattler Estate (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1l5d5",
+        "score": 0.543523371219635,
+        "candidate_title": "697604 Alberta Ltd. v. Calgary (City of)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2015/2015abqb549/2015abqb549.html",
+        "score": 0.5427159070968628,
+        "candidate_title": "Sager v Condominium Plan No 9523979"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2014/2014abca302/2014abca302.html",
+        "score": 0.541299045085907,
+        "candidate_title": "Carleo Investments Ltd. v. Strathcona (County)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2018/2018abqb941/2018abqb941.html",
+        "score": 0.5395521521568298,
+        "candidate_title": "Arbeau v Schulz"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2018/2018abqb519/2018abqb519.html",
+        "score": 0.5383743047714233,
+        "candidate_title": "Cidex Developments Ltd v Calgary (City)"
+      }
+    ]
+  },
+  "Edcyn": {
+    "uri": "https://canlii.ca/t/4tv4",
+    "score": 0.774614691734314,
+    "candidate_id": "2000nsuarb35",
+    "candidate_title": "Edcyn Inc. v. Nova Scotia (Director of Assessment)",
+    "query_text": "decision | <i>Edcyn\nInc</i>. v. <i>Nova Scotia</i> | 2000 NSUARB 35",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/4tv4",
+        "score": 0.774614691734314,
+        "candidate_title": "Edcyn Inc. v. Nova Scotia (Director of Assessment)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsuarb/doc/2020/2020nsuarb18/2020nsuarb18.html",
+        "score": 0.6195616722106934,
+        "candidate_title": "Maceachern (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsuarb/doc/2011/2011nsuarb99/2011nsuarb99.html",
+        "score": 0.6124153137207031,
+        "candidate_title": "Efficiency Nova Scotia Corporation (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsuarb/doc/2020/2020nsuarb15/2020nsuarb15.html",
+        "score": 0.6064752340316772,
+        "candidate_title": "Curry (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/hzbj9",
+        "score": 0.6040445566177368,
+        "candidate_title": "Nova Scotia (Attorney General) v S&D Smith Central Supplies Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsuarb/doc/2022/2022nsuarb137/2022nsuarb137.html",
+        "score": 0.5975489616394043,
+        "candidate_title": "Efficiencyone (E1) (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1999/1999canlii14868/1999canlii14868.html",
+        "score": 0.5823746919631958,
+        "candidate_title": "Edac Inc. v. Tullo"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsuarb/doc/2009/2009nsuarb148/2009nsuarb148.html",
+        "score": 0.5814673900604248,
+        "candidate_title": "Schrader (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsuarb/doc/2021/2021nsuarb135/2021nsuarb135.html",
+        "score": 0.576960563659668,
+        "candidate_title": "Giles (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/1957/1957canlii351/1957canlii351.html",
+        "score": 0.5731772780418396,
+        "candidate_title": "Ezbeidy v. Phalen"
+      }
+    ]
+  },
+  "Mountain View": {
+    "uri": "https://canlii.ca/t/5n0r",
+    "score": 0.8526206016540527,
+    "candidate_id": "2000abqb594",
+    "candidate_title": "Mountain View (County of) v. Alberta (Municipal Government Board)",
+    "query_text": "decision | <i>Mountain View (County)</i>\nv. <i>Alberta (Municipal Government Board),</i> | 2000 ABQB 594 | [2001] 2 W.W.R.\n398",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5n0r",
+        "score": 0.8526206016540527,
+        "candidate_title": "Mountain View (County of) v. Alberta (Municipal Government Board)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2000/2000abca237/2000abca237.html",
+        "score": 0.6083738803863525,
+        "candidate_title": "698114 Alberta Ltd. v. Banff (Town of)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2015/2015abca254/2015abca254.html",
+        "score": 0.6035100817680359,
+        "candidate_title": "Money v Bonnyville (Municipal District No. 87)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1999/1999abca153/1999abca153.html",
+        "score": 0.588459849357605,
+        "candidate_title": "Demers v. WillowCreek (Municipal District No. 26)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2014/2014bcca369/2014bcca369.html",
+        "score": 0.5873826742172241,
+        "candidate_title": "Kelowna Mountain Development Services Ltd. v. Central Okanagan (Regional District)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1999/1999abca98/1999abca98.html",
+        "score": 0.5737327933311462,
+        "candidate_title": "Luk v. Cypress (Municipal District of)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2006/2006abca154/2006abca154.html",
+        "score": 0.5711184740066528,
+        "candidate_title": "Aftergood v. Alberta (Minister of Municipal Affairs)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1982/1982abca352/1982abca352.html",
+        "score": 0.5621397495269775,
+        "candidate_title": "Parkland (County No. 31) v. Alberta (Planning Board)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1995/1995abca270/1995abca270.html",
+        "score": 0.5621397495269775,
+        "candidate_title": "Kowalchuk v. Two Hills (County)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1l5d5",
+        "score": 0.562025785446167,
+        "candidate_title": "697604 Alberta Ltd. v. Calgary (City of)"
+      }
+    ]
+  },
+  "van Driel": {
+    "uri": "https://canlii.ca/t/2db7p",
+    "score": 0.7853944301605225,
+    "candidate_id": "2010nsca87",
+    "candidate_title": "Nova Scotia (Assessment) v. van Driel",
+    "query_text": "decision | Nova Scotia (Director of Assessment v. van Driel | 2010 NSCA 87 | 296 N.S.R. (2d) 244",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2db7p",
+        "score": 0.7853944301605225,
+        "candidate_title": "Nova Scotia (Assessment) v. van Driel"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2007/2007nsca104/2007nsca104.html",
+        "score": 0.6455779671669006,
+        "candidate_title": "Nova Scotia (Director of Assessment) v. Knickle"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2016/2016onsc8138/2016onsc8138.html",
+        "score": 0.5457174777984619,
+        "candidate_title": "R. v Assessment Direct Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/4tv4",
+        "score": 0.5278329253196716,
+        "candidate_title": "Edcyn Inc. v. Nova Scotia (Director of Assessment)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/2005/2005nltd32/2005nltd32.html",
+        "score": 0.51835697889328,
+        "candidate_title": "the Assessment Review Court - City of St. John’s."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1972/1972canlii9/1972canlii9.html",
+        "score": 0.510672926902771,
+        "candidate_title": "Assessment Commissioner (Stouffville) v. Mennonite Home Association"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1999/1999canlii639/1999canlii639.html",
+        "score": 0.5101996064186096,
+        "candidate_title": "65302 British Columbia Ltd. v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2001/2001canlii40233/2001canlii40233.html",
+        "score": 0.5080150365829468,
+        "candidate_title": "1098748 Ontario Ltd. v. Ontario Property Assessment Corp. Region No.11"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/tcc/doc/1989/1989canlii10039/1989canlii10039.html",
+        "score": 0.5058114528656006,
+        "candidate_title": "D.R. Bailey v. M.N.R."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2007/2007nsca8/2007nsca8.html",
+        "score": 0.5050085783004761,
+        "candidate_title": "Dutkewych v. Riske"
+      }
+    ]
+  },
+  "The Municipal Board Act": {
+    "uri": "https://canlii.ca/t/56bgk",
+    "score": 0.8421437740325928,
+    "candidate_id": "l5162!5162-current-1",
+    "candidate_title": "Municipal Board Act",
+    "query_text": "legislation | The Municipal Board Act | S.S. 1988-89, c. M -23.2",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56bgk",
+        "score": 0.8421437740325928,
+        "candidate_title": "Municipal Board Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/astat/ss-1988-89-c-m-23.2/latest/ss-1988-89-c-m-23.2.html",
+        "score": 0.6602137088775635,
+        "candidate_title": "An Act respecting the Saskatchewan Municipal Board"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/hstat/rsa-1980-c-m-26/latest/rsa-1980-c-m-26.html",
+        "score": 0.6535031795501709,
+        "candidate_title": "Municipal Government Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/52xx6",
+        "score": 0.6520695090293884,
+        "candidate_title": "Municipalities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nc2",
+        "score": 0.6498023271560669,
+        "candidate_title": "Municipal Government Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/h7lx",
+        "score": 0.6184535026550293,
+        "candidate_title": "Rural Municipality Act, 1989"
+      },
+      {
+        "uri": "https://canlii.ca/t/56mt0",
+        "score": 0.6138002872467041,
+        "candidate_title": "Municipal Act, 2001"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2016-c-24/latest/sa-2016-c-24.html",
+        "score": 0.6135786771774292,
+        "candidate_title": "Modernized Municipal Government Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56f73",
+        "score": 0.5685611963272095,
+        "candidate_title": "The Cities Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/laws/stat/ccsm-c-m226/latest/ccsm-c-m226.html",
+        "score": 0.5625631809234619,
+        "candidate_title": "The Municipal Assessment Act"
+      }
+    ]
+  },
+  "The Cities Act": {
+    "uri": "https://canlii.ca/t/56f73",
+    "score": 0.8385135531425476,
+    "candidate_id": "l5009!5009-current-1",
+    "candidate_title": "The Cities Act",
+    "query_text": "legislation | The\nCities Act | The Cities Act | Act | <i>Act</i> | The Cities\nAct | S.S. 2002, c. C-11.1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56f73",
+        "score": 0.8385135531425476,
+        "candidate_title": "The Cities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53886",
+        "score": 0.7162108421325684,
+        "candidate_title": "The Cities Amendment Act, 2006"
+      },
+      {
+        "uri": "https://canlii.ca/t/56khs",
+        "score": 0.6259047389030457,
+        "candidate_title": "The Cities Regulations"
+      },
+      {
+        "uri": "https://canlii.ca/t/56mt0",
+        "score": 0.5773848295211792,
+        "candidate_title": "Municipal Act, 2001"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2016-c-24/latest/sa-2016-c-24.html",
+        "score": 0.5768221616744995,
+        "candidate_title": "Modernized Municipal Government Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56mpx",
+        "score": 0.5699001550674438,
+        "candidate_title": "City of Toronto Act, 2006"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nc2",
+        "score": 0.5657994151115417,
+        "candidate_title": "Municipal Government Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56bgk",
+        "score": 0.5466712117195129,
+        "candidate_title": "Municipal Board Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/hstat/rsa-1980-c-m-26/latest/rsa-1980-c-m-26.html",
+        "score": 0.5436251163482666,
+        "candidate_title": "Municipal Government Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/52xx6",
+        "score": 0.5406592488288879,
+        "candidate_title": "Municipalities Act"
+      }
+    ]
+  },
+  "The Cities Amendment Act": {
+    "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-431/latest/rsbc-1996-c-431.html",
+    "score": 0.5850664973258972,
+    "candidate_id": "l19955!19955-current-1",
+    "candidate_title": "Social Service Tax Act",
+    "query_text": "legislation | S.S.\n2006, c. 4",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-431/latest/rsbc-1996-c-431.html",
+        "score": 0.5850664973258972,
+        "candidate_title": "Social Service Tax Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/laws/stat/sns-2004-c-4/latest/sns-2004-c-4.html",
+        "score": 0.549717366695404,
+        "candidate_title": "Health Protection Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/h69r",
+        "score": 0.5344677567481995,
+        "candidate_title": "The Limitations Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/astat/sbc-2008-c-34/latest/sbc-2008-c-34.html",
+        "score": 0.5290349721908569,
+        "candidate_title": "Health Statutes Amendment Act, 2008"
+      },
+      {
+        "uri": "https://canlii.ca/t/53886",
+        "score": 0.5272074937820435,
+        "candidate_title": "The Cities Amendment Act, 2006"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/regu/bc-reg-84-58/latest/bc-reg-84-58.html",
+        "score": 0.5242880582809448,
+        "candidate_title": "Social Service Tax Act Regulations"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.5140882730484009,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/561jt",
+        "score": 0.5136671662330627,
+        "candidate_title": "Administrative Tribunals Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.5099245309829712,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v2k",
+        "score": 0.5099245309829712,
+        "candidate_title": "Criminal Code"
+      }
+    ]
+  },
+  "The Cities Act Regulations": {
+    "uri": "https://canlii.ca/t/56khs",
+    "score": 0.7650725841522217,
+    "candidate_id": "l3685!3685-current-1",
+    "candidate_title": "The Cities Regulations",
+    "query_text": "legislation | <i>The Cities Act Regulations</i> | R.R.S., c. C-11.1, Reg 1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56khs",
+        "score": 0.7650725841522217,
+        "candidate_title": "The Cities Regulations"
+      },
+      {
+        "uri": "https://canlii.ca/t/56f73",
+        "score": 0.7364404201507568,
+        "candidate_title": "The Cities Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53886",
+        "score": 0.6177875995635986,
+        "candidate_title": "The Cities Amendment Act, 2006"
+      },
+      {
+        "uri": "https://canlii.ca/t/56mt0",
+        "score": 0.557479202747345,
+        "candidate_title": "Municipal Act, 2001"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nc2",
+        "score": 0.5532325506210327,
+        "candidate_title": "Municipal Government Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56mpx",
+        "score": 0.549109697341919,
+        "candidate_title": "City of Toronto Act, 2006"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/hstat/rsa-1980-c-m-26/latest/rsa-1980-c-m-26.html",
+        "score": 0.5479955673217773,
+        "candidate_title": "Municipal Government Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56bgk",
+        "score": 0.5452646017074585,
+        "candidate_title": "Municipal Board Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2016-c-24/latest/sa-2016-c-24.html",
+        "score": 0.5393058657646179,
+        "candidate_title": "Modernized Municipal Government Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/8llp",
+        "score": 0.5385808944702148,
+        "candidate_title": "The City of Winnipeg Act"
+      }
+    ]
+  }
+}

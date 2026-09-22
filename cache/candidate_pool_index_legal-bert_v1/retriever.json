@@ -3,7 +3,7 @@
   "encoder": "legal-bert",
   "similarity": "cosine",
   "shape": [
-    504,
+    6519,
     768
   ]
 }

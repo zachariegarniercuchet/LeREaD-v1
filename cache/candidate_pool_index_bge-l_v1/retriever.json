@@ -3,7 +3,7 @@
   "encoder": "bge-l",
   "similarity": "cosine",
   "shape": [
-    504,
+    6519,
     1024
   ]
 }

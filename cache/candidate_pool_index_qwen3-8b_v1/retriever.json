@@ -3,7 +3,7 @@
   "encoder": "qwen3-8b",
   "similarity": "cosine",
   "shape": [
-    504,
+    6519,
     4096
   ]
 }

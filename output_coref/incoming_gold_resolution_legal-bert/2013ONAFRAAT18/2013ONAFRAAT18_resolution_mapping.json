@@ -1,0 +1,592 @@
+{
+  "CFO ONFRAAT-2 2013": {
+    "uri": "https://canlii.ca/t/g2ggd",
+    "score": 0.950452446937561,
+    "candidate_id": "2013onafraat18",
+    "candidate_title": "Association of Ontario Chicken Processors v CFO [Motion Decision] (With Reasons)",
+    "query_text": "decision | Association\n  of Ontario Chicken Processors v. CFO | Association of Ontario Chicken Processors v. Chicken\nFarmers of Ontario | 2013\n  ONAFRAAT 18 | 2013 ONAFRAAT<a name=\"_GoBack\"></a> 18",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g2ggd",
+        "score": 0.950452446937561,
+        "candidate_title": "Association of Ontario Chicken Processors v CFO [Motion Decision] (With Reasons)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g29t4",
+        "score": 0.9503036737442017,
+        "candidate_title": "Association of Ontario Chicken Processors v CFO [Motion Decision] (Without Reasons)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2012/2012onsc6381/2012onsc6381.html",
+        "score": 0.9339155554771423,
+        "candidate_title": "Boyce v. Co-operators General Insurance"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2010/2010onsc1899/2010onsc1899.html",
+        "score": 0.9326747059822083,
+        "candidate_title": "Robinson v. Rochester Financial Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2003/2003canlii14229/2003canlii14229.html",
+        "score": 0.9326491355895996,
+        "candidate_title": "Good v. Waterloo (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2005/2005canlii16614/2005canlii16614.html",
+        "score": 0.9324445724487305,
+        "candidate_title": "R. v. Hatcher"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2014/2014onsc5407/2014onsc5407.html",
+        "score": 0.9319211840629578,
+        "candidate_title": "Dhillon v. PM Management Systems Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2012/2012onsc2748/2012onsc2748.html",
+        "score": 0.9317537546157837,
+        "candidate_title": "R. v. Dunn"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2004/2004canlii11271/2004canlii11271.html",
+        "score": 0.9316203594207764,
+        "candidate_title": "Dagarsho Holdings Ltd. v. Bluestone"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2013/2013onsc1051/2013onsc1051.html",
+        "score": 0.9310282468795776,
+        "candidate_title": "Oakdale Village Homes Inc."
+      }
+    ]
+  },
+  "CFO ONFRAAT-1 2013": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/1918/1918canlii65/1918canlii65.html",
+    "score": 0.5585079789161682,
+    "candidate_id": "1918csc-scc1000040",
+    "candidate_title": "Raymond v. The King",
+    "query_text": "decision",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1918/1918canlii65/1918canlii65.html",
+        "score": 0.5585079789161682,
+        "candidate_title": "Raymond v. The King"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onccb/doc/2005/2005canlii56655/2005canlii56655.html",
+        "score": 0.5543062090873718,
+        "candidate_title": "E.B. (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/ggxn8",
+        "score": 0.5536476373672485,
+        "candidate_title": "In re Vancini"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2018/2018onca947/2018onca947.html",
+        "score": 0.5535297989845276,
+        "candidate_title": "R. v. J.D."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncpc/doc/1989/1989canlii6720/1989canlii6720.html",
+        "score": 0.5495315790176392,
+        "candidate_title": "Provincial Constable Robert Charles McCoy and the Ontario Provincial Police"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2024/2024abca2/2024abca2.html",
+        "score": 0.5493993163108826,
+        "candidate_title": "R v Bakko"
+      },
+      {
+        "uri": "https://www.canlii.org/en/pe/pesctd/doc/2022/2022pesc4/2022pesc4.html",
+        "score": 0.548933207988739,
+        "candidate_title": "Miller v. White"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onlst/doc/2000/2000canlii14383/2000canlii14383.html",
+        "score": 0.5483835339546204,
+        "candidate_title": "Preyra, Re"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onccb/doc/2002/2002canlii33965/2002canlii33965.html",
+        "score": 0.5467883348464966,
+        "candidate_title": "C.I. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/1953/1953canlii515/1953canlii515.html",
+        "score": 0.5466497540473938,
+        "candidate_title": "Godber v. Mason"
+      }
+    ]
+  },
+  "Children’s Aid Society": {
+    "uri": "https://www.canlii.org/en/ca/scc/doc/2000/2000scc52/2000scc52.html",
+    "score": 0.9022873640060425,
+    "candidate_id": "2000csc-scc52",
+    "candidate_title": "Musqueam Indian Band v. Glass",
+    "query_text": "decision | <i><span style=\"font-size:12.0pt\">Children’s Aid Society of the County of Renfrew</span></i><span style=\"font-size:12.0pt\"> v. <i>J.D.</i></span> | 2011 ONSC <span style='font-size:12.0pt;font-family:\"Times Roman\",\"serif\"'>744</span>",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2000/2000scc52/2000scc52.html",
+        "score": 0.9022873640060425,
+        "candidate_title": "Musqueam Indian Band v. Glass"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2010/2010scc34/2010scc34.html",
+        "score": 0.9014375805854797,
+        "candidate_title": "Burke v. Hudson's Bay Co."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2004/2004fc1728/2004fc1728.html",
+        "score": 0.9012157917022705,
+        "candidate_title": "Annapolis Valley First Nations Band v. Toney"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2011/2011fc1220/2011fc1220.html",
+        "score": 0.9002640843391418,
+        "candidate_title": "Lower Nicola Indian Band v. Joe"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2010/2010nbca36/2010nbca36.html",
+        "score": 0.9000067114830017,
+        "candidate_title": "Black v. R"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2010/2010fc722/2010fc722.html",
+        "score": 0.8994669318199158,
+        "candidate_title": "Laboucan v. Little Red River # 447 First Nation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1982/1982canlii195/1982canlii195.html",
+        "score": 0.8992831110954285,
+        "candidate_title": "Public Service Alliance of Canada v. Francis et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2022/2022scc35/2022scc35.html",
+        "score": 0.8983784317970276,
+        "candidate_title": "R. v. Tessier"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2021/2021scc16/2021scc16.html",
+        "score": 0.8979414701461792,
+        "candidate_title": "R. v. Smith"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2021/2021onsc2507/2021onsc2507.html",
+        "score": 0.8977822661399841,
+        "candidate_title": "Yatar v. TD Insurance Meloche Monnex"
+      }
+    ]
+  },
+  "Bloorview Children’s Hospital Foundation": {
+    "uri": "https://www.canlii.org/en/on/oncj/doc/2008/2008oncj774/2008oncj774.html",
+    "score": 0.9252578616142273,
+    "candidate_id": "2008oncj774",
+    "candidate_title": "Jewish Family and Child Service v. K.(R.)",
+    "query_text": "decision | Bloorview\nChildren’s Hospital Foundation v. Bloorview MacMillan Centre | <i>Bloorview</i> | [2001] O.J.\nNo.1700",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/oncj/doc/2008/2008oncj774/2008oncj774.html",
+        "score": 0.9252578616142273,
+        "candidate_title": "Jewish Family and Child Service v. K.(R.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2004/2004canlii8709/2004canlii8709.html",
+        "score": 0.9243348836898804,
+        "candidate_title": "Grefford v. Fielding"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2021/2021onsc8306/2021onsc8306.html",
+        "score": 0.9238396883010864,
+        "candidate_title": "Tamming v. Paterson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2007/2007canlii45921/2007canlii45921.html",
+        "score": 0.9231402277946472,
+        "candidate_title": "Ladd v. Brantford General Hospital"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2012/2012onca590/2012onca590.html",
+        "score": 0.9211655259132385,
+        "candidate_title": "Children’s Aid Society of Ottawa v. S.N.-D."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2014/2014onsc5407/2014onsc5407.html",
+        "score": 0.9209997653961182,
+        "candidate_title": "Dhillon v. PM Management Systems Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2010/2010onsc4982/2010onsc4982.html",
+        "score": 0.9209911823272705,
+        "candidate_title": "Graham v. Impark"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncj/doc/2008/2008oncj615/2008oncj615.html",
+        "score": 0.9202714562416077,
+        "candidate_title": "Peers v. Poupore"
+      },
+      {
+        "uri": "https://canlii.ca/t/gdltz",
+        "score": 0.9198933839797974,
+        "candidate_title": "Chalmers (Dr. Everett) Hospital v. Mills"
+      },
+      {
+        "uri": "https://canlii.ca/t/2fk1b",
+        "score": 0.9196856021881104,
+        "candidate_title": "Children’s Aid Society of the County of Renfrew v. J.D."
+      }
+    ]
+  },
+  "M. v. H.": {
+    "uri": "https://canlii.ca/t/1vtm7",
+    "score": 0.9518898725509644,
+    "candidate_id": "1994onctgd10174",
+    "candidate_title": "M. v. H.",
+    "query_text": "decision | <i>M. v. H.</i> | 1994 CanLII 7324\n(ON SC) | (1994), 20 O.R. (3d) 70",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1vtm7",
+        "score": 0.9518898725509644,
+        "candidate_title": "M. v. H."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1993/1993canlii8582/1993canlii8582.html",
+        "score": 0.946522057056427,
+        "candidate_title": "R. v. François"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1983/1983canlii5316/1983canlii5316.html",
+        "score": 0.9463344216346741,
+        "candidate_title": "R. v. P.M."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2001/2001canlii8610/2001canlii8610.html",
+        "score": 0.9444127678871155,
+        "candidate_title": "R. v. Varga"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2003/2003canlii64244/2003canlii64244.html",
+        "score": 0.944007933139801,
+        "candidate_title": "R. v. Clarke"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2002/2002canlii34635/2002canlii34635.html",
+        "score": 0.9429610967636108,
+        "candidate_title": "R. v. Montpellier"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2012/2012onca18/2012onca18.html",
+        "score": 0.9428820013999939,
+        "candidate_title": "R. v. Tran"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1982/1982canlii3134/1982canlii3134.html",
+        "score": 0.9428266286849976,
+        "candidate_title": "R. v. Potma"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncj/doc/1982/1982canlii3839/1982canlii3839.html",
+        "score": 0.9424509406089783,
+        "candidate_title": "R. v. Cole"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1967/1967canlii14/1967canlii14.html",
+        "score": 0.9424164891242981,
+        "candidate_title": "Tupper v. R."
+      }
+    ]
+  },
+  "Food Rural Affairs Act": {
+    "uri": "https://canlii.ca/t/55nzg",
+    "score": 0.8886353373527527,
+    "candidate_id": "l5938!5938-current-1",
+    "candidate_title": "Act respecting the Fonds d'aide aux actions collectives",
+    "query_text": "legislation | Ministry\n  of Agriculture, Food and Rural Affairs Act | <span lang=\"EN-GB\" style=\"font-size:12.0pt\"> <i>MINISTRY OF\nAGRICULTURE, </i></span><i><span lang=\"EN-GB\" style=\"font-size:12.0pt\">FOOD\nAND RURAL AFFAIRS ACT</span></i> | Ministry of Agriculture,\nFood and Rural Affairs Act | Act | <span lang=\"EN-GB\" style=\"font-size:\n12.0pt\">R.S.O. 1990</span><span lang=\"EN-GB\" style=\"font-size:\n12.0pt\">, CHAPTER M.16</span>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/55nzg",
+        "score": 0.8886353373527527,
+        "candidate_title": "Act respecting the Fonds d'aide aux actions collectives"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxx",
+        "score": 0.8851233720779419,
+        "candidate_title": "Act respecting the regulation of the financial sector"
+      },
+      {
+        "uri": "https://canlii.ca/t/x6v",
+        "score": 0.8835118412971497,
+        "candidate_title": "Tax Administration Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fn28",
+        "score": 0.8812037110328674,
+        "candidate_title": "Loi sur l'encadrement du secteur financier"
+      },
+      {
+        "uri": "https://canlii.ca/t/5546r",
+        "score": 0.8785417079925537,
+        "candidate_title": "Code of Ethics of Québec Police Officers"
+      },
+      {
+        "uri": "https://canlii.ca/t/54bvr",
+        "score": 0.8766034841537476,
+        "candidate_title": "An Act mainly to promote the efficiency of penal justice and to establish the terms governing the intervention of the Court of Québec with respect to applications for appeal"
+      },
+      {
+        "uri": "https://www.canlii.org/en/qc/laws/regu/cqlr-c-c-24.2-r-3.2/latest/cqlr-c-c-24.2-r-3.2.html",
+        "score": 0.8746153116226196,
+        "candidate_title": "Approval of the cameras used to photograph the registration plate of road vehicles driven on bridge P-10942 on autoroute 30"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nqt",
+        "score": 0.8734066486358643,
+        "candidate_title": "Act respecting the distribution of financial products and services"
+      },
+      {
+        "uri": "https://canlii.ca/t/56c77",
+        "score": 0.8707072734832764,
+        "candidate_title": "Canadian International Trade Tribunal Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/qc/laws/regu/cqlr-c-v-1.1-r-21/latest/cqlr-c-v-1.1-r-21.html",
+        "score": 0.8706575632095337,
+        "candidate_title": "Regulation 45-106 respecting prospectus and registration exemptions"
+      }
+    ]
+  },
+  "Statutory Powers Procedure Act": {
+    "uri": "https://canlii.ca/t/56cd8",
+    "score": 0.8312563896179199,
+    "candidate_id": "l20103!20103-current-1",
+    "candidate_title": "Strata Property Act",
+    "query_text": "legislation | Statutory\nPowers and Procedure Act",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56cd8",
+        "score": 0.8312563896179199,
+        "candidate_title": "Strata Property Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vg3",
+        "score": 0.8238776922225952,
+        "candidate_title": "Judicial Review Procedure Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-349/latest/rsbc-1996-c-349.html",
+        "score": 0.8216237425804138,
+        "candidate_title": "Patients Property Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/561jt",
+        "score": 0.8173237442970276,
+        "candidate_title": "Administrative Tribunals Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/566gg",
+        "score": 0.8155732154846191,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/sbc-2015-c-35/latest/sbc-2015-c-35.html",
+        "score": 0.8154531717300415,
+        "candidate_title": "Franchises Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/sbc-2002-c-57/latest/sbc-2002-c-57.html",
+        "score": 0.8154001235961914,
+        "candidate_title": "Business Corporations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56hq0",
+        "score": 0.8141127824783325,
+        "candidate_title": "Land Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/sbc-2010-c-22/latest/sbc-2010-c-22.html",
+        "score": 0.8138927221298218,
+        "candidate_title": "Clean Energy Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56fdf",
+        "score": 0.8129509687423706,
+        "candidate_title": "Public Lands Act"
+      }
+    ]
+  },
+  "Rules of Procedure ONAFRAAT": {
+    "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-102-1999/latest/alta-reg-102-1999.html",
+    "score": 0.8392848372459412,
+    "candidate_id": "l18960!18960-current-1",
+    "candidate_title": "Constitutional Notice Regulation",
+    "query_text": "legislation | Rules of Procedure | Rules",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-102-1999/latest/alta-reg-102-1999.html",
+        "score": 0.8392848372459412,
+        "candidate_title": "Constitutional Notice Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v6x",
+        "score": 0.8282185196876526,
+        "candidate_title": "Alberta Rules of Court"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pvt",
+        "score": 0.8254356980323792,
+        "candidate_title": "Alberta Energy Regulator Rules of Practice"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vg3",
+        "score": 0.8179973363876343,
+        "candidate_title": "Judicial Review Procedure Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/regu/bc-reg-196-97/latest/bc-reg-196-97.html",
+        "score": 0.8137632608413696,
+        "candidate_title": "Securities Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/laws/regu/ns-reg-365-2007/latest/ns-reg-365-2007.html",
+        "score": 0.8111473321914673,
+        "candidate_title": "Liquor Licensing Regulations"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-122-2009/latest/alta-reg-122-2009.html",
+        "score": 0.8103886842727661,
+        "candidate_title": "Vehicle Equipment Regulation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-356-1990/latest/alta-reg-356-1990.html",
+        "score": 0.8089768886566162,
+        "candidate_title": "Police Service Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/ktx3",
+        "score": 0.8075137734413147,
+        "candidate_title": "Small Claims Regulations"
+      },
+      {
+        "uri": "https://canlii.ca/t/h69r",
+        "score": 0.8074027299880981,
+        "candidate_title": "The Limitations Act"
+      }
+    ]
+  },
+  "Rules of Civil Procedure": {
+    "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-102-1999/latest/alta-reg-102-1999.html",
+    "score": 0.8125758171081543,
+    "candidate_id": "l18960!18960-current-1",
+    "candidate_title": "Constitutional Notice Regulation",
+    "query_text": "legislation | Rules of Civil Procedure",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-102-1999/latest/alta-reg-102-1999.html",
+        "score": 0.8125758171081543,
+        "candidate_title": "Constitutional Notice Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vg3",
+        "score": 0.8045778274536133,
+        "candidate_title": "Judicial Review Procedure Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v6x",
+        "score": 0.7970819473266602,
+        "candidate_title": "Alberta Rules of Court"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pvt",
+        "score": 0.7953407764434814,
+        "candidate_title": "Alberta Energy Regulator Rules of Practice"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v79",
+        "score": 0.7899107336997986,
+        "candidate_title": "Supreme Court Civil Rules"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/regu/bc-reg-196-97/latest/bc-reg-196-97.html",
+        "score": 0.7893809080123901,
+        "candidate_title": "Securities Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/h69r",
+        "score": 0.7862049341201782,
+        "candidate_title": "The Limitations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56p19",
+        "score": 0.7842376232147217,
+        "candidate_title": "Election Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/laws/regu/ns-reg-365-2007/latest/ns-reg-365-2007.html",
+        "score": 0.7835766077041626,
+        "candidate_title": "Liquor Licensing Regulations"
+      },
+      {
+        "uri": "https://canlii.ca/t/55j57",
+        "score": 0.7833772897720337,
+        "candidate_title": "Tribunal Small Claims Regulation"
+      }
+    ]
+  },
+  "Merriam-Webster dictionary": {
+    "uri": "https://www.canlii.org/en/commentary/doc/2021CanLIIDocs13058",
+    "score": 0.787158727645874,
+    "candidate_id": "d96665!d96665",
+    "candidate_title": "Les certitudes du droit - The Plain Meaning Rule and Other Ways to Cheat at Statutory Interpretation",
+    "query_text": "secondary sources | Merriam-Webster\ndictionary | Merriam-Webster’s dictionary",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2021CanLIIDocs13058",
+        "score": 0.787158727645874,
+        "candidate_title": "Les certitudes du droit - The Plain Meaning Rule and Other Ways to Cheat at Statutory Interpretation"
+      },
+      {
+        "uri": "https://canlii.ca/t/sx35",
+        "score": 0.7831925749778748,
+        "candidate_title": "The Canadian Law of Judicial Review: A Plea for Doctrinal Coherence and Consistency."
+      },
+      {
+        "uri": "https://canlii.ca/t/7njbq",
+        "score": 0.7770434021949768,
+        "candidate_title": "Putting up and Putting Down: Tolerance Reconsidered"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/regu/sor-91-499/latest/sor-91-499.html",
+        "score": 0.7740793228149414,
+        "candidate_title": "Canadian International Trade Tribunal Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/sk90",
+        "score": 0.7722206711769104,
+        "candidate_title": "Unreasonable Interpretations of Law"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/lsbc/doc/2017/2017lsbc15/2017lsbc15.html",
+        "score": 0.771879255771637,
+        "candidate_title": "Gurney (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/spvg",
+        "score": 0.7717208862304688,
+        "candidate_title": "Let's Talk About Royalties: The Continued Uncertainty Surrounding the Creation and Legal Status of the Overriding Royalty"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2011/2011abqb774/2011abqb774.html",
+        "score": 0.7711921334266663,
+        "candidate_title": "Botan (Botan Law Office) v. St. Amand"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/astat/sbc-2018-c-49/latest/sbc-2018-c-49.html",
+        "score": 0.770369827747345,
+        "candidate_title": "Attorney General Statutes Amendment Act, 2018"
+      },
+      {
+        "uri": "https://canlii.ca/t/563gb",
+        "score": 0.7703471779823303,
+        "candidate_title": "Human Rights Code"
+      }
+    ]
+  }
+}

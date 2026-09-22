@@ -1,0 +1,946 @@
+{
+  "B.(R.)": {
+    "uri": "https://canlii.ca/t/23n2p",
+    "score": 0.7120943665504456,
+    "candidate_id": "2009pescad12",
+    "candidate_title": "B.(R.) v. P.(D.)",
+    "query_text": "decision | B.(R.) v. P.(D.) | 2009\nPECA 12",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/23n2p",
+        "score": 0.7120943665504456,
+        "candidate_title": "B.(R.) v. P.(D.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/pe/pescad/doc/2009/2009peca4/2009peca4.html",
+        "score": 0.5719790458679199,
+        "candidate_title": "R. v. Anderson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/pe/pescad/doc/2021/2021peca2/2021peca2.html",
+        "score": 0.5502811670303345,
+        "candidate_title": "C.E.D. v C.J.D"
+      },
+      {
+        "uri": "https://canlii.ca/t/20174",
+        "score": 0.5413657426834106,
+        "candidate_title": "D.P. v. R.B."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcpc/doc/2021/2021bcpc11/2021bcpc11.html",
+        "score": 0.5412030816078186,
+        "candidate_title": "R. v. Prediger"
+      },
+      {
+        "uri": "https://canlii.ca/t/1zvwz",
+        "score": 0.5409291386604309,
+        "candidate_title": "D.P. v. R.B."
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2019/2019mbca99/2019mbca99.html",
+        "score": 0.5347516536712646,
+        "candidate_title": "R v Ponace"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1994/1994canlii125/1994canlii125.html",
+        "score": 0.5329932570457458,
+        "candidate_title": "R. v. P. (M.B.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2009/2009scc52/2009scc52.html",
+        "score": 0.5322028398513794,
+        "candidate_title": "R. v. Basi"
+      },
+      {
+        "uri": "https://canlii.ca/t/1trd3",
+        "score": 0.5272703170776367,
+        "candidate_title": "D.P. v. R.B."
+      }
+    ]
+  },
+  "Van de Perre": {
+    "uri": "https://canlii.ca/t/51z8",
+    "score": 0.8265097737312317,
+    "candidate_id": "2001csc-scc60",
+    "candidate_title": "Van de Perre v. Edwards",
+    "query_text": "decision | Van de Perre v. Edwards | Van de Perre | Van de Perre v.\nEdwards | 2001 SCC 60 | [2001] 2 S.C.R.\n1014 (SCC) | [2001] 2 S.C.R.\n1014 | [2001] 2 S.C.R. 1014",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51z8",
+        "score": 0.8265097737312317,
+        "candidate_title": "Van de Perre v. Edwards"
+      },
+      {
+        "uri": "https://canlii.ca/t/51xc",
+        "score": 0.5739811658859253,
+        "candidate_title": "Cooper v. Hobart"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2017/2017scc61/2017scc61.html",
+        "score": 0.5429716110229492,
+        "candidate_title": "Cowper‑Smith v. Morgan"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2014/2014scc1/2014scc1.html",
+        "score": 0.5393708944320679,
+        "candidate_title": "Vivendi Canada Inc. v. Dell’Aniello"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2021/2021onsc2256/2021onsc2256.html",
+        "score": 0.537368655204773,
+        "candidate_title": "Perreault v. Peel Police Services Board"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2001/2001scc30/2001scc30.html",
+        "score": 0.528508186340332,
+        "candidate_title": "R. v. Parent"
+      },
+      {
+        "uri": "https://canlii.ca/t/2b2ds",
+        "score": 0.5261987447738647,
+        "candidate_title": "R. v. Conway"
+      },
+      {
+        "uri": "https://canlii.ca/t/ggxn8",
+        "score": 0.5252348184585571,
+        "candidate_title": "In re Vancini"
+      },
+      {
+        "uri": "https://canlii.ca/t/gvjqr",
+        "score": 0.5193521976470947,
+        "candidate_title": "Edmonton (City) v. Edmonton East (Capilano) Shopping Centres Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/2fkpf",
+        "score": 0.5192083120346069,
+        "candidate_title": "R. v. Caron"
+      }
+    ]
+  },
+  "Gordon": {
+    "uri": "https://canlii.ca/t/1fr99",
+    "score": 0.7982866764068604,
+    "candidate_id": "1996csc-scc47",
+    "candidate_title": "Gordon v. Goertz",
+    "query_text": "decision | Gordon v. Goertz | Gordon | <span class=\"Citation\">Gordon v. Goertz</span> | Gordon\nv. Goertz | the decision | [1996] 2 S.C.R. 27\n(SCC) | [1996] 2 S.C.R. 27 | [1996] 2\nS.C.R. 27",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fr99",
+        "score": 0.7982866764068604,
+        "candidate_title": "Gordon v. Goertz"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsjz",
+        "score": 0.5954375267028809,
+        "candidate_title": "Geffen v. Goodman Estate"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fr8m",
+        "score": 0.5849103331565857,
+        "candidate_title": "R. v. Goldhart"
+      },
+      {
+        "uri": "https://canlii.ca/t/h32b7",
+        "score": 0.5743631720542908,
+        "candidate_title": "Ostiguy v. Allie"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2015/2015scc6/2015scc6.html",
+        "score": 0.5647907257080078,
+        "candidate_title": "R. v. Goleski"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nmz7",
+        "score": 0.5630649924278259,
+        "candidate_title": "McCannell v. Mclean"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1979/1979canlii60/1979canlii60.html",
+        "score": 0.5624178647994995,
+        "candidate_title": "Goldman v. R."
+      },
+      {
+        "uri": "https://canlii.ca/t/51xc",
+        "score": 0.5605260133743286,
+        "candidate_title": "Cooper v. Hobart"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1997/1997canlii346/1997canlii346.html",
+        "score": 0.5594772100448608,
+        "candidate_title": "Soulos v. Korkontzilas"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fr6t",
+        "score": 0.5579943060874939,
+        "candidate_title": "Adler v. Ontario"
+      }
+    ]
+  },
+  "Nunweiler": {
+    "uri": "https://canlii.ca/t/53cf",
+    "score": 0.8324407339096069,
+    "candidate_id": "2000bcca300",
+    "candidate_title": "Nunweiler v. Nunweiler",
+    "query_text": "decision | Nunweiler v. Nunweiler | <span class=\"Citation\">Nunweiler\nv. Nunweiler</span> | <span class=\"Citation\">Nunweiler v. Nunweiler</span> | Nunweiler | [2000] B.C.J. No.\n935 | 2000 BCCA 300 (BCCA) | 2000 BCCA 300 | (2000), 186 D.L.R. (4<sup>th</sup>) 323 | [2000] B.C.J. No. 935",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/53cf",
+        "score": 0.8324407339096069,
+        "candidate_title": "Nunweiler v. Nunweiler"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2001/2001bcca450/2001bcca450.html",
+        "score": 0.6586061716079712,
+        "candidate_title": "Kowalewich v. Kowalewich"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2016/2016bcca104/2016bcca104.html",
+        "score": 0.6470750570297241,
+        "candidate_title": "Berthin v. Berthin"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2021/2021bcca194/2021bcca194.html",
+        "score": 0.6464798450469971,
+        "candidate_title": "Cook v. Cook"
+      },
+      {
+        "uri": "https://canlii.ca/t/21r0w",
+        "score": 0.6454583406448364,
+        "candidate_title": "Falvai v. Falvai"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2014/2014bcca310/2014bcca310.html",
+        "score": 0.6438223123550415,
+        "candidate_title": "Hathaway v. Hathaway"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2000/2000bcca474/2000bcca474.html",
+        "score": 0.6424762606620789,
+        "candidate_title": "Metzner v. Metzner"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2005/2005bcca47/2005bcca47.html",
+        "score": 0.6343895196914673,
+        "candidate_title": "Grossi v. Grossi"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2014/2014bcca152/2014bcca152.html",
+        "score": 0.6341699957847595,
+        "candidate_title": "Brown v. Brown"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1997/1997canlii4045/1997canlii4045.html",
+        "score": 0.6339915990829468,
+        "candidate_title": "O'Bryan v. O'Bryan"
+      }
+    ]
+  },
+  "Falvai": {
+    "uri": "https://canlii.ca/t/21r0w",
+    "score": 0.8247412443161011,
+    "candidate_id": "2008bcca503",
+    "candidate_title": "Falvai v. Falvai",
+    "query_text": "decision | Falvai v. Falvai | Falvai v.\nFalvai | Falvai\nv. Falvai | 2008\nBCCA 503 | [2008] B.C.J. No. 2365 | 2008 BCCA 503 | [2008] B.C.J. No.2365",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/21r0w",
+        "score": 0.8247412443161011,
+        "candidate_title": "Falvai v. Falvai"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2001/2001bcca450/2001bcca450.html",
+        "score": 0.5889872312545776,
+        "candidate_title": "Kowalewich v. Kowalewich"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2012/2012bcca482/2012bcca482.html",
+        "score": 0.5841261148452759,
+        "candidate_title": "MacLanders v. MacLanders"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2014/2014bcca152/2014bcca152.html",
+        "score": 0.5824844241142273,
+        "candidate_title": "Brown v. Brown"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2005/2005bcca47/2005bcca47.html",
+        "score": 0.5752055644989014,
+        "candidate_title": "Grossi v. Grossi"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2022/2022bcsc2072/2022bcsc2072.html",
+        "score": 0.5730419158935547,
+        "candidate_title": "Healey v Healey"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2018/2018bcca287/2018bcca287.html",
+        "score": 0.5692993998527527,
+        "candidate_title": "Sato v. Sato"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1997/1997canlii4045/1997canlii4045.html",
+        "score": 0.5690556168556213,
+        "candidate_title": "O'Bryan v. O'Bryan"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/1998/1998canlii4297/1998canlii4297.html",
+        "score": 0.5675561428070068,
+        "candidate_title": "Brandt v. Brandt"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2000/2000bcca447/2000bcca447.html",
+        "score": 0.5670655965805054,
+        "candidate_title": "Lowcay v. Lowcay"
+      }
+    ]
+  },
+  "Spencer": {
+    "uri": "https://canlii.ca/t/1l8fh",
+    "score": 0.7956653833389282,
+    "candidate_id": "2005abca262",
+    "candidate_title": "Spencer v. Spencer",
+    "query_text": "decision | Spencer v. Spencer | Spencer\nv. Spencer | 2005\nABCA 262 | 2005 A.J. No. 934 | 2005 ABCA 262 | 2005 A.J. No.934",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1l8fh",
+        "score": 0.7956653833389282,
+        "candidate_title": "Spencer v. Spencer"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abkb/doc/2024/2024abkb274/2024abkb274.html",
+        "score": 0.7016310691833496,
+        "candidate_title": "Spencer v Spencer"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2006/2006abca155/2006abca155.html",
+        "score": 0.6820205450057983,
+        "candidate_title": "Sparrow v. Sparrow"
+      },
+      {
+        "uri": "https://canlii.ca/t/k8m2w",
+        "score": 0.6562842130661011,
+        "candidate_title": "Spiess v Spiess"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2022/2022abqb520/2022abqb520.html",
+        "score": 0.602381706237793,
+        "candidate_title": "Goodwin v Goodwin"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2025/2025abca168/2025abca168.html",
+        "score": 0.6018497943878174,
+        "candidate_title": "Walsh v Walsh"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2016/2016abca125/2016abca125.html",
+        "score": 0.6015931963920593,
+        "candidate_title": "Kohan v Kohan"
+      },
+      {
+        "uri": "https://canlii.ca/t/hzbr6",
+        "score": 0.5986990928649902,
+        "candidate_title": "Parker v. Parker"
+      },
+      {
+        "uri": "https://canlii.ca/t/kcv21",
+        "score": 0.5851749777793884,
+        "candidate_title": "Banovich v Banovic"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2017/2017abca419/2017abca419.html",
+        "score": 0.5849354863166809,
+        "candidate_title": "Twinn v Twinn"
+      }
+    ]
+  },
+  "Bjornson": {
+    "uri": "https://canlii.ca/t/1cgl8",
+    "score": 0.7323235869407654,
+    "candidate_id": "2002onca10536",
+    "candidate_title": "Bjornson v. Creighton",
+    "query_text": "decision | Bjornson v. Creighton | 2002\nO.J. No. 4364 | 62 O.R. (3d) 236 | 2002 O.J. No.\n4364",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1cgl8",
+        "score": 0.7323235869407654,
+        "candidate_title": "Bjornson v. Creighton"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2002/2002canlii49481/2002canlii49481.html",
+        "score": 0.5320254564285278,
+        "candidate_title": "Dionne v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2002/2002canlii49411/2002canlii49411.html",
+        "score": 0.5120092630386353,
+        "candidate_title": "Browne (Litigation Guardian of) v. Lavery"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/1984/1984canlii3020/1984canlii3020.html",
+        "score": 0.509427547454834,
+        "candidate_title": "Bjorninen v. Mercredi"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2012/2012onca445/2012onca445.html",
+        "score": 0.5082005262374878,
+        "candidate_title": "McCracken v. Canadian National Railway Company"
+      },
+      {
+        "uri": "https://canlii.ca/t/1g6pb",
+        "score": 0.5025851726531982,
+        "candidate_title": "R. v. Owen"
+      },
+      {
+        "uri": "https://canlii.ca/t/51tl",
+        "score": 0.4964238405227661,
+        "candidate_title": "Housen v. Nikolaisen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2013/2013onsc6634/2013onsc6634.html",
+        "score": 0.4959801435470581,
+        "candidate_title": "O’Brien v. O’Brien"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1997/1997canlii4045/1997canlii4045.html",
+        "score": 0.49240541458129883,
+        "candidate_title": "O'Bryan v. O'Bryan"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2002/2002scc32/2002scc32.html",
+        "score": 0.49122875928878784,
+        "candidate_title": "R. v. Brown"
+      }
+    ]
+  },
+  "Rick": {
+    "uri": "https://canlii.ca/t/22hw5",
+    "score": 0.8015344142913818,
+    "candidate_id": "2009csc-scc10",
+    "candidate_title": "Rick v. Brandsema",
+    "query_text": "decision | <span class=\"Citation\">Rick v. Brandsema</span> | Rick v. Brandsema | [2009] S.C.J. No. 10",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22hw5",
+        "score": 0.8015344142913818,
+        "candidate_title": "Rick v. Brandsema"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/1998/1998canlii4297/1998canlii4297.html",
+        "score": 0.5133862495422363,
+        "candidate_title": "Brandt v. Brandt"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqlr",
+        "score": 0.5096477270126343,
+        "candidate_title": "Hickey v. Hickey"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqp9",
+        "score": 0.5095826387405396,
+        "candidate_title": "Smith v. Jones"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/2009/2009skqb395/2009skqb395.html",
+        "score": 0.5065200328826904,
+        "candidate_title": "V.J.C. (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2020/2020skca26/2020skca26.html",
+        "score": 0.5044968724250793,
+        "candidate_title": "R v R.I.G"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2023/2023skca5/2023skca5.html",
+        "score": 0.5033650398254395,
+        "candidate_title": "Brandt Properties Ltd. v Sherwood (Rural Municipality)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2009/2009scc32/2009scc32.html",
+        "score": 0.4959145784378052,
+        "candidate_title": "R. v. Grant"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frmw",
+        "score": 0.4956706166267395,
+        "candidate_title": "R. v. S. (R.J.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqwt",
+        "score": 0.4951392710208893,
+        "candidate_title": "Rizzo & Rizzo Shoes Ltd. (Re)"
+      }
+    ]
+  },
+  "Housen": {
+    "uri": "https://canlii.ca/t/51tl",
+    "score": 0.8343462347984314,
+    "candidate_id": "2002csc-scc33",
+    "candidate_title": "Housen v. Nikolaisen",
+    "query_text": "decision | <span class=\"Citation\">Housen v. Nikolaisen</span> | Housen\nv. Nikolaisen | [2002] 2 S.C.R. 235",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51tl",
+        "score": 0.8343462347984314,
+        "candidate_title": "Housen v. Nikolaisen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nszq",
+        "score": 0.7179108262062073,
+        "candidate_title": "Housen v. Nikolaisen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1l6s3",
+        "score": 0.6602202653884888,
+        "candidate_title": "Shellbrook (Rural Municipality No. 493) v. Housen"
+      },
+      {
+        "uri": "https://canlii.ca/t/51wf",
+        "score": 0.5510525703430176,
+        "candidate_title": "Suresh v. Canada (Minister of Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://canlii.ca/t/51xc",
+        "score": 0.5459414720535278,
+        "candidate_title": "Cooper v. Hobart"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1973/1973canlii16/1973canlii16.html",
+        "score": 0.5446342825889587,
+        "candidate_title": "Jordan House Ltd. v. Menow"
+      },
+      {
+        "uri": "https://canlii.ca/t/h32b7",
+        "score": 0.5439128875732422,
+        "candidate_title": "Ostiguy v. Allie"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1924/1924canlii70/1924canlii70.html",
+        "score": 0.5394445657730103,
+        "candidate_title": "Smith v. Nevins"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1979/1979canlii179/1979canlii179.html",
+        "score": 0.5345140099525452,
+        "candidate_title": "Household Realty Corporation Ltd. et al. v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1983/1983canlii142/1983canlii142.html",
+        "score": 0.5320529341697693,
+        "candidate_title": "Engineered Homes Ltd. v. Mason et al."
+      }
+    ]
+  },
+  "Hickey": {
+    "uri": "https://canlii.ca/t/1fqlr",
+    "score": 0.7945729494094849,
+    "candidate_id": "1999csc-scc33",
+    "candidate_title": "Hickey v. Hickey",
+    "query_text": "decision | Hickey v. Hickey | Hickey | Hickey v.\nHickey | [1999] 2 S.C.R. 518",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1fqlr",
+        "score": 0.7945729494094849,
+        "candidate_title": "Hickey v. Hickey"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1945/1945canlii23/1945canlii23.html",
+        "score": 0.5630557537078857,
+        "candidate_title": "Pahara v. Pahara"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1986/1986canlii23/1986canlii23.html",
+        "score": 0.5594205856323242,
+        "candidate_title": "Sorochan v. Sorochan"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2022/2022bcsc2072/2022bcsc2072.html",
+        "score": 0.5546609163284302,
+        "candidate_title": "Healey v Healey"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs89",
+        "score": 0.5523352026939392,
+        "candidate_title": "M.(K.) v. M.(H.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2001/2001canlii28223/2001canlii28223.html",
+        "score": 0.5508463978767395,
+        "candidate_title": "Higgins v. Higgins"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1k41",
+        "score": 0.5484528541564941,
+        "candidate_title": "Bickerton v. Bickerton"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2011/2011skca5/2011skca5.html",
+        "score": 0.5473024845123291,
+        "candidate_title": "Riley v. Riley"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1987/1987canlii57/1987canlii57.html",
+        "score": 0.5418190360069275,
+        "candidate_title": "Pelech v. Pelech"
+      },
+      {
+        "uri": "https://canlii.ca/t/20xm8",
+        "score": 0.5398956537246704,
+        "candidate_title": "F.H. v. McDougall"
+      }
+    ]
+  },
+  "D.P. PESCTD 2008": {
+    "uri": "https://canlii.ca/t/20174",
+    "score": 0.7330556511878967,
+    "candidate_id": "2008pesctd198733",
+    "candidate_title": "D.P. v. R.B.",
+    "query_text": "decision | D.P. v. R.B. | 2008 PESCTD 33",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/20174",
+        "score": 0.7330556511878967,
+        "candidate_title": "D.P. v. R.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/1zvwz",
+        "score": 0.6421796083450317,
+        "candidate_title": "D.P. v. R.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/1trd3",
+        "score": 0.6025909185409546,
+        "candidate_title": "D.P. v. R.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/23n2p",
+        "score": 0.5498526692390442,
+        "candidate_title": "B.(R.) v. P.(D.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcpc/doc/2014/2014bcpc198/2014bcpc198.html",
+        "score": 0.5270438194274902,
+        "candidate_title": "D.Z.M. v. S.M. & N.E."
+      },
+      {
+        "uri": "https://canlii.ca/t/20xm8",
+        "score": 0.5080047845840454,
+        "candidate_title": "F.H. v. McDougall"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/2018/2018skqb17/2018skqb17.html",
+        "score": 0.5068063735961914,
+        "candidate_title": "J.E.S. v J.G.B."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2003/2003canlii2111/2003canlii2111.html",
+        "score": 0.4932718575000763,
+        "candidate_title": "Roby v. Roby"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2014/2014nbca67/2014nbca67.html",
+        "score": 0.4877069890499115,
+        "candidate_title": "D.E. v. L.E"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1980/1980canlii1731/1980canlii1731.html",
+        "score": 0.48770028352737427,
+        "candidate_title": "Proctor v. Proctor et al."
+      }
+    ]
+  },
+  "D.P. PESCTD 2007": {
+    "uri": "https://canlii.ca/t/1zvwz",
+    "score": 0.8214671015739441,
+    "candidate_id": "2007pesctd198725",
+    "candidate_title": "D.P. v. R.B.",
+    "query_text": "decision | D.P. v. R.B. | 2007 PESCTD 25 | [2007] P.E.I.J. No. 33 | (2007), 269 Nfld. &amp; P.E.I.R. 1 | (2007), 269 Nfld. &amp;\nP.E.I.R. 1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1zvwz",
+        "score": 0.8214671015739441,
+        "candidate_title": "D.P. v. R.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/20174",
+        "score": 0.7623640298843384,
+        "candidate_title": "D.P. v. R.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/1trd3",
+        "score": 0.758762001991272,
+        "candidate_title": "D.P. v. R.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/23n2p",
+        "score": 0.6581092476844788,
+        "candidate_title": "B.(R.) v. P.(D.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/2000/2000canlii28794/2000canlii28794.html",
+        "score": 0.5952443480491638,
+        "candidate_title": "R. v. Fleming (D.P.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/pe/pesctd/doc/2005/2005pesctd57/2005pesctd57.html",
+        "score": 0.5656548738479614,
+        "candidate_title": "Prince Edward Island et al. v. Canada (Attorney General) et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/pe/pescad/doc/2021/2021peca2/2021peca2.html",
+        "score": 0.5488338470458984,
+        "candidate_title": "C.E.D. v C.J.D"
+      },
+      {
+        "uri": "https://canlii.ca/t/gbtwt",
+        "score": 0.5295621752738953,
+        "candidate_title": "Trainor v. Trainor"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/1993/1993canlii8352/1993canlii8352.html",
+        "score": 0.519366979598999,
+        "candidate_title": "Brushett v. Brushett"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/1987/1987canlii5087/1987canlii5087.html",
+        "score": 0.5179497003555298,
+        "candidate_title": "Strang v. Canada"
+      }
+    ]
+  },
+  "D.P. PESCAD 2007": {
+    "uri": "https://canlii.ca/t/1trd3",
+    "score": 0.7509506940841675,
+    "candidate_id": "2007pescad198725",
+    "candidate_title": "D.P. v. R.B.",
+    "query_text": "decision | D.P. v. R.B. | <span class=\"Citation\">D.P. v. R.B.</span> | 2007 PESCAD 25 | (2007), 289 D.L.R. (4<sup>th</sup>)\n177 | (2007), 44 R.F.L. (6<sup>th</sup>) 9 | (2007), 289 D.L.R. (4<sup>th</sup>) 177",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1trd3",
+        "score": 0.7509506940841675,
+        "candidate_title": "D.P. v. R.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/1zvwz",
+        "score": 0.7019419074058533,
+        "candidate_title": "D.P. v. R.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/20174",
+        "score": 0.6439909934997559,
+        "candidate_title": "D.P. v. R.B."
+      },
+      {
+        "uri": "https://canlii.ca/t/23n2p",
+        "score": 0.5797399282455444,
+        "candidate_title": "B.(R.) v. P.(D.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcpc/doc/2014/2014bcpc198/2014bcpc198.html",
+        "score": 0.5356175899505615,
+        "candidate_title": "D.Z.M. v. S.M. & N.E."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/2014/2014nbca67/2014nbca67.html",
+        "score": 0.5211180448532104,
+        "candidate_title": "D.E. v. L.E"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2005/2005canlii7671/2005canlii7671.html",
+        "score": 0.5053542256355286,
+        "candidate_title": "Debora v. Debora"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1ct5",
+        "score": 0.501052737236023,
+        "candidate_title": "Papp v. Papp et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abpc/doc/2017/2017abpc48/2017abpc48.html",
+        "score": 0.49833863973617554,
+        "candidate_title": "R v Dahl"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/2000/2000canlii28794/2000canlii28794.html",
+        "score": 0.4975343346595764,
+        "candidate_title": "R. v. Fleming (D.P.)"
+      }
+    ]
+  },
+  "Divorce Act": {
+    "uri": "https://canlii.ca/t/566hk",
+    "score": 0.7621127367019653,
+    "candidate_id": "l12727!12727-current-1",
+    "candidate_title": "Divorce Act",
+    "query_text": "legislation | Divorce Act | Divorce\nAct | R.S.C. 1985, Chap. R.S.C. 1985, Chap. 3",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/566hk",
+        "score": 0.7621127367019653,
+        "candidate_title": "Divorce Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-d-14/latest/rsa-2000-c-d-14.html",
+        "score": 0.6270975470542908,
+        "candidate_title": "Domestic Relations Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.5682077407836914,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56mjl",
+        "score": 0.5659081935882568,
+        "candidate_title": "Marriage Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/stat/ss-1995-c-m-4.1/latest/ss-1995-c-m-4.1.html",
+        "score": 0.5585155487060547,
+        "candidate_title": "The Marriage Act, 1995"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-128/latest/rsbc-1996-c-128.html",
+        "score": 0.5482937693595886,
+        "candidate_title": "Family Relations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56ndm",
+        "score": 0.519373893737793,
+        "candidate_title": "Citizenship Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56bzl",
+        "score": 0.5105357766151428,
+        "candidate_title": "Federal Courts Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v41",
+        "score": 0.5070343613624573,
+        "candidate_title": "Judges Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56p4b",
+        "score": 0.49818146228790283,
+        "candidate_title": "Judicature Act"
+      }
+    ]
+  },
+  "Judicature Act": {
+    "uri": "https://canlii.ca/t/56p4b",
+    "score": 0.7884472608566284,
+    "candidate_id": "l26898!26898-current-1",
+    "candidate_title": "Judicature Act",
+    "query_text": "legislation | Judicature Act | R.S.P.E.I.\n1988 Cap. J-2.1 | R.S.P.E.I. 1988 Cap.\nJ-2.1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56p4b",
+        "score": 0.7884472608566284,
+        "candidate_title": "Judicature Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/laws/stat/rsnb-1973-c-j-2/latest/rsnb-1973-c-j-2.html",
+        "score": 0.6195359826087952,
+        "candidate_title": "Judicature Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v41",
+        "score": 0.5869181156158447,
+        "candidate_title": "Judges Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/562x3",
+        "score": 0.557150661945343,
+        "candidate_title": "Provincial Court Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vg3",
+        "score": 0.5273933410644531,
+        "candidate_title": "Judicial Review Procedure Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56mjs",
+        "score": 0.522130012512207,
+        "candidate_title": "Courts of Justice Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jvn",
+        "score": 0.5181205868721008,
+        "candidate_title": "Court of Justice Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nsc",
+        "score": 0.5083718299865723,
+        "candidate_title": "Courts of Justice Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56dxf",
+        "score": 0.508171558380127,
+        "candidate_title": "Juries Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fpwp",
+        "score": 0.5060161352157593,
+        "candidate_title": "Loi sur les tribunaux judiciaires"
+      }
+    ]
+  },
+  "Child Support Guidelines": {
+    "uri": "https://canlii.ca/t/k45z",
+    "score": 0.743040919303894,
+    "candidate_id": "l27277!27277-current-1",
+    "candidate_title": "Child Support Guidelines Regulations",
+    "query_text": "legislation | Child Support Guidelines",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/k45z",
+        "score": 0.743040919303894,
+        "candidate_title": "Child Support Guidelines Regulations"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-p-1/latest/rsa-2000-c-p-1.html",
+        "score": 0.5709170699119568,
+        "candidate_title": "Parentage and Maintenance Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/stat/rso-1990-c-c11/latest/rso-1990-c-c11.html",
+        "score": 0.5379225015640259,
+        "candidate_title": "Child and Family Services Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/laws/astat/sm-2023-c-26/latest/sm-2023-c-26.html",
+        "score": 0.5199533700942993,
+        "candidate_title": "An Act respecting Child and Family Services (Indigenous Jurisdiction and Related Amendments)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-128/latest/rsbc-1996-c-128.html",
+        "score": 0.5189403295516968,
+        "candidate_title": "Family Relations Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/laws/astat/sm-2018-c-13/latest/sm-2018-c-13.html",
+        "score": 0.5157573223114014,
+        "candidate_title": "The Child and Family Services Amendment Act (Taking Care of Our Children)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-d-14/latest/rsa-2000-c-d-14.html",
+        "score": 0.5113651752471924,
+        "candidate_title": "Domestic Relations Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/566hk",
+        "score": 0.5102396011352539,
+        "candidate_title": "Divorce Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/laws/stat/rsns-1989-c-432/latest/rsns-1989-c-432.html",
+        "score": 0.5016785860061646,
+        "candidate_title": "Social Assistance Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.5001038312911987,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      }
+    ]
+  }
+}

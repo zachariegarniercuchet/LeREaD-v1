@@ -1,0 +1,828 @@
+{
+  "Durham": {
+    "uri": "https://canlii.ca/t/kbmxv",
+    "score": 0.9368389844894409,
+    "candidate_id": "2025abkb246",
+    "candidate_title": "Durham Creek Energy Ltd v Chimera Management Group Ltd",
+    "query_text": "decision | <b>Durham Creek Energy Ltd v Chimera Management Group Ltd</b> | <b>2025 ABKB 246</b>",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/kbmxv",
+        "score": 0.9368389844894409,
+        "candidate_title": "Durham Creek Energy Ltd v Chimera Management Group Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2023/2023abca221/2023abca221.html",
+        "score": 0.7260850071907043,
+        "candidate_title": "AlphaBow Energy Ltd v Alberta Energy Regulator"
+      },
+      {
+        "uri": "https://canlii.ca/t/jtstb",
+        "score": 0.7079702019691467,
+        "candidate_title": "Prairiesky Royalty Ltd v Yangarra Resources Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/absrb/doc/2018/2018absrb64/2018absrb64.html",
+        "score": 0.7073482871055603,
+        "candidate_title": "Bear Canyon Farms Holdings Ltd v Apex Energy (Canada) Inc"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2019/2019abqb406/2019abqb406.html",
+        "score": 0.6889488697052002,
+        "candidate_title": "Obsidian Energy Partnership v Grizzly Resources Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skmb/doc/2025/2025skmb48/2025skmb48.html",
+        "score": 0.6840090751647949,
+        "candidate_title": "Various Municipalities v Cenovus Energy Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2024/2024skca86/2024skca86.html",
+        "score": 0.676728367805481,
+        "candidate_title": "Kane v FCA US LLC"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2017/2017onca16/2017onca16.html",
+        "score": 0.6750237345695496,
+        "candidate_title": "Crombie Property Holdings Limited v. McColl-Frontenac Inc. (Texaco Canada Limited)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2022/2022abca30/2022abca30.html",
+        "score": 0.6747335195541382,
+        "candidate_title": "Benga Mining Limited v Alberta Energy Regulator"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2021/2021onca753/2021onca753.html",
+        "score": 0.6738274097442627,
+        "candidate_title": "McFlow Capital Corp. v. James"
+      }
+    ]
+  },
+  "Dynex SCC 2002": {
+    "uri": "https://canlii.ca/t/51tw",
+    "score": 0.8997541666030884,
+    "candidate_id": "2002csc-scc7",
+    "candidate_title": "Bank of Montreal v. Dynex Petroleum Ltd.",
+    "query_text": "decision | <b><i>Bank of Montreal v Dynex Petroleum Ltd</i></b> | <b><i>Dynex SCC</i></b> | <i>Dynex</i> | 2002 SCC 7",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/51tw",
+        "score": 0.8997541666030884,
+        "candidate_title": "Bank of Montreal v. Dynex Petroleum Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/5s19",
+        "score": 0.76939857006073,
+        "candidate_title": "Bank of Montreal v. Enchant Resources Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2002/2002skca91/2002skca91.html",
+        "score": 0.7379128932952881,
+        "candidate_title": "Montreal Trust Co. v. Williston Wildcatters Corp."
+      },
+      {
+        "uri": "https://canlii.ca/t/1frtq",
+        "score": 0.7067615389823914,
+        "candidate_title": "Mobil Oil Canada Ltd. v. Canada-Newfoundland Offshore Petroleum Board"
+      },
+      {
+        "uri": "https://www.canlii.org/en/pe/pesctd/doc/1993/1993canlii2918/1993canlii2918.html",
+        "score": 0.6967287063598633,
+        "candidate_title": "Porta-Flex Products (P.E.I.) Ltd. v. Bank of Montreal"
+      },
+      {
+        "uri": "https://canlii.ca/t/1chp8",
+        "score": 0.6928365230560303,
+        "candidate_title": "L.(V.) c. S.(B.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g91dq",
+        "score": 0.691055417060852,
+        "candidate_title": "Bank of Montreal v. Marcotte"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2008/2008canlii22152/2008canlii22152.html",
+        "score": 0.6888530850410461,
+        "candidate_title": "Royal Bank of Canada v. Welton"
+      },
+      {
+        "uri": "https://canlii.ca/t/fpdwb",
+        "score": 0.6881911158561707,
+        "candidate_title": "Reference re Securities Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2008/2008scc45/2008scc45.html",
+        "score": 0.6881606578826904,
+        "candidate_title": "New Brunswick (Human Rights Commission) v. Potash Corporation of Saskatchewan Inc."
+      }
+    ]
+  },
+  "PrairieSky": {
+    "uri": "https://canlii.ca/t/jtstb",
+    "score": 0.9421292543411255,
+    "candidate_id": "2023abkb11",
+    "candidate_title": "Prairiesky Royalty Ltd v Yangarra Resources Ltd",
+    "query_text": "decision | <b><i>PrairieSky Royalty Ltd v Yangarra Resources Ltd</i></b> | <b><i>PrairieSky</i></b> | PrairieSky | 2023 ABKB 11",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jtstb",
+        "score": 0.9421292543411255,
+        "candidate_title": "Prairiesky Royalty Ltd v Yangarra Resources Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2022/2022skca81/2022skca81.html",
+        "score": 0.7254993915557861,
+        "candidate_title": "Ernst & Young Inc. v Koroluk"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/ablprt/doc/2022/2022ablprt1192/2022ablprt1192.html",
+        "score": 0.7215648293495178,
+        "candidate_title": "Canadian Natural Resources Limited v Chrupka"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2019/2019abqb698/2019abqb698.html",
+        "score": 0.7194087505340576,
+        "candidate_title": "Whitecap Resources Inc. v Canadian Natural Resources Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2022/2022bcsc1360/2022bcsc1360.html",
+        "score": 0.7163897752761841,
+        "candidate_title": "Skeena Resources Ltd. v Mill"
+      },
+      {
+        "uri": "https://canlii.ca/t/kbmxv",
+        "score": 0.7109153270721436,
+        "candidate_title": "Durham Creek Energy Ltd v Chimera Management Group Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2024/2024skca54/2024skca54.html",
+        "score": 0.7076489925384521,
+        "candidate_title": "Friedrick v Kelturn Drywall Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/2004/2004skqb239/2004skqb239.html",
+        "score": 0.7072967290878296,
+        "candidate_title": "Lundrigan v. Claude Resources Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2022/2022mbca69/2022mbca69.html",
+        "score": 0.707021176815033,
+        "candidate_title": "Knight v Daraden Investments Ltd et al"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/2006/2006skqb101/2006skqb101.html",
+        "score": 0.7061957716941833,
+        "candidate_title": "De Beers Canada Inc. v. Shore Gold Inc."
+      }
+    ]
+  },
+  "Vandergrift": {
+    "uri": "https://canlii.ca/t/28n7r",
+    "score": 0.8751446008682251,
+    "candidate_id": "1989abqb1000047",
+    "candidate_title": "Vandergrift v. Coseka Resources Ltd.",
+    "query_text": "decision | <b><i>Vandergrift v Coseka Resources Ltd</i></b> | <b><i>Vandergrift</i></b> | (1989) 67 Alta LR (2d) 17",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/28n7r",
+        "score": 0.8751446008682251,
+        "candidate_title": "Vandergrift v. Coseka Resources Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1981/1981abca180/1981abca180.html",
+        "score": 0.7503916621208191,
+        "candidate_title": "Coseka Resources Limited v. Saratoga Process Company Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2019/2019abqb406/2019abqb406.html",
+        "score": 0.6806573867797852,
+        "candidate_title": "Obsidian Energy Partnership v Grizzly Resources Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2006/2006abca238/2006abca238.html",
+        "score": 0.6779345870018005,
+        "candidate_title": "MacPhail v. Karasek"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1987/1987abca123/1987abca123.html",
+        "score": 0.6773898005485535,
+        "candidate_title": "Blair Estate Ltd. v. Altana Exploration Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/fvxv1",
+        "score": 0.6763128042221069,
+        "candidate_title": "Nexxtep Resources Ltd v Talisman Energy Inc"
+      },
+      {
+        "uri": "https://canlii.ca/t/g7c28",
+        "score": 0.6743668913841248,
+        "candidate_title": "Central Canada Potash Co. v. Saskatchewan (Mineral Resources)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2013/2013abqb230/2013abqb230.html",
+        "score": 0.6734281778335571,
+        "candidate_title": "Canadian Natural Resources Limited v. ShawCor Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1960/1960canlii43/1960canlii43.html",
+        "score": 0.6702606081962585,
+        "candidate_title": "Texada Mines Ltd. v. Attorney-General of British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ft4w",
+        "score": 0.6692261695861816,
+        "candidate_title": "Canada (Auditor General) v. Canada (Minister of Energy, Mines and Resources)"
+      }
+    ]
+  },
+  "Dynex ABCA 1999": {
+    "uri": "https://canlii.ca/t/5s19",
+    "score": 0.931540846824646,
+    "candidate_id": "1999abca363",
+    "candidate_title": "Bank of Montreal v. Enchant Resources Ltd.",
+    "query_text": "decision | Bank of Montreal v Enchant Resources Ltd | Dynex CA | <b><i>Dynex CA</i></b> | <b><i>Dynex</i></b><b><i> CA</i></b> | 1999 ABCA 363",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5s19",
+        "score": 0.931540846824646,
+        "candidate_title": "Bank of Montreal v. Enchant Resources Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/51tw",
+        "score": 0.8269718885421753,
+        "candidate_title": "Bank of Montreal v. Dynex Petroleum Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1999/1999abca311/1999abca311.html",
+        "score": 0.6865872740745544,
+        "candidate_title": "Global Steel Ltd. v. Bank of Montreal"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/1992/1992abca300/1992abca300.html",
+        "score": 0.6767784953117371,
+        "candidate_title": "Syncrude Canada Ltd. v. Babcock & Wilcox Canada Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/jtstb",
+        "score": 0.668578565120697,
+        "candidate_title": "Prairiesky Royalty Ltd v Yangarra Resources Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1989/1989canlii183/1989canlii183.html",
+        "score": 0.6672794818878174,
+        "candidate_title": "Claiborne Industries Ltd. v. National Bank of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/oncmt/doc/2009/2009onsec15/2009onsec15.html",
+        "score": 0.6663054823875427,
+        "candidate_title": "Hudbay Minerals Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/j4xq3",
+        "score": 0.6646248698234558,
+        "candidate_title": "PricewaterhouseCoopers Inc v Perpetual Energy Inc"
+      },
+      {
+        "uri": "https://canlii.ca/t/25s29",
+        "score": 0.6645606756210327,
+        "candidate_title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corp"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2009/2009abca65/2009abca65.html",
+        "score": 0.6617898941040039,
+        "candidate_title": "Emeric Holdings Inc. v. Edmonton (City)"
+      }
+    ]
+  },
+  "Third Eye Capital": {
+    "uri": "https://canlii.ca/t/hr0wb",
+    "score": 0.9160276055335999,
+    "candidate_id": "2018onca253",
+    "candidate_title": "Third Eye Capital Corporation v. Ressources Dianor Inc.",
+    "query_text": "decision | <b><i>Third Eye Capital Corporation v Dianor Resources Inc</i></b> | 2018 ONCA 253",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hr0wb",
+        "score": 0.9160276055335999,
+        "candidate_title": "Third Eye Capital Corporation v. Ressources Dianor Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/j12dh",
+        "score": 0.8833134174346924,
+        "candidate_title": "Third Eye Capital Corporation v. Ressources Dianor Inc./Dianor Resources Inc."
+      },
+      {
+        "uri": "https://canlii.ca/t/jggc4",
+        "score": 0.7313892841339111,
+        "candidate_title": "DGDP-BC Holdings Ltd v Third Eye Capital Corporation"
+      },
+      {
+        "uri": "https://canlii.ca/t/25s29",
+        "score": 0.7037977576255798,
+        "candidate_title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corp"
+      },
+      {
+        "uri": "https://canlii.ca/t/hwqc0",
+        "score": 0.6852272152900696,
+        "candidate_title": "Das v. George Weston Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2018/2018onca283/2018onca283.html",
+        "score": 0.6848859190940857,
+        "candidate_title": "The Catalyst Capital Group Inc. v. Moyse"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/mbca/doc/2003/2003mbca137/2003mbca137.html",
+        "score": 0.6837404370307922,
+        "candidate_title": "EOG Resources Canada Inc. v. Surface Rights Board (Manitoba)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2022/2022onca3/2022onca3.html",
+        "score": 0.6827349662780762,
+        "candidate_title": "R. v. Chacon-Perez"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2019/2019onca687/2019onca687.html",
+        "score": 0.682316780090332,
+        "candidate_title": "Donleavy v. Ultramar Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2023/2023onca129/2023onca129.html",
+        "score": 0.6798645853996277,
+        "candidate_title": "Park Lawn Corporation v. Kahu Capital Partners Ltd."
+      }
+    ]
+  },
+  "Creston Moly": {
+    "uri": "https://canlii.ca/t/g88q1",
+    "score": 0.8748505711555481,
+    "candidate_id": "2014csc-scc53",
+    "candidate_title": "Sattva Capital Corp. v. Creston Moly Corp.",
+    "query_text": "decision | <b><i>Creston Moly Corp v Sattva Capital Corp</i></b> | 2014 SCC 53",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g88q1",
+        "score": 0.8748505711555481,
+        "candidate_title": "Sattva Capital Corp. v. Creston Moly Corp."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2010/2010bcca239/2010bcca239.html",
+        "score": 0.8251189589500427,
+        "candidate_title": "Creston Moly Corp. v. Sattva Capital Corp."
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2014/2014nlca13/2014nlca13.html",
+        "score": 0.6488670110702515,
+        "candidate_title": "Medoc Properties Limited v. Standard Trust Company"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2018/2018abca125/2018abca125.html",
+        "score": 0.648419976234436,
+        "candidate_title": "Stefanyk v Sobeys Capital Incorporated"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/tmob/doc/2014/2014tmob135/2014tmob135.html",
+        "score": 0.6405564546585083,
+        "candidate_title": "Fraser Milner Casgrain LLP v Fabric Life Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2010/2010onca228/2010onca228.html",
+        "score": 0.6371864080429077,
+        "candidate_title": "Ontario Securities Commission v. Sextant Capital Management Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2018/2018abqb351/2018abqb351.html",
+        "score": 0.6362737417221069,
+        "candidate_title": "Paragon Capital Corporation Ltd v Starke Dominion Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/tmob/doc/2014/2014tmob262/2014tmob262.html",
+        "score": 0.6354933977127075,
+        "candidate_title": "Sky Solar Holdings Co., Ltd.  v Skypower Global"
+      },
+      {
+        "uri": "https://canlii.ca/t/1j5fr",
+        "score": 0.6343065500259399,
+        "candidate_title": "Pacific National Investments Ltd. v. Victoria (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2018/2018onca283/2018onca283.html",
+        "score": 0.6329284310340881,
+        "candidate_title": "The Catalyst Capital Group Inc. v. Moyse"
+      }
+    ]
+  },
+  "IFP Technologies": {
+    "uri": "https://canlii.ca/t/h438n",
+    "score": 0.9371044039726257,
+    "candidate_id": "2017abca157",
+    "candidate_title": "IFP Technologies (Canada) Inc. v EnCana Midstream and Marketing",
+    "query_text": "decision | <b><i>IFP Technologies (Canada) Inc v EnCana Midstream and Marketing</i></b> | 2017 ABCA 157",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/h438n",
+        "score": 0.9371044039726257,
+        "candidate_title": "IFP Technologies (Canada) Inc. v EnCana Midstream and Marketing"
+      },
+      {
+        "uri": "https://canlii.ca/t/g8r0n",
+        "score": 0.8501110076904297,
+        "candidate_title": "IFP Technologies (Canada) v Encana Midstream and Marketing"
+      },
+      {
+        "uri": "https://canlii.ca/t/h6lnr",
+        "score": 0.7189822196960449,
+        "candidate_title": "Beaumont Energy Inc v Amik Oilfield Equipment & Rentals Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2023/2023abca221/2023abca221.html",
+        "score": 0.712870180606842,
+        "candidate_title": "AlphaBow Energy Ltd v Alberta Energy Regulator"
+      },
+      {
+        "uri": "https://canlii.ca/t/j8f9f",
+        "score": 0.7083301544189453,
+        "candidate_title": "PricewaterhouseCoopers Inc v Perpetual Energy Inc"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2014/2014abca250/2014abca250.html",
+        "score": 0.7054687738418579,
+        "candidate_title": "Total Oilfield Rentals Limited Partnership v Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2025/2025abca115/2025abca115.html",
+        "score": 0.704910397529602,
+        "candidate_title": "WestJet v ELS Marketing Inc"
+      },
+      {
+        "uri": "https://canlii.ca/t/j4xq3",
+        "score": 0.7015122175216675,
+        "candidate_title": "PricewaterhouseCoopers Inc v Perpetual Energy Inc"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2022/2022abca139/2022abca139.html",
+        "score": 0.7011515498161316,
+        "candidate_title": "International Brotherhood of Boilermakers v Alberta Labour Relations Board"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2016/2016abca82/2016abca82.html",
+        "score": 0.6992892622947693,
+        "candidate_title": "Benc v. Parker"
+      }
+    ]
+  },
+  "Manitok Energy": {
+    "uri": "https://canlii.ca/t/hsp32",
+    "score": 0.8857505321502686,
+    "candidate_id": "2018abqb488",
+    "candidate_title": "Manitok Energy Inc (Re)",
+    "query_text": "decision | <b><i>Manitok Energy Inc (Re)</i></b> | 2018 ABKB 488",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/hsp32",
+        "score": 0.8857505321502686,
+        "candidate_title": "Manitok Energy Inc (Re)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2019/2019abqb698/2019abqb698.html",
+        "score": 0.696478009223938,
+        "candidate_title": "Whitecap Resources Inc. v Canadian Natural Resources Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/jtstb",
+        "score": 0.6914754509925842,
+        "candidate_title": "Prairiesky Royalty Ltd v Yangarra Resources Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2004/2004abca154/2004abca154.html",
+        "score": 0.6897387504577637,
+        "candidate_title": "Husky Oil Operations Limited v. Anadarko Canada Corporation"
+      },
+      {
+        "uri": "https://canlii.ca/t/h6lnr",
+        "score": 0.6893665194511414,
+        "candidate_title": "Beaumont Energy Inc v Amik Oilfield Equipment & Rentals Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abkb/doc/2023/2023abkb247/2023abkb247.html",
+        "score": 0.6870250701904297,
+        "candidate_title": "Maruzs Estate (Re)"
+      },
+      {
+        "uri": "https://canlii.ca/t/kbmxv",
+        "score": 0.6804031133651733,
+        "candidate_title": "Durham Creek Energy Ltd v Chimera Management Group Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skmb/doc/2025/2025skmb48/2025skmb48.html",
+        "score": 0.6784047484397888,
+        "candidate_title": "Various Municipalities v Cenovus Energy Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/absrb/doc/2018/2018absrb64/2018absrb64.html",
+        "score": 0.676796019077301,
+        "candidate_title": "Bear Canyon Farms Holdings Ltd v Apex Energy (Canada) Inc"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2023/2023abca221/2023abca221.html",
+        "score": 0.6761465668678284,
+        "candidate_title": "AlphaBow Energy Ltd v Alberta Energy Regulator"
+      }
+    ]
+  },
+  "Legal Characterization of Overriding Royalty": {
+    "uri": "https://canlii.ca/t/td6h",
+    "score": 0.8579638004302979,
+    "candidate_id": "d85995!d85995",
+    "candidate_title": "The Legal Characterization of Overriding Royalty Interests in Oil and Gas",
+    "query_text": "secondary sources | The Legal Characterization of Overriding Royalty Interests in Oil and Gas | G.J. Davies",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/td6h",
+        "score": 0.8579638004302979,
+        "candidate_title": "The Legal Characterization of Overriding Royalty Interests in Oil and Gas"
+      },
+      {
+        "uri": "https://canlii.ca/t/t1wq",
+        "score": 0.7071875929832458,
+        "candidate_title": "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land"
+      },
+      {
+        "uri": "https://canlii.ca/t/spvg",
+        "score": 0.6604417562484741,
+        "candidate_title": "Let's Talk About Royalties: The Continued Uncertainty Surrounding the Creation and Legal Status of the Overriding Royalty"
+      },
+      {
+        "uri": "https://canlii.ca/t/qr",
+        "score": 0.60626620054245,
+        "candidate_title": "Sole Risk Provisions in Joint Operating Agreements for Unconventional Oil and Gas Development"
+      },
+      {
+        "uri": "https://canlii.ca/t/2d9f",
+        "score": 0.5973877906799316,
+        "candidate_title": "Modernizing the Property Laws That Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry"
+      },
+      {
+        "uri": "https://canlii.ca/t/2d2z",
+        "score": 0.5917487144470215,
+        "candidate_title": "Recent Judicial Developments of Interest to Oil and Gas Lawyers"
+      },
+      {
+        "uri": "https://canlii.ca/t/jtstb",
+        "score": 0.5825300216674805,
+        "candidate_title": "Prairiesky Royalty Ltd v Yangarra Resources Ltd"
+      },
+      {
+        "uri": "https://canlii.ca/t/sl42",
+        "score": 0.5769234299659729,
+        "candidate_title": "Pooling Agreements in Canadian Oil and Gas Law"
+      },
+      {
+        "uri": "https://canlii.ca/t/h6lnr",
+        "score": 0.5762205719947815,
+        "candidate_title": "Beaumont Energy Inc v Amik Oilfield Equipment & Rentals Ltd"
+      },
+      {
+        "uri": "https://canlii.ca/t/sm0q",
+        "score": 0.5713180303573608,
+        "candidate_title": "Marketing Production from Joint Property: The Past, the Present and the Future"
+      }
+    ]
+  },
+  "A Tale of Two Interests": {
+    "uri": "https://canlii.ca/t/t1wq",
+    "score": 0.9065657258033752,
+    "candidate_id": "d76732!d76732",
+    "candidate_title": "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land",
+    "query_text": "secondary sources | A Tale of Two Interests: Reframing <i>Dynex </i>to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land | Elisa Stewart and Joel Henderson",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/t1wq",
+        "score": 0.9065657258033752,
+        "candidate_title": "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land"
+      },
+      {
+        "uri": "https://canlii.ca/t/td6h",
+        "score": 0.6839566230773926,
+        "candidate_title": "The Legal Characterization of Overriding Royalty Interests in Oil and Gas"
+      },
+      {
+        "uri": "https://canlii.ca/t/spvg",
+        "score": 0.6488333344459534,
+        "candidate_title": "Let's Talk About Royalties: The Continued Uncertainty Surrounding the Creation and Legal Status of the Overriding Royalty"
+      },
+      {
+        "uri": "https://canlii.ca/t/51tw",
+        "score": 0.6085176467895508,
+        "candidate_title": "Bank of Montreal v. Dynex Petroleum Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/5s19",
+        "score": 0.6052307486534119,
+        "candidate_title": "Bank of Montreal v. Enchant Resources Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/7npz7",
+        "score": 0.5969827771186829,
+        "candidate_title": "Reconciliation and Third-Party Interests: Tsilhqot’in Nation v. British Columbia"
+      },
+      {
+        "uri": "https://canlii.ca/t/jtstb",
+        "score": 0.5951746702194214,
+        "candidate_title": "Prairiesky Royalty Ltd v Yangarra Resources Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/1992/1992canlii8204/1992canlii8204.html",
+        "score": 0.5933518409729004,
+        "candidate_title": "Lautner Estate v. Cumis Life Insurance Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/sm0q",
+        "score": 0.5928128957748413,
+        "candidate_title": "Marketing Production from Joint Property: The Past, the Present and the Future"
+      },
+      {
+        "uri": "https://canlii.ca/t/2d2z",
+        "score": 0.588098406791687,
+        "candidate_title": "Recent Judicial Developments of Interest to Oil and Gas Lawyers"
+      }
+    ]
+  },
+  "Modernizing the Property Laws": {
+    "uri": "https://canlii.ca/t/2d9f",
+    "score": 0.871769905090332,
+    "candidate_id": "d5083!d5083",
+    "candidate_title": "Modernizing the Property Laws That Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry",
+    "query_text": "secondary sources | Modernizing the Property Laws that Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry | Alicia K. Quesnel",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2d9f",
+        "score": 0.871769905090332,
+        "candidate_title": "Modernizing the Property Laws That Bind Us: Challenging Traditional Property Law Concepts Unsuited to the Realities of the Oil and Gas Industry"
+      },
+      {
+        "uri": "https://canlii.ca/t/td6h",
+        "score": 0.6356807351112366,
+        "candidate_title": "The Legal Characterization of Overriding Royalty Interests in Oil and Gas"
+      },
+      {
+        "uri": "https://canlii.ca/t/2d2z",
+        "score": 0.6188749670982361,
+        "candidate_title": "Recent Judicial Developments of Interest to Oil and Gas Lawyers"
+      },
+      {
+        "uri": "https://canlii.ca/t/sm0q",
+        "score": 0.6156046390533447,
+        "candidate_title": "Marketing Production from Joint Property: The Past, the Present and the Future"
+      },
+      {
+        "uri": "https://canlii.ca/t/ss82",
+        "score": 0.6047687530517578,
+        "candidate_title": "Aboriginal Title and Private Property"
+      },
+      {
+        "uri": "https://canlii.ca/t/t1wq",
+        "score": 0.5948687791824341,
+        "candidate_title": "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land"
+      },
+      {
+        "uri": "https://canlii.ca/t/sl42",
+        "score": 0.5932234525680542,
+        "candidate_title": "Pooling Agreements in Canadian Oil and Gas Law"
+      },
+      {
+        "uri": "https://canlii.ca/t/qr",
+        "score": 0.5926411151885986,
+        "candidate_title": "Sole Risk Provisions in Joint Operating Agreements for Unconventional Oil and Gas Development"
+      },
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2004CanLIIDocs173",
+        "score": 0.5902650356292725,
+        "candidate_title": "The Forgotten Constitution: The Natural Resources Transfer Agreements and Indian Livelihood Rights, Ca. 1925-1933"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kbt",
+        "score": 0.5793339610099792,
+        "candidate_title": "Petroleum and Natural gas Tenure Regulation"
+      }
+    ]
+  },
+  "Let’s Talk About Royalties": {
+    "uri": "https://canlii.ca/t/spvg",
+    "score": 0.8142670392990112,
+    "candidate_id": "d67694!d67694",
+    "candidate_title": "Let's Talk About Royalties: The Continued Uncertainty Surrounding the Creation and Legal Status of the Overriding Royalty",
+    "query_text": "secondary sources | Let’s Talk About Royalties: The Continued Uncertainty Surrounding the Creation and Legal Status of the Overriding Royalty | David LeGeyt, Ashley Weldon, Natasha Wood, and Brendan Downey",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/spvg",
+        "score": 0.8142670392990112,
+        "candidate_title": "Let's Talk About Royalties: The Continued Uncertainty Surrounding the Creation and Legal Status of the Overriding Royalty"
+      },
+      {
+        "uri": "https://canlii.ca/t/t1wq",
+        "score": 0.631459653377533,
+        "candidate_title": "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land"
+      },
+      {
+        "uri": "https://canlii.ca/t/td6h",
+        "score": 0.5824395418167114,
+        "candidate_title": "The Legal Characterization of Overriding Royalty Interests in Oil and Gas"
+      },
+      {
+        "uri": "https://canlii.ca/t/2bpn",
+        "score": 0.5270846486091614,
+        "candidate_title": "Rethinking the Ramifications of Reasonableness Review: Stare Decisis and Reasonableness Review on Questions of Law"
+      },
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2013CanLIIDocs122",
+        "score": 0.5241881012916565,
+        "candidate_title": "From en ventre sa mere to Thawing an Heir: Posthumously Conceived Children and the Implications for Succession Law in Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2017CanLIIDocs175#IDENTIFYING_THE_REVIEW_STANDARD__ADMINISTRATIVE_DEFERENCE_IN_A_NUTSHELL",
+        "score": 0.5136509537696838,
+        "candidate_title": "University of New Brunswick Law Journal"
+      },
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2017CanLIIDocs175#THE_TIME_HAS_COME__STANDARD_OF_REVIEW_IN_CANADIAN_ADMINISTRATIVE_LAW",
+        "score": 0.5136509537696838,
+        "candidate_title": "University of New Brunswick Law Journal"
+      },
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2017CanLIIDocs175#THE_SIGNAL_AND_THE_NOISE_IN_ADMINISTRATIVE_LAW",
+        "score": 0.5136509537696838,
+        "candidate_title": "University of New Brunswick Law Journal"
+      },
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2017CanLIIDocs175#RENOVATING_JUDICIAL_REVIEW",
+        "score": 0.5136509537696838,
+        "candidate_title": "University of New Brunswick Law Journal"
+      },
+      {
+        "uri": "https://canlii.ca/t/8wjk6",
+        "score": 0.5102201700210571,
+        "candidate_title": "L'indépendance judiciaire et la Cour suprême: reconstruction historique douteuse et théorie constitutionnelle de complaisance"
+      }
+    ]
+  },
+  "Gross Overriding Royalty": {
+    "uri": "https://canlii.ca/t/t1wq",
+    "score": 0.6857714653015137,
+    "candidate_id": "d76732!d76732",
+    "candidate_title": "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land",
+    "query_text": "secondary sources | The Legal Status of a Gross Overriding Royalty Carved out of a Crown Lease | Nigel Bankes",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/t1wq",
+        "score": 0.6857714653015137,
+        "candidate_title": "A Tale of Two Interests: Reframing Dynex to Account for Surrounding Circumstances in Determining Whether a Gross Overriding Royalty is an Interest in Land"
+      },
+      {
+        "uri": "https://canlii.ca/t/spvg",
+        "score": 0.6623892188072205,
+        "candidate_title": "Let's Talk About Royalties: The Continued Uncertainty Surrounding the Creation and Legal Status of the Overriding Royalty"
+      },
+      {
+        "uri": "https://canlii.ca/t/td6h",
+        "score": 0.6584989428520203,
+        "candidate_title": "The Legal Characterization of Overriding Royalty Interests in Oil and Gas"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2022/2022bcsc385/2022bcsc385.html",
+        "score": 0.594550609588623,
+        "candidate_title": "Gibraltar Mines Ltd. v Harvey"
+      },
+      {
+        "uri": "https://canlii.ca/t/jtstb",
+        "score": 0.5940036773681641,
+        "candidate_title": "Prairiesky Royalty Ltd v Yangarra Resources Ltd"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mvm8",
+        "score": 0.5864542126655579,
+        "candidate_title": "Dunsmuir v. Her Majesty the Queen in Right of the Province of New Brunswick, as represented by the Board of Management"
+      },
+      {
+        "uri": "https://www.canlii.org/en/commentary/doc/2013CanLIIDocs122",
+        "score": 0.5764595866203308,
+        "candidate_title": "From en ventre sa mere to Thawing an Heir: Posthumously Conceived Children and the Implications for Succession Law in Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2007/2007bcsc6/2007bcsc6.html",
+        "score": 0.5725395083427429,
+        "candidate_title": "Butterworth Holdings Ltd. et al. v. British Columbia (General Manager, Liquor Control and Licensing Branch)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2016/2016onca50/2016onca50.html",
+        "score": 0.5696733593940735,
+        "candidate_title": "Global Royalties Limited v. Brook"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc-l/doc/2019/2019canlii14404/2019canlii14404.html",
+        "score": 0.5666505098342896,
+        "candidate_title": "ENMAX Energy Corporation, et al. v. Her Majesty the Queen in Right of Alberta, et al."
+      }
+    ]
+  }
+}

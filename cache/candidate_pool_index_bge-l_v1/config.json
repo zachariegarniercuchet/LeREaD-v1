@@ -3,16 +3,16 @@
   "retriever": {
     "name": "bge-l",
     "score_kind": "similarity",
-    "size": 504,
+    "size": 6519,
     "similarity": "cosine",
     "encoder": "bge-l",
     "embedding_shape": [
-      504,
+      6519,
       1024
     ]
   },
-  "input_file": "data/candidate_pool_metadata.csv",
-  "num_candidates": 504,
+  "input_file": "data/candidate_pool.csv",
+  "num_candidates": 6519,
   "representation": {
     "fields": [
       "docType",

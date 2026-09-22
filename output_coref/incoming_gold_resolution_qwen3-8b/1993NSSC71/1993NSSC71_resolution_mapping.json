@@ -1,0 +1,2303 @@
+{
+  "Planning Act": {
+    "uri": "https://canlii.ca/t/jpvq",
+    "score": 0.7587250471115112,
+    "candidate_id": "l23079!23079-51702-0",
+    "candidate_title": "Planning Act",
+    "query_text": "legislation | Planning Act | <b>Planning Act</b> | R.S.N.S. 1989, c.346 | R.S.N.S. 1989, c. 346 | R.S.N.S.\n1989, c. 346",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jpvq",
+        "score": 0.7587250471115112,
+        "candidate_title": "Planning Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/stat/ss-2007-c-p-13.2/latest/ss-2007-c-p-13.2.html",
+        "score": 0.6483646631240845,
+        "candidate_title": "The Planning and Development Act, 2007"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jxm",
+        "score": 0.6179466843605042,
+        "candidate_title": "The Planning Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-323/latest/rsbc-1996-c-323.html",
+        "score": 0.5567243695259094,
+        "candidate_title": "Municipal Replotting Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/stat/ss-1986-c-p-1.1/latest/ss-1986-c-p-1.1.html",
+        "score": 0.5489867329597473,
+        "candidate_title": "Parks Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56hq0",
+        "score": 0.5479283332824707,
+        "candidate_title": "Land Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56q11",
+        "score": 0.5379035472869873,
+        "candidate_title": "Environmental Assessment Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/laws/stat/rsns-1989-c-504/latest/rsns-1989-c-504.html",
+        "score": 0.5325764417648315,
+        "candidate_title": "Wildlife Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/hstat/rsa-1980-c-m-26/latest/rsa-1980-c-m-26.html",
+        "score": 0.5292003154754639,
+        "candidate_title": "Municipal Government Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/laws/astat/sns-2023-c-18/latest/sns-2023-c-18.html",
+        "score": 0.5268154144287109,
+        "candidate_title": "Halifax Regional Municipality Charter (am) and Housing in the Halifax Regional Municipality Act (am)"
+      }
+    ]
+  },
+  "Environmental Protection Act": {
+    "uri": "https://www.canlii.org/en/pe/laws/stat/rspei-1988-c-e-9/latest/rspei-1988-c-e-9.html",
+    "score": 0.7083823680877686,
+    "candidate_id": "l26878!26878-current-1",
+    "candidate_title": "Environmental Protection Act",
+    "query_text": "legislation | Environmental Protection Act | Environmental\nProtection Act",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/pe/laws/stat/rspei-1988-c-e-9/latest/rspei-1988-c-e-9.html",
+        "score": 0.7083823680877686,
+        "candidate_title": "Environmental Protection Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56wh2",
+        "score": 0.6728523969650269,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vzq",
+        "score": 0.669047474861145,
+        "candidate_title": "Environmental Protection and Enhancement Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2020-c-21/latest/sa-2020-c-21.html",
+        "score": 0.649040699005127,
+        "candidate_title": "Environmental Protection Statutes Amendment Act, 2020"
+      },
+      {
+        "uri": "https://www.canlii.org/en/mb/laws/stat/ccsm-c-e125/latest/ccsm-c-e125.html",
+        "score": 0.6231817007064819,
+        "candidate_title": "The Environment Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56c1p",
+        "score": 0.6169641613960266,
+        "candidate_title": "Environmental Management Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/55kd4",
+        "score": 0.6076791286468506,
+        "candidate_title": "Environmental Management Amendment Act, 2016"
+      },
+      {
+        "uri": "https://canlii.ca/t/56q11",
+        "score": 0.6036720275878906,
+        "candidate_title": "Environmental Assessment Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53q4n",
+        "score": 0.5520021915435791,
+        "candidate_title": "Clean Water Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/laws/stat/sns-1998-c-11/latest/sns-1998-c-11.html",
+        "score": 0.5500748157501221,
+        "candidate_title": "Endangered Species Act"
+      }
+    ]
+  },
+  "Source unknown": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.6466516256332397,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.6466516256332397,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6358247995376587,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6174254417419434,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v2k",
+        "score": 0.6174254417419434,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56ndm",
+        "score": 0.5955197215080261,
+        "candidate_title": "Citizenship Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/astat/sbc-2008-c-34/latest/sbc-2008-c-34.html",
+        "score": 0.5947450995445251,
+        "candidate_title": "Health Statutes Amendment Act, 2008"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.5925959944725037,
+        "candidate_title": "The Constitution Act, 1867"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/stat/ss-1986-c-p-1.1/latest/ss-1986-c-p-1.1.html",
+        "score": 0.589710533618927,
+        "candidate_title": "Parks Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2016-c-24/latest/sa-2016-c-24.html",
+        "score": 0.5897071361541748,
+        "candidate_title": "Modernized Municipal Government Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/yk/laws/stat/rsy-2002-c-176/latest/rsy-2002-c-176.html",
+        "score": 0.5896583795547485,
+        "candidate_title": "Public Health and Safety Act"
+      }
+    ]
+  },
+  "Order in council 1992": {
+    "uri": "https://www.canlii.org/en/ab/laws/astat/sa-1953-c-61/latest/sa-1953-c-61.html",
+    "score": 0.655760645866394,
+    "candidate_id": "l56547!56547-current-1",
+    "candidate_title": "An Act to Confirm Order in Council No. 1275-52 dated the 8th day of September, 1952",
+    "query_text": "legislation | order in council",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-1953-c-61/latest/sa-1953-c-61.html",
+        "score": 0.655760645866394,
+        "candidate_title": "An Act to Confirm Order in Council No. 1275-52 dated the 8th day of September, 1952"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/regu/si-81-86/latest/si-81-86.html",
+        "score": 0.5471287965774536,
+        "candidate_title": "Canadian Passport Order"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.5055831670761108,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/regu/alta-reg-321-2003/latest/alta-reg-321-2003.html",
+        "score": 0.5017035007476807,
+        "candidate_title": "Occupational Health and Safety Code Order"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.5013613104820251,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2016-c-24/latest/sa-2016-c-24.html",
+        "score": 0.4988809823989868,
+        "candidate_title": "Modernized Municipal Government Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56hq0",
+        "score": 0.48892804980278015,
+        "candidate_title": "Land Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53886",
+        "score": 0.48746204376220703,
+        "candidate_title": "The Cities Amendment Act, 2006"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2022-c-16/latest/sa-2022-c-16.html",
+        "score": 0.48739466071128845,
+        "candidate_title": "Red Tape Reduction Statutes Amendment Act, 2022"
+      },
+      {
+        "uri": "https://canlii.ca/t/56f73",
+        "score": 0.48379766941070557,
+        "candidate_title": "The Cities Act"
+      }
+    ]
+  },
+  "Civil Procedure Rules": {
+    "uri": "https://canlii.ca/t/56nkn",
+    "score": 0.7215400338172913,
+    "candidate_id": "l2759!2759-current-1",
+    "candidate_title": "Rules of Civil Procedure",
+    "query_text": "legislation | Civil Procedure Rule | Civil Procedure\nRules | Rules | Civil Procedure Rules | Civil\nProcedure Rules",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nkn",
+        "score": 0.7215400338172913,
+        "candidate_title": "Rules of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 0.7023623585700989,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fqkd",
+        "score": 0.6649381518363953,
+        "candidate_title": "Code de procédure civile"
+      },
+      {
+        "uri": "https://canlii.ca/t/69m2c",
+        "score": 0.6631345152854919,
+        "candidate_title": "Code de procédure civile"
+      },
+      {
+        "uri": "https://canlii.ca/t/562xk",
+        "score": 0.6547669172286987,
+        "candidate_title": "Court of Justice Civil Procedure Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pg2",
+        "score": 0.6386446952819824,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxl",
+        "score": 0.6362788677215576,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v79",
+        "score": 0.6360553503036499,
+        "candidate_title": "Supreme Court Civil Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/52kz1",
+        "score": 0.6308956742286682,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/kcvt",
+        "score": 0.6052398681640625,
+        "candidate_title": "Rules of the Court of Appeal Respecting Civil Appeals"
+      }
+    ]
+  },
+  "Rules of Court": {
+    "uri": "https://canlii.ca/t/56g3v",
+    "score": 0.6166563034057617,
+    "candidate_id": "l25272!25272-current-24",
+    "candidate_title": "Rules of the Supreme Court, 1986",
+    "query_text": "legislation | old <b>Rules of Court</b> | Order 38",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.6166563034057617,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.6166563034057617,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.6166563034057617,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.6166563034057617,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.6166563034057617,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.6159801483154297,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.6159801483154297,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.6159801483154297,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.6159801483154297,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g3v",
+        "score": 0.6159801483154297,
+        "candidate_title": "Rules of the Supreme Court, 1986"
+      }
+    ]
+  },
+  "English Rule": {
+    "uri": "https://canlii.ca/t/56nkn",
+    "score": 0.5481378436088562,
+    "candidate_id": "l2759!2759-current-1",
+    "candidate_title": "Rules of Civil Procedure",
+    "query_text": "legislation | current English Rule | Order 45",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56nkn",
+        "score": 0.5481378436088562,
+        "candidate_title": "Rules of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v6x",
+        "score": 0.538700520992279,
+        "candidate_title": "Alberta Rules of Court"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v79",
+        "score": 0.5280694365501404,
+        "candidate_title": "Supreme Court Civil Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fqkd",
+        "score": 0.526117205619812,
+        "candidate_title": "Code de procédure civile"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxl",
+        "score": 0.5254887938499451,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pg2",
+        "score": 0.5253318548202515,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 0.522388219833374,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/52kz1",
+        "score": 0.5194765329360962,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/69m2c",
+        "score": 0.5184680819511414,
+        "candidate_title": "Code de procédure civile"
+      },
+      {
+        "uri": "https://canlii.ca/t/56cjm",
+        "score": 0.5184197425842285,
+        "candidate_title": "Canada Evidence Act"
+      }
+    ]
+  },
+  "Ontario Rules": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.6466516256332397,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.6466516256332397,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6358247995376587,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6174254417419434,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v2k",
+        "score": 0.6174254417419434,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56ndm",
+        "score": 0.5955197811126709,
+        "candidate_title": "Citizenship Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/astat/sbc-2008-c-34/latest/sbc-2008-c-34.html",
+        "score": 0.5947451591491699,
+        "candidate_title": "Health Statutes Amendment Act, 2008"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.5925959348678589,
+        "candidate_title": "The Constitution Act, 1867"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/stat/ss-1986-c-p-1.1/latest/ss-1986-c-p-1.1.html",
+        "score": 0.5897104740142822,
+        "candidate_title": "Parks Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2016-c-24/latest/sa-2016-c-24.html",
+        "score": 0.5897071361541748,
+        "candidate_title": "Modernized Municipal Government Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/yk/laws/stat/rsy-2002-c-176/latest/rsy-2002-c-176.html",
+        "score": 0.5896583795547485,
+        "candidate_title": "Public Health and Safety Act"
+      }
+    ]
+  },
+  "Interpretation Act": {
+    "uri": "https://canlii.ca/t/56fd8",
+    "score": 0.6904347538948059,
+    "candidate_id": "l12864!12864-current-1",
+    "candidate_title": "Interpretation Act",
+    "query_text": "legislation | Interpretation Act | R.S.N.S. 1967, c. 151",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/56fd8",
+        "score": 0.6904347538948059,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/564nl",
+        "score": 0.6805288791656494,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/yk/laws/stat/rsy-2002-c-125/latest/rsy-2002-c-125.html",
+        "score": 0.6553003191947937,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56kzw",
+        "score": 0.6546854376792908,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-i-16/latest/cqlr-c-i-16.html",
+        "score": 0.6193698644638062,
+        "candidate_title": "Interpretation Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/hznr",
+        "score": 0.523892879486084,
+        "candidate_title": "Interest Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-s-13/latest/rsnl-1990-c-s-13.html",
+        "score": 0.504043698310852,
+        "candidate_title": "Securities Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/laws/stat/rsnl-1990-c-a-14/latest/rsnl-1990-c-a-14.html",
+        "score": 0.4999508261680603,
+        "candidate_title": "Arbitration Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/563zb",
+        "score": 0.49887174367904663,
+        "candidate_title": "Law and Equity Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/544lt",
+        "score": 0.4911225736141205,
+        "candidate_title": "Supreme Court Act"
+      }
+    ]
+  },
+  "Proceedings against the Crown Act": {
+    "uri": "https://www.canlii.org/en/ns/laws/stat/rsns-1989-c-238/latest/rsns-1989-c-238.html",
+    "score": 0.5248667597770691,
+    "candidate_id": "l23095!23095-current-1",
+    "candidate_title": "Provincial Court Act",
+    "query_text": "legislation | Proceedings against the Crown Act | R.S.N.S.\n1967, c. 239",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ns/laws/stat/rsns-1989-c-238/latest/rsns-1989-c-238.html",
+        "score": 0.5248667597770691,
+        "candidate_title": "Provincial Court Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56vqm",
+        "score": 0.5164132714271545,
+        "candidate_title": "Provincial Court Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/laws/stat/rsnb-1973-c-c-23/latest/rsnb-1973-c-c-23.html",
+        "score": 0.5093177556991577,
+        "candidate_title": "Coroners Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/55h8d",
+        "score": 0.5061543583869934,
+        "candidate_title": "Provincial Court Act, 1991"
+      },
+      {
+        "uri": "https://canlii.ca/t/565gs",
+        "score": 0.49949824810028076,
+        "candidate_title": "Provincial Court Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/laws/stat/rso-1990-c-c48/latest/rso-1990-c-c48.html",
+        "score": 0.4985063970088959,
+        "candidate_title": "Crown Agency Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/562x3",
+        "score": 0.496403306722641,
+        "candidate_title": "Provincial Court Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/stat/rsbc-1996-c-338/latest/rsbc-1996-c-338.html",
+        "score": 0.47863703966140747,
+        "candidate_title": "Offence Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56jvn",
+        "score": 0.47757256031036377,
+        "candidate_title": "Court of Justice Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/56hm6",
+        "score": 0.47671109437942505,
+        "candidate_title": "Code of Penal Procedure"
+      }
+    ]
+  },
+  "Rules of Practice": {
+    "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+    "score": 0.6466516256332397,
+    "candidate_id": "l12736!12736-current-1",
+    "candidate_title": "Revised Statutes of Canada, 1985 Act",
+    "query_text": "legislation",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-40-3rd-supp/latest/rsc-1985-c-40-3rd-supp.html",
+        "score": 0.6466516256332397,
+        "candidate_title": "Revised Statutes of Canada, 1985 Act"
+      },
+      {
+        "uri": "https://canlii.ca/t/53m25",
+        "score": 0.6358247995376587,
+        "candidate_title": "Statutes Amendment Act, 2015"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lsh",
+        "score": 0.6174254417419434,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v2k",
+        "score": 0.6174254417419434,
+        "candidate_title": "Criminal Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/56ndm",
+        "score": 0.5955197811126709,
+        "candidate_title": "Citizenship Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/laws/astat/sbc-2008-c-34/latest/sbc-2008-c-34.html",
+        "score": 0.5947451591491699,
+        "candidate_title": "Health Statutes Amendment Act, 2008"
+      },
+      {
+        "uri": "https://canlii.ca/t/56g8v",
+        "score": 0.5925959348678589,
+        "candidate_title": "The Constitution Act, 1867"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/laws/stat/ss-1986-c-p-1.1/latest/ss-1986-c-p-1.1.html",
+        "score": 0.5897104740142822,
+        "candidate_title": "Parks Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/laws/astat/sa-2016-c-24/latest/sa-2016-c-24.html",
+        "score": 0.5897071361541748,
+        "candidate_title": "Modernized Municipal Government Act"
+      },
+      {
+        "uri": "https://www.canlii.org/en/yk/laws/stat/rsy-2002-c-176/latest/rsy-2002-c-176.html",
+        "score": 0.5896583795547485,
+        "candidate_title": "Public Health and Safety Act"
+      }
+    ]
+  },
+  "Trainor": {
+    "uri": "https://canlii.ca/t/gbtwt",
+    "score": 0.7968161702156067,
+    "candidate_id": "1990pesctd19871000019",
+    "candidate_title": "Trainor v. Trainor",
+    "query_text": "decision | <b>Trainor v Trainor </b>(1990) | 87 Nfld. &amp;\nP.E.I.R. 37",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gbtwt",
+        "score": 0.7968161702156067,
+        "candidate_title": "Trainor v. Trainor"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/1993/1993canlii8352/1993canlii8352.html",
+        "score": 0.5632039904594421,
+        "candidate_title": "Brushett v. Brushett"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1980/1980canlii3619/1980canlii3619.html",
+        "score": 0.5420578122138977,
+        "candidate_title": "Andrews v. Andrews"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1980/1980canlii1731/1980canlii1731.html",
+        "score": 0.5320703983306885,
+        "candidate_title": "Proctor v. Proctor et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2000/2000canlii22280/2000canlii22280.html",
+        "score": 0.5134211182594299,
+        "candidate_title": "Tauber v. Tauber"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2003/2003nlca6/2003nlca6.html",
+        "score": 0.5124987363815308,
+        "candidate_title": "Pelley v. Pelley"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2009/2009nlca48/2009nlca48.html",
+        "score": 0.5119229555130005,
+        "candidate_title": "Duffy v. Duffy"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2022/2022nlca5/2022nlca5.html",
+        "score": 0.510805606842041,
+        "candidate_title": "Bowes v Bowes"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/1987/1987canlii5087/1987canlii5087.html",
+        "score": 0.510334849357605,
+        "candidate_title": "Strang v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/gccjw",
+        "score": 0.5074296593666077,
+        "candidate_title": "Guptill v. Guptill"
+      }
+    ]
+  },
+  "Savings and Investment Bank": {
+    "uri": "https://canlii.ca/t/1d69w",
+    "score": 0.4769490659236908,
+    "candidate_id": "1990csc-scc9",
+    "candidate_title": "Bank of Montreal v. Hall",
+    "query_text": "decision | Savings and Investment\nBank Ltd. v Gasco et al. | (1984] 1 All E.R. 296 (Ch. D.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1d69w",
+        "score": 0.4769490659236908,
+        "candidate_title": "Bank of Montreal v. Hall"
+      },
+      {
+        "uri": "https://canlii.ca/t/fmdfk",
+        "score": 0.4683859944343567,
+        "candidate_title": "Italsav, s.r.l. c. Dynafund Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skqb/doc/2015/2015skqb251/2015skqb251.html",
+        "score": 0.46538665890693665,
+        "candidate_title": "Daniels Investments Saskatoon Ltd v Houk"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1995/1995canlii87/1995canlii87.html",
+        "score": 0.46434083580970764,
+        "candidate_title": "Mitsui & Co. (Canada) Ltd. v. Royal Bank of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/gwg5p",
+        "score": 0.4636727273464203,
+        "candidate_title": "Northern & Central Gas Corp. Ltd. v. Attorney-General of Canada and Five Other Actions"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1999/1999canlii714/1999canlii714.html",
+        "score": 0.4611930251121521,
+        "candidate_title": "Royal Bank of Canada v. W. Got Associates Electric Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/1984/1984canlii607/1984canlii607.html",
+        "score": 0.45932537317276,
+        "candidate_title": "British Columbia Telephone Company v. Provident International Investments"
+      },
+      {
+        "uri": "https://canlii.ca/t/22rwb",
+        "score": 0.45661669969558716,
+        "candidate_title": "The Queen v. The Bank of Nova Scotia"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2000/2000canlii22796/2000canlii22796.html",
+        "score": 0.4526737332344055,
+        "candidate_title": "Royal Bank v. Gentra Canada Investments Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1981/1981canlii31/1981canlii31.html",
+        "score": 0.4514424800872803,
+        "candidate_title": "National Bank v. Soucisse et al."
+      }
+    ]
+  },
+  "Weldon": {
+    "uri": "https://canlii.ca/t/g9g3w",
+    "score": 0.8136207461357117,
+    "candidate_id": "1989nsscad1000169",
+    "candidate_title": "Weldon v. Kavanagh and Formac Publishing Co.",
+    "query_text": "decision | <b>Weldon v Kavanagh and Formac\nPublishing Co. </b>(1989) | 94 N.S.R. (2d) 181 (N.S.C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9g3w",
+        "score": 0.8136207461357117,
+        "candidate_title": "Weldon v. Kavanagh and Formac Publishing Co."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1981/1981canlii1696/1981canlii1696.html",
+        "score": 0.5185844898223877,
+        "candidate_title": "Rapp et al. v. McClelland & Stewart Ltd. et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1994/1994canlii515/1994canlii515.html",
+        "score": 0.5151267051696777,
+        "candidate_title": "Walden v. Danger Bay Productions Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/g9n42",
+        "score": 0.5144568681716919,
+        "candidate_title": "Kelson v. MacPhail (A.W.) Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1978/1978canlii20/1978canlii20.html",
+        "score": 0.4846416711807251,
+        "candidate_title": "Cherneskey v. Armadale Publishers Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1999/1999canlii4462/1999canlii4462.html",
+        "score": 0.48196107149124146,
+        "candidate_title": "Web Offset Publications Limited v. Vickery"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1989/1989canlii4316/1989canlii4316.html",
+        "score": 0.47681334614753723,
+        "candidate_title": "Parsons v. Windsor Star (Ont. H.C.J.)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/1998/1998canlii2014/1998canlii2014.html",
+        "score": 0.475497841835022,
+        "candidate_title": "Walsh  v. Allstate Insurance Co."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2015/2015onsc2765/2015onsc2765.html",
+        "score": 0.47261422872543335,
+        "candidate_title": "Wakeling v Kolla"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/1996/1996canlii11076/1996canlii11076.html",
+        "score": 0.4640067219734192,
+        "candidate_title": "White v. Woolworth (F.W.) Co."
+      }
+    ]
+  },
+  "Lawrence Square": {
+    "uri": "https://www.canlii.org/en/on/onca/doc/2002/2002canlii9163/2002canlii9163.html",
+    "score": 0.579069197177887,
+    "candidate_id": "2002onca10560",
+    "candidate_title": "Hunter’s square developments Inc. v. 351658 Ontario Ltd.",
+    "query_text": "decision | <b>Lawrence Square Ltd. v Pape at al. </b>(1978) | 6 C.P.C. 51 (Ont. H.C.)",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2002/2002canlii9163/2002canlii9163.html",
+        "score": 0.579069197177887,
+        "candidate_title": "Hunter’s square developments Inc. v. 351658 Ontario Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1978/1978canlii36/1978canlii36.html",
+        "score": 0.5746453404426575,
+        "candidate_title": "Regional Assessment Commissioner v. Downtown Oshawa Property Owners"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsnt",
+        "score": 0.5244200825691223,
+        "candidate_title": "Immeubles Port Louis Ltée v. Lafontaine (Village)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2018/2018onsc1598/2018onsc1598.html",
+        "score": 0.5225214958190918,
+        "candidate_title": "Papp v. Stokes"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1976/1976canlii2650/1976canlii2650.html",
+        "score": 0.51778244972229,
+        "candidate_title": "Re Prime Locations Ltd. and Prime Real Estate Ltd. et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1978/1978canlii1566/1978canlii1566.html",
+        "score": 0.5162823796272278,
+        "candidate_title": "Re H.G. Winton Ltd. and Borough of North York"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1990/1990canlii6856/1990canlii6856.html",
+        "score": 0.5133338570594788,
+        "candidate_title": "S & A Strasser Ltd. v. Richmond Hill (Town) (C.A.)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1ct5",
+        "score": 0.5129995942115784,
+        "candidate_title": "Papp v. Papp et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2013/2013onca669/2013onca669.html",
+        "score": 0.5102004408836365,
+        "candidate_title": "Pate Estate v. Galway-Cavendish and Harvey (Township)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2017/2017onca16/2017onca16.html",
+        "score": 0.5100353360176086,
+        "candidate_title": "Crombie Property Holdings Limited v. McColl-Frontenac Inc. (Texaco Canada Limited)"
+      }
+    ]
+  },
+  "Indust. Accept. Corpn.": {
+    "uri": "https://canlii.ca/t/gwh18",
+    "score": 0.528590977191925,
+    "candidate_id": "1976fctad1000060",
+    "candidate_title": "Re Rothmans of Pall Mall Canada Ltd. et al. and Minister of National Revenue et al.",
+    "query_text": "decision | Re <b>Indust. Accept. Corpn. and Commissioner of Excise</b> | [1936] O.W.N.\n493",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gwh18",
+        "score": 0.528590977191925,
+        "candidate_title": "Re Rothmans of Pall Mall Canada Ltd. et al. and Minister of National Revenue et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/jqqx3",
+        "score": 0.518962025642395,
+        "candidate_title": "Susan Hosiery Ltd. v. Minister of National Revenue"
+      },
+      {
+        "uri": "https://canlii.ca/t/g189x",
+        "score": 0.5119239687919617,
+        "candidate_title": "Re Alcan-Colony Contracting Ltd. et. al. and Minister of National Revenue"
+      },
+      {
+        "uri": "https://canlii.ca/t/g19lj",
+        "score": 0.5068387985229492,
+        "candidate_title": "Re Goodman and Carr et al. and Minister of National Revenue"
+      },
+      {
+        "uri": "https://canlii.ca/t/1tvn6",
+        "score": 0.5040315985679626,
+        "candidate_title": "Howard Smith Paper Mills Ltd. et al. v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1lpd8",
+        "score": 0.5006670951843262,
+        "candidate_title": "Thorne's Hardware Ltd. v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/1996/1996canlii11753/1996canlii11753.html",
+        "score": 0.49433085322380066,
+        "candidate_title": "Quarry Corporation Limited v. Bacardi & Company Limited"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqr4g",
+        "score": 0.49148029088974,
+        "candidate_title": "Hunt Foods Export Corp. of Canada Ltd et al v. Deputy Minister of National Revenue for Customs and Excise"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1921/1921canlii25/1921canlii25.html",
+        "score": 0.48723548650741577,
+        "candidate_title": "Gold Seal Ltd. v. Alberta (Attorney-General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1948/1948canlii54/1948canlii54.html",
+        "score": 0.48660311102867126,
+        "candidate_title": "Bennett and White Construction Co. v. Minister of National Revenue"
+      }
+    ]
+  },
+  "Russell": {
+    "uri": "https://www.canlii.org/en/on/onca/doc/2012/2012onca445/2012onca445.html",
+    "score": 0.5727301836013794,
+    "candidate_id": "2012onca445",
+    "candidate_title": "McCracken v. Canadian National Railway Company",
+    "query_text": "decision | Russell v. Niagara, St. Catharines &amp; Toronto Ry. | [1945] O.W.N.\n347",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2012/2012onca445/2012onca445.html",
+        "score": 0.5727301836013794,
+        "candidate_title": "McCracken v. Canadian National Railway Company"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frjh",
+        "score": 0.5454022288322449,
+        "candidate_title": "Ontario v. Canadian Pacific Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1915/1915canlii574/1915canlii574.html",
+        "score": 0.5451809167861938,
+        "candidate_title": "Wood v. Grand Valley R. Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/gw9j1",
+        "score": 0.5387767553329468,
+        "candidate_title": "C.N.R. v. Muller"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1909/1909canlii10/1909canlii10.html",
+        "score": 0.535118043422699,
+        "candidate_title": "Toronto Ry. Co. v. Paget"
+      },
+      {
+        "uri": "https://canlii.ca/t/1zgd8",
+        "score": 0.5244530439376831,
+        "candidate_title": "City of Toronto v. Grand Trunk Ry. Co."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqzl",
+        "score": 0.5210098028182983,
+        "candidate_title": "Pasiechnyk v. Saskatchewan (Workers’ Compensation Board)"
+      },
+      {
+        "uri": "https://canlii.ca/t/g6z0w",
+        "score": 0.5169498920440674,
+        "candidate_title": "Canadian National Railway Co. v. Canada (Attorney General)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1988/1988canlii104/1988canlii104.html",
+        "score": 0.5119929909706116,
+        "candidate_title": "Canadian Pacific Ltd. v. Paul"
+      },
+      {
+        "uri": "https://canlii.ca/t/g16t9",
+        "score": 0.5115248560905457,
+        "candidate_title": "Ontario v. Canadian Pacific Ltd."
+      }
+    ]
+  },
+  "Inducon Construction": {
+    "uri": "https://canlii.ca/t/g1f23",
+    "score": 0.7594094276428223,
+    "candidate_id": "1966onhcj1000032",
+    "candidate_title": "Inducon Construction (Eastern) Ltd. v. Vaupere",
+    "query_text": "decision | <b>Inducon Coast. (Eastern) Ltd. v. Vaupere</b> | [1967] 1 O.R. 245",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1f23",
+        "score": 0.7594094276428223,
+        "candidate_title": "Inducon Construction (Eastern) Ltd. v. Vaupere"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2016/2016onsc5015/2016onsc5015.html",
+        "score": 0.5507131218910217,
+        "candidate_title": "Vaeth v North American Palladium Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1967/1967canlii39/1967canlii39.html",
+        "score": 0.514488697052002,
+        "candidate_title": "Cooper v. R."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1963/1963canlii721/1963canlii721.html",
+        "score": 0.5039582252502441,
+        "candidate_title": "Regina v. Vulcan Asphalt & Supply Co. Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2002/2002bcsc900/2002bcsc900.html",
+        "score": 0.4983450472354889,
+        "candidate_title": "Concord Industrial Services Ltd. v. 371773 B.C. Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fss8",
+        "score": 0.4936765432357788,
+        "candidate_title": "Canadian Indemnity Co. v. Canadian Johns-Manville Co."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/2020/2020bcca19/2020bcca19.html",
+        "score": 0.49177464842796326,
+        "candidate_title": "Schuppener v. Pioneer Steel Manufacturers Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1974/1974canlii698/1974canlii698.html",
+        "score": 0.48692652583122253,
+        "candidate_title": "Re W.D. Latimer Co. Ltd. et al. and Bray et al. Re Onuska and Bray et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsz2",
+        "score": 0.484668105840683,
+        "candidate_title": "Iwa v. Consolidated-Bathurst Packaging Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2019/2019onsc878/2019onsc878.html",
+        "score": 0.4779704213142395,
+        "candidate_title": "BRIM IPCO Inc. v. Horbatiuk"
+      }
+    ]
+  },
+  "Air Canada": {
+    "uri": "https://canlii.ca/t/gwh22",
+    "score": 0.7863264083862305,
+    "candidate_id": "1976fcttd1000011",
+    "candidate_title": "Air Canada et al. v. Maley et al.",
+    "query_text": "decision | <b>Air Canada at al. v Maley at al. </b>(1976) | 69\nD.L.R. (3d) 180",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gwh22",
+        "score": 0.7863264083862305,
+        "candidate_title": "Air Canada et al. v. Maley et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1976/1976canlii170/1976canlii170.html",
+        "score": 0.5595244765281677,
+        "candidate_title": "Canada Labour Relations Board v. Transair Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/hpv4d",
+        "score": 0.5399799346923828,
+        "candidate_title": "Delta Air Lines Inc. v. Lukács"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fr0x",
+        "score": 0.5299238562583923,
+        "candidate_title": "Air Canada v. Ontario (Liquor Control Board)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1983/1983canlii303/1983canlii303.html",
+        "score": 0.5266615748405457,
+        "candidate_title": "Bell v. Cessna Aircraft Company"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fshd",
+        "score": 0.5225452780723572,
+        "candidate_title": "Coronation Insurance Co. v. Taku Air Transport Ltd."
+      },
+      {
+        "uri": "https://canlii.ca/t/1ft3c",
+        "score": 0.5141972303390503,
+        "candidate_title": "Mackay v. Manitoba"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1987/1987canlii4062/1987canlii4062.html",
+        "score": 0.5116599202156067,
+        "candidate_title": "MacDonald et al. v. Travelers Indemnity Co. of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1nmz7",
+        "score": 0.5076916217803955,
+        "candidate_title": "McCannell v. Mclean"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1973/1973canlii141/1973canlii141.html",
+        "score": 0.5024374127388,
+        "candidate_title": "Maryland Casualty Co. v. Roy Fourrures Inc."
+      }
+    ]
+  },
+  "Guptill": {
+    "uri": "https://canlii.ca/t/gccjw",
+    "score": 0.7721030116081238,
+    "candidate_id": "1987nsscad1000023",
+    "candidate_title": "Guptill v. Guptill",
+    "query_text": "decision | <b>Guptill\nv Guptill </b>(1987) | 82 N.S.R. (2d) 390",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gccjw",
+        "score": 0.7721030116081238,
+        "candidate_title": "Guptill v. Guptill"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/2022/2022nssc30/2022nssc30.html",
+        "score": 0.5628601908683777,
+        "candidate_title": "Green v Green"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/1992/1992canlii2625/1992canlii2625.html",
+        "score": 0.5410811305046082,
+        "candidate_title": "Tibbetts v. Tibbetts"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2022/2022onsc904/2022onsc904.html",
+        "score": 0.5399643182754517,
+        "candidate_title": "Nault v. Nault"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1980/1980canlii3619/1980canlii3619.html",
+        "score": 0.5216531753540039,
+        "candidate_title": "Andrews v. Andrews"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1980/1980canlii1731/1980canlii1731.html",
+        "score": 0.5164524912834167,
+        "candidate_title": "Proctor v. Proctor et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcca/doc/1979/1979canlii766/1979canlii766.html",
+        "score": 0.5149132609367371,
+        "candidate_title": "Pugh v. Pugh"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1ct5",
+        "score": 0.5138370990753174,
+        "candidate_title": "Papp v. Papp et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2017/2017onca349/2017onca349.html",
+        "score": 0.5133684277534485,
+        "candidate_title": "Halliwell v. Halliwell"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/1988/1988canlii5096/1988canlii5096.html",
+        "score": 0.4989510476589203,
+        "candidate_title": "Olson v. Olson"
+      }
+    ]
+  },
+  "Gordon": {
+    "uri": "https://canlii.ca/t/g9bbl",
+    "score": 0.7672249674797058,
+    "candidate_id": "1983nsscad1000007",
+    "candidate_title": "Gordon v. Nova Scotia Teachers' Union",
+    "query_text": "decision | <b>Gordon, Dixon, Baillie and Munroe v Nova Scotia\nTeachers' Union </b>(1983) | 59 N.S.R. (2d) 124",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9bbl",
+        "score": 0.7672249674797058,
+        "candidate_title": "Gordon v. Nova Scotia Teachers' Union"
+      },
+      {
+        "uri": "https://canlii.ca/t/j69ts",
+        "score": 0.6145055294036865,
+        "candidate_title": "United Brotherhood of Carpenters & Joiners of America, Local 83 v The Governors of Dalhousie College & University"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2006/2006nsca22/2006nsca22.html",
+        "score": 0.605558454990387,
+        "candidate_title": "Nova Scotia Teachers Union v. Nova Scotia Community College"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/2013/2013nssc132/2013nssc132.html",
+        "score": 0.5809838771820068,
+        "candidate_title": "Highland Community Residential Services v. Canadian Union of Public Employees, Local 2330"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nslb/doc/2017/2017nslb87/2017nslb87.html",
+        "score": 0.5736083984375,
+        "candidate_title": "Downing v Nova Scotia Government and General Employees Union"
+      },
+      {
+        "uri": "https://canlii.ca/t/fqn5m",
+        "score": 0.5580296516418457,
+        "candidate_title": "Canadian Union of Public Employees, Local 5003 v Eastern School District"
+      },
+      {
+        "uri": "https://canlii.ca/t/j7dth",
+        "score": 0.555286169052124,
+        "candidate_title": "International Union of Operating Engineers, Local 721 v Nova Scotia Power Corporation"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nslb/doc/2016/2016nslb100/2016nslb100.html",
+        "score": 0.5529181361198425,
+        "candidate_title": "Gillis v Nova Scotia (Public Service Commission)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1xv6g",
+        "score": 0.5507394671440125,
+        "candidate_title": "Service Employees’ International Union, Local No. 333 v. Nipawin District Staff Nurses Association et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/fpbh9",
+        "score": 0.5444218516349792,
+        "candidate_title": "Newfoundland and Labrador Nurses' Union v. Newfoundland and Labrador (Treasury Board)"
+      }
+    ]
+  },
+  "Thornhill": {
+    "uri": "https://canlii.ca/t/jskv4",
+    "score": 0.8384015560150146,
+    "candidate_id": "1981nssctd1000071",
+    "candidate_title": "Thornhill v. Dartmouth Broadcasting Limited and Patterson",
+    "query_text": "decision | <b>Thornhill v Dartmouth Broadcasting\nLtd. et al. </b>(1981) | Thornhill | 45 N.S.R. (2d) 111",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/jskv4",
+        "score": 0.8384015560150146,
+        "candidate_title": "Thornhill v. Dartmouth Broadcasting Limited and Patterson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1989/1989canlii92/1989canlii92.html",
+        "score": 0.5837669968605042,
+        "candidate_title": "Slaight Communications Inc. v. Davidson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1950/1950canlii9/1950canlii9.html",
+        "score": 0.575722336769104,
+        "candidate_title": "Northern Broadcasting Co. v. District of Mountjoy"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1977/1977canlii12/1977canlii12.html",
+        "score": 0.5421842932701111,
+        "candidate_title": "Capital Cities Comm. v. C.R.T.C."
+      },
+      {
+        "uri": "https://canlii.ca/t/j49hl",
+        "score": 0.526294469833374,
+        "candidate_title": "Canadian Broadcasting Corporation v. Ferrier"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ft4g",
+        "score": 0.5218040347099304,
+        "candidate_title": "Bell Canada v. Canada (Canadian Radio-Television and Telecommunications Commission)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1986/1986canlii2527/1986canlii2527.html",
+        "score": 0.5135436058044434,
+        "candidate_title": "Thomson Newspapers Ltd. et al. v. Director of Investigation and Research et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1mzjb",
+        "score": 0.5132924914360046,
+        "candidate_title": "Nova Scotia Board of Censors v. McNeil"
+      },
+      {
+        "uri": "https://canlii.ca/t/1lpcl",
+        "score": 0.5115408897399902,
+        "candidate_title": "Multiple Access Ltd. v. McCutcheon"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1981/1981canlii1696/1981canlii1696.html",
+        "score": 0.5113585591316223,
+        "candidate_title": "Rapp et al. v. McClelland & Stewart Ltd. et al."
+      }
+    ]
+  },
+  "Crombie": {
+    "uri": "https://canlii.ca/t/gw7w0",
+    "score": 0.7848686575889587,
+    "candidate_id": "1922onscad1000025",
+    "candidate_title": "Crombie v. The King",
+    "query_text": "decision | <b>Crombie\nv The King </b>(1922) | 52 O.L.R. 72",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/gw7w0",
+        "score": 0.7848686575889587,
+        "candidate_title": "Crombie v. The King"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1951/1951canlii22/1951canlii22.html",
+        "score": 0.5405283570289612,
+        "candidate_title": "The King v. Robinson"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1918/1918canlii65/1918canlii65.html",
+        "score": 0.5207861661911011,
+        "candidate_title": "Raymond v. The King"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2017/2017onca16/2017onca16.html",
+        "score": 0.5141965746879578,
+        "candidate_title": "Crombie Property Holdings Limited v. McColl-Frontenac Inc. (Texaco Canada Limited)"
+      },
+      {
+        "uri": "https://canlii.ca/t/1lpcg",
+        "score": 0.5140747427940369,
+        "candidate_title": "Schneider v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1949/1949canlii7/1949canlii7.html",
+        "score": 0.5074646472930908,
+        "candidate_title": "Cullen v. The King"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1984/1984canlii22/1984canlii22.html",
+        "score": 0.5020464658737183,
+        "candidate_title": "Skogman v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1929/1929canlii83/1929canlii83.html",
+        "score": 0.5006881952285767,
+        "candidate_title": "Stinson-Reeb Builders Supply Co. v. The King"
+      },
+      {
+        "uri": "https://canlii.ca/t/hrkm6",
+        "score": 0.49990710616111755,
+        "candidate_title": "R. v. Comeau"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2012/2012scc58/2012scc58.html",
+        "score": 0.49893951416015625,
+        "candidate_title": "R. v. Dineley"
+      }
+    ]
+  },
+  "Ind Coope": {
+    "uri": "https://www.canlii.org/en/on/onca/doc/1967/1967canlii39/1967canlii39.html",
+    "score": 0.5335820317268372,
+    "candidate_id": "1967onca10016",
+    "candidate_title": "Cooper v. R.",
+    "query_text": "decision | <b>Ind\nCoope &amp; Co. v. Emmerson</b> (1887) | 12 App. Cas. 300",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1967/1967canlii39/1967canlii39.html",
+        "score": 0.5335820317268372,
+        "candidate_title": "Cooper v. R."
+      },
+      {
+        "uri": "https://canlii.ca/t/51xc",
+        "score": 0.5035659074783325,
+        "candidate_title": "Cooper v. Hobart"
+      },
+      {
+        "uri": "https://canlii.ca/t/21v1x",
+        "score": 0.47442197799682617,
+        "candidate_title": "Cartwright & Crickmore Ltd. v. MacInnes"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1948/1948canlii282/1948canlii282.html",
+        "score": 0.4675057828426361,
+        "candidate_title": "Re Cohen"
+      },
+      {
+        "uri": "https://canlii.ca/t/fp6p0",
+        "score": 0.46742892265319824,
+        "candidate_title": "Coopers & Lybrand Limited v. William Schwartz Construction Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1951/1951canlii26/1951canlii26.html",
+        "score": 0.4665050208568573,
+        "candidate_title": "Cook v. Lewis"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2012/2012fc118/2012fc118.html",
+        "score": 0.4649236798286438,
+        "candidate_title": "Cooper v. Canada (Citizenship and Immigration)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1930/1930canlii39/1930canlii39.html",
+        "score": 0.4641650319099426,
+        "candidate_title": "Stanley v. National Fruit Co. Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1983/1983canlii155/1983canlii155.html",
+        "score": 0.4637322425842285,
+        "candidate_title": "Co-Operative Fire & Casualty Co. v. Ritchie et al."
+      },
+      {
+        "uri": "https://canlii.ca/t/1nmz7",
+        "score": 0.45930787920951843,
+        "candidate_title": "McCannell v. Mclean"
+      }
+    ]
+  },
+  "La Societe Les Affreteurs Reunis": {
+    "uri": "https://canlii.ca/t/g9p59",
+    "score": 0.5324559211730957,
+    "candidate_id": "1986fctad1000080",
+    "candidate_title": "The Ship 'Atra' v. Lorac Transport",
+    "query_text": "decision | re La Societe Les Affreteurs Reunis and\nThe Shipping Controller | (1921] 3 K.B. 1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g9p59",
+        "score": 0.5324559211730957,
+        "candidate_title": "The Ship 'Atra' v. Lorac Transport"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1906/1906canlii80/1906canlii80.html",
+        "score": 0.52414870262146,
+        "candidate_title": "The Ship \"North\" v. The King"
+      },
+      {
+        "uri": "https://canlii.ca/t/1z9xr",
+        "score": 0.5171751976013184,
+        "candidate_title": "Stein et al. v. ‘Kathy K’ et al. (The Ship)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/ukjcpc/doc/1937/1937canlii294/1937canlii294.html",
+        "score": 0.4901505410671234,
+        "candidate_title": "Knight Sugar Company v. Alberta Railway and Irrigation Company"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fshd",
+        "score": 0.48186415433883667,
+        "candidate_title": "Coronation Insurance Co. v. Taku Air Transport Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1968/1968canlii29/1968canlii29.html",
+        "score": 0.4802781343460083,
+        "candidate_title": "Port Arthur Shipbuilding Co. v. Arthurs et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1988/1988canlii104/1988canlii104.html",
+        "score": 0.4770984649658203,
+        "candidate_title": "Canadian Pacific Ltd. v. Paul"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1921/1921canlii25/1921canlii25.html",
+        "score": 0.4770873188972473,
+        "candidate_title": "Gold Seal Ltd. v. Alberta (Attorney-General)"
+      },
+      {
+        "uri": "https://canlii.ca/t/grsdd",
+        "score": 0.47698602080345154,
+        "candidate_title": "Aheer Transportation Ltd. v. Office of the British Columbia Container Trucking Commissioner"
+      },
+      {
+        "uri": "https://canlii.ca/t/1frjh",
+        "score": 0.4762119650840759,
+        "candidate_title": "Ontario v. Canadian Pacific Ltd."
+      }
+    ]
+  },
+  "Tobin": {
+    "uri": "https://canlii.ca/t/1lpd8",
+    "score": 0.5148500800132751,
+    "candidate_id": "1983csc-scc10004",
+    "candidate_title": "Thorne's Hardware Ltd. v. The Queen",
+    "query_text": "decision | <b>Tobin v. The Queen </b>(1863) | 32 L.J.C.P. 216 | 14 C.B.N.S. 505",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1lpd8",
+        "score": 0.5148500800132751,
+        "candidate_title": "Thorne's Hardware Ltd. v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/gw7w0",
+        "score": 0.4867866635322571,
+        "candidate_title": "Crombie v. The King"
+      },
+      {
+        "uri": "https://www.canlii.org/en/qc/qcca/doc/1963/1963canlii1108/1963canlii1108.html",
+        "score": 0.4866164028644562,
+        "candidate_title": "Fortier v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1967/1967canlii14/1967canlii14.html",
+        "score": 0.484951376914978,
+        "candidate_title": "Tupper v. R."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fs68",
+        "score": 0.4845300316810608,
+        "candidate_title": "Baron v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1963/1963canlii181/1963canlii181.html",
+        "score": 0.4797878861427307,
+        "candidate_title": "Re Bunce and Town of Cobourg"
+      },
+      {
+        "uri": "https://canlii.ca/t/g19lj",
+        "score": 0.47956836223602295,
+        "candidate_title": "Re Goodman and Carr et al. and Minister of National Revenue"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1999/1999canlii639/1999canlii639.html",
+        "score": 0.47868630290031433,
+        "candidate_title": "65302 British Columbia Ltd. v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/tcc/doc/2010/2010tcc364/2010tcc364.html",
+        "score": 0.47673872113227844,
+        "candidate_title": "Grenon v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1929/1929canlii83/1929canlii83.html",
+        "score": 0.47429364919662476,
+        "candidate_title": "Stinson-Reeb Builders Supply Co. v. The King"
+      }
+    ]
+  },
+  "Maritime Bank": {
+    "uri": "https://canlii.ca/t/22rwb",
+    "score": 0.5661841034889221,
+    "candidate_id": "1885csc-scc1000000",
+    "candidate_title": "The Queen v. The Bank of Nova Scotia",
+    "query_text": "decision | <b>Maritime Bank\nv. The Queen </b>(1889) | 17 Can. S.C.R. 657",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22rwb",
+        "score": 0.5661841034889221,
+        "candidate_title": "The Queen v. The Bank of Nova Scotia"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fv17",
+        "score": 0.5520735383033752,
+        "candidate_title": "Canadian Dredge & Dock Co. v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/exch/doc/1961/1961canlii376/1961canlii376.html",
+        "score": 0.5513843297958374,
+        "candidate_title": "Bank of Nova Scotia v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1995/1995canlii87/1995canlii87.html",
+        "score": 0.5320441126823425,
+        "candidate_title": "Mitsui & Co. (Canada) Ltd. v. Royal Bank of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/k8t26",
+        "score": 0.5238065719604492,
+        "candidate_title": "St. Catherine's Milling and Lumber Company v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1890/1890canlii38/1890canlii38.html",
+        "score": 0.5198330283164978,
+        "candidate_title": "Morin v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1998/1998canlii794/1998canlii794.html",
+        "score": 0.5190539956092834,
+        "candidate_title": "Continental Bank Leasing Corp. v. Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2004/2004fc795/2004fc795.html",
+        "score": 0.5125393867492676,
+        "candidate_title": "Royal Bank of Scotland v. Golden Trinity (Ship)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1906/1906canlii80/1906canlii80.html",
+        "score": 0.5124714970588684,
+        "candidate_title": "The Ship \"North\" v. The King"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1929/1929canlii83/1929canlii83.html",
+        "score": 0.5065557956695557,
+        "candidate_title": "Stinson-Reeb Builders Supply Co. v. The King"
+      }
+    ]
+  },
+  "Bank of Nova Scotia": {
+    "uri": "https://canlii.ca/t/22rwb",
+    "score": 0.7897137403488159,
+    "candidate_id": "1885csc-scc1000000",
+    "candidate_title": "The Queen v. The Bank of Nova Scotia",
+    "query_text": "decision | <b>Regina v. Bank of Nova Scotia </b>(1885) | 11 Can. S.C.R. 1",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/22rwb",
+        "score": 0.7897137403488159,
+        "candidate_title": "The Queen v. The Bank of Nova Scotia"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/1983/1983canlii2599/1983canlii2599.html",
+        "score": 0.7300798296928406,
+        "candidate_title": "Re Bank of Nova Scotia and The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/exch/doc/1961/1961canlii376/1961canlii376.html",
+        "score": 0.6803430914878845,
+        "candidate_title": "Bank of Nova Scotia v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2021/2021onsc3621/2021onsc3621.html",
+        "score": 0.6233945488929749,
+        "candidate_title": "The Bank of Nova Scotia v. Jarada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/2005/2005nssc8/2005nssc8.html",
+        "score": 0.6223475337028503,
+        "candidate_title": "National Bank Financial Ltd. v. Potter"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2018/2018nsca17/2018nsca17.html",
+        "score": 0.6182274222373962,
+        "candidate_title": "Baypoint Holdings Ltd. v. Royal Bank of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/2001/2001nfca27/2001nfca27.html",
+        "score": 0.6111263036727905,
+        "candidate_title": "Standard Trust Co. v. Bank of Nova Scotia"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/1989/1989canlii1467/1989canlii1467.html",
+        "score": 0.6070613265037537,
+        "candidate_title": "Bank of Nova Scotia v. R. W. Enterprises Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2009/2009canlii2319/2009canlii2319.html",
+        "score": 0.5999967455863953,
+        "candidate_title": "Bank of Nova Scotia v. Huronia Precision Plastics Inc."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nsca/doc/2005/2005nsca139/2005nsca139.html",
+        "score": 0.5972662568092346,
+        "candidate_title": "National Bank Financial Ltd. v. Mahoney"
+      }
+    ]
+  },
+  "Newcastle": {
+    "uri": "https://www.canlii.org/en/on/onsc/doc/1978/1978canlii1566/1978canlii1566.html",
+    "score": 0.5436733961105347,
+    "candidate_id": "1978onhcj1000255",
+    "candidate_title": "Re H.G. Winton Ltd. and Borough of North York",
+    "query_text": "decision | Attorney‑General v. Newcastle‑upon‑Tyne\nCorporation | (1897] 2 Q.B. 384",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1978/1978canlii1566/1978canlii1566.html",
+        "score": 0.5436733961105347,
+        "candidate_title": "Re H.G. Winton Ltd. and Borough of North York"
+      },
+      {
+        "uri": "https://canlii.ca/t/2120f",
+        "score": 0.5134811401367188,
+        "candidate_title": "McKellar v. Saint John (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbqb/doc/1986/1986canlii5280/1986canlii5280.html",
+        "score": 0.5127617120742798,
+        "candidate_title": "Breen v. Saunders and Fredericton (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2017/2017onsc795/2017onsc795.html",
+        "score": 0.5102270841598511,
+        "candidate_title": "Nylene Canada Inc. v Corporation of the Town of Arnprior"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onscdc/doc/2019/2019onsc2810/2019onsc2810.html",
+        "score": 0.4985648989677429,
+        "candidate_title": "Newcastle Salvage Inc. v. 2270739 Ont. Ltd."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1963/1963canlii181/1963canlii181.html",
+        "score": 0.4967142343521118,
+        "candidate_title": "Re Bunce and Town of Cobourg"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlca/doc/1988/1988canlii4424/1988canlii4424.html",
+        "score": 0.4966045618057251,
+        "candidate_title": "Newterm Ltd v St John's (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1933/1933canlii37/1933canlii37.html",
+        "score": 0.4918413460254669,
+        "candidate_title": "Carmichael v. Edmonton (City)"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1902/1902canlii73/1902canlii73.html",
+        "score": 0.49175533652305603,
+        "candidate_title": "McCleave v. City of Moncton"
+      },
+      {
+        "uri": "https://canlii.ca/t/1zgd8",
+        "score": 0.49074792861938477,
+        "candidate_title": "City of Toronto v. Grand Trunk Ry. Co."
+      }
+    ]
+  },
+  "Thomas": {
+    "uri": "https://www.canlii.org/en/ca/tcc/doc/2010/2010tcc197/2010tcc197.html",
+    "score": 0.48151686787605286,
+    "candidate_id": "2010cci-tcc197",
+    "candidate_title": "Long v. The Queen",
+    "query_text": "decision | <b>Thomas v. The Queen </b>(1874) | L.R.\n10 Q.B. 44",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/tcc/doc/2010/2010tcc197/2010tcc197.html",
+        "score": 0.48151686787605286,
+        "candidate_title": "Long v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1lpd8",
+        "score": 0.47987473011016846,
+        "candidate_title": "Thorne's Hardware Ltd. v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/jqrkg",
+        "score": 0.47970229387283325,
+        "candidate_title": "Rossi v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1984/1984canlii22/1984canlii22.html",
+        "score": 0.47961536049842834,
+        "candidate_title": "Skogman v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/tcc/doc/2014/2014tcc90/2014tcc90.html",
+        "score": 0.47343650460243225,
+        "candidate_title": "O'Dwyer v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1twxf",
+        "score": 0.4670393466949463,
+        "candidate_title": "Thorson v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1890/1890canlii38/1890canlii38.html",
+        "score": 0.46683165431022644,
+        "candidate_title": "Morin v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1985/1985canlii31/1985canlii31.html",
+        "score": 0.4661584496498108,
+        "candidate_title": "Rahn v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1918/1918canlii65/1918canlii65.html",
+        "score": 0.46153849363327026,
+        "candidate_title": "Raymond v. The King"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1984/1984canlii126/1984canlii126.html",
+        "score": 0.45780929923057556,
+        "candidate_title": "Duhamel v. The Queen"
+      }
+    ]
+  },
+  "Theberge": {
+    "uri": "https://canlii.ca/t/5l7d",
+    "score": 0.5794848203659058,
+    "candidate_id": "2000bcpc225",
+    "candidate_title": "Theberge v. Zittlau",
+    "query_text": "decision | <b>Theberge v Laudry </b>(1876) | 2 App. Cas. 102",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/5l7d",
+        "score": 0.5794848203659058,
+        "candidate_title": "Theberge v. Zittlau"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1879/1879canlii1/1879canlii1.html",
+        "score": 0.49620190262794495,
+        "candidate_title": "Taylor v. Wallbridge"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nb/nbca/doc/1982/1982canlii4244/1982canlii4244.html",
+        "score": 0.4954729676246643,
+        "candidate_title": "Bourque v. New Brunswick, Province of, Leger and Leger"
+      },
+      {
+        "uri": "https://canlii.ca/t/gpl3j",
+        "score": 0.4931963086128235,
+        "candidate_title": "Corporation de Ste-Angèle de Monnoir c Bérubé"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1933/1933canlii106/1933canlii106.html",
+        "score": 0.483562707901001,
+        "candidate_title": "Thompson v. Bourchier"
+      },
+      {
+        "uri": "https://canlii.ca/t/g7z46",
+        "score": 0.4833884537220001,
+        "candidate_title": "Valin v. Langlois"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ns/nssc/doc/1997/1997canlii15023/1997canlii15023.html",
+        "score": 0.4819236099720001,
+        "candidate_title": "Landry v. McCormick Estate"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2009/2009abqb267/2009abqb267.html",
+        "score": 0.4744265675544739,
+        "candidate_title": "Laasch v. Turenne"
+      },
+      {
+        "uri": "https://www.canlii.org/en/nl/nlsctd/doc/1993/1993canlii8409/1993canlii8409.html",
+        "score": 0.47008833289146423,
+        "candidate_title": "Henley et al. v. Torbay Estates Ltd. et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/2016/2016bcsc1099/2016bcsc1099.html",
+        "score": 0.4697628915309906,
+        "candidate_title": "Turney v. Langley (Township)"
+      }
+    ]
+  },
+  "Longo": {
+    "uri": "https://www.canlii.org/en/ca/tcc/doc/2010/2010tcc197/2010tcc197.html",
+    "score": 0.6303265690803528,
+    "candidate_id": "2010cci-tcc197",
+    "candidate_title": "Long v. The Queen",
+    "query_text": "decision | Longo v The Queen | [1959] O.W.N. 19 (Ont., C.A.)",
+    "topk": [
+      {
+        "uri": "https://www.canlii.org/en/ca/tcc/doc/2010/2010tcc197/2010tcc197.html",
+        "score": 0.6303265690803528,
+        "candidate_title": "Long v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2018/2018onca282/2018onca282.html",
+        "score": 0.5740999579429626,
+        "candidate_title": "R. v. Long"
+      },
+      {
+        "uri": "https://canlii.ca/t/1mjtq",
+        "score": 0.5297994613647461,
+        "candidate_title": "Solosky v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftzs",
+        "score": 0.5249667763710022,
+        "candidate_title": "Valente v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1949/1949canlii7/1949canlii7.html",
+        "score": 0.5187081694602966,
+        "candidate_title": "Cullen v. The King"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2019/2019onca971/2019onca971.html",
+        "score": 0.5168657302856445,
+        "candidate_title": "R. v. Ronald"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1952/1952canlii9/1952canlii9.html",
+        "score": 0.5127352476119995,
+        "candidate_title": "Bridge v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/gw7w0",
+        "score": 0.5108383297920227,
+        "candidate_title": "Crombie v. The King"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1976/1976canlii140/1976canlii140.html",
+        "score": 0.5084945559501648,
+        "candidate_title": "MacDonald v. The Queen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1995/1995canlii8928/1995canlii8928.html",
+        "score": 0.5078880786895752,
+        "candidate_title": "R. v. L.R."
+      }
+    ]
+  },
+  "Keable": {
+    "uri": "https://canlii.ca/t/1z74t",
+    "score": 0.7392389178276062,
+    "candidate_id": "1978csc-scc10179",
+    "candidate_title": "Keable v. Attorney General (Can.) et al.",
+    "query_text": "decision | <b>Attorney‑General of Quebec and Keable v\nAttorney‑General of Canada et al. </b>(1978) | 90 D.L.R. (3d) 161 (S.C.C.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z74t",
+        "score": 0.7392389178276062,
+        "candidate_title": "Keable v. Attorney General (Can.) et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fct/doc/2008/2008fc713/2008fc713.html",
+        "score": 0.619408905506134,
+        "candidate_title": "Quebec (Attorney General) v. Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fqr3",
+        "score": 0.6185511946678162,
+        "candidate_title": "Reference re Secession of Quebec"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/ukjcpc/doc/1896/1896canlii225/1896canlii225.html",
+        "score": 0.6084719896316528,
+        "candidate_title": "Attorney-General for the Dominion of Canada v. Attorney-General for Ontario; Attorney-General for Quebec v. Attorney-General for Ontario"
+      },
+      {
+        "uri": "https://canlii.ca/t/fslp7",
+        "score": 0.6067025065422058,
+        "candidate_title": "Reference re The Power of the Governor General in Council to Disallow Provincial Legislation and the Power of Reservation of a Lieutenant-Governor of a Province"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1980/1980canlii24/1980canlii24.html",
+        "score": 0.6049473285675049,
+        "candidate_title": "Attorney General of Quebec v. Labrecque and al."
+      },
+      {
+        "uri": "https://canlii.ca/t/h5201",
+        "score": 0.6040566563606262,
+        "candidate_title": "Quebec (Attorney General) v. Guérin"
+      },
+      {
+        "uri": "https://canlii.ca/t/1xv7x",
+        "score": 0.6034266948699951,
+        "candidate_title": "Attorney General of Quebec v. Grondin"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1978/1978canlii25/1978canlii25.html",
+        "score": 0.6028158068656921,
+        "candidate_title": "Bliss v. Attorney General of Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/gb1v7",
+        "score": 0.6014435887336731,
+        "candidate_title": "Alberta (Attorney General) v. Canada (Attorney General)"
+      }
+    ]
+  },
+  "Canada Deposit Insurance Corporation": {
+    "uri": "https://canlii.ca/t/2dm6j",
+    "score": 0.7009148001670837,
+    "candidate_id": "1988abca36",
+    "candidate_title": "Canada Deposit Insurance Corporation v. Code",
+    "query_text": "decision | <b>Re Associated Investors of Canada Ltd. </b>(1988) | 57 Alta. L.R. (2d) 289",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/2dm6j",
+        "score": 0.7009148001670837,
+        "candidate_title": "Canada Deposit Insurance Corporation v. Code"
+      },
+      {
+        "uri": "https://canlii.ca/t/2f0t8",
+        "score": 0.5572823286056519,
+        "candidate_title": "Sundance Investment Corporation Ltd. v. Richfield Properties Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2016/2016abca93/2016abca93.html",
+        "score": 0.5476914644241333,
+        "candidate_title": "Poloma Investments Ltd v Yuen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/1988/1988canlii3843/1988canlii3843.html",
+        "score": 0.5407986044883728,
+        "candidate_title": "Canada Mortgage and Housing Corp. v. Canative Housing Corp."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2018/2018abqb351/2018abqb351.html",
+        "score": 0.536297082901001,
+        "candidate_title": "Paragon Capital Corporation Ltd v Starke Dominion Ltd"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2018/2018abca281/2018abca281.html",
+        "score": 0.5352558493614197,
+        "candidate_title": "898294 Alberta Ltd v Riverside Quays Limited Partnership"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2018/2018abca125/2018abca125.html",
+        "score": 0.5229266285896301,
+        "candidate_title": "Stefanyk v Sobeys Capital Incorporated"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abca/doc/2016/2016abca238/2016abca238.html",
+        "score": 0.5228766798973083,
+        "candidate_title": "Orphan Well Association v Grant Thornton Limited"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ab/abqb/doc/2019/2019abqb797/2019abqb797.html",
+        "score": 0.5222311615943909,
+        "candidate_title": "Canlanka Ventures Ltd v Capital Direct Lending Corp"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/fca/doc/1975/1975canlii1052/1975canlii1052.html",
+        "score": 0.5215519666671753,
+        "candidate_title": "Re Director of Investigation and Research and Shell Canada Ltd."
+      }
+    ]
+  },
+  "Mulroney": {
+    "uri": "https://canlii.ca/t/g1dm9",
+    "score": 0.7536152005195618,
+    "candidate_id": "1986onhcj1000108",
+    "candidate_title": "Re Mulroney et al. and Coates et al. Re Southam et al. and Mulroney et al.",
+    "query_text": "decision | <b>Re Mulroney at al. and Coates at al.;\n</b><b></b><b>Re Southham et al. and Mulroney at al</b><b>. </b>(1986) | 54 O.R. (2d) 353 (Ont. C.A.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/g1dm9",
+        "score": 0.7536152005195618,
+        "candidate_title": "Re Mulroney et al. and Coates et al. Re Southam et al. and Mulroney et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1948/1948canlii282/1948canlii282.html",
+        "score": 0.5331045389175415,
+        "candidate_title": "Re Cohen"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1968/1968canlii250/1968canlii250.html",
+        "score": 0.526222288608551,
+        "candidate_title": "Mundinger v. Mundinger"
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/1976/1976canlii2650/1976canlii2650.html",
+        "score": 0.5220451354980469,
+        "candidate_title": "Re Prime Locations Ltd. and Prime Real Estate Ltd. et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/1967/1967canlii39/1967canlii39.html",
+        "score": 0.5192272663116455,
+        "candidate_title": "Cooper v. R."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onca/doc/2005/2005canlii46626/2005canlii46626.html",
+        "score": 0.5127540230751038,
+        "candidate_title": "Murray v. Murray"
+      },
+      {
+        "uri": "https://canlii.ca/t/g1ct5",
+        "score": 0.5084325671195984,
+        "candidate_title": "Papp v. Papp et al."
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1946/1946canlii13/1946canlii13.html",
+        "score": 0.508192241191864,
+        "candidate_title": "O'Neil v. The Royal Trust Co."
+      },
+      {
+        "uri": "https://www.canlii.org/en/on/onsc/doc/2006/2006canlii9981/2006canlii9981.html",
+        "score": 0.5063206553459167,
+        "candidate_title": "Reid v. Mulder"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1966/1966canlii9/1966canlii9.html",
+        "score": 0.5046651363372803,
+        "candidate_title": "Clarkson Co. Ltd. v. Canadian Bank of Commerce et al."
+      }
+    ]
+  },
+  "Carey": {
+    "uri": "https://canlii.ca/t/1ftph",
+    "score": 0.6960797309875488,
+    "candidate_id": "1986csc-scc70",
+    "candidate_title": "Carey v. Ontario",
+    "query_text": "decision | <b>Carey v R. </b>(1986) | 35 D.L.R. (4d) 161 (S.C.C.)",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1ftph",
+        "score": 0.6960797309875488,
+        "candidate_title": "Carey v. Ontario"
+      },
+      {
+        "uri": "https://canlii.ca/t/2fkpf",
+        "score": 0.6351503729820251,
+        "candidate_title": "R. v. Caron"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1988/1988canlii13/1988canlii13.html",
+        "score": 0.6192901134490967,
+        "candidate_title": "R. v. Jacoy"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2018/2018scc56/2018scc56.html",
+        "score": 0.6179860234260559,
+        "candidate_title": "R. v. Reeves"
+      },
+      {
+        "uri": "https://www.canlii.org/en/bc/bcsc/doc/1983/1983canlii339/1983canlii339.html",
+        "score": 0.6174635291099548,
+        "candidate_title": "R. v. Carter"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2012/2012scc58/2012scc58.html",
+        "score": 0.6130615472793579,
+        "candidate_title": "R. v. Dineley"
+      },
+      {
+        "uri": "https://canlii.ca/t/1ftp7",
+        "score": 0.6125003695487976,
+        "candidate_title": "R. v. Rahey"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1986/1986canlii8/1986canlii8.html",
+        "score": 0.6105368733406067,
+        "candidate_title": "Head v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/gb3gd",
+        "score": 0.6104099154472351,
+        "candidate_title": "R. v. D."
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsks",
+        "score": 0.6081922054290771,
+        "candidate_title": "R. v. Swain"
+      }
+    ]
+  },
+  "Smallwood": {
+    "uri": "https://canlii.ca/t/1z1dd",
+    "score": 0.8115746974945068,
+    "candidate_id": "1982csc-scc10189",
+    "candidate_title": "Smallwood v. Sparling",
+    "query_text": "decision | Smallwood v Sparling | (1982] 2 S.C.R.\n686",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/1z1dd",
+        "score": 0.8115746974945068,
+        "candidate_title": "Smallwood v. Sparling"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1948/1948canlii4/1948canlii4.html",
+        "score": 0.6171598434448242,
+        "candidate_title": "Smallman v. Moore"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/1982/1982canlii216/1982canlii216.html",
+        "score": 0.5696588754653931,
+        "candidate_title": "Spek v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1fsvj",
+        "score": 0.5687993168830872,
+        "candidate_title": "R. v. Sparrow"
+      },
+      {
+        "uri": "https://canlii.ca/t/1lpcg",
+        "score": 0.567209005355835,
+        "candidate_title": "Schneider v. The Queen"
+      },
+      {
+        "uri": "https://canlii.ca/t/1lpcj",
+        "score": 0.5592038035392761,
+        "candidate_title": "Insurance Corporation of British Columbia v. Heerspink"
+      },
+      {
+        "uri": "https://canlii.ca/t/1lpcb",
+        "score": 0.5308062434196472,
+        "candidate_title": "Maple Lodge Farms v. Government of Canada"
+      },
+      {
+        "uri": "https://www.canlii.org/en/sk/skca/doc/2006/2006skca139/2006skca139.html",
+        "score": 0.529883086681366,
+        "candidate_title": "R. v. Sparvier"
+      },
+      {
+        "uri": "https://canlii.ca/t/1m3f3",
+        "score": 0.5297213792800903,
+        "candidate_title": "R. v. Spence"
+      },
+      {
+        "uri": "https://www.canlii.org/en/ca/scc/doc/2007/2007scc11/2007scc11.html",
+        "score": 0.5230332612991333,
+        "candidate_title": "R. v. Spencer"
+      }
+    ]
+  },
+  "Civil Procedure Guide": {
+    "uri": "https://canlii.ca/t/69m2c",
+    "score": 0.505436360836029,
+    "candidate_id": "l5738!5738-current-1",
+    "candidate_title": "Code de procédure civile",
+    "query_text": "secondary sources | Civil Procedure Guide | Stevenson and Cote",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/69m2c",
+        "score": 0.505436360836029,
+        "candidate_title": "Code de procédure civile"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fqkd",
+        "score": 0.5042323470115662,
+        "candidate_title": "Code de procédure civile"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pg2",
+        "score": 0.49612709879875183,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxl",
+        "score": 0.49432313442230225,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/52kz1",
+        "score": 0.4916842579841614,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 0.49026957154273987,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nkn",
+        "score": 0.4771314561367035,
+        "candidate_title": "Rules of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/562xk",
+        "score": 0.469786137342453,
+        "candidate_title": "Court of Justice Civil Procedure Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/smmg",
+        "score": 0.4662284255027771,
+        "candidate_title": "Discovery of Civil Litigation Trial Preparation in Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/56v79",
+        "score": 0.4477649927139282,
+        "candidate_title": "Supreme Court Civil Rules"
+      }
+    ]
+  },
+  "The Law of Civil Procedure": {
+    "uri": "https://canlii.ca/t/69m2c",
+    "score": 0.5467456579208374,
+    "candidate_id": "l5738!5738-current-1",
+    "candidate_title": "Code de procédure civile",
+    "query_text": "secondary sources | The Law of Civil Procedure | Williston and Rolls",
+    "topk": [
+      {
+        "uri": "https://canlii.ca/t/69m2c",
+        "score": 0.5467456579208374,
+        "candidate_title": "Code de procédure civile"
+      },
+      {
+        "uri": "https://canlii.ca/t/6fqkd",
+        "score": 0.5437579154968262,
+        "candidate_title": "Code de procédure civile"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nkn",
+        "score": 0.53990238904953,
+        "candidate_title": "Rules of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56nxx",
+        "score": 0.5364804267883301,
+        "candidate_title": "Nova Scotia Civil Procedure Rules"
+      },
+      {
+        "uri": "https://canlii.ca/t/56pg2",
+        "score": 0.5322877168655396,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/56lxl",
+        "score": 0.5306103825569153,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/52kz1",
+        "score": 0.5304391384124756,
+        "candidate_title": "Code of Civil Procedure"
+      },
+      {
+        "uri": "https://canlii.ca/t/562xk",
+        "score": 0.5147997736930847,
+        "candidate_title": "Court of Justice Civil Procedure Regulation"
+      },
+      {
+        "uri": "https://canlii.ca/t/smmg",
+        "score": 0.49321961402893066,
+        "candidate_title": "Discovery of Civil Litigation Trial Preparation in Canada"
+      },
+      {
+        "uri": "https://canlii.ca/t/kcvt",
+        "score": 0.4799616038799286,
+        "candidate_title": "Rules of the Court of Appeal Respecting Civil Appeals"
+      }
+    ]
+  }
+}
